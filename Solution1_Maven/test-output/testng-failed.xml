@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="Firefox"/>
+  <test name="Solution1_Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Test_Case.Footer_Production">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Case.Footer_Production -->
+      <class name="Test_Case.Side_Heading_Production">
+        <methods>
+          <include name="Side_Heading_Three"/>
+          <include name="Side_Heading_Two"/>
+          <include name="Side_Heading_Five"/>
+          <include name="setupApplication"/>
+          <include name="Side_Heading_One"/>
+          <include name="Side_Heading_Four"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Case.Side_Heading_Production -->
+    </classes>
+  </test> <!-- Solution1_Chrome(failed) -->
+  <test name="Solution1_Firefox(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="Test_Case.Footer_Production">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="Footer"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Case.Footer_Production -->
+      <class name="Test_Case.Side_Heading_Production">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Case.Side_Heading_Production -->
+    </classes>
+  </test> <!-- Solution1_Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
