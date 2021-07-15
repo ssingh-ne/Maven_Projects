@@ -55,7 +55,7 @@ WebDriver driver;
     
     By logout = By.xpath("//*[@id='Layer_1_copy']");
     
-    By footer_text = By.xpath("//*[text()=' sections']");
+    By footer_text = By.xpath("//*[text()='sections']");
     
     JavascriptExecutor js = (JavascriptExecutor) driver;
     
@@ -74,8 +74,6 @@ WebDriver driver;
         Thread.sleep(2000);
     	
     	driver.findElement(logout).click();
-    	
-    	
     	
     }
 
