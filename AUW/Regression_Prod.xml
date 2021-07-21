@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="AUW_Chrome_Prod">
+   <parameter name="browser" value= "chrome"  />
+    <classes>
+      <class name="Test_case_prod.AUW_Footer_Prod"/>
+      <class name="Test_case_prod.AUW_AboutUS"/>
+      <class name="Test_case_prod.AUW_PPP"/>
+      <class name="Test_case_prod.AUW_NJ_Update"/>
+      <class name="Test_case_prod.AUW_CallUpdate"/>
+      <class name="Test_case_prod.AUW_Experience"/>
+      <class name="Test_case_prod.AUW_Intelligence_TC"/>
+      <class name="Test_case_prod.AUW_Heartwood"/>
+      <class name="Test_case_prod.Base_class"/>
+      <class name="Test_case_prod.AUW_header_web_Prod"/>
+    </classes>
+    </test> 
+     <test name="AUW_Firefox_Prod">
+   <parameter name="browser" value= "firefox"  />
+    <classes>
+      <class name="Test_case_prod.AUW_Footer_Prod"/>
+      <class name="Test_case_prod.AUW_AboutUS"/>
+      <class name="Test_case_prod.AUW_PPP"/>
+      <class name="Test_case_prod.AUW_NJ_Update"/>
+      <class name="Test_case_prod.AUW_CallUpdate"/>
+      <class name="Test_case_prod.AUW_Experience"/>
+      <class name="Test_case_prod.AUW_Intelligence_TC"/>
+      <class name="Test_case_prod.AUW_Heartwood"/>
+      <class name="Test_case_prod.Base_class"/>
+      <class name="Test_case_prod.AUW_header_web_Prod"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
