@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Promesa_Chrome">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="Test_Case.Side_Heading_One"/>
+      <class name="Test_Case.Side_Heading_Two"/>
+      <class name="Test_Case.FAQ"/>
+      <class name="Test_Case.Footer"/>
+      <class name="Test_Case.Change_language"/>
+      <class name="Test_Case.Pharmacy_search"/>
+    </classes>
+  </test> 
+  
+   <test name="Promesa_Firefox">
+   <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="Test_Case.Change_language"/>
+      <class name="Test_Case.Footer"/>
+    </classes>
+  </test>
+  
+  
+  <!-- Test -->
+</suite> <!-- Suite -->
