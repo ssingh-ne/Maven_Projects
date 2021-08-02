@@ -67,7 +67,7 @@ public class Base_class {
                 driver=new FirefoxDriver();
 		
 		}
-	
+	// For chrome
 	
 	else if (browser.equalsIgnoreCase("chrome")) {
 		
