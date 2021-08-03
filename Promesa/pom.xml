@@ -10,12 +10,13 @@
   <name>Promesa</name>
   <url>http://maven.apache.org</url>
 
- <properties>
+  <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-  
+
+ 
   <dependencies>
   
    <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -58,7 +59,6 @@
   		<configuration>
   			<source>1.8</source>
   			<target>1.8</target>
-  			<encoding>UTF-8</encoding>
   			<fork>true</fork>
                     <executable>C:\Program Files\Java\jdk1.8.0_291\bin\javac</executable>
   		</configuration>
