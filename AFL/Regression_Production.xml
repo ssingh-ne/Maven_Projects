@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test name="AUW_Chrome_Prod">
+   <parameter name="browser" value= "chrome"  />
+    <classes>
+      <class name="Test_Case_Prod.What_We_offer_OutSideUs"/>
+      <class name="Test_Case_Prod.Footer_TC"/>
+      <class name="Test_Case_Prod.ContactUS_OutsideUS"/>
+      <class name="Test_Case_Prod.AboutUS_OutsideUS"/>
+      <class name="Test_Case_Prod.HomePage_TC"/>
+    </classes>
+  </test> 
+  
+   <test name="AUW_FF_Prod">
+   <parameter name="browser" value= "firefox"  />
+    <classes>
+      <class name="Test_Case_Prod.What_We_offer_OutSideUs"/>
+      <class name="Test_Case_Prod.Footer_TC"/>
+      <class name="Test_Case_Prod.ContactUS_OutsideUS"/>
+      <class name="Test_Case_Prod.AboutUS_OutsideUS"/>
+      <class name="Test_Case_Prod.HomePage_TC"/>
+    </classes>
+  </test> 
+  
+  <!-- Test -->
+</suite> <!-- Suite -->
