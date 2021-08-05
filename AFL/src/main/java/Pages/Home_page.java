@@ -70,8 +70,8 @@ public class Home_page {
 	String Fr_url_dev = "https://develop--applied-financial-lines.netlify.app/?lang=fr-fr";
 	String Du_url = "https://afl.auw.com/?lang=de-de";
 	String Du_url_dev = "https://develop--applied-financial-lines.netlify.app/?lang=de-de";
-	String Quote_text = "Applied Financial Lines is bringing a powerful proposition to the European and Mideast Financial Lines markets�much-needed, first-rate capacity combined with a stellar team of underwriters.";
-	String Quote_author_text = "JEROEN CLAESEN � PRESIDENT & CUO, APPLIED FINANCIAL LINES";
+	String Quote_text = "Applied Financial Lines is bringing a powerful proposition to the European and Mideast Financial Lines markets—much-needed, first-rate capacity combined with a stellar team of underwriters.";
+	String Quote_author_text = "JEROEN CLAESEN – PRESIDENT & CUO, APPLIED FINANCIAL LINES";
 	
 	
 	public Home_page (WebDriver driver){
