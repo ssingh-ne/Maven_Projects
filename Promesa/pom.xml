@@ -71,7 +71,7 @@
   	   <configuration>
   	   <testFailureIgnore>true</testFailureIgnore>
   	   <suiteXmlFiles>
-  		           <suiteXmlFile>Prod_Promesa_Regression.xml</suiteXmlFile> 
+  		           <suiteXmlFile>Regression_development.xml</suiteXmlFile> 
   		   </suiteXmlFiles>
   		</configuration>
   		</plugin>
