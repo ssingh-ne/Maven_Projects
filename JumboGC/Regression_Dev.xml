@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<test name="JumboGC_chrome">
+   <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="Test_case.Header_footer"/>
+       <class name="Test_case.Side_Heading"/>
+    
+    </classes>
+  </test> 
+ 
+  <test name="JumboGC_Firefox">
+   <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="Test_case.Header_footer"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
