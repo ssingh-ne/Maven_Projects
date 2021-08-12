@@ -50,12 +50,12 @@ WebDriver driver;
     By solutionslot_textEdit = By.xpath("//*[@aria-label='Edit content']");
     By slot_editTab = By.xpath("(//*[text()='Edit'])[1]");
     By slot_heading_name = By.xpath("//*[@id='tinymce']/h2");
-    
+    By text_section = By.xpath("//*[@id='/textContent/values/0/value']/div/div[1]/am-collapsible-section-header/div/span");
     By prompt = By.xpath("//*[@ng-click='$ctrl.discard()']");
     
     By logout = By.xpath("//*[@id='Layer_1_copy']");
     
-    By footer_text = By.xpath("//*[text()='sections']");
+    By footer_text = By.xpath("//*[text()=' sections']");
     
     JavascriptExecutor js = (JavascriptExecutor) driver;
     
@@ -74,6 +74,8 @@ WebDriver driver;
         Thread.sleep(2000);
     	
     	driver.findElement(logout).click();
+    	
+    	
     	
     }
 
@@ -192,7 +194,8 @@ WebDriver driver;
  		
  		// JavascriptExecutor js = (JavascriptExecutor) driver;
 		 //js.executeScript("window.scrollBy(0,1000)");
-		 WebElement Element1 = driver.findElement(By.xpath("//*[@id='/bannerButton']/div/div[1]/am-collapsible-section-header/div/span"));
+		// WebElement Element1 = driver.findElement(By.xpath("//*[@id='/bannerButton']/div/div[1]/am-collapsible-section-header/div/span"));
+ 		WebElement Element1 = driver.findElement(text_section);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		 Thread.sleep(3000);
  		/*driver.findElement(solutionslot_textEdit).click();
@@ -266,7 +269,8 @@ WebDriver driver;
  		
  		// JavascriptExecutor js = (JavascriptExecutor) driver;
 		 //js.executeScript("window.scrollBy(0,1000)");
-		 WebElement Element1 = driver.findElement(By.xpath("//*[@id='/bannerButton']/div/div[1]/am-collapsible-section-header/div/span"));
+		// WebElement Element1 = driver.findElement(By.xpath("//*[@id='/bannerButton']/div/div[1]/am-collapsible-section-header/div/span"));
+ 		WebElement Element1 = driver.findElement(text_section);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		 Thread.sleep(3000);
 }
@@ -391,7 +395,8 @@ WebDriver driver;
  		
  		// JavascriptExecutor js = (JavascriptExecutor) driver;
 		 //js.executeScript("window.scrollBy(0,1000)");
-		 WebElement Element1 = driver.findElement(By.xpath("//*[@id='/bannerButton']/div/div[1]/am-collapsible-section-header/div/span"));
+		// WebElement Element1 = driver.findElement(By.xpath("//*[@id='/bannerButton']/div/div[1]/am-collapsible-section-header/div/span"));
+ 		WebElement Element1 = driver.findElement(text_section);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		 Thread.sleep(3000);
  	

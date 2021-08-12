@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Solution1_Chrome">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="Test_Case.Side_Heading_Production"/>
+      <class name="Test_Case.Footer_Production"/>
+    </classes>
+  </test> 
+  
+  <test name="Solution1_Firefox">
+  <parameter name="browser" value="Firefox" />
+  
+  <classes>
+      
+      <class name="Test_Case.Footer_Production"/>
+     </classes>
+  </test> 
+  
+  
+  <!-- Test -->
+</suite> <!-- Suite -->
