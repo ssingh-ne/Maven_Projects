@@ -46,8 +46,8 @@ public class Base_class {
 		{
 			
 			Reporter.log("=====Chrome Browser Session Started=====", true);
-			 // System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sweta\\Desktop\\Demo\\New folder\\Chrome\\chromedriver.exe");
+			  System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
+			
 	                driver=new ChromeDriver();
 			
 			driver.manage().window().maximize();
@@ -57,8 +57,8 @@ public class Base_class {
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		}
-	*/
+		}*/
+	
 		public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {

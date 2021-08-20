@@ -22,7 +22,7 @@ public class Footer extends Base_class {
         home.PrivacyPolicy();
         home.CA_PrivacyPolicy();
 	
-	
+	System.out.println("Footer working properly");
 	
 	}
 
