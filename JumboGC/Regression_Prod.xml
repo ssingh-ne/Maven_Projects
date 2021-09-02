@@ -2,6 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
+ <test name="JumboGC_Prod_firefox">
+   <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="Test_case_prod.Header_footer"/>
+    </classes>
+  </test>
+  
   <test name="JumboGC_Prod_chrome">
    <parameter name="browser" value="chrome" />
     <classes>
@@ -9,11 +16,6 @@
       <class name="Test_case_prod.Header_footer"/>
     </classes>
   </test>
-    <test name="JumboGC_Prod_firefox">
-   <parameter name="browser" value="firefox" />
-    <classes>
-      <class name="Test_case_prod.Header_footer"/>
-    </classes>
-  </test>
+   
    <!-- Test -->
 </suite> <!-- Suite -->

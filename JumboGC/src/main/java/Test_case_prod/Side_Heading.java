@@ -28,65 +28,55 @@ public class Side_Heading  extends Base_class {
 		// By sideheading_three_heading = By.xpath("//*[@id='guaranteed-cost-program']/section/div/div/div/div/h3[1]");
 		By sideheading_three_heading = By.xpath("//*[@id='guaranteed-cost-program']/section/div/div/div/div/h3[1]");
 		By sideheading_four_heading = By.xpath("//*[@id='contact-us']/section/div/div/div/div/div/div/div/div/div[1]/p");
+		By sideHeading_Text_four = By.xpath("//*[@id='contentBlock0']/h5");
 		
-		
-		Amplience a = new Amplience(driver);
+      Amplience a = new Amplience(driver);
 		
 		a.Amplience_url();
 		
 		a.Amplience_Login();
-		a.Jumbo_Slots();
-	/*	a.Jumbo_slotEdit_one();
+		a.Jumbo_Content();
+
+		a.content1();
 		int size = driver.findElements(By.tagName("iframe")).size();
  		System.out.println(size);
  		driver.switchTo().frame(0);
+ 		
  		 String slot_heading = driver.findElement(By.xpath("//*[@id='tinymce']/h2")).getText();
  		System.out.println("slot_heading = " +slot_heading);
-		
- 		a.Jumbo_slotEdit_two();
- 		
+	
+ 		a.content2();
  		int size1 = driver.findElements(By.tagName("iframe")).size();
  		System.out.println(size1);
  		driver.switchTo().frame(0);
  		String slot_heading2 = driver.findElement(By.xpath("//*[@id='root']/div/div/div/div/div/div[2]/div[2]/div/h3")).getText();
  		System.out.println("slot_heading2 = "+slot_heading2);
  		
-      a.Jumbo_slotEdit_three();
- 		
+    
+ 		a.content3();
  		int size2 = driver.findElements(By.tagName("iframe")).size();
  		System.out.println(size2);
  		driver.switchTo().frame(0);
  		 String slot_heading3 = driver.findElement(By.xpath("//*[@id='tinymce']/h3")).getText();
  		System.out.println("slot_heading3 =s "+slot_heading3);
 		
+		
+		a.content4();
+ 		int size3 = driver.findElements(By.tagName("iframe")).size();
+ 		System.out.println(size1);
+ 		driver.switchTo().frame(0);
+ 		String slot_heading4 = driver.findElement(By.xpath("//*[@id='root']/div/div/div/div/div/div[2]/div[2]/div/h5")).getText();
+ 		System.out.println("slot_heading4 = "+slot_heading4);
+ 		
+		
+
+		
 		 Home h = new Home(driver);
 		 
 		 h.Jumbo_url();
-		 driver.switchTo().alert().accept();
-		 h.SideHeadingONE();
+	    
+		// driver.switchTo().alert().accept();
 		 
-	 
-		 
-		 WebDriverWait wait_h = new WebDriverWait(driver,60);
-	 wait_h.until(ExpectedConditions.visibilityOfElementLocated(sideheading_one_heading));
-	 		
-	 		String heading = driver.findElement(sideheading_one_heading).getText();
-	 		
-	 		System.out.println("Heading = " + heading);
-	 		
-		 
-		 assertEquals(heading, slot_heading);
-		 Thread.sleep(5000);
-		 
-		 h.SideHeadingTWO();
-		 Thread.sleep(5000);
-		 
-		 h.SideHeadingTHREE();
-		 Thread.sleep(5000);
-		 h.SideHeadingFour();
-		 
-		 h.Jumbo_url_dev();
-	     driver.switchTo().alert().accept();
 		 h.SideHeadingONE();
 		 
 		 WebDriverWait wait_h = new WebDriverWait(driver,60);
@@ -111,18 +101,24 @@ public class Side_Heading  extends Base_class {
 	 	 System.out.println("Heading 3 = " + heading3);
 		 Thread.sleep(5000);
 		 h.SideHeadingFour();
+		 
+		 String Heading_four_text = driver.findElement(sideHeading_Text_four).getText();
+	 		
+	 		System.out.println("Heading_Four text = "+ Heading_four_text);
 		 String heading4 = driver.findElement(sideheading_four_heading).getText();
 	 		
 	 	 System.out.println("Heading 4 = " + heading4);
 	 		
-		 assertEquals(heading1, slot_heading);
+		/* assertEquals(heading1, slot_heading);
 		 assertEquals(heading2, slot_heading2);
-		 assertEquals(heading3, slot_heading3);
-	 	 
+		 assertEquals(heading3, slot_heading3);*/
+		 
+		 
 	 	Assert.assertTrue(slot_heading.contains(heading1),"Failure message") ;
 	 	Assert.assertTrue(heading2.contains(slot_heading2),"Failure message") ;
 	 	Assert.assertTrue(slot_heading3.contains(heading3),"Failure message") ;
-*/	}
+	 	Assert.assertTrue(Heading_four_text.contains(slot_heading4),"Failure message") ;
+	}
 	
 	
 	
