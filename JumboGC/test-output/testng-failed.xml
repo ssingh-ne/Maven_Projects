@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="JumboGC_Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="Test_case_prod.Side_Heading">
+      <class name="Test_case.Side_Heading">
         <methods>
+          <include name="tearDown"/>
           <include name="setupApplication"/>
-          <include name="Header_Footer"/>
         </methods>
-      </class> <!-- Test_case_prod.Side_Heading -->
+      </class> <!-- Test_case.Side_Heading -->
+      <class name="Test_case.Header_footer">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="Header_Footer"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_case.Header_footer -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- JumboGC_Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

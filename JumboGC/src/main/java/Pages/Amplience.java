@@ -44,10 +44,16 @@ WebDriver driver;
     By jumboslot_textEdit = By.xpath("//*[@aria-label='Edit content']");
     By slot_editTab = By.xpath("(//*[text()='Edit'])[1]");
     By slot_heading_name = By.xpath("//*[@id='tinymce']/h2");
-    
+    By Jumbo_content = By.xpath("//*[text()='JumboGC Content']");
+    By content_One = By.xpath("//*[text()='Text: Multi-State Coverage']");
+    By content_Two = By.xpath("//*[text()='Claim Services: Text Banner 1']");
+    By content_Three = By.xpath("//*[text()='Text: Guaranteed Cost Program']");
+    By content_Four = By.xpath("//*[text()='Text Banner: Contact Us']");
+    		
     By prompt = By.xpath("//*[@ng-click='$ctrl.discard()']");
     By footer_text = By.xpath("//*[text()=' footer ']");
-    JavascriptExecutor js = (JavascriptExecutor) driver;
+   
+    
     
     public void Amplience_url (){
         driver.get(Amp_URL);
@@ -79,152 +85,123 @@ WebDriver driver;
     	
     }
     
-    
-    public void Jumbo_slotEdit_one () throws InterruptedException{
-    	
-    	WebDriverWait wait2 = new WebDriverWait(driver,60);
- 		wait2.until(ExpectedConditions.visibilityOfElementLocated(Jumbo_slot_name));
- 		Thread.sleep(6000);
- 		/*WebElement Element = driver.findElement(Jumbo_slot_name);
+    public void Jumbo_Content () throws InterruptedException {
+
+    	JavascriptExecutor js = (JavascriptExecutor) driver;
+    	WebDriverWait wait = new WebDriverWait(driver,60);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(Production));
+		
+   	    driver.findElement(Production).click();
+   	
+     	WebDriverWait wait1 = new WebDriverWait(driver,160);
+	    wait1.until(ExpectedConditions.visibilityOfElementLocated(Jumbo_content));
+		
+		 WebElement Element = driver.findElement(Jumbo_content);
 	 	 js.executeScript("arguments[0].scrollIntoView();", Element);
-	 	*/ 
- 		
-    	driver.findElement(Jumbo_slot_name).click();
+	 	 Thread.sleep(3000);
+   	     driver.findElement(Jumbo_content).click();
+   	
+   }
+    
+    public void content1() throws InterruptedException {
     	
     	JavascriptExecutor js1 = (JavascriptExecutor) driver;
-      	 WebElement Element1 = driver.findElement(footer_text);
-   	 	 js1.executeScript("arguments[0].scrollIntoView();", Element1);
-    	
-    	Thread.sleep(5000);
- 		
- 		driver.findElement(By.xpath("(//*[@ng-if='$ctrl.isIndexDefined($ctrl.index)'])[1]")).click();
- 		
- 		Thread.sleep(2000);
- 		
- 		driver.findElement(By.xpath("(//*[@aria-label='Edit content'])[4]")).click();
- 		
- 		Thread.sleep(4000);
-    	WebDriverWait wait1 = new WebDriverWait(driver,60);
- 		wait1.until(ExpectedConditions.visibilityOfElementLocated(Jumbo_slot_one));
- 		
- 		driver.findElement(By.xpath("(//*[@ng-if='$ctrl.isIndexDefined($ctrl.index)'])[1]")).click();
- 		
- 		driver.findElement(jumboslot_edit_one).click();
- 		
- 		WebDriverWait wait3 = new WebDriverWait(driver,60);
- 		wait3.until(ExpectedConditions.visibilityOfElementLocated(Jumbo_slot_one));
- 		
- 		Thread.sleep(5000);
- 		/*driver.findElement(Jumbo_slot_one).click();
- 		
- 		driver.findElement(jumboslot_textEdit).click();
- 		
- 		Thread.sleep(3000);*/
- 		driver.findElement(slot_editTab).click();
- 		Thread.sleep(3000);
- 		
- 		
+     	 WebElement Element1 = driver.findElement(content_One);
+  	 	 js1.executeScript("arguments[0].scrollIntoView();", Element1);
+  	 	 
+  	 	 driver.findElement(content_One).click();
+  	 	 
+  	 	 Thread.sleep(5000);
+  	 	 
+  	 	driver.findElement(By.xpath("(//*[text()='Edit'])[1]")).click();
+  	  Thread.sleep(2000);
     	
     }
     
- public void Jumbo_slotEdit_two () throws InterruptedException{
+public void content2() throws InterruptedException {
+    	
+	 driver.switchTo().parentFrame();
 	 
-	    driver.switchTo().parentFrame();
-    	
-    	WebDriverWait wait2 = new WebDriverWait(driver,60);
- 		wait2.until(ExpectedConditions.visibilityOfElementLocated(Production));
- 		
-    	driver.findElement(Production).click();
-    	
-    	driver.findElement(prompt).click();
-    	WebDriverWait wait6 = new WebDriverWait(driver,60);
- 		wait6.until(ExpectedConditions.visibilityOfElementLocated(Production));
-    	driver.findElement(Production).click();
-    	
-    	WebDriverWait wait = new WebDriverWait(driver,60);
- 		wait.until(ExpectedConditions.visibilityOfElementLocated(Jumbo_slot_name));
- 		
-    	driver.findElement(Jumbo_slot_name).click();
-    	
-    	JavascriptExecutor js1 = (JavascriptExecutor) driver;
-     	WebElement Element1 = driver.findElement(footer_text);
-  	 	js1.executeScript("arguments[0].scrollIntoView();", Element1);
-   	
-   	    Thread.sleep(5000);
-		
- 		driver.findElement(Jumbo_slot_Two).click();
- 		
- 		Thread.sleep(2000);
- 		
- 		driver.findElement(jumboslot_edit_Two).click();
- 		
- 		Thread.sleep(5000);
- 		
- 		driver.findElement(Jumbo_slot_one).click();
- 		
- 		WebDriverWait wait4 = new WebDriverWait(driver,60);
- 		wait4.until(ExpectedConditions.visibilityOfElementLocated(Jumbo_slot_one));
- 		
- 		driver.findElement(Jumbo_slot_one).click();
- 		
-        Thread.sleep(2000);
- 		
- 		driver.findElement(Jumbo_edit).click();
- 		Thread.sleep(3000);
- 		
- 		 JavascriptExecutor js = (JavascriptExecutor) driver;
-		 //js.executeScript("window.scrollBy(0,1000)");
-		 WebElement Element = driver.findElement(By.xpath("//*[@id='/textContent/values/0/value']/div/div[1]/am-collapsible-section-header/div/span"));
-		 js.executeScript("arguments[0].scrollIntoView();", Element);
-		 Thread.sleep(3000);
-
-}
- 
-    public void Jumbo_slotEdit_three () throws InterruptedException{
 	 
-	    driver.switchTo().parentFrame();
  	
  	WebDriverWait wait2 = new WebDriverWait(driver,60);
-		wait2.until(ExpectedConditions.visibilityOfElementLocated(Production));
+	wait2.until(ExpectedConditions.visibilityOfElementLocated(Production));
 		
  	driver.findElement(Production).click();
- 	
- 	//driver.findElement(prompt).click();
- 	
+ 	Thread.sleep(2000);
+ 	driver.findElement(prompt).click();
  	WebDriverWait wait6 = new WebDriverWait(driver,60);
 	wait6.until(ExpectedConditions.visibilityOfElementLocated(Production));
-	
- 	  driver.findElement(Production).click();
+ 	driver.findElement(Production).click();
  	
- 	WebDriverWait wait = new WebDriverWait(driver,60);
-	wait.until(ExpectedConditions.visibilityOfElementLocated(Jumbo_slot_name));
-		
- 	  driver.findElement(Jumbo_slot_name).click();
- 	  
+ 	Thread.sleep(5000);
+ 	
  	JavascriptExecutor js1 = (JavascriptExecutor) driver;
-  	WebElement Element1 = driver.findElement(footer_text);
-	js1.executeScript("arguments[0].scrollIntoView();", Element1);
+	 WebElement Element1 = driver.findElement(content_Two);
+	 	 js1.executeScript("arguments[0].scrollIntoView();", Element1);
+ 	
+ 	driver.findElement(content_Two).click();
+ 	
+ 	Thread.sleep(5000);
+ 	
+	 WebElement Element2 = driver.findElement(By.xpath("//*[@id='/textContent/values/0/value']/div/div[1]/am-collapsible-section-header/div/span"));
+	 js1.executeScript("arguments[0].scrollIntoView();", Element2);
+      	
+    }
+    
+   public void content3() throws InterruptedException {
+	
+	 driver.switchTo().parentFrame();
+	
+	WebDriverWait wait2 = new WebDriverWait(driver,60);
+	wait2.until(ExpectedConditions.visibilityOfElementLocated(Production));
+		
+	driver.findElement(Production).click();
+	
+	WebDriverWait wait6 = new WebDriverWait(driver,60);
+	wait6.until(ExpectedConditions.visibilityOfElementLocated(Production));
+	driver.findElement(Production).click();
 	
 	Thread.sleep(5000);
-		
-	driver.findElement(Jumbo_slot_Three).click();
-		
-	Thread.sleep(1000);
-		
-	driver.findElement( jumboslot_edit_Three).click();
-		
-	Thread.sleep(3000);
-	WebDriverWait wait4 = new WebDriverWait(driver,60);
-	wait4.until(ExpectedConditions.visibilityOfElementLocated(Jumbo_slot_one));
-		
-	driver.findElement(Jumbo_slot_one).click();
-	Thread.sleep(3000);
-	driver.findElement(jumboslot_textEdit).click();
-	Thread.sleep(3000);
-	driver.findElement(slot_editTab).click();
-	Thread.sleep(3000);
-
-}
+	
+	JavascriptExecutor js1 = (JavascriptExecutor) driver;
+	 WebElement Element1 = driver.findElement(content_Three);
+	 	 js1.executeScript("arguments[0].scrollIntoView();", Element1);
+	
+	driver.findElement(content_Three).click();
+	
+	Thread.sleep(5000);
+	 
+     	
+   }
+    
+   public void content4() throws InterruptedException {
+   	
+		 driver.switchTo().parentFrame();
+	 	
+	 	WebDriverWait wait2 = new WebDriverWait(driver,60);
+		wait2.until(ExpectedConditions.visibilityOfElementLocated(Production));
+			
+	 	driver.findElement(Production).click();
+	 	
+	 	WebDriverWait wait6 = new WebDriverWait(driver,60);
+		wait6.until(ExpectedConditions.visibilityOfElementLocated(Production));
+	 	driver.findElement(Production).click();
+	 	
+	 	Thread.sleep(5000);
+	 	
+	 	JavascriptExecutor js1 = (JavascriptExecutor) driver;
+		 WebElement Element1 = driver.findElement(content_Four);
+		 	 js1.executeScript("arguments[0].scrollIntoView();", Element1);
+	 	
+	 	driver.findElement(content_Four).click();
+	 	
+	 	Thread.sleep(5000);
+	 	
+		 WebElement Element2 = driver.findElement(By.xpath("//*[@id='/textContent/values/0/value']/div/div[1]/am-collapsible-section-header/div/span"));
+		 js1.executeScript("arguments[0].scrollIntoView();", Element2);
+	      	
+	    }
  
 }
 

@@ -8,7 +8,9 @@ import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -114,9 +116,7 @@ public class Home {
  		
     //  driver.findElement(sideHeading_Text_four).click();
  		
-        String Heading_four_text = driver.findElement(sideHeading_Text_four).getText();
- 		
- 		System.out.println("Heading_Four text = "+ Heading_four_text);
+       
  		
 	}
 	
@@ -170,9 +170,13 @@ public void Twitter() throws InterruptedException{
 	
 public void Facebook () throws InterruptedException{
 	
+	JavascriptExecutor js1 = (JavascriptExecutor) driver;
+	 WebElement Element1 = driver.findElement(facebook);
+	 	 js1.executeScript("arguments[0].scrollIntoView();", Element1);
+	
 	WebDriverWait wait = new WebDriverWait(driver,60);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(facebook));
-		
+		Thread.sleep(5000);
 		driver.findElement(facebook).click();
 		
 		 Thread.sleep(5000);
@@ -190,11 +194,13 @@ public void Facebook () throws InterruptedException{
 	}
 	
 public void Instagram () throws InterruptedException{
+	JavascriptExecutor js1 = (JavascriptExecutor) driver;
+	 WebElement Element1 = driver.findElement(facebook);
+	 	 js1.executeScript("arguments[0].scrollIntoView();", Element1);
 	
 	WebDriverWait wait = new WebDriverWait(driver,60);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(Instagram));
-		
-		driver.findElement(Instagram).click();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(facebook));
+		Thread.sleep(5000);	driver.findElement(Instagram).click();
 		
 		 Thread.sleep(5000);
 			
@@ -212,8 +218,13 @@ public void Instagram () throws InterruptedException{
 
 public void LinkedIN () throws InterruptedException{
 	
+	JavascriptExecutor js1 = (JavascriptExecutor) driver;
+	 WebElement Element1 = driver.findElement(facebook);
+	 	 js1.executeScript("arguments[0].scrollIntoView();", Element1);
+	
 	WebDriverWait wait = new WebDriverWait(driver,60);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(linkedin));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(facebook));
+		Thread.sleep(5000);
 		
 		driver.findElement(linkedin).click();
 		
@@ -235,8 +246,13 @@ public void LinkedIN () throws InterruptedException{
 
 public void Privacy_Policy () throws InterruptedException{
 	
-	WebDriverWait wait = new WebDriverWait(driver,60);
+	JavascriptExecutor js1 = (JavascriptExecutor) driver;
+	 WebElement Element1 = driver.findElement(PrivacyPolicy);
+	 	 js1.executeScript("arguments[0].scrollIntoView();", Element1);
+	
+	    WebDriverWait wait = new WebDriverWait(driver,60);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(PrivacyPolicy));
+		Thread.sleep(5000);
 		
 		driver.findElement(PrivacyPolicy).click();
 		
@@ -257,8 +273,13 @@ public void Privacy_Policy () throws InterruptedException{
 
 public void CA_Privacy_Policy () throws InterruptedException{
 	
-	WebDriverWait wait = new WebDriverWait(driver,60);
+	JavascriptExecutor js1 = (JavascriptExecutor) driver;
+	 WebElement Element1 = driver.findElement(CA_Privacy);
+	 	 js1.executeScript("arguments[0].scrollIntoView();", Element1);
+	
+	    WebDriverWait wait = new WebDriverWait(driver,60);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(CA_Privacy));
+		Thread.sleep(5000);
 		
 		driver.findElement(CA_Privacy).click();
 		

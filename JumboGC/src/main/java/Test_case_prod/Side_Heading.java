@@ -36,7 +36,7 @@ public class Side_Heading  extends Base_class {
 		
 		a.Amplience_Login();
 		a.Jumbo_Slots();
-		a.Jumbo_slotEdit_one();
+	/*	a.Jumbo_slotEdit_one();
 		int size = driver.findElements(By.tagName("iframe")).size();
  		System.out.println(size);
  		driver.switchTo().frame(0);
@@ -61,7 +61,7 @@ public class Side_Heading  extends Base_class {
 		
 		 Home h = new Home(driver);
 		 
-		 /*h.Jumbo_url();
+		 h.Jumbo_url();
 		 driver.switchTo().alert().accept();
 		 h.SideHeadingONE();
 		 
@@ -83,7 +83,7 @@ public class Side_Heading  extends Base_class {
 		 
 		 h.SideHeadingTHREE();
 		 Thread.sleep(5000);
-		 h.SideHeadingFour();*/
+		 h.SideHeadingFour();
 		 
 		 h.Jumbo_url_dev();
 	     driver.switchTo().alert().accept();
@@ -115,14 +115,14 @@ public class Side_Heading  extends Base_class {
 	 		
 	 	 System.out.println("Heading 4 = " + heading4);
 	 		
-		/* assertEquals(heading1, slot_heading);
+		 assertEquals(heading1, slot_heading);
 		 assertEquals(heading2, slot_heading2);
-		 assertEquals(heading3, slot_heading3);*/
+		 assertEquals(heading3, slot_heading3);
 	 	 
 	 	Assert.assertTrue(slot_heading.contains(heading1),"Failure message") ;
 	 	Assert.assertTrue(heading2.contains(slot_heading2),"Failure message") ;
 	 	Assert.assertTrue(slot_heading3.contains(heading3),"Failure message") ;
-	}
+*/	}
 	
 	
 	
