@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Carrer_ChromeTest_Development(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Test_case_Development.Footer">
+        <methods>
+          <include name="AUW_Footer"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_case_Development.Footer -->
+      <class name="Test_case_Development.Side_Heading1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_case_Development.Side_Heading1 -->
+    </classes>
+  </test> <!-- Carrer_ChromeTest_Development(failed) -->
+  <test name="Carrer_firefoxTest_Development(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Test_case_Development.Footer">
+        <methods>
+          <include name="AUW_Footer"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_case_Development.Footer -->
+      <class name="Test_case_Development.Side_Heading1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_case_Development.Side_Heading1 -->
+    </classes>
+  </test> <!-- Carrer_firefoxTest_Development(failed) -->
+</suite> <!-- Failed suite [Suite] -->

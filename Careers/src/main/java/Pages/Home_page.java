@@ -39,7 +39,7 @@ public class Home_page {
 	String EXP_Twitter_Url = "https://twitter.com/AppliedUW";
 	
 	String EXP_FB_Url = "https://www.facebook.com/AppliedUW/";
-	String EXP_link_Url = "https://www.linkedin.com/company/applied-underwriters/";
+	String EXP_link_Url = "https://www.linkedin.com";
 	
 	String EXP_Insta_Url = "https://www.instagram.com/";
 	String EXP_Privacy_Url = "https://careers.auw.com/privacy-policy";
@@ -55,11 +55,12 @@ public class Home_page {
 
 	 public void  Twitter () throws InterruptedException {
 	 
-			// Twitter
 		 Thread.sleep(2000);
-		/*String s = driver.findElement(Twitter_image).getAttribute("href");	
-		
-		System.out.println("HREF = " + s);*/
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 //js.executeScript("window.scrollBy(0,1000)");
+		 WebElement Element = driver.findElement(fb_image);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
 			driver.findElement(Twitter_image).click();
 			 Thread.sleep(5000);
 			
@@ -97,7 +98,7 @@ public class Home_page {
          driver.switchTo().window(handlesList1.get(0));
          
          assertEquals(FBURL, EXP_FB_Url);
-         
+        // Assert.assertTrue(EXP_link_Url.contains(LINKURL),"Failure message") ; 
          
          
 	 }
@@ -105,7 +106,11 @@ public class Home_page {
 
 	 public void  Linkedin () throws InterruptedException {
 	  // Linkedin 
-     
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		
+		 WebElement Element = driver.findElement(Link_image);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
 		 driver.findElement(Link_image).click();
 		 Thread.sleep(5000);
 		
@@ -118,14 +123,20 @@ public class Home_page {
      driver.close();
      driver.switchTo().window(handlesList2.get(0));
      
-    // Assert.assertTrue(EXP_link_Url.contains(LINKURL),"Failure message") ;
+     Assert.assertTrue(LINKURL.contains(EXP_link_Url),"Failure message") ;
      
      //assertEquals(LINKURL, EXP_link_Url);
 	 }
 	 
 	 public void  Instagram () throws InterruptedException {
       // Instagram 
-         
+		 
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		
+		 WebElement Element = driver.findElement(Link_image);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
+		 
  		 driver.findElement(Insta_image).click();
  		 Thread.sleep(5000);
  		
@@ -145,6 +156,11 @@ public class Home_page {
 	 public void  PrivacyPolicy () throws InterruptedException {
           // Privacy policy 
          
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+			
+		 WebElement Element = driver.findElement(Link_image);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
  		 driver.findElement(PrivacyPolicy).click();
  		 Thread.sleep(5000);
  		
@@ -163,6 +179,12 @@ public class Home_page {
 	 public void  PrivacyPolicy_dev () throws InterruptedException {
          // Privacy policy 
         
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+			
+		 WebElement Element = driver.findElement(Link_image);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
+		 
 		 driver.findElement(PrivacyPolicy).click();
 		 Thread.sleep(5000);
 		
@@ -181,9 +203,12 @@ public class Home_page {
 	 public void  CA_PrivacyPolicy () throws InterruptedException {
 		// CA Privacy Note 
 	 		
-	 		WebDriverWait wait1 = new WebDriverWait(driver,30);
-	 		wait1.until(ExpectedConditions.visibilityOfElementLocated(AUW_Logo));
-	         
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+			
+		 WebElement Element = driver.findElement(Link_image);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
+	 	     
 	 		 Thread.sleep(5000);
 	 		 
 	 		 driver.findElement(CA_Privacy_Note).click();
@@ -203,8 +228,11 @@ public class Home_page {
 	 public void  CA_PrivacyPolicy_dev () throws InterruptedException {
 			// CA Privacy Note 
 		 		
-		 		WebDriverWait wait1 = new WebDriverWait(driver,30);
-		 		wait1.until(ExpectedConditions.visibilityOfElementLocated(AUW_Logo));
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+			
+		 WebElement Element = driver.findElement(Link_image);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
 		         
 		 		 Thread.sleep(5000);
 		 		 

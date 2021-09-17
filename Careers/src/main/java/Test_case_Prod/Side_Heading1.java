@@ -134,7 +134,7 @@ public class Side_Heading1 extends Base_class {
  		System.out.println("Side Heading 4 from AMP = "+Mainheading_4);
  		
  		
- 		 
+ 		
  		assertEquals(Mainheading1, Mainheading_1);
  		assertEquals(Mainheading2, Mainheading_2);
  		assertEquals(Mainheading3, Mainheading_3);

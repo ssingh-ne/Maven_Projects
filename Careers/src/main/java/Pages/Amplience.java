@@ -40,10 +40,10 @@ WebDriver driver;
     By footer_text = By.xpath("//*[@id='/body']/div/div[1]/am-collapsible-section-header/span/span");
     
     By Carrer_content = By.xpath("//*[text()='Careers Content']");
-    By Carrer_slot1 = By.xpath("//*[text()='Careers - Part of Our Future Section - Body Text']");
-    By Carrer_slot2 = By.xpath("//*[text()='Careers - Our Campus Section - Body Text']");
-    By Carrer_slot3 = By.xpath("//*[text()='Careers - Benefits Section - Body Text']");
-    By Carrer_slot4 = By.xpath("//*[text()='Careers - Industry Recognition Section - Body Text & Award Logo']");
+    By Carrer_slot1 = By.xpath("//*[text()='Homepage - Part of Our Future Section - Body Copy']");
+    By Carrer_slot2 = By.xpath("//*[text()='Homepage - Our Campus Section - Body Copy']");
+    By Carrer_slot3 = By.xpath("//*[text()='Homepage - Benefits Section - Body Copy']");
+    By Carrer_slot4 = By.xpath("//*[text()='Homepage - Industry Recognition Section - Body Copy & Award Logo']");
     
     By Slot4_Content = By.xpath("//*[text()='Text Banner Content']");
     
@@ -118,7 +118,7 @@ WebDriver driver;
  		
     	driver.findElement(Production).click();
     	
-    	driver.findElement(prompt).click();
+    	//driver.findElement(prompt).click();
     	WebDriverWait wait6 = new WebDriverWait(driver,60);
  		wait6.until(ExpectedConditions.visibilityOfElementLocated(Production));
     	driver.findElement(Production).click();
