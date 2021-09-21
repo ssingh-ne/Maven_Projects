@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Sweta\git\MTL\Prod_ Regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.Home_URL" hash-for-method="Footer">Footer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.Home_URL" hash-for-method="Footer">Footer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer_URL_TC" hash-for-method="Heading">Heading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer_URL_TC" hash-for-method="Heading">Heading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading1">Heading1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading1">Heading1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading10">Heading10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading10">Heading10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading11">Heading11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading11">Heading11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading2">Heading2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading2">Heading2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading3">Heading3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading3">Heading3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading4">Heading4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading4">Heading4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading5">Heading5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading5">Heading5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading6">Heading6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading6">Heading6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading7">Heading7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading7">Heading7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading8">Heading8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading8">Heading8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading9">Heading9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.What_we_offer1_TC" hash-for-method="Heading9">Heading9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.More_offers_TC" hash-for-method="More_offers">More_offers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Cases_Prod.More_offers_TC" hash-for-method="More_offers">More_offers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Cases_Prod.What_we_offer1_TC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading1">
+                  </a> <!-- Heading1 -->
+                  <span class="method-name">Heading1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading1">
+                  </a> <!-- Heading1 -->
+                  <span class="method-name">Heading1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading10">
+                  </a> <!-- Heading10 -->
+                  <span class="method-name">Heading10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading10">
+                  </a> <!-- Heading10 -->
+                  <span class="method-name">Heading10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading11">
+                  </a> <!-- Heading11 -->
+                  <span class="method-name">Heading11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading11">
+                  </a> <!-- Heading11 -->
+                  <span class="method-name">Heading11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading2">
+                  </a> <!-- Heading2 -->
+                  <span class="method-name">Heading2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading2">
+                  </a> <!-- Heading2 -->
+                  <span class="method-name">Heading2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading3">
+                  </a> <!-- Heading3 -->
+                  <span class="method-name">Heading3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading3">
+                  </a> <!-- Heading3 -->
+                  <span class="method-name">Heading3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading4">
+                  </a> <!-- Heading4 -->
+                  <span class="method-name">Heading4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading4">
+                  </a> <!-- Heading4 -->
+                  <span class="method-name">Heading4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading5">
+                  </a> <!-- Heading5 -->
+                  <span class="method-name">Heading5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading5">
+                  </a> <!-- Heading5 -->
+                  <span class="method-name">Heading5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading6">
+                  </a> <!-- Heading6 -->
+                  <span class="method-name">Heading6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading6">
+                  </a> <!-- Heading6 -->
+                  <span class="method-name">Heading6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading7">
+                  </a> <!-- Heading7 -->
+                  <span class="method-name">Heading7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading7">
+                  </a> <!-- Heading7 -->
+                  <span class="method-name">Heading7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading8">
+                  </a> <!-- Heading8 -->
+                  <span class="method-name">Heading8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading8">
+                  </a> <!-- Heading8 -->
+                  <span class="method-name">Heading8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading9">
+                  </a> <!-- Heading9 -->
+                  <span class="method-name">Heading9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading9">
+                  </a> <!-- Heading9 -->
+                  <span class="method-name">Heading9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Cases_Prod.Home_URL</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Footer">
+                  </a> <!-- Footer -->
+                  <span class="method-name">Footer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Footer">
+                  </a> <!-- Footer -->
+                  <span class="method-name">Footer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Cases_Prod.More_offers_TC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="More_offers">
+                  </a> <!-- More_offers -->
+                  <span class="method-name">More_offers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="More_offers">
+                  </a> <!-- More_offers -->
+                  <span class="method-name">More_offers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Cases_Prod.What_we_offer_URL_TC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading">
+                  </a> <!-- Heading -->
+                  <span class="method-name">Heading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading">
+                  </a> <!-- Heading -->
+                  <span class="method-name">Heading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Sweta\git\MTL\Prod_ Regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;MTL_Prod_FF&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test_Cases_Prod.Home_URL&quot;/&gt;
+      &lt;class name=&quot;Test_Cases_Prod.What_we_offer1_TC&quot;/&gt;
+      &lt;class name=&quot;Test_Cases_Prod.More_offers_TC&quot;/&gt;
+      &lt;class name=&quot;Test_Cases_Prod.What_we_offer_URL_TC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MTL_Prod_FF --&gt;
+  &lt;test name=&quot;MTL_Prod_chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test_Cases_Prod.Home_URL&quot;/&gt;
+      &lt;class name=&quot;Test_Cases_Prod.What_we_offer1_TC&quot;/&gt;
+      &lt;class name=&quot;Test_Cases_Prod.More_offers_TC&quot;/&gt;
+      &lt;class name=&quot;Test_Cases_Prod.What_we_offer_URL_TC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MTL_Prod_chrome --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MTL_Prod_FF (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">MTL_Prod_chrome (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Heading')
+data.setCell(0, 2, 'Test_Cases_Prod.What_we_offer_URL_TC')
+data.setCell(0, 3, 99294);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Heading')
+data.setCell(1, 2, 'Test_Cases_Prod.What_we_offer_URL_TC')
+data.setCell(1, 3, 79589);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Heading11')
+data.setCell(2, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(2, 3, 52477);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Heading11')
+data.setCell(3, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(3, 3, 51873);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'More_offers')
+data.setCell(4, 2, 'Test_Cases_Prod.More_offers_TC')
+data.setCell(4, 3, 40582);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Heading8')
+data.setCell(5, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(5, 3, 38174);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Heading5')
+data.setCell(6, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(6, 3, 38022);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Heading3')
+data.setCell(7, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(7, 3, 37915);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Heading10')
+data.setCell(8, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(8, 3, 37900);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Heading7')
+data.setCell(9, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(9, 3, 37830);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Heading9')
+data.setCell(10, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(10, 3, 37634);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Heading6')
+data.setCell(11, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(11, 3, 37449);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Heading4')
+data.setCell(12, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(12, 3, 37288);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Heading2')
+data.setCell(13, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(13, 3, 37268);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Heading4')
+data.setCell(14, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(14, 3, 37014);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Heading5')
+data.setCell(15, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(15, 3, 36713);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Heading7')
+data.setCell(16, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(16, 3, 36650);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Heading2')
+data.setCell(17, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(17, 3, 36633);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Heading8')
+data.setCell(18, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(18, 3, 36598);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Heading9')
+data.setCell(19, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(19, 3, 36558);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Heading10')
+data.setCell(20, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(20, 3, 36553);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Heading3')
+data.setCell(21, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(21, 3, 36465);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Heading6')
+data.setCell(22, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(22, 3, 36394);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Footer')
+data.setCell(23, 2, 'Test_Cases_Prod.Home_URL')
+data.setCell(23, 3, 36165);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Heading1')
+data.setCell(24, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(24, 3, 34962);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Heading1')
+data.setCell(25, 2, 'Test_Cases_Prod.What_we_offer1_TC')
+data.setCell(25, 3, 33803);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'More_offers')
+data.setCell(26, 2, 'Test_Cases_Prod.More_offers_TC')
+data.setCell(26, 3, 33181);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Footer')
+data.setCell(27, 2, 'Test_Cases_Prod.Home_URL')
+data.setCell(27, 3, 31096);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Cases_Prod.Home_URL</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Footer</span>
+                <span class="method-start">13555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Footer status=SUCCESS method=Home_URL.Footer()[pri:0, instance:Test_Cases_Prod.Home...)</span>
+                <span class="method-start">49721 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Cases_Prod.What_we_offer1_TC</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">51315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading1</span>
+                <span class="method-start">62175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading1 status=SUCCESS method=What_we_offer1_TC.Heading1()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">97138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">98596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading10</span>
+                <span class="method-start">110366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading10 status=SUCCESS method=What_we_offer1_TC.Heading10()[pri:0, instance:Test_...)</span>
+                <span class="method-start">148267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">149690 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading11</span>
+                <span class="method-start">160058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading11 status=SUCCESS method=What_we_offer1_TC.Heading11()[pri:0, instance:Test_...)</span>
+                <span class="method-start">212536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">214163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading2</span>
+                <span class="method-start">224272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading2 status=SUCCESS method=What_we_offer1_TC.Heading2()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">261541 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">263045 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading3</span>
+                <span class="method-start">272977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading3 status=SUCCESS method=What_we_offer1_TC.Heading3()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">310892 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">312771 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading4</span>
+                <span class="method-start">323995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading4 status=SUCCESS method=What_we_offer1_TC.Heading4()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">361283 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">362975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading5</span>
+                <span class="method-start">374669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading5 status=SUCCESS method=What_we_offer1_TC.Heading5()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">412691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">414742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading6</span>
+                <span class="method-start">424749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading6 status=SUCCESS method=What_we_offer1_TC.Heading6()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">462199 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">463730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading7</span>
+                <span class="method-start">474417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading7 status=SUCCESS method=What_we_offer1_TC.Heading7()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">512247 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">513829 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading8</span>
+                <span class="method-start">523486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading8 status=SUCCESS method=What_we_offer1_TC.Heading8()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">561661 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">563160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading9</span>
+                <span class="method-start">573360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading9 status=SUCCESS method=What_we_offer1_TC.Heading9()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">610995 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Cases_Prod.More_offers_TC</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">612573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">More_offers</span>
+                <span class="method-start">622840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=More_offers status=SUCCESS method=More_offers_TC.More_offers()[pri:0, instance:Test...)</span>
+                <span class="method-start">663423 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Cases_Prod.What_we_offer_URL_TC</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(firefox)</span>
+                <span class="method-start">664902 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading</span>
+                <span class="method-start">675142 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading status=SUCCESS method=What_we_offer_URL_TC.Heading()[pri:0, instance:Test_C...)</span>
+                <span class="method-start">754731 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Cases_Prod.Home_URL</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">756389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Footer</span>
+                <span class="method-start">762395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Footer status=SUCCESS method=Home_URL.Footer()[pri:0, instance:Test_Cases_Prod.Home...)</span>
+                <span class="method-start">793491 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Cases_Prod.What_we_offer1_TC</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">794458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading1</span>
+                <span class="method-start">801029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading1 status=SUCCESS method=What_we_offer1_TC.Heading1()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">834833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">835763 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading10</span>
+                <span class="method-start">842332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading10 status=SUCCESS method=What_we_offer1_TC.Heading10()[pri:0, instance:Test_...)</span>
+                <span class="method-start">878886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">879756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading11</span>
+                <span class="method-start">886089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading11 status=SUCCESS method=What_we_offer1_TC.Heading11()[pri:0, instance:Test_...)</span>
+                <span class="method-start">937963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">938836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading2</span>
+                <span class="method-start">945132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading2 status=SUCCESS method=What_we_offer1_TC.Heading2()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">981766 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">982708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading3</span>
+                <span class="method-start">989102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading3 status=SUCCESS method=What_we_offer1_TC.Heading3()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">1025567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">1026560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading4</span>
+                <span class="method-start">1033053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading4 status=SUCCESS method=What_we_offer1_TC.Heading4()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">1070068 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">1071023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading5</span>
+                <span class="method-start">1077259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading5 status=SUCCESS method=What_we_offer1_TC.Heading5()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">1113972 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">1115033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading6</span>
+                <span class="method-start">1121111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading6 status=SUCCESS method=What_we_offer1_TC.Heading6()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">1157506 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">1158510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading7</span>
+                <span class="method-start">1165039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading7 status=SUCCESS method=What_we_offer1_TC.Heading7()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">1201689 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">1202766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading8</span>
+                <span class="method-start">1209347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading8 status=SUCCESS method=What_we_offer1_TC.Heading8()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">1245945 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">1246784 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading9</span>
+                <span class="method-start">1253107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading9 status=SUCCESS method=What_we_offer1_TC.Heading9()[pri:0, instance:Test_Ca...)</span>
+                <span class="method-start">1289665 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Cases_Prod.More_offers_TC</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">1290474 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">More_offers</span>
+                <span class="method-start">1296554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=More_offers status=SUCCESS method=More_offers_TC.More_offers()[pri:0, instance:Test...)</span>
+                <span class="method-start">1329735 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Cases_Prod.What_we_offer_URL_TC</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupApplication(chrome)</span>
+                <span class="method-start">1330626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading</span>
+                <span class="method-start">1336940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Heading status=SUCCESS method=What_we_offer_URL_TC.Heading()[pri:0, instance:Test_C...)</span>
+                <span class="method-start">1436234 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

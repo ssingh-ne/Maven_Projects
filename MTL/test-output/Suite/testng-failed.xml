@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="MTL_Prod_FF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Test_Cases_Prod.What_we_offer1_TC">
+        <methods>
+          <include name="Heading11"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="Heading10"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Cases_Prod.What_we_offer1_TC -->
+      <class name="Test_Cases_Prod.Home_URL">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Cases_Prod.Home_URL -->
+      <class name="Test_Cases_Prod.More_offers_TC">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Cases_Prod.More_offers_TC -->
+      <class name="Test_Cases_Prod.What_we_offer_URL_TC">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Cases_Prod.What_we_offer_URL_TC -->
+    </classes>
+  </test> <!-- MTL_Prod_FF(failed) -->
+</suite> <!-- Failed suite [Suite] -->
