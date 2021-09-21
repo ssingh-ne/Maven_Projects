@@ -80,7 +80,6 @@ public class Home_page {
 		 // Facebook 
 		 
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
-		 //js.executeScript("window.scrollBy(0,1000)");
 		 WebElement Element = driver.findElement(fb_image);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
 		 Thread.sleep(2000);

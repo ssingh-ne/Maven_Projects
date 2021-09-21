@@ -2,6 +2,33 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
     <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
       <![CDATA[=====firefox Browser Session Started=====]]>
     </line>
     <line>
@@ -12,33 +39,6 @@
     </line>
     <line>
       <![CDATA[=====firefox Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Browser Session End=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Browser Session End=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Browser Session End=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
@@ -47,88 +47,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="169259" started-at="2021-09-02T16:54:01Z" finished-at="2021-09-02T16:56:50Z">
+  <suite name="Suite" duration-ms="154197" started-at="2021-09-15T15:33:32Z" finished-at="2021-09-15T15:36:07Z">
     <groups>
     </groups>
-    <test name="AUWGlobal_Firefox_Development" duration-ms="65584" started-at="2021-09-02T16:54:01Z" finished-at="2021-09-02T16:55:06Z">
-      <class name="Test_Cases_Development.Home_Page_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.Home_Page_TC@546a03af]" name="setupApplication" is-config="true" duration-ms="16741" started-at="2021-09-02T22:24:37Z" finished-at="2021-09-02T22:24:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Test_Cases_Development.Home_Page_TC@546a03af]" name="HomePage" duration-ms="10583" started-at="2021-09-02T22:24:54Z" finished-at="2021-09-02T22:25:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.Home_Page_TC@546a03af]" name="tearDown" is-config="true" duration-ms="1630" started-at="2021-09-02T22:25:05Z" finished-at="2021-09-02T22:25:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Home_Page_TC.HomePage()[pri:0, instance:Test_Cases_Development.Home_Page_TC@546a03af] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Development.Home_Page_TC -->
-      <class name="Test_Cases_Development.LearnMore_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.LearnMore_TC@256216b3]" name="setupApplication" is-config="true" duration-ms="19656" started-at="2021-09-02T22:24:01Z" finished-at="2021-09-02T22:24:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="LearnMore()[pri:0, instance:Test_Cases_Development.LearnMore_TC@256216b3]" name="LearnMore" duration-ms="15609" started-at="2021-09-02T22:24:20Z" finished-at="2021-09-02T22:24:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LearnMore -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.LearnMore_TC@256216b3]" name="tearDown" is-config="true" duration-ms="1336" started-at="2021-09-02T22:24:36Z" finished-at="2021-09-02T22:24:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LearnMore status=SUCCESS method=LearnMore_TC.LearnMore()[pri:0, instance:Test_Cases_Development.LearnMore_TC@256216b3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Development.LearnMore_TC -->
-    </test> <!-- AUWGlobal_Firefox_Development -->
-    <test name="AUWGlobal_ChromeTest_Development" duration-ms="103649" started-at="2021-09-02T16:55:06Z" finished-at="2021-09-02T16:56:50Z">
-      <class name="Test_Cases_Development.Home_More">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.Home_More@7dc36524]" name="setupApplication" is-config="true" duration-ms="12811" started-at="2021-09-02T22:25:36Z" finished-at="2021-09-02T22:25:49Z">
+    <test name="AUWGlobal_ChromeTest_Development" duration-ms="96951" started-at="2021-09-15T15:33:32Z" finished-at="2021-09-15T15:35:09Z">
+      <class name="Test_Cases_Prod.Home_Page_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@d7b1517]" name="setupApplication" is-config="true" duration-ms="7030" started-at="2021-09-15T21:04:43Z" finished-at="2021-09-15T21:04:50Z">
           <params>
             <param index="0">
               <value>
@@ -145,15 +69,52 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="More_button()[pri:0, instance:Test_Cases_Development.Home_More@7dc36524]" name="More_button" duration-ms="41031" started-at="2021-09-02T22:25:49Z" finished-at="2021-09-02T22:26:30Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Test_Cases_Prod.Home_Page_TC@d7b1517]" name="HomePage" duration-ms="17776" started-at="2021-09-15T21:04:50Z" finished-at="2021-09-15T21:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@d7b1517]" name="tearDown" is-config="true" duration-ms="1712" started-at="2021-09-15T21:05:08Z" finished-at="2021-09-15T21:05:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Home_Page_TC.HomePage()[pri:0, instance:Test_Cases_Prod.Home_Page_TC@d7b1517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Cases_Prod.Home_Page_TC -->
+      <class name="Test_Cases_Prod.Home_More">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_More@721e0f4f]" name="setupApplication" is-config="true" duration-ms="5806" started-at="2021-09-15T21:03:57Z" finished-at="2021-09-15T21:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="More_button()[pri:0, instance:Test_Cases_Prod.Home_More@721e0f4f]" name="More_button" duration-ms="39049" started-at="2021-09-15T21:04:03Z" finished-at="2021-09-15T21:04:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- More_button -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.Home_More@7dc36524]" name="tearDown" is-config="true" duration-ms="1334" started-at="2021-09-02T22:26:30Z" finished-at="2021-09-02T22:26:32Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_More@721e0f4f]" name="tearDown" is-config="true" duration-ms="943" started-at="2021-09-15T21:04:42Z" finished-at="2021-09-15T21:04:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=More_button status=SUCCESS method=Home_More.More_button()[pri:0, instance:Test_Cases_Development.Home_More@7dc36524] output={null}]]]>
+                <![CDATA[[TestResult name=More_button status=SUCCESS method=Home_More.More_button()[pri:0, instance:Test_Cases_Prod.Home_More@721e0f4f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -163,9 +124,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Development.Home_More -->
-      <class name="Test_Cases_Development.Home_Page_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.Home_Page_TC@7d417077]" name="setupApplication" is-config="true" duration-ms="5048" started-at="2021-09-02T22:26:32Z" finished-at="2021-09-02T22:26:37Z">
+      </class> <!-- Test_Cases_Prod.Home_More -->
+      <class name="Test_Cases_Prod.LearnMore_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@2a18f23c]" name="setupApplication" is-config="true" duration-ms="8525" started-at="2021-09-15T21:03:32Z" finished-at="2021-09-15T21:03:41Z">
           <params>
             <param index="0">
               <value>
@@ -182,52 +143,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Test_Cases_Development.Home_Page_TC@7d417077]" name="HomePage" duration-ms="11644" started-at="2021-09-02T22:26:37Z" finished-at="2021-09-02T22:26:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.Home_Page_TC@7d417077]" name="tearDown" is-config="true" duration-ms="1566" started-at="2021-09-02T22:26:48Z" finished-at="2021-09-02T22:26:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Home_Page_TC.HomePage()[pri:0, instance:Test_Cases_Development.Home_Page_TC@7d417077] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Development.Home_Page_TC -->
-      <class name="Test_Cases_Development.LearnMore_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.LearnMore_TC@35bbe5e8]" name="setupApplication" is-config="true" duration-ms="13146" started-at="2021-09-02T22:25:06Z" finished-at="2021-09-02T22:25:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="LearnMore()[pri:0, instance:Test_Cases_Development.LearnMore_TC@35bbe5e8]" name="LearnMore" duration-ms="15764" started-at="2021-09-02T22:25:19Z" finished-at="2021-09-02T22:25:35Z">
+        <test-method status="PASS" signature="LearnMore()[pri:0, instance:Test_Cases_Prod.LearnMore_TC@2a18f23c]" name="LearnMore" duration-ms="15210" started-at="2021-09-15T21:03:41Z" finished-at="2021-09-15T21:03:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LearnMore -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.LearnMore_TC@35bbe5e8]" name="tearDown" is-config="true" duration-ms="1300" started-at="2021-09-02T22:25:35Z" finished-at="2021-09-02T22:25:36Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@2a18f23c]" name="tearDown" is-config="true" duration-ms="876" started-at="2021-09-15T21:03:56Z" finished-at="2021-09-15T21:03:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LearnMore status=SUCCESS method=LearnMore_TC.LearnMore()[pri:0, instance:Test_Cases_Development.LearnMore_TC@35bbe5e8] output={null}]]]>
+                <![CDATA[[TestResult name=LearnMore status=SUCCESS method=LearnMore_TC.LearnMore()[pri:0, instance:Test_Cases_Prod.LearnMore_TC@2a18f23c] output={null}]]]>
               </value>
             </param>
           </params>
@@ -237,7 +161,83 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Development.LearnMore_TC -->
+      </class> <!-- Test_Cases_Prod.LearnMore_TC -->
     </test> <!-- AUWGlobal_ChromeTest_Development -->
+    <test name="AUWGlobal_firefox_Development" duration-ms="57223" started-at="2021-09-15T15:35:09Z" finished-at="2021-09-15T15:36:07Z">
+      <class name="Test_Cases_Prod.Home_Page_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@35bbe5e8]" name="setupApplication" is-config="true" duration-ms="10716" started-at="2021-09-15T21:05:36Z" finished-at="2021-09-15T21:05:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Test_Cases_Prod.Home_Page_TC@35bbe5e8]" name="HomePage" duration-ms="18109" started-at="2021-09-15T21:05:47Z" finished-at="2021-09-15T21:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@35bbe5e8]" name="tearDown" is-config="true" duration-ms="1424" started-at="2021-09-15T21:06:05Z" finished-at="2021-09-15T21:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Home_Page_TC.HomePage()[pri:0, instance:Test_Cases_Prod.Home_Page_TC@35bbe5e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Cases_Prod.Home_Page_TC -->
+      <class name="Test_Cases_Prod.LearnMore_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@7dc36524]" name="setupApplication" is-config="true" duration-ms="11344" started-at="2021-09-15T21:05:09Z" finished-at="2021-09-15T21:05:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="LearnMore()[pri:0, instance:Test_Cases_Prod.LearnMore_TC@7dc36524]" name="LearnMore" duration-ms="14160" started-at="2021-09-15T21:05:21Z" finished-at="2021-09-15T21:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LearnMore -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@7dc36524]" name="tearDown" is-config="true" duration-ms="1467" started-at="2021-09-15T21:05:35Z" finished-at="2021-09-15T21:05:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LearnMore status=SUCCESS method=LearnMore_TC.LearnMore()[pri:0, instance:Test_Cases_Prod.LearnMore_TC@7dc36524] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Cases_Prod.LearnMore_TC -->
+    </test> <!-- AUWGlobal_firefox_Development -->
   </suite> <!-- Suite -->
 </testng-results>
