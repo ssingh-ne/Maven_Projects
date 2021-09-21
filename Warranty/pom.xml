@@ -68,7 +68,7 @@
   	   <configuration>
   	   <testFailureIgnore>true</testFailureIgnore>
   	   <suiteXmlFiles>
-  		           <suiteXmlFile>Regression_Production.xml</suiteXmlFile> 
+  		           <suiteXmlFile>Dev_Regression.xml</suiteXmlFile> 
   		   </suiteXmlFiles>
   		</configuration>
   		</plugin>
