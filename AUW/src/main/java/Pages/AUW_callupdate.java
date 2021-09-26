@@ -25,6 +25,8 @@ WebDriver driver;
 
 	By Facts_section = By.xpath("");
 	By Facts_Download = By.xpath("(//*[text()='Download'])[1]");
+	By FactsDownload_1 = By.xpath("(//*[@rel='noopener noreferrer'])[2]");
+	By FactsView_1 = By.xpath("//*[@id='app']/main/div[2]/div/div[1]/div[4]/a");
 	By Facts_View = By.xpath("(//*[text()='View'])[1]");
 	By Logo = By.xpath("//*[@alt='Applied Underwriters']");
 	By header = By.xpath("//*[@id='app']/div[2]/div/div/div[2]/p");
@@ -70,9 +72,9 @@ WebDriver driver;
 	   WebDriverWait wait = new WebDriverWait(driver,30);
 		 wait.until(ExpectedConditions.visibilityOfElementLocated(Facts_View));
 		 Thread.sleep(5000);
-		String Exp_url = driver.findElement(Facts_View).getAttribute("href");
+		String Exp_url = driver.findElement(FactsView_1).getAttribute("href");
 		
-		System.out.println(Exp_url);
+		System.out.println("Fatc URL = "+Exp_url);
 		
 		driver.findElement(Facts_View).click();
 		
@@ -99,9 +101,9 @@ WebDriver driver;
      WebDriverWait wait = new WebDriverWait(driver,30);
 	    wait.until(ExpectedConditions.visibilityOfElementLocated(Facts_Download));
 	    Thread.sleep(5000);
-        String Exp_url = driver.findElement(Facts_Download).getAttribute("href");
+        String Exp_url = driver.findElement(FactsDownload_1).getAttribute("href");
 		
-		System.out.println("href link = "+Exp_url);
+		System.out.println("Download href link = "+Exp_url);
 		
 		driver.findElement(Facts_Download).click();
 		

@@ -23,9 +23,9 @@ WebDriver driver;
 	By Image2 = By.xpath("//*[@id='app']/main/div/div/div[2]/div/div/div[2]/div/a/div/img");
 	By Image3 = By.xpath("//*[@id='app']/main/div/div/div[2]/div/div/div[3]/div/a/div/img");
 	
-	By Text1 = By.xpath("//*[@id='app']/main/div/div/div[2]/div/div/div[1]/div/a/div/div/p[2]");
-	By Text2 = By.xpath("//*[@id='app']/main/div/div/div[2]/div/div/div[2]/div/a/div/div/p[2]");
-	By Text3 = By.xpath("//*[@id='app']/main/div/div/div[2]/div/div/div[3]/div/a/div/div/p[2]");
+	By Text1 = By.xpath("((//*[contains(@class, 'MuiGrid-root ')])[8]/div/a/div/div/div/p)[1]");
+	By Text2 = By.xpath("((//*[contains(@class, 'MuiGrid-root ')])[9]/div/a/div/div/div/p)[1]");
+	By Text3 = By.xpath("((//*[contains(@class, 'MuiGrid-root ')])[10]/div/a/div/div/div/p)[1]");
 	
 	By Back_btn = By.xpath("//*[text()='Back to Applied Intelligence']");
 	

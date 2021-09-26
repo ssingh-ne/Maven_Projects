@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import Pages.AUW_callupdate;
+import Pages.Home_page;
 
 public class AUW_CallUpdate extends Base_class {
 	
@@ -16,8 +17,10 @@ public class AUW_CallUpdate extends Base_class {
 	public void main() throws InterruptedException{
 		
 		AUW_callupdate callupdate = new AUW_callupdate(driver);
+		Home_page h = new Home_page(driver);
 		
 		callupdate.Update_URL();
+		h.Cookies();
 		callupdate.Header_();
 		callupdate.Facts_View();
 		callupdate.Header_();

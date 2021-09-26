@@ -29,11 +29,12 @@ WebDriver driver;
 	By Close_btn = By.xpath("//*[@class='MuiIconButton-label']");
 	By Header = By.xpath("//*[@id='desktop-menu']");
 	
-	By EXp_card_1 = By.xpath("/html/body/div[2]/div[3]/div/div/div[2]/div/div/div/div/div/div[1]/div/a/div");
-	By EXp_card_2 = By.xpath("/html/body/div[2]/div[3]/div/div/div[2]/div/div/div/div/div/div[2]/div/a/div");
+	By EXp_card_1 = By.xpath("(//*[contains(@class, 'blog-image')])[1]");
 	
-	By Exp_card_1_text = By.xpath("/html/body/div[2]/div[3]/div/div/div[2]/div/div/div/div/div/div[1]/div/a/div/div/p[1]");
-	By Exp_card_2_text = By.xpath("/html/body/div[2]/div[3]/div/div/div[2]/div/div/div/div/div/div[2]/div/a/div/div/p[1]");
+	By EXp_card_2 = By.xpath("(//*[contains(@class, 'blog-image')])[2]");
+	
+	By Exp_card_1_text = By.xpath("((//*[contains(@class, 'MuiGrid-root ')])[4]/div/a/div/div/div/p)[1]");
+	By Exp_card_2_text = By.xpath("((//*[contains(@class, 'MuiGrid-root ')])[5]/div/a/div/div/div/p)[1]");
 	
 	By Exp_cardText = By.xpath("/html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div/p/span");
 	
@@ -163,17 +164,17 @@ WebDriver driver;
 	 
 	 driver.findElement(Exp_card_1_text).click();
 	 
-	 Thread.sleep(3000);
+	 Thread.sleep(5000);
 	 
 	String Exp_Card_Text1 = driver.findElement(Exp_cardText).getText();
 	
 	System.out.println("Exp_Card_Text = " + Exp_Card_Text1);
-	
+	Thread.sleep(5000);
 	//assertEquals(Exp_Card_Text1, ExpCard_Text);
 	
 	Assert.assertTrue(Exp_Card_Text1.contains(ExpCard_Text),"Failure message") ;
 	 
-}
+  }
 
      public void Exp_card2() throws InterruptedException {
     		
