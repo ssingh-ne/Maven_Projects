@@ -25,14 +25,14 @@ WebDriver driver;
     By Login = By.xpath("//*[@type='submit']"); 
     
    // By Production = By.xpath("(//button[@ng-repeat-start='link in $ctrl.links track by link.sref'])[3]");
-    By Production = By.xpath("(//button[@ng-repeat-start='link in ::$ctrl.links track by link.sref'])[3]");
+    By Production = By.xpath("//button[@am-id='am-masthead-menu__content-button']");
     
-    By global_slots = By.xpath("//*[text()='Applied Global Slots']");
+    By global_slots = By.xpath("(//*[text()='Applied Global Slots'])[2]");
     
-    By Global_slot_name = By.xpath("//span[text()='AUW Global Homepage']");
-    By Global_slot_one = By.xpath("//*[text()='1']");
+    By Global_slot_name = By.xpath("//*[text()=' AUW Global Homepage ']");
+    By Global_slot_one = By.xpath("(//div[@class='content-slot-overlay'])[2]");
     
-    By Global_edit_one = By.xpath("(//*[@ng-if='$ctrl.editConditions()'])[2]");
+    By Global_edit_one = By.xpath("(//*[@aria-label='Edit content'])[2]");
    
     
     By Globalslot_textEdit = By.xpath("//*[@aria-label='Edit content']");

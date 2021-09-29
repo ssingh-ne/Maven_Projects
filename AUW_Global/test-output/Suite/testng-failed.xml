@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="AUWGlobal_ChromeTest_Development(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Test_Cases_Development.Home_More">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="More_button"/>
+        </methods>
+      </class> <!-- Test_Cases_Development.Home_More -->
+      <class name="Test_Cases_Development.Home_Page_TC">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Cases_Development.Home_Page_TC -->
+      <class name="Test_Cases_Development.LearnMore_TC">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Cases_Development.LearnMore_TC -->
+    </classes>
+  </test> <!-- AUWGlobal_ChromeTest_Development(failed) -->
+</suite> <!-- Failed suite [Suite] -->

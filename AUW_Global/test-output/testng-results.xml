@@ -47,12 +47,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="154197" started-at="2021-09-15T15:33:32Z" finished-at="2021-09-15T15:36:07Z">
+  <suite name="Suite" duration-ms="158463" started-at="2021-09-29T13:10:27Z" finished-at="2021-09-29T13:13:05Z">
     <groups>
     </groups>
-    <test name="AUWGlobal_ChromeTest_Development" duration-ms="96951" started-at="2021-09-15T15:33:32Z" finished-at="2021-09-15T15:35:09Z">
+    <test name="AUWGlobal_ChromeTest_Prod" duration-ms="104233" started-at="2021-09-29T13:10:27Z" finished-at="2021-09-29T13:12:11Z">
       <class name="Test_Cases_Prod.Home_Page_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@d7b1517]" name="setupApplication" is-config="true" duration-ms="7030" started-at="2021-09-15T21:04:43Z" finished-at="2021-09-15T21:04:50Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@d7b1517]" name="setupApplication" is-config="true" duration-ms="5779" started-at="2021-09-29T18:41:48Z" finished-at="2021-09-29T18:41:54Z">
           <params>
             <param index="0">
               <value>
@@ -69,11 +69,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Test_Cases_Prod.Home_Page_TC@d7b1517]" name="HomePage" duration-ms="17776" started-at="2021-09-15T21:04:50Z" finished-at="2021-09-15T21:05:08Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Test_Cases_Prod.Home_Page_TC@d7b1517]" name="HomePage" duration-ms="16280" started-at="2021-09-29T18:41:54Z" finished-at="2021-09-29T18:42:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@d7b1517]" name="tearDown" is-config="true" duration-ms="1712" started-at="2021-09-15T21:05:08Z" finished-at="2021-09-15T21:05:09Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@d7b1517]" name="tearDown" is-config="true" duration-ms="829" started-at="2021-09-29T18:42:10Z" finished-at="2021-09-29T18:42:11Z">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Prod.Home_Page_TC -->
       <class name="Test_Cases_Prod.Home_More">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_More@721e0f4f]" name="setupApplication" is-config="true" duration-ms="5806" started-at="2021-09-15T21:03:57Z" finished-at="2021-09-15T21:04:03Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_More@721e0f4f]" name="setupApplication" is-config="true" duration-ms="6648" started-at="2021-09-29T18:40:50Z" finished-at="2021-09-29T18:40:57Z">
           <params>
             <param index="0">
               <value>
@@ -106,11 +106,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="More_button()[pri:0, instance:Test_Cases_Prod.Home_More@721e0f4f]" name="More_button" duration-ms="39049" started-at="2021-09-15T21:04:03Z" finished-at="2021-09-15T21:04:42Z">
+        <test-method status="PASS" signature="More_button()[pri:0, instance:Test_Cases_Prod.Home_More@721e0f4f]" name="More_button" duration-ms="50454" started-at="2021-09-29T18:40:57Z" finished-at="2021-09-29T18:41:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- More_button -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_More@721e0f4f]" name="tearDown" is-config="true" duration-ms="943" started-at="2021-09-15T21:04:42Z" finished-at="2021-09-15T21:04:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_More@721e0f4f]" name="tearDown" is-config="true" duration-ms="764" started-at="2021-09-29T18:41:47Z" finished-at="2021-09-29T18:41:48Z">
           <params>
             <param index="0">
               <value>
@@ -126,7 +126,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Prod.Home_More -->
       <class name="Test_Cases_Prod.LearnMore_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@2a18f23c]" name="setupApplication" is-config="true" duration-ms="8525" started-at="2021-09-15T21:03:32Z" finished-at="2021-09-15T21:03:41Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@2a18f23c]" name="setupApplication" is-config="true" duration-ms="8402" started-at="2021-09-29T18:40:27Z" finished-at="2021-09-29T18:40:35Z">
           <params>
             <param index="0">
               <value>
@@ -143,11 +143,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="LearnMore()[pri:0, instance:Test_Cases_Prod.LearnMore_TC@2a18f23c]" name="LearnMore" duration-ms="15210" started-at="2021-09-15T21:03:41Z" finished-at="2021-09-15T21:03:56Z">
+        <test-method status="PASS" signature="LearnMore()[pri:0, instance:Test_Cases_Prod.LearnMore_TC@2a18f23c]" name="LearnMore" duration-ms="14152" started-at="2021-09-29T18:40:35Z" finished-at="2021-09-29T18:40:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LearnMore -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@2a18f23c]" name="tearDown" is-config="true" duration-ms="876" started-at="2021-09-15T21:03:56Z" finished-at="2021-09-15T21:03:57Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@2a18f23c]" name="tearDown" is-config="true" duration-ms="883" started-at="2021-09-29T18:40:50Z" finished-at="2021-09-29T18:40:50Z">
           <params>
             <param index="0">
               <value>
@@ -162,10 +162,10 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Prod.LearnMore_TC -->
-    </test> <!-- AUWGlobal_ChromeTest_Development -->
-    <test name="AUWGlobal_firefox_Development" duration-ms="57223" started-at="2021-09-15T15:35:09Z" finished-at="2021-09-15T15:36:07Z">
+    </test> <!-- AUWGlobal_ChromeTest_Prod -->
+    <test name="AUWGlobal_firefox_Prod" duration-ms="54206" started-at="2021-09-29T13:12:11Z" finished-at="2021-09-29T13:13:05Z">
       <class name="Test_Cases_Prod.Home_Page_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@35bbe5e8]" name="setupApplication" is-config="true" duration-ms="10716" started-at="2021-09-15T21:05:36Z" finished-at="2021-09-15T21:05:47Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@35bbe5e8]" name="setupApplication" is-config="true" duration-ms="9543" started-at="2021-09-29T18:42:36Z" finished-at="2021-09-29T18:42:46Z">
           <params>
             <param index="0">
               <value>
@@ -182,11 +182,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Test_Cases_Prod.Home_Page_TC@35bbe5e8]" name="HomePage" duration-ms="18109" started-at="2021-09-15T21:05:47Z" finished-at="2021-09-15T21:06:05Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Test_Cases_Prod.Home_Page_TC@35bbe5e8]" name="HomePage" duration-ms="18135" started-at="2021-09-29T18:42:46Z" finished-at="2021-09-29T18:43:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@35bbe5e8]" name="tearDown" is-config="true" duration-ms="1424" started-at="2021-09-15T21:06:05Z" finished-at="2021-09-15T21:06:07Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_Page_TC@35bbe5e8]" name="tearDown" is-config="true" duration-ms="1399" started-at="2021-09-29T18:43:04Z" finished-at="2021-09-29T18:43:05Z">
           <params>
             <param index="0">
               <value>
@@ -202,7 +202,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Prod.Home_Page_TC -->
       <class name="Test_Cases_Prod.LearnMore_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@7dc36524]" name="setupApplication" is-config="true" duration-ms="11344" started-at="2021-09-15T21:05:09Z" finished-at="2021-09-15T21:05:21Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@7dc36524]" name="setupApplication" is-config="true" duration-ms="9657" started-at="2021-09-29T18:42:11Z" finished-at="2021-09-29T18:42:21Z">
           <params>
             <param index="0">
               <value>
@@ -219,11 +219,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="LearnMore()[pri:0, instance:Test_Cases_Prod.LearnMore_TC@7dc36524]" name="LearnMore" duration-ms="14160" started-at="2021-09-15T21:05:21Z" finished-at="2021-09-15T21:05:35Z">
+        <test-method status="PASS" signature="LearnMore()[pri:0, instance:Test_Cases_Prod.LearnMore_TC@7dc36524]" name="LearnMore" duration-ms="14105" started-at="2021-09-29T18:42:21Z" finished-at="2021-09-29T18:42:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LearnMore -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@7dc36524]" name="tearDown" is-config="true" duration-ms="1467" started-at="2021-09-15T21:05:35Z" finished-at="2021-09-15T21:05:36Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.LearnMore_TC@7dc36524]" name="tearDown" is-config="true" duration-ms="1366" started-at="2021-09-29T18:42:35Z" finished-at="2021-09-29T18:42:36Z">
           <params>
             <param index="0">
               <value>
@@ -238,6 +238,6 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Prod.LearnMore_TC -->
-    </test> <!-- AUWGlobal_firefox_Development -->
+    </test> <!-- AUWGlobal_firefox_Prod -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -3,6 +3,8 @@ package Test_Cases_Prod;
 import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import Pages.Amplience;
@@ -39,6 +41,11 @@ public class Home_More extends Base_class {
 		int size = driver.findElements(By.tagName("iframe")).size();
 	 	System.out.println(size);
 	 	driver.switchTo().frame(1);
+	 	Thread.sleep(5000);
+	 	 JavascriptExecutor js = (JavascriptExecutor) driver;
+	 	 WebElement Element = driver.findElement(By.xpath("//*[@id='tinymce']/p"));
+	 	 js.executeScript("arguments[0].scrollIntoView();", Element);
+	 	Thread.sleep(5000);
 	 	String More_content_amp = driver.findElement(By.xpath("//*[@id='tinymce']/p")).getText();
 	 	System.out.println("More Content = "+ More_content_amp);
 	 	
