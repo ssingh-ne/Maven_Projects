@@ -82,7 +82,8 @@ public class Home_page {
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
 		 WebElement Element = driver.findElement(fb_image);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
-		 Thread.sleep(2000);
+		 Thread.sleep(5000);
+		 
  		 driver.findElement(fb_image).click();
  		 
  		 Thread.sleep(10000);

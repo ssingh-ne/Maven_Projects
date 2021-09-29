@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Test_case_Development.Footer">
+      <class name="Test_case_Prod.Footer">
         <methods>
-          <include name="AUW_Footer"/>
+          <include name="AUW_Facebook"/>
+          <include name="AUW_Instagram"/>
           <include name="setupApplication"/>
+          <include name="AUW_Policy"/>
+          <include name="AUW_Linkedin"/>
+          <include name="AUW_twitter"/>
         </methods>
-      </class> <!-- Test_case_Development.Footer -->
+      </class> <!-- Test_case_Prod.Footer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

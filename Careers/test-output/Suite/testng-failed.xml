@@ -2,44 +2,43 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <parameter name="browser" value="firefox"/>
-  <test name="Carrer_ChromeTest_Development(failed)">
+  <test name="Carrer_ChromeTest_Production(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Test_case_Development.Footer">
+      <class name="Test_case_Prod.Side_Heading1">
         <methods>
-          <include name="AUW_Footer"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
+          <include name="Side_Heading"/>
         </methods>
-      </class> <!-- Test_case_Development.Footer -->
-      <class name="Test_case_Development.Side_Heading1">
+      </class> <!-- Test_case_Prod.Side_Heading1 -->
+      <class name="Test_case_Prod.Footer">
         <methods>
-          <include name="tearDown"/>
+          <include name="AUW_Facebook"/>
+          <include name="AUW_Instagram"/>
           <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="AUW_Policy"/>
+          <include name="AUW_Linkedin"/>
+          <include name="tearDown"/>
+          <include name="AUW_twitter"/>
         </methods>
-      </class> <!-- Test_case_Development.Side_Heading1 -->
+      </class> <!-- Test_case_Prod.Footer -->
     </classes>
-  </test> <!-- Carrer_ChromeTest_Development(failed) -->
-  <test name="Carrer_firefoxTest_Development(failed)">
+  </test> <!-- Carrer_ChromeTest_Production(failed) -->
+  <test name="Carrer_Firefox_Production(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="Test_case_Development.Footer">
+      <class name="Test_case_Prod.Footer">
         <methods>
-          <include name="AUW_Footer"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
+          <include name="AUW_Facebook"/>
+          <include name="AUW_Instagram"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="AUW_Policy"/>
+          <include name="AUW_Linkedin"/>
+          <include name="tearDown"/>
+          <include name="AUW_twitter"/>
         </methods>
-      </class> <!-- Test_case_Development.Footer -->
-      <class name="Test_case_Development.Side_Heading1">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- Test_case_Development.Side_Heading1 -->
+      </class> <!-- Test_case_Prod.Footer -->
     </classes>
-  </test> <!-- Carrer_firefoxTest_Development(failed) -->
+  </test> <!-- Carrer_Firefox_Production(failed) -->
 </suite> <!-- Failed suite [Suite] -->

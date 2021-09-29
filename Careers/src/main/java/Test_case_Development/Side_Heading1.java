@@ -85,10 +85,8 @@ public class Side_Heading1 extends Base_class {
         driver.switchTo().window(handlesList2.get(1));
         String NewURL1 =  driver.getCurrentUrl();
         System.out.println("New URL = " + NewURL1);
-
-      
         
-   a.Amplience_url();
+    a.Amplience_url();
     a.Amplience_Login();
     a.Carrer_Content();
     a.carrer_slotEdit_one();

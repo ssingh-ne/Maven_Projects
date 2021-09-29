@@ -27,7 +27,7 @@ WebDriver driver;
     By Login = By.xpath("//*[@type='submit']"); 
     
   //  By Production = By.xpath("(//button[@ng-repeat-start='link in $ctrl.links track by link.sref'])[3]");
-    By Production = By.xpath("(//button[@ng-repeat-start='link in ::$ctrl.links track by link.sref'])[3]");
+    By Production = By.xpath("//button[@am-id='am-masthead-menu__content-button']");
     
     By carrerslot_textEdit = By.xpath("//*[@aria-label='Edit content']");
     By slot_editTab = By.xpath("(//*[text()='Edit'])[1]");
@@ -39,11 +39,11 @@ WebDriver driver;
     
     By footer_text = By.xpath("//*[@id='/body']/div/div[1]/am-collapsible-section-header/span/span");
     
-    By Carrer_content = By.xpath("//*[text()='Careers Content']");
-    By Carrer_slot1 = By.xpath("//*[text()='Homepage - Part of Our Future Section - Body Copy']");
-    By Carrer_slot2 = By.xpath("//*[text()='Homepage - Our Campus Section - Body Copy']");
-    By Carrer_slot3 = By.xpath("//*[text()='Homepage - Benefits Section - Body Copy']");
-    By Carrer_slot4 = By.xpath("//*[text()='Homepage - Industry Recognition Section - Body Copy & Award Logo']");
+    By Carrer_content = By.xpath("(//*[text()='Careers Content'])[2]");
+    By Carrer_slot1 = By.xpath("//*[text()=' Homepage - Part of Our Future Section - Body Copy ']");
+    By Carrer_slot2 = By.xpath("//*[text()=' Homepage - Our Campus Section - Body Copy ']");
+    By Carrer_slot3 = By.xpath("//*[text()=' Homepage - Benefits Section - Body Copy ']");
+    By Carrer_slot4 = By.xpath("//*[text()=' Homepage - Industry Recognition Section - Body Copy & Award Logo ']");
     
     By Slot4_Content = By.xpath("//*[text()='Text Banner Content']");
     
@@ -90,7 +90,7 @@ WebDriver driver;
 		wait1.until(ExpectedConditions.visibilityOfElementLocated(Carrer_content));
 		 WebElement Element = driver.findElement(Carrer_content);
 	 	 js.executeScript("arguments[0].scrollIntoView();", Element);
-	 	 Thread.sleep(3000);
+	 	 Thread.sleep(5000);
    	driver.findElement(Carrer_content).click();
    	
    }
