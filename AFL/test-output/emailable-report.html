@@ -31,25 +31,46 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">123.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">AUW_Chrome_Prod</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">474.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">AUW_FF_Prod</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">498.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">10</td><td class="numi">10</td><td class="numi">0</td><td class="numi">0</td><td class="numi">973.5 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">Test_Case_Prod.HomePage_TC</td><td><a href="#m1"><b>Home_Page</b>  </a></td><td class="numi">1</td><td>1628082109081</td><td class="numi">115054</td></tr>
+<tr><th colspan="4">AUW_Chrome_Prod &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Test_Case_Prod.What_We_offer_OutSideUs</td><td><a href="#m1"><b>Footer</b>  </a></td><td class="numi">1</td><td>1632977637725</td><td class="numi">198729</td></tr>
+<tr class="passedeven"><td rowspan="1">Test_Case_Prod.Footer_TC</td><td><a href="#m2"><b>Footer</b>  </a></td><td class="numi">1</td><td>1632977844178</td><td class="numi">70915</td></tr>
+<tr class="passedodd"><td rowspan="1">Test_Case_Prod.ContactUS_OutsideUS</td><td><a href="#m3"><b>ContactUs_Page</b>  </a></td><td class="numi">1</td><td>1632977922721</td><td class="numi">23625</td></tr>
+<tr class="passedeven"><td rowspan="1">Test_Case_Prod.AboutUS_OutsideUS</td><td><a href="#m4"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1632977953299</td><td class="numi">18663</td></tr>
+<tr class="passedodd"><td rowspan="1">Test_Case_Prod.HomePage_TC</td><td><a href="#m5"><b>Home_Page</b>  </a></td><td class="numi">1</td><td>1632977979131</td><td class="numi">115696</td></tr>
+<tr><th colspan="4">AUW_FF_Prod &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Test_Case_Prod.What_We_offer_OutSideUs</td><td><a href="#m6"><b>Footer</b>  </a></td><td class="numi">1</td><td>1632978106634</td><td class="numi">208386</td></tr>
+<tr class="passedeven"><td rowspan="1">Test_Case_Prod.Footer_TC</td><td><a href="#m7"><b>Footer</b>  </a></td><td class="numi">1</td><td>1632978327049</td><td class="numi">71826</td></tr>
+<tr class="passedodd"><td rowspan="1">Test_Case_Prod.ContactUS_OutsideUS</td><td><a href="#m8"><b>ContactUs_Page</b>  </a></td><td class="numi">1</td><td>1632978411573</td><td class="numi">23888</td></tr>
+<tr class="passedeven"><td rowspan="1">Test_Case_Prod.AboutUS_OutsideUS</td><td><a href="#m9"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1632978446409</td><td class="numi">17925</td></tr>
+<tr class="passedodd"><td rowspan="1">Test_Case_Prod.HomePage_TC</td><td><a href="#m10"><b>Home_Page</b>  </a></td><td class="numi">1</td><td>1632978475900</td><td class="numi">117658</td></tr>
 </table>
-<h1>Default test</h1>
+<h1>AUW_Chrome_Prod</h1>
 <h2 id="m1">Test_Case_Prod.HomePage_TC:Home_Page</h2>
-<div style="padding-left:3em">
-<p>expected [Applied Financial Lines is bringing a powerful proposition to the European and Mideast Financial Lines markets?much-needed, first-rate capacity combined with a stellar team of underwriters.] but found [Applied Financial Lines is bringing a powerful proposition to the European and Mideast Financial Lines markets—much-needed, first-rate capacity combined with a stellar team of underwriters.]</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
-<br/>at org.testng.Assert.assertEquals(Assert.java:123)
-<br/>at org.testng.Assert.assertEquals(Assert.java:176)
-<br/>at org.testng.Assert.assertEquals(Assert.java:186)
-<br/>at Pages.Home_page.Quote(Home_page.java:547)
-<br/>at Test_Case_Prod.HomePage_TC.Home_Page(HomePage_TC.java:20)
-<br/>25 lines not shown
-</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Test_Case_Prod.What_We_offer_OutSideUs:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Test_Case_Prod.AboutUS_OutsideUS:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Test_Case_Prod.Footer_TC:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Test_Case_Prod.ContactUS_OutsideUS:ContactUs_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>AUW_FF_Prod</h1>
+<h2 id="m6">Test_Case_Prod.ContactUS_OutsideUS:ContactUs_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Test_Case_Prod.AboutUS_OutsideUS:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">Test_Case_Prod.Footer_TC:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">Test_Case_Prod.HomePage_TC:Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">Test_Case_Prod.What_We_offer_OutSideUs:Footer</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
