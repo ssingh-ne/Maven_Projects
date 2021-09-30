@@ -1029,7 +1029,8 @@ public class WhatWeOffer_page {
 	   Thread.sleep(3000);
 		
 		driver.findElement(whatWeoffer).click();
-		  Thread.sleep(10000);
+		
+		Thread.sleep(10000);
 
 		String Header_heading_Text = driver.findElement(REINSURANCE_LINES_Header).getText(); 
 			
