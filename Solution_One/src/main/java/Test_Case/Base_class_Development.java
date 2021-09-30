@@ -40,8 +40,8 @@ public class Base_class_Development {
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		}
-	
-	 */
+	*/
+	 
 	 
 	 public void setupApplication (String browser)
 	{

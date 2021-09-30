@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Test_Case.Side_head_sample">
+        <methods>
+          <include name="Side_Heading_One"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Case.Side_head_sample -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

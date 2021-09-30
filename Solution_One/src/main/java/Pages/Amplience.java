@@ -25,21 +25,21 @@ WebDriver driver;
     By Login = By.xpath("//*[@type='submit']"); 
     
  //   By Production = By.xpath("(//button[@ng-repeat-start='link in $ctrl.links track by link.sref'])[3]");
-    By Production = By.xpath("(//button[@ng-repeat-start='link in ::$ctrl.links track by link.sref'])[3]");
+    By Production = By.xpath("//button[@am-id='am-masthead-menu__content-button']");
     
-    By solution_slots = By.xpath("//*[text()='SolutionOne Slots']");
-    By solution_content_name1 = By.xpath("//*[text()='Section: Pay As You Go Solution']");
-    By solution_content_name2 = By.xpath("//*[text()='Section: Safety and Loss Control']"); 
-    By solution_content_name3 = By.xpath("//*[text()='Section: Claim Services']");
-    By solution_content_name4 = By.xpath("//*[text()='Section: Coverages & Protection']");
-    By solution_content_name5 = By.xpath("//*[text()='Section: Contact Us']");
-    By solution_slot_name = By.xpath("//span[text()='Solution One Homepage']");
-    By Solution_slot_one = By.xpath("//*[text()='1']");
-    By Solution_slot_Two = By.xpath("//*[text()='2']");
-    By Solution_slot_Three = By.xpath("//*[text()='3']");
-    By Solution_slot_Four = By.xpath("//*[text()='4']");
-    By Solution_slot_Five = By.xpath("//*[text()='5']");
-    By Solution_slot_Six = By.xpath("//*[text()='6']");
+    By solution_slots = By.xpath("(//*[text()='SolutionOne Content'])[2]");
+    By solution_content_name1 = By.xpath("//*[text()=' Section: Pay As You Go Solution ']");
+    By solution_content_name2 = By.xpath("//*[text()=' Section: Safety and Loss Control ']"); 
+    By solution_content_name3 = By.xpath("//*[text()=' Section: Claim Services ']");
+    By solution_content_name4 = By.xpath("//*[text()=' Section: Coverages & Protection ']");
+    By solution_content_name5 = By.xpath("//*[text()=' Section: Contact Us ']");
+    By solution_slot_name = By.xpath("//span[text()=' Solution One Homepage ']");
+    By Solution_slot_one = By.xpath("//*[@am-id='authoring__container-card--0']");
+    By Solution_slot_Two = By.xpath("//*[@am-id='authoring__container-card--0']");
+    By Solution_slot_Three = By.xpath("//*[@am-id='authoring__container-card--0']");
+    By Solution_slot_Four = By.xpath("//*[@am-id='authoring__container-card--0']");
+    By Solution_slot_Five = By.xpath("//*[@am-id='authoring__container-card--0']");
+    By Solution_slot_Six = By.xpath("//*[@am-id='authoring__container-card--0']");
     By Solution_slot_one_new= By.xpath("//*[@ng-if='$ctrl.isIndexDefined($ctrl.index)']");
     
     //By Solution_edit_one = By.xpath("(//*[@ng-if='$ctrl.editConditions()'])[4]");
@@ -94,23 +94,6 @@ WebDriver driver;
     	driver.findElement(Login).click();
     }
 
-    public void solution_slot() throws InterruptedException {
-    	 JavascriptExecutor js = (JavascriptExecutor) driver;
-    	WebDriverWait wait = new WebDriverWait(driver,60);
- 		wait.until(ExpectedConditions.visibilityOfElementLocated(Production));
- 		
-    	driver.findElement(Production).click();
-    	
-    	WebDriverWait wait1 = new WebDriverWait(driver,160);
- 		wait1.until(ExpectedConditions.visibilityOfElementLocated(solution_slots));
- 		 WebElement Element = driver.findElement(solution_slots);
-	 	 js.executeScript("arguments[0].scrollIntoView();", Element);
-	 	 Thread.sleep(3000);
-    	driver.findElement(solution_slots).click();
-	 	 
-    	
-    }
-   
     public void solution_Content() throws InterruptedException {
    	 JavascriptExecutor js = (JavascriptExecutor) driver;
    	WebDriverWait wait = new WebDriverWait(driver,60);
@@ -125,7 +108,7 @@ WebDriver driver;
 	 	 Thread.sleep(3000);
    //	driver.findElement(solution_slots).click();
 	 	 
-	 	 driver.findElement(By.xpath("//*[text()='SolutionOne Content']")).click();
+	 	 driver.findElement(solution_slots).click();
    	
    }
     
@@ -152,58 +135,7 @@ WebDriver driver;
  	 }
     
      public void Solution_slotEdit_two () throws InterruptedException{
-	 
-	    driver.switchTo().parentFrame();
-    	
-    /*	WebDriverWait wait2 = new WebDriverWait(driver,60);
- 		wait2.until(ExpectedConditions.visibilityOfElementLocated(Production));
- 		
-    	driver.findElement(Production).click();
-    	
-    	// driver.findElement(prompt).click();
-    	WebDriverWait wait6 = new WebDriverWait(driver,60);
- 		wait6.until(ExpectedConditions.visibilityOfElementLocated(Production));
-    	driver.findElement(Production).click();
-    	
-    	WebDriverWait wait = new WebDriverWait(driver,60);
- 		wait.until(ExpectedConditions.visibilityOfElementLocated(solution_slot_name)); 
- 		
-    	driver.findElement(solution_slot_name).click();
-    	Thread.sleep(5000);
-    	
-    	JavascriptExecutor js = (JavascriptExecutor) driver;
-      	 WebElement Element = driver.findElement(footer_text);
-   	 	 js.executeScript("arguments[0].scrollIntoView();", Element);
-   	 	 
-    	WebDriverWait wait5 = new WebDriverWait(driver,60);
- 		wait5.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_Two));
- 		
- 		driver.findElement(Solution_slot_Two).click();
- 		
-       Thread.sleep(1000);
-    	WebDriverWait wait1 = new WebDriverWait(driver,60);
- 		wait1.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_Two));
- 		
- 		driver.findElement(Solutionslot_edit_Two).click();
- 		
- 		Thread.sleep(5000);
- 		
- 		driver.findElement(Solution_slot_one).click();
- 		
- 		WebDriverWait wait4 = new WebDriverWait(driver,60);
- 		wait4.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_one));
- 		
- 		driver.findElement(Solution_slot_one).click();
- 		
- 		Thread.sleep(4000);
- 		
- 		driver.findElement(Solution_edit).click();
- 		Thread.sleep(3000);
- 		
- 		// JavascriptExecutor js = (JavascriptExecutor) driver;
-		 //js.executeScript("window.scrollBy(0,1000)");
-		// WebElement Element1 = driver.findElement(By.xpath("//*[@id='/bannerButton']/div/div[1]/am-collapsible-section-header/div/span"));
-*/ 		
+	 	
 	    WebDriverWait wait2 = new WebDriverWait(driver,60);
  		wait2.until(ExpectedConditions.visibilityOfElementLocated(solution_content_name2));
  		Thread.sleep(6000);
@@ -222,79 +154,11 @@ WebDriver driver;
 	    WebElement Element1 = driver.findElement(text_section);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		 Thread.sleep(3000);
- 		/*driver.findElement(solutionslot_textEdit).click();
- 		driver.findElement(slot_editTab).click();
  		
- 		Thread.sleep(3000);
-*/
 }
  
-    public void Solution_slotEdit_three () throws InterruptedException{
+     public void Solution_slotEdit_three () throws InterruptedException{
 	 
-	     driver.switchTo().parentFrame();
- 	
- 	   /*  WebDriverWait wait2 = new WebDriverWait(driver,60);
-		 wait2.until(ExpectedConditions.visibilityOfElementLocated(Production));
-		
- 	      driver.findElement(Production).click();
- 	
- 	  //  driver.findElement(prompt).click();
- 	
- 	     WebDriverWait wait6 = new WebDriverWait(driver,60);
-	   wait6.until(ExpectedConditions.visibilityOfElementLocated(Production));
-	
- 	   driver.findElement(Production).click();
- 	
- 	    WebDriverWait wait = new WebDriverWait(driver,60);
-	    wait.until(ExpectedConditions.visibilityOfElementLocated(solution_slot_name));
-		
- 	    driver.findElement(solution_slot_name).click();
- 	    
- 	    Thread.sleep(5000);
- 	    
- 	   JavascriptExecutor js = (JavascriptExecutor) driver;
- 	   	 WebElement Element = driver.findElement(footer_text);
- 		 	 js.executeScript("arguments[0].scrollIntoView();", Element);
- 	
- 	    WebDriverWait wait_slot = new WebDriverWait(driver,60);
-		wait_slot.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_Three));
-		Thread.sleep(3000);
-		driver.findElement(Solution_slot_Three).click();
- 	    
- 	    
- 	    WebDriverWait wait5 = new WebDriverWait(driver,160);
-	    wait5.until(ExpectedConditions.visibilityOfElementLocated(Solutionslot_edit_Three));
-		
-		driver.findElement(Solutionslot_edit_Three).click();
-		
-		Thread.sleep(15000);
-
-        WebDriverWait wait1 = new WebDriverWait(driver,60);
-		wait1.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_one));
-		
-		driver.findElement( Solution_slot_one).click();
-		
-		WebDriverWait wait4 = new WebDriverWait(driver,60);
-		wait4.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_one));
-		
-		driver.findElement(Solution_slot_one).click();
-		
-		driver.findElement(solutionslot_textEdit).click();
-		Thread.sleep(9000);
-		driver.findElement(slot_editTab).click();
-		Thread.sleep(3000);
-    
-		
-		
- 		Thread.sleep(2000);
- 		
- 		driver.findElement(Solution_edit).click();
- 		Thread.sleep(3000);*/
- 		
- 		// JavascriptExecutor js = (JavascriptExecutor) driver;
-		 //js.executeScript("window.scrollBy(0,1000)");
-		// WebElement Element1 = driver.findElement(By.xpath("//*[@id='/bannerButton']/div/div[1]/am-collapsible-section-header/div/span"));
-	     
 	     WebDriverWait wait2 = new WebDriverWait(driver,60);
 	 		wait2.until(ExpectedConditions.visibilityOfElementLocated(solution_content_name3));
 	 		Thread.sleep(6000);
@@ -315,51 +179,8 @@ WebDriver driver;
 		 Thread.sleep(3000);
 }
     
-    
-    public void Solution_slotEdit_four () throws InterruptedException{
-   	 
-	    driver.switchTo().parentFrame();
- 	
- 	/*WebDriverWait wait2 = new WebDriverWait(driver,60);
-		wait2.until(ExpectedConditions.visibilityOfElementLocated(Production));
-		
- 	driver.findElement(Production).click();
- 	
-  //driver.findElement(prompt).click();
- 	
- 	WebDriverWait wait6 = new WebDriverWait(driver,60);
-	wait6.until(ExpectedConditions.visibilityOfElementLocated(Production));
-	
- 	  driver.findElement(Production).click();
- 	
- 	WebDriverWait wait = new WebDriverWait(driver,60);
-	wait.until(ExpectedConditions.visibilityOfElementLocated(solution_slot_name));
-		
- 	  driver.findElement(solution_slot_name).click();
-    Thread.sleep(5000);
-    
-    JavascriptExecutor js = (JavascriptExecutor) driver;
-  	 WebElement Element = driver.findElement(footer_text);
-	 	 js.executeScript("arguments[0].scrollIntoView();", Element);
- 	 WebDriverWait wait5 = new WebDriverWait(driver,160);
- 	wait5.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_Four));
- 		
- 		driver.findElement(Solution_slot_Four).click();
- 		
- 		Thread.sleep(2000);
- 		driver.findElement( Solutionslot_edit_Four).click();
- 			
- 		Thread.sleep(5000);
- 		
- 		WebDriverWait wait4 = new WebDriverWait(driver,60);
- 		wait4.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_one));
- 		
- 		driver.findElement(Solution_slot_one).click();
- 		
- 		driver.findElement(solutionslot_textEdit).click();
- 		driver.findElement(slot_editTab).click();
- 		Thread.sleep(3000);*/
-	    
+     public void Solution_slotEdit_four () throws InterruptedException{
+   	    
 	    WebDriverWait wait2 = new WebDriverWait(driver,60);
  		wait2.until(ExpectedConditions.visibilityOfElementLocated(solution_content_name4));
  		Thread.sleep(6000);
@@ -376,82 +197,11 @@ WebDriver driver;
  		Thread.sleep(3000);
  		driver.findElement(slot_editTab).click();
  		Thread.sleep(5000);
- 		
- 		
-       /*  Thread.sleep(2000);
- 		
- 		driver.findElement(Solution_edit).click();
- 		Thread.sleep(3000);
- 		
- 		 JavascriptExecutor js = (JavascriptExecutor) driver;
-		 //js.executeScript("window.scrollBy(0,1000)");
-		 WebElement Element = driver.findElement(By.xpath("//*[@id='/bannerButton']/div/div[1]/am-collapsible-section-header/div/span"));
-		 js.executeScript("arguments[0].scrollIntoView();", Element);
-		 Thread.sleep(3000);*/
-    
+ 	
     }
     
-    public void Solution_slotEdit_five () throws InterruptedException{
-   	 
-	    driver.switchTo().parentFrame();
- 	
- 	  /*  WebDriverWait wait2 = new WebDriverWait(driver,60);
-		wait2.until(ExpectedConditions.visibilityOfElementLocated(Production));
-		
- 	    driver.findElement(Production).click();
- 	
- 	//   driver.findElement(prompt).click();
- 	
- 	    WebDriverWait wait6 = new WebDriverWait(driver,60);
-	    wait6.until(ExpectedConditions.visibilityOfElementLocated(Production));
-	
- 	    driver.findElement(Production).click();
- 	
- 	    WebDriverWait wait = new WebDriverWait(driver,60);
-	    wait.until(ExpectedConditions.visibilityOfElementLocated(solution_slot_name));
-		
- 	    driver.findElement(solution_slot_name).click();
- 	    
- 	   JavascriptExecutor js = (JavascriptExecutor) driver;
- 	   	 WebElement Element = driver.findElement(footer_text);
- 		 	 js.executeScript("arguments[0].scrollIntoView();", Element);
- 	  
- 	    WebDriverWait wait5 = new WebDriverWait(driver,160);
-  	    wait5.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_Five));
-  		
-  		driver.findElement(Solution_slot_Five).click();
-  		
-
-     	WebDriverWait wait1 = new WebDriverWait(driver,160);
-  		wait1.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_Five));
-  		
-  		driver.findElement( Solutionslot_edit_Five).click();
-  		
-  		Thread.sleep(5000);
-  		
-  		WebDriverWait wait3 = new WebDriverWait(driver,60);
-  		wait3.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_one));
-  		
-  		driver.findElement(Solution_slot_one).click();
-  		
-  		WebDriverWait wait4 = new WebDriverWait(driver,60);
-  		wait4.until(ExpectedConditions.visibilityOfElementLocated(Solution_slot_one));
-  		
-  		driver.findElement(Solution_slot_one).click();
-  		
-  		driver.findElement(solutionslot_textEdit).click();
-  		driver.findElement(slot_editTab).click();
-  		Thread.sleep(3000);
-  		
-         Thread.sleep(2000);
- 		
- 		driver.findElement(Solution_edit).click();
- 		Thread.sleep(3000);*/
- 		
- 		// JavascriptExecutor js = (JavascriptExecutor) driver;
-		 //js.executeScript("window.scrollBy(0,1000)");
-		// WebElement Element1 = driver.findElement(By.xpath("//*[@id='/bannerButton']/div/div[1]/am-collapsible-section-header/div/span"));
-	    
+     public void Solution_slotEdit_five () throws InterruptedException{
+   	    
 	    WebDriverWait wait2 = new WebDriverWait(driver,60);
  		wait2.until(ExpectedConditions.visibilityOfElementLocated(solution_content_name5));
  		Thread.sleep(6000);
