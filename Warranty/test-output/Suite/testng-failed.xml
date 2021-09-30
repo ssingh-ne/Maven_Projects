@@ -2,12 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="none">
   <parameter name="browser" value="firefox"/>
-  <test name="Warranty_chrome_Dev(failed)" parallel="none">
-    <parameter name="browser" value="chrome"/>
+  <test name="Warranty_FF_Dev(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="Test_Case_Dev.Our_Partner">
         <methods>
-          <include name="Partner4"/>
           <include name="Partner6"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
@@ -37,61 +36,6 @@
           <include name="tearDown"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
-          <include name="ContactUS"/>
-        </methods>
-      </class> <!-- Test_Case_Dev.Contact_US -->
-      <class name="Test_Case_Dev.HomePage_Testcase">
-        <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- Test_Case_Dev.HomePage_Testcase -->
-      <class name="Test_Case_Dev.Partner_With_US">
-        <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- Test_Case_Dev.Partner_With_US -->
-    </classes>
-  </test> <!-- Warranty_chrome_Dev(failed) -->
-  <test name="Warranty_FF_Dev(failed)" parallel="none">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="Test_Case_Dev.Our_Partner">
-        <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- Test_Case_Dev.Our_Partner -->
-      <class name="Test_Case_Dev.About_US">
-        <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- Test_Case_Dev.About_US -->
-      <class name="Test_Case_Dev.NewsEvents">
-        <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- Test_Case_Dev.NewsEvents -->
-      <class name="Test_Case_Dev.Contact_US">
-        <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="ContactUS"/>
         </methods>
       </class> <!-- Test_Case_Dev.Contact_US -->
       <class name="Test_Case_Dev.HomePage_Testcase">

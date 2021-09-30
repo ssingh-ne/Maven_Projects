@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <test name="Warranty_FF_Dev(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="Test_Case_Dev.Our_Partner">
         <methods>
           <include name="Partner6"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
           <include name="setupApplication"/>
         </methods>
       </class> <!-- Test_Case_Dev.Our_Partner -->
+      <class name="Test_Case_Dev.About_US">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Case_Dev.About_US -->
+      <class name="Test_Case_Dev.NewsEvents">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Case_Dev.NewsEvents -->
+      <class name="Test_Case_Dev.Contact_US">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Case_Dev.Contact_US -->
+      <class name="Test_Case_Dev.HomePage_Testcase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Case_Dev.HomePage_Testcase -->
+      <class name="Test_Case_Dev.Partner_With_US">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Case_Dev.Partner_With_US -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Warranty_FF_Dev(failed) -->
+</suite> <!-- Failed suite [Suite] -->
