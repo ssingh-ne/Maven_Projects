@@ -110,12 +110,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="301000" started-at="2021-09-15T16:34:51Z" finished-at="2021-09-15T16:39:52Z">
+  <suite name="Suite" duration-ms="285564" started-at="2021-09-30T03:36:50Z" finished-at="2021-09-30T03:41:36Z">
     <groups>
     </groups>
-    <test name="CG_Prod_chrome" duration-ms="123548" started-at="2021-09-15T16:34:51Z" finished-at="2021-09-15T16:36:55Z">
+    <test name="CG_Prod_chrome" duration-ms="119332" started-at="2021-09-30T03:36:50Z" finished-at="2021-09-30T03:38:50Z">
       <class name="Test_Cases_Prod.Home_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="setupApplication" is-config="true" duration-ms="6231" started-at="2021-09-15T22:05:46Z" finished-at="2021-09-15T22:05:52Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="setupApplication" is-config="true" duration-ms="5243" started-at="2021-09-30T09:07:43Z" finished-at="2021-09-30T09:07:49Z">
           <params>
             <param index="0">
               <value>
@@ -132,11 +132,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_ContactUS_btn()[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="HomePage_Header_ContactUS_btn" duration-ms="11272" started-at="2021-09-15T22:05:52Z" finished-at="2021-09-15T22:06:03Z">
+        <test-method status="PASS" signature="HomePage_Header_ContactUS_btn()[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="HomePage_Header_ContactUS_btn" duration-ms="11428" started-at="2021-09-30T09:07:49Z" finished-at="2021-09-30T09:08:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_ContactUS_btn -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="tearDown" is-config="true" duration-ms="1024" started-at="2021-09-15T22:06:03Z" finished-at="2021-09-15T22:06:04Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="tearDown" is-config="true" duration-ms="853" started-at="2021-09-30T09:08:00Z" finished-at="2021-09-30T09:08:01Z">
           <params>
             <param index="0">
               <value>
@@ -150,7 +150,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="setupApplication" is-config="true" duration-ms="5586" started-at="2021-09-15T22:06:04Z" finished-at="2021-09-15T22:06:10Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="setupApplication" is-config="true" duration-ms="5779" started-at="2021-09-30T09:08:01Z" finished-at="2021-09-30T09:08:07Z">
           <params>
             <param index="0">
               <value>
@@ -167,11 +167,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_Our_approach()[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="HomePage_Header_Our_approach" duration-ms="10900" started-at="2021-09-15T22:06:10Z" finished-at="2021-09-15T22:06:21Z">
+        <test-method status="PASS" signature="HomePage_Header_Our_approach()[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="HomePage_Header_Our_approach" duration-ms="11206" started-at="2021-09-30T09:08:07Z" finished-at="2021-09-30T09:08:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_Our_approach -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="tearDown" is-config="true" duration-ms="1414" started-at="2021-09-15T22:06:21Z" finished-at="2021-09-15T22:06:22Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="tearDown" is-config="true" duration-ms="856" started-at="2021-09-30T09:08:18Z" finished-at="2021-09-30T09:08:19Z">
           <params>
             <param index="0">
               <value>
@@ -185,7 +185,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="setupApplication" is-config="true" duration-ms="5682" started-at="2021-09-15T22:06:22Z" finished-at="2021-09-15T22:06:28Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="setupApplication" is-config="true" duration-ms="5100" started-at="2021-09-30T09:08:19Z" finished-at="2021-09-30T09:08:24Z">
           <params>
             <param index="0">
               <value>
@@ -202,11 +202,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_What_weDo()[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="HomePage_Header_What_weDo" duration-ms="7123" started-at="2021-09-15T22:06:28Z" finished-at="2021-09-15T22:06:35Z">
+        <test-method status="PASS" signature="HomePage_Header_What_weDo()[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="HomePage_Header_What_weDo" duration-ms="7065" started-at="2021-09-30T09:08:24Z" finished-at="2021-09-30T09:08:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_What_weDo -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="tearDown" is-config="true" duration-ms="1280" started-at="2021-09-15T22:06:35Z" finished-at="2021-09-15T22:06:36Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="tearDown" is-config="true" duration-ms="1499" started-at="2021-09-30T09:08:31Z" finished-at="2021-09-30T09:08:33Z">
           <params>
             <param index="0">
               <value>
@@ -220,7 +220,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="setupApplication" is-config="true" duration-ms="6075" started-at="2021-09-15T22:06:36Z" finished-at="2021-09-15T22:06:43Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="setupApplication" is-config="true" duration-ms="5274" started-at="2021-09-30T09:08:33Z" finished-at="2021-09-30T09:08:38Z">
           <params>
             <param index="0">
               <value>
@@ -237,11 +237,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="HomePage_Header_login" duration-ms="11058" started-at="2021-09-15T22:06:43Z" finished-at="2021-09-15T22:06:54Z">
+        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="HomePage_Header_login" duration-ms="11099" started-at="2021-09-30T09:08:38Z" finished-at="2021-09-30T09:08:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_login -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="tearDown" is-config="true" duration-ms="1091" started-at="2021-09-15T22:06:54Z" finished-at="2021-09-15T22:06:55Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@d7b1517]" name="tearDown" is-config="true" duration-ms="816" started-at="2021-09-30T09:08:49Z" finished-at="2021-09-30T09:08:50Z">
           <params>
             <param index="0">
               <value>
@@ -257,7 +257,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Prod.Home_TC -->
       <class name="Test_Cases_Prod.What_we_Do_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@2a18f23c]" name="setupApplication" is-config="true" duration-ms="8771" started-at="2021-09-15T22:04:51Z" finished-at="2021-09-15T22:05:00Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@2a18f23c]" name="setupApplication" is-config="true" duration-ms="7348" started-at="2021-09-30T09:06:50Z" finished-at="2021-09-30T09:06:58Z">
           <params>
             <param index="0">
               <value>
@@ -274,11 +274,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@2a18f23c]" name="HomePage_Header_login" duration-ms="28936" started-at="2021-09-15T22:05:00Z" finished-at="2021-09-15T22:05:29Z">
+        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@2a18f23c]" name="HomePage_Header_login" duration-ms="28944" started-at="2021-09-30T09:06:58Z" finished-at="2021-09-30T09:07:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_login -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@2a18f23c]" name="tearDown" is-config="true" duration-ms="804" started-at="2021-09-15T22:05:29Z" finished-at="2021-09-15T22:05:30Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@2a18f23c]" name="tearDown" is-config="true" duration-ms="859" started-at="2021-09-30T09:07:27Z" finished-at="2021-09-30T09:07:28Z">
           <params>
             <param index="0">
               <value>
@@ -294,7 +294,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Prod.What_we_Do_TC -->
       <class name="Test_Cases_Prod.Forgot_Password">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Forgot_Password@721e0f4f]" name="setupApplication" is-config="true" duration-ms="6183" started-at="2021-09-15T22:05:30Z" finished-at="2021-09-15T22:05:36Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Forgot_Password@721e0f4f]" name="setupApplication" is-config="true" duration-ms="5319" started-at="2021-09-30T09:07:28Z" finished-at="2021-09-30T09:07:33Z">
           <params>
             <param index="0">
               <value>
@@ -311,11 +311,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.Forgot_Password@721e0f4f]" name="HomePage_Header_login" duration-ms="8636" started-at="2021-09-15T22:05:36Z" finished-at="2021-09-15T22:05:45Z">
+        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.Forgot_Password@721e0f4f]" name="HomePage_Header_login" duration-ms="8994" started-at="2021-09-30T09:07:33Z" finished-at="2021-09-30T09:07:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_login -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Forgot_Password@721e0f4f]" name="tearDown" is-config="true" duration-ms="1452" started-at="2021-09-15T22:05:45Z" finished-at="2021-09-15T22:05:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Forgot_Password@721e0f4f]" name="tearDown" is-config="true" duration-ms="1615" started-at="2021-09-30T09:07:42Z" finished-at="2021-09-30T09:07:43Z">
           <params>
             <param index="0">
               <value>
@@ -331,9 +331,9 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Prod.Forgot_Password -->
     </test> <!-- CG_Prod_chrome -->
-    <test name="CG_Prod_Firefox" duration-ms="177429" started-at="2021-09-15T16:36:55Z" finished-at="2021-09-15T16:39:52Z">
+    <test name="CG_Prod_Firefox" duration-ms="166172" started-at="2021-09-30T03:38:50Z" finished-at="2021-09-30T03:41:36Z">
       <class name="Test_Cases_Prod.Home_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="setupApplication" is-config="true" duration-ms="10148" started-at="2021-09-15T22:08:11Z" finished-at="2021-09-15T22:08:21Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="setupApplication" is-config="true" duration-ms="9153" started-at="2021-09-30T09:09:54Z" finished-at="2021-09-30T09:10:03Z">
           <params>
             <param index="0">
               <value>
@@ -350,11 +350,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_ContactUS_btn()[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="HomePage_Header_ContactUS_btn" duration-ms="11764" started-at="2021-09-15T22:08:21Z" finished-at="2021-09-15T22:08:33Z">
+        <test-method status="PASS" signature="HomePage_Header_ContactUS_btn()[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="HomePage_Header_ContactUS_btn" duration-ms="11566" started-at="2021-09-30T09:10:03Z" finished-at="2021-09-30T09:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_ContactUS_btn -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="tearDown" is-config="true" duration-ms="2167" started-at="2021-09-15T22:08:33Z" finished-at="2021-09-15T22:08:35Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="tearDown" is-config="true" duration-ms="1766" started-at="2021-09-30T09:10:15Z" finished-at="2021-09-30T09:10:16Z">
           <params>
             <param index="0">
               <value>
@@ -368,7 +368,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="setupApplication" is-config="true" duration-ms="9405" started-at="2021-09-15T22:08:35Z" finished-at="2021-09-15T22:08:44Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="setupApplication" is-config="true" duration-ms="9244" started-at="2021-09-30T09:10:16Z" finished-at="2021-09-30T09:10:26Z">
           <params>
             <param index="0">
               <value>
@@ -385,11 +385,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_Our_approach()[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="HomePage_Header_Our_approach" duration-ms="11676" started-at="2021-09-15T22:08:44Z" finished-at="2021-09-15T22:08:56Z">
+        <test-method status="PASS" signature="HomePage_Header_Our_approach()[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="HomePage_Header_Our_approach" duration-ms="11194" started-at="2021-09-30T09:10:26Z" finished-at="2021-09-30T09:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_Our_approach -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="tearDown" is-config="true" duration-ms="1817" started-at="2021-09-15T22:08:56Z" finished-at="2021-09-15T22:08:58Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="tearDown" is-config="true" duration-ms="1686" started-at="2021-09-30T09:10:37Z" finished-at="2021-09-30T09:10:38Z">
           <params>
             <param index="0">
               <value>
@@ -403,7 +403,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="setupApplication" is-config="true" duration-ms="10421" started-at="2021-09-15T22:08:58Z" finished-at="2021-09-15T22:09:08Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="setupApplication" is-config="true" duration-ms="8577" started-at="2021-09-30T09:10:38Z" finished-at="2021-09-30T09:10:47Z">
           <params>
             <param index="0">
               <value>
@@ -420,11 +420,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_What_weDo()[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="HomePage_Header_What_weDo" duration-ms="13007" started-at="2021-09-15T22:09:08Z" finished-at="2021-09-15T22:09:21Z">
+        <test-method status="PASS" signature="HomePage_Header_What_weDo()[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="HomePage_Header_What_weDo" duration-ms="13565" started-at="2021-09-30T09:10:47Z" finished-at="2021-09-30T09:11:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_What_weDo -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="tearDown" is-config="true" duration-ms="1484" started-at="2021-09-15T22:09:21Z" finished-at="2021-09-15T22:09:23Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="tearDown" is-config="true" duration-ms="1372" started-at="2021-09-30T09:11:01Z" finished-at="2021-09-30T09:11:02Z">
           <params>
             <param index="0">
               <value>
@@ -438,7 +438,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="setupApplication" is-config="true" duration-ms="9348" started-at="2021-09-15T22:09:23Z" finished-at="2021-09-15T22:09:32Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="setupApplication" is-config="true" duration-ms="8772" started-at="2021-09-30T09:11:02Z" finished-at="2021-09-30T09:11:11Z">
           <params>
             <param index="0">
               <value>
@@ -455,11 +455,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="HomePage_Header_login" duration-ms="18247" started-at="2021-09-15T22:09:32Z" finished-at="2021-09-15T22:09:50Z">
+        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="HomePage_Header_login" duration-ms="23485" started-at="2021-09-30T09:11:11Z" finished-at="2021-09-30T09:11:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_login -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="tearDown" is-config="true" duration-ms="1707" started-at="2021-09-15T22:09:50Z" finished-at="2021-09-15T22:09:52Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Home_TC@2c8d66b2]" name="tearDown" is-config="true" duration-ms="1729" started-at="2021-09-30T09:11:34Z" finished-at="2021-09-30T09:11:36Z">
           <params>
             <param index="0">
               <value>
@@ -475,7 +475,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Prod.Home_TC -->
       <class name="Test_Cases_Prod.What_we_Do_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@35bbe5e8]" name="setupApplication" is-config="true" duration-ms="10399" started-at="2021-09-15T22:06:55Z" finished-at="2021-09-15T22:07:05Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@35bbe5e8]" name="setupApplication" is-config="true" duration-ms="9539" started-at="2021-09-30T09:08:50Z" finished-at="2021-09-30T09:08:59Z">
           <params>
             <param index="0">
               <value>
@@ -492,11 +492,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@35bbe5e8]" name="HomePage_Header_login" duration-ms="36152" started-at="2021-09-15T22:07:05Z" finished-at="2021-09-15T22:07:41Z">
+        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@35bbe5e8]" name="HomePage_Header_login" duration-ms="34419" started-at="2021-09-30T09:08:59Z" finished-at="2021-09-30T09:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_login -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@35bbe5e8]" name="tearDown" is-config="true" duration-ms="1447" started-at="2021-09-15T22:07:41Z" finished-at="2021-09-15T22:07:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.What_we_Do_TC@35bbe5e8]" name="tearDown" is-config="true" duration-ms="1321" started-at="2021-09-30T09:09:34Z" finished-at="2021-09-30T09:09:35Z">
           <params>
             <param index="0">
               <value>
@@ -512,7 +512,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Prod.What_we_Do_TC -->
       <class name="Test_Cases_Prod.Forgot_Password">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Forgot_Password@7dc36524]" name="setupApplication" is-config="true" duration-ms="9970" started-at="2021-09-15T22:07:43Z" finished-at="2021-09-15T22:07:53Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Prod.Forgot_Password@7dc36524]" name="setupApplication" is-config="true" duration-ms="8733" started-at="2021-09-30T09:09:35Z" finished-at="2021-09-30T09:09:44Z">
           <params>
             <param index="0">
               <value>
@@ -529,11 +529,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.Forgot_Password@7dc36524]" name="HomePage_Header_login" duration-ms="16547" started-at="2021-09-15T22:07:53Z" finished-at="2021-09-15T22:08:09Z">
+        <test-method status="PASS" signature="HomePage_Header_login()[pri:0, instance:Test_Cases_Prod.Forgot_Password@7dc36524]" name="HomePage_Header_login" duration-ms="8643" started-at="2021-09-30T09:09:44Z" finished-at="2021-09-30T09:09:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_Header_login -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Forgot_Password@7dc36524]" name="tearDown" is-config="true" duration-ms="1715" started-at="2021-09-15T22:08:09Z" finished-at="2021-09-15T22:08:11Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Prod.Forgot_Password@7dc36524]" name="tearDown" is-config="true" duration-ms="1393" started-at="2021-09-30T09:09:52Z" finished-at="2021-09-30T09:09:54Z">
           <params>
             <param index="0">
               <value>
