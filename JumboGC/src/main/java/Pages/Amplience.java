@@ -23,7 +23,7 @@ WebDriver driver;
     By Login = By.xpath("//*[@type='submit']"); 
     
    // By Production = By.xpath("(//button[@ng-repeat-start='link in $ctrl.links track by link.sref'])[3]");
-    By Production = By.xpath("(//button[@ng-repeat-start='link in ::$ctrl.links track by link.sref'])[3]");
+    By Production = By.xpath("//button[@am-id='am-masthead-menu__content-button']");
     
     By Jumbo_slots = By.xpath("//*[text()='JumboGC Slots']");
     
@@ -44,11 +44,11 @@ WebDriver driver;
     By jumboslot_textEdit = By.xpath("//*[@aria-label='Edit content']");
     By slot_editTab = By.xpath("(//*[text()='Edit'])[1]");
     By slot_heading_name = By.xpath("//*[@id='tinymce']/h2");
-    By Jumbo_content = By.xpath("//*[text()='JumboGC Content']");
-    By content_One = By.xpath("//*[text()='Text: Multi-State Coverage']");
-    By content_Two = By.xpath("//*[text()='Claim Services: Text Banner 1']");
-    By content_Three = By.xpath("//*[text()='Text: Guaranteed Cost Program']");
-    By content_Four = By.xpath("//*[text()='Text Banner: Contact Us']");
+    By Jumbo_content = By.xpath("(//*[text()='JumboGC Content'])[2]");
+    By content_One = By.xpath("//*[text()=' Text: Multi-State Coverage ']");
+    By content_Two = By.xpath("//*[text()=' Claim Services: Text Banner 1 ']");
+    By content_Three = By.xpath("//*[text()=' Text: Guaranteed Cost Program ']");
+    By content_Four = By.xpath("//*[text()=' Text Banner: Contact Us ']");
     		
     By prompt = By.xpath("//*[@ng-click='$ctrl.discard()']");
     By footer_text = By.xpath("//*[text()=' footer ']");
@@ -69,7 +69,8 @@ WebDriver driver;
     }
 
     public void Jumbo_Slots () throws InterruptedException {
-    	 JavascriptExecutor js = (JavascriptExecutor) driver;
+    	
+    	JavascriptExecutor js = (JavascriptExecutor) driver;
     	WebDriverWait wait = new WebDriverWait(driver,60);
  		wait.until(ExpectedConditions.visibilityOfElementLocated(Production));
  		
