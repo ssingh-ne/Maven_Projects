@@ -33,6 +33,8 @@ WebDriver driver;
 		driver.findElement(search_field).clear();
 		driver.findElement(search_field).click();
 		driver.findElement(search_field).sendKeys(City);
+		Thread.sleep(5000);
+		driver.findElement(search_field).sendKeys(Keys.DOWN);
 		driver.findElement(search_field).sendKeys(Keys.ENTER);
 		
 		Thread.sleep(18000);
@@ -51,6 +53,8 @@ WebDriver driver;
 		driver.findElement(search_field).clear();
 		driver.findElement(search_field).click();
 		driver.findElement(search_field).sendKeys(State);
+		Thread.sleep(5000);
+		driver.findElement(search_field).sendKeys(Keys.DOWN);
 		driver.findElement(search_field).sendKeys(Keys.ENTER);
 		
         Thread.sleep(18000);
@@ -70,6 +74,8 @@ WebDriver driver;
 	driver.findElement(search_field).clear();
 	driver.findElement(search_field).click();
 	driver.findElement(search_field).sendKeys(Zip);
+	Thread.sleep(5000);
+	driver.findElement(search_field).sendKeys(Keys.DOWN);
 	driver.findElement(search_field).sendKeys(Keys.ENTER);
 	
 	Thread.sleep(18000);
@@ -90,6 +96,8 @@ WebDriver driver;
 		driver.findElement(search_field).clear();
 		driver.findElement(search_field).click();
 		driver.findElement(search_field).sendKeys(Address);
+		Thread.sleep(5000);
+		driver.findElement(search_field).sendKeys(Keys.DOWN);
 		driver.findElement(search_field).sendKeys(Keys.ENTER);
 		
 		Thread.sleep(18000);

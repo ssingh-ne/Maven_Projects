@@ -64,7 +64,7 @@ public class FAQ  extends Base_class {
 	 		System.out.println("A6 = " +A6);
 	 	
 
-	 		a.Amplience_url();
+	 	/*	a.Amplience_url();
 			
 			a.Amplience_Login();
 			a.Promesa_Slots();
@@ -145,6 +145,6 @@ public class FAQ  extends Base_class {
 			 		assertEquals(A3, FAQ_ques_ans_three);
      		 		assertEquals(A4, FAQ_ques_ans_four);
 			 		assertEquals(A5, FAQ_ques_ans_five);
-			 		assertEquals(A6, FAQ_ques_ans_six);
+			 		assertEquals(A6, FAQ_ques_ans_six);*/
 }
 }

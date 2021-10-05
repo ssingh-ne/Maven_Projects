@@ -28,6 +28,7 @@ WebDriver driver;
     By Production = By.xpath("(//button[@ng-repeat-start='link in ::$ctrl.links track by link.sref'])[3]");
     
     By Promesa_slots = By.xpath("//*[text()='Promesa Slots']");
+    By Promesa_content = By.xpath("//*[text()='Promesa Content']");
     
     By Promesa_slot_name = By.xpath("//span[text()='Promesa - Homepage']");
     By Promesa_slot_one = By.xpath("//*[text()='1']");
@@ -53,6 +54,9 @@ WebDriver driver;
     
     By logout = By.xpath("//*[@id='Layer_1_copy']");
     By footer_text = By.xpath("//*[text()=' footer ']");
+    
+    By Side_heading1 = By.xpath("//*[text()='Section: Cost & Care Management']");
+    By Edit1 = By.xpath("(//*[@aria-label='Edit content'])[1]");
     
     JavascriptExecutor js = (JavascriptExecutor) driver;
     
@@ -101,92 +105,37 @@ WebDriver driver;
     	
     }
     
+    public void Promesa_content () throws InterruptedException {
+   	 JavascriptExecutor js = (JavascriptExecutor) driver;
+   	WebDriverWait wait = new WebDriverWait(driver,60);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(Production));
+		
+   	driver.findElement(Production).click();
+   	
+   	WebDriverWait wait1 = new WebDriverWait(driver,160);
+		wait1.until(ExpectedConditions.visibilityOfElementLocated(Promesa_content));
+		 WebElement Element = driver.findElement(Promesa_content);
+	 	 js.executeScript("arguments[0].scrollIntoView();", Element);
+	 	 Thread.sleep(3000);
+   	driver.findElement(Promesa_content).click();
+   	
+   }
+   
     
     public void Promesa_slotEdit_one () throws InterruptedException{
     	
     	WebDriverWait wait2 = new WebDriverWait(driver,60);
- 		wait2.until(ExpectedConditions.visibilityOfElementLocated(Promesa_slot_name));
+ 		wait2.until(ExpectedConditions.visibilityOfElementLocated(Side_heading1));
  		Thread.sleep(6000);
- 		String s = driver.findElement(Promesa_slot_name).getText();
- 		System.out.println("text = " + s);
-    	driver.findElement(Promesa_slot_name).click();
+ 		
+ 		driver.findElement(Side_heading1).click();
+ 		
+ 		Thread.sleep(3000);
+ 		
+ 		driver.findElement(Promesa_slot_one).click();
+ 		Thread.sleep(5000);
+ 		driver.findElement(Edit1).click();
     	
-    	JavascriptExecutor js = (JavascriptExecutor) driver;
-    	WebElement Element = driver.findElement(footer_text);
-    	js.executeScript("arguments[0].scrollIntoView();", Element);
-    		
-    	Thread.sleep(5000);
-
- 		driver.findElement(Promesa_slot_one).click();
- 		
- 		Thread.sleep(3000);
-    	WebDriverWait wait1 = new WebDriverWait(driver,60);
- 		wait1.until(ExpectedConditions.visibilityOfElementLocated(Promesa_slot_one));
- 		
- 		driver.findElement(Promesaslot_edit_one).click();
- 		
- 		WebDriverWait wait3 = new WebDriverWait(driver,60);
- 		wait3.until(ExpectedConditions.visibilityOfElementLocated(Promesa_slot_one));
- 		
- 		Thread.sleep(5000);
- 		driver.findElement(Promesa_slot_one).click();
- 		
- 		driver.findElement(Promesaslot_textEdit).click();
- 		
- 		Thread.sleep(3000);
- 		driver.findElement(slot_editTab).click();
- 		Thread.sleep(5000);
- 		
-         driver.findElement(Production).click();
-
-         driver.findElement(prompt).click();
-    	
-         driver.findElement(Production).click();
-         
-         Thread.sleep(3000);
-        
-    	WebDriverWait wait5 = new WebDriverWait(driver,60);
- 		wait5.until(ExpectedConditions.visibilityOfElementLocated(Promesa_slot_name));
- 		Thread.sleep(6000);
- 		 
- 		String ss = driver.findElement(Promesa_slot_name).getText();
- 		System.out.println("text = " + ss);
-    	driver.findElement(Promesa_slot_name).click();
-    	
-    	JavascriptExecutor js1 = (JavascriptExecutor) driver;
-    	WebElement Element1 = driver.findElement(footer_text);
-    	js1.executeScript("arguments[0].scrollIntoView();", Element1);
-    		
-    	Thread.sleep(5000);
- 		
- 		driver.findElement(Promesa_slot_one).click();
- 		
- 		Thread.sleep(3000);
-    	WebDriverWait wait7 = new WebDriverWait(driver,160);
- 		wait7.until(ExpectedConditions.visibilityOfElementLocated(Promesa_slot_one));
- 		
- 		driver.findElement(Promesaslot_edit_one).click();
- 		
- 		WebDriverWait wait8 = new WebDriverWait(driver,60);
- 		wait8.until(ExpectedConditions.visibilityOfElementLocated(Promesa_slot_one));
- 		
- 		Thread.sleep(5000);
- 		driver.findElement(Promesa_slot_one).click();
- 		
- 		driver.findElement(Promesaslot_textEdit).click();
- 		
- 		Thread.sleep(3000);
- 		driver.findElement(slot_editTab).click();
- 		Thread.sleep(5000);
- 	
-    	/*Thread.sleep(5000);
-        driver.findElement(Promesa_slot_one).click();  
- 		
- 		driver.findElement(Promesaslot_textEdit).click();
- 		
- 		Thread.sleep(3000);
- 		driver.findElement(slot_editTab).click();
- 		Thread.sleep(3000);*/
     	
     	
     }

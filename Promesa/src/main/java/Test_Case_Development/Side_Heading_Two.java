@@ -36,7 +36,7 @@ public class Side_Heading_Two  extends Base_class {
 	 	 		
 	 	 	System.out.println("Mainheading5 = "+ Mainheading5 );
 		
-		a.Amplience_url();
+		/*a.Amplience_url();
 		
 		a.Amplience_Login();
 		a.Promesa_Slots();
@@ -60,7 +60,7 @@ public class Side_Heading_Two  extends Base_class {
 		 		
            
 	 	 		
-	 	 		assertEquals(Mainheading5, slot_heading5);
+	 	 		assertEquals(Mainheading5, slot_heading5);*/
 	 	 		
 	 	
 	}

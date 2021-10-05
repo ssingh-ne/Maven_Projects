@@ -34,7 +34,7 @@ public class FAQ  extends Base_class {
 	 	
 		// FQA question answer
 	 		
-	 		/*h.FAQ_Answer_1();
+	 		h.FAQ_Answer_1();
 	 		String A1 = driver.findElement(ans1).getText();
 	 		System.out.println("A1 = " +A1);
 	 		
@@ -61,15 +61,15 @@ public class FAQ  extends Base_class {
 
 	 		h.FAQ_Answer_6();
 	 		String A6 = driver.findElement(ans6).getText();
-	 		System.out.println("A6 = " +A6);*/
+	 		System.out.println("A6 = " +A6);
 	 	
 
-	 		a.Amplience_url();
+		/*a.Amplience_url();
 			
 			a.Amplience_Login();
 			a.Promesa_Slots();
 			
-			/*a.Promesa_slotEdit_six();
+			a.Promesa_slotEdit_six();
 			
 			 // FAQ question 1
 		 	    String FAQ_question_one = driver.findElement(FAQ_ques_one).getText();
