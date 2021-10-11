@@ -12,7 +12,7 @@
    <test name="AUW_Firefox_Dev">
    <parameter name="browser" value= "firefox"  />
     <classes>
-        <class name="TestCases_Development.News"/>
+       <class name="TestCases_Development.News"/>
       <class name="TestCases_Development.Home"/>
     </classes>
   </test>

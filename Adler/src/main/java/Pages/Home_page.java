@@ -1,9 +1,6 @@
 package Pages;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 import TestCases_Development.Base_class;
 
@@ -17,7 +14,8 @@ public class Home_page  {
 	By News_Image = By.xpath("//*[@alt='Adler Industrial Solutions Acquires Shorts Tool & Mfg.']");
 	By News_heading = By.xpath("//*[text()='News']");
 	By News_text = By.xpath("//*[text()='Adler Industrial Solutions Acquires Shorts Tool & Mfg.']");
-	
+	By ContactUs = By.xpath("//*[text()='CONTACT US']");
+	By AboutUs = By.xpath("//*[text()='About Adler']");
 	
 	By privacy_policy = By.xpath("//*[text()='Privacy Policy']");
 	By privacy_url = By.xpath("(//*[@target='_self'])[3]");
@@ -56,7 +54,6 @@ public class Home_page  {
 	   
    }
 
-   
    public void News () throws InterruptedException {
 	   
 	   JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -118,5 +115,33 @@ public class Home_page  {
 	   
    }
 
+   
+   public void Contact_Us () throws InterruptedException {
+	   
+	   JavascriptExecutor js = (JavascriptExecutor) driver;
+	   WebElement Element = driver.findElement(ContactUs);
+	   js.executeScript("arguments[0].scrollIntoView();", Element);
+	   
+	   Thread.sleep(5000);
+	   
+	  boolean contact =  driver.findElement(ContactUs).isDisplayed();
+	  
+	  System.out.println("contact us Is visible = " + contact);
+	   
+   }
+   
+ public void About_Us () throws InterruptedException {
+	   
+	   JavascriptExecutor js = (JavascriptExecutor) driver;
+	   WebElement Element = driver.findElement(AboutUs);
+	   js.executeScript("arguments[0].scrollIntoView();", Element);
+	   
+	   Thread.sleep(5000);
+	   
+	  boolean contact =  driver.findElement(AboutUs).isDisplayed();
+	  
+	  System.out.println("About us Is visible = " + contact);
+	   
+   }
 
 }
