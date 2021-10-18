@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
     <line>
       <![CDATA[=====Chrome Browser Session Started=====]]>
@@ -7,13 +7,50 @@
     <line>
       <![CDATA[=====Application Started=====]]>
     </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53263" started-at="2021-10-14T12:28:03Z" finished-at="2021-10-14T12:28:56Z">
+  <suite name="Suite" duration-ms="276013" started-at="2021-10-18T13:42:57Z" finished-at="2021-10-18T13:47:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53263" started-at="2021-10-14T12:28:03Z" finished-at="2021-10-14T12:28:56Z">
-      <class name="Test_Cases_Development.HomePage_TC">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Test_Cases_Development.HomePage_TC@2aafb23c]" name="setupApplication" is-config="true" duration-ms="16399" started-at="2021-10-14T17:58:03Z" finished-at="2021-10-14T17:58:20Z">
+    <test name="Pinnacle_Chrome_Dev" duration-ms="133537" started-at="2021-10-18T13:42:57Z" finished-at="2021-10-18T13:45:11Z">
+      <class name="Test_Cases_Development.WatsNew">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.WatsNew@256216b3]" name="setupApplication" is-config="true" duration-ms="15449" started-at="2021-10-18T19:12:57Z" finished-at="2021-10-18T19:13:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[=====Chrome Browser Session Started=====]]>
@@ -23,11 +60,138 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Development.HomePage_TC@2aafb23c]" name="main_Home_Page" duration-ms="36841" started-at="2021-10-14T17:58:20Z" finished-at="2021-10-14T17:58:56Z">
+        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Test_Cases_Development.WatsNew@256216b3]" name="WhatsNew" duration-ms="70205" started-at="2021-10-18T19:13:13Z" finished-at="2021-10-18T19:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhatsNew -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.WatsNew@256216b3]" name="tearDown" is-config="true" duration-ms="1304" started-at="2021-10-18T19:14:23Z" finished-at="2021-10-18T19:14:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhatsNew status=SUCCESS method=WatsNew.WhatsNew()[pri:0, instance:Test_Cases_Development.WatsNew@256216b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Cases_Development.WatsNew -->
+      <class name="Test_Cases_Development.HomePage_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.HomePage_TC@546a03af]" name="setupApplication" is-config="true" duration-ms="7733" started-at="2021-10-18T19:14:24Z" finished-at="2021-10-18T19:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Development.HomePage_TC@546a03af]" name="main_Home_Page" duration-ms="37753" started-at="2021-10-18T19:14:32Z" finished-at="2021-10-18T19:15:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.HomePage_TC@546a03af]" name="tearDown" is-config="true" duration-ms="1065" started-at="2021-10-18T19:15:10Z" finished-at="2021-10-18T19:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=HomePage_TC.main_Home_Page()[pri:0, instance:Test_Cases_Development.HomePage_TC@546a03af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Development.HomePage_TC -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Pinnacle_Chrome_Dev -->
+    <test name="Pinnacle_Firefox_Dev" duration-ms="142452" started-at="2021-10-18T13:45:11Z" finished-at="2021-10-18T13:47:33Z">
+      <class name="Test_Cases_Development.WatsNew">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.WatsNew@7d417077]" name="setupApplication" is-config="true" duration-ms="13899" started-at="2021-10-18T19:15:11Z" finished-at="2021-10-18T19:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Test_Cases_Development.WatsNew@7d417077]" name="WhatsNew" duration-ms="74564" started-at="2021-10-18T19:15:25Z" finished-at="2021-10-18T19:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhatsNew -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.WatsNew@7d417077]" name="tearDown" is-config="true" duration-ms="1919" started-at="2021-10-18T19:16:39Z" finished-at="2021-10-18T19:16:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhatsNew status=SUCCESS method=WatsNew.WhatsNew()[pri:0, instance:Test_Cases_Development.WatsNew@7d417077] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Cases_Development.WatsNew -->
+      <class name="Test_Cases_Development.HomePage_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.HomePage_TC@75bd9247]" name="setupApplication" is-config="true" duration-ms="12761" started-at="2021-10-18T19:16:41Z" finished-at="2021-10-18T19:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Development.HomePage_TC@75bd9247]" name="main_Home_Page" duration-ms="37364" started-at="2021-10-18T19:16:54Z" finished-at="2021-10-18T19:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_Home_Page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.HomePage_TC@75bd9247]" name="tearDown" is-config="true" duration-ms="1944" started-at="2021-10-18T19:17:32Z" finished-at="2021-10-18T19:17:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=HomePage_TC.main_Home_Page()[pri:0, instance:Test_Cases_Development.HomePage_TC@75bd9247] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Cases_Development.HomePage_TC -->
+    </test> <!-- Pinnacle_Firefox_Dev -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -38,6 +38,8 @@ public class Home {
 		  boolean contact =  driver.findElement(ContactUS).isDisplayed();
 		  
 		  System.out.println("contact us Is visible = " + contact);
+		  
+		  
 		   
 	   }
 	   
