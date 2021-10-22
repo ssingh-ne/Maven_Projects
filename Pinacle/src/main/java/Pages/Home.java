@@ -15,7 +15,7 @@ public class Home {
     By About = By.xpath("//*[text()='ABOUT US']");
     By Convey = By.xpath("//*[text()='CONVEY WHAT WE OFFER']");
     By ConveyTab1 = By.xpath("//*[text()='Facilities & Capabilities']");
-    By ConveyTab2 = By.xpath("//*[text()='Equipment Avaliable']");
+    By ConveyTab2 = By.xpath("//*[text()='Equipment Available']");
     By ContactUS = By.xpath("//*[text()='CONTACT US']");
     By privacyURL = By.xpath("//*[@target='_self']");
     By PrivacyPolicy = By.xpath("//*[text()='Privacy Policy']");
@@ -96,14 +96,17 @@ public class Home {
 		  
           boolean Convey_US2 =  driver.findElement(ConveyTab2).isDisplayed();
 		  
-		  System.out.println("Convey Tab 1 Is visible = " + Convey_US2);
+		  System.out.println("Convey Tab 2 Is visible = " + Convey_US2);
 		  
-		  driver.findElement(ConveyTab1).click();
-		  
-		  Thread.sleep(2000);
+		
+		   WebElement Element2 = driver.findElement(Convey);
+		   js.executeScript("arguments[0].scrollIntoView();", Element2);
+		   Thread.sleep(2000);
 		  
 		  driver.findElement(ConveyTab2).click();
-		   
+		  Thread.sleep(2000);
+		  driver.findElement(ConveyTab1).click();
+		  
 	   }
 
 	 public void PrivacyPolicy () throws InterruptedException {

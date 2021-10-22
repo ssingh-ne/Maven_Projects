@@ -13,19 +13,19 @@ public class WhatsNewPage {
 	//div[contains(@class, 'fadeAltClass-1')]/div/a
 	
 	By Image1 = By.xpath("(//*[@alt='News Article Image Text'])[1]");
-	By Image1_URL = By.xpath("//*[@id='__next']/div[6]/div/div/div/div[1]/div/div/div[1]/div/a");
+	By Image1_URL = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div[1]/div/div/div[1]/div/a");
 	By Image2 = By.xpath("(//*[@alt='News Article Image Text'])[2]");
-	By Image2_URL = By.xpath("//*[@id='__next']/div[6]/div/div/div/div[1]/div/div/div[2]/div/a");
+	By Image2_URL = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div[1]/div/div/div[2]/div/a");
 	By Image3 = By.xpath("(//*[@alt='News Article Image Text'])[3]");
-	By Image3_URL = By.xpath("//*[@id='__next']/div[6]/div/div/div/div/div[2]/div/div[1]/div/a");
+	By Image3_URL = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div/div[2]/div/div[1]/div/a");
 	By Image4 = By.xpath("(//*[@alt='News Article Image Text'])[4]");
-	By Image4_URL = By.xpath("//*[@id='__next']/div[6]/div/div/div/div/div[2]/div/div[2]/div/a");
+	By Image4_URL = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div/div[2]/div/div[2]/div/a");
 	By LoadMore	= By.xpath("//*[text()='LOAD MORE NEWS']");
 	
-	By Text1 = By.xpath("//*[@id='__next']/div[6]/div/div/div/div/div[1]/div/div[1]/div/a/div/div/div/p[2]");
-	By Text2 = By.xpath("//*[@id='__next']/div[6]/div/div/div/div/div[1]/div/div[2]/div/a/div/div/div/p[2]");
-	By Text3 = By.xpath("//*[@id='__next']/div[6]/div/div/div/div/div[2]/div/div[1]/div/a/div/div/div/p[2]");
-	By Text4 = By.xpath("//*[@id='__next']/div[6]/div/div/div/div/div[2]/div/div[2]/div/a/div/div/div/p[2]");
+	By Text1 = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div[1]/div/div/div[1]/div/a/div/div/div/p[2]");
+	By Text2 = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div[1]/div/div/div[2]/div/a/div/div/div/p[2]");
+	By Text3 = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div/div[2]/div/div[1]/div/a/div/div/div/p[2]");
+	By Text4 = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div/div[2]/div/div[2]/div/a/div/div/div/p[2]");
 	
 	
 	public WhatsNewPage (WebDriver driver){
@@ -127,9 +127,10 @@ public class WhatsNewPage {
 	public void LoadMore () throws InterruptedException {
 		
 		   JavascriptExecutor js = (JavascriptExecutor) driver;
-		   WebElement Element = driver.findElement(LoadMore);
+		   WebElement Element = driver.findElement(Image2);
 		   js.executeScript("arguments[0].scrollIntoView();", Element);
 		   
+		   Thread.sleep(2000);
 		   
 		   driver.findElement(LoadMore).click();
 		   
@@ -151,6 +152,9 @@ public class WhatsNewPage {
 		   Thread.sleep(3000);
 		   
 	// click on text 1
+		   WebElement Element1 = driver.findElement(Image2);
+		   js.executeScript("arguments[0].scrollIntoView();", Element1);
+		   
           driver.findElement(LoadMore).click();
 		   
 		   Thread.sleep(2000);
@@ -162,6 +166,10 @@ public class WhatsNewPage {
 		   System.out.println("Text Url 3 = " + currentTextURL3);
 		   
 		   driver.navigate().back();
+		   
+		   Thread.sleep(2000);
+		   WebElement Element2 = driver.findElement(Image2);
+		   js.executeScript("arguments[0].scrollIntoView();", Element2);
 		   
 		   Thread.sleep(2000);
            driver.findElement(LoadMore).click();
@@ -188,6 +196,12 @@ public class WhatsNewPage {
 		   driver.navigate().back();
 		   
 		   Thread.sleep(2000);
+		   
+		   WebElement Element3 = driver.findElement(Image2);
+		   js.executeScript("arguments[0].scrollIntoView();", Element3);
+		   
+		   Thread.sleep(2000);
+		   
            driver.findElement(LoadMore).click();
 		   
 		   Thread.sleep(2000);

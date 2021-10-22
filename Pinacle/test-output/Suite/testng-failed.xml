@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <test name="Pinnacle_Chrome_Dev(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Test_Cases_Development.HomePage_TC">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="main_Home_Page"/>
+        </methods>
+      </class> <!-- Test_Cases_Development.HomePage_TC -->
+      <class name="Test_Cases_Development.WatsNew">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="WhatsNew"/>
+        </methods>
+      </class> <!-- Test_Cases_Development.WatsNew -->
+    </classes>
+  </test> <!-- Pinnacle_Chrome_Dev(failed) -->
+  <test name="Pinnacle_Firefox_Dev(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Test_Cases_Development.HomePage_TC">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="main_Home_Page"/>
+        </methods>
+      </class> <!-- Test_Cases_Development.HomePage_TC -->
+      <class name="Test_Cases_Development.WatsNew">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="WhatsNew"/>
+        </methods>
+      </class> <!-- Test_Cases_Development.WatsNew -->
+    </classes>
+  </test> <!-- Pinnacle_Firefox_Dev(failed) -->
+</suite> <!-- Failed suite [Suite] -->
