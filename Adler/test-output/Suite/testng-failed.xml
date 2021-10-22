@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="none">
-  <test name="Test(failed)" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <test name="AUW_Chrome_Dev(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases_Prod.News">
+      <class name="TestCases_Development.Home">
         <methods>
-          <include name="main_Home_Page"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- TestCases_Prod.News -->
-      <class name="TestCases_Prod.Home">
+      </class> <!-- TestCases_Development.Home -->
+      <class name="TestCases_Development.News">
         <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
           <include name="main_Home_Page"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- TestCases_Prod.Home -->
+      </class> <!-- TestCases_Development.News -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- AUW_Chrome_Dev(failed) -->
+  <test name="AUW_Firefox_Dev(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestCases_Development.Home">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases_Development.Home -->
+      <class name="TestCases_Development.News">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="main_Home_Page"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases_Development.News -->
+    </classes>
+  </test> <!-- AUW_Firefox_Dev(failed) -->
 </suite> <!-- Failed suite [Suite] -->

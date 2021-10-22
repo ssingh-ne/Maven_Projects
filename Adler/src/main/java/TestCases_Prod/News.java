@@ -12,7 +12,7 @@ public class News extends Base_class {
 		
 		Home_page h = new Home_page(driver);
 		
-		h.News();
+		h.News1();
 		
 		
 		
