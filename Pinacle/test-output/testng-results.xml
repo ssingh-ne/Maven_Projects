@@ -38,12 +38,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="305546" started-at="2021-10-22T12:06:38Z" finished-at="2021-10-22T12:11:43Z">
+  <suite name="Suite" duration-ms="305700" started-at="2021-10-25T13:52:59Z" finished-at="2021-10-25T13:58:05Z">
     <groups>
     </groups>
-    <test name="Pinnacle_Chrome_Dev" duration-ms="152119" started-at="2021-10-22T12:06:38Z" finished-at="2021-10-22T12:09:10Z">
+    <test name="Pinnacle_Chrome_Dev" duration-ms="142004" started-at="2021-10-25T13:52:59Z" finished-at="2021-10-25T13:55:21Z">
       <class name="Test_Cases_Development.WatsNew">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.WatsNew@256216b3]" name="setupApplication" is-config="true" duration-ms="9010" started-at="2021-10-22T17:36:38Z" finished-at="2021-10-22T17:36:47Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.WatsNew@256216b3]" name="setupApplication" is-config="true" duration-ms="10966" started-at="2021-10-25T19:22:59Z" finished-at="2021-10-25T19:23:10Z">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Test_Cases_Development.WatsNew@256216b3]" name="WhatsNew" duration-ms="94949" started-at="2021-10-22T17:36:47Z" finished-at="2021-10-22T17:38:22Z">
+        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Test_Cases_Development.WatsNew@256216b3]" name="WhatsNew" duration-ms="79861" started-at="2021-10-25T19:23:10Z" finished-at="2021-10-25T19:24:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WhatsNew -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.WatsNew@256216b3]" name="tearDown" is-config="true" duration-ms="896" started-at="2021-10-22T17:38:22Z" finished-at="2021-10-22T17:38:22Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.WatsNew@256216b3]" name="tearDown" is-config="true" duration-ms="1594" started-at="2021-10-25T19:24:30Z" finished-at="2021-10-25T19:24:31Z">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Development.WatsNew -->
       <class name="Test_Cases_Development.HomePage_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.HomePage_TC@546a03af]" name="setupApplication" is-config="true" duration-ms="7170" started-at="2021-10-22T17:38:22Z" finished-at="2021-10-22T17:38:30Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.HomePage_TC@546a03af]" name="setupApplication" is-config="true" duration-ms="7907" started-at="2021-10-25T19:24:31Z" finished-at="2021-10-25T19:24:39Z">
           <params>
             <param index="0">
               <value>
@@ -97,11 +97,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Development.HomePage_TC@546a03af]" name="main_Home_Page" duration-ms="39229" started-at="2021-10-22T17:38:30Z" finished-at="2021-10-22T17:39:09Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Development.HomePage_TC@546a03af]" name="main_Home_Page" duration-ms="40391" started-at="2021-10-25T19:24:39Z" finished-at="2021-10-25T19:25:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.HomePage_TC@546a03af]" name="tearDown" is-config="true" duration-ms="838" started-at="2021-10-22T17:39:09Z" finished-at="2021-10-22T17:39:10Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.HomePage_TC@546a03af]" name="tearDown" is-config="true" duration-ms="1258" started-at="2021-10-25T19:25:20Z" finished-at="2021-10-25T19:25:21Z">
           <params>
             <param index="0">
               <value>
@@ -117,9 +117,9 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Development.HomePage_TC -->
     </test> <!-- Pinnacle_Chrome_Dev -->
-    <test name="Pinnacle_Firefox_Dev" duration-ms="153397" started-at="2021-10-22T12:09:10Z" finished-at="2021-10-22T12:11:43Z">
+    <test name="Pinnacle_Firefox_Dev" duration-ms="163671" started-at="2021-10-25T13:55:21Z" finished-at="2021-10-25T13:58:05Z">
       <class name="Test_Cases_Development.WatsNew">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.WatsNew@7d417077]" name="setupApplication" is-config="true" duration-ms="15700" started-at="2021-10-22T17:39:10Z" finished-at="2021-10-22T17:39:25Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.WatsNew@7d417077]" name="setupApplication" is-config="true" duration-ms="13394" started-at="2021-10-25T19:25:21Z" finished-at="2021-10-25T19:25:34Z">
           <params>
             <param index="0">
               <value>
@@ -136,11 +136,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Test_Cases_Development.WatsNew@7d417077]" name="WhatsNew" duration-ms="82041" started-at="2021-10-22T17:39:25Z" finished-at="2021-10-22T17:40:47Z">
+        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Test_Cases_Development.WatsNew@7d417077]" name="WhatsNew" duration-ms="80695" started-at="2021-10-25T19:25:34Z" finished-at="2021-10-25T19:26:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WhatsNew -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.WatsNew@7d417077]" name="tearDown" is-config="true" duration-ms="3243" started-at="2021-10-22T17:40:47Z" finished-at="2021-10-22T17:40:51Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.WatsNew@7d417077]" name="tearDown" is-config="true" duration-ms="1632" started-at="2021-10-25T19:26:55Z" finished-at="2021-10-25T19:26:57Z">
           <params>
             <param index="0">
               <value>
@@ -156,7 +156,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Development.WatsNew -->
       <class name="Test_Cases_Development.HomePage_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.HomePage_TC@75bd9247]" name="setupApplication" is-config="true" duration-ms="11851" started-at="2021-10-22T17:40:51Z" finished-at="2021-10-22T17:41:03Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.HomePage_TC@75bd9247]" name="setupApplication" is-config="true" duration-ms="27198" started-at="2021-10-25T19:26:57Z" finished-at="2021-10-25T19:27:24Z">
           <params>
             <param index="0">
               <value>
@@ -173,11 +173,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Development.HomePage_TC@75bd9247]" name="main_Home_Page" duration-ms="39125" started-at="2021-10-22T17:41:03Z" finished-at="2021-10-22T17:41:42Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Development.HomePage_TC@75bd9247]" name="main_Home_Page" duration-ms="39277" started-at="2021-10-25T19:27:24Z" finished-at="2021-10-25T19:28:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.HomePage_TC@75bd9247]" name="tearDown" is-config="true" duration-ms="1432" started-at="2021-10-22T17:41:42Z" finished-at="2021-10-22T17:41:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.HomePage_TC@75bd9247]" name="tearDown" is-config="true" duration-ms="1473" started-at="2021-10-25T19:28:03Z" finished-at="2021-10-25T19:28:05Z">
           <params>
             <param index="0">
               <value>
