@@ -20,7 +20,7 @@ public class Login_page {
     
     By forgot_pass = By.xpath("//*[text()='Forgot Password']");
     
-    String Forgot_password_url_exp = "https://develop--credit-global.netlify.app/resetpassword";
+    String Forgot_password_url_exp = "https://release-2-2-0--credit-global.netlify.app/resetpassword";
     String Prod_Forgot_password_url_exp = "https://cg.com/resetpassword";
     
     

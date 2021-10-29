@@ -79,7 +79,8 @@ public class Base_class {
 		}
 		driver.manage().window().maximize();
 		
-		driver.get("https://develop--credit-global.netlify.app/");
+		//driver.get("https://develop--credit-global.netlify.app/");
+		driver.get("https://release-2-2-0--credit-global.netlify.app/");
 		
 		Reporter.log("=====Application Started=====", true);
 		

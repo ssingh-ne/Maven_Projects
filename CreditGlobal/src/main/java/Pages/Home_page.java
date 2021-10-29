@@ -29,10 +29,10 @@ public class Home_page {
 	
 	
 	
-	String Dev_Login_URL_EXP  = "https://develop--credit-global.netlify.app/login";
-	String Dev_Contact_us_exp = "https://develop--credit-global.netlify.app/contact-us";
-	String Dev_Our_approach_exp = "https://develop--credit-global.netlify.app/our-approach";
-	String Dev_What_weDo_exp = "https://develop--credit-global.netlify.app/what-we-do";
+	String Dev_Login_URL_EXP  = "https://release-2-2-0--credit-global.netlify.app/login";
+	String Dev_Contact_us_exp = "https://release-2-2-0--credit-global.netlify.app/contact-us";
+	String Dev_Our_approach_exp = "https://release-2-2-0--credit-global.netlify.app/our-approach";
+	String Dev_What_weDo_exp = "https://release-2-2-0--credit-global.netlify.app/what-we-do";
 	
 	
 	String Prod_Login_URL_EXP  = "https://cg.com/login";
