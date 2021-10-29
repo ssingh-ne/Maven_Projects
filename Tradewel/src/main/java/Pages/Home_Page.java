@@ -85,6 +85,8 @@ public class Home_Page {
 		  
 		  driver.findElement(Privacypolicy).click();
 		  
+		  Thread.sleep(8000);
+		  
 		  Set<String> handlesSet1 = driver.getWindowHandles();
 	         List<String> handlesList1 = new ArrayList<String>(handlesSet1);
 	         driver.switchTo().window(handlesList1.get(1));
@@ -111,7 +113,9 @@ public class Home_Page {
 		  
 		  System.out.println("Expected CA Privacy policy URL = "+ CAPrivacy_URL);
 		  
+		  Thread.sleep(5000);
 		  driver.findElement(CA_Privacypolicy).click();
+		  Thread.sleep(5000);
 		  
 		  Set<String> handlesSet1 = driver.getWindowHandles();
 	         List<String> handlesList1 = new ArrayList<String>(handlesSet1);
@@ -127,7 +131,7 @@ public class Home_Page {
 		
 	}
 
-	public void Comprehensive () throws InterruptedException {
+	public void Comprehensive_tab2 () throws InterruptedException {
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 	    WebElement Element = driver.findElement(comprehensive_tab1);
@@ -136,19 +140,56 @@ public class Home_Page {
 		Thread.sleep(3000);
 		
 		driver.findElement(comprehensive_tab2).click();
-		Thread.sleep(2000);
+	}
+	
+    public void Comprehensive_tab3 () throws InterruptedException {
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+	    WebElement Element = driver.findElement(comprehensive_tab1);
+		js.executeScript("arguments[0].scrollIntoView();", Element);
+		
+		Thread.sleep(3000);
 		
 		driver.findElement(comprehensive_tab3).click();
-		Thread.sleep(2000);
+		
+   }
+		
+    public void Comprehensive_tab4 () throws InterruptedException {
+		
+ 		JavascriptExecutor js = (JavascriptExecutor) driver;
+ 	    WebElement Element = driver.findElement(comprehensive_tab1);
+ 		js.executeScript("arguments[0].scrollIntoView();", Element);
+ 		
+ 		Thread.sleep(3000);
 		
 		driver.findElement(comprehensive_tab4).click();
-		Thread.sleep(2000);
+		
+		
+   }
+		
+    public void Comprehensive_tab5 () throws InterruptedException {
+				
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+			    WebElement Element = driver.findElement(comprehensive_tab1);
+				js.executeScript("arguments[0].scrollIntoView();", Element);
+				
+				Thread.sleep(3000);
 		
 		driver.findElement(comprehensive_tab5).click();
-		Thread.sleep(2000);
 		
-		driver.findElement(comprehensive_tab1).click();
-		Thread.sleep(2000);
+		  }
+		  
+    public void Comprehensive_tab1 () throws InterruptedException {
+				
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+			    WebElement Element = driver.findElement(comprehensive_tab1);
+				js.executeScript("arguments[0].scrollIntoView();", Element);
+				
+				Thread.sleep(3000);
+	
+				driver.findElement(comprehensive_tab1).click();
+	        
+				Thread.sleep(2000);
 		
 		
 		

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <test name="Tradewel_FFTest_Development(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Test_Cases_Development.About_US">
+        <methods>
+          <include name="main_Home_Page"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Cases_Development.About_US -->
+      <class name="Test_Cases_Development.Comprehensive_Protection_FF">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Cases_Development.Comprehensive_Protection_FF -->
+      <class name="Test_Cases_Development.comprehensive_Protection">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Cases_Development.comprehensive_Protection -->
+    </classes>
+  </test> <!-- Tradewel_FFTest_Development(failed) -->
+</suite> <!-- Failed suite [Suite] -->

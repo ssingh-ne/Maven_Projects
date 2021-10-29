@@ -12,7 +12,7 @@ public class About_US extends Base_class{
 	Home_Page h = new Home_Page(driver);
 	
 	
-	h.About_US();
+    h.About_US();
 	h.CA_privacy_policy();
 	h.privacy_policy();
 	
