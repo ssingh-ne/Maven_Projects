@@ -38,12 +38,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="257637" started-at="2021-10-22T14:48:05Z" finished-at="2021-10-22T14:52:23Z">
+  <suite name="Suite" duration-ms="128571" started-at="2021-10-29T10:43:28Z" finished-at="2021-10-29T10:45:37Z">
     <groups>
     </groups>
-    <test name="AUW_Chrome_Dev" duration-ms="126147" started-at="2021-10-22T14:48:05Z" finished-at="2021-10-22T14:50:12Z">
-      <class name="TestCases_Development.News">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:TestCases_Development.News@256216b3]" name="setupApplication" is-config="true" duration-ms="12807" started-at="2021-10-22T20:18:05Z" finished-at="2021-10-22T20:18:18Z">
+    <test name="AUW_Chrome_Prod" duration-ms="61090" started-at="2021-10-29T10:43:28Z" finished-at="2021-10-29T10:44:29Z">
+      <class name="TestCases_Prod.Home">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:TestCases_Prod.Home@546a03af]" name="setupApplication" is-config="true" duration-ms="5465" started-at="2021-10-29T16:14:03Z" finished-at="2021-10-29T16:14:08Z">
           <params>
             <param index="0">
               <value>
@@ -60,15 +60,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:TestCases_Development.News@256216b3]" name="main_Home_Page" duration-ms="85976" started-at="2021-10-22T20:18:18Z" finished-at="2021-10-22T20:19:44Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:TestCases_Prod.Home@546a03af]" name="main_Home_Page" duration-ms="20242" started-at="2021-10-29T16:14:08Z" finished-at="2021-10-29T16:14:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases_Development.News@256216b3]" name="tearDown" is-config="true" duration-ms="875" started-at="2021-10-22T20:19:44Z" finished-at="2021-10-22T20:19:45Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases_Prod.Home@546a03af]" name="tearDown" is-config="true" duration-ms="900" started-at="2021-10-29T16:14:28Z" finished-at="2021-10-29T16:14:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=News.main_Home_Page()[pri:0, instance:TestCases_Development.News@256216b3] output={null}]]]>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=Home.main_Home_Page()[pri:0, instance:TestCases_Prod.Home@546a03af] output={null}]]]>
               </value>
             </param>
           </params>
@@ -78,9 +78,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases_Development.News -->
-      <class name="TestCases_Development.Home">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:TestCases_Development.Home@546a03af]" name="setupApplication" is-config="true" duration-ms="6551" started-at="2021-10-22T20:19:45Z" finished-at="2021-10-22T20:19:52Z">
+      </class> <!-- TestCases_Prod.Home -->
+      <class name="TestCases_Prod.News">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:TestCases_Prod.News@256216b3]" name="setupApplication" is-config="true" duration-ms="8779" started-at="2021-10-29T16:13:28Z" finished-at="2021-10-29T16:13:37Z">
           <params>
             <param index="0">
               <value>
@@ -97,15 +97,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:TestCases_Development.Home@546a03af]" name="main_Home_Page" duration-ms="19101" started-at="2021-10-22T20:19:52Z" finished-at="2021-10-22T20:20:11Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:TestCases_Prod.News@256216b3]" name="main_Home_Page" duration-ms="24792" started-at="2021-10-29T16:13:37Z" finished-at="2021-10-29T16:14:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases_Development.Home@546a03af]" name="tearDown" is-config="true" duration-ms="810" started-at="2021-10-22T20:20:11Z" finished-at="2021-10-22T20:20:12Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases_Prod.News@256216b3]" name="tearDown" is-config="true" duration-ms="888" started-at="2021-10-29T16:14:02Z" finished-at="2021-10-29T16:14:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=Home.main_Home_Page()[pri:0, instance:TestCases_Development.Home@546a03af] output={null}]]]>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=News.main_Home_Page()[pri:0, instance:TestCases_Prod.News@256216b3] output={null}]]]>
               </value>
             </param>
           </params>
@@ -115,11 +115,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases_Development.Home -->
-    </test> <!-- AUW_Chrome_Dev -->
-    <test name="AUW_Firefox_Dev" duration-ms="131469" started-at="2021-10-22T14:50:12Z" finished-at="2021-10-22T14:52:23Z">
-      <class name="TestCases_Development.News">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:TestCases_Development.News@7d417077]" name="setupApplication" is-config="true" duration-ms="14377" started-at="2021-10-22T20:20:12Z" finished-at="2021-10-22T20:20:26Z">
+      </class> <!-- TestCases_Prod.News -->
+    </test> <!-- AUW_Chrome_Prod -->
+    <test name="AUW_Firefox_Prod" duration-ms="67441" started-at="2021-10-29T10:44:29Z" finished-at="2021-10-29T10:45:37Z">
+      <class name="TestCases_Prod.Home">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:TestCases_Prod.Home@7d417077]" name="setupApplication" is-config="true" duration-ms="9593" started-at="2021-10-29T16:15:06Z" finished-at="2021-10-29T16:15:15Z">
           <params>
             <param index="0">
               <value>
@@ -136,15 +136,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:TestCases_Development.News@7d417077]" name="main_Home_Page" duration-ms="79156" started-at="2021-10-22T20:20:26Z" finished-at="2021-10-22T20:21:45Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:TestCases_Prod.Home@7d417077]" name="main_Home_Page" duration-ms="20167" started-at="2021-10-29T16:15:15Z" finished-at="2021-10-29T16:15:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases_Development.News@7d417077]" name="tearDown" is-config="true" duration-ms="1913" started-at="2021-10-22T20:21:45Z" finished-at="2021-10-22T20:21:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases_Prod.Home@7d417077]" name="tearDown" is-config="true" duration-ms="1334" started-at="2021-10-29T16:15:35Z" finished-at="2021-10-29T16:15:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=News.main_Home_Page()[pri:0, instance:TestCases_Development.News@7d417077] output={null}]]]>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=Home.main_Home_Page()[pri:0, instance:TestCases_Prod.Home@7d417077] output={null}]]]>
               </value>
             </param>
           </params>
@@ -154,9 +154,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases_Development.News -->
-      <class name="TestCases_Development.Home">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:TestCases_Development.Home@75bd9247]" name="setupApplication" is-config="true" duration-ms="14896" started-at="2021-10-22T20:21:47Z" finished-at="2021-10-22T20:22:02Z">
+      </class> <!-- TestCases_Prod.Home -->
+      <class name="TestCases_Prod.News">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:TestCases_Prod.News@7dc36524]" name="setupApplication" is-config="true" duration-ms="9788" started-at="2021-10-29T16:14:29Z" finished-at="2021-10-29T16:14:39Z">
           <params>
             <param index="0">
               <value>
@@ -173,15 +173,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:TestCases_Development.Home@75bd9247]" name="main_Home_Page" duration-ms="19688" started-at="2021-10-22T20:22:02Z" finished-at="2021-10-22T20:22:22Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:TestCases_Prod.News@7dc36524]" name="main_Home_Page" duration-ms="25069" started-at="2021-10-29T16:14:39Z" finished-at="2021-10-29T16:15:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases_Development.Home@75bd9247]" name="tearDown" is-config="true" duration-ms="1437" started-at="2021-10-22T20:22:22Z" finished-at="2021-10-22T20:22:23Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases_Prod.News@7dc36524]" name="tearDown" is-config="true" duration-ms="1485" started-at="2021-10-29T16:15:04Z" finished-at="2021-10-29T16:15:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=Home.main_Home_Page()[pri:0, instance:TestCases_Development.Home@75bd9247] output={null}]]]>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=News.main_Home_Page()[pri:0, instance:TestCases_Prod.News@7dc36524] output={null}]]]>
               </value>
             </param>
           </params>
@@ -191,7 +191,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases_Development.Home -->
-    </test> <!-- AUW_Firefox_Dev -->
+      </class> <!-- TestCases_Prod.News -->
+    </test> <!-- AUW_Firefox_Prod -->
   </suite> <!-- Suite -->
 </testng-results>
