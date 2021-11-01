@@ -364,7 +364,7 @@ WebDriver driver;
    		 wait.until(ExpectedConditions.visibilityOfElementLocated(Contact_US));
    		 
    		 driver.findElement(Contact_US).click();
-   		 Thread.sleep(3000);
+   		 Thread.sleep(5000);
    		 Set<String> handlesSet = driver.getWindowHandles();
            List<String> handlesList = new ArrayList<String>(handlesSet);
            driver.switchTo().window(handlesList.get(1));

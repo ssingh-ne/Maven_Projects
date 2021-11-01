@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Test_case_prod.Practices_CustomerSeekingCoverage">
+      <class name="Test_Case_dev.AUW_AboutUS">
         <methods>
+          <include name="AboutUS"/>
           <include name="setupApplication"/>
-          <include name="Practices_CustomerSeekingCoverage"/>
         </methods>
-      </class> <!-- Test_case_prod.Practices_CustomerSeekingCoverage -->
+      </class> <!-- Test_Case_dev.AUW_AboutUS -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

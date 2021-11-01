@@ -2,6 +2,10 @@ package Pages;
 
 import static org.testng.Assert.assertEquals;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -50,7 +54,8 @@ WebDriver driver;
 	By ViewAll_releases = By.xpath("//*[@href='/about-us/news']");
 	By View_All_Heading = By.xpath("//*[@id='app']/main/div[1]/div/h2");
 	
-	
+	By covid_text = By.xpath("//*[text()='COVID-19 Service Alert']");
+	By Covid_click = By.xpath("//*[text()='click here']");
 	
 	
 	By ContactUs = By.xpath("(//*[text()='Contact Us'])[1]");
@@ -71,7 +76,7 @@ WebDriver driver;
 
 	}
 	
-	 public void  LeftTab_one () throws InterruptedException {
+	public void  LeftTab_one () throws InterruptedException {
 		 Thread.sleep(5000);
 		   // Click on applied underwriters
 			String tab1 = driver.findElement(Applied_underwriters).getText();
@@ -82,7 +87,7 @@ WebDriver driver;
 		 
 	 }
 	
-	 public void  LeftTab_two () throws InterruptedException {
+    public void  LeftTab_two () throws InterruptedException {
 		 
 		      // Click on News and press
 		 Thread.sleep(2000);
@@ -106,10 +111,10 @@ WebDriver driver;
 		 
 	 }
 	 
-	 public void NEWSandPress_Heading_one () throws InterruptedException {
+    public void NEWSandPress_Heading_one () throws InterruptedException {
 		 Home_page h = new Home_page(driver);
 		 WebDriverWait wait = new WebDriverWait(driver,30);
-	 		wait.until(ExpectedConditions.visibilityOfElementLocated(NewsandPress));
+	 	 wait.until(ExpectedConditions.visibilityOfElementLocated(NewsandPress));
 		 
 		 String Learmore_headingONE = driver.findElement(Learmore_heading1).getAttribute("href");
 		 
@@ -141,7 +146,6 @@ WebDriver driver;
 			
 			System.out.println("NewsHeading = "+ NewsHeading1);
 	 }
-		 
 	
     /* public void NEWSandPress_Heading_two () throws InterruptedException {
 		 
@@ -366,5 +370,39 @@ WebDriver driver;
 		
    }
    
-   
+   public void Covid_alert () throws InterruptedException {
+	   
+	JavascriptExecutor js = (JavascriptExecutor) driver;
+	WebElement Element = driver.findElement(covid_text);
+	js.executeScript("arguments[0].scrollIntoView();", Element);
+
+	Thread.sleep(5000);
+	 
+	Boolean text = driver.findElement(covid_text).isDisplayed();
+	 
+	System.out.println("Covid Text is displayed = " + text);
+	 
+	String Expected_URL = driver.findElement(Covid_click).getAttribute("href");
+	
+	System.out.println("Expected Covid URL = "+ Expected_URL);
+	
+	driver.findElement(Covid_click).click();
+
+	Thread.sleep(5000);
+	
+	  Set<String> handlesSet1 = driver.getWindowHandles();
+      List<String> handlesList1 = new ArrayList<String>(handlesSet1);
+      driver.switchTo().window(handlesList1.get(1));
+      String Actual_URL =  driver.getCurrentUrl();
+      System.out.println("handlesSet1= " +handlesSet1);
+      
+      driver.close();
+
+  	System.out.println("Actual Covid URL = "+ Actual_URL);
+  	
+  	assertEquals(Actual_URL, Expected_URL);
+  	
+	
+	   
+   }
 }
