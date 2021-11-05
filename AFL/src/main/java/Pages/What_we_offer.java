@@ -14,12 +14,12 @@ public class What_we_offer {
 	
 	By WhatWeOffer = By.xpath("(//*[@class='MuiButton-label'])[1]");
 	
-	By Tab_one_heading = By.xpath("//*[@id='desktop-menu']/div[2]/div/div/ul/div[1]/div/div[1]/div[1]");
+	By Tab_one_heading = By.xpath("//*[@id='desktop-menu']/div[2]/div/div/ul/div[1]/div/div[1]/div[1] ");
 	
 	By Tab1 = By.xpath("//*[@id='desktop-menu']/div[2]/div/div/ul/div[1]/div/div[2]/div/div/div/div/a[1]/li");
 	By Tab2 = By.xpath("//*[@id='desktop-menu']/div[2]/div/div/ul/div[1]/div/div[2]/div/div/div/div/a[2]/li");
 	By Tab3 = By.xpath("//*[@id='desktop-menu']/div[2]/div/div/ul/div[1]/div/div[2]/div/div/div/div/a[3]/li");
-	
+	By Load_text1 = By.xpath("//*[@id='contentBlock0']/h2");
 	
 	By Tab_two_heading = By.xpath("//*[@id='desktop-menu']/div[2]/div/div/ul/div[2]");
 	By tab_two_expansion = By.xpath("//*[@id='desktop-menu']/div[2]/div/div/ul/div[2]/div/div[1]/div[2]");
@@ -69,6 +69,15 @@ public class What_we_offer {
 		
 		System.out.println("Tab page text one = " + Tab_Text);
 		
+		WebElement element1 = driver.findElement(Load_text1);
+		js.executeScript("arguments[0].scrollIntoView();", element1);
+		
+		Thread.sleep(5000);
+		
+		boolean text_load = driver.findElement(Load_text1).isDisplayed();
+		
+		System.out.println("Text Load completely"+text_load);
+		
 	// More offer section - 
 		
 		WebElement Element1 = driver.findElement(MoreOffer_heading1);
@@ -111,7 +120,17 @@ public class What_we_offer {
         String Moreheading1_ImagepageText = driver.findElement(Tab_pageText).getText();
 		
 		System.out.println("More offer heading from image = " + Moreheading1_ImagepageText);
-	    
+        
+		JavascriptExecutor js2 = (JavascriptExecutor) driver;
+		WebElement element2 = driver.findElement(Load_text1);
+		js.executeScript("arguments[0].scrollIntoView();", element2);
+		
+		Thread.sleep(5000);
+		
+		boolean text_load1 = driver.findElement(Load_text1).isDisplayed();
+		
+		System.out.println("Text Load completely"+text_load1);
+		
 	//	assertEquals(, More_heading1);
 		
 		Assert.assertTrue(Moreheading1_ImagepageText.contains(More_heading1),"Failure message") ;
@@ -136,6 +155,15 @@ public class What_we_offer {
 		
 		System.out.println("More offer heading from LearnMore = " + Moreheading1_LearnMore_Text);
 	    
+		WebElement element3 = driver.findElement(Load_text1);
+		js.executeScript("arguments[0].scrollIntoView();", element3);
+		
+		Thread.sleep(5000);
+		
+		boolean text_load2 = driver.findElement(Load_text1).isDisplayed();
+		
+		System.out.println("Text Load completely"+text_load2);
+		
 		Assert.assertTrue(Moreheading1_LearnMore_Text.contains(More_heading1),"Failure message") ;
 		
 // -----------------------------------
@@ -234,7 +262,15 @@ public class What_we_offer {
 		h.Header();
         String Tab_Text = driver.findElement(Tab_pageText).getText();
 		
-		System.out.println("Tab page text one = " + Tab_Text);
+
+		WebElement element1 = driver.findElement(Load_text1);
+		js.executeScript("arguments[0].scrollIntoView();", element1);
+		
+		Thread.sleep(5000);
+		
+		boolean text_load = driver.findElement(Load_text1).isDisplayed();
+        
+		System.out.println("Tab page text one = " + text_load);
 		
 	// More offer section - 
 		
@@ -256,6 +292,15 @@ public class What_we_offer {
         String Moreheading1_pageText = driver.findElement(Tab_pageText).getText();
 		
 		System.out.println("More offer heading one = " + Moreheading1_pageText);
+		
+		WebElement element2 = driver.findElement(Load_text1);
+		js.executeScript("arguments[0].scrollIntoView();", element2);
+		
+		Thread.sleep(5000);
+		
+		boolean text_load2 = driver.findElement(Load_text1).isDisplayed();
+        
+		System.out.println("Tab page text one = " + text_load2);
 	    
 		Assert.assertTrue(Moreheading1_pageText.contains(More_heading1),"Failure message") ;
 		
@@ -276,6 +321,14 @@ public class What_we_offer {
 	    Thread.sleep(2000);
 	    h.Header();
         String Moreheading1_ImagepageText = driver.findElement(Tab_pageText).getText();
+
+		WebElement element3 = driver.findElement(Load_text1);
+		js.executeScript("arguments[0].scrollIntoView();", element3);
+		
+		Thread.sleep(5000);
+		
+		boolean text_load1 = driver.findElement(Load_text1).isDisplayed();
+		System.out.println("Text load completely = " + text_load1);
 		
 		System.out.println("More offer heading from image = " + Moreheading1_ImagepageText);
 	    
@@ -303,6 +356,14 @@ public class What_we_offer {
 		
 		System.out.println("More offer heading from LearnMore = " + Moreheading1_LearnMore_Text);
 	    
+		WebElement element4 = driver.findElement(Load_text1);
+		js.executeScript("arguments[0].scrollIntoView();", element4);
+		
+		Thread.sleep(5000);
+		
+		boolean text_load3 = driver.findElement(Load_text1).isDisplayed();
+		System.out.println("Text load completely = " + text_load3);
+		
 		Assert.assertTrue(Moreheading1_LearnMore_Text.contains(More_heading1),"Failure message") ;
 		
 // -----------------------------------
@@ -326,6 +387,14 @@ public class What_we_offer {
 		    Thread.sleep(2000);
 		    h.Header();
 	        String Moreheading2_headingText = driver.findElement(Tab_pageText).getText();
+	        
+	        WebElement element5 = driver.findElement(Load_text1);
+			js.executeScript("arguments[0].scrollIntoView();", element5);
+			
+			Thread.sleep(5000);
+			
+			boolean text_load4 = driver.findElement(Load_text1).isDisplayed();
+			System.out.println("Text load completely = " + text_load4);	
 			
 			System.out.println("More offer heading 2 from image = " + Moreheading2_headingText);
 		
@@ -346,6 +415,14 @@ public class What_we_offer {
 		    Thread.sleep(2000);
 		    h.Header();
 	        String Moreheading2_ImagepageText = driver.findElement(Tab_pageText).getText();
+	        
+	        WebElement element6 = driver.findElement(Load_text1);
+			js.executeScript("arguments[0].scrollIntoView();", element6);
+			
+			Thread.sleep(5000);
+			
+			boolean text_load5 = driver.findElement(Load_text1).isDisplayed();
+			System.out.println("Text load completely = " + text_load5);
 			
 			System.out.println("More offer heading 2 from image = " + Moreheading2_ImagepageText);
 		
@@ -368,6 +445,14 @@ public class What_we_offer {
 	        String Moreheading2_LearnMore_Text = driver.findElement(Tab_pageText).getText();
 			
 			System.out.println("More offer heading 2 from LearnMore = " + Moreheading2_LearnMore_Text);
+			
+			WebElement element7 = driver.findElement(Load_text1);
+			js.executeScript("arguments[0].scrollIntoView();", element7);
+			
+			Thread.sleep(5000);
+			
+			boolean text_load7 = driver.findElement(Load_text1).isDisplayed();
+			System.out.println("Text load completely = " + text_load7);
 		    
 			Assert.assertTrue(Moreheading2_LearnMore_Text.contains(More_heading2),"Failure message") ;
 		
@@ -423,6 +508,15 @@ public class What_we_offer {
         String Moreheading1_pageText = driver.findElement(Tab_pageText).getText();
 		
 		System.out.println("More offer heading one = " + Moreheading1_pageText);
+
+WebElement element1 = driver.findElement(Load_text1);
+			js.executeScript("arguments[0].scrollIntoView();", element1);
+			
+			Thread.sleep(5000);
+			
+			boolean text_load1 = driver.findElement(Load_text1).isDisplayed();
+			System.out.println("Text load completely = " + text_load1);
+
 	    
 		Assert.assertTrue(Moreheading1_pageText.contains(More_heading1),"Failure message") ;
 		
@@ -445,6 +539,15 @@ public class What_we_offer {
         String Moreheading1_ImagepageText = driver.findElement(Tab_pageText).getText();
 		
 		System.out.println("More offer heading from image = " + Moreheading1_ImagepageText);
+
+WebElement element2 = driver.findElement(Load_text1);
+			js.executeScript("arguments[0].scrollIntoView();", element2);
+			
+			Thread.sleep(5000);
+			
+			boolean text_load2 = driver.findElement(Load_text1).isDisplayed();
+			System.out.println("Text load completely = " + text_load2);
+
 	    
 	//	assertEquals(, More_heading1);
 		
@@ -469,8 +572,17 @@ public class What_we_offer {
         String Moreheading1_LearnMore_Text = driver.findElement(Tab_pageText).getText();
 		
 		System.out.println("More offer heading from LearnMore = " + Moreheading1_LearnMore_Text);
-	    
-		Assert.assertTrue(Moreheading1_LearnMore_Text.contains(More_heading1),"Failure message") ;
+	 
+WebElement element3 = driver.findElement(Load_text1);
+			js.executeScript("arguments[0].scrollIntoView();", element3);
+			
+			Thread.sleep(5000);
+			
+			boolean text_load3 = driver.findElement(Load_text1).isDisplayed();
+			System.out.println("Text load completely = " + text_load3);
+   
+	
+	Assert.assertTrue(Moreheading1_LearnMore_Text.contains(More_heading1),"Failure message") ;
 		
 // -----------------------------------
  // Click on Heading 2 in More offers 
@@ -513,6 +625,15 @@ public class What_we_offer {
 		    Thread.sleep(2000);
 		    h.Header();
 	        String Moreheading2_ImagepageText = driver.findElement(Tab_pageText).getText();
+
+            WebElement element4 = driver.findElement(Load_text1);
+			js.executeScript("arguments[0].scrollIntoView();", element4);
+			
+			Thread.sleep(5000);
+			
+			boolean text_load4 = driver.findElement(Load_text1).isDisplayed();
+			System.out.println("Text load completely = " + text_load4);
+
 			
 			System.out.println("More offer heading 2 from image = " + Moreheading2_ImagepageText);
 		
@@ -535,12 +656,18 @@ public class What_we_offer {
 	        String Moreheading2_LearnMore_Text = driver.findElement(Tab_pageText).getText();
 			
 			System.out.println("More offer heading 2 from LearnMore = " + Moreheading2_LearnMore_Text);
+			
+			WebElement element5 = driver.findElement(Load_text1);
+			js.executeScript("arguments[0].scrollIntoView();", element5);
+			
+			Thread.sleep(5000);
+			
+			boolean text_load5 = driver.findElement(Load_text1).isDisplayed();
+			System.out.println("Text load completely = " + text_load5);
+
 		    
 			Assert.assertTrue(Moreheading2_LearnMore_Text.contains(More_heading2),"Failure message") ;
 
-		
-
-		
 		
 	}
 	
@@ -579,6 +706,6 @@ public class What_we_offer {
 		
 	}
 	
-	
+	//public void 
 	
 }

@@ -16,6 +16,7 @@ public class AboutUS_OutsideUS_dev extends Base_class {
 	h.Cookies();
 	a.About_US_header_Dev();
 	h.Header();
+	a.Content_load();
 	a.MeatTeam_Outside_US();
 	a.About_US_homePage_dev();
 	

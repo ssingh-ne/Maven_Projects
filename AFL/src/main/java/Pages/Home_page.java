@@ -49,6 +49,7 @@ public class Home_page {
  	By Learn_more1 = By.xpath("(//*[text()='Learn More'])[2]");
  	By Learn_more2 = By.xpath("(//*[text()='Learn More'])[3]");
  	By Learn_more3 = By.xpath("(//*[text()='Learn More'])[4]");
+ 	By content_load= By.xpath("(//*[@id='contentBlock0']/h4)[1]");
  	
     String Header_About_US =  "https://afl.auw.com/about-us";
     String Header_About_US_dev =  "https://develop--applied-financial-lines.netlify.app/about-us";
@@ -77,6 +78,19 @@ public class Home_page {
 	public Home_page (WebDriver driver){
 		this.driver=driver;
 	}
+	
+	public void Content_load() throws InterruptedException {
+    	
+   	 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 WebElement Element = driver.findElement(content_load);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		
+   	Thread.sleep(5000);
+   	
+   	boolean s = driver.findElement(content_load).isDisplayed();
+   	
+   	System.out.println("Content load and display"+ s);
+   }
 
 	 public void  Cookies () throws InterruptedException {
 		 
@@ -213,7 +227,6 @@ public class Home_page {
 		 		assertEquals(CA_PrivacyURL, EXP_CA_Privacy_Url_dev);
 		 }
 	 
-	 
 	 public void  CA_PrivacyPolicy () throws InterruptedException {
 		// CA Privacy Note 
 	 		
@@ -327,7 +340,6 @@ public class Home_page {
 		 
 	 }
 	 
-
      public void Complaints_Procedure_footer_dev () throws InterruptedException {
     	
     	 WebDriverWait wait1 = new WebDriverWait(driver,30);
@@ -375,6 +387,7 @@ public class Home_page {
 		assertEquals(URL,Header_Contact_US);
 	
 	 }
+	
 	 public void ContactUs_Header_dev () throws InterruptedException {
 		 
 			// Click on Contact Us button
@@ -394,7 +407,6 @@ public class Home_page {
 		assertEquals(URL,Header_Contact_US_dev);
 	
 	 }
-	 
 	 
 	 public void ContactUs_Btn () throws InterruptedException {
 		 
@@ -418,6 +430,7 @@ public class Home_page {
 		assertEquals(URL,Header_Contact_US);
 		
 	 }
+	 
 	 public void ContactUs_Btn_dev () throws InterruptedException {
 		 
 			// Click on Contact Us button at bottom of screen
@@ -426,7 +439,8 @@ public class Home_page {
 		 //js.executeScript("window.scrollBy(0,1000)");
 		 WebElement Element = driver.findElement(ContactUs_btn);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
-				
+		
+		 Thread.sleep(3000);
 		driver.findElement(ContactUs_btn).click();
 		
 		Thread.sleep(3000);
@@ -529,7 +543,6 @@ public class Home_page {
 		    assertEquals(Dutch_URL, Du_url_dev);
 	 }
 	 
-	 
      public void Quote ()  throws InterruptedException {
     	
       JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -549,7 +562,6 @@ public class Home_page {
 	  	  
     }
 
-     
      public void Header() {
 		 
  		// Click on Login button
@@ -567,7 +579,6 @@ public class Home_page {
  	System.out.println("Header is visible");
  		 
  	 }
-     
      
      public void Moreoffers () throws InterruptedException {
     	 

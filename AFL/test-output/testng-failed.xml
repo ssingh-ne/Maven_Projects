@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="Firefox"/>
+  <test name="AUW_FF_Dev(failed)">
+    <parameter name="browser" value="Firefox"/>
     <classes>
       <class name="Test_Cases_Dev.AboutUS_OutsideUS_dev">
         <methods>
-          <include name="main_Home_Page"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
           <include name="setupApplication"/>
         </methods>
       </class> <!-- Test_Cases_Dev.AboutUS_OutsideUS_dev -->
+      <class name="Test_Cases_Dev.What_We_offer_OutSideUs_dev">
+        <methods>
+          <include name="Footer"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Cases_Dev.What_We_offer_OutSideUs_dev -->
+      <class name="Test_Cases_Dev.ContactUS_OutsideUS_dev">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Cases_Dev.ContactUS_OutsideUS_dev -->
+      <class name="Test_Cases_Dev.HomePage_TC_dev">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Cases_Dev.HomePage_TC_dev -->
+      <class name="Test_Cases_Dev.Footer_TC_dev">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Test_Cases_Dev.Footer_TC_dev -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- AUW_FF_Dev(failed) -->
+</suite> <!-- Failed suite [Suite] -->

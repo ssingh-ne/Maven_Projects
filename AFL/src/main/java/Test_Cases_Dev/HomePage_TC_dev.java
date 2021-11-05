@@ -12,6 +12,7 @@ public class HomePage_TC_dev extends Base_class {
 	Home_page h = new Home_page(driver);
 	
 	    h.Cookies();
+	    h.Content_load();
 	    h.Moreoffers();
 	    h.About_US_header_dev();
 		h.ContactUs_Header_dev();

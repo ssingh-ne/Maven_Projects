@@ -20,6 +20,7 @@ public class About_Us_Page {
 	By Meet_2nd_btn = By.xpath("//*[@id='app']/main/div[2]/div/div/div/div/div[1]/div[2]/p");
 	By Meet_3rd_btn = By.xpath("//*[@id='app']/main/div[2]/div/div/div/div/div[1]/div[3]/p");
 	By AboutUS_learnMore = By.xpath("//*[@id='contentBlock1']/a");
+	By content_load = By.xpath("//*[@id='contentBlock0']/h2");
 	
 	
 	String Meetteam_text = "Meet The Team";
@@ -71,7 +72,21 @@ public class About_Us_Page {
 		 
 		 assertEquals(URL,Header_About_US );
 	 }
-	public void MeatTeam_Outside_US  () throws InterruptedException {
+	
+    public void Content_load() throws InterruptedException {
+    	
+    	 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 WebElement Element = driver.findElement(content_load);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		
+    	Thread.sleep(5000);
+    	
+    	boolean s = driver.findElement(content_load).isDisplayed();
+    	
+    	System.out.println("Content load and display"+ s);
+    }
+    
+    public void MeatTeam_Outside_US  () throws InterruptedException {
 		
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	WebElement Element = driver.findElement(Meetteam);
@@ -121,7 +136,6 @@ public class About_Us_Page {
 		 
 		 assertEquals(About_URL, AboutUS_URL);
     }
-
 
     public void About_US_homePage_dev () throws InterruptedException {
     	

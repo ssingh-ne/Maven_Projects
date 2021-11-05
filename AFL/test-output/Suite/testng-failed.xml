@@ -7,7 +7,6 @@
     <classes>
       <class name="Test_Cases_Dev.AboutUS_OutsideUS_dev">
         <methods>
-          <include name="main_Home_Page"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
           <include name="setupApplication"/>
@@ -16,6 +15,7 @@
       </class> <!-- Test_Cases_Dev.AboutUS_OutsideUS_dev -->
       <class name="Test_Cases_Dev.What_We_offer_OutSideUs_dev">
         <methods>
+          <include name="Footer"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
           <include name="setupApplication"/>
@@ -36,7 +36,6 @@
           <include name="tearDown"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
-          <include name="Home_Page"/>
         </methods>
       </class> <!-- Test_Cases_Dev.HomePage_TC_dev -->
       <class name="Test_Cases_Dev.Footer_TC_dev">
