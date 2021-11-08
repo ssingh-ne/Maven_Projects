@@ -416,7 +416,9 @@ public class Home_page {
 		 //js.executeScript("window.scrollBy(0,1000)");
 		 WebElement Element = driver.findElement(ContactUs_btn);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
-				
+			
+		 Thread.sleep(3000);
+		 
 		driver.findElement(ContactUs_btn).click();
 		
 		Thread.sleep(3000);

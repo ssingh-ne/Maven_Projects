@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="10" passed="9">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
     <line>
       <![CDATA[=====Chrome Browser Session Started=====]]>
@@ -92,12 +92,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="1032085" started-at="2021-11-05T12:26:24Z" finished-at="2021-11-05T12:43:36Z">
+  <suite name="Suite" duration-ms="1080829" started-at="2021-11-08T15:32:33Z" finished-at="2021-11-08T15:50:34Z">
     <groups>
     </groups>
-    <test name="AUW_Chrome_Dev" duration-ms="648702" started-at="2021-11-05T12:26:24Z" finished-at="2021-11-05T12:37:13Z">
-      <class name="Test_Cases_Dev.AboutUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="setupApplication" is-config="true" duration-ms="7401" started-at="2021-11-05T18:06:35Z" finished-at="2021-11-05T18:06:42Z">
+    <test name="AUW_Chrome_Prod" duration-ms="518724" started-at="2021-11-08T15:32:33Z" finished-at="2021-11-08T15:41:12Z">
+      <class name="Test_Case_Prod.AboutUS_OutsideUS">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="setupApplication" is-config="true" duration-ms="4984" started-at="2021-11-08T21:08:51Z" finished-at="2021-11-08T21:08:56Z">
           <params>
             <param index="0">
               <value>
@@ -114,15 +114,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="main_Home_Page" duration-ms="29596" started-at="2021-11-05T18:06:42Z" finished-at="2021-11-05T18:07:12Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="main_Home_Page" duration-ms="16078" started-at="2021-11-08T21:08:56Z" finished-at="2021-11-08T21:09:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="tearDown" is-config="true" duration-ms="725" started-at="2021-11-05T18:07:12Z" finished-at="2021-11-05T18:07:13Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="tearDown" is-config="true" duration-ms="734" started-at="2021-11-08T21:09:12Z" finished-at="2021-11-08T21:09:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=AboutUS_OutsideUS_dev.main_Home_Page()[pri:0, instance:Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e] output={null}]]]>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=AboutUS_OutsideUS.main_Home_Page()[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0] output={null}]]]>
               </value>
             </param>
           </params>
@@ -132,9 +132,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Dev.AboutUS_OutsideUS_dev -->
-      <class name="Test_Cases_Dev.HomePage_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="setupApplication" is-config="true" duration-ms="6333" started-at="2021-11-05T18:02:30Z" finished-at="2021-11-05T18:02:37Z">
+      </class> <!-- Test_Case_Prod.AboutUS_OutsideUS -->
+      <class name="Test_Case_Prod.What_We_offer_OutSideUs">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="setupApplication" is-config="true" duration-ms="7236" started-at="2021-11-08T21:02:33Z" finished-at="2021-11-08T21:02:40Z">
           <params>
             <param index="0">
               <value>
@@ -151,15 +151,52 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Home_Page()[pri:0, instance:Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="Home_Page" duration-ms="146026" started-at="2021-11-05T18:02:37Z" finished-at="2021-11-05T18:05:03Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="Footer" duration-ms="268094" started-at="2021-11-08T21:02:40Z" finished-at="2021-11-08T21:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="tearDown" is-config="true" duration-ms="702" started-at="2021-11-08T21:07:08Z" finished-at="2021-11-08T21:07:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=What_We_offer_OutSideUs.Footer()[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@23223dd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Case_Prod.What_We_offer_OutSideUs -->
+      <class name="Test_Case_Prod.HomePage_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.HomePage_TC@6ea6d14e]" name="setupApplication" is-config="true" duration-ms="5055" started-at="2021-11-08T21:09:13Z" finished-at="2021-11-08T21:09:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Home_Page()[pri:0, instance:Test_Case_Prod.HomePage_TC@6ea6d14e]" name="Home_Page" duration-ms="112651" started-at="2021-11-08T21:09:18Z" finished-at="2021-11-08T21:11:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="tearDown" is-config="true" duration-ms="766" started-at="2021-11-05T18:05:03Z" finished-at="2021-11-05T18:05:04Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.HomePage_TC@6ea6d14e]" name="tearDown" is-config="true" duration-ms="740" started-at="2021-11-08T21:11:11Z" finished-at="2021-11-08T21:11:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Home_Page status=SUCCESS method=HomePage_TC_dev.Home_Page()[pri:0, instance:Test_Cases_Dev.HomePage_TC_dev@4ec6a292] output={null}]]]>
+                <![CDATA[[TestResult name=Home_Page status=SUCCESS method=HomePage_TC.Home_Page()[pri:0, instance:Test_Case_Prod.HomePage_TC@6ea6d14e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -169,9 +206,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Dev.HomePage_TC_dev -->
-      <class name="Test_Cases_Dev.ContactUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="setupApplication" is-config="true" duration-ms="8519" started-at="2021-11-05T17:56:24Z" finished-at="2021-11-05T17:56:32Z">
+      </class> <!-- Test_Case_Prod.HomePage_TC -->
+      <class name="Test_Case_Prod.Footer_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.Footer_TC@16c0663d]" name="setupApplication" is-config="true" duration-ms="5703" started-at="2021-11-08T21:07:09Z" finished-at="2021-11-08T21:07:15Z">
           <params>
             <param index="0">
               <value>
@@ -188,15 +225,52 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="ContactUs_Page" duration-ms="25066" started-at="2021-11-05T17:56:32Z" finished-at="2021-11-05T17:56:58Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.Footer_TC@16c0663d]" name="Footer" duration-ms="67817" started-at="2021-11-08T21:07:15Z" finished-at="2021-11-08T21:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.Footer_TC@16c0663d]" name="tearDown" is-config="true" duration-ms="730" started-at="2021-11-08T21:08:22Z" finished-at="2021-11-08T21:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_TC.Footer()[pri:0, instance:Test_Case_Prod.Footer_TC@16c0663d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Case_Prod.Footer_TC -->
+      <class name="Test_Case_Prod.ContactUS_OutsideUS">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="setupApplication" is-config="true" duration-ms="5125" started-at="2021-11-08T21:08:23Z" finished-at="2021-11-08T21:08:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="ContactUs_Page" duration-ms="22310" started-at="2021-11-08T21:08:28Z" finished-at="2021-11-08T21:08:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUs_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="tearDown" is-config="true" duration-ms="781" started-at="2021-11-05T17:56:58Z" finished-at="2021-11-05T17:56:58Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="tearDown" is-config="true" duration-ms="736" started-at="2021-11-08T21:08:51Z" finished-at="2021-11-08T21:08:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ContactUs_Page status=SUCCESS method=ContactUS_OutsideUS_dev.ContactUs_Page()[pri:0, instance:Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8] output={null}]]]>
+                <![CDATA[[TestResult name=ContactUs_Page status=SUCCESS method=ContactUS_OutsideUS.ContactUs_Page()[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@4ec6a292] output={null}]]]>
               </value>
             </param>
           </params>
@@ -206,89 +280,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Dev.ContactUS_OutsideUS_dev -->
-      <class name="Test_Cases_Dev.What_We_offer_OutSideUs_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="setupApplication" is-config="true" duration-ms="6359" started-at="2021-11-05T17:56:58Z" finished-at="2021-11-05T17:57:05Z">
+      </class> <!-- Test_Case_Prod.ContactUS_OutsideUS -->
+    </test> <!-- AUW_Chrome_Prod -->
+    <test name="AUW_FF_Prod" duration-ms="562078" started-at="2021-11-08T15:41:12Z" finished-at="2021-11-08T15:50:34Z">
+      <class name="Test_Case_Prod.AboutUS_OutsideUS">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="setupApplication" is-config="true" duration-ms="9411" started-at="2021-11-08T21:17:53Z" finished-at="2021-11-08T21:18:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="Footer" duration-ms="324990" started-at="2021-11-05T17:57:05Z" finished-at="2021-11-05T18:02:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="tearDown" is-config="true" duration-ms="800" started-at="2021-11-05T18:02:30Z" finished-at="2021-11-05T18:02:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Footer status=SUCCESS method=What_We_offer_OutSideUs_dev.Footer()[pri:0, instance:Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Dev.What_We_offer_OutSideUs_dev -->
-      <class name="Test_Cases_Dev.Footer_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="setupApplication" is-config="true" duration-ms="7359" started-at="2021-11-05T18:05:04Z" finished-at="2021-11-05T18:05:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="Footer" duration-ms="83198" started-at="2021-11-05T18:05:11Z" finished-at="2021-11-05T18:06:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="tearDown" is-config="true" duration-ms="748" started-at="2021-11-05T18:06:34Z" finished-at="2021-11-05T18:06:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_TC_dev.Footer()[pri:0, instance:Test_Cases_Dev.Footer_TC_dev@1b40d5f0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Dev.Footer_TC_dev -->
-    </test> <!-- AUW_Chrome_Dev -->
-    <test name="AUW_FF_Dev" duration-ms="383365" started-at="2021-11-05T12:37:13Z" finished-at="2021-11-05T12:43:36Z">
-      <class name="Test_Cases_Dev.AboutUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="setupApplication" is-config="true" duration-ms="12291" started-at="2021-11-05T18:12:53Z" finished-at="2021-11-05T18:13:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
@@ -301,15 +301,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="main_Home_Page" duration-ms="29511" started-at="2021-11-05T18:13:05Z" finished-at="2021-11-05T18:13:35Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="main_Home_Page" duration-ms="18202" started-at="2021-11-08T21:18:02Z" finished-at="2021-11-08T21:18:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="tearDown" is-config="true" duration-ms="1049" started-at="2021-11-05T18:13:35Z" finished-at="2021-11-05T18:13:36Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="tearDown" is-config="true" duration-ms="1278" started-at="2021-11-08T21:18:21Z" finished-at="2021-11-08T21:18:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=AboutUS_OutsideUS_dev.main_Home_Page()[pri:0, instance:Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba] output={null}]]]>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=AboutUS_OutsideUS.main_Home_Page()[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@129a8472] output={null}]]]>
               </value>
             </param>
           </params>
@@ -319,13 +319,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Dev.AboutUS_OutsideUS_dev -->
-      <class name="Test_Cases_Dev.HomePage_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="setupApplication" is-config="true" duration-ms="8178" started-at="2021-11-05T18:08:43Z" finished-at="2021-11-05T18:08:51Z">
+      </class> <!-- Test_Case_Prod.AboutUS_OutsideUS -->
+      <class name="Test_Case_Prod.What_We_offer_OutSideUs">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="setupApplication" is-config="true" duration-ms="8353" started-at="2021-11-08T21:11:12Z" finished-at="2021-11-08T21:11:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Firefox]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
@@ -338,15 +338,52 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Home_Page()[pri:0, instance:Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="Home_Page" duration-ms="127471" started-at="2021-11-05T18:08:51Z" finished-at="2021-11-05T18:10:59Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="Footer" duration-ms="278664" started-at="2021-11-08T21:11:20Z" finished-at="2021-11-08T21:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="tearDown" is-config="true" duration-ms="754" started-at="2021-11-08T21:15:59Z" finished-at="2021-11-08T21:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=What_We_offer_OutSideUs.Footer()[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@1134affc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Case_Prod.What_We_offer_OutSideUs -->
+      <class name="Test_Case_Prod.HomePage_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.HomePage_TC@3cb5cdba]" name="setupApplication" is-config="true" duration-ms="8968" started-at="2021-11-08T21:18:22Z" finished-at="2021-11-08T21:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Home_Page()[pri:0, instance:Test_Case_Prod.HomePage_TC@3cb5cdba]" name="Home_Page" duration-ms="121941" started-at="2021-11-08T21:18:31Z" finished-at="2021-11-08T21:20:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="tearDown" is-config="true" duration-ms="817" started-at="2021-11-05T18:10:59Z" finished-at="2021-11-05T18:11:00Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.HomePage_TC@3cb5cdba]" name="tearDown" is-config="true" duration-ms="823" started-at="2021-11-08T21:20:33Z" finished-at="2021-11-08T21:20:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Home_Page status=SUCCESS method=HomePage_TC_dev.Home_Page()[pri:0, instance:Test_Cases_Dev.HomePage_TC_dev@d041cf] output={null}]]]>
+                <![CDATA[[TestResult name=Home_Page status=SUCCESS method=HomePage_TC.Home_Page()[pri:0, instance:Test_Case_Prod.HomePage_TC@3cb5cdba] output={null}]]]>
               </value>
             </param>
           </params>
@@ -356,13 +393,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Dev.HomePage_TC_dev -->
-      <class name="Test_Cases_Dev.ContactUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="setupApplication" is-config="true" duration-ms="7944" started-at="2021-11-05T18:07:13Z" finished-at="2021-11-05T18:07:21Z">
+      </class> <!-- Test_Case_Prod.HomePage_TC -->
+      <class name="Test_Case_Prod.Footer_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.Footer_TC@56cbfb61]" name="setupApplication" is-config="true" duration-ms="8336" started-at="2021-11-08T21:15:59Z" finished-at="2021-11-08T21:16:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Firefox]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
@@ -375,15 +412,52 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="ContactUs_Page" duration-ms="23715" started-at="2021-11-05T18:07:21Z" finished-at="2021-11-05T18:07:44Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.Footer_TC@56cbfb61]" name="Footer" duration-ms="69441" started-at="2021-11-08T21:16:08Z" finished-at="2021-11-08T21:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.Footer_TC@56cbfb61]" name="tearDown" is-config="true" duration-ms="1117" started-at="2021-11-08T21:17:17Z" finished-at="2021-11-08T21:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_TC.Footer()[pri:0, instance:Test_Case_Prod.Footer_TC@56cbfb61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Case_Prod.Footer_TC -->
+      <class name="Test_Case_Prod.ContactUS_OutsideUS">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="setupApplication" is-config="true" duration-ms="9633" started-at="2021-11-08T21:17:18Z" finished-at="2021-11-08T21:17:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="ContactUs_Page" duration-ms="23941" started-at="2021-11-08T21:17:28Z" finished-at="2021-11-08T21:17:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUs_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="tearDown" is-config="true" duration-ms="1218" started-at="2021-11-05T18:07:44Z" finished-at="2021-11-05T18:07:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="tearDown" is-config="true" duration-ms="1208" started-at="2021-11-08T21:17:52Z" finished-at="2021-11-08T21:17:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ContactUs_Page status=SUCCESS method=ContactUS_OutsideUS_dev.ContactUs_Page()[pri:0, instance:Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc] output={null}]]]>
+                <![CDATA[[TestResult name=ContactUs_Page status=SUCCESS method=ContactUS_OutsideUS.ContactUs_Page()[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@d041cf] output={null}]]]>
               </value>
             </param>
           </params>
@@ -393,144 +467,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Dev.ContactUS_OutsideUS_dev -->
-      <class name="Test_Cases_Dev.What_We_offer_OutSideUs_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="setupApplication" is-config="true" duration-ms="7900" started-at="2021-11-05T18:07:46Z" finished-at="2021-11-05T18:07:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="FAIL" signature="Footer()[pri:0, instance:Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="Footer" duration-ms="47815" started-at="2021-11-05T18:07:53Z" finished-at="2021-11-05T18:08:41Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //*[@id='app']/div[2]/div/div/div/div/div[2]/h1
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-N7K85DJ', ip: '192.168.197.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 13608, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5386def8-670a-4ea7-b91d-59d999351daf
-*** Element info: {Using=xpath, value=//*[@id='app']/div[2]/div/div/div/div/div[2]/h1}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='app']/div[2]/div/div/div/div/div[2]/h1
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-N7K85DJ', ip: '192.168.197.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 13608, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5386def8-670a-4ea7-b91d-59d999351daf
-*** Element info: {Using=xpath, value=//*[@id='app']/div[2]/div/div/div/div/div[2]/h1}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at Pages.What_we_offer.Heading_one_Tab1_OutsideUS(What_we_offer.java:68)
-	at Test_Cases_Dev.What_We_offer_OutSideUs_dev.Footer(What_We_offer_OutSideUs_dev.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="tearDown" is-config="true" duration-ms="1987" started-at="2021-11-05T18:08:41Z" finished-at="2021-11-05T18:08:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Footer status=FAILURE method=What_We_offer_OutSideUs_dev.Footer()[pri:0, instance:Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Dev.What_We_offer_OutSideUs_dev -->
-      <class name="Test_Cases_Dev.Footer_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Dev.Footer_TC_dev@129a8472]" name="setupApplication" is-config="true" duration-ms="7764" started-at="2021-11-05T18:11:00Z" finished-at="2021-11-05T18:11:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Cases_Dev.Footer_TC_dev@129a8472]" name="Footer" duration-ms="104648" started-at="2021-11-05T18:11:07Z" finished-at="2021-11-05T18:12:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Dev.Footer_TC_dev@129a8472]" name="tearDown" is-config="true" duration-ms="1046" started-at="2021-11-05T18:12:52Z" finished-at="2021-11-05T18:12:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_TC_dev.Footer()[pri:0, instance:Test_Cases_Dev.Footer_TC_dev@129a8472] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Cases_Dev.Footer_TC_dev -->
-    </test> <!-- AUW_FF_Dev -->
+      </class> <!-- Test_Case_Prod.ContactUS_OutsideUS -->
+    </test> <!-- AUW_FF_Prod -->
   </suite> <!-- Suite -->
 </testng-results>
