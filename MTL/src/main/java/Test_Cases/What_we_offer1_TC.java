@@ -106,7 +106,4 @@ public class What_we_offer1_TC  extends Base_class {
 		w.Heading_eleven();
 		
 	}
-	
-	
-	
 }

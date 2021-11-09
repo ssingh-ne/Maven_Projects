@@ -116,13 +116,15 @@ public class WhatWeOffer_page {
 	
 	By applied_heading = By.xpath("//*[@id='contentBlock0']/h4[2]");
 	
+	By Text_load  =By.xpath("//*[@id='contentBlock0']/h3");
+	
 	
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	
 	
 	 
 	 
-	public void Heading_one_URL() throws InterruptedException {
+   public void Heading_one_URL() throws InterruptedException {
 		
        Thread.sleep(3000);
 		String current_URL = driver.getCurrentUrl();
@@ -142,16 +144,23 @@ public class WhatWeOffer_page {
 		
 		System.out.println("compensation_header_URL = " + compensation_header_URL);
 		
-		/*WebElement element = driver.findElement(Solution_one_URL);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.perform();
-
-*/	
+		// Text load 
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		 //js.executeScript("window.scrollBy(0,1000)");
+		 WebElement textL = driver.findElement(Text_load);
+		 js.executeScript("arguments[0].scrollIntoView();", textL);
+		 
+		 boolean textload = driver.findElement(Text_load).isDisplayed();
+		 
+		 System.out.println("Text Load properly = " +   textload);
+		 
+		 
+		
 		 // Promesa URL
 		
 		Thread.sleep(5000);
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+		//JavascriptExecutor js = (JavascriptExecutor) driver;
 		 //js.executeScript("window.scrollBy(0,1000)");
 		 WebElement Element = driver.findElement(Solution_one_URL);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
@@ -180,17 +189,14 @@ public class WhatWeOffer_page {
 	        driver.switchTo().window(handlesList2.get(1));
 	        String PromesaURL  =  driver.getCurrentUrl();
 	        System.out.println("Promesa URL = " + PromesaURL);
+	        
+	        
 	        driver.close();
 	        driver.switchTo().window(handlesList2.get(0));
 			
 	//	----------------------------------
 		
 		Thread.sleep(5000);
-		/*JavascriptExecutor js = (JavascriptExecutor) driver;
-		 //js.executeScript("window.scrollBy(0,1000)");
-		 WebElement Element = driver.findElement(Solution_one_URL);
-		 js.executeScript("arguments[0].scrollIntoView();", Element);
-		*/ 
 		
 		String solution_URL1 = driver.findElement(Solution_one_URL).getText();
 		
@@ -212,12 +218,7 @@ public class WhatWeOffer_page {
         Thread.sleep(3000);
         
         // Jumbo GC URL
-        
-       /* WebElement element1 = driver.findElement(Jumbo_GC_URL);
-		Actions actions1 = new Actions(driver);
-		actions1.moveToElement(element1);
-		actions1.perform();*/
-		        
+                
 		 WebElement Element1 = driver.findElement(Jumbo_GC_URL);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
@@ -241,51 +242,7 @@ public class WhatWeOffer_page {
 		
         Thread.sleep(3000);
         
-       
-        
-        /*WebElement element2 = driver.findElement(Promesa_URL);
-		Actions actions2 = new Actions(driver);
-		actions2.moveToElement(element2);
-		actions2.perform();
-		*/
-
-      /*  js.executeScript("arguments[0].scrollIntoView();", Element);
-		
-		String Promesa_URL1 = driver.findElement(Promesa_URL).getText();
-		
-		// Convert string in lower case
-		String promesa_URL2 = Promesa_URL1.toLowerCase();
-		System.out.println("Promesa_URL = " + promesa_URL2);
-	
-		// capture only promesa from the string
-		
-		String promesa_URL = promesa_URL2.substring(0, 7);
-				 
-				 
-		System.out.println("Promesa_URL = " + promesa_URL);
-		
-		driver.findElement(Promesa_URL).click();
-		Thread.sleep(3000);
-		
-        Set<String> handlesSet2 = driver.getWindowHandles();
-        List<String> handlesList2 = new ArrayList<String>(handlesSet2);
-        driver.switchTo().window(handlesList2.get(1));
-        String PromesaURL  =  driver.getCurrentUrl();
-        System.out.println("Promesa URL = " + PromesaURL);
-        driver.close();
-        driver.switchTo().window(handlesList.get(0));
-		
-        Thread.sleep(3000);*/
-        
-       /* Actions  actions = new Actions(driver);
-        actions.sendKeys(Keys.PAGE_UP).build().perform();*/
-      /*  WebElement Element2 = driver.findElement(logo);
-        js.executeScript("arguments[0].scrollIntoView();", Element2);
-        
-		driver.findElement(logo).click();*/
-        
         driver.get(current_URL);
-        
         
         assertTrue(Sol1URL.contains(solution_URL));
         assertTrue(jumboURL.contains(jumbo_URL));
@@ -293,7 +250,7 @@ public class WhatWeOffer_page {
     
 	}
 	
-     public void Heading_Three_URL () throws InterruptedException {
+   public void Heading_Three_URL () throws InterruptedException {
 	
     	 Thread.sleep(3000);
     	 /*
@@ -326,12 +283,20 @@ public class WhatWeOffer_page {
  		
  		Thread.sleep(6000);
  		
- 		/*WebElement element1 = driver.findElement(Applied_underriters);
-		Actions actions1 = new Actions(driver);
-		actions1.moveToElement(element1);
-		actions1.perform();*/
+	// Text load 
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		 //js.executeScript("window.scrollBy(0,1000)");
+		 WebElement textL = driver.findElement(Text_load);
+		 js.executeScript("arguments[0].scrollIntoView();", textL);
+		 
+		 boolean textload = driver.findElement(Text_load).isDisplayed();
+		 
+		 System.out.println("Text Load properly = " +   textload);
+		 
+		 
  		
- 		JavascriptExecutor js = (JavascriptExecutor) driver;
+ 	//	JavascriptExecutor js = (JavascriptExecutor) driver;
 		 WebElement Element1 = driver.findElement(applied_heading);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
@@ -361,8 +326,7 @@ public class WhatWeOffer_page {
         assertTrue(Applied_underritersURL.contains(solution_URL));
      }
 	
-	
-    	public void  Heading_one () throws InterruptedException {
+   public void  Heading_one () throws InterruptedException {
 		
 		Thread.sleep(3000);
 		
@@ -380,7 +344,21 @@ public class WhatWeOffer_page {
 		
 		System.out.println("compensation_header_URL = " + compensation_header_URL);
 		
+	// Text load 
+		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
+		 //js.executeScript("window.scrollBy(0,1000)");
+		 WebElement textL = driver.findElement(Text_load);
+		 js.executeScript("arguments[0].scrollIntoView();", textL);
+		 
+		 boolean textload = driver.findElement(Text_load).isDisplayed();
+		 
+		 System.out.println("Text Load properly = " +   textload);
+		 
+		 
+	
+		
+	//	JavascriptExecutor js = (JavascriptExecutor) driver;
 		  WebElement Element1 = driver.findElement(Contact_US);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		 
@@ -416,7 +394,6 @@ public class WhatWeOffer_page {
 		 
 	}
 	
-	
    public void  Heading_two () throws InterruptedException {
 		
 		Thread.sleep(3000);
@@ -441,7 +418,20 @@ public class WhatWeOffer_page {
 		
 		Thread.sleep(3000);
 		
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+		// Text load 
+		
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+				 //js.executeScript("window.scrollBy(0,1000)");
+				 WebElement textL = driver.findElement(Text_load);
+				 js.executeScript("arguments[0].scrollIntoView();", textL);
+				 
+				 boolean textload = driver.findElement(Text_load).isDisplayed();
+				 
+				 System.out.println("Text Load properly = " +   textload);
+		
+		
+		
+		//JavascriptExecutor js = (JavascriptExecutor) driver;
 		 WebElement Element1 = driver.findElement(Contact_US);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
@@ -504,13 +494,19 @@ public class WhatWeOffer_page {
 		System.out.println("compensation_header_URL = " + compensation_header_URL);
 		
 		Thread.sleep(3000);
-		// Contact Us drop down 
 		
-		/*WebElement element = driver.findElement(Submit_contact);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.perform();*/
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+		// Text load 
+		
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+				 //js.executeScript("window.scrollBy(0,1000)");
+				 WebElement textL = driver.findElement(Text_load);
+				 js.executeScript("arguments[0].scrollIntoView();", textL);
+				 
+				 boolean textload = driver.findElement(Text_load).isDisplayed();
+				 
+				 System.out.println("Text Load properly = " +   textload);
+		
+		//JavascriptExecutor js = (JavascriptExecutor) driver;
 		 WebElement Element1 = driver.findElement(Contact_US);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
@@ -572,13 +568,18 @@ public class WhatWeOffer_page {
 		
 		Thread.sleep(3000);
 		
-		// Contact Us drop down 
+		// Text load 
 		
-		/*WebElement element = driver.findElement(Submit_contact);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.perform();*/
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+				 //js.executeScript("window.scrollBy(0,1000)");
+				 WebElement textL = driver.findElement(Text_load);
+				 js.executeScript("arguments[0].scrollIntoView();", textL);
+				 
+				 boolean textload = driver.findElement(Text_load).isDisplayed();
+				 
+				 System.out.println("Text Load properly = " +   textload);
+		
+		
 		 WebElement Element1 = driver.findElement(Contact_US);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
@@ -641,13 +642,18 @@ public class WhatWeOffer_page {
 		
 		Thread.sleep(3000);
 		
-		// Contact Us drop down 
+		// Text load 
 		
-		/*WebElement element = driver.findElement(Submit_contact);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.perform();*/
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+				 //js.executeScript("window.scrollBy(0,1000)");
+				 WebElement textL = driver.findElement(Text_load);
+				 js.executeScript("arguments[0].scrollIntoView();", textL);
+				 
+				 boolean textload = driver.findElement(Text_load).isDisplayed();
+				 
+				 System.out.println("Text Load properly = " +   textload);
+				 
+				 
 		 WebElement Element1 = driver.findElement(Contact_US);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
@@ -707,14 +713,17 @@ public class WhatWeOffer_page {
 		System.out.println("compensation_header_URL = " + compensation_header_URL);
 		
 		Thread.sleep(3000);
+		// Text load 
 		
-		// Contact Us drop down 
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+				 //js.executeScript("window.scrollBy(0,1000)");
+				 WebElement textL = driver.findElement(Text_load);
+				 js.executeScript("arguments[0].scrollIntoView();", textL);
+				 
+				 boolean textload = driver.findElement(Text_load).isDisplayed();
+				 
+				 System.out.println("Text Load properly = " +   textload);
 		
-		/*WebElement element = driver.findElement(Submit_contact);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.perform();*/
-		JavascriptExecutor js = (JavascriptExecutor) driver;
 		 WebElement Element1 = driver.findElement(Contact_US);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
@@ -776,14 +785,18 @@ public class WhatWeOffer_page {
 		
 		Thread.sleep(3000);
 		
-		// Contact Us drop down 
+		// Text load 
 		
-		/*WebElement element = driver.findElement(Submit_contact);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.perform();*/
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		 WebElement Element1 = driver.findElement(Contact_US);
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+				 //js.executeScript("window.scrollBy(0,1000)");
+				 WebElement textL = driver.findElement(Text_load);
+				 js.executeScript("arguments[0].scrollIntoView();", textL);
+				 
+				 boolean textload = driver.findElement(Text_load).isDisplayed();
+				 
+				 System.out.println("Text Load properly = " +   textload);
+		
+		WebElement Element1 = driver.findElement(Contact_US);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
 		Thread.sleep(5000);
@@ -820,7 +833,6 @@ public class WhatWeOffer_page {
 		
 }
 
-
    public void  Heading_eight () throws InterruptedException {
 	   
 	   Thread.sleep(3000);
@@ -844,15 +856,18 @@ public class WhatWeOffer_page {
 		System.out.println("compensation_header_URL = " + compensation_header_URL);
 		
 		Thread.sleep(3000);
+		// Text load 
 		
-		// Contact Us drop down 
-		
-		/*WebElement element = driver.findElement(Submit_contact);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.perform();*/
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		 WebElement Element1 = driver.findElement(Contact_US);
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+				 //js.executeScript("window.scrollBy(0,1000)");
+				 WebElement textL = driver.findElement(Text_load);
+				 js.executeScript("arguments[0].scrollIntoView();", textL);
+				 
+				 boolean textload = driver.findElement(Text_load).isDisplayed();
+				 
+				 System.out.println("Text Load properly = " +   textload);
+				 
+				 WebElement Element1 = driver.findElement(Contact_US);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
 		Thread.sleep(5000);
@@ -914,13 +929,17 @@ public class WhatWeOffer_page {
 		
 		Thread.sleep(3000);
 		
-		// Contact Us drop down 
+		// Text load 
 		
-		/*WebElement element = driver.findElement(Submit_contact);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.perform();*/
 		JavascriptExecutor js = (JavascriptExecutor) driver;
+		 //js.executeScript("window.scrollBy(0,1000)");
+		 WebElement textL = driver.findElement(Text_load);
+		 js.executeScript("arguments[0].scrollIntoView();", textL);
+		 
+		 boolean textload = driver.findElement(Text_load).isDisplayed();
+		 
+		 System.out.println("Text Load properly = " +   textload);
+		
 		 WebElement Element1 = driver.findElement(Contact_US);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
@@ -981,13 +1000,17 @@ public class WhatWeOffer_page {
 		
 		Thread.sleep(3000);
 		
-		// Contact Us drop down 
+		// Text load 
 		
-		/*WebElement element = driver.findElement(Submit_contact);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.perform();*/
 		JavascriptExecutor js = (JavascriptExecutor) driver;
+		 //js.executeScript("window.scrollBy(0,1000)");
+		 WebElement textL = driver.findElement(Text_load);
+		 js.executeScript("arguments[0].scrollIntoView();", textL);
+		 
+		 boolean textload = driver.findElement(Text_load).isDisplayed();
+		 
+		 System.out.println("Text Load properly = " +   textload);
+		 
 		 WebElement Element1 = driver.findElement(Contact_US);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
@@ -1050,13 +1073,17 @@ public class WhatWeOffer_page {
 		
 		Thread.sleep(3000);
 		
-		// Contact Us drop down 
+		// Text load 
 		
-		/*WebElement element = driver.findElement(Submit_contact);
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.perform();*/
 		JavascriptExecutor js = (JavascriptExecutor) driver;
+		 //js.executeScript("window.scrollBy(0,1000)");
+		 WebElement textL = driver.findElement(Text_load);
+		 js.executeScript("arguments[0].scrollIntoView();", textL);
+		 
+		 boolean textload = driver.findElement(Text_load).isDisplayed();
+		 
+		 System.out.println("Text Load properly = " +   textload);
+		 
 		 WebElement Element1 = driver.findElement(Contact_US);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
