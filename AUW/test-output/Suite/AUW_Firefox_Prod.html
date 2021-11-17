@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>AUW_Firefox_Prod</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 01 18:05:55 IST 2021</td>
+<td>Started on:</td><td>Mon Nov 15 10:15:45 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>1003 seconds (1003969 ms)</td>
+<tr><td>Total time:</td><td>981 seconds (981605 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,53 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test_case_prod.AUW_Experience.main()'><b>main</b><br>Test class: Test_case_prod.AUW_Experience</td>
+<td><div><pre>java.lang.AssertionError: expected [What Applied knew about California wildfires that others didn&apos;t] but found [Heartwood Preserve: See why residents and businesses are buying into our vision of community]
+	at Test_case_prod.AUW_Experience.main(AUW_Experience.java:143)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1245094749", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1245094749'><pre>java.lang.AssertionError: expected [What Applied knew about California wildfires that others didn&apos;t] but found [Heartwood Preserve: See why residents and businesses are buying into our vision of community]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at Test_case_prod.AUW_Experience.main(AUW_Experience.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+</pre></div></td>
+<td>275</td>
+<td>Test_case_prod.AUW_Experience@4c203ea1</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -77,27 +124,27 @@ function toggleAllBoxes() {
 <tr>
 <td title='Test_case_prod.AUW_Footer_Prod.AUW_Footer()'><b>AUW_Footer</b><br>Test class: Test_case_prod.AUW_Footer_Prod</td>
 <td></td>
-<td>73</td>
+<td>71</td>
 <td>Test_case_prod.AUW_Footer_Prod@1d251891</td></tr>
 <tr>
 <td title='Test_case_prod.AUW_AboutUS.AboutUS()'><b>AboutUS</b><br>Test class: Test_case_prod.AUW_AboutUS</td>
 <td></td>
-<td>64</td>
+<td>63</td>
 <td>Test_case_prod.AUW_AboutUS@7c75222b</td></tr>
 <tr>
 <td title='Test_case_prod.Practices_AgentsBrokers.Practices_AgentsBrokers()'><b>Practices_AgentsBrokers</b><br>Test class: Test_case_prod.Practices_AgentsBrokers</td>
 <td></td>
-<td>54</td>
+<td>53</td>
 <td>Test_case_prod.Practices_AgentsBrokers@48140564</td></tr>
 <tr>
 <td title='Test_case_prod.Practices_CustomerSeekingCoverage.Practices_CustomerSeekingCoverage()'><b>Practices_CustomerSeekingCoverage</b><br>Test class: Test_case_prod.Practices_CustomerSeekingCoverage</td>
 <td></td>
-<td>215</td>
+<td>225</td>
 <td>Test_case_prod.Practices_CustomerSeekingCoverage@49e4cb85</td></tr>
 <tr>
 <td title='Test_case_prod.AUW_PPP.main()'><b>main</b><br>Test class: Test_case_prod.AUW_PPP</td>
 <td></td>
-<td>16</td>
+<td>17</td>
 <td>Test_case_prod.AUW_PPP@58ceff1</td></tr>
 <tr>
 <td title='Test_case_prod.AUW_NJ_Update.main()'><b>main</b><br>Test class: Test_case_prod.AUW_NJ_Update</td>
@@ -107,13 +154,8 @@ function toggleAllBoxes() {
 <tr>
 <td title='Test_case_prod.AUW_CallUpdate.main()'><b>main</b><br>Test class: Test_case_prod.AUW_CallUpdate</td>
 <td></td>
-<td>39</td>
+<td>38</td>
 <td>Test_case_prod.AUW_CallUpdate@e580929</td></tr>
-<tr>
-<td title='Test_case_prod.AUW_Experience.main()'><b>main</b><br>Test class: Test_case_prod.AUW_Experience</td>
-<td></td>
-<td>277</td>
-<td>Test_case_prod.AUW_Experience@4c203ea1</td></tr>
 <tr>
 <td title='Test_case_prod.AUW_Intelligence_TC.main()'><b>main</b><br>Test class: Test_case_prod.AUW_Intelligence_TC</td>
 <td></td>
@@ -122,7 +164,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='Test_case_prod.AUW_header_web_Prod.main()'><b>main</b><br>Test class: Test_case_prod.AUW_header_web_Prod</td>
 <td></td>
-<td>56</td>
+<td>39</td>
 <td>Test_case_prod.AUW_header_web_Prod@27f674d</td></tr>
 </table><p>
 </body>

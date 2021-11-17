@@ -30,7 +30,7 @@ WebDriver driver;
     By global_slots = By.xpath("(//*[text()='Applied Global Slots'])[2]");
     
     By Global_slot_name = By.xpath("//*[text()=' AUW Global Homepage ']");
-    By Global_slot_one = By.xpath("(//div[@class='content-slot-overlay'])[2]");
+    By Global_slot_one = By.xpath("//*[@id='/morePress']/div/div[1]/am-collapsible-section-header/span/span");
     
     By Global_edit_one = By.xpath("(//*[@aria-label='Edit content'])[2]");
    
@@ -100,14 +100,18 @@ WebDriver driver;
  		System.out.println("text = " + s);
     	driver.findElement(Global_slot_name).click();
     	
+    	Thread.sleep(3000);
+	 	
+    	JavascriptExecutor js = (JavascriptExecutor) driver;
+  		WebElement Element = driver.findElement(Global_slot_one);
+	 	js.executeScript("arguments[0].scrollIntoView();", Element);
+	 	
     	WebDriverWait wait = new WebDriverWait(driver,60);
  		wait.until(ExpectedConditions.visibilityOfElementLocated(Global_slot_one));
  		Thread.sleep(3000);
  		driver.findElement(Global_slot_one).click();
  		
  		Thread.sleep(3000);
-    	WebDriverWait wait1 = new WebDriverWait(driver,60);
- 		wait1.until(ExpectedConditions.visibilityOfElementLocated(Global_slot_one));
  		
  		driver.findElement(Global_edit_one).click();
  		
