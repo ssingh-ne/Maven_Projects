@@ -92,12 +92,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="1080829" started-at="2021-11-08T15:32:33Z" finished-at="2021-11-08T15:50:34Z">
+  <suite name="Suite" duration-ms="1097491" started-at="2021-11-15T07:15:07Z" finished-at="2021-11-15T07:33:24Z">
     <groups>
     </groups>
-    <test name="AUW_Chrome_Prod" duration-ms="518724" started-at="2021-11-08T15:32:33Z" finished-at="2021-11-08T15:41:12Z">
+    <test name="AUW_Chrome_Prod" duration-ms="544005" started-at="2021-11-15T07:15:07Z" finished-at="2021-11-15T07:24:11Z">
       <class name="Test_Case_Prod.AboutUS_OutsideUS">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="setupApplication" is-config="true" duration-ms="4984" started-at="2021-11-08T21:08:51Z" finished-at="2021-11-08T21:08:56Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="setupApplication" is-config="true" duration-ms="5105" started-at="2021-11-15T12:51:42Z" finished-at="2021-11-15T12:51:47Z">
           <params>
             <param index="0">
               <value>
@@ -114,11 +114,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="main_Home_Page" duration-ms="16078" started-at="2021-11-08T21:08:56Z" finished-at="2021-11-08T21:09:12Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="main_Home_Page" duration-ms="17009" started-at="2021-11-15T12:51:47Z" finished-at="2021-11-15T12:52:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="tearDown" is-config="true" duration-ms="734" started-at="2021-11-08T21:09:12Z" finished-at="2021-11-08T21:09:13Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="tearDown" is-config="true" duration-ms="763" started-at="2021-11-15T12:52:04Z" finished-at="2021-11-15T12:52:05Z">
           <params>
             <param index="0">
               <value>
@@ -134,7 +134,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Case_Prod.AboutUS_OutsideUS -->
       <class name="Test_Case_Prod.What_We_offer_OutSideUs">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="setupApplication" is-config="true" duration-ms="7236" started-at="2021-11-08T21:02:33Z" finished-at="2021-11-08T21:02:40Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="setupApplication" is-config="true" duration-ms="7122" started-at="2021-11-15T12:45:07Z" finished-at="2021-11-15T12:45:14Z">
           <params>
             <param index="0">
               <value>
@@ -151,11 +151,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="Footer" duration-ms="268094" started-at="2021-11-08T21:02:40Z" finished-at="2021-11-08T21:07:08Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="Footer" duration-ms="283349" started-at="2021-11-15T12:45:14Z" finished-at="2021-11-15T12:49:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="tearDown" is-config="true" duration-ms="702" started-at="2021-11-08T21:07:08Z" finished-at="2021-11-08T21:07:09Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="tearDown" is-config="true" duration-ms="784" started-at="2021-11-15T12:49:57Z" finished-at="2021-11-15T12:49:58Z">
           <params>
             <param index="0">
               <value>
@@ -171,7 +171,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Case_Prod.What_We_offer_OutSideUs -->
       <class name="Test_Case_Prod.HomePage_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.HomePage_TC@6ea6d14e]" name="setupApplication" is-config="true" duration-ms="5055" started-at="2021-11-08T21:09:13Z" finished-at="2021-11-08T21:09:18Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.HomePage_TC@6ea6d14e]" name="setupApplication" is-config="true" duration-ms="5085" started-at="2021-11-15T12:52:05Z" finished-at="2021-11-15T12:52:10Z">
           <params>
             <param index="0">
               <value>
@@ -188,11 +188,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Home_Page()[pri:0, instance:Test_Case_Prod.HomePage_TC@6ea6d14e]" name="Home_Page" duration-ms="112651" started-at="2021-11-08T21:09:18Z" finished-at="2021-11-08T21:11:11Z">
+        <test-method status="PASS" signature="Home_Page()[pri:0, instance:Test_Case_Prod.HomePage_TC@6ea6d14e]" name="Home_Page" duration-ms="120155" started-at="2021-11-15T12:52:10Z" finished-at="2021-11-15T12:54:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.HomePage_TC@6ea6d14e]" name="tearDown" is-config="true" duration-ms="740" started-at="2021-11-08T21:11:11Z" finished-at="2021-11-08T21:11:12Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.HomePage_TC@6ea6d14e]" name="tearDown" is-config="true" duration-ms="766" started-at="2021-11-15T12:54:10Z" finished-at="2021-11-15T12:54:11Z">
           <params>
             <param index="0">
               <value>
@@ -208,7 +208,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Case_Prod.HomePage_TC -->
       <class name="Test_Case_Prod.Footer_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.Footer_TC@16c0663d]" name="setupApplication" is-config="true" duration-ms="5703" started-at="2021-11-08T21:07:09Z" finished-at="2021-11-08T21:07:15Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.Footer_TC@16c0663d]" name="setupApplication" is-config="true" duration-ms="5088" started-at="2021-11-15T12:49:58Z" finished-at="2021-11-15T12:50:03Z">
           <params>
             <param index="0">
               <value>
@@ -225,11 +225,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.Footer_TC@16c0663d]" name="Footer" duration-ms="67817" started-at="2021-11-08T21:07:15Z" finished-at="2021-11-08T21:08:22Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.Footer_TC@16c0663d]" name="Footer" duration-ms="68607" started-at="2021-11-15T12:50:03Z" finished-at="2021-11-15T12:51:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.Footer_TC@16c0663d]" name="tearDown" is-config="true" duration-ms="730" started-at="2021-11-08T21:08:22Z" finished-at="2021-11-08T21:08:23Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.Footer_TC@16c0663d]" name="tearDown" is-config="true" duration-ms="733" started-at="2021-11-15T12:51:12Z" finished-at="2021-11-15T12:51:12Z">
           <params>
             <param index="0">
               <value>
@@ -245,7 +245,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Case_Prod.Footer_TC -->
       <class name="Test_Case_Prod.ContactUS_OutsideUS">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="setupApplication" is-config="true" duration-ms="5125" started-at="2021-11-08T21:08:23Z" finished-at="2021-11-08T21:08:28Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="setupApplication" is-config="true" duration-ms="5357" started-at="2021-11-15T12:51:12Z" finished-at="2021-11-15T12:51:18Z">
           <params>
             <param index="0">
               <value>
@@ -262,11 +262,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="ContactUs_Page" duration-ms="22310" started-at="2021-11-08T21:08:28Z" finished-at="2021-11-08T21:08:51Z">
+        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="ContactUs_Page" duration-ms="23299" started-at="2021-11-15T12:51:18Z" finished-at="2021-11-15T12:51:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUs_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="tearDown" is-config="true" duration-ms="736" started-at="2021-11-08T21:08:51Z" finished-at="2021-11-08T21:08:51Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="tearDown" is-config="true" duration-ms="753" started-at="2021-11-15T12:51:41Z" finished-at="2021-11-15T12:51:42Z">
           <params>
             <param index="0">
               <value>
@@ -282,9 +282,9 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Case_Prod.ContactUS_OutsideUS -->
     </test> <!-- AUW_Chrome_Prod -->
-    <test name="AUW_FF_Prod" duration-ms="562078" started-at="2021-11-08T15:41:12Z" finished-at="2021-11-08T15:50:34Z">
+    <test name="AUW_FF_Prod" duration-ms="553432" started-at="2021-11-15T07:24:11Z" finished-at="2021-11-15T07:33:24Z">
       <class name="Test_Case_Prod.AboutUS_OutsideUS">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="setupApplication" is-config="true" duration-ms="9411" started-at="2021-11-08T21:17:53Z" finished-at="2021-11-08T21:18:02Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="setupApplication" is-config="true" duration-ms="8095" started-at="2021-11-15T13:00:48Z" finished-at="2021-11-15T13:00:56Z">
           <params>
             <param index="0">
               <value>
@@ -301,11 +301,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="main_Home_Page" duration-ms="18202" started-at="2021-11-08T21:18:02Z" finished-at="2021-11-08T21:18:21Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="main_Home_Page" duration-ms="17880" started-at="2021-11-15T13:00:56Z" finished-at="2021-11-15T13:01:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="tearDown" is-config="true" duration-ms="1278" started-at="2021-11-08T21:18:21Z" finished-at="2021-11-08T21:18:22Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="tearDown" is-config="true" duration-ms="1087" started-at="2021-11-15T13:01:14Z" finished-at="2021-11-15T13:01:15Z">
           <params>
             <param index="0">
               <value>
@@ -321,7 +321,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Case_Prod.AboutUS_OutsideUS -->
       <class name="Test_Case_Prod.What_We_offer_OutSideUs">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="setupApplication" is-config="true" duration-ms="8353" started-at="2021-11-08T21:11:12Z" finished-at="2021-11-08T21:11:20Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="setupApplication" is-config="true" duration-ms="8627" started-at="2021-11-15T12:54:11Z" finished-at="2021-11-15T12:54:19Z">
           <params>
             <param index="0">
               <value>
@@ -338,11 +338,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="Footer" duration-ms="278664" started-at="2021-11-08T21:11:20Z" finished-at="2021-11-08T21:15:59Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="Footer" duration-ms="277147" started-at="2021-11-15T12:54:19Z" finished-at="2021-11-15T12:58:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="tearDown" is-config="true" duration-ms="754" started-at="2021-11-08T21:15:59Z" finished-at="2021-11-08T21:15:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="tearDown" is-config="true" duration-ms="644" started-at="2021-11-15T12:58:56Z" finished-at="2021-11-15T12:58:57Z">
           <params>
             <param index="0">
               <value>
@@ -358,7 +358,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Case_Prod.What_We_offer_OutSideUs -->
       <class name="Test_Case_Prod.HomePage_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.HomePage_TC@3cb5cdba]" name="setupApplication" is-config="true" duration-ms="8968" started-at="2021-11-08T21:18:22Z" finished-at="2021-11-08T21:18:31Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.HomePage_TC@3cb5cdba]" name="setupApplication" is-config="true" duration-ms="8168" started-at="2021-11-15T13:01:15Z" finished-at="2021-11-15T13:01:23Z">
           <params>
             <param index="0">
               <value>
@@ -375,11 +375,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Home_Page()[pri:0, instance:Test_Case_Prod.HomePage_TC@3cb5cdba]" name="Home_Page" duration-ms="121941" started-at="2021-11-08T21:18:31Z" finished-at="2021-11-08T21:20:33Z">
+        <test-method status="PASS" signature="Home_Page()[pri:0, instance:Test_Case_Prod.HomePage_TC@3cb5cdba]" name="Home_Page" duration-ms="120528" started-at="2021-11-15T13:01:23Z" finished-at="2021-11-15T13:03:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.HomePage_TC@3cb5cdba]" name="tearDown" is-config="true" duration-ms="823" started-at="2021-11-08T21:20:33Z" finished-at="2021-11-08T21:20:34Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.HomePage_TC@3cb5cdba]" name="tearDown" is-config="true" duration-ms="809" started-at="2021-11-15T13:03:23Z" finished-at="2021-11-15T13:03:24Z">
           <params>
             <param index="0">
               <value>
@@ -395,7 +395,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Case_Prod.HomePage_TC -->
       <class name="Test_Case_Prod.Footer_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.Footer_TC@56cbfb61]" name="setupApplication" is-config="true" duration-ms="8336" started-at="2021-11-08T21:15:59Z" finished-at="2021-11-08T21:16:08Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.Footer_TC@56cbfb61]" name="setupApplication" is-config="true" duration-ms="7623" started-at="2021-11-15T12:58:57Z" finished-at="2021-11-15T12:59:05Z">
           <params>
             <param index="0">
               <value>
@@ -412,11 +412,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.Footer_TC@56cbfb61]" name="Footer" duration-ms="69441" started-at="2021-11-08T21:16:08Z" finished-at="2021-11-08T21:17:17Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Prod.Footer_TC@56cbfb61]" name="Footer" duration-ms="69571" started-at="2021-11-15T12:59:05Z" finished-at="2021-11-15T13:00:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.Footer_TC@56cbfb61]" name="tearDown" is-config="true" duration-ms="1117" started-at="2021-11-08T21:17:17Z" finished-at="2021-11-08T21:17:18Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.Footer_TC@56cbfb61]" name="tearDown" is-config="true" duration-ms="1099" started-at="2021-11-15T13:00:14Z" finished-at="2021-11-15T13:00:15Z">
           <params>
             <param index="0">
               <value>
@@ -432,7 +432,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Case_Prod.Footer_TC -->
       <class name="Test_Case_Prod.ContactUS_OutsideUS">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="setupApplication" is-config="true" duration-ms="9633" started-at="2021-11-08T21:17:18Z" finished-at="2021-11-08T21:17:28Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="setupApplication" is-config="true" duration-ms="7607" started-at="2021-11-15T13:00:15Z" finished-at="2021-11-15T13:00:23Z">
           <params>
             <param index="0">
               <value>
@@ -449,11 +449,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="ContactUs_Page" duration-ms="23941" started-at="2021-11-08T21:17:28Z" finished-at="2021-11-08T21:17:52Z">
+        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="ContactUs_Page" duration-ms="23597" started-at="2021-11-15T13:00:23Z" finished-at="2021-11-15T13:00:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUs_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="tearDown" is-config="true" duration-ms="1208" started-at="2021-11-08T21:17:52Z" finished-at="2021-11-08T21:17:53Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="tearDown" is-config="true" duration-ms="938" started-at="2021-11-15T13:00:47Z" finished-at="2021-11-15T13:00:48Z">
           <params>
             <param index="0">
               <value>
