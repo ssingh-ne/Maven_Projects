@@ -101,12 +101,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="334356" started-at="2021-10-25T11:42:08Z" finished-at="2021-10-25T11:47:42Z">
+  <suite name="Suite" duration-ms="317453" started-at="2021-11-15T09:22:32Z" finished-at="2021-11-15T09:27:49Z">
     <groups>
     </groups>
-    <test name="Carrer_ChromeTest_Production" duration-ms="220251" started-at="2021-10-25T11:42:08Z" finished-at="2021-10-25T11:45:48Z">
+    <test name="Carrer_ChromeTest_Production" duration-ms="207868" started-at="2021-11-15T09:22:32Z" finished-at="2021-11-15T09:26:00Z">
       <class name="Test_case_Prod.Footer">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="setupApplication" is-config="true" duration-ms="5174" started-at="2021-10-25T17:12:08Z" finished-at="2021-10-25T17:12:13Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="setupApplication" is-config="true" duration-ms="8199" started-at="2021-11-15T14:52:32Z" finished-at="2021-11-15T14:52:40Z">
           <params>
             <param index="0">
               <value>
@@ -123,11 +123,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_Facebook()[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="AUW_Facebook" duration-ms="15962" started-at="2021-10-25T17:12:13Z" finished-at="2021-10-25T17:12:29Z">
+        <test-method status="PASS" signature="AUW_Facebook()[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="AUW_Facebook" duration-ms="16450" started-at="2021-11-15T14:52:40Z" finished-at="2021-11-15T14:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AUW_Facebook -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="tearDown" is-config="true" duration-ms="838" started-at="2021-10-25T17:12:29Z" finished-at="2021-10-25T17:12:30Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="tearDown" is-config="true" duration-ms="729" started-at="2021-11-15T14:52:56Z" finished-at="2021-11-15T14:52:57Z">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="setupApplication" is-config="true" duration-ms="4023" started-at="2021-10-25T17:12:30Z" finished-at="2021-10-25T17:12:34Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="setupApplication" is-config="true" duration-ms="3415" started-at="2021-11-15T14:52:57Z" finished-at="2021-11-15T14:53:01Z">
           <params>
             <param index="0">
               <value>
@@ -158,11 +158,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_Instagram()[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="AUW_Instagram" duration-ms="8262" started-at="2021-10-25T17:12:34Z" finished-at="2021-10-25T17:12:42Z">
+        <test-method status="PASS" signature="AUW_Instagram()[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="AUW_Instagram" duration-ms="7683" started-at="2021-11-15T14:53:01Z" finished-at="2021-11-15T14:53:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AUW_Instagram -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="tearDown" is-config="true" duration-ms="891" started-at="2021-10-25T17:12:42Z" finished-at="2021-10-25T17:12:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="tearDown" is-config="true" duration-ms="706" started-at="2021-11-15T14:53:08Z" finished-at="2021-11-15T14:53:09Z">
           <params>
             <param index="0">
               <value>
@@ -176,7 +176,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="setupApplication" is-config="true" duration-ms="3803" started-at="2021-10-25T17:12:43Z" finished-at="2021-10-25T17:12:47Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="setupApplication" is-config="true" duration-ms="3053" started-at="2021-11-15T14:53:09Z" finished-at="2021-11-15T14:53:12Z">
           <params>
             <param index="0">
               <value>
@@ -193,11 +193,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_Linkedin()[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="AUW_Linkedin" duration-ms="7901" started-at="2021-10-25T17:12:47Z" finished-at="2021-10-25T17:12:55Z">
+        <test-method status="PASS" signature="AUW_Linkedin()[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="AUW_Linkedin" duration-ms="7616" started-at="2021-11-15T14:53:12Z" finished-at="2021-11-15T14:53:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AUW_Linkedin -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="tearDown" is-config="true" duration-ms="948" started-at="2021-10-25T17:12:55Z" finished-at="2021-10-25T17:12:56Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="tearDown" is-config="true" duration-ms="876" started-at="2021-11-15T14:53:20Z" finished-at="2021-11-15T14:53:20Z">
           <params>
             <param index="0">
               <value>
@@ -211,7 +211,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="setupApplication" is-config="true" duration-ms="6653" started-at="2021-10-25T17:12:56Z" finished-at="2021-10-25T17:13:02Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="setupApplication" is-config="true" duration-ms="5951" started-at="2021-11-15T14:53:20Z" finished-at="2021-11-15T14:53:26Z">
           <params>
             <param index="0">
               <value>
@@ -228,11 +228,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_Policy()[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="AUW_Policy" duration-ms="23125" started-at="2021-10-25T17:13:02Z" finished-at="2021-10-25T17:13:25Z">
+        <test-method status="PASS" signature="AUW_Policy()[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="AUW_Policy" duration-ms="22800" started-at="2021-11-15T14:53:26Z" finished-at="2021-11-15T14:53:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AUW_Policy -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="tearDown" is-config="true" duration-ms="820" started-at="2021-10-25T17:13:25Z" finished-at="2021-10-25T17:13:26Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="tearDown" is-config="true" duration-ms="720" started-at="2021-11-15T14:53:49Z" finished-at="2021-11-15T14:53:50Z">
           <params>
             <param index="0">
               <value>
@@ -246,7 +246,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="setupApplication" is-config="true" duration-ms="6490" started-at="2021-10-25T17:13:26Z" finished-at="2021-10-25T17:13:33Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="setupApplication" is-config="true" duration-ms="5826" started-at="2021-11-15T14:53:50Z" finished-at="2021-11-15T14:53:56Z">
           <params>
             <param index="0">
               <value>
@@ -263,11 +263,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_twitter()[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="AUW_twitter" duration-ms="11197" started-at="2021-10-25T17:13:33Z" finished-at="2021-10-25T17:13:44Z">
+        <test-method status="PASS" signature="AUW_twitter()[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="AUW_twitter" duration-ms="9438" started-at="2021-11-15T14:53:56Z" finished-at="2021-11-15T14:54:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AUW_twitter -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="tearDown" is-config="true" duration-ms="3005" started-at="2021-10-25T17:13:44Z" finished-at="2021-10-25T17:13:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@256216b3]" name="tearDown" is-config="true" duration-ms="787" started-at="2021-11-15T14:54:05Z" finished-at="2021-11-15T14:54:06Z">
           <params>
             <param index="0">
               <value>
@@ -283,7 +283,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_case_Prod.Footer -->
       <class name="Test_case_Prod.Side_Heading1">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Side_Heading1@546a03af]" name="setupApplication" is-config="true" duration-ms="6638" started-at="2021-10-25T17:13:47Z" finished-at="2021-10-25T17:13:53Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Side_Heading1@546a03af]" name="setupApplication" is-config="true" duration-ms="2982" started-at="2021-11-15T14:54:06Z" finished-at="2021-11-15T14:54:09Z">
           <params>
             <param index="0">
               <value>
@@ -300,11 +300,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading()[pri:0, instance:Test_case_Prod.Side_Heading1@546a03af]" name="Side_Heading" duration-ms="113498" started-at="2021-10-25T17:13:53Z" finished-at="2021-10-25T17:15:47Z">
+        <test-method status="PASS" signature="Side_Heading()[pri:0, instance:Test_case_Prod.Side_Heading1@546a03af]" name="Side_Heading" duration-ms="109797" started-at="2021-11-15T14:54:09Z" finished-at="2021-11-15T14:55:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Side_Heading -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Side_Heading1@546a03af]" name="tearDown" is-config="true" duration-ms="957" started-at="2021-10-25T17:15:47Z" finished-at="2021-10-25T17:15:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Side_Heading1@546a03af]" name="tearDown" is-config="true" duration-ms="815" started-at="2021-11-15T14:55:59Z" finished-at="2021-11-15T14:56:00Z">
           <params>
             <param index="0">
               <value>
@@ -320,9 +320,9 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_case_Prod.Side_Heading1 -->
     </test> <!-- Carrer_ChromeTest_Production -->
-    <test name="Carrer_Firefox_Production" duration-ms="114063" started-at="2021-10-25T11:45:48Z" finished-at="2021-10-25T11:47:42Z">
+    <test name="Carrer_Firefox_Production" duration-ms="109536" started-at="2021-11-15T09:26:00Z" finished-at="2021-11-15T09:27:49Z">
       <class name="Test_case_Prod.Footer">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="10601" started-at="2021-10-25T17:15:48Z" finished-at="2021-10-25T17:15:59Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="9628" started-at="2021-11-15T14:56:00Z" finished-at="2021-11-15T14:56:09Z">
           <params>
             <param index="0">
               <value>
@@ -339,11 +339,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_Facebook()[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="AUW_Facebook" duration-ms="15857" started-at="2021-10-25T17:15:59Z" finished-at="2021-10-25T17:16:14Z">
+        <test-method status="PASS" signature="AUW_Facebook()[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="AUW_Facebook" duration-ms="16045" started-at="2021-11-15T14:56:09Z" finished-at="2021-11-15T14:56:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AUW_Facebook -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="tearDown" is-config="true" duration-ms="1437" started-at="2021-10-25T17:16:14Z" finished-at="2021-10-25T17:16:16Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="tearDown" is-config="true" duration-ms="1253" started-at="2021-11-15T14:56:25Z" finished-at="2021-11-15T14:56:27Z">
           <params>
             <param index="0">
               <value>
@@ -357,7 +357,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="7413" started-at="2021-10-25T17:16:16Z" finished-at="2021-10-25T17:16:23Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="8535" started-at="2021-11-15T14:56:27Z" finished-at="2021-11-15T14:56:35Z">
           <params>
             <param index="0">
               <value>
@@ -374,11 +374,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_Instagram()[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="AUW_Instagram" duration-ms="7803" started-at="2021-10-25T17:16:23Z" finished-at="2021-10-25T17:16:31Z">
+        <test-method status="PASS" signature="AUW_Instagram()[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="AUW_Instagram" duration-ms="7941" started-at="2021-11-15T14:56:35Z" finished-at="2021-11-15T14:56:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AUW_Instagram -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="tearDown" is-config="true" duration-ms="1311" started-at="2021-10-25T17:16:31Z" finished-at="2021-10-25T17:16:32Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="tearDown" is-config="true" duration-ms="1065" started-at="2021-11-15T14:56:43Z" finished-at="2021-11-15T14:56:44Z">
           <params>
             <param index="0">
               <value>
@@ -392,7 +392,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="7018" started-at="2021-10-25T17:16:32Z" finished-at="2021-10-25T17:16:39Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="6313" started-at="2021-11-15T14:56:44Z" finished-at="2021-11-15T14:56:50Z">
           <params>
             <param index="0">
               <value>
@@ -409,11 +409,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_Linkedin()[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="AUW_Linkedin" duration-ms="8315" started-at="2021-10-25T17:16:39Z" finished-at="2021-10-25T17:16:48Z">
+        <test-method status="PASS" signature="AUW_Linkedin()[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="AUW_Linkedin" duration-ms="8201" started-at="2021-11-15T14:56:50Z" finished-at="2021-11-15T14:56:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AUW_Linkedin -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="tearDown" is-config="true" duration-ms="1727" started-at="2021-10-25T17:16:48Z" finished-at="2021-10-25T17:16:49Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="tearDown" is-config="true" duration-ms="996" started-at="2021-11-15T14:56:59Z" finished-at="2021-11-15T14:57:00Z">
           <params>
             <param index="0">
               <value>
@@ -427,7 +427,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="7313" started-at="2021-10-25T17:16:49Z" finished-at="2021-10-25T17:16:57Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="6744" started-at="2021-11-15T14:57:00Z" finished-at="2021-11-15T14:57:06Z">
           <params>
             <param index="0">
               <value>
@@ -444,11 +444,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_Policy()[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="AUW_Policy" duration-ms="23225" started-at="2021-10-25T17:16:57Z" finished-at="2021-10-25T17:17:20Z">
+        <test-method status="PASS" signature="AUW_Policy()[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="AUW_Policy" duration-ms="24464" started-at="2021-11-15T14:57:06Z" finished-at="2021-11-15T14:57:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AUW_Policy -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="tearDown" is-config="true" duration-ms="1362" started-at="2021-10-25T17:17:20Z" finished-at="2021-10-25T17:17:21Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="tearDown" is-config="true" duration-ms="1173" started-at="2021-11-15T14:57:31Z" finished-at="2021-11-15T14:57:32Z">
           <params>
             <param index="0">
               <value>
@@ -462,7 +462,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="9420" started-at="2021-10-25T17:17:21Z" finished-at="2021-10-25T17:17:31Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="6312" started-at="2021-11-15T14:57:32Z" finished-at="2021-11-15T14:57:38Z">
           <params>
             <param index="0">
               <value>
@@ -479,11 +479,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_twitter()[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="AUW_twitter" duration-ms="9547" started-at="2021-10-25T17:17:31Z" finished-at="2021-10-25T17:17:40Z">
+        <test-method status="PASS" signature="AUW_twitter()[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="AUW_twitter" duration-ms="9492" started-at="2021-11-15T14:57:38Z" finished-at="2021-11-15T14:57:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AUW_twitter -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="tearDown" is-config="true" duration-ms="1706" started-at="2021-10-25T17:17:40Z" finished-at="2021-10-25T17:17:42Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_Prod.Footer@75bd9247]" name="tearDown" is-config="true" duration-ms="1368" started-at="2021-11-15T14:57:48Z" finished-at="2021-11-15T14:57:49Z">
           <params>
             <param index="0">
               <value>

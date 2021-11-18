@@ -40,10 +40,10 @@ WebDriver driver;
     By footer_text = By.xpath("//*[@id='/body']/div/div[1]/am-collapsible-section-header/span/span");
     
     By Carrer_content = By.xpath("(//*[text()='Careers Content'])[2]");
-    By Carrer_slot1 = By.xpath("//*[text()=' Homepage - Part of Our Future Section - Body Copy ']");
-    By Carrer_slot2 = By.xpath("//*[text()=' Homepage - Our Campus Section - Body Copy ']");
-    By Carrer_slot3 = By.xpath("//*[text()=' Homepage - Benefits Section - Body Copy ']");
-    By Carrer_slot4 = By.xpath("//*[text()=' Homepage - Industry Recognition Section - Body Copy & Award Logo ']");
+    By Carrer_slot1 = By.xpath("//*[text()=' Careers - Homepage - Text - Part of Our Future Section - Body Copy ']");
+    By Carrer_slot2 = By.xpath("//*[text()=' Careers - Homepage - Text - Our Campus Section - Body Copy ']");
+    By Carrer_slot3 = By.xpath("//*[text()=' Careers - Homepage - Text - Benefits Section - Body Copy ']");
+    By Carrer_slot4 = By.xpath("//*[text()=' Careers - Homepage - Fading Slide Card - Industry Recognition Section - Body Copy & Award Logo ']");
     
     By Slot4_Content = By.xpath("//*[text()='Text Banner Content']");
     
