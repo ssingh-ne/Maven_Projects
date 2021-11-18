@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Test_Case.Footer">
+      <class name="Test_Case_Development.Pharmacy_search">
         <methods>
-          <include name="Footer_twitter"/>
+          <include name="Side_Heading_One"/>
           <include name="setupApplication"/>
-          <include name="Footer_facebook"/>
         </methods>
-      </class> <!-- Test_Case.Footer -->
+      </class> <!-- Test_Case_Development.Pharmacy_search -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

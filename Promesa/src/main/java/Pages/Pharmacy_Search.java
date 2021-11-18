@@ -85,10 +85,9 @@ WebDriver driver;
 	
 //	assertEquals(city_display, City);
 	
-	assertTrue(Zip_display.contains(Zip));
+	//assertTrue(Zip_display.contains(Zip));
 	
-	
-        }
+   }
    
    public void Search_Address (String Address) throws InterruptedException {
 		

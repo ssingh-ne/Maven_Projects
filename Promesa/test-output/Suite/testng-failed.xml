@@ -1,49 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Failed suite [Suite]" parallel="none">
+<suite name="Failed suite [Suite]">
   <parameter name="browser" value="chrome"/>
-  <test name="Promesa_Chrome(failed)" parallel="none">
-    <parameter name="browser" value="chrome"/>
+  <test name="Promesa_Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="Test_Case.Side_Heading_Two">
         <methods>
-          <include name="Siheading_2"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- Test_Case.Side_Heading_Two -->
       <class name="Test_Case.Side_Heading_One">
         <methods>
           <include name="setupApplication"/>
-          <include name="Side_Heading_One"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- Test_Case.Side_Heading_One -->
       <class name="Test_Case.Footer">
         <methods>
-          <include name="Footer_instagram"/>
-          <include name="Footer_twitter"/>
           <include name="setupApplication"/>
-          <include name="Footer_facebook"/>
+          <include name="setupApplication"/>
           <include name="tearDown"/>
-          <include name="Footer_PrivacyPolicy"/>
-          <include name="Footer_linkedin"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- Test_Case.Footer -->
       <class name="Test_Case.Change_language">
         <methods>
           <include name="setupApplication"/>
+          <include name="setupApplication"/>
           <include name="tearDown"/>
-          <include name="Change_Language"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- Test_Case.Change_language -->
       <class name="Test_Case.Pharmacy_search">
         <methods>
           <include name="Side_Heading_One"/>
           <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Test_Case.Pharmacy_search -->
       <class name="Test_Case.FAQ">
         <methods>
-          <include name="Siheading_2"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Case.FAQ -->
+    </classes>
+  </test> <!-- Promesa_Firefox(failed) -->
+  <test name="Promesa_Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Test_Case.Side_Heading_Two">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Case.Side_Heading_Two -->
+      <class name="Test_Case.Side_Heading_One">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Case.Side_Heading_One -->
+      <class name="Test_Case.Footer">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Case.Footer -->
+      <class name="Test_Case.Change_language">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Case.Change_language -->
+      <class name="Test_Case.Pharmacy_search">
+        <methods>
+          <include name="Side_Heading_One"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Case.Pharmacy_search -->
+      <class name="Test_Case.FAQ">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- Test_Case.FAQ -->
     </classes>

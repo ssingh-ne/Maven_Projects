@@ -28,11 +28,11 @@ WebDriver driver;
     By Production = By.xpath("//button[@am-id='am-masthead-menu__content-button']");
     
     By solution_slots = By.xpath("(//*[text()='SolutionOne Content'])[2]");
-    By solution_content_name1 = By.xpath("//*[text()=' Section: Pay As You Go Solution ']");
-    By solution_content_name2 = By.xpath("//*[text()=' Section: Safety and Loss Control ']"); 
-    By solution_content_name3 = By.xpath("//*[text()=' Section: Claim Services ']");
-    By solution_content_name4 = By.xpath("//*[text()=' Section: Coverages & Protection ']");
-    By solution_content_name5 = By.xpath("//*[text()=' Section: Contact Us ']");
+    By solution_content_name1 = By.xpath("//*[text()=' SolutionOne - Homepage - Section - Pay As You Go Solution ']");
+    By solution_content_name2 = By.xpath("//*[text()=' SolutionOne - Homepage - Section - Safety and Loss Control ']"); 
+    By solution_content_name3 = By.xpath("//*[text()=' SolutionOne - Homepage - Section - Claim Services ']");
+    By solution_content_name4 = By.xpath("//*[text()=' SolutionOne - Homepage - Section - Coverages & Protection ']");
+    By solution_content_name5 = By.xpath("//*[text()=' SolutionOne - Homepage - Section - Contact Us ']");
     By solution_slot_name = By.xpath("//span[text()=' Solution One Homepage ']");
     By Solution_slot_one = By.xpath("//*[@am-id='authoring__container-card--0']");
     By Solution_slot_Two = By.xpath("//*[@am-id='authoring__container-card--0']");
