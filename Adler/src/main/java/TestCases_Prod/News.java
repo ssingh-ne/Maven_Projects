@@ -13,8 +13,9 @@ public class News extends Base_class {
 		Home_page h = new Home_page(driver);
 		
 		h.News1();
-		
-		
+		h.News2();
+		h.News3();
+		h.News4();
 		
 		
 	}

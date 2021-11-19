@@ -2,48 +2,48 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="none">
   <parameter name="browser" value="firefox"/>
-  <test name="AUW_Chrome_Dev(failed)" parallel="none">
+  <test name="AUW_Chrome_Prod(failed)" parallel="none">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases_Development.Home">
+      <class name="TestCases_Prod.Home">
         <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
         </methods>
-      </class> <!-- TestCases_Development.Home -->
-      <class name="TestCases_Development.News">
+      </class> <!-- TestCases_Prod.Home -->
+      <class name="TestCases_Prod.News">
         <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="main_Home_Page"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- TestCases_Development.News -->
+      </class> <!-- TestCases_Prod.News -->
     </classes>
-  </test> <!-- AUW_Chrome_Dev(failed) -->
-  <test name="AUW_Firefox_Dev(failed)" parallel="none">
+  </test> <!-- AUW_Chrome_Prod(failed) -->
+  <test name="AUW_Firefox_Prod(failed)" parallel="none">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="TestCases_Development.Home">
+      <class name="TestCases_Prod.Home">
         <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
         </methods>
-      </class> <!-- TestCases_Development.Home -->
-      <class name="TestCases_Development.News">
+      </class> <!-- TestCases_Prod.Home -->
+      <class name="TestCases_Prod.News">
         <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="main_Home_Page"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- TestCases_Development.News -->
+      </class> <!-- TestCases_Prod.News -->
     </classes>
-  </test> <!-- AUW_Firefox_Dev(failed) -->
+  </test> <!-- AUW_Firefox_Prod(failed) -->
 </suite> <!-- Failed suite [Suite] -->
