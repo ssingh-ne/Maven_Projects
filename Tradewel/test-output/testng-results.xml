@@ -38,12 +38,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="290689" started-at="2021-10-28T08:20:49Z" finished-at="2021-10-28T08:25:40Z">
+  <suite name="Suite" duration-ms="302685" started-at="2021-11-19T12:15:40Z" finished-at="2021-11-19T12:20:43Z">
     <groups>
     </groups>
-    <test name="Tradewel_ChromeTest_Development" duration-ms="198851" started-at="2021-10-28T08:20:49Z" finished-at="2021-10-28T08:24:08Z">
+    <test name="Tradewel_ChromeTest_Development" duration-ms="207677" started-at="2021-11-19T12:15:40Z" finished-at="2021-11-19T12:19:08Z">
       <class name="Test_Cases_Development.comprehensive_Protection">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.comprehensive_Protection@256216b3]" name="setupApplication" is-config="true" duration-ms="7417" started-at="2021-10-28T13:50:49Z" finished-at="2021-10-28T13:50:56Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.comprehensive_Protection@256216b3]" name="setupApplication" is-config="true" duration-ms="6799" started-at="2021-11-19T17:45:40Z" finished-at="2021-11-19T17:45:47Z">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Comprehensive()[pri:0, instance:Test_Cases_Development.comprehensive_Protection@256216b3]" name="Comprehensive" duration-ms="150355" started-at="2021-10-28T13:50:56Z" finished-at="2021-10-28T13:53:27Z">
+        <test-method status="PASS" signature="Comprehensive()[pri:0, instance:Test_Cases_Development.comprehensive_Protection@256216b3]" name="Comprehensive" duration-ms="160998" started-at="2021-11-19T17:45:47Z" finished-at="2021-11-19T17:48:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Comprehensive -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.comprehensive_Protection@256216b3]" name="tearDown" is-config="true" duration-ms="931" started-at="2021-10-28T13:53:27Z" finished-at="2021-10-28T13:53:28Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.comprehensive_Protection@256216b3]" name="tearDown" is-config="true" duration-ms="951" started-at="2021-11-19T17:48:28Z" finished-at="2021-11-19T17:48:29Z">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Development.comprehensive_Protection -->
       <class name="Test_Cases_Development.About_US">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.About_US@546a03af]" name="setupApplication" is-config="true" duration-ms="7989" started-at="2021-10-28T13:53:28Z" finished-at="2021-10-28T13:53:36Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.About_US@546a03af]" name="setupApplication" is-config="true" duration-ms="6002" started-at="2021-11-19T17:48:29Z" finished-at="2021-11-19T17:48:35Z">
           <params>
             <param index="0">
               <value>
@@ -97,11 +97,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Development.About_US@546a03af]" name="main_Home_Page" duration-ms="31176" started-at="2021-10-28T13:53:36Z" finished-at="2021-10-28T13:54:07Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Development.About_US@546a03af]" name="main_Home_Page" duration-ms="31955" started-at="2021-11-19T17:48:35Z" finished-at="2021-11-19T17:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.About_US@546a03af]" name="tearDown" is-config="true" duration-ms="954" started-at="2021-10-28T13:54:07Z" finished-at="2021-10-28T13:54:08Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.About_US@546a03af]" name="tearDown" is-config="true" duration-ms="945" started-at="2021-11-19T17:49:07Z" finished-at="2021-11-19T17:49:08Z">
           <params>
             <param index="0">
               <value>
@@ -117,9 +117,9 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Development.About_US -->
     </test> <!-- Tradewel_ChromeTest_Development -->
-    <test name="Tradewel_FFTest_Development" duration-ms="91815" started-at="2021-10-28T08:24:08Z" finished-at="2021-10-28T08:25:40Z">
+    <test name="Tradewel_FFTest_Development" duration-ms="94987" started-at="2021-11-19T12:19:08Z" finished-at="2021-11-19T12:20:43Z">
       <class name="Test_Cases_Development.About_US">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.About_US@7d417077]" name="setupApplication" is-config="true" duration-ms="7754" started-at="2021-10-28T13:55:00Z" finished-at="2021-10-28T13:55:07Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.About_US@7d417077]" name="setupApplication" is-config="true" duration-ms="11346" started-at="2021-11-19T17:49:59Z" finished-at="2021-11-19T17:50:10Z">
           <params>
             <param index="0">
               <value>
@@ -136,11 +136,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Development.About_US@7d417077]" name="main_Home_Page" duration-ms="31072" started-at="2021-10-28T13:55:07Z" finished-at="2021-10-28T13:55:38Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Test_Cases_Development.About_US@7d417077]" name="main_Home_Page" duration-ms="31600" started-at="2021-11-19T17:50:10Z" finished-at="2021-11-19T17:50:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.About_US@7d417077]" name="tearDown" is-config="true" duration-ms="1372" started-at="2021-10-28T13:55:38Z" finished-at="2021-10-28T13:55:40Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.About_US@7d417077]" name="tearDown" is-config="true" duration-ms="1392" started-at="2021-11-19T17:50:42Z" finished-at="2021-11-19T17:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -156,7 +156,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test_Cases_Development.About_US -->
       <class name="Test_Cases_Development.Comprehensive_Protection_FF">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.Comprehensive_Protection_FF@7dc36524]" name="setupApplication" is-config="true" duration-ms="10751" started-at="2021-10-28T13:54:08Z" finished-at="2021-10-28T13:54:19Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Cases_Development.Comprehensive_Protection_FF@7dc36524]" name="setupApplication" is-config="true" duration-ms="9289" started-at="2021-11-19T17:49:08Z" finished-at="2021-11-19T17:49:17Z">
           <params>
             <param index="0">
               <value>
@@ -173,11 +173,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Comprehensive()[pri:0, instance:Test_Cases_Development.Comprehensive_Protection_FF@7dc36524]" name="Comprehensive" duration-ms="39457" started-at="2021-10-28T13:54:19Z" finished-at="2021-10-28T13:54:58Z">
+        <test-method status="PASS" signature="Comprehensive()[pri:0, instance:Test_Cases_Development.Comprehensive_Protection_FF@7dc36524]" name="Comprehensive" duration-ms="39924" started-at="2021-11-19T17:49:17Z" finished-at="2021-11-19T17:49:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Comprehensive -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.Comprehensive_Protection_FF@7dc36524]" name="tearDown" is-config="true" duration-ms="1407" started-at="2021-10-28T13:54:58Z" finished-at="2021-10-28T13:55:00Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Cases_Development.Comprehensive_Protection_FF@7dc36524]" name="tearDown" is-config="true" duration-ms="1434" started-at="2021-11-19T17:49:57Z" finished-at="2021-11-19T17:49:59Z">
           <params>
             <param index="0">
               <value>

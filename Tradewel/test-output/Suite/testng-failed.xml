@@ -2,12 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="none">
   <parameter name="browser" value="firefox"/>
-  <test name="Tradewel_FFTest_Development(failed)" parallel="none">
-    <parameter name="browser" value="firefox"/>
+  <test name="Tradewel_ChromeTest_Development(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="Test_Cases_Development.About_US">
         <methods>
-          <include name="main_Home_Page"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
@@ -24,8 +23,9 @@
         <methods>
           <include name="setupApplication"/>
           <include name="tearDown"/>
+          <include name="Comprehensive"/>
         </methods>
       </class> <!-- Test_Cases_Development.comprehensive_Protection -->
     </classes>
-  </test> <!-- Tradewel_FFTest_Development(failed) -->
+  </test> <!-- Tradewel_ChromeTest_Development(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -33,11 +33,11 @@ WebDriver driver;
     By global_content = By.xpath("(//*[text()='Applied Treadwell Content'])[2]");
    
     
-    By Tab1 = By.xpath("//*[text()=' Home - Tab Interface Section - Works of Art ']");
-    By Tab2 = By.xpath("//*[text()=' Home - Tab Interface Section - Jewelry & Watches ']");
-    By Tab3 = By.xpath("//*[text()=' Home - Tab Interface Section - Automobiles ']");
-    By Tab4 = By.xpath("//*[text()=' Home - Tab Interface Section - Wine & Spirits ']");
-    By Tab5 = By.xpath("//*[text()=' Home - Tab Interface Section - Collectibles ']");
+    By Tab1 = By.xpath("//*[text()=' Treadwell - Homepage - Tab Interface Section - Works of Art ']");
+    By Tab2 = By.xpath("//*[text()=' Treadwell - Homepage - Tab Interface Section - Jewelry & Watches ']");
+    By Tab3 = By.xpath("//*[text()=' Treadwell - Homepage - Tab Interface Section - Automobiles ']");
+    By Tab4 = By.xpath("//*[text()=' Treadwell - Homepage - Tab Interface Section - Wine & Spirits ']");
+    By Tab5 = By.xpath("//*[text()=' Treadwell - Homepage - Tab Interface Section - Collectibles ']");
     
     By Tab_edit_scroll = By.xpath("//*[@id='/stat']/div/div[1]/am-collapsible-section-header/div");
     
