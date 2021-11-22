@@ -11,7 +11,6 @@
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="main_Home_Page"/>
         </methods>
       </class> <!-- Test_Cases_Development.HomePage_TC -->
       <class name="Test_Cases_Development.WatsNew">
@@ -34,7 +33,6 @@
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="main_Home_Page"/>
         </methods>
       </class> <!-- Test_Cases_Development.HomePage_TC -->
       <class name="Test_Cases_Development.WatsNew">

@@ -10,23 +10,23 @@ public class WhatsNewPage {
 	
 	WebDriver driver;
 	
-	//div[contains(@class, 'fadeAltClass-1')]/div/a
+	
 	
 	By Image1 = By.xpath("(//*[@alt='News Article Image Text'])[1]");
-	By Image1_URL = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div[1]/div/div/div[1]/div/a");
+	By Image1_URL = By.xpath("//div[contains(@class, 'fadeAltClass-1')]/div/a");
 	By Image2 = By.xpath("(//*[@alt='News Article Image Text'])[2]");
-	By Image2_URL = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div[1]/div/div/div[2]/div/a");
+	By Image2_URL = By.xpath("//div[contains(@class, 'fadeAltClass-2')]/div/a");
 	By Image3 = By.xpath("(//*[@alt='News Article Image Text'])[3]");
-	By Image3_URL = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div/div[2]/div/div[1]/div/a");
+	By Image3_URL = By.xpath("//*[@id='__next']/div[2]/div/div/div/div[1]/div[2]/div/div[1]/div/a");
 	By Image4 = By.xpath("(//*[@alt='News Article Image Text'])[4]");
-	By Image4_URL = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div/div[2]/div/div[2]/div/a");
-	By LoadMore	= By.xpath("//*[text()='LOAD MORE NEWS']");
+	By Image4_URL = By.xpath("//*[@id='__next']/div[2]/div/div/div/div[1]/div[2]/div/div[2]/div/a");
+	By LoadMore	= By.xpath("//*[text()='More News']");
+	By LoadMore2 = By.xpath("//*[text()='LOAD MORE NEWS']");
 	
-	By Text1 = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div[1]/div/div/div[1]/div/a/div/div/div/p[2]");
-	By Text2 = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div[1]/div/div/div[2]/div/a/div/div/div/p[2]");
-	By Text3 = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div/div[2]/div/div[1]/div/a/div/div/div/p[2]");
-	By Text4 = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div/div[2]/div/div[2]/div/a/div/div/div/p[2]");
-	
+	By Text1 = By.xpath("(//*[text()='News'])[1]");
+	By Text2 = By.xpath("(//*[text()='News'])[2]");
+	By Text3 = By.xpath("(//*[text()='News'])[3]");
+	By Text4 = By.xpath("(//*[text()='News'])[4]");
 	
 	public WhatsNewPage (WebDriver driver){
 		this.driver=driver;
@@ -76,7 +76,7 @@ public class WhatsNewPage {
 		   Thread.sleep(3000);
 		   
 		   String currentImgURL1 = driver.getCurrentUrl();
-		   System.out.println("Image Url = " + currentImgURL1);
+		   System.out.println("Image Url after click = " + currentImgURL1);
 		   
 		   driver.navigate().back();
 		   
@@ -87,7 +87,7 @@ public class WhatsNewPage {
 		   Thread.sleep(3000);
 		   
 		   String currentTextURL1 = driver.getCurrentUrl();
-		   System.out.println("Image Url = " + currentTextURL1);
+		   System.out.println("Text Url  after click = " + currentTextURL1);
 		   
 		   driver.navigate().back();
  		   
@@ -98,7 +98,7 @@ public class WhatsNewPage {
 	// Image 2 click	   
 		   String s1 = driver.findElement(Image2_URL).getAttribute("href");
 		   
-		   System.out.println("Image 2 URL = " + s1);
+		   System.out.println("Image 2 URL after click = " + s1);
 		   
 		   driver.findElement(Image2).click();
 		   Thread.sleep(3000);
@@ -108,12 +108,13 @@ public class WhatsNewPage {
 		   
 		   driver.navigate().back();
 		   
-		// click on text 1
+		// click on text 2
+		   
 		   driver.findElement(Text2).click();
 		   Thread.sleep(3000);
 		   
 		   String currentTextURL2 = driver.getCurrentUrl();
-		   System.out.println("Text Url 2 = " + currentTextURL2);
+		   System.out.println("Text Url 2  after click = " + currentTextURL2);
 		   
 		   driver.navigate().back();
  		   
@@ -155,7 +156,7 @@ public class WhatsNewPage {
 		   WebElement Element1 = driver.findElement(Image2);
 		   js.executeScript("arguments[0].scrollIntoView();", Element1);
 		   
-          driver.findElement(LoadMore).click();
+        //  driver.findElement(LoadMore).click();
 		   
 		   Thread.sleep(2000);
 		   
@@ -171,9 +172,9 @@ public class WhatsNewPage {
 		   WebElement Element2 = driver.findElement(Image2);
 		   js.executeScript("arguments[0].scrollIntoView();", Element2);
 		   
-		   Thread.sleep(2000);
+		   /*Thread.sleep(2000);
            driver.findElement(LoadMore).click();
-		   
+		   */
 		   Thread.sleep(2000);
 		  
 		   
@@ -202,9 +203,10 @@ public class WhatsNewPage {
 		   
 		   Thread.sleep(2000);
 		   
-           driver.findElement(LoadMore).click();
+           /*driver.findElement(LoadMore).click();
 		   
 		   Thread.sleep(2000);
+		   */
 		   
 		// click on text 4
 		   driver.findElement(Text4).click();
