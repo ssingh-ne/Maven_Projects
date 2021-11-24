@@ -3,6 +3,8 @@ package Test_case;
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -42,6 +44,16 @@ public class Side_Heading  extends Base_class {
  		System.out.println("slot_heading = " +slot_heading);
 	
  		a.content2();
+ 		
+ 		JavascriptExecutor js1 = (JavascriptExecutor) driver;
+ 		WebElement Element1 = driver.findElement(By.xpath("//*[@id='/internationalTextContent']/div/div[1]/am-collapsible-section-header/div/div/span"));
+ 		js1.executeScript("arguments[0].scrollIntoView();", Element1);
+ 		Thread.sleep(3000);
+ 		WebElement Element2 = driver.findElement(By.xpath("//*[@id='/textContent/values/0/value']/div/div[1]/am-collapsible-section-header/div/span"));
+ 		js1.executeScript("arguments[0].scrollIntoView();", Element2);
+ 		
+ 		
+ 		Thread.sleep(3000);
  		int size1 = driver.findElements(By.tagName("iframe")).size();
  		System.out.println(size1);
  		driver.switchTo().frame(0);
@@ -58,15 +70,20 @@ public class Side_Heading  extends Base_class {
 		
 		
 		a.content4();
+		
+		Thread.sleep(3000);
+ 		WebElement Element3 = driver.findElement(By.xpath("//*[@id='/internationalTextContent']/div/div[1]/am-collapsible-section-header/div/div/span"));
+ 		js1.executeScript("arguments[0].scrollIntoView();", Element3);
+ 		Thread.sleep(3000);
+ 		WebElement Element4 = driver.findElement(By.xpath("//*[@id='/textContent/values/0/value']/div/div[1]/am-collapsible-section-header/div/span"));
+ 		js1.executeScript("arguments[0].scrollIntoView();", Element4);
+		
  		int size3 = driver.findElements(By.tagName("iframe")).size();
  		System.out.println(size1);
  		driver.switchTo().frame(0);
  		String slot_heading4 = driver.findElement(By.xpath("//*[@id='root']/div/div/div/div/div/div[2]/div[2]/div/h5")).getText();
  		System.out.println("slot_heading4 = "+slot_heading4);
  		
-		
-		
-		
 		
 		 Home h = new Home(driver);
 		 

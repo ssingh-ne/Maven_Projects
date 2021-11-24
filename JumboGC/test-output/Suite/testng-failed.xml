@@ -2,24 +2,24 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <parameter name="browser" value="chrome"/>
-  <test name="JumboGC_Prod_firefox(failed)">
-    <parameter name="browser" value="firefox"/>
+  <test name="JumboGC_chrome(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Test_case_prod.Side_Heading">
+      <class name="Test_case.Side_Heading">
         <methods>
-          <include name="setupApplication"/>
+          <include name="Side_heading"/>
           <include name="tearDown"/>
+          <include name="setupApplication"/>
         </methods>
-      </class> <!-- Test_case_prod.Side_Heading -->
-      <class name="Test_case_prod.Header_footer">
+      </class> <!-- Test_case.Side_Heading -->
+      <class name="Test_case.Header_footer">
         <methods>
-          <include name="Footer_Facebook"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
         </methods>
-      </class> <!-- Test_case_prod.Header_footer -->
+      </class> <!-- Test_case.Header_footer -->
     </classes>
-  </test> <!-- JumboGC_Prod_firefox(failed) -->
+  </test> <!-- JumboGC_chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -45,10 +45,10 @@ WebDriver driver;
     By slot_editTab = By.xpath("(//*[text()='Edit'])[1]");
     By slot_heading_name = By.xpath("//*[@id='tinymce']/h2");
     By Jumbo_content = By.xpath("(//*[text()='JumboGC Content'])[2]");
-    By content_One = By.xpath("//*[text()=' Text: Multi-State Coverage ']");
-    By content_Two = By.xpath("//*[text()=' Claim Services: Text Banner 1 ']");
-    By content_Three = By.xpath("//*[text()=' Text: Guaranteed Cost Program ']");
-    By content_Four = By.xpath("//*[text()=' Text Banner: Contact Us ']");
+    By content_One = By.xpath("//*[text()=' JumboGC - Homepage - Text - Multi-State Coverage ']");
+    By content_Two = By.xpath("//*[text()=' JumboGC - Homepage - Section - Claim Services ']");
+    By content_Three = By.xpath("//*[text()=' JumboGC - Homepage - Text - Guaranteed Cost Program ']");
+    By content_Four = By.xpath("//*[text()=' JumboGC - Homepage - Section - Contact Us ']");
     		
     By prompt = By.xpath("//*[@ng-click='$ctrl.discard()']");
     By footer_text = By.xpath("//*[text()=' footer ']");
@@ -99,7 +99,7 @@ WebDriver driver;
 		
 		 WebElement Element = driver.findElement(Jumbo_content);
 	 	 js.executeScript("arguments[0].scrollIntoView();", Element);
-	 	 Thread.sleep(3000);
+	 	 Thread.sleep(5000);
    	     driver.findElement(Jumbo_content).click();
    	
    }
@@ -119,12 +119,10 @@ WebDriver driver;
     	
     }
     
-public void content2() throws InterruptedException {
+    public void content2() throws InterruptedException {
     	
 	 driver.switchTo().parentFrame();
 	 
-	 
- 	
  	WebDriverWait wait2 = new WebDriverWait(driver,60);
 	wait2.until(ExpectedConditions.visibilityOfElementLocated(Production));
 		
@@ -145,8 +143,20 @@ public void content2() throws InterruptedException {
  	
  	Thread.sleep(5000);
  	
-	 WebElement Element2 = driver.findElement(By.xpath("//*[@id='/textContent/values/0/value']/div/div[1]/am-collapsible-section-header/div/span"));
+	 WebElement Element2 = driver.findElement(By.xpath("//*[@ng-click='$ctrl.toggleSelection()']"));
 	 js1.executeScript("arguments[0].scrollIntoView();", Element2);
+	 
+	 driver.findElement(By.xpath("//*[@ng-click='$ctrl.toggleSelection()']")).click();
+	 
+	 Thread.sleep(2000);
+	 
+	 driver.findElement(By.xpath("//*[@aria-label='Edit Content']")).click();
+	 
+	 Thread.sleep(5000);
+	 
+	// driver.findElement(By.xpath("//*[@id='/content']/div/div[2]/am-collapsible-section-body/div/div[2]/ul/li[1]/div/am-container-card/div[1]/div/button[1]/md-icon")).click();
+	 
+	 
       	
     }
     
@@ -199,8 +209,16 @@ public void content2() throws InterruptedException {
 	 	
 	 	Thread.sleep(5000);
 	 	
-		 WebElement Element2 = driver.findElement(By.xpath("//*[@id='/textContent/values/0/value']/div/div[1]/am-collapsible-section-header/div/span"));
+		 WebElement Element2 = driver.findElement(By.xpath("//*[@ng-click='$ctrl.toggleSelection()']"));
 		 js1.executeScript("arguments[0].scrollIntoView();", Element2);
+		 
+		 driver.findElement(By.xpath("//*[@ng-click='$ctrl.toggleSelection()']")).click();
+		 
+		 Thread.sleep(2000);
+		 
+		 driver.findElement(By.xpath("//*[@aria-label='Edit Content']")).click();
+		 
+		 Thread.sleep(5000);
 	      	
 	    }
  
