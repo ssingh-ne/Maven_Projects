@@ -1,8 +1,8 @@
-package Test_Cases_Dev;
+package AFL_Test_Cases_Dev;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
+import AFL_Pages.Home_page;
 
 public class Footer_TC_dev extends Base_class {
 	

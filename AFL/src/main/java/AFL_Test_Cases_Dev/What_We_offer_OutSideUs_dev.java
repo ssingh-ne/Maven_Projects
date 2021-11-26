@@ -1,11 +1,11 @@
-package Test_Case_Prod;
+package AFL_Test_Cases_Dev;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
-import Pages.What_we_offer;
+import AFL_Pages.Home_page;
+import AFL_Pages.What_we_offer;
 
-public class What_We_offer_OutSideUs extends Base_class {
+public class What_We_offer_OutSideUs_dev extends Base_class {
 	
 	@Test
 	public void Footer() throws InterruptedException{

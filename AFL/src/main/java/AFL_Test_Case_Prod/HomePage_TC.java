@@ -1,8 +1,8 @@
-package Test_Case_Prod;
+package AFL_Test_Case_Prod;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
+import AFL_Pages.Home_page;
 
 public class HomePage_TC extends Base_class {
 	

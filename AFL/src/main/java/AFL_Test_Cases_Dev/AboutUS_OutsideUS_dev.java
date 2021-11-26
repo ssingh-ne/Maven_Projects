@@ -1,11 +1,11 @@
-package Test_Case_Prod;
+package AFL_Test_Cases_Dev;
 
 import org.testng.annotations.Test;
 
-import Pages.About_Us_Page;
-import Pages.Home_page;
+import AFL_Pages.About_Us_Page;
+import AFL_Pages.Home_page;
 
-public class AboutUS_OutsideUS extends Base_class {
+public class AboutUS_OutsideUS_dev extends Base_class {
 	
 	@Test
 	public void main_Home_Page() throws InterruptedException{
@@ -14,10 +14,11 @@ public class AboutUS_OutsideUS extends Base_class {
 	About_Us_Page a = new About_Us_Page(driver);
 	
 	h.Cookies();
-	a.About_US_header();
+	a.About_US_header_Dev();
 	h.Header();
+	a.Content_load();
 	a.MeatTeam_Outside_US();
-	a.About_US_homePage();
+	a.About_US_homePage_dev();
 	
 	}
 

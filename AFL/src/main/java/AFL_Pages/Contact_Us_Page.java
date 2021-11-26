@@ -1,4 +1,4 @@
-package Pages;
+package AFL_Pages;
 
 import static org.testng.Assert.assertEquals;
 

@@ -1,4 +1,4 @@
-package Test_Cases_Dev;
+package AFL_Test_Case_Prod;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -19,37 +19,34 @@ import org.testng.annotations.Parameters;
 
 public class Base_class {
 	
-	WebDriver driver;
+	protected WebDriver driver;
     
 	@Parameters ("browser")
 	 @BeforeMethod
-	
-	/* public void setupApplication()
+	/*public void setupApplication()
 		{
 			
-			Reporter.log("=====FF Browser Session Started=====", true);
+			Reporter.log("=====Chrome Browser Session Started=====", true);
+			  System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
 			
-			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
-			 driver=new ChromeDriver();
+			driver=new ChromeDriver();
 			
 			//System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
 	               
-			// driver=new FirefoxDriver();
-	         
-			 
-			 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS) ;
+		//	driver=new FirefoxDriver();
+	        
+			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS) ;
 	                
 			driver.manage().window().maximize();
 			
-			driver.get("https://develop--applied-financial-lines.netlify.app/?lang=en-us");
+			driver.get("https://afl.auw.com/?lang=en-us");
 			
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		}*/
-	
-	 
-   public void setupApplication (String browser)
+		} */
+
+		public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {
 			Reporter.log("=====firefox Browser Session Started=====", true);
@@ -69,8 +66,9 @@ public class Base_class {
 			
 		}
 		driver.manage().window().maximize();
-		 
-		driver.get("https://develop--applied-financial-lines.netlify.app/?lang=en-us");
+		
+		driver.get("https://afl.auw.com/?lang=en-us");  
+		
 		Reporter.log("=====Application Started=====", true);
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -110,6 +108,6 @@ public class Base_class {
 			driver.quit();
 			Reporter.log("=====Browser Session End=====", true);
 			
-		} 
+		}
 	
 	}
