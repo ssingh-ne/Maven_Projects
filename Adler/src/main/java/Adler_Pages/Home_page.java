@@ -1,8 +1,8 @@
-package Pages;
+package Adler_Pages;
 
 import org.openqa.selenium.*;
 
-import TestCases_Development.Base_class;
+import Adler_TestCases_Development.Base_class;
 
 import static org.testng.Assert.assertEquals;
 

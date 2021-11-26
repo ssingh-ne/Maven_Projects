@@ -1,8 +1,8 @@
-package TestCases_Prod;
+package Adler_TestCases_Development;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
+import Adler_Pages.Home_page;
 
 public class Home extends Base_class {
 
@@ -12,8 +12,8 @@ public class Home extends Base_class {
 	
 	Home_page h = new Home_page(driver);
 	
-	h.About_Us();
 	h.Contact_Us();
+	h.About_Us();
 	h.PrivacyPolicy();
 	
 	}

@@ -4,16 +4,16 @@
    <test name="AUW_Chrome_Dev">
    <parameter name="browser" value= "chrome"  />
     <classes>
-        <class name="TestCases_Development.News"/>
-      <class name="TestCases_Development.Home"/>
+        <class name="TestCases_Adler_Development.News"/>
+      <class name="TestCases_Adler_Development.Home"/>
     </classes>
   </test>
   
    <test name="AUW_Firefox_Dev">
    <parameter name="browser" value= "firefox"  />
     <classes>
-       <class name="TestCases_Development.News"/>
-      <class name="TestCases_Development.Home"/>
+       <class name="Adler_TestCases_Development.News"/>
+      <class name="Adler_TestCases_Development.Home"/>
     </classes>
   </test>
   

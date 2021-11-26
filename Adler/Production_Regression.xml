@@ -4,18 +4,18 @@
   <test name="AUW_Chrome_Prod">
    <parameter name="browser" value= "chrome"  />
     <classes>
-      <class name="TestCases_Prod.News"/>
-      <class name="TestCases_Prod.Home"/>
-      <class name="TestCases_Prod.Base_class"/>
+      <class name="Adler_TestCases_Prod.News"/>
+      <class name="Adler_TestCases_Prod.Home"/>
+      <class name="Adler_TestCases_Prod.Base_class"/>
     </classes>
   </test> 
   
   <test name="AUW_Firefox_Prod">
    <parameter name="browser" value= "firefox"  />
     <classes>
-      <class name="TestCases_Prod.News"/>
-      <class name="TestCases_Prod.Home"/>
-      <class name="TestCases_Prod.Base_class"/>
+      <class name="Adler_TestCases_Prod.News"/>
+      <class name="Adler_TestCases_Prod.Home"/>
+      <class name="Adler_TestCases_Prod.Base_class"/>
     </classes>
   </test> 
   

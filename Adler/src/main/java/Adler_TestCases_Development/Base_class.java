@@ -1,4 +1,4 @@
-package TestCases_Prod;
+package Adler_TestCases_Development;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -33,20 +33,20 @@ public class Base_class {
 			
 			//System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
 	               
-		//	driver=new FirefoxDriver();
+	    	//	driver=new FirefoxDriver();
 	        
 			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS) ;
 	                
 			driver.manage().window().maximize();
 			
-			driver.get("https://adlertooling.com/");
+			driver.get("https://develop--adler-industrial-solutions.netlify.app/");
 			
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		} */
 
-	public void setupApplication (String browser)
+  public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {
 			Reporter.log("=====firefox Browser Session Started=====", true);
@@ -67,7 +67,7 @@ public class Base_class {
 		}
 		driver.manage().window().maximize();
 		
-		driver.get("https://adlertooling.com/"); 
+		driver.get("https://develop--adler-industrial-solutions.netlify.app/");
 		
 		Reporter.log("=====Application Started=====", true);
 		
@@ -110,4 +110,4 @@ public class Base_class {
 			
 		}
 	
-}
+	}

@@ -1,8 +1,8 @@
-package TestCases_Prod;
+package Adler_TestCases_Development;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
+import Adler_Pages.Home_page;
 
 public class News extends Base_class {
 
@@ -16,6 +16,7 @@ public class News extends Base_class {
 		h.News2();
 		h.News3();
 		h.News4();
+		
 		
 		
 	}
