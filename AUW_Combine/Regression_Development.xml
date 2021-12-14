@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="none">
-  <test name="Chrome_Prod">
+  <test name="Chrome_Developmet">
    <parameter name="browser" value= "chrome"  />
     <classes>
  
@@ -41,9 +41,6 @@
       
       <class name="Adler_TestCases_Development.Home"/>
       <class name="Adler_TestCases_Development.News"/>
-      
-      <class name="Tradewel_Test_Cases_Development.Comprehensive_Protection_FF"/>
-      <class name="Tradewel_Test_Cases_Development.comprehensive_Protection"/>
      
       <class name="Careers_Test_case_Development.Side_Heading1"/>
       <class name="Careers_Test_case_Development.Footer"/>
@@ -74,7 +71,7 @@
     </classes>
   </test> 
   
-   <test name="Firefox_Prod">
+   <test name="Firefox_Developmet">
    <parameter name="browser" value= "firefox"  />
     <classes>
  
@@ -133,9 +130,6 @@
       <class name="Solution_one_Development.Footer_Develop"/>
      
       <class name="JumboGC_Test_case_Devlopment.Header_footer"/>
-      
-      <class name="Tradewel_Test_Cases_Development.About_US"/>
-      <class name="Tradewel_Test_Cases_Development.comprehensive_Protection"/>
       
     </classes>
   </test> <!-- Test -->

@@ -30,11 +30,11 @@ public class Base_class {
 			Reporter.log("=====FF Browser Session Started=====", true);
 			
 			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
-			 driver=new ChromeDriver();
+			driver=new ChromeDriver();
 			
-			//System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
 	               
-			// driver=new FirefoxDriver();
+			 driver=new FirefoxDriver();
 	         
 			 
 			 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS) ;
@@ -48,7 +48,7 @@ public class Base_class {
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		}*/
 	
-	 
+	
    public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {
@@ -111,5 +111,5 @@ public class Base_class {
 			Reporter.log("=====Browser Session End=====", true);
 			
 		} 
-	
+
 	}

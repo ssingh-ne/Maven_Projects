@@ -29,7 +29,7 @@ public class Base_class {
 			
 		Reporter.log("=====firefox Browser Session Started=====", true);
 		 // System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Sweta\\Desktop\\Demo\\New folder\\Firefox\\geckodriver.exe");
+		  System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
                driver=new FirefoxDriver();
 			
 			driver.manage().window().maximize();
@@ -58,7 +58,7 @@ public class Base_class {
 		} */
 	 
 	
-		public void setupApplication (String browser)
+public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {
 			Reporter.log("=====firefox Browser Session Started=====", true);
