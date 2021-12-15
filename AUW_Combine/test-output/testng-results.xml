@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
+      <![CDATA[=====FF Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54071" started-at="2021-12-14T14:36:37Z" finished-at="2021-12-14T14:37:31Z">
+  <suite name="Default suite" duration-ms="70735" started-at="2021-12-15T13:58:49Z" finished-at="2021-12-15T14:00:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54071" started-at="2021-12-14T14:36:37Z" finished-at="2021-12-14T14:37:31Z">
-      <class name="Tradewel_Test_Cases_Development.Comprehensive_Protection_FF">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Tradewel_Test_Cases_Development.Comprehensive_Protection_FF@2aafb23c]" name="setupApplication" is-config="true" duration-ms="13334" started-at="2021-12-14T20:06:37Z" finished-at="2021-12-14T20:06:50Z">
+    <test name="Default test" duration-ms="70735" started-at="2021-12-15T13:58:49Z" finished-at="2021-12-15T14:00:00Z">
+      <class name="AUW_Test_case_prod.AUW_Heartwood">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:AUW_Test_case_prod.AUW_Heartwood@2aafb23c]" name="setupApplication" is-config="true" duration-ms="11615" started-at="2021-12-15T19:28:49Z" finished-at="2021-12-15T19:29:00Z">
           <reporter-output>
             <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
+              <![CDATA[=====FF Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Comprehensive()[pri:0, instance:Tradewel_Test_Cases_Development.Comprehensive_Protection_FF@2aafb23c]" name="Comprehensive" duration-ms="40717" started-at="2021-12-14T20:06:50Z" finished-at="2021-12-14T20:07:31Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_case_prod.AUW_Heartwood@2aafb23c]" name="main" duration-ms="59102" started-at="2021-12-15T19:29:00Z" finished-at="2021-12-15T19:30:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Comprehensive -->
-      </class> <!-- Tradewel_Test_Cases_Development.Comprehensive_Protection_FF -->
+        </test-method> <!-- main -->
+      </class> <!-- AUW_Test_case_prod.AUW_Heartwood -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

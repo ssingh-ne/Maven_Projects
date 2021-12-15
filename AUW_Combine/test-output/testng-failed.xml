@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Tradewel_Test_Cases_Development.Comprehensive_Protection_FF">
+      <class name="Solution_one_Prod.Side_Heading_Production">
         <methods>
-          <include name="Comprehensive"/>
+          <include name="Side_Heading_Two"/>
           <include name="setupApplication"/>
+          <include name="Side_Heading_Five"/>
+          <include name="Side_Heading_One"/>
+          <include name="Side_Heading_Three"/>
+          <include name="Side_Heading_Four"/>
         </methods>
-      </class> <!-- Tradewel_Test_Cases_Development.Comprehensive_Protection_FF -->
+      </class> <!-- Solution_one_Prod.Side_Heading_Production -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
