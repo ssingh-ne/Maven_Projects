@@ -33,8 +33,8 @@ public class Base_class_Prod {
 	                driver=new ChromeDriver();
 			
 			
-			System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
-			                driver=new FirefoxDriver();
+			//System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+		    //driver=new FirefoxDriver();
 			
 			driver.manage().window().maximize();
 			
@@ -107,4 +107,5 @@ public class Base_class_Prod {
 	Reporter.log("=====Browser Session End=====", true);
 	
 }
-	}
+
+}
