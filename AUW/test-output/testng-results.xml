@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="20" passed="20">
+<testng-results skipped="0" failed="1" total="20" passed="19">
   <reporter-output>
     <line>
       <![CDATA[=====Chrome Browser Session Started=====]]>
@@ -182,12 +182,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="2024097" started-at="2021-11-15T05:10:36Z" finished-at="2021-11-15T05:44:20Z">
+  <suite name="Suite" duration-ms="2107347" started-at="2021-12-20T06:59:07Z" finished-at="2021-12-20T07:34:14Z">
     <groups>
     </groups>
-    <test name="AUW_Chrome_Dev" duration-ms="1003800" started-at="2021-11-15T05:10:36Z" finished-at="2021-11-15T05:27:20Z">
-      <class name="Test_Case_dev.AUW_CallUpdate">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_CallUpdate@5e025e70]" name="setupApplication" is-config="true" duration-ms="17015" started-at="2021-11-15T10:46:40Z" finished-at="2021-11-15T10:46:57Z">
+    <test name="AUW_Chrome_Dev" duration-ms="1047381" started-at="2021-12-20T06:59:07Z" finished-at="2021-12-20T07:16:34Z">
+      <class name="AUW_Test_Case_dev.AUW_Intelligence_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_Intelligence_TC@3c5a99da]" name="setupApplication" is-config="true" duration-ms="4382" started-at="2021-12-20T12:39:34Z" finished-at="2021-12-20T12:39:39Z">
           <params>
             <param index="0">
               <value>
@@ -204,15 +204,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_CallUpdate@5e025e70]" name="main" duration-ms="42841" started-at="2021-11-15T10:46:57Z" finished-at="2021-11-15T10:47:39Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_Intelligence_TC@3c5a99da]" name="main" duration-ms="88806" started-at="2021-12-20T12:39:39Z" finished-at="2021-12-20T12:41:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_CallUpdate@5e025e70]" name="tearDown" is-config="true" duration-ms="706" started-at="2021-11-15T10:47:39Z" finished-at="2021-11-15T10:47:40Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_Intelligence_TC@3c5a99da]" name="tearDown" is-config="true" duration-ms="1225" started-at="2021-12-20T12:41:08Z" finished-at="2021-12-20T12:41:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_CallUpdate.main()[pri:0, instance:Test_Case_dev.AUW_CallUpdate@5e025e70] output={null}]]]>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_Intelligence_TC.main()[pri:0, instance:AUW_Test_Case_dev.AUW_Intelligence_TC@3c5a99da] output={null}]]]>
               </value>
             </param>
           </params>
@@ -222,9 +222,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_CallUpdate -->
-      <class name="Test_Case_dev.AUW_AboutUS">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_AboutUS@4563e9ab]" name="setupApplication" is-config="true" duration-ms="8082" started-at="2021-11-15T10:40:36Z" finished-at="2021-11-15T10:40:44Z">
+      </class> <!-- AUW_Test_Case_dev.AUW_Intelligence_TC -->
+      <class name="AUW_Test_Case_dev.Practices_AgentsBrokers">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.Practices_AgentsBrokers@11531931]" name="setupApplication" is-config="true" duration-ms="4407" started-at="2021-12-20T12:41:33Z" finished-at="2021-12-20T12:41:37Z">
           <params>
             <param index="0">
               <value>
@@ -241,311 +241,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AboutUS()[pri:0, instance:Test_Case_dev.AUW_AboutUS@4563e9ab]" name="AboutUS" duration-ms="67271" started-at="2021-11-15T10:40:44Z" finished-at="2021-11-15T10:41:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutUS -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_AboutUS@4563e9ab]" name="tearDown" is-config="true" duration-ms="731" started-at="2021-11-15T10:41:52Z" finished-at="2021-11-15T10:41:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=AboutUS status=SUCCESS method=AUW_AboutUS.AboutUS()[pri:0, instance:Test_Case_dev.AUW_AboutUS@4563e9ab] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_AboutUS -->
-      <class name="Test_Case_dev.AUW_PPP">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_PPP@71c7db30]" name="setupApplication" is-config="true" duration-ms="5766" started-at="2021-11-15T10:52:04Z" finished-at="2021-11-15T10:52:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_PPP@71c7db30]" name="main" duration-ms="18501" started-at="2021-11-15T10:52:10Z" finished-at="2021-11-15T10:52:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_PPP@71c7db30]" name="tearDown" is-config="true" duration-ms="705" started-at="2021-11-15T10:52:28Z" finished-at="2021-11-15T10:52:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_PPP.main()[pri:0, instance:Test_Case_dev.AUW_PPP@71c7db30] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_PPP -->
-      <class name="Test_Case_dev.AUW_Footer_Development">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_Footer_Development@5a01ccaa]" name="setupApplication" is-config="true" duration-ms="5723" started-at="2021-11-15T10:49:13Z" finished-at="2021-11-15T10:49:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_Footer()[pri:0, instance:Test_Case_dev.AUW_Footer_Development@5a01ccaa]" name="AUW_Footer" duration-ms="76636" started-at="2021-11-15T10:49:19Z" finished-at="2021-11-15T10:50:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AUW_Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_Footer_Development@5a01ccaa]" name="tearDown" is-config="true" duration-ms="874" started-at="2021-11-15T10:50:35Z" finished-at="2021-11-15T10:50:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=AUW_Footer status=SUCCESS method=AUW_Footer_Development.AUW_Footer()[pri:0, instance:Test_Case_dev.AUW_Footer_Development@5a01ccaa] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_Footer_Development -->
-      <class name="Test_Case_dev.AUW_Intelligence_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_Intelligence_TC@3c5a99da]" name="setupApplication" is-config="true" duration-ms="3154" started-at="2021-11-15T10:50:36Z" finished-at="2021-11-15T10:50:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_Intelligence_TC@3c5a99da]" name="main" duration-ms="84013" started-at="2021-11-15T10:50:39Z" finished-at="2021-11-15T10:52:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_Intelligence_TC@3c5a99da]" name="tearDown" is-config="true" duration-ms="728" started-at="2021-11-15T10:52:03Z" finished-at="2021-11-15T10:52:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_Intelligence_TC.main()[pri:0, instance:Test_Case_dev.AUW_Intelligence_TC@3c5a99da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_Intelligence_TC -->
-      <class name="Test_Case_dev.AUW_header_web_Development">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_header_web_Development@6e3c1e69]" name="setupApplication" is-config="true" duration-ms="6586" started-at="2021-11-15T10:48:26Z" finished-at="2021-11-15T10:48:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_header_web_Development@6e3c1e69]" name="main" duration-ms="39509" started-at="2021-11-15T10:48:33Z" finished-at="2021-11-15T10:49:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_header_web_Development@6e3c1e69]" name="tearDown" is-config="true" duration-ms="747" started-at="2021-11-15T10:49:12Z" finished-at="2021-11-15T10:49:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_header_web_Development.main()[pri:0, instance:Test_Case_dev.AUW_header_web_Development@6e3c1e69] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_header_web_Development -->
-      <class name="Test_Case_dev.AUW_Experience">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_Experience@47f37ef1]" name="setupApplication" is-config="true" duration-ms="5760" started-at="2021-11-15T10:41:52Z" finished-at="2021-11-15T10:41:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_Experience@47f37ef1]" name="main" duration-ms="280601" started-at="2021-11-15T10:41:58Z" finished-at="2021-11-15T10:46:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_Experience@47f37ef1]" name="tearDown" is-config="true" duration-ms="776" started-at="2021-11-15T10:46:39Z" finished-at="2021-11-15T10:46:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_Experience.main()[pri:0, instance:Test_Case_dev.AUW_Experience@47f37ef1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_Experience -->
-      <class name="Test_Case_dev.AUW_NJ_Update">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_NJ_Update@1fbc7afb]" name="setupApplication" is-config="true" duration-ms="4827" started-at="2021-11-15T10:47:40Z" finished-at="2021-11-15T10:47:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_NJ_Update@1fbc7afb]" name="main" duration-ms="40443" started-at="2021-11-15T10:47:45Z" finished-at="2021-11-15T10:48:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_NJ_Update@1fbc7afb]" name="tearDown" is-config="true" duration-ms="785" started-at="2021-11-15T10:48:25Z" finished-at="2021-11-15T10:48:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_NJ_Update.main()[pri:0, instance:Test_Case_dev.AUW_NJ_Update@1fbc7afb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_NJ_Update -->
-      <class name="Test_Case_dev.Practices_CustomerSeekingCoverage">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.Practices_CustomerSeekingCoverage@45c8e616]" name="setupApplication" is-config="true" duration-ms="6123" started-at="2021-11-15T10:53:27Z" finished-at="2021-11-15T10:53:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Practices_CustomerSeekingCoverage()[pri:0, instance:Test_Case_dev.Practices_CustomerSeekingCoverage@45c8e616]" name="Practices_CustomerSeekingCoverage" duration-ms="225920" started-at="2021-11-15T10:53:33Z" finished-at="2021-11-15T10:57:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Practices_CustomerSeekingCoverage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.Practices_CustomerSeekingCoverage@45c8e616]" name="tearDown" is-config="true" duration-ms="754" started-at="2021-11-15T10:57:19Z" finished-at="2021-11-15T10:57:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Practices_CustomerSeekingCoverage status=SUCCESS method=Practices_CustomerSeekingCoverage.Practices_CustomerSeekingCoverage()[pri:0, instance:Test_Case_dev.Practices_CustomerSeekingCoverage@45c8e616] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.Practices_CustomerSeekingCoverage -->
-      <class name="Test_Case_dev.Practices_AgentsBrokers">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.Practices_AgentsBrokers@11531931]" name="setupApplication" is-config="true" duration-ms="3477" started-at="2021-11-15T10:52:29Z" finished-at="2021-11-15T10:52:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Practices_AgentsBrokers()[pri:0, instance:Test_Case_dev.Practices_AgentsBrokers@11531931]" name="Practices_AgentsBrokers" duration-ms="53972" started-at="2021-11-15T10:52:33Z" finished-at="2021-11-15T10:53:27Z">
+        <test-method status="PASS" signature="Practices_AgentsBrokers()[pri:0, instance:AUW_Test_Case_dev.Practices_AgentsBrokers@11531931]" name="Practices_AgentsBrokers" duration-ms="60605" started-at="2021-12-20T12:41:37Z" finished-at="2021-12-20T12:42:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Practices_AgentsBrokers -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.Practices_AgentsBrokers@11531931]" name="tearDown" is-config="true" duration-ms="736" started-at="2021-11-15T10:53:27Z" finished-at="2021-11-15T10:53:27Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.Practices_AgentsBrokers@11531931]" name="tearDown" is-config="true" duration-ms="983" started-at="2021-12-20T12:42:38Z" finished-at="2021-12-20T12:42:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Practices_AgentsBrokers status=SUCCESS method=Practices_AgentsBrokers.Practices_AgentsBrokers()[pri:0, instance:Test_Case_dev.Practices_AgentsBrokers@11531931] output={null}]]]>
+                <![CDATA[[TestResult name=Practices_AgentsBrokers status=SUCCESS method=Practices_AgentsBrokers.Practices_AgentsBrokers()[pri:0, instance:AUW_Test_Case_dev.Practices_AgentsBrokers@11531931] output={null}]]]>
               </value>
             </param>
           </params>
@@ -555,11 +259,307 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.Practices_AgentsBrokers -->
+      </class> <!-- AUW_Test_Case_dev.Practices_AgentsBrokers -->
+      <class name="AUW_Test_Case_dev.AUW_header_web_Development">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_header_web_Development@6e3c1e69]" name="setupApplication" is-config="true" duration-ms="4417" started-at="2021-12-20T12:37:24Z" finished-at="2021-12-20T12:37:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_header_web_Development@6e3c1e69]" name="main" duration-ms="45661" started-at="2021-12-20T12:37:29Z" finished-at="2021-12-20T12:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_header_web_Development@6e3c1e69]" name="tearDown" is-config="true" duration-ms="1020" started-at="2021-12-20T12:38:15Z" finished-at="2021-12-20T12:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_header_web_Development.main()[pri:0, instance:AUW_Test_Case_dev.AUW_header_web_Development@6e3c1e69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_header_web_Development -->
+      <class name="AUW_Test_Case_dev.AUW_Footer_Development">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_Footer_Development@5a01ccaa]" name="setupApplication" is-config="true" duration-ms="4433" started-at="2021-12-20T12:38:16Z" finished-at="2021-12-20T12:38:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AUW_Footer()[pri:0, instance:AUW_Test_Case_dev.AUW_Footer_Development@5a01ccaa]" name="AUW_Footer" duration-ms="72870" started-at="2021-12-20T12:38:20Z" finished-at="2021-12-20T12:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AUW_Footer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_Footer_Development@5a01ccaa]" name="tearDown" is-config="true" duration-ms="1516" started-at="2021-12-20T12:39:33Z" finished-at="2021-12-20T12:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AUW_Footer status=SUCCESS method=AUW_Footer_Development.AUW_Footer()[pri:0, instance:AUW_Test_Case_dev.AUW_Footer_Development@5a01ccaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_Footer_Development -->
+      <class name="AUW_Test_Case_dev.AUW_Experience">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@47f37ef1]" name="setupApplication" is-config="true" duration-ms="5326" started-at="2021-12-20T12:30:43Z" finished-at="2021-12-20T12:30:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@47f37ef1]" name="main" duration-ms="290007" started-at="2021-12-20T12:30:48Z" finished-at="2021-12-20T12:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@47f37ef1]" name="tearDown" is-config="true" duration-ms="975" started-at="2021-12-20T12:35:38Z" finished-at="2021-12-20T12:35:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_Experience.main()[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_Experience -->
+      <class name="AUW_Test_Case_dev.AUW_CallUpdate">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_CallUpdate@5e025e70]" name="setupApplication" is-config="true" duration-ms="5803" started-at="2021-12-20T12:35:39Z" finished-at="2021-12-20T12:35:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_CallUpdate@5e025e70]" name="main" duration-ms="44062" started-at="2021-12-20T12:35:45Z" finished-at="2021-12-20T12:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_CallUpdate@5e025e70]" name="tearDown" is-config="true" duration-ms="5934" started-at="2021-12-20T12:36:29Z" finished-at="2021-12-20T12:36:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_CallUpdate.main()[pri:0, instance:AUW_Test_Case_dev.AUW_CallUpdate@5e025e70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_CallUpdate -->
+      <class name="AUW_Test_Case_dev.Practices_CustomerSeekingCoverage">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.Practices_CustomerSeekingCoverage@45c8e616]" name="setupApplication" is-config="true" duration-ms="5209" started-at="2021-12-20T12:42:39Z" finished-at="2021-12-20T12:42:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Practices_CustomerSeekingCoverage()[pri:0, instance:AUW_Test_Case_dev.Practices_CustomerSeekingCoverage@45c8e616]" name="Practices_CustomerSeekingCoverage" duration-ms="229560" started-at="2021-12-20T12:42:44Z" finished-at="2021-12-20T12:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Practices_CustomerSeekingCoverage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.Practices_CustomerSeekingCoverage@45c8e616]" name="tearDown" is-config="true" duration-ms="859" started-at="2021-12-20T12:46:33Z" finished-at="2021-12-20T12:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Practices_CustomerSeekingCoverage status=SUCCESS method=Practices_CustomerSeekingCoverage.Practices_CustomerSeekingCoverage()[pri:0, instance:AUW_Test_Case_dev.Practices_CustomerSeekingCoverage@45c8e616] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.Practices_CustomerSeekingCoverage -->
+      <class name="AUW_Test_Case_dev.AUW_AboutUS">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_AboutUS@4563e9ab]" name="setupApplication" is-config="true" duration-ms="10111" started-at="2021-12-20T12:29:07Z" finished-at="2021-12-20T12:29:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AboutUS()[pri:0, instance:AUW_Test_Case_dev.AUW_AboutUS@4563e9ab]" name="AboutUS" duration-ms="83293" started-at="2021-12-20T12:29:17Z" finished-at="2021-12-20T12:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUS -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_AboutUS@4563e9ab]" name="tearDown" is-config="true" duration-ms="2455" started-at="2021-12-20T12:30:40Z" finished-at="2021-12-20T12:30:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutUS status=SUCCESS method=AUW_AboutUS.AboutUS()[pri:0, instance:AUW_Test_Case_dev.AUW_AboutUS@4563e9ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_AboutUS -->
+      <class name="AUW_Test_Case_dev.AUW_NJ_Update">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_NJ_Update@1fbc7afb]" name="setupApplication" is-config="true" duration-ms="5956" started-at="2021-12-20T12:36:35Z" finished-at="2021-12-20T12:36:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_NJ_Update@1fbc7afb]" name="main" duration-ms="42379" started-at="2021-12-20T12:36:41Z" finished-at="2021-12-20T12:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_NJ_Update@1fbc7afb]" name="tearDown" is-config="true" duration-ms="1252" started-at="2021-12-20T12:37:23Z" finished-at="2021-12-20T12:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_NJ_Update.main()[pri:0, instance:AUW_Test_Case_dev.AUW_NJ_Update@1fbc7afb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_NJ_Update -->
+      <class name="AUW_Test_Case_dev.AUW_PPP">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_PPP@71c7db30]" name="setupApplication" is-config="true" duration-ms="3954" started-at="2021-12-20T12:41:09Z" finished-at="2021-12-20T12:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_PPP@71c7db30]" name="main" duration-ms="18868" started-at="2021-12-20T12:41:13Z" finished-at="2021-12-20T12:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_PPP@71c7db30]" name="tearDown" is-config="true" duration-ms="972" started-at="2021-12-20T12:41:32Z" finished-at="2021-12-20T12:41:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_PPP.main()[pri:0, instance:AUW_Test_Case_dev.AUW_PPP@71c7db30] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_PPP -->
     </test> <!-- AUW_Chrome_Dev -->
-    <test name="AUW_Firefox_Dev" duration-ms="1020255" started-at="2021-11-15T05:27:20Z" finished-at="2021-11-15T05:44:20Z">
-      <class name="Test_Case_dev.AUW_CallUpdate">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_CallUpdate@58ceff1]" name="setupApplication" is-config="true" duration-ms="6462" started-at="2021-11-15T11:03:23Z" finished-at="2021-11-15T11:03:29Z">
+    <test name="AUW_Firefox_Dev" duration-ms="1059940" started-at="2021-12-20T07:16:34Z" finished-at="2021-12-20T07:34:14Z">
+      <class name="AUW_Test_Case_dev.AUW_Intelligence_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_Intelligence_TC@1cd072a9]" name="setupApplication" is-config="true" duration-ms="7243" started-at="2021-12-20T12:57:30Z" finished-at="2021-12-20T12:57:38Z">
           <params>
             <param index="0">
               <value>
@@ -576,15 +576,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_CallUpdate@58ceff1]" name="main" duration-ms="44005" started-at="2021-11-15T11:03:29Z" finished-at="2021-11-15T11:04:13Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_Intelligence_TC@1cd072a9]" name="main" duration-ms="82940" started-at="2021-12-20T12:57:38Z" finished-at="2021-12-20T12:59:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_CallUpdate@58ceff1]" name="tearDown" is-config="true" duration-ms="960" started-at="2021-11-15T11:04:13Z" finished-at="2021-11-15T11:04:14Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_Intelligence_TC@1cd072a9]" name="tearDown" is-config="true" duration-ms="1232" started-at="2021-12-20T12:59:01Z" finished-at="2021-12-20T12:59:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_CallUpdate.main()[pri:0, instance:Test_Case_dev.AUW_CallUpdate@58ceff1] output={null}]]]>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_Intelligence_TC.main()[pri:0, instance:AUW_Test_Case_dev.AUW_Intelligence_TC@1cd072a9] output={null}]]]>
               </value>
             </param>
           </params>
@@ -594,9 +594,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_CallUpdate -->
-      <class name="Test_Case_dev.AUW_AboutUS">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_AboutUS@1d251891]" name="setupApplication" is-config="true" duration-ms="6498" started-at="2021-11-15T10:57:20Z" finished-at="2021-11-15T10:57:27Z">
+      </class> <!-- AUW_Test_Case_dev.AUW_Intelligence_TC -->
+      <class name="AUW_Test_Case_dev.AUW_header_web_Development">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_header_web_Development@e580929]" name="setupApplication" is-config="true" duration-ms="9240" started-at="2021-12-20T12:55:13Z" finished-at="2021-12-20T12:55:23Z">
           <params>
             <param index="0">
               <value>
@@ -613,52 +613,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AboutUS()[pri:0, instance:Test_Case_dev.AUW_AboutUS@1d251891]" name="AboutUS" duration-ms="66716" started-at="2021-11-15T10:57:27Z" finished-at="2021-11-15T10:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutUS -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_AboutUS@1d251891]" name="tearDown" is-config="true" duration-ms="959" started-at="2021-11-15T10:58:33Z" finished-at="2021-11-15T10:58:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=AboutUS status=SUCCESS method=AUW_AboutUS.AboutUS()[pri:0, instance:Test_Case_dev.AUW_AboutUS@1d251891] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_AboutUS -->
-      <class name="Test_Case_dev.AUW_PPP">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_PPP@27f674d]" name="setupApplication" is-config="true" duration-ms="6571" started-at="2021-11-15T11:08:55Z" finished-at="2021-11-15T11:09:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_PPP@27f674d]" name="main" duration-ms="19471" started-at="2021-11-15T11:09:01Z" finished-at="2021-11-15T11:09:21Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_header_web_Development@e580929]" name="main" duration-ms="47078" started-at="2021-12-20T12:55:23Z" finished-at="2021-12-20T12:56:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_PPP@27f674d]" name="tearDown" is-config="true" duration-ms="1086" started-at="2021-11-15T11:09:21Z" finished-at="2021-11-15T11:09:22Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_header_web_Development@e580929]" name="tearDown" is-config="true" duration-ms="1423" started-at="2021-12-20T12:56:10Z" finished-at="2021-12-20T12:56:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_PPP.main()[pri:0, instance:Test_Case_dev.AUW_PPP@27f674d] output={null}]]]>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_header_web_Development.main()[pri:0, instance:AUW_Test_Case_dev.AUW_header_web_Development@e580929] output={null}]]]>
               </value>
             </param>
           </params>
@@ -668,9 +631,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_PPP -->
-      <class name="Test_Case_dev.AUW_header_web_Development">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_header_web_Development@e580929]" name="setupApplication" is-config="true" duration-ms="10228" started-at="2021-11-15T11:05:04Z" finished-at="2021-11-15T11:05:15Z">
+      </class> <!-- AUW_Test_Case_dev.AUW_header_web_Development -->
+      <class name="AUW_Test_Case_dev.Practices_AgentsBrokers">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.Practices_AgentsBrokers@48140564]" name="setupApplication" is-config="true" duration-ms="7621" started-at="2021-12-20T13:00:29Z" finished-at="2021-12-20T13:00:36Z">
           <params>
             <param index="0">
               <value>
@@ -687,237 +650,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_header_web_Development@e580929]" name="main" duration-ms="45949" started-at="2021-11-15T11:05:15Z" finished-at="2021-11-15T11:06:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_header_web_Development@e580929]" name="tearDown" is-config="true" duration-ms="1134" started-at="2021-11-15T11:06:01Z" finished-at="2021-11-15T11:06:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_header_web_Development.main()[pri:0, instance:Test_Case_dev.AUW_header_web_Development@e580929] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_header_web_Development -->
-      <class name="Test_Case_dev.AUW_Footer_Development">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_Footer_Development@4c203ea1]" name="setupApplication" is-config="true" duration-ms="9021" started-at="2021-11-15T11:06:02Z" finished-at="2021-11-15T11:06:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AUW_Footer()[pri:0, instance:Test_Case_dev.AUW_Footer_Development@4c203ea1]" name="AUW_Footer" duration-ms="70703" started-at="2021-11-15T11:06:11Z" finished-at="2021-11-15T11:07:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AUW_Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_Footer_Development@4c203ea1]" name="tearDown" is-config="true" duration-ms="1738" started-at="2021-11-15T11:07:21Z" finished-at="2021-11-15T11:07:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=AUW_Footer status=SUCCESS method=AUW_Footer_Development.AUW_Footer()[pri:0, instance:Test_Case_dev.AUW_Footer_Development@4c203ea1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_Footer_Development -->
-      <class name="Test_Case_dev.AUW_Intelligence_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_Intelligence_TC@1cd072a9]" name="setupApplication" is-config="true" duration-ms="6455" started-at="2021-11-15T11:07:23Z" finished-at="2021-11-15T11:07:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_Intelligence_TC@1cd072a9]" name="main" duration-ms="83952" started-at="2021-11-15T11:07:30Z" finished-at="2021-11-15T11:08:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_Intelligence_TC@1cd072a9]" name="tearDown" is-config="true" duration-ms="921" started-at="2021-11-15T11:08:54Z" finished-at="2021-11-15T11:08:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_Intelligence_TC.main()[pri:0, instance:Test_Case_dev.AUW_Intelligence_TC@1cd072a9] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_Intelligence_TC -->
-      <class name="Test_Case_dev.AUW_Experience">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_Experience@7c75222b]" name="setupApplication" is-config="true" duration-ms="9171" started-at="2021-11-15T10:58:34Z" finished-at="2021-11-15T10:58:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_Experience@7c75222b]" name="main" duration-ms="278830" started-at="2021-11-15T10:58:43Z" finished-at="2021-11-15T11:03:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_Experience@7c75222b]" name="tearDown" is-config="true" duration-ms="689" started-at="2021-11-15T11:03:22Z" finished-at="2021-11-15T11:03:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_Experience.main()[pri:0, instance:Test_Case_dev.AUW_Experience@7c75222b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_Experience -->
-      <class name="Test_Case_dev.AUW_NJ_Update">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.AUW_NJ_Update@7c30a502]" name="setupApplication" is-config="true" duration-ms="6823" started-at="2021-11-15T11:04:14Z" finished-at="2021-11-15T11:04:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:Test_Case_dev.AUW_NJ_Update@7c30a502]" name="main" duration-ms="42198" started-at="2021-11-15T11:04:21Z" finished-at="2021-11-15T11:05:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.AUW_NJ_Update@7c30a502]" name="tearDown" is-config="true" duration-ms="957" started-at="2021-11-15T11:05:03Z" finished-at="2021-11-15T11:05:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_NJ_Update.main()[pri:0, instance:Test_Case_dev.AUW_NJ_Update@7c30a502] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.AUW_NJ_Update -->
-      <class name="Test_Case_dev.Practices_CustomerSeekingCoverage">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.Practices_CustomerSeekingCoverage@49e4cb85]" name="setupApplication" is-config="true" duration-ms="6415" started-at="2021-11-15T11:10:31Z" finished-at="2021-11-15T11:10:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Practices_CustomerSeekingCoverage()[pri:0, instance:Test_Case_dev.Practices_CustomerSeekingCoverage@49e4cb85]" name="Practices_CustomerSeekingCoverage" duration-ms="222208" started-at="2021-11-15T11:10:38Z" finished-at="2021-11-15T11:14:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Practices_CustomerSeekingCoverage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.Practices_CustomerSeekingCoverage@49e4cb85]" name="tearDown" is-config="true" duration-ms="680" started-at="2021-11-15T11:14:20Z" finished-at="2021-11-15T11:14:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Practices_CustomerSeekingCoverage status=SUCCESS method=Practices_CustomerSeekingCoverage.Practices_CustomerSeekingCoverage()[pri:0, instance:Test_Case_dev.Practices_CustomerSeekingCoverage@49e4cb85] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.Practices_CustomerSeekingCoverage -->
-      <class name="Test_Case_dev.Practices_AgentsBrokers">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_dev.Practices_AgentsBrokers@48140564]" name="setupApplication" is-config="true" duration-ms="8937" started-at="2021-11-15T11:09:22Z" finished-at="2021-11-15T11:09:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Practices_AgentsBrokers()[pri:0, instance:Test_Case_dev.Practices_AgentsBrokers@48140564]" name="Practices_AgentsBrokers" duration-ms="59409" started-at="2021-11-15T11:09:31Z" finished-at="2021-11-15T11:10:30Z">
+        <test-method status="PASS" signature="Practices_AgentsBrokers()[pri:0, instance:AUW_Test_Case_dev.Practices_AgentsBrokers@48140564]" name="Practices_AgentsBrokers" duration-ms="62172" started-at="2021-12-20T13:00:36Z" finished-at="2021-12-20T13:01:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Practices_AgentsBrokers -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_dev.Practices_AgentsBrokers@48140564]" name="tearDown" is-config="true" duration-ms="1100" started-at="2021-11-15T11:10:30Z" finished-at="2021-11-15T11:10:31Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.Practices_AgentsBrokers@48140564]" name="tearDown" is-config="true" duration-ms="1642" started-at="2021-12-20T13:01:38Z" finished-at="2021-12-20T13:01:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Practices_AgentsBrokers status=SUCCESS method=Practices_AgentsBrokers.Practices_AgentsBrokers()[pri:0, instance:Test_Case_dev.Practices_AgentsBrokers@48140564] output={null}]]]>
+                <![CDATA[[TestResult name=Practices_AgentsBrokers status=SUCCESS method=Practices_AgentsBrokers.Practices_AgentsBrokers()[pri:0, instance:AUW_Test_Case_dev.Practices_AgentsBrokers@48140564] output={null}]]]>
               </value>
             </param>
           </params>
@@ -927,7 +668,313 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_dev.Practices_AgentsBrokers -->
+      </class> <!-- AUW_Test_Case_dev.Practices_AgentsBrokers -->
+      <class name="AUW_Test_Case_dev.AUW_Experience">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@7c75222b]" name="setupApplication" is-config="true" duration-ms="8469" started-at="2021-12-20T12:47:52Z" finished-at="2021-12-20T12:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@7c75222b]" name="main" duration-ms="279663" started-at="2021-12-20T12:48:00Z" finished-at="2021-12-20T12:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@7c75222b]" name="tearDown" is-config="true" duration-ms="1325" started-at="2021-12-20T12:52:40Z" finished-at="2021-12-20T12:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_Experience.main()[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@7c75222b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_Experience -->
+      <class name="AUW_Test_Case_dev.AUW_CallUpdate">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_CallUpdate@58ceff1]" name="setupApplication" is-config="true" duration-ms="9402" started-at="2021-12-20T12:52:41Z" finished-at="2021-12-20T12:52:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_CallUpdate@58ceff1]" name="main" duration-ms="44443" started-at="2021-12-20T12:52:51Z" finished-at="2021-12-20T12:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_CallUpdate@58ceff1]" name="tearDown" is-config="true" duration-ms="1783" started-at="2021-12-20T12:53:35Z" finished-at="2021-12-20T12:53:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_CallUpdate.main()[pri:0, instance:AUW_Test_Case_dev.AUW_CallUpdate@58ceff1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_CallUpdate -->
+      <class name="AUW_Test_Case_dev.AUW_Footer_Development">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_Footer_Development@4c203ea1]" name="setupApplication" is-config="true" duration-ms="7424" started-at="2021-12-20T12:56:11Z" finished-at="2021-12-20T12:56:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AUW_Footer()[pri:0, instance:AUW_Test_Case_dev.AUW_Footer_Development@4c203ea1]" name="AUW_Footer" duration-ms="68998" started-at="2021-12-20T12:56:19Z" finished-at="2021-12-20T12:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AUW_Footer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_Footer_Development@4c203ea1]" name="tearDown" is-config="true" duration-ms="2791" started-at="2021-12-20T12:57:28Z" finished-at="2021-12-20T12:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AUW_Footer status=SUCCESS method=AUW_Footer_Development.AUW_Footer()[pri:0, instance:AUW_Test_Case_dev.AUW_Footer_Development@4c203ea1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_Footer_Development -->
+      <class name="AUW_Test_Case_dev.Practices_CustomerSeekingCoverage">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.Practices_CustomerSeekingCoverage@49e4cb85]" name="setupApplication" is-config="true" duration-ms="6569" started-at="2021-12-20T13:01:40Z" finished-at="2021-12-20T13:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="FAIL" signature="Practices_CustomerSeekingCoverage()[pri:0, instance:AUW_Test_Case_dev.Practices_CustomerSeekingCoverage@49e4cb85]" name="Practices_CustomerSeekingCoverage" duration-ms="146275" started-at="2021-12-20T13:01:47Z" finished-at="2021-12-20T13:04:13Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: (//*[text()='Learn More'])[3] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N7K85DJ', ip: '192.168.1.130', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 5140, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57c73890-d5e8-47b4-b874-81284d03e33e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//*[text()='Learn More'])[3] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N7K85DJ', ip: '192.168.1.130', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 5140, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57c73890-d5e8-47b4-b874-81284d03e33e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at AUW_Pages.Practices_customerSeekingCoverage.CustomerSeekingCoverage_Heading3(Practices_customerSeekingCoverage.java:242)
+	at AUW_Test_Case_dev.Practices_CustomerSeekingCoverage.Practices_CustomerSeekingCoverage(Practices_CustomerSeekingCoverage.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Practices_CustomerSeekingCoverage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.Practices_CustomerSeekingCoverage@49e4cb85]" name="tearDown" is-config="true" duration-ms="1320" started-at="2021-12-20T13:04:13Z" finished-at="2021-12-20T13:04:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Practices_CustomerSeekingCoverage status=FAILURE method=Practices_CustomerSeekingCoverage.Practices_CustomerSeekingCoverage()[pri:0, instance:AUW_Test_Case_dev.Practices_CustomerSeekingCoverage@49e4cb85] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.Practices_CustomerSeekingCoverage -->
+      <class name="AUW_Test_Case_dev.AUW_AboutUS">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_AboutUS@1d251891]" name="setupApplication" is-config="true" duration-ms="8624" started-at="2021-12-20T12:46:34Z" finished-at="2021-12-20T12:46:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AboutUS()[pri:0, instance:AUW_Test_Case_dev.AUW_AboutUS@1d251891]" name="AboutUS" duration-ms="67530" started-at="2021-12-20T12:46:43Z" finished-at="2021-12-20T12:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUS -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_AboutUS@1d251891]" name="tearDown" is-config="true" duration-ms="1490" started-at="2021-12-20T12:47:50Z" finished-at="2021-12-20T12:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutUS status=SUCCESS method=AUW_AboutUS.AboutUS()[pri:0, instance:AUW_Test_Case_dev.AUW_AboutUS@1d251891] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_AboutUS -->
+      <class name="AUW_Test_Case_dev.AUW_NJ_Update">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_NJ_Update@7c30a502]" name="setupApplication" is-config="true" duration-ms="10727" started-at="2021-12-20T12:53:37Z" finished-at="2021-12-20T12:53:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_NJ_Update@7c30a502]" name="main" duration-ms="83603" started-at="2021-12-20T12:53:48Z" finished-at="2021-12-20T12:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_NJ_Update@7c30a502]" name="tearDown" is-config="true" duration-ms="2095" started-at="2021-12-20T12:55:11Z" finished-at="2021-12-20T12:55:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_NJ_Update.main()[pri:0, instance:AUW_Test_Case_dev.AUW_NJ_Update@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_NJ_Update -->
+      <class name="AUW_Test_Case_dev.AUW_PPP">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AUW_Test_Case_dev.AUW_PPP@27f674d]" name="setupApplication" is-config="true" duration-ms="66153" started-at="2021-12-20T12:59:02Z" finished-at="2021-12-20T13:00:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_PPP@27f674d]" name="main" duration-ms="19526" started-at="2021-12-20T13:00:08Z" finished-at="2021-12-20T13:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_PPP@27f674d]" name="tearDown" is-config="true" duration-ms="1128" started-at="2021-12-20T13:00:27Z" finished-at="2021-12-20T13:00:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_PPP.main()[pri:0, instance:AUW_Test_Case_dev.AUW_PPP@27f674d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AUW_Test_Case_dev.AUW_PPP -->
     </test> <!-- AUW_Firefox_Dev -->
   </suite> <!-- Suite -->
 </testng-results>
