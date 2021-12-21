@@ -1,4 +1,4 @@
-package Page;
+package Warranty_Page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -16,6 +16,7 @@ public class NewsEvents_Page {
 	By Text1 = By.xpath("//*[@id='app']/main/div[1]/div/div/div[2]/div[1]/a/div/h4");
 	
 	By Logo = By.xpath("//*[@alt='Applied Warranty Logo']");
+	By more = By.xpath("//*[text()='More']");
 			
 	
 	By Image2 = By.xpath("//*[@id='app']/main/div[1]/div/div/div[2]/div[2]/div/div[1]/div/a");
@@ -178,10 +179,18 @@ public class NewsEvents_Page {
 		// 	Click on image 
 			
 			JavascriptExecutor js = (JavascriptExecutor) driver;
-			WebElement Element = driver.findElement(Image4);
+			WebElement Element = driver.findElement(more);
 			js.executeScript("arguments[0].scrollIntoView();", Element);
 			
+			Thread.sleep(2000);
+			driver.findElement(more).click();
 			
+			Thread.sleep(2000);
+			
+			WebElement Element2 = driver.findElement(Image4);
+			js.executeScript("arguments[0].scrollIntoView();", Element2);
+			
+			Thread.sleep(2000);
 			driver.findElement(Image4).click();
 			
 			Thread.sleep(3000);
@@ -195,10 +204,18 @@ public class NewsEvents_Page {
 //		 	Click on Text 
 			
 				
-				WebElement Element1= driver.findElement(Image4);
-				js.executeScript("arguments[0].scrollIntoView();", Element1);
+			WebElement Element3 = driver.findElement(more);
+			js.executeScript("arguments[0].scrollIntoView();", Element3);
+			
+			Thread.sleep(2000);
+			driver.findElement(more).click();
+			
+			Thread.sleep(2000);
+			
+			WebElement Element4 = driver.findElement(Image4);
+			js.executeScript("arguments[0].scrollIntoView();", Element4);
 				
-				
+			Thread.sleep(2000);
 				driver.findElement(Text4).click();
 				
 				Thread.sleep(3000);
@@ -218,10 +235,18 @@ public class NewsEvents_Page {
 		// 	Click on image 
 			
 			JavascriptExecutor js = (JavascriptExecutor) driver;
-			WebElement Element = driver.findElement(Image5);
+			WebElement Element = driver.findElement(more);
 			js.executeScript("arguments[0].scrollIntoView();", Element);
 			
+			Thread.sleep(2000);
+			driver.findElement(more).click();
 			
+			Thread.sleep(2000);
+			
+			WebElement Element2 = driver.findElement(Image5);
+			js.executeScript("arguments[0].scrollIntoView();", Element2);
+			
+			Thread.sleep(2000);
 			driver.findElement(Image5).click();
 			
 			Thread.sleep(3000);
@@ -235,8 +260,16 @@ public class NewsEvents_Page {
 //		 	Click on Text 
 			
 				
-				WebElement Element1= driver.findElement(Image5);
-				js.executeScript("arguments[0].scrollIntoView();", Element1);
+			WebElement Element3 = driver.findElement(more);
+			js.executeScript("arguments[0].scrollIntoView();", Element3);
+			
+			Thread.sleep(2000);
+			driver.findElement(more).click();
+			
+			Thread.sleep(2000);
+			
+			WebElement Element4 = driver.findElement(Image5);
+			js.executeScript("arguments[0].scrollIntoView();", Element4);
 				
 				Thread.sleep(3000);
 				driver.findElement(Text5).click();

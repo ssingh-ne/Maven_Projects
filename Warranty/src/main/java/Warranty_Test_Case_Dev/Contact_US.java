@@ -1,8 +1,8 @@
-package Test_Case_Dev;
+package Warranty_Test_Case_Dev;
 
 import org.testng.annotations.Test;
 
-import Page.ContactUS_page;
+import Warranty_Page.ContactUS_page;
 
 public class Contact_US extends Base_class {
 

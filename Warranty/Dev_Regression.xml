@@ -4,12 +4,12 @@
   <test name="Warranty_chrome_Dev">
    <parameter name="browser" value= "chrome"  />
     <classes>
-      <class name="Test_Case_Dev.Contact_US"/>
-      <class name="Test_Case_Dev.About_US"/>
-      <class name="Test_Case_Dev.HomePage_Testcase"/>
-      <class name="Test_Case_Dev.Partner_With_US"/>
-      <class name="Test_Case_Dev.Our_Partner"/>
-      <class name="Test_Case_Dev.NewsEvents"/>
+      <class name="Warranty_Test_Case_Dev.Contact_US"/>
+      <class name="Warranty_Test_Case_Dev.About_US"/>
+      <class name="Warranty_Test_Case_Dev.HomePage_Testcase"/>
+      <class name="Warranty_Test_Case_Dev.Partner_With_US"/>
+      <class name="Warranty_Test_Case_Dev.Our_Partner"/>
+      <class name="Warranty_Test_Case_Dev.NewsEvents"/>
     </classes>
   </test>
 
@@ -17,12 +17,12 @@
    <test name="Warranty_FF_Dev">
    <parameter name="browser" value= "firefox"  />
     <classes>
-    <class name="Test_Case_Dev.Contact_US"/>
-      <class name="Test_Case_Dev.About_US"/>
-      <class name="Test_Case_Dev.HomePage_Testcase"/>
-      <class name="Test_Case_Dev.Partner_With_US"/>
-      <class name="Test_Case_Dev.Our_Partner"/>
-      <class name="Test_Case_Dev.NewsEvents"/>
+      <class name="Warranty_Test_Case_Dev.Contact_US"/>
+      <class name="Warranty_Test_Case_Dev.About_US"/>
+      <class name="Warranty_Test_Case_Dev.HomePage_Testcase"/>
+      <class name="Warranty_Test_Case_Dev.Partner_With_US"/>
+      <class name="Warranty_Test_Case_Dev.Our_Partner"/>
+      <class name="Warranty_Test_Case_Dev.NewsEvents"/>
     </classes>
   </test> 
   

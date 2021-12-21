@@ -1,4 +1,4 @@
-package Test_Case_Dev;
+package Warranty_Test_Case_Dev;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -24,7 +24,7 @@ public class Base_class {
 	@Parameters ("browser")
 	 @BeforeMethod
 	
-	/*public void setupApplication()
+  /*public void setupApplication()
 		{
 			
 			Reporter.log("=====FF Browser Session Started=====", true);
@@ -41,14 +41,14 @@ public class Base_class {
 	                
 			driver.manage().window().maximize();
 			
-			driver.get("https://release-1-0-0--applied-warranty.netlify.app/");
+			driver.get("https://develop--applied-warranty.netlify.app/");
 			
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		}*/
-	
-	public void setupApplication (String browser)
+		}
+	*/
+public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {
 			Reporter.log("=====firefox Browser Session Started=====", true);
@@ -69,7 +69,7 @@ public class Base_class {
 		}
 		driver.manage().window().maximize();
 		 
-		driver.get("https://release-1-0-0--applied-warranty.netlify.app/");
+		driver.get("https://develop--applied-warranty.netlify.app/");
 		Reporter.log("=====Application Started=====", true);
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

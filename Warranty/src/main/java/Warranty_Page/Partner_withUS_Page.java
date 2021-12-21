@@ -1,4 +1,4 @@
-package Page;
+package Warranty_Page;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ public class Partner_withUS_Page {
 	
 	
 	By Heading = By.xpath("(//*[text()='Partner With Us'])[1]");
-	String URL = "https://release-1-0-0--applied-warranty.netlify.app/partner-with-us";
+	String URL = "https://develop--applied-warranty.netlify.app/partner-with-us";
 	
 	
 	public Partner_withUS_Page (WebDriver driver){

@@ -1,4 +1,4 @@
-package Page;
+package Warranty_Page;
 
 import java.util.ArrayList;
 import java.util.List;

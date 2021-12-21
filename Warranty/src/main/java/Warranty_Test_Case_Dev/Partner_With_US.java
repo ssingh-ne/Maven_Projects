@@ -1,9 +1,9 @@
-package Test_Case_Dev;
+package Warranty_Test_Case_Dev;
 
 import org.testng.annotations.Test;
 
-import Page.About_us_page;
-import Page.Partner_withUS_Page;
+import Warranty_Page.About_us_page;
+import Warranty_Page.Partner_withUS_Page;
 
 public class Partner_With_US  extends Base_class {
 	

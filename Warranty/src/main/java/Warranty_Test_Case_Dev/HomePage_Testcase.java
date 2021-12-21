@@ -1,8 +1,8 @@
-package Test_Case_Dev;
+package Warranty_Test_Case_Dev;
 
 import org.testng.annotations.Test;
 
-import Page.Home_Page;
+import Warranty_Page.Home_Page;
 
 public class HomePage_Testcase extends Base_class {
 	

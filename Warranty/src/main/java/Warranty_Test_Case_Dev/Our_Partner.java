@@ -1,11 +1,11 @@
-package Test_Case_Dev;
+package Warranty_Test_Case_Dev;
 
 import org.testng.annotations.Test;
 
-import Page.Our_Partners_page;
-import Test_Case_Dev.Base_class;
+import Warranty_Page.Our_Partners_page;
+import Warranty_Test_Case_Dev.Base_class;
 
-public class Our_Partner extends Test_Case_Dev.Base_class {
+public class Our_Partner extends Warranty_Test_Case_Dev.Base_class {
 	
 	
 	@Test
