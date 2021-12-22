@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="AUWGlobal_firefox_Prod(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="Test_Cases_Development.Home_More">
+      <class name="AUW_Global_Test_Cases_Prod.Home_More">
         <methods>
           <include name="setupApplication"/>
-          <include name="More_button"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Test_Cases_Development.Home_More -->
+      </class> <!-- AUW_Global_Test_Cases_Prod.Home_More -->
+      <class name="AUW_Global_Test_Cases_Prod.LearnMore_TC">
+        <methods>
+          <include name="LearnMore"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AUW_Global_Test_Cases_Prod.LearnMore_TC -->
+      <class name="AUW_Global_Test_Cases_Prod.Home_Page_TC">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="HomePage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AUW_Global_Test_Cases_Prod.Home_Page_TC -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- AUWGlobal_firefox_Prod(failed) -->
+</suite> <!-- Failed suite [Suite] -->

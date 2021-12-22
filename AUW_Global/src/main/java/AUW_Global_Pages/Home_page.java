@@ -1,4 +1,4 @@
-package Pages;
+package AUW_Global_Pages;
 
 import static org.testng.Assert.assertEquals;
 

@@ -1,9 +1,9 @@
-package Test_Cases_Development;
+package AUW_Global_Test_Cases_Prod;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
+import AUW_Global_Pages.Home_page;
 
 public class Applied_logo  extends Base_class {
 	

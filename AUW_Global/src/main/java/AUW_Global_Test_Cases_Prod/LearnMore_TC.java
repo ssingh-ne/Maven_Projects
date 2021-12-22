@@ -1,9 +1,9 @@
-package Test_Cases_Development;
+package AUW_Global_Test_Cases_Prod;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
-import Pages.LearnMore_page;
+import AUW_Global_Pages.Home_page;
+import AUW_Global_Pages.LearnMore_page;
 
 public class LearnMore_TC extends Base_class {
 	

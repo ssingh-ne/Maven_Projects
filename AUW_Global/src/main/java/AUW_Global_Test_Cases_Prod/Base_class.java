@@ -1,4 +1,4 @@
-package Test_Cases_Prod;
+package AUW_Global_Test_Cases_Prod;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;

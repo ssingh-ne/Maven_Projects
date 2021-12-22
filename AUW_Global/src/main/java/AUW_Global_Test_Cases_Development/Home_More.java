@@ -1,4 +1,4 @@
-package Test_Cases_Development;
+package AUW_Global_Test_Cases_Development;
 
 import static org.testng.Assert.assertTrue;
 
@@ -7,9 +7,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import Pages.Amplience;
-import Pages.Home_page;
-import Pages.LearnMore_page;
+import AUW_Global_Pages.Amplience;
+import AUW_Global_Pages.Home_page;
+import AUW_Global_Pages.LearnMore_page;
 
 public class Home_More extends Base_class {
 	

@@ -4,17 +4,17 @@
    <test name="AUWGlobal_ChromeTest_Prod">
    <parameter name="browser" value= "chrome"  />
     <classes>
-      <class name="Test_Cases_Prod.LearnMore_TC"/>
-      <class name="Test_Cases_Prod.Home_More"/>
-      <class name="Test_Cases_Prod.Home_Page_TC"/>
+      <class name="AUW_Global_Test_Cases_Prod.LearnMore_TC"/>
+      <class name="AUW_Global_Test_Cases_Prod.Home_More"/>
+      <class name="AUW_Global_Test_Cases_Prod.Home_Page_TC"/>
     </classes>
   </test> 
   
   <test name="AUWGlobal_firefox_Prod">
    <parameter name="browser" value= "firefox"  />
     <classes>
-      <class name="Test_Cases_Prod.LearnMore_TC"/>
-      <class name="Test_Cases_Prod.Home_Page_TC"/>
+      <class name="AUW_Global_Test_Cases_Prod.LearnMore_TC"/>
+      <class name="AUW_Global_Test_Cases_Prod.Home_Page_TC"/>
     </classes>
   </test>
   
