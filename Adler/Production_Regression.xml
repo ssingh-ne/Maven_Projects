@@ -6,7 +6,7 @@
     <classes>
       <class name="Adler_TestCases_Prod.News"/>
       <class name="Adler_TestCases_Prod.Home"/>
-      <class name="Adler_TestCases_Prod.Base_class"/>
+     
     </classes>
   </test> 
   
@@ -15,7 +15,7 @@
     <classes>
       <class name="Adler_TestCases_Prod.News"/>
       <class name="Adler_TestCases_Prod.Home"/>
-      <class name="Adler_TestCases_Prod.Base_class"/>
+     
     </classes>
   </test> 
   
