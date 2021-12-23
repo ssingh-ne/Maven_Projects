@@ -75,7 +75,7 @@ WebDriver driver;
 		 
 		 driver.findElement(Explore_one).click();
 		 
-		 Thread.sleep(3000);
+		 Thread.sleep(5000);
 	}
      
      
@@ -107,7 +107,7 @@ WebDriver driver;
 		 
 		 driver.findElement(Explore_Two).click();
 		 
-		 Thread.sleep(3000);
+		 Thread.sleep(5000);
      }
 	
      public void ExploreThree ()throws InterruptedException {
@@ -120,7 +120,7 @@ WebDriver driver;
 		 
 		 driver.findElement(Explore_Three).click();
 		 
-		 Thread.sleep(3000);
+		 Thread.sleep(5000);
      }
      
      public void ExploreFour ()throws InterruptedException {
@@ -133,7 +133,7 @@ WebDriver driver;
 		 
 		 driver.findElement(Explore_Four).click();
 		 
-		 Thread.sleep(3000);
+		 Thread.sleep(5000);
      }
 	
      public void ExploreFive ()throws InterruptedException {
@@ -146,7 +146,7 @@ WebDriver driver;
 		 
 		 driver.findElement(Explore_five).click();
 		 
-		 Thread.sleep(3000);
+		 Thread.sleep(5000);
      }
 
 
@@ -164,7 +164,7 @@ WebDriver driver;
 	 
 	 driver.findElement(Exp_card_1_text).click();
 	 
-	 Thread.sleep(5000);
+	 Thread.sleep(7000);
 	 
 	String Exp_Card_Text1 = driver.findElement(Exp_cardText).getText();
 	

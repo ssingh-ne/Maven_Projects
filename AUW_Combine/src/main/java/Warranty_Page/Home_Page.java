@@ -44,37 +44,37 @@ public class Home_Page {
 	By Our_products_content1 = By.xpath("//*[text()='Service Contracts and Extended Warranties']");
 	By Our_products_LearnMore1 = By.xpath("(//*[text()='Learn More'])[1]");
 	
-	String Exp_URL1 = "https://release-1-0-0--applied-warranty.netlify.app/our-products/service-contracts";
+	String Exp_URL1 = "https://develop--applied-warranty.netlify.app/our-products/service-contracts";
 	
 	By Our_products_image2 = By.xpath("//a[@href='/our-products/electronics']/div/img");
 	By Our_products_content2 = By.xpath("(//*[text()='Portable Electronics Insurance'])[2]");
 	By Our_products_LearnMore2 = By.xpath("(//*[text()='Learn More'])[2]");
 	
-	String Exp_URL2 ="https://release-1-0-0--applied-warranty.netlify.app/our-products/electronics"; 
+	String Exp_URL2 ="https://develop--applied-warranty.netlify.app/our-products/electronics"; 
 	
 	By Our_products_image3 = By.xpath("//a[@href='/our-products/travel-insurance']/div/img");
 	By Our_products_content3 = By.xpath("(//*[text()='Travel Insurance'])[2]");
 	By Our_products_LearnMore3 = By.xpath("(//*[text()='Learn More'])[3]");
 	
-	String Exp_URL3 ="https://release-1-0-0--applied-warranty.netlify.app/our-products/travel-insurance"; 
+	String Exp_URL3 ="https://develop--applied-warranty.netlify.app/our-products/travel-insurance"; 
 	
 	By Our_products_image4 = By.xpath("//a[@href='/our-products/event-ticket-protection']/div/img");
 	By Our_products_content4 = By.xpath("(//*[text()='Event Ticket Protection'])[2]");
 	By Our_products_LearnMore4 = By.xpath("(//*[text()='Learn More'])[4]");
 	
-	String Exp_URL4 ="https://release-1-0-0--applied-warranty.netlify.app/our-products/event-ticket-protection"; 
+	String Exp_URL4 ="https://develop--applied-warranty.netlify.app/our-products/event-ticket-protection"; 
 	
 	By Our_products_image5 = By.xpath("//a[@href='/our-products/oem-and-distributor-programs']/div/img");
 	By Our_products_content5 = By.xpath("(//*[text()='OEM and Distributor Programs'])[2]");
 	By Our_products_LearnMore5 = By.xpath("(//*[text()='Learn More'])[5]");
 	
-	String Exp_URL5 ="https://release-1-0-0--applied-warranty.netlify.app/our-products/oem-and-distributor-programs"; 
+	String Exp_URL5 ="https://develop--applied-warranty.netlify.app/our-products/oem-and-distributor-programs"; 
 	
 	By Our_products_image6 = By.xpath("//a[@href='/our-products/auto-dealership-program']/div/img");
 	By Our_products_content6 = By.xpath("//*[text()='Auto Dealership Programs']");
 	By Our_products_LearnMore6 = By.xpath("(//*[text()='Learn More'])[6]");
 	
-	String Exp_URL6 ="https://release-1-0-0--applied-warranty.netlify.app/our-products/auto-dealership-program";
+	String Exp_URL6 ="https://develop--applied-warranty.netlify.app/our-products/auto-dealership-program";
 	
 	By cookies_prompt = By.xpath("//*[text()='I Agree']");
 	

@@ -23,19 +23,19 @@ public class Base_class {
     
 	@Parameters ("browser")
 	 @BeforeMethod
-/*public void setupApplication()
+public void setupApplication()
 		{
 			
-			Reporter.log("=====FF Browser Session Started=====", true);
+			Reporter.log("=====Browser Session Started=====", true);
 			
 			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
 			
 			driver=new ChromeDriver();
 			
-			System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+			/*System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
 	               
 			driver=new FirefoxDriver();
-	        
+	        */
 			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS) ;
 	                
 			driver.manage().window().maximize();
@@ -46,8 +46,8 @@ public class Base_class {
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		} 
-	*/
-	public void setupApplication (String browser)
+	
+	/*public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {
 			Reporter.log("=====firefox Browser Session Started=====", true);
@@ -107,6 +107,6 @@ public class Base_class {
 			driver.quit();
 			Reporter.log("=====Browser Session End=====", true);
 			
-		}
+		}*/
 	
 }

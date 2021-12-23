@@ -18,7 +18,7 @@ public class NewsEvents extends Base_class {
         n.Image3();
         n.Image4();
         n.Image5();
-        n.Image6();
+        
         
 	}
 }

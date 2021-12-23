@@ -19,7 +19,7 @@ public class ContactUS_page {
 	
 	By ContactUs_Bottom = By.xpath("(//*[text()='Contact Us'])[3]");
 	
-	String contact_US_URL = "https://release-1-0-0--applied-warranty.netlify.app/contact-us";
+	String contact_US_URL = "https://develop--applied-warranty.netlify.app/contact-us";
 	
 	
 	

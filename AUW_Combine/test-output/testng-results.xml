@@ -1,113 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
+      <![CDATA[=====Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="276821" started-at="2021-12-16T15:29:50Z" finished-at="2021-12-16T15:34:26Z">
+  <suite name="Default suite" duration-ms="249275" started-at="2021-12-22T17:18:50Z" finished-at="2021-12-22T17:22:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="276821" started-at="2021-12-16T15:29:50Z" finished-at="2021-12-16T15:34:26Z">
-      <class name="Solution_one_Development.Side_head_sample">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Solution_one_Development.Side_head_sample@23223dd8]" name="setupApplication" is-config="true" duration-ms="8249" started-at="2021-12-16T20:59:50Z" finished-at="2021-12-16T20:59:58Z">
+    <test name="Default test" duration-ms="249275" started-at="2021-12-22T17:18:50Z" finished-at="2021-12-22T17:22:59Z">
+      <class name="AUW_Test_case_prod.Practices_CustomerSeekingCoverage">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:AUW_Test_case_prod.Practices_CustomerSeekingCoverage@2aafb23c]" name="setupApplication" is-config="true" duration-ms="11620" started-at="2021-12-22T22:48:50Z" finished-at="2021-12-22T22:49:02Z">
           <reporter-output>
             <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
+              <![CDATA[=====Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_Five()[pri:0, instance:Solution_one_Development.Side_head_sample@23223dd8]" name="Side_Heading_Five" duration-ms="49763" started-at="2021-12-16T20:59:58Z" finished-at="2021-12-16T21:00:48Z">
+        <test-method status="PASS" signature="Practices_CustomerSeekingCoverage()[pri:0, instance:AUW_Test_case_prod.Practices_CustomerSeekingCoverage@2aafb23c]" name="Practices_CustomerSeekingCoverage" duration-ms="237613" started-at="2021-12-22T22:49:02Z" finished-at="2021-12-22T22:52:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Side_Heading_Five -->
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Solution_one_Development.Side_head_sample@23223dd8]" name="setupApplication" is-config="true" duration-ms="5732" started-at="2021-12-16T21:00:48Z" finished-at="2021-12-16T21:00:53Z">
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_Four()[pri:0, instance:Solution_one_Development.Side_head_sample@23223dd8]" name="Side_Heading_Four" duration-ms="45861" started-at="2021-12-16T21:00:53Z" finished-at="2021-12-16T21:01:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Side_Heading_Four -->
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Solution_one_Development.Side_head_sample@23223dd8]" name="setupApplication" is-config="true" duration-ms="5232" started-at="2021-12-16T21:01:39Z" finished-at="2021-12-16T21:01:44Z">
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_One()[pri:0, instance:Solution_one_Development.Side_head_sample@23223dd8]" name="Side_Heading_One" duration-ms="44166" started-at="2021-12-16T21:01:44Z" finished-at="2021-12-16T21:02:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Side_Heading_One -->
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Solution_one_Development.Side_head_sample@23223dd8]" name="setupApplication" is-config="true" duration-ms="6812" started-at="2021-12-16T21:02:29Z" finished-at="2021-12-16T21:02:35Z">
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_Three()[pri:0, instance:Solution_one_Development.Side_head_sample@23223dd8]" name="Side_Heading_Three" duration-ms="60991" started-at="2021-12-16T21:02:35Z" finished-at="2021-12-16T21:03:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Side_Heading_Three -->
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Solution_one_Development.Side_head_sample@23223dd8]" name="setupApplication" is-config="true" duration-ms="5825" started-at="2021-12-16T21:03:36Z" finished-at="2021-12-16T21:03:42Z">
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_Two()[pri:0, instance:Solution_one_Development.Side_head_sample@23223dd8]" name="Side_Heading_Two" duration-ms="44169" started-at="2021-12-16T21:03:42Z" finished-at="2021-12-16T21:04:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Side_Heading_Two -->
-      </class> <!-- Solution_one_Development.Side_head_sample -->
+        </test-method> <!-- Practices_CustomerSeekingCoverage -->
+      </class> <!-- AUW_Test_case_prod.Practices_CustomerSeekingCoverage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
