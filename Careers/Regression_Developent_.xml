@@ -5,8 +5,8 @@
    <parameter name="browser" value= "chrome"  />
     <classes>
  
-      <class name="Test_case_Development.Side_Heading1"/>
-      <class name="Test_case_Development.Footer"/>
+      <class name="Careers_Test_case_Development.Side_Heading1"/>
+      <class name="Careers_Test_case_Development.Footer"/>
     </classes>
   </test>
   
@@ -14,7 +14,7 @@
    <test name="Carrer_firefoxTest_Development">
    <parameter name="browser" value= "firefox"  />
     <classes>
-     <class name="Test_case_Development.Footer"/>
+     <class name="Careers_Test_case_Development.Footer"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

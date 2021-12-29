@@ -2,24 +2,24 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <parameter name="browser" value="firefox"/>
-  <test name="Carrer_ChromeTest_Development(failed)">
+  <test name="Carrer_ChromeTest_Production(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Test_case_Development.Footer">
+      <class name="Careers_Test_case_Prod.Side_Heading1">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
           <include name="setupApplication"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- Test_case_Development.Footer -->
-      <class name="Test_case_Development.Side_Heading1">
-        <methods>
           <include name="tearDown"/>
           <include name="Side_Heading"/>
-          <include name="setupApplication"/>
         </methods>
-      </class> <!-- Test_case_Development.Side_Heading1 -->
+      </class> <!-- Careers_Test_case_Prod.Side_Heading1 -->
+      <class name="Careers_Test_case_Prod.Footer">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Careers_Test_case_Prod.Footer -->
     </classes>
-  </test> <!-- Carrer_ChromeTest_Development(failed) -->
+  </test> <!-- Carrer_ChromeTest_Production(failed) -->
 </suite> <!-- Failed suite [Suite] -->

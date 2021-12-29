@@ -1,4 +1,4 @@
-package Pages;
+package Careers_Pages;
 
 import static org.testng.Assert.assertEquals;
 

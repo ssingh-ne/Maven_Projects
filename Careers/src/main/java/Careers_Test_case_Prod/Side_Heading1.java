@@ -1,4 +1,4 @@
-package Test_case_Prod;
+package Careers_Test_case_Prod;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotEquals;
@@ -11,7 +11,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Pages.*;
+import Careers_Pages.*;
 
 
 

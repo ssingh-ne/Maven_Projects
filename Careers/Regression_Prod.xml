@@ -4,15 +4,15 @@
   <test name="Carrer_ChromeTest_Production">
    <parameter name="browser" value= "chrome"  />
     <classes>
-         <class name="Test_case_Prod.Footer"/>
-      <class name="Test_case_Prod.Side_Heading1"/>
+         <class name="Careers_Test_case_Prod.Footer"/>
+      <class name="Careers_Test_case_Prod.Side_Heading1"/>
     </classes>
   </test>
   
   <test name="Carrer_Firefox_Production">
    <parameter name="browser" value= "firefox"  />
     <classes>
-         <class name="Test_case_Prod.Footer"/>
+         <class name="Careers_Test_case_Prod.Footer"/>
 
     </classes>
   </test>
