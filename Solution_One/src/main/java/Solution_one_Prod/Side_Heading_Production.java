@@ -1,15 +1,17 @@
-package Test_Case;
+package Solution_one_Prod;
 
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Pages.Amplience;
-import Pages.Home;
+import Solution_one_Pages.Amplience;
+import Solution_one_Pages.Home;
 
-public class Side_head_sample  extends Base_class_Development {
+public class Side_Heading_Production  extends Base_class_Prod {
 	
 	
 	By sideheading_1 = By.xpath("//*[@class='section__content']/div/div/h2");
@@ -40,18 +42,17 @@ public class Side_head_sample  extends Base_class_Development {
 		
 		//a.solution_slot();
 		a.solution_Content();
-			
 		 a.solution_slotEdit_one();
 		 int size = driver.findElements(By.tagName("iframe")).size();
  		System.out.println(size);
  		driver.switchTo().frame(0);
  		 String slot_heading1 = driver.findElement(By.xpath("//*[@id='tinymce']/h2")).getText();
- 		System.out.println("slot_heading 1 = " +slot_heading1);
+ 		System.out.println("slot_heading 1 from AMP= " +slot_heading1);
  		
  		assertEquals(Mainheading1, slot_heading1);
  	 	
 	}
-	
+
 	@Test
 	public void Side_Heading_Two () throws InterruptedException{
 		
@@ -77,12 +78,12 @@ public class Side_head_sample  extends Base_class_Development {
 	 	System.out.println(size1);
 	 	driver.switchTo().frame(0);
 	 	String slot_heading2 = driver.findElement(By.xpath("//*[@id='root']/div/div/div/div/div/div[2]/div[2]/div/h3")).getText();
-	 	System.out.println("slot_heading 2 = "+slot_heading2);
+	 	System.out.println("slot_heading 2 from AMP = "+slot_heading2);
 		
 	 	assertEquals(Mainheading2, slot_heading2);
  	 	
 	}
-	
+
 	@Test
 	public void Side_Heading_Three () throws InterruptedException {
 		
@@ -100,7 +101,7 @@ public class Side_head_sample  extends Base_class_Development {
 		a.Amplience_Login();
 		
 		//a.solution_slot();
-		a.solution_Content();
+	    a.solution_Content();
 		
 	    a.Solution_slotEdit_three();
 		
@@ -108,13 +109,12 @@ public class Side_head_sample  extends Base_class_Development {
 		System.out.println(size2);
 		driver.switchTo().frame(0);
 		String slot_heading3 = driver.findElement(By.xpath("//*[@id='root']/div/div/div/div/div/div[2]/div[2]/div/h5")).getText();
-		System.out.println("slot_heading 3 = "+slot_heading3);
+		System.out.println("slot_heading 3 from AMP= "+slot_heading3);
 
 		//assertEquals(Mainheading3, slot_heading3);
 		 Assert.assertTrue(Mainheading3.contains(slot_heading3),"Heading not match");
 }
 	
-
 	@Test
 	public void Side_Heading_Four () throws InterruptedException {
 		
@@ -140,7 +140,7 @@ public class Side_head_sample  extends Base_class_Development {
 	 	System.out.println(size3);
 	 	driver.switchTo().frame(0);
 	 	String slot_heading4 = driver.findElement(By.xpath("//*[@id='tinymce']/h3")).getText();
-	 	System.out.println("slot_heading 4 = "+ slot_heading4);
+	 	System.out.println("slot_heading 4 from AMP= "+ slot_heading4);
 	 	
 	 	assertEquals(Mainheading4, slot_heading4);
 	 	
@@ -171,10 +171,11 @@ public class Side_head_sample  extends Base_class_Development {
 	 	System.out.println(size4);
 	 	driver.switchTo().frame(0);
 	 	String slot_heading5 = driver.findElement(By.xpath("//*[@id='root']/div/div/div/div/div/div[2]/div[2]/div/h4")).getText();
-	 	System.out.println("slot_heading 5 = "+ slot_heading5);
+	 	System.out.println("slot_heading 5 from AMP = "+ slot_heading5);
 	    
 	 	assertEquals(Mainheading5, slot_heading5);
 	 	
 	}
+	
 
 }

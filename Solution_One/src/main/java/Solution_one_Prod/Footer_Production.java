@@ -1,8 +1,8 @@
-package Test_Case;
+package Solution_one_Prod;
 
 import org.testng.annotations.Test;
 
-import Pages.Home;
+import Solution_one_Pages.Home;
 
 public class Footer_Production extends Base_class_Prod {
 	

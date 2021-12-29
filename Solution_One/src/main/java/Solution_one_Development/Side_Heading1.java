@@ -1,4 +1,4 @@
-package Test_Case;
+package Solution_one_Development;
 
 import static org.testng.Assert.assertEquals;
 
@@ -7,8 +7,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-import Pages.Amplience;
-import Pages.Home;
+import Solution_one_Pages.Amplience;
+import Solution_one_Pages.Home;
 
 public class Side_Heading1  extends Base_class_Development {
 	

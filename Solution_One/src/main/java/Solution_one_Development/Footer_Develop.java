@@ -1,8 +1,8 @@
-package Test_Case;
+package Solution_one_Development;
 
 import org.testng.annotations.Test;
 
-import Pages.Home;
+import Solution_one_Pages.Home;
 
 public class Footer_Develop extends Base_class_Development {
 	

@@ -1,4 +1,4 @@
-package Test_Case;
+package Solution_one_Development;
 
 import static org.testng.Assert.assertEquals;
 
@@ -6,10 +6,10 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Pages.Amplience;
-import Pages.Home;
+import Solution_one_Pages.Amplience;
+import Solution_one_Pages.Home;
 
-public class Side_heading2  extends Base_class_Prod {
+public class Side_head_sample  extends Base_class_Development {
 	
 	
 	By sideheading_1 = By.xpath("//*[@class='section__content']/div/div/h2");
@@ -38,7 +38,8 @@ public class Side_heading2  extends Base_class_Prod {
 		
 		a.Amplience_Login();
 		
-		// a.solution_slot();
+		//a.solution_slot();
+		a.solution_Content();
 			
 		 a.solution_slotEdit_one();
 		 int size = driver.findElements(By.tagName("iframe")).size();
@@ -51,7 +52,7 @@ public class Side_heading2  extends Base_class_Prod {
  	 	
 	}
 	
-/*	@Test
+	@Test
 	public void Side_Heading_Two () throws InterruptedException{
 		
 		Amplience a = new Amplience(driver);
@@ -67,7 +68,8 @@ public class Side_heading2  extends Base_class_Prod {
 		
 		a.Amplience_Login();
 		
-		a.solution_slot();
+		//a.solution_slot();
+		a.solution_Content();
 			
 		a.Solution_slotEdit_two();
 			
@@ -97,7 +99,8 @@ public class Side_heading2  extends Base_class_Prod {
 		
 		a.Amplience_Login();
 		
-		a.solution_slot();
+		//a.solution_slot();
+		a.solution_Content();
 		
 	    a.Solution_slotEdit_three();
 		
@@ -128,7 +131,8 @@ public class Side_heading2  extends Base_class_Prod {
 		
 		a.Amplience_Login();
 		
-		a.solution_slot();
+		//a.solution_slot();
+		a.solution_Content();
 		
 	    a.Solution_slotEdit_four();
 	    
@@ -158,7 +162,8 @@ public class Side_heading2  extends Base_class_Prod {
 		
 		a.Amplience_Login();
 		
-		a.solution_slot();
+		//a.solution_slot();
+		a.solution_Content();
 		
 	    a.Solution_slotEdit_five();
 	    
@@ -170,6 +175,6 @@ public class Side_heading2  extends Base_class_Prod {
 	    
 	 	assertEquals(Mainheading5, slot_heading5);
 	 	
-	}*/
+	}
 
 }

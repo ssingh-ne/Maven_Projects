@@ -4,8 +4,8 @@
 <test name="Solution1_Chrome">
   <parameter name="browser" value="chrome" />
     <classes>
-      <class name="Test_Case.Side_Heading_Production"/>
-      <class name="Test_Case.Footer_Production"/>
+      <class name="Solution_one_Prod.Side_Heading_Production"/>
+      <class name="Solution_one_Prod.Footer_Production"/>
     </classes>
   </test> 
   
@@ -14,7 +14,7 @@
   
   <classes>
       
-      <class name="Test_Case.Footer_Production"/>
+      <class name="Solution_one_Prod.Footer_Production"/>
      </classes>
   </test> 
   

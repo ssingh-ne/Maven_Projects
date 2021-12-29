@@ -65,12 +65,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="367742" started-at="2021-11-15T13:45:57Z" finished-at="2021-11-15T13:52:05Z">
+  <suite name="Suite" duration-ms="345646" started-at="2021-12-29T13:19:59Z" finished-at="2021-12-29T13:25:45Z">
     <groups>
     </groups>
-    <test name="Solution1_Chrome" duration-ms="306310" started-at="2021-11-15T13:45:57Z" finished-at="2021-11-15T13:51:03Z">
-      <class name="Test_Case.Footer_Develop">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case.Footer_Develop@564718df]" name="setupApplication" is-config="true" duration-ms="6624" started-at="2021-11-15T19:20:06Z" finished-at="2021-11-15T19:20:13Z">
+    <test name="Solution1_Chrome" duration-ms="287094" started-at="2021-12-29T13:19:59Z" finished-at="2021-12-29T13:24:47Z">
+      <class name="Solution_one_Prod.Side_Heading_Production">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="setupApplication" is-config="true" duration-ms="5601" started-at="2021-12-29T18:50:00Z" finished-at="2021-12-29T18:50:05Z">
           <params>
             <param index="0">
               <value>
@@ -87,52 +87,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case.Footer_Develop@564718df]" name="Footer" duration-ms="49151" started-at="2021-11-15T19:20:13Z" finished-at="2021-11-15T19:21:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case.Footer_Develop@564718df]" name="tearDown" is-config="true" duration-ms="905" started-at="2021-11-15T19:21:02Z" finished-at="2021-11-15T19:21:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_Develop.Footer()[pri:0, instance:Test_Case.Footer_Develop@564718df] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case.Footer_Develop -->
-      <class name="Test_Case.Side_head_sample">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="setupApplication" is-config="true" duration-ms="7414" started-at="2021-11-15T19:15:57Z" finished-at="2021-11-15T19:16:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_Five()[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="Side_Heading_Five" duration-ms="44192" started-at="2021-11-15T19:16:04Z" finished-at="2021-11-15T19:16:48Z">
+        <test-method status="PASS" signature="Side_Heading_Five()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="Side_Heading_Five" duration-ms="41174" started-at="2021-12-29T18:50:05Z" finished-at="2021-12-29T18:50:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Side_Heading_Five -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="tearDown" is-config="true" duration-ms="765" started-at="2021-11-15T19:16:48Z" finished-at="2021-11-15T19:16:49Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="tearDown" is-config="true" duration-ms="871" started-at="2021-12-29T18:50:46Z" finished-at="2021-12-29T18:50:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Side_Heading_Five status=SUCCESS method=Side_head_sample.Side_Heading_Five()[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47] output={null}]]]>
+                <![CDATA[[TestResult name=Side_Heading_Five status=SUCCESS method=Side_Heading_Production.Side_Heading_Five()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -142,7 +105,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="setupApplication" is-config="true" duration-ms="5699" started-at="2021-11-15T19:16:49Z" finished-at="2021-11-15T19:16:55Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="setupApplication" is-config="true" duration-ms="5749" started-at="2021-12-29T18:50:47Z" finished-at="2021-12-29T18:50:53Z">
           <params>
             <param index="0">
               <value>
@@ -159,15 +122,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_Four()[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="Side_Heading_Four" duration-ms="42961" started-at="2021-11-15T19:16:55Z" finished-at="2021-11-15T19:17:38Z">
+        <test-method status="PASS" signature="Side_Heading_Four()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="Side_Heading_Four" duration-ms="41423" started-at="2021-12-29T18:50:53Z" finished-at="2021-12-29T18:51:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Side_Heading_Four -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="tearDown" is-config="true" duration-ms="695" started-at="2021-11-15T19:17:38Z" finished-at="2021-11-15T19:17:39Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="tearDown" is-config="true" duration-ms="822" started-at="2021-12-29T18:51:34Z" finished-at="2021-12-29T18:51:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Side_Heading_Four status=SUCCESS method=Side_head_sample.Side_Heading_Four()[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47] output={null}]]]>
+                <![CDATA[[TestResult name=Side_Heading_Four status=SUCCESS method=Side_Heading_Production.Side_Heading_Four()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -177,7 +140,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="setupApplication" is-config="true" duration-ms="3604" started-at="2021-11-15T19:17:39Z" finished-at="2021-11-15T19:17:42Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="setupApplication" is-config="true" duration-ms="4268" started-at="2021-12-29T18:51:35Z" finished-at="2021-12-29T18:51:39Z">
           <params>
             <param index="0">
               <value>
@@ -194,15 +157,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_One()[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="Side_Heading_One" duration-ms="39487" started-at="2021-11-15T19:17:42Z" finished-at="2021-11-15T19:18:22Z">
+        <test-method status="PASS" signature="Side_Heading_One()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="Side_Heading_One" duration-ms="38214" started-at="2021-12-29T18:51:39Z" finished-at="2021-12-29T18:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Side_Heading_One -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="tearDown" is-config="true" duration-ms="954" started-at="2021-11-15T19:18:22Z" finished-at="2021-11-15T19:18:23Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="tearDown" is-config="true" duration-ms="960" started-at="2021-12-29T18:52:18Z" finished-at="2021-12-29T18:52:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Side_Heading_One status=SUCCESS method=Side_head_sample.Side_Heading_One()[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47] output={null}]]]>
+                <![CDATA[[TestResult name=Side_Heading_One status=SUCCESS method=Side_Heading_Production.Side_Heading_One()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -212,7 +175,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="setupApplication" is-config="true" duration-ms="9148" started-at="2021-11-15T19:18:23Z" finished-at="2021-11-15T19:18:32Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="setupApplication" is-config="true" duration-ms="3849" started-at="2021-12-29T18:52:19Z" finished-at="2021-12-29T18:52:22Z">
           <params>
             <param index="0">
               <value>
@@ -229,15 +192,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_Three()[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="Side_Heading_Three" duration-ms="45848" started-at="2021-11-15T19:18:32Z" finished-at="2021-11-15T19:19:18Z">
+        <test-method status="PASS" signature="Side_Heading_Three()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="Side_Heading_Three" duration-ms="44906" started-at="2021-12-29T18:52:22Z" finished-at="2021-12-29T18:53:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Side_Heading_Three -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="tearDown" is-config="true" duration-ms="1070" started-at="2021-11-15T19:19:18Z" finished-at="2021-11-15T19:19:19Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="tearDown" is-config="true" duration-ms="868" started-at="2021-12-29T18:53:07Z" finished-at="2021-12-29T18:53:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Side_Heading_Three status=SUCCESS method=Side_head_sample.Side_Heading_Three()[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47] output={null}]]]>
+                <![CDATA[[TestResult name=Side_Heading_Three status=SUCCESS method=Side_Heading_Production.Side_Heading_Three()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -247,7 +210,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="setupApplication" is-config="true" duration-ms="3916" started-at="2021-11-15T19:19:19Z" finished-at="2021-11-15T19:19:23Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="setupApplication" is-config="true" duration-ms="4004" started-at="2021-12-29T18:53:08Z" finished-at="2021-12-29T18:53:12Z">
           <params>
             <param index="0">
               <value>
@@ -264,15 +227,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_Two()[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="Side_Heading_Two" duration-ms="43130" started-at="2021-11-15T19:19:23Z" finished-at="2021-11-15T19:20:06Z">
+        <test-method status="PASS" signature="Side_Heading_Two()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="Side_Heading_Two" duration-ms="41480" started-at="2021-12-29T18:53:12Z" finished-at="2021-12-29T18:53:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Side_Heading_Two -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47]" name="tearDown" is-config="true" duration-ms="721" started-at="2021-11-15T19:20:06Z" finished-at="2021-11-15T19:20:06Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="tearDown" is-config="true" duration-ms="850" started-at="2021-12-29T18:53:54Z" finished-at="2021-12-29T18:53:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Side_Heading_Two status=SUCCESS method=Side_head_sample.Side_Heading_Two()[pri:0, instance:Test_Case.Side_head_sample@7fe8ea47] output={null}]]]>
+                <![CDATA[[TestResult name=Side_Heading_Two status=SUCCESS method=Side_Heading_Production.Side_Heading_Two()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -282,11 +245,48 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case.Side_head_sample -->
+      </class> <!-- Solution_one_Prod.Side_Heading_Production -->
+      <class name="Solution_one_Prod.Footer_Production">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Footer_Production@47f37ef1]" name="setupApplication" is-config="true" duration-ms="3842" started-at="2021-12-29T18:53:55Z" finished-at="2021-12-29T18:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Solution_one_Prod.Footer_Production@47f37ef1]" name="Footer" duration-ms="47037" started-at="2021-12-29T18:53:58Z" finished-at="2021-12-29T18:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Footer_Production@47f37ef1]" name="tearDown" is-config="true" duration-ms="1146" started-at="2021-12-29T18:54:45Z" finished-at="2021-12-29T18:54:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_Production.Footer()[pri:0, instance:Solution_one_Prod.Footer_Production@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Solution_one_Prod.Footer_Production -->
     </test> <!-- Solution1_Chrome -->
-    <test name="Solution1_Firefox" duration-ms="61403" started-at="2021-11-15T13:51:03Z" finished-at="2021-11-15T13:52:05Z">
-      <class name="Test_Case.Footer_Develop">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case.Footer_Develop@4c40b76e]" name="setupApplication" is-config="true" duration-ms="8999" started-at="2021-11-15T19:21:03Z" finished-at="2021-11-15T19:21:12Z">
+    <test name="Solution1_Firefox" duration-ms="58497" started-at="2021-12-29T13:24:47Z" finished-at="2021-12-29T13:25:45Z">
+      <class name="Solution_one_Prod.Footer_Production">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Footer_Production@58ceff1]" name="setupApplication" is-config="true" duration-ms="8941" started-at="2021-12-29T18:54:47Z" finished-at="2021-12-29T18:54:56Z">
           <params>
             <param index="0">
               <value>
@@ -303,15 +303,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case.Footer_Develop@4c40b76e]" name="Footer" duration-ms="50084" started-at="2021-11-15T19:21:12Z" finished-at="2021-11-15T19:22:02Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Solution_one_Prod.Footer_Production@58ceff1]" name="Footer" duration-ms="47085" started-at="2021-12-29T18:54:56Z" finished-at="2021-12-29T18:55:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case.Footer_Develop@4c40b76e]" name="tearDown" is-config="true" duration-ms="2318" started-at="2021-11-15T19:22:02Z" finished-at="2021-11-15T19:22:05Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Footer_Production@58ceff1]" name="tearDown" is-config="true" duration-ms="2467" started-at="2021-12-29T18:55:43Z" finished-at="2021-12-29T18:55:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_Develop.Footer()[pri:0, instance:Test_Case.Footer_Develop@4c40b76e] output={null}]]]>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_Production.Footer()[pri:0, instance:Solution_one_Prod.Footer_Production@58ceff1] output={null}]]]>
               </value>
             </param>
           </params>
@@ -321,7 +321,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case.Footer_Develop -->
+      </class> <!-- Solution_one_Prod.Footer_Production -->
     </test> <!-- Solution1_Firefox -->
   </suite> <!-- Suite -->
 </testng-results>

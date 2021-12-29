@@ -1,4 +1,4 @@
-package Pages;
+package Solution_one_Pages;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

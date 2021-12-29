@@ -5,8 +5,8 @@
   <parameter name="browser" value="chrome" />
   
   <classes>
-      <class name="Test_Case.Side_head_sample"/>
-      <class name="Test_Case.Footer_Develop"/>
+      <class name="Solution_one_Development.Side_head_sample"/>
+      <class name="Solution_one_Development.Footer_Develop"/>
      </classes>
   </test> 
   
@@ -15,7 +15,7 @@
   
   <classes>
       
-      <class name="Test_Case.Footer_Develop"/>
+      <class name="Solution_one_Development.Footer_Develop"/>
      </classes>
   </test> 
   
