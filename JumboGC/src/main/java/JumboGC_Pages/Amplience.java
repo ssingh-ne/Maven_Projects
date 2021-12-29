@@ -1,4 +1,4 @@
-package Pages;
+package JumboGC_Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

@@ -1,12 +1,12 @@
-package Test_case;
+package JumboGC_Test_case_prod;
 
 import org.testng.annotations.Test;
 
-import Pages.Home;
+import JumboGC_Pages.Home;
 
 public class Header_footer extends Base_class {
 	
-	
+
 	@Test
 	
 	public void Header_Login() throws InterruptedException{
@@ -62,5 +62,4 @@ public void Footer_Privacy() throws InterruptedException{
 	
 
 }
-	
 }

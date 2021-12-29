@@ -101,12 +101,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="487166" started-at="2021-11-24T14:44:03Z" finished-at="2021-11-24T14:52:11Z">
+  <suite name="Suite" duration-ms="491221" started-at="2021-12-29T14:36:31Z" finished-at="2021-12-29T14:44:42Z">
     <groups>
     </groups>
-    <test name="JumboGC_Prod_firefox" duration-ms="199534" started-at="2021-11-24T14:44:03Z" finished-at="2021-11-24T14:47:23Z">
-      <class name="Test_case_prod.Header_footer">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="setupApplication" is-config="true" duration-ms="14572" started-at="2021-11-24T20:14:03Z" finished-at="2021-11-24T20:14:18Z">
+    <test name="JumboGC_Prod_firefox" duration-ms="204008" started-at="2021-12-29T14:36:31Z" finished-at="2021-12-29T14:39:55Z">
+      <class name="JumboGC_Test_case_prod.Header_footer">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="setupApplication" is-config="true" duration-ms="11619" started-at="2021-12-29T20:06:31Z" finished-at="2021-12-29T20:06:43Z">
           <params>
             <param index="0">
               <value>
@@ -123,15 +123,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer_Facebook()[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="Footer_Facebook" duration-ms="25648" started-at="2021-11-24T20:14:18Z" finished-at="2021-11-24T20:14:44Z">
+        <test-method status="PASS" signature="Footer_Facebook()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="Footer_Facebook" duration-ms="25668" started-at="2021-12-29T20:06:43Z" finished-at="2021-12-29T20:07:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer_Facebook -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="tearDown" is-config="true" duration-ms="1408" started-at="2021-11-24T20:14:44Z" finished-at="2021-11-24T20:14:45Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="tearDown" is-config="true" duration-ms="1729" started-at="2021-12-29T20:07:09Z" finished-at="2021-12-29T20:07:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer_Facebook status=SUCCESS method=Header_footer.Footer_Facebook()[pri:0, instance:Test_case_prod.Header_footer@7907ec20] output={null}]]]>
+                <![CDATA[[TestResult name=Footer_Facebook status=SUCCESS method=Header_footer.Footer_Facebook()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20] output={null}]]]>
               </value>
             </param>
           </params>
@@ -141,7 +141,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="setupApplication" is-config="true" duration-ms="9893" started-at="2021-11-24T20:14:45Z" finished-at="2021-11-24T20:14:55Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="setupApplication" is-config="true" duration-ms="9698" started-at="2021-12-29T20:07:10Z" finished-at="2021-12-29T20:07:20Z">
           <params>
             <param index="0">
               <value>
@@ -158,15 +158,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer_Instagram()[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="Footer_Instagram" duration-ms="25594" started-at="2021-11-24T20:14:55Z" finished-at="2021-11-24T20:15:21Z">
+        <test-method status="PASS" signature="Footer_Instagram()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="Footer_Instagram" duration-ms="25523" started-at="2021-12-29T20:07:20Z" finished-at="2021-12-29T20:07:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer_Instagram -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="tearDown" is-config="true" duration-ms="1331" started-at="2021-11-24T20:15:21Z" finished-at="2021-11-24T20:15:22Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="tearDown" is-config="true" duration-ms="1384" started-at="2021-12-29T20:07:46Z" finished-at="2021-12-29T20:07:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer_Instagram status=SUCCESS method=Header_footer.Footer_Instagram()[pri:0, instance:Test_case_prod.Header_footer@7907ec20] output={null}]]]>
+                <![CDATA[[TestResult name=Footer_Instagram status=SUCCESS method=Header_footer.Footer_Instagram()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20] output={null}]]]>
               </value>
             </param>
           </params>
@@ -176,7 +176,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="setupApplication" is-config="true" duration-ms="9975" started-at="2021-11-24T20:15:22Z" finished-at="2021-11-24T20:15:32Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="setupApplication" is-config="true" duration-ms="7842" started-at="2021-12-29T20:07:47Z" finished-at="2021-12-29T20:07:55Z">
           <params>
             <param index="0">
               <value>
@@ -193,15 +193,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer_Privacy()[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="Footer_Privacy" duration-ms="35953" started-at="2021-11-24T20:15:32Z" finished-at="2021-11-24T20:16:08Z">
+        <test-method status="PASS" signature="Footer_Privacy()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="Footer_Privacy" duration-ms="35921" started-at="2021-12-29T20:07:55Z" finished-at="2021-12-29T20:08:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer_Privacy -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="tearDown" is-config="true" duration-ms="1160" started-at="2021-11-24T20:16:08Z" finished-at="2021-11-24T20:16:09Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="tearDown" is-config="true" duration-ms="1368" started-at="2021-12-29T20:08:31Z" finished-at="2021-12-29T20:08:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer_Privacy status=SUCCESS method=Header_footer.Footer_Privacy()[pri:0, instance:Test_case_prod.Header_footer@7907ec20] output={null}]]]>
+                <![CDATA[[TestResult name=Footer_Privacy status=SUCCESS method=Header_footer.Footer_Privacy()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20] output={null}]]]>
               </value>
             </param>
           </params>
@@ -211,7 +211,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="setupApplication" is-config="true" duration-ms="11453" started-at="2021-11-24T20:16:09Z" finished-at="2021-11-24T20:16:20Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="setupApplication" is-config="true" duration-ms="8563" started-at="2021-12-29T20:08:32Z" finished-at="2021-12-29T20:08:41Z">
           <params>
             <param index="0">
               <value>
@@ -228,15 +228,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer_linkedIN()[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="Footer_linkedIN" duration-ms="25520" started-at="2021-11-24T20:16:20Z" finished-at="2021-11-24T20:16:46Z">
+        <test-method status="PASS" signature="Footer_linkedIN()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="Footer_linkedIN" duration-ms="25835" started-at="2021-12-29T20:08:41Z" finished-at="2021-12-29T20:09:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer_linkedIN -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="tearDown" is-config="true" duration-ms="1332" started-at="2021-11-24T20:16:46Z" finished-at="2021-11-24T20:16:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="tearDown" is-config="true" duration-ms="1442" started-at="2021-12-29T20:09:06Z" finished-at="2021-12-29T20:09:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer_linkedIN status=SUCCESS method=Header_footer.Footer_linkedIN()[pri:0, instance:Test_case_prod.Header_footer@7907ec20] output={null}]]]>
+                <![CDATA[[TestResult name=Footer_linkedIN status=SUCCESS method=Header_footer.Footer_linkedIN()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20] output={null}]]]>
               </value>
             </param>
           </params>
@@ -246,7 +246,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="setupApplication" is-config="true" duration-ms="10179" started-at="2021-11-24T20:16:47Z" finished-at="2021-11-24T20:16:57Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="setupApplication" is-config="true" duration-ms="25531" started-at="2021-12-29T20:09:08Z" finished-at="2021-12-29T20:09:33Z">
           <params>
             <param index="0">
               <value>
@@ -263,15 +263,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Header_Login()[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="Header_Login" duration-ms="24153" started-at="2021-11-24T20:16:57Z" finished-at="2021-11-24T20:17:22Z">
+        <test-method status="PASS" signature="Header_Login()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="Header_Login" duration-ms="20257" started-at="2021-12-29T20:09:33Z" finished-at="2021-12-29T20:09:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Header_Login -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_prod.Header_footer@7907ec20]" name="tearDown" is-config="true" duration-ms="1331" started-at="2021-11-24T20:17:22Z" finished-at="2021-11-24T20:17:23Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20]" name="tearDown" is-config="true" duration-ms="1605" started-at="2021-12-29T20:09:54Z" finished-at="2021-12-29T20:09:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Header_Login status=SUCCESS method=Header_footer.Header_Login()[pri:0, instance:Test_case_prod.Header_footer@7907ec20] output={null}]]]>
+                <![CDATA[[TestResult name=Header_Login status=SUCCESS method=Header_footer.Header_Login()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@7907ec20] output={null}]]]>
               </value>
             </param>
           </params>
@@ -281,11 +281,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_case_prod.Header_footer -->
+      </class> <!-- JumboGC_Test_case_prod.Header_footer -->
     </test> <!-- JumboGC_Prod_firefox -->
-    <test name="JumboGC_Prod_chrome" duration-ms="287601" started-at="2021-11-24T14:47:23Z" finished-at="2021-11-24T14:52:11Z">
-      <class name="Test_case_prod.Side_Heading">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_prod.Side_Heading@3f0ee7cb]" name="setupApplication" is-config="true" duration-ms="7817" started-at="2021-11-24T20:17:23Z" finished-at="2021-11-24T20:17:31Z">
+    <test name="JumboGC_Prod_chrome" duration-ms="287188" started-at="2021-12-29T14:39:55Z" finished-at="2021-12-29T14:44:42Z">
+      <class name="JumboGC_Test_case_prod.Side_Heading">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:JumboGC_Test_case_prod.Side_Heading@3f0ee7cb]" name="setupApplication" is-config="true" duration-ms="4594" started-at="2021-12-29T20:09:55Z" finished-at="2021-12-29T20:10:00Z">
           <params>
             <param index="0">
               <value>
@@ -302,15 +302,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Header_Footer()[pri:0, instance:Test_case_prod.Side_Heading@3f0ee7cb]" name="Header_Footer" duration-ms="121271" started-at="2021-11-24T20:17:31Z" finished-at="2021-11-24T20:19:32Z">
+        <test-method status="PASS" signature="Header_Footer()[pri:0, instance:JumboGC_Test_case_prod.Side_Heading@3f0ee7cb]" name="Header_Footer" duration-ms="121838" started-at="2021-12-29T20:10:00Z" finished-at="2021-12-29T20:12:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Header_Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_prod.Side_Heading@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="825" started-at="2021-11-24T20:19:32Z" finished-at="2021-11-24T20:19:33Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:JumboGC_Test_case_prod.Side_Heading@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="819" started-at="2021-12-29T20:12:02Z" finished-at="2021-12-29T20:12:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Header_Footer status=SUCCESS method=Side_Heading.Header_Footer()[pri:0, instance:Test_case_prod.Side_Heading@3f0ee7cb] output={null}]]]>
+                <![CDATA[[TestResult name=Header_Footer status=SUCCESS method=Side_Heading.Header_Footer()[pri:0, instance:JumboGC_Test_case_prod.Side_Heading@3f0ee7cb] output={null}]]]>
               </value>
             </param>
           </params>
@@ -320,9 +320,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_case_prod.Side_Heading -->
-      <class name="Test_case_prod.Header_footer">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="3813" started-at="2021-11-24T20:19:33Z" finished-at="2021-11-24T20:19:37Z">
+      </class> <!-- JumboGC_Test_case_prod.Side_Heading -->
+      <class name="JumboGC_Test_case_prod.Header_footer">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="4743" started-at="2021-12-29T20:12:03Z" finished-at="2021-12-29T20:12:07Z">
           <params>
             <param index="0">
               <value>
@@ -339,15 +339,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer_Facebook()[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="Footer_Facebook" duration-ms="25421" started-at="2021-11-24T20:19:37Z" finished-at="2021-11-24T20:20:02Z">
+        <test-method status="PASS" signature="Footer_Facebook()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="Footer_Facebook" duration-ms="25459" started-at="2021-12-29T20:12:07Z" finished-at="2021-12-29T20:12:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer_Facebook -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="tearDown" is-config="true" duration-ms="821" started-at="2021-11-24T20:20:02Z" finished-at="2021-11-24T20:20:03Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="tearDown" is-config="true" duration-ms="868" started-at="2021-12-29T20:12:33Z" finished-at="2021-12-29T20:12:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer_Facebook status=SUCCESS method=Header_footer.Footer_Facebook()[pri:0, instance:Test_case_prod.Header_footer@75bd9247] output={null}]]]>
+                <![CDATA[[TestResult name=Footer_Facebook status=SUCCESS method=Header_footer.Footer_Facebook()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247] output={null}]]]>
               </value>
             </param>
           </params>
@@ -357,7 +357,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="3561" started-at="2021-11-24T20:20:03Z" finished-at="2021-11-24T20:20:06Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="3998" started-at="2021-12-29T20:12:34Z" finished-at="2021-12-29T20:12:38Z">
           <params>
             <param index="0">
               <value>
@@ -374,15 +374,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer_Instagram()[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="Footer_Instagram" duration-ms="25454" started-at="2021-11-24T20:20:06Z" finished-at="2021-11-24T20:20:32Z">
+        <test-method status="PASS" signature="Footer_Instagram()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="Footer_Instagram" duration-ms="25537" started-at="2021-12-29T20:12:38Z" finished-at="2021-12-29T20:13:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer_Instagram -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="tearDown" is-config="true" duration-ms="825" started-at="2021-11-24T20:20:32Z" finished-at="2021-11-24T20:20:33Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="tearDown" is-config="true" duration-ms="804" started-at="2021-12-29T20:13:03Z" finished-at="2021-12-29T20:13:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer_Instagram status=SUCCESS method=Header_footer.Footer_Instagram()[pri:0, instance:Test_case_prod.Header_footer@75bd9247] output={null}]]]>
+                <![CDATA[[TestResult name=Footer_Instagram status=SUCCESS method=Header_footer.Footer_Instagram()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247] output={null}]]]>
               </value>
             </param>
           </params>
@@ -392,7 +392,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="3849" started-at="2021-11-24T20:20:33Z" finished-at="2021-11-24T20:20:37Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="4244" started-at="2021-12-29T20:13:04Z" finished-at="2021-12-29T20:13:08Z">
           <params>
             <param index="0">
               <value>
@@ -409,15 +409,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer_Privacy()[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="Footer_Privacy" duration-ms="35795" started-at="2021-11-24T20:20:37Z" finished-at="2021-11-24T20:21:12Z">
+        <test-method status="PASS" signature="Footer_Privacy()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="Footer_Privacy" duration-ms="35792" started-at="2021-12-29T20:13:08Z" finished-at="2021-12-29T20:13:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer_Privacy -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="tearDown" is-config="true" duration-ms="769" started-at="2021-11-24T20:21:12Z" finished-at="2021-11-24T20:21:13Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="tearDown" is-config="true" duration-ms="755" started-at="2021-12-29T20:13:44Z" finished-at="2021-12-29T20:13:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer_Privacy status=SUCCESS method=Header_footer.Footer_Privacy()[pri:0, instance:Test_case_prod.Header_footer@75bd9247] output={null}]]]>
+                <![CDATA[[TestResult name=Footer_Privacy status=SUCCESS method=Header_footer.Footer_Privacy()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247] output={null}]]]>
               </value>
             </param>
           </params>
@@ -427,7 +427,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="3649" started-at="2021-11-24T20:21:13Z" finished-at="2021-11-24T20:21:17Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="4046" started-at="2021-12-29T20:13:45Z" finished-at="2021-12-29T20:13:49Z">
           <params>
             <param index="0">
               <value>
@@ -444,15 +444,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer_linkedIN()[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="Footer_linkedIN" duration-ms="25454" started-at="2021-11-24T20:21:17Z" finished-at="2021-11-24T20:21:42Z">
+        <test-method status="PASS" signature="Footer_linkedIN()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="Footer_linkedIN" duration-ms="25447" started-at="2021-12-29T20:13:49Z" finished-at="2021-12-29T20:14:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer_linkedIN -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="tearDown" is-config="true" duration-ms="806" started-at="2021-11-24T20:21:42Z" finished-at="2021-11-24T20:21:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="tearDown" is-config="true" duration-ms="902" started-at="2021-12-29T20:14:14Z" finished-at="2021-12-29T20:14:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer_linkedIN status=SUCCESS method=Header_footer.Footer_linkedIN()[pri:0, instance:Test_case_prod.Header_footer@75bd9247] output={null}]]]>
+                <![CDATA[[TestResult name=Footer_linkedIN status=SUCCESS method=Header_footer.Footer_linkedIN()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247] output={null}]]]>
               </value>
             </param>
           </params>
@@ -462,7 +462,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="6298" started-at="2021-11-24T20:21:43Z" finished-at="2021-11-24T20:21:49Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="setupApplication" is-config="true" duration-ms="6157" started-at="2021-12-29T20:14:15Z" finished-at="2021-12-29T20:14:21Z">
           <params>
             <param index="0">
               <value>
@@ -479,15 +479,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Header_Login()[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="Header_Login" duration-ms="20339" started-at="2021-11-24T20:21:49Z" finished-at="2021-11-24T20:22:10Z">
+        <test-method status="PASS" signature="Header_Login()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="Header_Login" duration-ms="20399" started-at="2021-12-29T20:14:21Z" finished-at="2021-12-29T20:14:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Header_Login -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_case_prod.Header_footer@75bd9247]" name="tearDown" is-config="true" duration-ms="822" started-at="2021-11-24T20:22:10Z" finished-at="2021-11-24T20:22:11Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247]" name="tearDown" is-config="true" duration-ms="773" started-at="2021-12-29T20:14:42Z" finished-at="2021-12-29T20:14:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Header_Login status=SUCCESS method=Header_footer.Header_Login()[pri:0, instance:Test_case_prod.Header_footer@75bd9247] output={null}]]]>
+                <![CDATA[[TestResult name=Header_Login status=SUCCESS method=Header_footer.Header_Login()[pri:0, instance:JumboGC_Test_case_prod.Header_footer@75bd9247] output={null}]]]>
               </value>
             </param>
           </params>
@@ -497,7 +497,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_case_prod.Header_footer -->
+      </class> <!-- JumboGC_Test_case_prod.Header_footer -->
     </test> <!-- JumboGC_Prod_chrome -->
   </suite> <!-- Suite -->
 </testng-results>

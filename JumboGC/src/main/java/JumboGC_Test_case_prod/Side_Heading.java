@@ -1,4 +1,4 @@
-package Test_case_prod;
+package JumboGC_Test_case_prod;
 
 import static org.testng.Assert.assertEquals;
 
@@ -10,8 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Pages.Amplience;
-import Pages.Home;
+import JumboGC_Pages.Amplience;
+import JumboGC_Pages.Home;
 
 public class Side_Heading  extends Base_class {
 	

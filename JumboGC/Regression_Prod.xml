@@ -5,15 +5,15 @@
  <test name="JumboGC_Prod_firefox">
    <parameter name="browser" value="firefox" />
     <classes>
-      <class name="Test_case_prod.Header_footer"/>
+      <class name="JumboGC_Test_case_prod.Header_footer"/>
     </classes>
   </test>
   
   <test name="JumboGC_Prod_chrome">
    <parameter name="browser" value="chrome" />
     <classes>
-    <class name="Test_case_prod.Side_Heading"/>
-      <class name="Test_case_prod.Header_footer"/>
+    <class name="JumboGC_Test_case_prod.Side_Heading"/>
+      <class name="JumboGC_Test_case_prod.Header_footer"/>
     </classes>
   </test>
    
