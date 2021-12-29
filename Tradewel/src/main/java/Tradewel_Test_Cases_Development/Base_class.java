@@ -1,4 +1,4 @@
-package Test_Case_Dev;
+package Tradewel_Test_Cases_Development;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -19,46 +19,36 @@ import org.testng.annotations.Parameters;
 
 public class Base_class {
 	
-	WebDriver driver;
+	protected WebDriver driver;
     
 	@Parameters ("browser")
 	 @BeforeMethod
-	 
-/*	 public void setupApplication()
-		{
-			
-		Reporter.log("=====firefox Browser Session Started=====", true);
-		 System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
-   
-	                driver=new FirefoxDriver();
-			
-			driver.manage().window().maximize();
-			
-			driver.get("https://develop--specialty.netlify.app/");
-			
-			Reporter.log("=====Application Started=====", true);
-			
-			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		}*/
-	
-	 
-	/*public void setupApplication()
+/*	public void setupApplication()
 		{
 			
 			Reporter.log("=====Chrome Browser Session Started=====", true);
-			 System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
-	                driver=new ChromeDriver();
 			
+			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
+			
+			driver=new ChromeDriver();
+			
+			System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+	               
+			driver=new FirefoxDriver();
+	        
+			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS) ;
+	                
 			driver.manage().window().maximize();
 			
-			driver.get("https://develop--specialty.netlify.app/");
+			driver.get("https://release-1-0-0--applied-treadwell.netlify.app/");
+			driver.get("https://develop--applied-treadwell.netlify.app/");
 			
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		}*/
-	
-		public void setupApplication (String browser)
+		} */
+
+	public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {
 			Reporter.log("=====firefox Browser Session Started=====", true);
@@ -79,14 +69,15 @@ public class Base_class {
 		}
 		driver.manage().window().maximize();
 		
-		driver.get("https://develop--specialty.netlify.app/");
+		//driver.get("https://release-1-0-0--applied-treadwell.netlify.app/");
+		driver.get("https://develop--applied-treadwell.netlify.app/");
 		
 		Reporter.log("=====Application Started=====", true);
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		}
-		
 		 
+		
 		@AfterMethod
 			public void tearDown(ITestResult result)
 			{
@@ -121,6 +112,5 @@ public class Base_class {
 			Reporter.log("=====Browser Session End=====", true);
 			
 		}
-		
-		
+	
 	}

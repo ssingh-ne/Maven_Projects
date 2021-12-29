@@ -1,4 +1,4 @@
-package Page;
+package Speciality_underwriters_Page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

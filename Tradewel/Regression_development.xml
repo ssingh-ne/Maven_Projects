@@ -5,8 +5,8 @@
  <test name="Tradewel_ChromeTest_Development">
    <parameter name="browser" value= "chrome"  />
     <classes>
-      <class name="Test_Cases_Development.comprehensive_Protection"/>
-      <class name="Test_Cases_Development.About_US"/>
+      <class name="Tradewel_Test_Cases_Development.comprehensive_Protection"/>
+      <class name="Tradewel_Test_Cases_Development.About_US"/>
     </classes>
   </test> 
   
@@ -14,8 +14,8 @@
    <test name="Tradewel_FFTest_Development">
    <parameter name="browser" value= "firefox"  />
     <classes>
-      <class name="Test_Cases_Development.Comprehensive_Protection_FF"/>
-      <class name="Test_Cases_Development.About_US"/>
+      <class name="Tradewel_Test_Cases_Development.Comprehensive_Protection_FF"/>
+      <class name="Tradewel_Test_Cases_Development.About_US"/>
     </classes>
   </test>
   

@@ -4,20 +4,20 @@
  <test name="SpecialityUnderwriter_Firefox_Prod">
    <parameter name="browser" value= "firefox"  />
     <classes>
-      <class name="Test_Case_Prod.Contact_US_TC"/>
-      <class name="Test_Case_Prod.Home_TC"/>
-      <class name="Test_Case_Prod.About_Us"/>
-      <class name="Test_Case_Prod.What_We_offer"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.Contact_US_TC"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.Home_TC"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.About_Us"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.What_We_offer"/>
     </classes>
   </test> 
   
  <test name="SpecialityUnderwriter_ChromeTest_Prod">
    <parameter name="browser" value= "chrome"  />
     <classes>
-     <class name="Test_Case_Prod.Contact_US_TC"/>
-      <class name="Test_Case_Prod.Home_TC"/>
-      <class name="Test_Case_Prod.About_Us"/>
-      <class name="Test_Case_Prod.What_We_offer"/>
+     <class name="Speciality_underwriters_Test_Case_Prod.Contact_US_TC"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.Home_TC"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.About_Us"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.What_We_offer"/>
     </classes>
   </test>
    <!-- Test -->

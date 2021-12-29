@@ -1,8 +1,8 @@
-package Test_Cases_Development;
+package Tradewel_Test_Cases_Development;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_Page;
+import Tradewel_Pages.Home_Page;
 
 public class About_US extends Base_class{
 	

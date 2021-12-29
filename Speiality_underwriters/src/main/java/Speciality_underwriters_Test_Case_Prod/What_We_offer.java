@@ -1,8 +1,8 @@
-package Test_Case_Dev;
+package Speciality_underwriters_Test_Case_Prod;
 
 import org.testng.annotations.Test;
 
-import Page.What_we_offer_Page;
+import Speciality_underwriters_Page.What_we_offer_Page;
 
 public class What_We_offer extends Base_class {
 	

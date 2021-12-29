@@ -1,12 +1,12 @@
-package Test_Cases_Development;
+package Tradewel_Test_Cases_Development;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Pages.Amplience;
-import Pages.Home_Page;
+import Tradewel_Pages.Amplience;
+import Tradewel_Pages.Home_Page;
 
 public class comprehensive_Protection extends Base_class{
 	

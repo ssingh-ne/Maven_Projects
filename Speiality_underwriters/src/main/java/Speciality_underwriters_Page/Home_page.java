@@ -1,4 +1,4 @@
-package Page;
+package Speciality_underwriters_Page;
 
 import static org.testng.Assert.assertEquals;
 
