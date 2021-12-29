@@ -1,8 +1,8 @@
-package Test_Cases_Development;
+package Pinnacle_Test_Cases_Development;
 
 import org.testng.annotations.Test;
 
-import Pages.Home;
+import Pinnacle_Pages.Home;
 
 public class HomePage_TC extends Base_class{
 	
@@ -10,6 +10,8 @@ public class HomePage_TC extends Base_class{
 	public void main_Home_Page() throws InterruptedException{
 	
 	Home h = new Home(driver);
+	
+	h.Home_continue();
 	
 	h.ENGandDesign();
 	h.About_Us();

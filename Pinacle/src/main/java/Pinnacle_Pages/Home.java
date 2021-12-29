@@ -1,4 +1,4 @@
-package Pages;
+package Pinnacle_Pages;
 
 import static org.testng.Assert.assertEquals;
 
@@ -13,19 +13,25 @@ public class Home {
 
     By EngAndDesign = By.xpath("//*[text()='ENGINEERING & DESIGN']");
     By About = By.xpath("//*[text()='ABOUT US']");
-    By Convey = By.xpath("//*[text()='CONVEY WHAT WE OFFER']");
-    By ConveyTab1 = By.xpath("//*[text()='Facilities & Capabilities']");
-    By ConveyTab2 = By.xpath("//*[text()='Equipment Available']");
+    By Convey = By.xpath("//*[text()='WHAT WE OFFER']");
+    By ConveyTab1 = By.xpath("//*[text()='Capabilities']");
+    By ConveyTab2 = By.xpath("//*[text()='Markets Served']");
     By ContactUS = By.xpath("//*[text()='CONTACT US']");
     By privacyURL = By.xpath("//*[@target='_self']");
     By PrivacyPolicy = By.xpath("//*[text()='Privacy Policy']");
 
-
+    By Continue = By.xpath("//*[text()='Continue']");
 
 	public Home (WebDriver driver){
 		this.driver=driver;
 	}
 
+	public void Home_continue() throws InterruptedException{
+		
+		Thread.sleep(3000);
+		driver.findElement(Continue).click();
+		Thread.sleep(3000);
+	}
 	
 	 public void Contact_Us () throws InterruptedException {
 		   

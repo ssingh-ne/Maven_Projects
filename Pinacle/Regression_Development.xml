@@ -4,8 +4,8 @@
    <test name="Pinnacle_Chrome_Dev">
    <parameter name="browser" value= "chrome"  />
     <classes>
-      <class name="Test_Cases_Development.WatsNew"/>
-      <class name="Test_Cases_Development.HomePage_TC"/>
+      <class name="Pinnacle_Test_Cases_Development.WatsNew"/>
+      <class name="Pinnacle_Test_Cases_Development.HomePage_TC"/>
     </classes>
   </test> 
   
@@ -13,8 +13,8 @@
     <test name="Pinnacle_Firefox_Dev">
    <parameter name="browser" value= "firefox"  />
     <classes>
-      <class name="Test_Cases_Development.WatsNew"/>
-      <class name="Test_Cases_Development.HomePage_TC"/>
+      <class name="Pinnacle_Test_Cases_Development.WatsNew"/>
+      <class name="Pinnacle_Test_Cases_Development.HomePage_TC"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

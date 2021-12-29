@@ -1,4 +1,4 @@
-package Pages;
+package Pinnacle_Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -12,13 +12,13 @@ public class WhatsNewPage {
 	
 	
 	
-	By Image1 = By.xpath("(//*[@alt='News Article Image Text'])[1]");
+	By Image1 = By.xpath("(//*[contains(@class,'blog-image')])[1]");
 	By Image1_URL = By.xpath("//div[contains(@class, 'fadeAltClass-1')]/div/a");
-	By Image2 = By.xpath("(//*[@alt='News Article Image Text'])[2]");
+	By Image2 = By.xpath("(//*[contains(@class,'blog-image')])[2]");
 	By Image2_URL = By.xpath("//div[contains(@class, 'fadeAltClass-2')]/div/a");
-	By Image3 = By.xpath("(//*[@alt='News Article Image Text'])[3]");
+	By Image3 = By.xpath("(//*[contains(@class,'blog-image')])[3]");
 	By Image3_URL = By.xpath("//*[@id='__next']/div[2]/div/div/div/div[1]/div[2]/div/div[1]/div/a");
-	By Image4 = By.xpath("(//*[@alt='News Article Image Text'])[4]");
+	By Image4 = By.xpath("(//*[contains(@class,'blog-image')])[4]");
 	By Image4_URL = By.xpath("//*[@id='__next']/div[2]/div/div/div/div[1]/div[2]/div/div[2]/div/a");
 	By LoadMore	= By.xpath("//*[text()='More News']");
 	By LoadMore2 = By.xpath("//*[text()='LOAD MORE NEWS']");
@@ -122,7 +122,7 @@ public class WhatsNewPage {
 		   Assert.assertEquals(currentTextURL1, s);
 		   
 		   Assert.assertEquals(currentImgURL2, s1);
-		   Assert.assertEquals(currentTextURL2, s);
+		   Assert.assertEquals(currentTextURL2, s1);
 	   }
 	
 	public void LoadMore () throws InterruptedException {
@@ -221,7 +221,7 @@ public class WhatsNewPage {
 		   Assert.assertEquals(currentTextURL3, s);
 		   
 		   Assert.assertEquals(currentImgURL4, s1);
-		   Assert.assertEquals(currentTextURL4, s);
+		   Assert.assertEquals(currentTextURL4, s1);
 		
 		
 		
