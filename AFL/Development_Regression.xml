@@ -4,11 +4,11 @@
   <test name="AUW_Chrome_Dev">
    <parameter name="browser" value= "chrome"  />
     <classes>
-      <class name="Test_Cases_Dev.ContactUS_OutsideUS_dev"/>
-      <class name="Test_Cases_Dev.What_We_offer_OutSideUs_dev"/>
-      <class name="Test_Cases_Dev.HomePage_TC_dev"/>
-      <class name="Test_Cases_Dev.Footer_TC_dev"/>
-      <class name="Test_Cases_Dev.AboutUS_OutsideUS_dev"/>
+      <class name="AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev"/>
+      <class name="AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev"/>
+      <class name="AFL_Test_Cases_Dev.HomePage_TC_dev"/>
+      <class name="AFL_Test_Cases_Dev.Footer_TC_dev"/>
+      <class name="AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev"/>
     </classes>
   </test> 
   
@@ -16,11 +16,11 @@
    <test name="AUW_FF_Dev">
    <parameter name="browser" value= "Firefox"  />
     <classes>
-      <class name="Test_Cases_Dev.ContactUS_OutsideUS_dev"/>
-      <class name="Test_Cases_Dev.What_We_offer_OutSideUs_dev"/>
-      <class name="Test_Cases_Dev.HomePage_TC_dev"/>
-      <class name="Test_Cases_Dev.Footer_TC_dev"/>
-      <class name="Test_Cases_Dev.AboutUS_OutsideUS_dev"/>
+      <class name="AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev"/>
+      <class name="AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev"/>
+      <class name="AFL_Test_Cases_Dev.HomePage_TC_dev"/>
+      <class name="AFL_Test_Cases_Dev.Footer_TC_dev"/>
+      <class name="AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev"/>
     </classes>
   </test>
   
