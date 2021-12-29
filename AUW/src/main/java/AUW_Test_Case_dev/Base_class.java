@@ -70,6 +70,7 @@ public class Base_class {
 		driver.manage().window().maximize();
 		 
 		driver.get("https://develop--auw.netlify.app/");
+		//driver.get("https://hotfix-3-4-1--auw.netlify.app/");
 		Reporter.log("=====Application Started=====", true);
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

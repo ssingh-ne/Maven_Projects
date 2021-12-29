@@ -17,6 +17,8 @@ WebDriver driver;
 	}
 	
 	String DevURL = "https://develop--auw.netlify.app/intelligence";
+	
+	//String DevURL = "https://hotfix-3-4-1--auw.netlify.app/intelligence";
 	String ProdURL = "https://www.auw.com/intelligence";
 	
 	By Image1 = By.xpath("//*[@id='app']/main/div/div/div[2]/div/div/div[1]/div/a/div/img");

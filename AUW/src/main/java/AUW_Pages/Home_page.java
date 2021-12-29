@@ -45,9 +45,11 @@ public class Home_page {
 	String EXP_Insta_Url = "https://www.instagram.com";
 	String EXP_Privacy_Url = "https://www.auw.com/privacy-policy";
 	String EXP_CA_Privacy_Url = "https://www.auw.com/ca-privacy-notice";
+	//String EXP_Privacy_Url_dev = "https://hotfix-3-4-1--auw.netlify.app/privacy-policy";
+	//String EXP_CA_Privacy_Url_dev = "https://hotfix-3-4-1--auw.netlify.app/ca-privacy-notice";
+	
 	String EXP_Privacy_Url_dev = "https://develop--auw.netlify.app/privacy-policy";
 	String EXP_CA_Privacy_Url_dev = "https://develop--auw.netlify.app/ca-privacy-notice";
-	
 	
 	public Home_page (WebDriver driver){
 		this.driver=driver;

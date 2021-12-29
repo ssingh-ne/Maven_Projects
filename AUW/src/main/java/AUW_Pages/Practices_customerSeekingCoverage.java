@@ -57,6 +57,7 @@ WebDriver driver;
 	String Exp_URL7 = "https://develop--auw.netlify.app/practices/customers/property";
 	
 	
+
     public void  Practices_link_CustomerSeekingCoverage () throws InterruptedException {
 		
 		Thread.sleep(2000);

@@ -2,90 +2,118 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="none">
   <parameter name="browser" value="firefox"/>
-  <test name="AUW_Firefox_Dev(failed)" parallel="none">
-    <parameter name="browser" value="firefox"/>
+  <test name="AUW_Chrome_Dev(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="AUW_Test_Case_dev.AUW_header_web_Development">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
+          <include name="main"/>
         </methods>
       </class> <!-- AUW_Test_Case_dev.AUW_header_web_Development -->
       <class name="AUW_Test_Case_dev.AUW_Intelligence_TC">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
+          <include name="main"/>
         </methods>
       </class> <!-- AUW_Test_Case_dev.AUW_Intelligence_TC -->
       <class name="AUW_Test_Case_dev.AUW_Experience">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
+          <include name="main"/>
         </methods>
       </class> <!-- AUW_Test_Case_dev.AUW_Experience -->
       <class name="AUW_Test_Case_dev.AUW_Footer_Development">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
+          <include name="AUW_Footer"/>
         </methods>
       </class> <!-- AUW_Test_Case_dev.AUW_Footer_Development -->
       <class name="AUW_Test_Case_dev.AUW_PPP">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
+          <include name="main"/>
         </methods>
       </class> <!-- AUW_Test_Case_dev.AUW_PPP -->
       <class name="AUW_Test_Case_dev.AUW_AboutUS">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
+          <include name="AboutUS"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
         </methods>
       </class> <!-- AUW_Test_Case_dev.AUW_AboutUS -->
       <class name="AUW_Test_Case_dev.Practices_AgentsBrokers">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
+          <include name="Practices_AgentsBrokers"/>
         </methods>
       </class> <!-- AUW_Test_Case_dev.Practices_AgentsBrokers -->
       <class name="AUW_Test_Case_dev.AUW_CallUpdate">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
+          <include name="main"/>
         </methods>
       </class> <!-- AUW_Test_Case_dev.AUW_CallUpdate -->
+      <class name="AUW_Test_Case_dev.AUW_NJ_Update">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_NJ_Update -->
       <class name="AUW_Test_Case_dev.Practices_CustomerSeekingCoverage">
         <methods>
           <include name="Practices_CustomerSeekingCoverage"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
         </methods>
       </class> <!-- AUW_Test_Case_dev.Practices_CustomerSeekingCoverage -->
-      <class name="AUW_Test_Case_dev.AUW_NJ_Update">
+    </classes>
+  </test> <!-- AUW_Chrome_Dev(failed) -->
+  <test name="AUW_Firefox_Dev(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="AUW_Test_Case_dev.AUW_header_web_Development">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_header_web_Development -->
+      <class name="AUW_Test_Case_dev.AUW_Intelligence_TC">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_Intelligence_TC -->
+      <class name="AUW_Test_Case_dev.AUW_Experience">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_Experience -->
+      <class name="AUW_Test_Case_dev.AUW_Footer_Development">
+        <methods>
+          <include name="AUW_Footer"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_Footer_Development -->
+      <class name="AUW_Test_Case_dev.AUW_PPP">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_PPP -->
+      <class name="AUW_Test_Case_dev.AUW_AboutUS">
+        <methods>
+          <include name="AboutUS"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
         </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_AboutUS -->
+      <class name="AUW_Test_Case_dev.Practices_AgentsBrokers">
+        <methods>
+          <include name="Practices_AgentsBrokers"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.Practices_AgentsBrokers -->
+      <class name="AUW_Test_Case_dev.AUW_CallUpdate">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_CallUpdate -->
+      <class name="AUW_Test_Case_dev.AUW_NJ_Update">
+        <methods>
+          <include name="main"/>
+        </methods>
       </class> <!-- AUW_Test_Case_dev.AUW_NJ_Update -->
+      <class name="AUW_Test_Case_dev.Practices_CustomerSeekingCoverage">
+        <methods>
+          <include name="Practices_CustomerSeekingCoverage"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.Practices_CustomerSeekingCoverage -->
     </classes>
   </test> <!-- AUW_Firefox_Dev(failed) -->
 </suite> <!-- Failed suite [Suite] -->
