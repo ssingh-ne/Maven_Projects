@@ -1,9 +1,9 @@
-package Test_Cases_Prod;
+package Credit_Global_Test_Cases_Dev;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
-import Pages.What_we_do;
+import Credit_Global_Pages.Home_page;
+import Credit_Global_Pages.What_we_do;
 
 public class What_we_Do_TC  extends Base_class {
 	
@@ -14,7 +14,7 @@ public class What_we_Do_TC  extends Base_class {
 		What_we_do w = new What_we_do(driver);
 		Home_page h=new Home_page(driver);
 		
-		h.What_weDo_prod();
+		h.What_weDo();
 		w.SideHeadin_1();
 		w.SideHeadin_2();
 		w.SideHeadin_3();

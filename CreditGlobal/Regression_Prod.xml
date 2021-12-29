@@ -4,18 +4,18 @@
  <test name="CG_Prod_chrome">
    <parameter name="browser" value="chrome" />
     <classes>
-      <class name="Test_Cases_Prod.What_we_Do_TC"/>
-      <class name="Test_Cases_Prod.Forgot_Password"/>
-      <class name="Test_Cases_Prod.Home_TC"/>
+      <class name="Credit_Global_Test_Cases_Prod.What_we_Do_TC"/>
+      <class name="Credit_Global_Test_Cases_Prod.Forgot_Password"/>
+      <class name="Credit_Global_Test_Cases_Prod.Home_TC"/>
     </classes>
   </test> 
   
    <test name="CG_Prod_Firefox">
    <parameter name="browser" value="firefox" />
     <classes>
-      <class name="Test_Cases_Prod.What_we_Do_TC"/>
-      <class name="Test_Cases_Prod.Forgot_Password"/>
-      <class name="Test_Cases_Prod.Home_TC"/>
+      <class name="Credit_Global_Test_Cases_Prod.What_we_Do_TC"/>
+      <class name="Credit_Global_Test_Cases_Prod.Forgot_Password"/>
+      <class name="Credit_Global_Test_Cases_Prod.Home_TC"/>
     </classes>
   </test> 
   

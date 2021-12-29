@@ -1,4 +1,4 @@
-package Pages;
+package Credit_Global_Pages;
 
 import static org.testng.Assert.assertEquals;
 

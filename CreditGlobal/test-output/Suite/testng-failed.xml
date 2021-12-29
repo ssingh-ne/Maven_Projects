@@ -5,71 +5,71 @@
   <test name="CG_Dev_chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Test_Cases_Dev.Home_TC">
+      <class name="Credit_Global_Test_Cases_Dev.Home_TC">
         <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="HomePage_Header_Our_approach"/>
+          <include name="HomePage_Header_login"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
           <include name="HomePage_Header_What_weDo"/>
           <include name="HomePage_Header_ContactUS_btn"/>
-          <include name="HomePage_Header_login"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="HomePage_Header_Our_approach"/>
         </methods>
-      </class> <!-- Test_Cases_Dev.Home_TC -->
-      <class name="Test_Cases_Dev.What_we_Do_TC">
-        <methods>
-          <include name="HomePage_Header_login"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- Test_Cases_Dev.What_we_Do_TC -->
-      <class name="Test_Cases_Dev.Forgot_Password">
+      </class> <!-- Credit_Global_Test_Cases_Dev.Home_TC -->
+      <class name="Credit_Global_Test_Cases_Dev.What_we_Do_TC">
         <methods>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
           <include name="HomePage_Header_login"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
         </methods>
-      </class> <!-- Test_Cases_Dev.Forgot_Password -->
+      </class> <!-- Credit_Global_Test_Cases_Dev.What_we_Do_TC -->
+      <class name="Credit_Global_Test_Cases_Dev.Forgot_Password">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="HomePage_Header_login"/>
+        </methods>
+      </class> <!-- Credit_Global_Test_Cases_Dev.Forgot_Password -->
     </classes>
   </test> <!-- CG_Dev_chrome(failed) -->
   <test name="CG_Dev_Firefox(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="Test_Cases_Dev.Home_TC">
+      <class name="Credit_Global_Test_Cases_Dev.Home_TC">
         <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="HomePage_Header_Our_approach"/>
+          <include name="HomePage_Header_login"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
           <include name="HomePage_Header_What_weDo"/>
           <include name="HomePage_Header_ContactUS_btn"/>
-          <include name="HomePage_Header_login"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="HomePage_Header_Our_approach"/>
         </methods>
-      </class> <!-- Test_Cases_Dev.Home_TC -->
-      <class name="Test_Cases_Dev.What_we_Do_TC">
-        <methods>
-          <include name="HomePage_Header_login"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- Test_Cases_Dev.What_we_Do_TC -->
-      <class name="Test_Cases_Dev.Forgot_Password">
+      </class> <!-- Credit_Global_Test_Cases_Dev.Home_TC -->
+      <class name="Credit_Global_Test_Cases_Dev.What_we_Do_TC">
         <methods>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
           <include name="HomePage_Header_login"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
         </methods>
-      </class> <!-- Test_Cases_Dev.Forgot_Password -->
+      </class> <!-- Credit_Global_Test_Cases_Dev.What_we_Do_TC -->
+      <class name="Credit_Global_Test_Cases_Dev.Forgot_Password">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="HomePage_Header_login"/>
+        </methods>
+      </class> <!-- Credit_Global_Test_Cases_Dev.Forgot_Password -->
     </classes>
   </test> <!-- CG_Dev_Firefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->

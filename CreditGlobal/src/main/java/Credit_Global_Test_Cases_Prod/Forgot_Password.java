@@ -1,8 +1,8 @@
-package Test_Cases_Dev;
+package Credit_Global_Test_Cases_Prod;
 
 import org.testng.annotations.Test;
 
-import Pages.Login_page;
+import Credit_Global_Pages.Login_page;
 
 public class Forgot_Password  extends Base_class {
 	
@@ -12,7 +12,7 @@ public class Forgot_Password  extends Base_class {
 		
 		Login_page l = new Login_page(driver);
 		
-		l.forgot_password();
+		l.forgot_password_prod();
 		
 		
 	

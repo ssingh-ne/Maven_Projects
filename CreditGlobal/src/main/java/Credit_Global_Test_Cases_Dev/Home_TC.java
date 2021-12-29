@@ -1,9 +1,9 @@
-package Test_Cases_Dev;
+package Credit_Global_Test_Cases_Dev;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
+import Credit_Global_Pages.Home_page;
 
 
 

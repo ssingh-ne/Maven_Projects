@@ -1,4 +1,4 @@
-package Test_Cases_Dev;
+package Credit_Global_Test_Cases_Dev;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -33,7 +33,7 @@ public class Base_class {
 	                driver=new FirefoxDriver();
 			
 			driver.manage().window().maximize();
-			
+			driver.get("https://develop--credit-global.netlify.app/");
 				driver.get("https://release-2-2-0--credit-global.netlify.app/");
 			
 			Reporter.log("=====Application Started=====", true);
@@ -50,7 +50,7 @@ public class Base_class {
 	                driver=new ChromeDriver();
 			
 			driver.manage().window().maximize();
-			
+			driver.get("https://develop--credit-global.netlify.app/");
 					driver.get("https://release-2-2-0--credit-global.netlify.app/");
 			
 			Reporter.log("=====Application Started=====", true);
@@ -79,8 +79,8 @@ public class Base_class {
 		}
 		driver.manage().window().maximize();
 		
-		//driver.get("https://develop--credit-global.netlify.app/");
-		driver.get("https://release-2-2-0--credit-global.netlify.app/");
+		driver.get("https://develop--credit-global.netlify.app/");
+		//driver.get("https://release-2-2-0--credit-global.netlify.app/");
 		
 		Reporter.log("=====Application Started=====", true);
 		
