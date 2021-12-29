@@ -1,4 +1,4 @@
-package Pages;
+package Promesa_Pages;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

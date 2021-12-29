@@ -1,12 +1,12 @@
-package Test_Case;
+package Promesa_Test_Case_Prod;
 
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import Pages.Amplience;
-import Pages.Home;
+import Promesa_Pages.Amplience;
+import Promesa_Pages.Home;
 
 public class FAQ  extends Base_class {
 @Test

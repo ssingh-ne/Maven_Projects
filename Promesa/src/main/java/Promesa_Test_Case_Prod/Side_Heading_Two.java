@@ -1,4 +1,4 @@
-package Test_Case_Development;
+package Promesa_Test_Case_Prod;
 
 import static org.testng.Assert.assertEquals;
 
@@ -7,8 +7,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-import Pages.Amplience;
-import Pages.Home;
+import Promesa_Pages.Amplience;
+import Promesa_Pages.Home;
 
 public class Side_Heading_Two  extends Base_class {
 	
@@ -60,8 +60,8 @@ public class Side_Heading_Two  extends Base_class {
 		 		
            
 	 	 		
-	 	 		assertEquals(Mainheading5, slot_heading5);*/
-	 	 		
+	 	 		assertEquals(Mainheading5, slot_heading5);
+*/	 	 		
 	 	
 	}
 	

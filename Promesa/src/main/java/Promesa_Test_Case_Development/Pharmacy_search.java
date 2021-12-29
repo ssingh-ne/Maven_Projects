@@ -1,11 +1,11 @@
-package Test_Case_Development;
+package Promesa_Test_Case_Development;
 
 import javax.xml.ws.Holder;
 
 import org.testng.annotations.Test;
 
-import Pages.Home;
-import Pages.Pharmacy_Search;
+import Promesa_Pages.Home;
+import Promesa_Pages.Pharmacy_Search;
 
 public class Pharmacy_search extends Base_class {
 	
@@ -21,7 +21,7 @@ public class Pharmacy_search extends Base_class {
 	      p.Search_City("Phoenix");
 	      p.Search_State("New York");
 	      p.Search_Zip("10007");
-	      p.Search_Address("Livy’s, 200 Water St, New York, NY 10038, United States");
+	      p.Search_Address("Livyï¿½s, 200 Water St, New York, NY 10038, United States");
 	
 	
    }

@@ -1,8 +1,8 @@
-package Test_Case;
+package Promesa_Test_Case_Prod;
 
 import org.testng.annotations.Test;
 
-import Pages.Home;
+import Promesa_Pages.Home;
 
 public class Footer extends Base_class {
 	

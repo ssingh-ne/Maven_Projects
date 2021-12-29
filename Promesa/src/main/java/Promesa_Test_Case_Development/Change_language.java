@@ -1,9 +1,9 @@
-package Test_Case_Development;
+package Promesa_Test_Case_Development;
 
 import org.testng.annotations.Test;
 
-import Pages.Home;
-import Test_Case_Development.Base_class;
+import Promesa_Pages.Home;
+import Promesa_Test_Case_Development.Base_class;
 
 public class Change_language extends Base_class {
 	

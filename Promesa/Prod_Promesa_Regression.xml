@@ -5,21 +5,21 @@
   <test name="Promesa_Firefox">
    <parameter name="browser" value="firefox" />
     <classes>
-      <class name="Test_Case.Change_language"/>
-      <class name="Test_Case.Footer"/>
-      <class name="Test_Case.Pharmacy_search"/>
+      <class name="Promesa_Test_Case_Prod.Change_language"/>
+      <class name="Promesa_Test_Case_Prod.Footer"/>
+      <class name="Promesa_Test_Case_Prod.Pharmacy_search"/>
     </classes>
   </test>
  
   <test name="Promesa_Chrome">
   <parameter name="browser" value="chrome" />
     <classes>
-      <class name="Test_Case.Side_Heading_One"/>
-      <class name="Test_Case.Side_Heading_Two"/>
-      <class name="Test_Case.FAQ"/>
-      <class name="Test_Case.Footer"/>
-      <class name="Test_Case.Change_language"/>
-      <class name="Test_Case.Pharmacy_search"/>
+      <class name="Promesa_Test_Case_Prod.Side_Heading_One"/>
+      <class name="Promesa_Test_Case_Prod.Side_Heading_Two"/>
+      <class name="Promesa_Test_Case_Prod.FAQ"/>
+      <class name="Promesa_Test_Case_Prod.Footer"/>
+      <class name="Promesa_Test_Case_Prod.Change_language"/>
+      <class name="Promesa_Test_Case_Prod.Pharmacy_search"/>
     </classes>
   </test> 
   

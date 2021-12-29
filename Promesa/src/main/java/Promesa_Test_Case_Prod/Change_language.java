@@ -1,9 +1,9 @@
-package Test_Case;
+package Promesa_Test_Case_Prod;
 
 import org.testng.annotations.Test;
 
-import Pages.Home;
-import Test_Case.Base_class;
+import Promesa_Pages.Home;
+import Promesa_Test_Case_Prod.Base_class;
 
 public class Change_language extends Base_class {
 	

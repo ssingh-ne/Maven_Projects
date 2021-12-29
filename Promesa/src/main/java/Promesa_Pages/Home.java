@@ -1,4 +1,4 @@
-package Pages;
+package Promesa_Pages;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;

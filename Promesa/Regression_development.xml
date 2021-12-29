@@ -5,9 +5,9 @@
  <test name="Promesa__developmentFirefox">
    <parameter name="browser" value="firefox" />
     <classes>
-       <class name="Test_Case_Development.Change_language"/>
-       <class name="Test_Case_Development.Pharmacy_search"/>
-       <class name="Test_Case_Development.Footer"/>
+       <class name="Promesa_Test_Case_Development.Change_language"/>
+       <class name="Promesa_Test_Case_Development.Pharmacy_search"/>
+       <class name="Promesa_Test_Case_Development.Footer"/>
        
     </classes>
   </test>
@@ -16,12 +16,12 @@
     <test name="Promesa_development_Chrome">
   <parameter name="browser" value="chrome" />
     <classes>
-      <class name="Test_Case_Development.Change_language"/>
-      <class name="Test_Case_Development.FAQ"/>
-      <class name="Test_Case_Development.Pharmacy_search"/>
-      <class name="Test_Case_Development.Side_Heading_Two"/>
-      <class name="Test_Case_Development.Footer"/>
-      <class name="Test_Case_Development.Side_Heading_One"/>
+      <class name="Promesa_Test_Case_Development.Change_language"/>
+      <class name="Promesa_Test_Case_Development.FAQ"/>
+      <class name="Promesa_Test_Case_Development.Pharmacy_search"/>
+      <class name="Promesa_Test_Case_Development.Side_Heading_Two"/>
+      <class name="Promesa_Test_Case_Development.Footer"/>
+      <class name="Promesa_Test_Case_Development.Side_Heading_One"/>
       
     </classes>
   </test> 

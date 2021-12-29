@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" total="17" passed="17">
   <reporter-output>
     <line>
       <![CDATA[=====firefox Browser Session Started=====]]>
@@ -21,6 +21,78 @@
     </line>
     <line>
       <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
@@ -83,12 +155,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="513473" started-at="2021-11-15T13:12:53Z" finished-at="2021-11-15T13:21:26Z">
+  <suite name="Suite" duration-ms="560977" started-at="2021-12-29T12:19:51Z" finished-at="2021-12-29T12:29:12Z">
     <groups>
     </groups>
-    <test name="Promesa__developmentFirefox" duration-ms="225362" started-at="2021-11-15T13:12:53Z" finished-at="2021-11-15T13:16:38Z">
-      <class name="Test_Case_Development.Footer">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Development.Footer@d7b1517]" name="setupApplication" is-config="true" duration-ms="10328" started-at="2021-11-15T18:45:27Z" finished-at="2021-11-15T18:45:37Z">
+    <test name="Promesa_Firefox" duration-ms="253015" started-at="2021-12-29T12:19:51Z" finished-at="2021-12-29T12:24:04Z">
+      <class name="Promesa_Test_Case_Prod.Footer">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="setupApplication" is-config="true" duration-ms="6723" started-at="2021-12-29T17:50:06Z" finished-at="2021-12-29T17:50:13Z">
           <params>
             <param index="0">
               <value>
@@ -105,15 +177,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Development.Footer@d7b1517]" name="Footer" duration-ms="58623" started-at="2021-11-15T18:45:37Z" finished-at="2021-11-15T18:46:36Z">
+        <test-method status="PASS" signature="Footer_PrivacyPolicy()[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="Footer_PrivacyPolicy" duration-ms="20021" started-at="2021-12-29T17:50:13Z" finished-at="2021-12-29T17:50:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Development.Footer@d7b1517]" name="tearDown" is-config="true" duration-ms="2105" started-at="2021-11-15T18:46:36Z" finished-at="2021-11-15T18:46:38Z">
+        </test-method> <!-- Footer_PrivacyPolicy -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="tearDown" is-config="true" duration-ms="1196" started-at="2021-12-29T17:50:33Z" finished-at="2021-12-29T17:50:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer.Footer()[pri:0, instance:Test_Case_Development.Footer@d7b1517] output={null}]]]>
+                <![CDATA[[TestResult name=Footer_PrivacyPolicy status=SUCCESS method=Footer.Footer_PrivacyPolicy()[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -123,9 +195,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_Development.Footer -->
-      <class name="Test_Case_Development.Change_language">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Development.Change_language@2a18f23c]" name="setupApplication" is-config="true" duration-ms="16390" started-at="2021-11-15T18:42:53Z" finished-at="2021-11-15T18:43:09Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="setupApplication" is-config="true" duration-ms="8131" started-at="2021-12-29T17:50:34Z" finished-at="2021-12-29T17:50:42Z">
           <params>
             <param index="0">
               <value>
@@ -142,15 +212,194 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Change_Language()[pri:0, instance:Test_Case_Development.Change_language@2a18f23c]" name="Change_Language" duration-ms="4299" started-at="2021-11-15T18:43:09Z" finished-at="2021-11-15T18:43:13Z">
+        <test-method status="PASS" signature="Footer_facebook()[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="Footer_facebook" duration-ms="18958" started-at="2021-12-29T17:50:42Z" finished-at="2021-12-29T17:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_facebook -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="tearDown" is-config="true" duration-ms="1606" started-at="2021-12-29T17:51:01Z" finished-at="2021-12-29T17:51:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer_facebook status=SUCCESS method=Footer.Footer_facebook()[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="setupApplication" is-config="true" duration-ms="7863" started-at="2021-12-29T17:51:03Z" finished-at="2021-12-29T17:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer_instagram()[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="Footer_instagram" duration-ms="6408" started-at="2021-12-29T17:51:11Z" finished-at="2021-12-29T17:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_instagram -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="tearDown" is-config="true" duration-ms="1587" started-at="2021-12-29T17:51:17Z" finished-at="2021-12-29T17:51:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer_instagram status=SUCCESS method=Footer.Footer_instagram()[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="setupApplication" is-config="true" duration-ms="8038" started-at="2021-12-29T17:51:19Z" finished-at="2021-12-29T17:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer_linkedin()[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="Footer_linkedin" duration-ms="6766" started-at="2021-12-29T17:51:27Z" finished-at="2021-12-29T17:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_linkedin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="tearDown" is-config="true" duration-ms="1691" started-at="2021-12-29T17:51:33Z" finished-at="2021-12-29T17:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer_linkedin status=SUCCESS method=Footer.Footer_linkedin()[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="setupApplication" is-config="true" duration-ms="8817" started-at="2021-12-29T17:51:35Z" finished-at="2021-12-29T17:51:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer_twitter()[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="Footer_twitter" duration-ms="5857" started-at="2021-12-29T17:51:44Z" finished-at="2021-12-29T17:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_twitter -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f]" name="tearDown" is-config="true" duration-ms="1615" started-at="2021-12-29T17:51:50Z" finished-at="2021-12-29T17:51:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer_twitter status=SUCCESS method=Footer.Footer_twitter()[pri:0, instance:Promesa_Test_Case_Prod.Footer@721e0f4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Promesa_Test_Case_Prod.Footer -->
+      <class name="Promesa_Test_Case_Prod.Pharmacy_search">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@d7b1517]" name="setupApplication" is-config="true" duration-ms="8272" started-at="2021-12-29T17:51:51Z" finished-at="2021-12-29T17:52:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Side_Heading_One()[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@d7b1517]" name="Side_Heading_One" duration-ms="123379" started-at="2021-12-29T17:52:00Z" finished-at="2021-12-29T17:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Side_Heading_One -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@d7b1517]" name="tearDown" is-config="true" duration-ms="1000" started-at="2021-12-29T17:54:03Z" finished-at="2021-12-29T17:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Side_Heading_One status=SUCCESS method=Pharmacy_search.Side_Heading_One()[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@d7b1517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Promesa_Test_Case_Prod.Pharmacy_search -->
+      <class name="Promesa_Test_Case_Prod.Change_language">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Change_language@2a18f23c]" name="setupApplication" is-config="true" duration-ms="10462" started-at="2021-12-29T17:49:51Z" finished-at="2021-12-29T17:50:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Change_Language()[pri:0, instance:Promesa_Test_Case_Prod.Change_language@2a18f23c]" name="Change_Language" duration-ms="3173" started-at="2021-12-29T17:50:02Z" finished-at="2021-12-29T17:50:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Change_Language -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Development.Change_language@2a18f23c]" name="tearDown" is-config="true" duration-ms="1420" started-at="2021-11-15T18:43:13Z" finished-at="2021-11-15T18:43:15Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Change_language@2a18f23c]" name="tearDown" is-config="true" duration-ms="1410" started-at="2021-12-29T17:50:05Z" finished-at="2021-12-29T17:50:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Change_Language status=SUCCESS method=Change_language.Change_Language()[pri:0, instance:Test_Case_Development.Change_language@2a18f23c] output={null}]]]>
+                <![CDATA[[TestResult name=Change_Language status=SUCCESS method=Change_language.Change_Language()[pri:0, instance:Promesa_Test_Case_Prod.Change_language@2a18f23c] output={null}]]]>
               </value>
             </param>
           </params>
@@ -160,34 +409,213 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_Development.Change_language -->
-      <class name="Test_Case_Development.Pharmacy_search">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Development.Pharmacy_search@721e0f4f]" name="setupApplication" is-config="true" duration-ms="7424" started-at="2021-11-15T18:43:15Z" finished-at="2021-11-15T18:43:22Z">
+      </class> <!-- Promesa_Test_Case_Prod.Change_language -->
+    </test> <!-- Promesa_Firefox -->
+    <test name="Promesa_Chrome" duration-ms="307937" started-at="2021-12-29T12:24:04Z" finished-at="2021-12-29T12:29:12Z">
+      <class name="Promesa_Test_Case_Prod.Footer">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="setupApplication" is-config="true" duration-ms="4480" started-at="2021-12-29T17:55:34Z" finished-at="2021-12-29T17:55:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_One()[pri:0, instance:Test_Case_Development.Pharmacy_search@721e0f4f]" name="Side_Heading_One" duration-ms="123769" started-at="2021-11-15T18:43:22Z" finished-at="2021-11-15T18:45:26Z">
+        <test-method status="PASS" signature="Footer_PrivacyPolicy()[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="Footer_PrivacyPolicy" duration-ms="19315" started-at="2021-12-29T17:55:38Z" finished-at="2021-12-29T17:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_PrivacyPolicy -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="tearDown" is-config="true" duration-ms="797" started-at="2021-12-29T17:55:57Z" finished-at="2021-12-29T17:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer_PrivacyPolicy status=SUCCESS method=Footer.Footer_PrivacyPolicy()[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="setupApplication" is-config="true" duration-ms="3929" started-at="2021-12-29T17:55:58Z" finished-at="2021-12-29T17:56:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer_facebook()[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="Footer_facebook" duration-ms="19087" started-at="2021-12-29T17:56:02Z" finished-at="2021-12-29T17:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_facebook -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="tearDown" is-config="true" duration-ms="779" started-at="2021-12-29T17:56:21Z" finished-at="2021-12-29T17:56:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer_facebook status=SUCCESS method=Footer.Footer_facebook()[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="setupApplication" is-config="true" duration-ms="3871" started-at="2021-12-29T17:56:22Z" finished-at="2021-12-29T17:56:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer_instagram()[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="Footer_instagram" duration-ms="6453" started-at="2021-12-29T17:56:26Z" finished-at="2021-12-29T17:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_instagram -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="tearDown" is-config="true" duration-ms="793" started-at="2021-12-29T17:56:32Z" finished-at="2021-12-29T17:56:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer_instagram status=SUCCESS method=Footer.Footer_instagram()[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="setupApplication" is-config="true" duration-ms="4202" started-at="2021-12-29T17:56:33Z" finished-at="2021-12-29T17:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer_linkedin()[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="Footer_linkedin" duration-ms="6073" started-at="2021-12-29T17:56:37Z" finished-at="2021-12-29T17:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_linkedin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="tearDown" is-config="true" duration-ms="806" started-at="2021-12-29T17:56:43Z" finished-at="2021-12-29T17:56:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer_linkedin status=SUCCESS method=Footer.Footer_linkedin()[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="setupApplication" is-config="true" duration-ms="5544" started-at="2021-12-29T17:56:44Z" finished-at="2021-12-29T17:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer_twitter()[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="Footer_twitter" duration-ms="7226" started-at="2021-12-29T17:56:50Z" finished-at="2021-12-29T17:56:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_twitter -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc]" name="tearDown" is-config="true" duration-ms="969" started-at="2021-12-29T17:56:57Z" finished-at="2021-12-29T17:56:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer_twitter status=SUCCESS method=Footer.Footer_twitter()[pri:0, instance:Promesa_Test_Case_Prod.Footer@1134affc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Promesa_Test_Case_Prod.Footer -->
+      <class name="Promesa_Test_Case_Prod.Side_Heading_One">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Side_Heading_One@56cbfb61]" name="setupApplication" is-config="true" duration-ms="4325" started-at="2021-12-29T17:54:04Z" finished-at="2021-12-29T17:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Side_Heading_One()[pri:0, instance:Promesa_Test_Case_Prod.Side_Heading_One@56cbfb61]" name="Side_Heading_One" duration-ms="29192" started-at="2021-12-29T17:54:08Z" finished-at="2021-12-29T17:54:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Side_Heading_One -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Development.Pharmacy_search@721e0f4f]" name="tearDown" is-config="true" duration-ms="978" started-at="2021-11-15T18:45:26Z" finished-at="2021-11-15T18:45:27Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Side_Heading_One@56cbfb61]" name="tearDown" is-config="true" duration-ms="774" started-at="2021-12-29T17:54:38Z" finished-at="2021-12-29T17:54:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Side_Heading_One status=SUCCESS method=Pharmacy_search.Side_Heading_One()[pri:0, instance:Test_Case_Development.Pharmacy_search@721e0f4f] output={null}]]]>
+                <![CDATA[[TestResult name=Side_Heading_One status=SUCCESS method=Side_Heading_One.Side_Heading_One()[pri:0, instance:Promesa_Test_Case_Prod.Side_Heading_One@56cbfb61] output={null}]]]>
               </value>
             </param>
           </params>
@@ -197,11 +625,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_Development.Pharmacy_search -->
-    </test> <!-- Promesa__developmentFirefox -->
-    <test name="Promesa_development_Chrome" duration-ms="288089" started-at="2021-11-15T13:16:38Z" finished-at="2021-11-15T13:21:26Z">
-      <class name="Test_Case_Development.Footer">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Development.Footer@d041cf]" name="setupApplication" is-config="true" duration-ms="3820" started-at="2021-11-15T18:49:50Z" finished-at="2021-11-15T18:49:54Z">
+      </class> <!-- Promesa_Test_Case_Prod.Side_Heading_One -->
+      <class name="Promesa_Test_Case_Prod.Pharmacy_search">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@129a8472]" name="setupApplication" is-config="true" duration-ms="4050" started-at="2021-12-29T17:57:04Z" finished-at="2021-12-29T17:57:08Z">
           <params>
             <param index="0">
               <value>
@@ -218,15 +644,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Test_Case_Development.Footer@d041cf]" name="Footer" duration-ms="55620" started-at="2021-11-15T18:49:54Z" finished-at="2021-11-15T18:50:49Z">
+        <test-method status="PASS" signature="Side_Heading_One()[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@129a8472]" name="Side_Heading_One" duration-ms="123144" started-at="2021-12-29T17:57:08Z" finished-at="2021-12-29T17:59:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Development.Footer@d041cf]" name="tearDown" is-config="true" duration-ms="1028" started-at="2021-11-15T18:50:49Z" finished-at="2021-11-15T18:50:50Z">
+        </test-method> <!-- Side_Heading_One -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@129a8472]" name="tearDown" is-config="true" duration-ms="783" started-at="2021-12-29T17:59:11Z" finished-at="2021-12-29T17:59:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer.Footer()[pri:0, instance:Test_Case_Development.Footer@d041cf] output={null}]]]>
+                <![CDATA[[TestResult name=Side_Heading_One status=SUCCESS method=Pharmacy_search.Side_Heading_One()[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@129a8472] output={null}]]]>
               </value>
             </param>
           </params>
@@ -236,9 +662,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_Development.Footer -->
-      <class name="Test_Case_Development.Change_language">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Development.Change_language@1134affc]" name="setupApplication" is-config="true" duration-ms="6300" started-at="2021-11-15T18:46:38Z" finished-at="2021-11-15T18:46:44Z">
+      </class> <!-- Promesa_Test_Case_Prod.Pharmacy_search -->
+      <class name="Promesa_Test_Case_Prod.FAQ">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.FAQ@1b0375b3]" name="setupApplication" is-config="true" duration-ms="10271" started-at="2021-12-29T17:55:00Z" finished-at="2021-12-29T17:55:11Z">
           <params>
             <param index="0">
               <value>
@@ -255,15 +681,52 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Change_Language()[pri:0, instance:Test_Case_Development.Change_language@1134affc]" name="Change_Language" duration-ms="2311" started-at="2021-11-15T18:46:44Z" finished-at="2021-11-15T18:46:47Z">
+        <test-method status="PASS" signature="Siheading_2()[pri:0, instance:Promesa_Test_Case_Prod.FAQ@1b0375b3]" name="Siheading_2" duration-ms="22260" started-at="2021-12-29T17:55:11Z" finished-at="2021-12-29T17:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Siheading_2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.FAQ@1b0375b3]" name="tearDown" is-config="true" duration-ms="779" started-at="2021-12-29T17:55:33Z" finished-at="2021-12-29T17:55:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Siheading_2 status=SUCCESS method=FAQ.Siheading_2()[pri:0, instance:Promesa_Test_Case_Prod.FAQ@1b0375b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Promesa_Test_Case_Prod.FAQ -->
+      <class name="Promesa_Test_Case_Prod.Change_language">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Change_language@d041cf]" name="setupApplication" is-config="true" duration-ms="3737" started-at="2021-12-29T17:56:58Z" finished-at="2021-12-29T17:57:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Change_Language()[pri:0, instance:Promesa_Test_Case_Prod.Change_language@d041cf]" name="Change_Language" duration-ms="1695" started-at="2021-12-29T17:57:02Z" finished-at="2021-12-29T17:57:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Change_Language -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Development.Change_language@1134affc]" name="tearDown" is-config="true" duration-ms="757" started-at="2021-11-15T18:46:47Z" finished-at="2021-11-15T18:46:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Change_language@d041cf]" name="tearDown" is-config="true" duration-ms="755" started-at="2021-12-29T17:57:03Z" finished-at="2021-12-29T17:57:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Change_Language status=SUCCESS method=Change_language.Change_Language()[pri:0, instance:Test_Case_Development.Change_language@1134affc] output={null}]]]>
+                <![CDATA[[TestResult name=Change_Language status=SUCCESS method=Change_language.Change_Language()[pri:0, instance:Promesa_Test_Case_Prod.Change_language@d041cf] output={null}]]]>
               </value>
             </param>
           </params>
@@ -273,9 +736,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_Development.Change_language -->
-      <class name="Test_Case_Development.Pharmacy_search">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Development.Pharmacy_search@56cbfb61]" name="setupApplication" is-config="true" duration-ms="6046" started-at="2021-11-15T18:47:15Z" finished-at="2021-11-15T18:47:21Z">
+      </class> <!-- Promesa_Test_Case_Prod.Change_language -->
+      <class name="Promesa_Test_Case_Prod.Side_Heading_Two">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Promesa_Test_Case_Prod.Side_Heading_Two@3cb5cdba]" name="setupApplication" is-config="true" duration-ms="4533" started-at="2021-12-29T17:54:38Z" finished-at="2021-12-29T17:54:43Z">
           <params>
             <param index="0">
               <value>
@@ -292,52 +755,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_One()[pri:0, instance:Test_Case_Development.Pharmacy_search@56cbfb61]" name="Side_Heading_One" duration-ms="123690" started-at="2021-11-15T18:47:21Z" finished-at="2021-11-15T18:49:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Side_Heading_One -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Development.Pharmacy_search@56cbfb61]" name="tearDown" is-config="true" duration-ms="953" started-at="2021-11-15T18:49:24Z" finished-at="2021-11-15T18:49:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Side_Heading_One status=SUCCESS method=Pharmacy_search.Side_Heading_One()[pri:0, instance:Test_Case_Development.Pharmacy_search@56cbfb61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_Development.Pharmacy_search -->
-      <class name="Test_Case_Development.Side_Heading_Two">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Development.Side_Heading_Two@5a39699c]" name="setupApplication" is-config="true" duration-ms="7161" started-at="2021-11-15T18:49:25Z" finished-at="2021-11-15T18:49:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Siheading_2()[pri:0, instance:Test_Case_Development.Side_Heading_Two@5a39699c]" name="Siheading_2" duration-ms="16499" started-at="2021-11-15T18:49:32Z" finished-at="2021-11-15T18:49:49Z">
+        <test-method status="PASS" signature="Siheading_2()[pri:0, instance:Promesa_Test_Case_Prod.Side_Heading_Two@3cb5cdba]" name="Siheading_2" duration-ms="16567" started-at="2021-12-29T17:54:43Z" finished-at="2021-12-29T17:55:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Siheading_2 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Development.Side_Heading_Two@5a39699c]" name="tearDown" is-config="true" duration-ms="862" started-at="2021-11-15T18:49:49Z" finished-at="2021-11-15T18:49:50Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Side_Heading_Two@3cb5cdba]" name="tearDown" is-config="true" duration-ms="733" started-at="2021-12-29T17:55:00Z" finished-at="2021-12-29T17:55:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Siheading_2 status=SUCCESS method=Side_Heading_Two.Siheading_2()[pri:0, instance:Test_Case_Development.Side_Heading_Two@5a39699c] output={null}]]]>
+                <![CDATA[[TestResult name=Siheading_2 status=SUCCESS method=Side_Heading_Two.Siheading_2()[pri:0, instance:Promesa_Test_Case_Prod.Side_Heading_Two@3cb5cdba] output={null}]]]>
               </value>
             </param>
           </params>
@@ -347,81 +773,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_Development.Side_Heading_Two -->
-      <class name="Test_Case_Development.Side_Heading_One">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Development.Side_Heading_One@129a8472]" name="setupApplication" is-config="true" duration-ms="6339" started-at="2021-11-15T18:50:50Z" finished-at="2021-11-15T18:50:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Side_Heading_One()[pri:0, instance:Test_Case_Development.Side_Heading_One@129a8472]" name="Side_Heading_One" duration-ms="28733" started-at="2021-11-15T18:50:57Z" finished-at="2021-11-15T18:51:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Side_Heading_One -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Development.Side_Heading_One@129a8472]" name="tearDown" is-config="true" duration-ms="894" started-at="2021-11-15T18:51:25Z" finished-at="2021-11-15T18:51:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Side_Heading_One status=SUCCESS method=Side_Heading_One.Side_Heading_One()[pri:0, instance:Test_Case_Development.Side_Heading_One@129a8472] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_Development.Side_Heading_One -->
-      <class name="Test_Case_Development.FAQ">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Test_Case_Development.FAQ@3cb5cdba]" name="setupApplication" is-config="true" duration-ms="3765" started-at="2021-11-15T18:46:47Z" finished-at="2021-11-15T18:46:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Siheading_2()[pri:0, instance:Test_Case_Development.FAQ@3cb5cdba]" name="Siheading_2" duration-ms="22482" started-at="2021-11-15T18:46:51Z" finished-at="2021-11-15T18:47:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Siheading_2 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Case_Development.FAQ@3cb5cdba]" name="tearDown" is-config="true" duration-ms="819" started-at="2021-11-15T18:47:14Z" finished-at="2021-11-15T18:47:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Siheading_2 status=SUCCESS method=FAQ.Siheading_2()[pri:0, instance:Test_Case_Development.FAQ@3cb5cdba] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Case_Development.FAQ -->
-    </test> <!-- Promesa_development_Chrome -->
+      </class> <!-- Promesa_Test_Case_Prod.Side_Heading_Two -->
+    </test> <!-- Promesa_Chrome -->
   </suite> <!-- Suite -->
 </testng-results>
