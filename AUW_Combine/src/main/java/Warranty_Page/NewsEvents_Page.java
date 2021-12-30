@@ -20,10 +20,10 @@ public class NewsEvents_Page {
 			
 	
 	By Image2 = By.xpath("//*[@id='app']/main/div[1]/div/div/div[2]/div[2]/a");
-	By Text2 = By.xpath("//*[@id='app']/main/div[1]/div/div/div[2]/div[2]/a/div/p");
+	By Text2 = By.xpath("//*[@id='app']/main/div[1]/div/div/div[2]/div[2]/a/div/h3");
 	
 	By Image3 = By.xpath("//*[@id='app']/main/div[1]/div/div/div[2]/div[3]/div/div[1]/div/a");
-	By Text3 = By.xpath("//*[@id='app']/main/div[1]/div/div/div[2]/div[3]/div/div[1]/div/a");
+	By Text3 = By.xpath("//*[@id='app']/main/div[1]/div/div/div[2]/div[3]/div/div[1]/div/a/div/h3");
 	
 	By Image4 = By.xpath("//*[@id='app']/main/div[1]/div/div/div[2]/div[3]/div/div[2]/div/a");
 	By Text4 = By.xpath("//*[@id='app']/main/div[1]/div/div/div[2]/div[3]/div/div[2]/div/a/div/h3");
@@ -132,24 +132,21 @@ public class NewsEvents_Page {
 			
 		}
 
-	
-    public void Image3() throws InterruptedException {
-    	
-    	JavascriptExecutor js = (JavascriptExecutor) driver;
-		WebElement Element = driver.findElement(more);
-		js.executeScript("arguments[0].scrollIntoView();", Element);
-		
-		Thread.sleep(2000);
-		driver.findElement(more).click();
-		
-		Thread.sleep(2000);
+	public void Image3() throws InterruptedException {
 		
 		// 	Click on image 
 			
-			//JavascriptExecutor js = (JavascriptExecutor) driver;
-			WebElement Element2 = driver.findElement(Image3);
-			js.executeScript("arguments[0].scrollIntoView();", Element2);
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			WebElement Element = driver.findElement(more);
+			js.executeScript("arguments[0].scrollIntoView();", Element);
 			
+			Thread.sleep(2000);
+			driver.findElement(more).click();
+			
+			Thread.sleep(2000);
+			
+			WebElement Element1 = driver.findElement(Image3);
+			js.executeScript("arguments[0].scrollIntoView();", Element1);
 			
 			driver.findElement(Image3).click();
 			
@@ -163,8 +160,8 @@ public class NewsEvents_Page {
 			
 //		 	Click on Text 
 			
-			WebElement Element3 = driver.findElement(more);
-			js.executeScript("arguments[0].scrollIntoView();", Element3);
+			WebElement Element2 = driver.findElement(more);
+			js.executeScript("arguments[0].scrollIntoView();", Element2);
 			
 			Thread.sleep(2000);
 			driver.findElement(more).click();
@@ -172,8 +169,8 @@ public class NewsEvents_Page {
 			Thread.sleep(2000);
 			
 				
-			WebElement Element1= driver.findElement(Image3);
-			js.executeScript("arguments[0].scrollIntoView();", Element1);
+			WebElement Element3= driver.findElement(Image3);
+			js.executeScript("arguments[0].scrollIntoView();", Element3);
 				
 			driver.findElement(Text3).click();
 				
@@ -186,9 +183,7 @@ public class NewsEvents_Page {
 			Thread.sleep(3000);
 				
 			assertEquals(ImageURL, TextURL);
-				//assertEquals(TextURL, ImageURL1);
 				
-			
 		}
 
     public void Image4() throws InterruptedException {
