@@ -1,9 +1,9 @@
-package Test_Cases;
+package MTL_Test_Cases_Prod;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
-import Pages.More_Offers;
+import MTL_Pages.Home_page;
+import MTL_Pages.More_Offers;
 
 public class More_offers_TC extends Base_class {
 		

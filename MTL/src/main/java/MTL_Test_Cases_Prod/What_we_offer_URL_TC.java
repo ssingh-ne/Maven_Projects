@@ -1,9 +1,9 @@
-package Test_Cases_Prod;
+package MTL_Test_Cases_Prod;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
-import Pages.WhatWeOffer_page;
+import MTL_Pages.Home_page;
+import MTL_Pages.WhatWeOffer_page;
 
 public class What_we_offer_URL_TC extends Base_class {
 	

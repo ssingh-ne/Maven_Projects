@@ -1,10 +1,10 @@
-package Test_Cases;
+package MTL_Test_Cases_Dev;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
-import Pages.WhatWeOffer_page;
-import Test_Cases.Base_class;
+import MTL_Pages.Home_page;
+import MTL_Pages.WhatWeOffer_page;
+import MTL_Test_Cases_Dev.Base_class;
 
 public class What_we_offer1_TC  extends Base_class {
 	

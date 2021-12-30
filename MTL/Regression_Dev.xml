@@ -4,9 +4,9 @@
     <test name="MTL_Dev_chrome">
    <parameter name="browser" value="chrome" />
     <classes>
-      <class name="Test_Cases.What_we_offer1_TC"/>
-      <class name="Test_Cases.More_offers_TC"/>
-      <class name="Test_Cases.Home_URL"/>
+      <class name="MTL_Test_Cases_Dev.What_we_offer1_TC"/>
+      <class name="MTL_Test_Cases_Dev.More_offers_TC"/>
+      <class name="MTL_Test_Cases_Dev.Home_URL"/>
     </classes>
   </test> 
   
@@ -14,9 +14,9 @@
    <test name="MTL_Dev_Firefox">
    <parameter name="browser" value="firefox" />
     <classes>
-      <class name="Test_Cases.What_we_offer1_TC"/>
-      <class name="Test_Cases.More_offers_TC"/>
-      <class name="Test_Cases.Home_URL"/>
+      <class name="MTL_Test_Cases_Dev.What_we_offer1_TC"/>
+      <class name="MTL_Test_Cases_Dev.More_offers_TC"/>
+      <class name="MTL_Test_Cases_Dev.Home_URL"/>
     </classes>
   </test> 
  

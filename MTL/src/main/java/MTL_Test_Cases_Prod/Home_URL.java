@@ -1,8 +1,8 @@
-package Test_Cases;
+package MTL_Test_Cases_Prod;
 
 import org.testng.annotations.Test;
 
-import Pages.Home_page;
+import MTL_Pages.Home_page;
 
 public class Home_URL extends Base_class {
 	
