@@ -92,12 +92,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="1070540" started-at="2021-12-29T10:45:09Z" finished-at="2021-12-29T11:02:59Z">
+  <suite name="Suite" duration-ms="1069600" started-at="2022-01-03T15:40:21Z" finished-at="2022-01-03T15:58:11Z">
     <groups>
     </groups>
-    <test name="AUW_Chrome_Dev" duration-ms="515230" started-at="2021-12-29T10:45:09Z" finished-at="2021-12-29T10:53:44Z">
+    <test name="AUW_Chrome_Dev" duration-ms="534549" started-at="2022-01-03T15:40:21Z" finished-at="2022-01-03T15:49:16Z">
       <class name="AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="setupApplication" is-config="true" duration-ms="3721" started-at="2021-12-29T16:23:14Z" finished-at="2021-12-29T16:23:18Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="setupApplication" is-config="true" duration-ms="3547" started-at="2022-01-03T21:18:46Z" finished-at="2022-01-03T21:18:49Z">
           <params>
             <param index="0">
               <value>
@@ -114,11 +114,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="main_Home_Page" duration-ms="25681" started-at="2021-12-29T16:23:18Z" finished-at="2021-12-29T16:23:43Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="main_Home_Page" duration-ms="25370" started-at="2022-01-03T21:18:49Z" finished-at="2022-01-03T21:19:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="tearDown" is-config="true" duration-ms="867" started-at="2021-12-29T16:23:43Z" finished-at="2021-12-29T16:23:44Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="tearDown" is-config="true" duration-ms="749" started-at="2022-01-03T21:19:15Z" finished-at="2022-01-03T21:19:16Z">
           <params>
             <param index="0">
               <value>
@@ -134,7 +134,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev -->
       <class name="AFL_Test_Cases_Dev.Footer_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="setupApplication" is-config="true" duration-ms="3725" started-at="2021-12-29T16:21:59Z" finished-at="2021-12-29T16:22:03Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="setupApplication" is-config="true" duration-ms="3809" started-at="2022-01-03T21:17:31Z" finished-at="2022-01-03T21:17:35Z">
           <params>
             <param index="0">
               <value>
@@ -151,11 +151,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="Footer" duration-ms="69830" started-at="2021-12-29T16:22:03Z" finished-at="2021-12-29T16:23:13Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="Footer" duration-ms="70566" started-at="2022-01-03T21:17:35Z" finished-at="2022-01-03T21:18:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="tearDown" is-config="true" duration-ms="1022" started-at="2021-12-29T16:23:13Z" finished-at="2021-12-29T16:23:14Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="tearDown" is-config="true" duration-ms="796" started-at="2022-01-03T21:18:45Z" finished-at="2022-01-03T21:18:46Z">
           <params>
             <param index="0">
               <value>
@@ -171,7 +171,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- AFL_Test_Cases_Dev.Footer_TC_dev -->
       <class name="AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="setupApplication" is-config="true" duration-ms="6213" started-at="2021-12-29T16:15:09Z" finished-at="2021-12-29T16:15:15Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="setupApplication" is-config="true" duration-ms="7360" started-at="2022-01-03T21:10:21Z" finished-at="2022-01-03T21:10:28Z">
           <params>
             <param index="0">
               <value>
@@ -188,11 +188,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="ContactUs_Page" duration-ms="26499" started-at="2021-12-29T16:15:15Z" finished-at="2021-12-29T16:15:42Z">
+        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="ContactUs_Page" duration-ms="20765" started-at="2022-01-03T21:10:28Z" finished-at="2022-01-03T21:10:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUs_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="tearDown" is-config="true" duration-ms="896" started-at="2021-12-29T16:15:42Z" finished-at="2021-12-29T16:15:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="tearDown" is-config="true" duration-ms="990" started-at="2022-01-03T21:10:49Z" finished-at="2022-01-03T21:10:50Z">
           <params>
             <param index="0">
               <value>
@@ -208,7 +208,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev -->
       <class name="AFL_Test_Cases_Dev.HomePage_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="setupApplication" is-config="true" duration-ms="4309" started-at="2021-12-29T16:20:02Z" finished-at="2021-12-29T16:20:06Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="setupApplication" is-config="true" duration-ms="3848" started-at="2022-01-03T21:15:32Z" finished-at="2022-01-03T21:15:36Z">
           <params>
             <param index="0">
               <value>
@@ -225,11 +225,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="Home_Page" duration-ms="112153" started-at="2021-12-29T16:20:06Z" finished-at="2021-12-29T16:21:58Z">
+        <test-method status="PASS" signature="Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="Home_Page" duration-ms="114216" started-at="2022-01-03T21:15:36Z" finished-at="2022-01-03T21:17:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="tearDown" is-config="true" duration-ms="900" started-at="2021-12-29T16:21:58Z" finished-at="2021-12-29T16:21:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="tearDown" is-config="true" duration-ms="901" started-at="2022-01-03T21:17:30Z" finished-at="2022-01-03T21:17:31Z">
           <params>
             <param index="0">
               <value>
@@ -245,7 +245,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- AFL_Test_Cases_Dev.HomePage_TC_dev -->
       <class name="AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="setupApplication" is-config="true" duration-ms="3822" started-at="2021-12-29T16:15:43Z" finished-at="2021-12-29T16:15:46Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="setupApplication" is-config="true" duration-ms="4331" started-at="2022-01-03T21:10:50Z" finished-at="2022-01-03T21:10:55Z">
           <params>
             <param index="0">
               <value>
@@ -262,11 +262,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="Footer" duration-ms="254437" started-at="2021-12-29T16:15:46Z" finished-at="2021-12-29T16:20:01Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="Footer" duration-ms="276452" started-at="2022-01-03T21:10:55Z" finished-at="2022-01-03T21:15:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="tearDown" is-config="true" duration-ms="1069" started-at="2021-12-29T16:20:01Z" finished-at="2021-12-29T16:20:02Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="tearDown" is-config="true" duration-ms="799" started-at="2022-01-03T21:15:31Z" finished-at="2022-01-03T21:15:32Z">
           <params>
             <param index="0">
               <value>
@@ -282,9 +282,9 @@
         </test-method> <!-- tearDown -->
       </class> <!-- AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev -->
     </test> <!-- AUW_Chrome_Dev -->
-    <test name="AUW_FF_Dev" duration-ms="555288" started-at="2021-12-29T10:53:44Z" finished-at="2021-12-29T11:02:59Z">
+    <test name="AUW_FF_Dev" duration-ms="535031" started-at="2022-01-03T15:49:16Z" finished-at="2022-01-03T15:58:11Z">
       <class name="AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="setupApplication" is-config="true" duration-ms="6539" started-at="2021-12-29T16:32:26Z" finished-at="2021-12-29T16:32:33Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="setupApplication" is-config="true" duration-ms="7206" started-at="2022-01-03T21:27:37Z" finished-at="2022-01-03T21:27:44Z">
           <params>
             <param index="0">
               <value>
@@ -301,11 +301,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="main_Home_Page" duration-ms="25358" started-at="2021-12-29T16:32:33Z" finished-at="2021-12-29T16:32:58Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="main_Home_Page" duration-ms="25543" started-at="2022-01-03T21:27:44Z" finished-at="2022-01-03T21:28:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="tearDown" is-config="true" duration-ms="1169" started-at="2021-12-29T16:32:58Z" finished-at="2021-12-29T16:32:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="tearDown" is-config="true" duration-ms="1296" started-at="2022-01-03T21:28:09Z" finished-at="2022-01-03T21:28:11Z">
           <params>
             <param index="0">
               <value>
@@ -321,7 +321,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev -->
       <class name="AFL_Test_Cases_Dev.Footer_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@129a8472]" name="setupApplication" is-config="true" duration-ms="6632" started-at="2021-12-29T16:31:09Z" finished-at="2021-12-29T16:31:15Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@129a8472]" name="setupApplication" is-config="true" duration-ms="8102" started-at="2022-01-03T21:26:17Z" finished-at="2022-01-03T21:26:25Z">
           <params>
             <param index="0">
               <value>
@@ -338,11 +338,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@129a8472]" name="Footer" duration-ms="69926" started-at="2021-12-29T16:31:15Z" finished-at="2021-12-29T16:32:25Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@129a8472]" name="Footer" duration-ms="69913" started-at="2022-01-03T21:26:25Z" finished-at="2022-01-03T21:27:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@129a8472]" name="tearDown" is-config="true" duration-ms="1217" started-at="2021-12-29T16:32:25Z" finished-at="2021-12-29T16:32:26Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@129a8472]" name="tearDown" is-config="true" duration-ms="1309" started-at="2022-01-03T21:27:35Z" finished-at="2022-01-03T21:27:37Z">
           <params>
             <param index="0">
               <value>
@@ -358,7 +358,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- AFL_Test_Cases_Dev.Footer_TC_dev -->
       <class name="AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="setupApplication" is-config="true" duration-ms="8061" started-at="2021-12-29T16:23:44Z" finished-at="2021-12-29T16:23:52Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="setupApplication" is-config="true" duration-ms="8622" started-at="2022-01-03T21:19:16Z" finished-at="2022-01-03T21:19:24Z">
           <params>
             <param index="0">
               <value>
@@ -375,11 +375,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="ContactUs_Page" duration-ms="21176" started-at="2021-12-29T16:23:52Z" finished-at="2021-12-29T16:24:13Z">
+        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="ContactUs_Page" duration-ms="21313" started-at="2022-01-03T21:19:24Z" finished-at="2022-01-03T21:19:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUs_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="tearDown" is-config="true" duration-ms="1412" started-at="2021-12-29T16:24:13Z" finished-at="2021-12-29T16:24:15Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="tearDown" is-config="true" duration-ms="1278" started-at="2022-01-03T21:19:46Z" finished-at="2022-01-03T21:19:47Z">
           <params>
             <param index="0">
               <value>
@@ -395,7 +395,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev -->
       <class name="AFL_Test_Cases_Dev.HomePage_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="setupApplication" is-config="true" duration-ms="7294" started-at="2021-12-29T16:28:39Z" finished-at="2021-12-29T16:28:46Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="setupApplication" is-config="true" duration-ms="7266" started-at="2022-01-03T21:24:12Z" finished-at="2022-01-03T21:24:19Z">
           <params>
             <param index="0">
               <value>
@@ -412,11 +412,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="Home_Page" duration-ms="141269" started-at="2021-12-29T16:28:46Z" finished-at="2021-12-29T16:31:08Z">
+        <test-method status="PASS" signature="Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="Home_Page" duration-ms="116814" started-at="2022-01-03T21:24:19Z" finished-at="2022-01-03T21:26:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="tearDown" is-config="true" duration-ms="917" started-at="2021-12-29T16:31:08Z" finished-at="2021-12-29T16:31:09Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="tearDown" is-config="true" duration-ms="1323" started-at="2022-01-03T21:26:16Z" finished-at="2022-01-03T21:26:17Z">
           <params>
             <param index="0">
               <value>
@@ -432,7 +432,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- AFL_Test_Cases_Dev.HomePage_TC_dev -->
       <class name="AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="setupApplication" is-config="true" duration-ms="7286" started-at="2021-12-29T16:24:15Z" finished-at="2021-12-29T16:24:22Z">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="setupApplication" is-config="true" duration-ms="7483" started-at="2022-01-03T21:19:47Z" finished-at="2022-01-03T21:19:54Z">
           <params>
             <param index="0">
               <value>
@@ -449,11 +449,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="Footer" duration-ms="256182" started-at="2021-12-29T16:24:22Z" finished-at="2021-12-29T16:28:38Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="Footer" duration-ms="256703" started-at="2022-01-03T21:19:54Z" finished-at="2022-01-03T21:24:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="tearDown" is-config="true" duration-ms="842" started-at="2021-12-29T16:28:38Z" finished-at="2021-12-29T16:28:39Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="tearDown" is-config="true" duration-ms="856" started-at="2022-01-03T21:24:11Z" finished-at="2022-01-03T21:24:12Z">
           <params>
             <param index="0">
               <value>
