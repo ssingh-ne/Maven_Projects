@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
     <line>
       <![CDATA[=====Chrome Browser Session Started=====]]>
@@ -7,13 +7,37 @@
     <line>
       <![CDATA[=====Application Started=====]]>
     </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61035" started-at="2021-12-30T15:16:08Z" finished-at="2021-12-30T15:17:09Z">
+  <suite name="Default suite" duration-ms="129424" started-at="2022-01-04T15:28:35Z" finished-at="2022-01-04T15:30:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61035" started-at="2021-12-30T15:16:08Z" finished-at="2021-12-30T15:17:09Z">
-      <class name="Solution_one_Prod.Footer_Production">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Solution_one_Prod.Footer_Production@2aafb23c]" name="setupApplication" is-config="true" duration-ms="11982" started-at="2021-12-30T20:46:08Z" finished-at="2021-12-30T20:46:20Z">
+    <test name="Default test" duration-ms="129424" started-at="2022-01-04T15:28:35Z" finished-at="2022-01-04T15:30:45Z">
+      <class name="Careers_Test_case_Prod.Footer">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Careers_Test_case_Prod.Footer@2aafb23c]" name="setupApplication" is-config="true" duration-ms="10219" started-at="2022-01-04T20:58:35Z" finished-at="2022-01-04T20:58:45Z">
           <reporter-output>
             <line>
               <![CDATA[=====Chrome Browser Session Started=====]]>
@@ -23,11 +47,67 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:Solution_one_Prod.Footer_Production@2aafb23c]" name="Footer" duration-ms="49027" started-at="2021-12-30T20:46:20Z" finished-at="2021-12-30T20:47:09Z">
+        <test-method status="PASS" signature="AUW_Facebook()[pri:0, instance:Careers_Test_case_Prod.Footer@2aafb23c]" name="AUW_Facebook" duration-ms="22457" started-at="2022-01-04T20:58:45Z" finished-at="2022-01-04T20:59:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Footer -->
-      </class> <!-- Solution_one_Prod.Footer_Production -->
+        </test-method> <!-- AUW_Facebook -->
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Careers_Test_case_Prod.Footer@2aafb23c]" name="setupApplication" is-config="true" duration-ms="10626" started-at="2022-01-04T20:59:08Z" finished-at="2022-01-04T20:59:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AUW_Instagram()[pri:0, instance:Careers_Test_case_Prod.Footer@2aafb23c]" name="AUW_Instagram" duration-ms="7882" started-at="2022-01-04T20:59:19Z" finished-at="2022-01-04T20:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AUW_Instagram -->
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Careers_Test_case_Prod.Footer@2aafb23c]" name="setupApplication" is-config="true" duration-ms="8234" started-at="2022-01-04T20:59:26Z" finished-at="2022-01-04T20:59:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AUW_Linkedin()[pri:0, instance:Careers_Test_case_Prod.Footer@2aafb23c]" name="AUW_Linkedin" duration-ms="9259" started-at="2022-01-04T20:59:35Z" finished-at="2022-01-04T20:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AUW_Linkedin -->
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Careers_Test_case_Prod.Footer@2aafb23c]" name="setupApplication" is-config="true" duration-ms="9956" started-at="2022-01-04T20:59:44Z" finished-at="2022-01-04T20:59:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AUW_Policy()[pri:0, instance:Careers_Test_case_Prod.Footer@2aafb23c]" name="AUW_Policy" duration-ms="28799" started-at="2022-01-04T20:59:54Z" finished-at="2022-01-04T21:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AUW_Policy -->
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Careers_Test_case_Prod.Footer@2aafb23c]" name="setupApplication" is-config="true" duration-ms="11556" started-at="2022-01-04T21:00:23Z" finished-at="2022-01-04T21:00:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AUW_twitter()[pri:0, instance:Careers_Test_case_Prod.Footer@2aafb23c]" name="AUW_twitter" duration-ms="10403" started-at="2022-01-04T21:00:34Z" finished-at="2022-01-04T21:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AUW_twitter -->
+      </class> <!-- Careers_Test_case_Prod.Footer -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

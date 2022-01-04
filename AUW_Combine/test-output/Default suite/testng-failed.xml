@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Adler_TestCases_Development.News">
+      <class name="Careers_Test_case_Prod.Footer">
         <methods>
+          <include name="AUW_Policy"/>
           <include name="setupApplication"/>
-          <include name="main_Home_Page"/>
+          <include name="AUW_Linkedin"/>
+          <include name="AUW_Facebook"/>
+          <include name="AUW_Instagram"/>
+          <include name="AUW_twitter"/>
         </methods>
-      </class> <!-- Adler_TestCases_Development.News -->
+      </class> <!-- Careers_Test_case_Prod.Footer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

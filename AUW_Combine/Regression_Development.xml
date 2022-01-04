@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="none">
-  <test name="Chrome_Developmet">
+  <test name="Chrome_Developmet" parallel = "classes" thread-count = "4">
    <parameter name="browser" value= "chrome"  />
     <classes>
  
@@ -71,7 +71,7 @@
     </classes>
   </test> 
   
-   <test name="Firefox_Developmet">
+  <test name="Firefox_Developmet" parallel = "classes" thread-count = "4">
    <parameter name="browser" value= "firefox"  />
     <classes>
  

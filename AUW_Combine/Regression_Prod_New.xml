@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="none">
 
-  <test name="Chrome_Prod">
+  <test name="Chrome_Prod" parallel = "classes" thread-count = "4">
    <parameter name="browser" value= "chrome"  />
     <classes>
       <class name="AUW_Test_case_prod.AUW_CallUpdate"/>
@@ -62,7 +62,7 @@
     </classes>
   </test> 
   
-  <test name="Firefox_Prod">
+  <test name="Firefox_Prod" parallel = "classes" thread-count = "4">
    <parameter name="browser" value= "firefox"  />
     <classes>
       <class name="AUW_Test_case_prod.AUW_CallUpdate"/>
