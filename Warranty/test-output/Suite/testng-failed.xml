@@ -2,112 +2,50 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="none">
   <parameter name="browser" value="firefox"/>
-  <test name="Warranty_chrome_Dev(failed)" parallel="none">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="Warranty_Test_Case_Dev.Our_Partner">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.Our_Partner -->
-      <class name="Warranty_Test_Case_Dev.About_US">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.About_US -->
-      <class name="Warranty_Test_Case_Dev.NewsEvents">
-        <methods>
-          <include name="NewsEvents"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.NewsEvents -->
-      <class name="Warranty_Test_Case_Dev.Contact_US">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.Contact_US -->
-      <class name="Warranty_Test_Case_Dev.HomePage_Testcase">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.HomePage_Testcase -->
-      <class name="Warranty_Test_Case_Dev.Partner_With_US">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.Partner_With_US -->
-    </classes>
-  </test> <!-- Warranty_chrome_Dev(failed) -->
-  <test name="Warranty_FF_Dev(failed)" parallel="none">
+  <test name="Warranty_firefox_Prod(failed)" parallel="none">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="Warranty_Test_Case_Dev.Our_Partner">
+      <class name="Warranty_Test_Case_Prod.Contact_US">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Warranty_Test_Case_Dev.Our_Partner -->
-      <class name="Warranty_Test_Case_Dev.About_US">
+      </class> <!-- Warranty_Test_Case_Prod.Contact_US -->
+      <class name="Warranty_Test_Case_Prod.Our_Partner">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="Partner1"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Prod.Our_Partner -->
+      <class name="Warranty_Test_Case_Prod.About_US">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Warranty_Test_Case_Dev.About_US -->
-      <class name="Warranty_Test_Case_Dev.NewsEvents">
-        <methods>
-          <include name="NewsEvents"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.NewsEvents -->
-      <class name="Warranty_Test_Case_Dev.Contact_US">
+      </class> <!-- Warranty_Test_Case_Prod.About_US -->
+      <class name="Warranty_Test_Case_Prod.Partner_With_US">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Warranty_Test_Case_Dev.Contact_US -->
-      <class name="Warranty_Test_Case_Dev.HomePage_Testcase">
+      </class> <!-- Warranty_Test_Case_Prod.Partner_With_US -->
+      <class name="Warranty_Test_Case_Prod.HomePage_Testcase">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Warranty_Test_Case_Dev.HomePage_Testcase -->
-      <class name="Warranty_Test_Case_Dev.Partner_With_US">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.Partner_With_US -->
+      </class> <!-- Warranty_Test_Case_Prod.HomePage_Testcase -->
     </classes>
-  </test> <!-- Warranty_FF_Dev(failed) -->
+  </test> <!-- Warranty_firefox_Prod(failed) -->
 </suite> <!-- Failed suite [Suite] -->
