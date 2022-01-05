@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="AUWGlobal_Firefox_Development">
+   <parameter name="browser" value= "firefox"  />
+    <classes>
+      <class name="AUW_Global_Test_Cases_Development.LearnMore_TC"/>
+     <class name="AUW_Global_Test_Cases_Development.Home_Page_TC"/>
+    </classes> 
+    </test>
+   
+   
+   <test name="AUWGlobal_ChromeTest_Development">
+   <parameter name="browser" value= "chrome"  />
+    <classes>
+      <class name="AUW_Global_Test_Cases_Development.LearnMore_TC"/>
+      <class name="AUW_Global_Test_Cases_Development.Home_More"/>
+      <class name="AUW_Global_Test_Cases_Development.Home_Page_TC"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
