@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+
 import static org.testng.Assert.assertEquals;
 
 public class ContactUS_page {
@@ -19,7 +21,7 @@ public class ContactUS_page {
 	
 	By ContactUs_Bottom = By.xpath("(//*[text()='Contact Us'])[3]");
 	
-	String contact_US_URL = "https://develop--applied-warranty.netlify.app/contact-us";
+	String contact_US_URL = "contact-us";
 	
 	
 	
@@ -49,8 +51,8 @@ public class ContactUS_page {
 		String currentURL = driver.getCurrentUrl();
 		System.out.println("News Events contact us URL = " + currentURL);
 		
-		assertEquals(currentURL, contact_US_URL);
-		
+	//	assertEquals(currentURL, contact_US_URL);
+		Assert.assertTrue(currentURL.contains(contact_US_URL),"Incorrect URL") ;
 		
 		
 	}
@@ -75,9 +77,9 @@ public class ContactUS_page {
 		String currentURL = driver.getCurrentUrl();
 		System.out.println("Abount US contact us URL = " + currentURL);
 		
-		assertEquals(currentURL, contact_US_URL);
+	//	assertEquals(currentURL, contact_US_URL);
 		
-		
+		Assert.assertTrue(currentURL.contains(contact_US_URL),"Incorrect URL") ;
 		
 	}
 	
@@ -102,9 +104,9 @@ public class ContactUS_page {
  		String currentURL = driver.getCurrentUrl();
  		System.out.println("Abount US contact us URL = " + currentURL);
  		
- 		assertEquals(currentURL, contact_US_URL);
+ 		//assertEquals(currentURL, contact_US_URL);
  		
- 		
+ 		Assert.assertTrue(currentURL.contains(contact_US_URL),"Incorrect URL") ;
  		
  	}
 	
@@ -123,9 +125,9 @@ public class ContactUS_page {
   		String currentURL = driver.getCurrentUrl();
   		System.out.println("Abount US contact us URL = " + currentURL);
   		
-  		assertEquals(currentURL, contact_US_URL);
+  		//assertEquals(currentURL, contact_US_URL);
   		
-  		
+  		Assert.assertTrue(currentURL.contains(contact_US_URL),"Incorrect URL") ;
   		
   	}
 

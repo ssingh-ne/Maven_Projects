@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class Home_Page {
 	
@@ -44,37 +45,37 @@ public class Home_Page {
 	By Our_products_content1 = By.xpath("//*[text()='Service Contracts and Extended Warranties']");
 	By Our_products_LearnMore1 = By.xpath("(//*[text()='Learn More'])[1]");
 	
-	String Exp_URL1 = "https://develop--applied-warranty.netlify.app/our-products/service-contracts";
+	String Exp_URL1 = "service-contracts";
 	
 	By Our_products_image2 = By.xpath("//a[@href='/our-products/electronics']/div/img");
 	By Our_products_content2 = By.xpath("(//*[text()='Portable Electronics Insurance'])[2]");
 	By Our_products_LearnMore2 = By.xpath("(//*[text()='Learn More'])[2]");
 	
-	String Exp_URL2 ="https://develop--applied-warranty.netlify.app/our-products/electronics"; 
+	String Exp_URL2 ="our-products/electronics"; 
 	
 	By Our_products_image3 = By.xpath("//a[@href='/our-products/travel-insurance']/div/img");
 	By Our_products_content3 = By.xpath("(//*[text()='Travel Insurance'])[2]");
 	By Our_products_LearnMore3 = By.xpath("(//*[text()='Learn More'])[3]");
 	
-	String Exp_URL3 ="https://develop--applied-warranty.netlify.app/our-products/travel-insurance"; 
+	String Exp_URL3 ="our-products/travel-insurance"; 
 	
 	By Our_products_image4 = By.xpath("//a[@href='/our-products/event-ticket-protection']/div/img");
 	By Our_products_content4 = By.xpath("(//*[text()='Event Ticket Protection'])[2]");
 	By Our_products_LearnMore4 = By.xpath("(//*[text()='Learn More'])[4]");
 	
-	String Exp_URL4 ="https://develop--applied-warranty.netlify.app/our-products/event-ticket-protection"; 
+	String Exp_URL4 ="our-products/event-ticket-protection"; 
 	
 	By Our_products_image5 = By.xpath("//a[@href='/our-products/oem-and-distributor-programs']/div/img");
 	By Our_products_content5 = By.xpath("(//*[text()='OEM and Distributor Programs'])[2]");
 	By Our_products_LearnMore5 = By.xpath("(//*[text()='Learn More'])[5]");
 	
-	String Exp_URL5 ="https://develop--applied-warranty.netlify.app/our-products/oem-and-distributor-programs"; 
+	String Exp_URL5 ="our-products/oem-and-distributor-programs"; 
 	
 	By Our_products_image6 = By.xpath("//a[@href='/our-products/auto-dealership-program']/div/img");
 	By Our_products_content6 = By.xpath("//*[text()='Auto Dealership Programs']");
 	By Our_products_LearnMore6 = By.xpath("(//*[text()='Learn More'])[6]");
 	
-	String Exp_URL6 ="https://develop--applied-warranty.netlify.app/our-products/auto-dealership-program";
+	String Exp_URL6 ="our-products/auto-dealership-program";
 	
 	By cookies_prompt = By.xpath("//*[text()='I Agree']");
 	
@@ -94,7 +95,6 @@ public class Home_Page {
 		this.driver=driver;
 	}
 
-	 
      public void Header() {
 		 
 			// Click on header options
@@ -114,7 +114,6 @@ public class Home_Page {
 			 
 		 }
 	
-	 
      public void  CA_PrivacyPolicy_dev () throws InterruptedException {
 			// CA Privacy Note 
 		 		
@@ -150,9 +149,7 @@ public class Home_Page {
 		 		*/
 		 		assertEquals(CA_PrivacyURL, EXP_CA_Privacy_Url_dev);
 		 }
-	 
 	
-	 
      public void  PrivacyPolicy_dev () throws InterruptedException {
 			// CA Privacy Note 
 		 		 
@@ -235,11 +232,12 @@ public class Home_Page {
 					
 	   Thread.sleep(5000);
 		
-	   
-	   
-	   assertEquals(Image_URL, Exp_URL1);
+	   Assert.assertTrue(Image_URL.contains(Exp_URL1),"Incorrect URL") ; 
+	   Assert.assertTrue(Content_URL.contains(Exp_URL1),"Incorrect URL") ;
+	   Assert.assertTrue(LearnMore_URL.contains(Exp_URL1),"Incorrect URL") ;
+	   /*assertEquals(Image_URL, Exp_URL1);
 	   assertEquals(Content_URL, Exp_URL1);
-	   assertEquals(LearnMore_URL, Exp_URL1);
+	   assertEquals(LearnMore_URL, Exp_URL1);*/
 		
 	}
 	
@@ -294,11 +292,13 @@ public class Home_Page {
 					
 	   Thread.sleep(5000);
 		
+	   Assert.assertTrue(Image_URL.contains(Exp_URL2),"Incorrect URL") ; 
+	   Assert.assertTrue(Content_URL.contains(Exp_URL2),"Incorrect URL") ;
+	   Assert.assertTrue(LearnMore_URL.contains(Exp_URL2),"Incorrect URL") ;
 	   
-	   
-	   assertEquals(Image_URL, Exp_URL2);
+	   /*assertEquals(Image_URL, Exp_URL2);
 	   assertEquals(Content_URL, Exp_URL2);
-	   assertEquals(LearnMore_URL, Exp_URL2);
+	   assertEquals(LearnMore_URL, Exp_URL2);*/
 		
 	}
 
@@ -353,12 +353,14 @@ public class Home_Page {
  					
  	   Thread.sleep(5000);
  		
+ 	  Assert.assertTrue(Image_URL.contains(Exp_URL3),"Incorrect URL") ; 
+	   Assert.assertTrue(Content_URL.contains(Exp_URL3),"Incorrect URL") ;
+	   Assert.assertTrue(LearnMore_URL.contains(Exp_URL3),"Incorrect URL") ;
  	   
- 	   
- 	   assertEquals(Image_URL, Exp_URL3);
+ 	   /*assertEquals(Image_URL, Exp_URL3);
  	   assertEquals(Content_URL, Exp_URL3);
  	   assertEquals(LearnMore_URL, Exp_URL3);
- 		
+ 		*/
  	}
 
      public void Our_products_section4 () throws InterruptedException {
@@ -412,12 +414,14 @@ public class Home_Page {
  					
  	   Thread.sleep(5000);
  		
- 	   
- 	   
+ 	  Assert.assertTrue(Image_URL.contains(Exp_URL4),"Incorrect URL") ; 
+	   Assert.assertTrue(Content_URL.contains(Exp_URL4),"Incorrect URL") ;
+	   Assert.assertTrue(LearnMore_URL.contains(Exp_URL4),"Incorrect URL") ;
+ 	   /*
  	   assertEquals(Image_URL, Exp_URL4);
  	   assertEquals(Content_URL, Exp_URL4);
  	   assertEquals(LearnMore_URL, Exp_URL4);
- 		
+ 		*/
  	}
 
      public void Our_products_section5 () throws InterruptedException {
@@ -471,12 +475,14 @@ public class Home_Page {
  					
  	   Thread.sleep(5000);
  		
- 	   
- 	   
+ 	  Assert.assertTrue(Image_URL.contains(Exp_URL5),"Incorrect URL") ; 
+	   Assert.assertTrue(Content_URL.contains(Exp_URL5),"Incorrect URL") ;
+	   Assert.assertTrue(LearnMore_URL.contains(Exp_URL5),"Incorrect URL") ;
+ 	   /*
  	   assertEquals(Image_URL, Exp_URL5);
  	   assertEquals(Content_URL, Exp_URL5);
  	   assertEquals(LearnMore_URL, Exp_URL5);
- 		
+ 		*/
  	}
      
      public void Our_products_section6 () throws InterruptedException {
@@ -530,12 +536,14 @@ public class Home_Page {
  					
  	   Thread.sleep(5000);
  		
- 	   
- 	   
+ 	  Assert.assertTrue(Image_URL.contains(Exp_URL6),"Incorrect URL") ; 
+	   Assert.assertTrue(Content_URL.contains(Exp_URL6),"Incorrect URL") ;
+	   Assert.assertTrue(LearnMore_URL.contains(Exp_URL6),"Incorrect URL") ;
+ 	   /*
  	   assertEquals(Image_URL, Exp_URL6);
  	   assertEquals(Content_URL, Exp_URL6);
  	   assertEquals(LearnMore_URL, Exp_URL6);
- 		
+ 		*/
  	}
 
      public void sudHeading () throws InterruptedException {

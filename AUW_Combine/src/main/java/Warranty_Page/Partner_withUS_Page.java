@@ -8,6 +8,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+
 import static org.testng.Assert.assertEquals;
 
 public class Partner_withUS_Page {
@@ -18,7 +20,7 @@ public class Partner_withUS_Page {
 	
 	
 	By Heading = By.xpath("(//*[text()='Partner With Us'])[1]");
-	String URL = "https://develop--applied-warranty.netlify.app/partner-with-us";
+	String URL = "partner-with-us";
 	
 	
 	public Partner_withUS_Page (WebDriver driver){
@@ -43,7 +45,8 @@ public class Partner_withUS_Page {
  		 
  		 System.out.println("Partner URL = " + CurrentURL);
  		 
- 		assertEquals(CurrentURL, URL);
+ 		//assertEquals(CurrentURL, URL);
+ 		Assert.assertTrue(CurrentURL.contains(URL),"Incorrect URL") ;
 		
 	}
 
