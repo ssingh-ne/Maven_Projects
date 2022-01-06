@@ -24,7 +24,8 @@ public class Pharmacy_search extends Base_class {
 	      p.Search_Address("Livy�s, 200 Water St, New York, NY 10038, United States");
 	
 	
-   }
+   
 
 
     }
+}
