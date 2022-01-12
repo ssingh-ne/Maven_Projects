@@ -23,8 +23,8 @@ public class Base_class {
     
 	@Parameters ("browser")
 	 @BeforeMethod
-	
- /* public void setupApplication()
+	/*
+ public void setupApplication()
 		{
 			
 			Reporter.log("=====FF Browser Session Started=====", true);

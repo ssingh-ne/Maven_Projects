@@ -18,7 +18,7 @@ public class Side_head_sample  extends Base_class_Development {
 	By sideheading_4 = By.xpath("(//*[@class='section__content']/div/div/h3)[2]");
  	By sideheading_5 = By.xpath("//*[@id='contentBlock0']/h4");
 	
-	@Test
+	/*@Test
 	
 	
 	public void Side_Heading_One () throws InterruptedException{
@@ -82,7 +82,7 @@ public class Side_head_sample  extends Base_class_Development {
 	 	assertEquals(Mainheading2, slot_heading2);
  	 	
 	}
-	
+	*/
 	@Test
 	public void Side_Heading_Three () throws InterruptedException {
 		
@@ -113,7 +113,7 @@ public class Side_head_sample  extends Base_class_Development {
 		//assertEquals(Mainheading3, slot_heading3);
 		 Assert.assertTrue(Mainheading3.contains(slot_heading3),"Heading not match");
 }
-	
+/*	
 
 	@Test
 	public void Side_Heading_Four () throws InterruptedException {
@@ -177,4 +177,4 @@ public class Side_head_sample  extends Base_class_Development {
 	 	
 	}
 
-}
+*/}

@@ -32,9 +32,9 @@ public class Base_class {
 			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
 			 driver=new ChromeDriver();
 			
-			System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+			//System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
 	               
-			driver=new FirefoxDriver();
+			//driver=new FirefoxDriver();
 	         
 			 
 			 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS) ;

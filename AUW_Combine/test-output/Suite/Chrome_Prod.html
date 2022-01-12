@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Chrome_Prod</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>82/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>80/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jan 05 14:45:44 IST 2022</td>
+<td>Started on:</td><td>Wed Jan 12 19:10:07 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>1806 seconds (1806548 ms)</td>
+<tr><td>Total time:</td><td>1631 seconds (1631563 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,162 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AUW_Global_Test_Cases_Prod.Home_More.setupApplication()'><b>setupApplication</b><br>Test class: AUW_Global_Test_Cases_Prod.Home_More<br>Parameters: chrome<br/>
+<a href="#Output-2077355428" onClick='toggleBox("Output-2077355428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2077355428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2077355428">
+=====Chrome Browser Session Started=====<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=97.0.4692.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28edfee3b4b656f3a994372c34f014b5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at AUW_Global_Test_Cases_Prod.Base_class.setupApplication(Base_class.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2077355428", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2077355428'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=97.0.4692.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28edfee3b4b656f3a994372c34f014b5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at AUW_Global_Test_Cases_Prod.Base_class.setupApplication(Base_class.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>AUW_Global_Test_Cases_Prod.Home_More@79b4d0f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AUW_Global_Test_Cases_Prod.Home_More.tearDown()'><b>tearDown</b><br>Test class: AUW_Global_Test_Cases_Prod.Home_More</td>
+<td></td>
+<td>0</td>
+<td>AUW_Global_Test_Cases_Prod.Home_More@79b4d0f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Warranty_Test_Case_Prod.Our_Partner.Partner2()'><b>Partner2</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 922e194a29bf6157480c2a8ec6ea7aad
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at Warranty_Page.Our_Partners_page.Partner2(Our_Partners_page.java:81)
+	at Warranty_Test_Case_Prod.Our_Partner.Partner2(Our_Partner.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace262518661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace262518661'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 922e194a29bf6157480c2a8ec6ea7aad
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at Warranty_Page.Our_Partners_page.Partner2(Our_Partners_page.java:81)
+	at Warranty_Test_Case_Prod.Our_Partner.Partner2(Our_Partner.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>45</td>
+<td>Warranty_Test_Case_Prod.Our_Partner@edf4efb</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -77,357 +233,347 @@ function toggleAllBoxes() {
 <tr>
 <td title='Careers_Test_case_Prod.Footer.AUW_Facebook()'><b>AUW_Facebook</b><br>Test class: Careers_Test_case_Prod.Footer</td>
 <td></td>
-<td>17</td>
+<td>62</td>
 <td>Careers_Test_case_Prod.Footer@67b64c45</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.AUW_Footer_Prod.AUW_Footer()'><b>AUW_Footer</b><br>Test class: AUW_Test_case_prod.AUW_Footer_Prod</td>
 <td></td>
-<td>89</td>
+<td>182</td>
 <td>AUW_Test_case_prod.AUW_Footer_Prod@3d8c7aca</td></tr>
 <tr>
 <td title='Careers_Test_case_Prod.Footer.AUW_Instagram()'><b>AUW_Instagram</b><br>Test class: Careers_Test_case_Prod.Footer</td>
 <td></td>
-<td>12</td>
+<td>72</td>
 <td>Careers_Test_case_Prod.Footer@67b64c45</td></tr>
 <tr>
 <td title='Careers_Test_case_Prod.Footer.AUW_Linkedin()'><b>AUW_Linkedin</b><br>Test class: Careers_Test_case_Prod.Footer</td>
 <td></td>
-<td>11</td>
+<td>38</td>
 <td>Careers_Test_case_Prod.Footer@67b64c45</td></tr>
 <tr>
 <td title='Careers_Test_case_Prod.Footer.AUW_Policy()'><b>AUW_Policy</b><br>Test class: Careers_Test_case_Prod.Footer</td>
 <td></td>
-<td>28</td>
+<td>35</td>
 <td>Careers_Test_case_Prod.Footer@67b64c45</td></tr>
 <tr>
 <td title='Careers_Test_case_Prod.Footer.AUW_twitter()'><b>AUW_twitter</b><br>Test class: Careers_Test_case_Prod.Footer</td>
 <td></td>
-<td>23</td>
+<td>44</td>
 <td>Careers_Test_case_Prod.Footer@67b64c45</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.AUW_AboutUS.AboutUS()'><b>AboutUS</b><br>Test class: AUW_Test_case_prod.AUW_AboutUS</td>
 <td></td>
-<td>80</td>
+<td>155</td>
 <td>AUW_Test_case_prod.AUW_AboutUS@3b81a1bc</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Prod.Change_language.Change_Language()'><b>Change_Language</b><br>Test class: Promesa_Test_Case_Prod.Change_language</td>
 <td></td>
-<td>2</td>
+<td>5</td>
 <td>Promesa_Test_Case_Prod.Change_language@7a5d012c</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.Contact_US.ContactUS()'><b>ContactUS</b><br>Test class: Warranty_Test_Case_Prod.Contact_US</td>
 <td></td>
-<td>71</td>
+<td>204</td>
 <td>Warranty_Test_Case_Prod.Contact_US@783e6358</td></tr>
 <tr>
 <td title='AFL_Test_Case_Prod.ContactUS_OutsideUS.ContactUs_Page()'><b>ContactUs_Page</b><br>Test class: AFL_Test_Case_Prod.ContactUS_OutsideUS</td>
 <td></td>
-<td>25</td>
+<td>55</td>
 <td>AFL_Test_Case_Prod.ContactUS_OutsideUS@96532d6</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.Home_URL.Footer()'><b>Footer</b><br>Test class: MTL_Test_Cases_Prod.Home_URL</td>
 <td></td>
-<td>44</td>
+<td>41</td>
 <td>MTL_Test_Cases_Prod.Home_URL@dfd3711</td></tr>
-<tr>
-<td title='Speciality_underwriters_Test_Case_Prod.About_Us.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Prod.About_Us</td>
-<td></td>
-<td>12</td>
-<td>Speciality_underwriters_Test_Case_Prod.About_Us@6aaa5eb0</td></tr>
 <tr>
 <td title='Speciality_underwriters_Test_Case_Prod.Contact_US_TC.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Prod.Contact_US_TC</td>
 <td></td>
-<td>20</td>
+<td>18</td>
 <td>Speciality_underwriters_Test_Case_Prod.Contact_US_TC@735f7ae5</td></tr>
+<tr>
+<td title='Speciality_underwriters_Test_Case_Prod.About_Us.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Prod.About_Us</td>
+<td></td>
+<td>13</td>
+<td>Speciality_underwriters_Test_Case_Prod.About_Us@6aaa5eb0</td></tr>
 <tr>
 <td title='Speciality_underwriters_Test_Case_Prod.Home_TC.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Prod.Home_TC</td>
 <td></td>
-<td>16</td>
+<td>22</td>
 <td>Speciality_underwriters_Test_Case_Prod.Home_TC@3796751b</td></tr>
 <tr>
 <td title='Speciality_underwriters_Test_Case_Prod.What_We_offer.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Prod.What_We_offer</td>
 <td></td>
-<td>38</td>
+<td>45</td>
 <td>Speciality_underwriters_Test_Case_Prod.What_We_offer@13fee20c</td></tr>
 <tr>
 <td title='AFL_Test_Case_Prod.Footer_TC.Footer()'><b>Footer</b><br>Test class: AFL_Test_Case_Prod.Footer_TC</td>
 <td></td>
-<td>69</td>
+<td>102</td>
 <td>AFL_Test_Case_Prod.Footer_TC@668bc3d5</td></tr>
-<tr>
-<td title='AFL_Test_Case_Prod.What_We_offer_OutSideUs.Footer()'><b>Footer</b><br>Test class: AFL_Test_Case_Prod.What_We_offer_OutSideUs</td>
-<td></td>
-<td>332</td>
-<td>AFL_Test_Case_Prod.What_We_offer_OutSideUs@380fb434</td></tr>
 <tr>
 <td title='Solution_one_Prod.Footer_Production.Footer()'><b>Footer</b><br>Test class: Solution_one_Prod.Footer_Production</td>
 <td></td>
-<td>75</td>
+<td>344</td>
 <td>Solution_one_Prod.Footer_Production@21bcffb5</td></tr>
+<tr>
+<td title='AFL_Test_Case_Prod.What_We_offer_OutSideUs.Footer()'><b>Footer</b><br>Test class: AFL_Test_Case_Prod.What_We_offer_OutSideUs</td>
+<td></td>
+<td>577</td>
+<td>AFL_Test_Case_Prod.What_We_offer_OutSideUs@380fb434</td></tr>
 <tr>
 <td title='JumboGC_Test_case_prod.Header_footer.Footer_Facebook()'><b>Footer_Facebook</b><br>Test class: JumboGC_Test_case_prod.Header_footer</td>
 <td></td>
-<td>28</td>
+<td>33</td>
 <td>JumboGC_Test_case_prod.Header_footer@60f82f98</td></tr>
 <tr>
 <td title='JumboGC_Test_case_prod.Header_footer.Footer_Instagram()'><b>Footer_Instagram</b><br>Test class: JumboGC_Test_case_prod.Header_footer</td>
 <td></td>
-<td>33</td>
+<td>45</td>
 <td>JumboGC_Test_case_prod.Header_footer@60f82f98</td></tr>
 <tr>
 <td title='JumboGC_Test_case_prod.Header_footer.Footer_Privacy()'><b>Footer_Privacy</b><br>Test class: JumboGC_Test_case_prod.Header_footer</td>
 <td></td>
-<td>41</td>
+<td>100</td>
 <td>JumboGC_Test_case_prod.Header_footer@60f82f98</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Prod.Footer.Footer_PrivacyPolicy()'><b>Footer_PrivacyPolicy</b><br>Test class: Promesa_Test_Case_Prod.Footer</td>
 <td></td>
-<td>19</td>
+<td>31</td>
 <td>Promesa_Test_Case_Prod.Footer@2d6e8792</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Prod.Footer.Footer_facebook()'><b>Footer_facebook</b><br>Test class: Promesa_Test_Case_Prod.Footer</td>
 <td></td>
-<td>24</td>
+<td>29</td>
 <td>Promesa_Test_Case_Prod.Footer@2d6e8792</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Prod.Footer.Footer_instagram()'><b>Footer_instagram</b><br>Test class: Promesa_Test_Case_Prod.Footer</td>
 <td></td>
-<td>8</td>
+<td>15</td>
 <td>Promesa_Test_Case_Prod.Footer@2d6e8792</td></tr>
 <tr>
 <td title='JumboGC_Test_case_prod.Header_footer.Footer_linkedIN()'><b>Footer_linkedIN</b><br>Test class: JumboGC_Test_case_prod.Header_footer</td>
 <td></td>
-<td>40</td>
+<td>32</td>
 <td>JumboGC_Test_case_prod.Header_footer@60f82f98</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Prod.Footer.Footer_linkedin()'><b>Footer_linkedin</b><br>Test class: Promesa_Test_Case_Prod.Footer</td>
 <td></td>
-<td>7</td>
+<td>35</td>
 <td>Promesa_Test_Case_Prod.Footer@2d6e8792</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Prod.Footer.Footer_twitter()'><b>Footer_twitter</b><br>Test class: Promesa_Test_Case_Prod.Footer</td>
 <td></td>
-<td>8</td>
+<td>7</td>
 <td>Promesa_Test_Case_Prod.Footer@2d6e8792</td></tr>
 <tr>
 <td title='JumboGC_Test_case_prod.Side_Heading.Header_Footer()'><b>Header_Footer</b><br>Test class: JumboGC_Test_case_prod.Side_Heading</td>
 <td></td>
-<td>198</td>
+<td>467</td>
 <td>JumboGC_Test_case_prod.Side_Heading@6108b2d7</td></tr>
 <tr>
 <td title='JumboGC_Test_case_prod.Header_footer.Header_Login()'><b>Header_Login</b><br>Test class: JumboGC_Test_case_prod.Header_footer</td>
 <td></td>
-<td>21</td>
+<td>22</td>
 <td>JumboGC_Test_case_prod.Header_footer@60f82f98</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer_URL_TC.Heading()'><b>Heading</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer_URL_TC</td>
 <td></td>
-<td>92</td>
+<td>169</td>
 <td>MTL_Test_Cases_Prod.What_we_offer_URL_TC@13969fbe</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading1()'><b>Heading1</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
 <td></td>
-<td>36</td>
+<td>37</td>
 <td>MTL_Test_Cases_Prod.What_we_offer1_TC@73f792cf</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading10()'><b>Heading10</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
 <td></td>
-<td>39</td>
+<td>43</td>
 <td>MTL_Test_Cases_Prod.What_we_offer1_TC@73f792cf</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading11()'><b>Heading11</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
 <td></td>
-<td>52</td>
+<td>68</td>
 <td>MTL_Test_Cases_Prod.What_we_offer1_TC@73f792cf</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading2()'><b>Heading2</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
 <td></td>
-<td>36</td>
+<td>50</td>
 <td>MTL_Test_Cases_Prod.What_we_offer1_TC@73f792cf</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading3()'><b>Heading3</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
 <td></td>
-<td>39</td>
+<td>63</td>
 <td>MTL_Test_Cases_Prod.What_we_offer1_TC@73f792cf</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading4()'><b>Heading4</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
 <td></td>
-<td>39</td>
+<td>57</td>
 <td>MTL_Test_Cases_Prod.What_we_offer1_TC@73f792cf</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading5()'><b>Heading5</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
 <td></td>
-<td>39</td>
+<td>49</td>
 <td>MTL_Test_Cases_Prod.What_we_offer1_TC@73f792cf</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading6()'><b>Heading6</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
 <td></td>
-<td>38</td>
+<td>57</td>
 <td>MTL_Test_Cases_Prod.What_we_offer1_TC@73f792cf</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading7()'><b>Heading7</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
 <td></td>
-<td>40</td>
+<td>43</td>
 <td>MTL_Test_Cases_Prod.What_we_offer1_TC@73f792cf</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading8()'><b>Heading8</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
 <td></td>
-<td>45</td>
+<td>36</td>
 <td>MTL_Test_Cases_Prod.What_we_offer1_TC@73f792cf</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading9()'><b>Heading9</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
 <td></td>
-<td>41</td>
+<td>36</td>
 <td>MTL_Test_Cases_Prod.What_we_offer1_TC@73f792cf</td></tr>
 <tr>
 <td title='AUW_Global_Test_Cases_Prod.Home_Page_TC.HomePage()'><b>HomePage</b><br>Test class: AUW_Global_Test_Cases_Prod.Home_Page_TC</td>
 <td></td>
-<td>24</td>
+<td>18</td>
 <td>AUW_Global_Test_Cases_Prod.Home_Page_TC@566776ad</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Prod.Home_TC.HomePage_Header_ContactUS_btn()'><b>HomePage_Header_ContactUS_btn</b><br>Test class: Credit_Global_Test_Cases_Prod.Home_TC</td>
 <td></td>
-<td>10</td>
+<td>23</td>
 <td>Credit_Global_Test_Cases_Prod.Home_TC@6b2fad11</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Prod.Home_TC.HomePage_Header_Our_approach()'><b>HomePage_Header_Our_approach</b><br>Test class: Credit_Global_Test_Cases_Prod.Home_TC</td>
 <td></td>
-<td>11</td>
+<td>16</td>
 <td>Credit_Global_Test_Cases_Prod.Home_TC@6b2fad11</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Prod.Home_TC.HomePage_Header_What_weDo()'><b>HomePage_Header_What_weDo</b><br>Test class: Credit_Global_Test_Cases_Prod.Home_TC</td>
 <td></td>
-<td>8</td>
+<td>11</td>
 <td>Credit_Global_Test_Cases_Prod.Home_TC@6b2fad11</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Prod.Forgot_Password.HomePage_Header_login()'><b>HomePage_Header_login</b><br>Test class: Credit_Global_Test_Cases_Prod.Forgot_Password</td>
 <td></td>
-<td>8</td>
+<td>18</td>
 <td>Credit_Global_Test_Cases_Prod.Forgot_Password@6cd8737</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Prod.What_we_Do_TC.HomePage_Header_login()'><b>HomePage_Header_login</b><br>Test class: Credit_Global_Test_Cases_Prod.What_we_Do_TC</td>
 <td></td>
-<td>31</td>
+<td>47</td>
 <td>Credit_Global_Test_Cases_Prod.What_we_Do_TC@38082d64</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Prod.Home_TC.HomePage_Header_login()'><b>HomePage_Header_login</b><br>Test class: Credit_Global_Test_Cases_Prod.Home_TC</td>
 <td></td>
-<td>13</td>
+<td>15</td>
 <td>Credit_Global_Test_Cases_Prod.Home_TC@6b2fad11</td></tr>
 <tr>
 <td title='AFL_Test_Case_Prod.HomePage_TC.Home_Page()'><b>Home_Page</b><br>Test class: AFL_Test_Case_Prod.HomePage_TC</td>
 <td></td>
-<td>135</td>
+<td>254</td>
 <td>AFL_Test_Case_Prod.HomePage_TC@1a407d53</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.About_US.Home_page()'><b>Home_page</b><br>Test class: Warranty_Test_Case_Prod.About_US</td>
 <td></td>
-<td>35</td>
+<td>41</td>
 <td>Warranty_Test_Case_Prod.About_US@79698539</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.HomePage_Testcase.Home_page()'><b>Home_page</b><br>Test class: Warranty_Test_Case_Prod.HomePage_Testcase</td>
 <td></td>
-<td>305</td>
+<td>340</td>
 <td>Warranty_Test_Case_Prod.HomePage_Testcase@42d3bd8b</td></tr>
 <tr>
 <td title='AUW_Global_Test_Cases_Prod.LearnMore_TC.LearnMore()'><b>LearnMore</b><br>Test class: AUW_Global_Test_Cases_Prod.LearnMore_TC</td>
 <td></td>
-<td>12</td>
+<td>20</td>
 <td>AUW_Global_Test_Cases_Prod.LearnMore_TC@7f690630</td></tr>
-<tr>
-<td title='AUW_Global_Test_Cases_Prod.Home_More.More_button()'><b>More_button</b><br>Test class: AUW_Global_Test_Cases_Prod.Home_More</td>
-<td></td>
-<td>72</td>
-<td>AUW_Global_Test_Cases_Prod.Home_More@79b4d0f</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.More_offers_TC.More_offers()'><b>More_offers</b><br>Test class: MTL_Test_Cases_Prod.More_offers_TC</td>
 <td></td>
-<td>46</td>
+<td>35</td>
 <td>MTL_Test_Cases_Prod.More_offers_TC@3cda1055</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.Our_Partner.Partner1()'><b>Partner1</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
 <td></td>
-<td>98</td>
-<td>Warranty_Test_Case_Prod.Our_Partner@edf4efb</td></tr>
-<tr>
-<td title='Warranty_Test_Case_Prod.Our_Partner.Partner2()'><b>Partner2</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
-<td></td>
-<td>75</td>
+<td>134</td>
 <td>Warranty_Test_Case_Prod.Our_Partner@edf4efb</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.Our_Partner.Partner3()'><b>Partner3</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
 <td></td>
-<td>63</td>
+<td>96</td>
 <td>Warranty_Test_Case_Prod.Our_Partner@edf4efb</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.Our_Partner.Partner4()'><b>Partner4</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
 <td></td>
-<td>66</td>
+<td>71</td>
 <td>Warranty_Test_Case_Prod.Our_Partner@edf4efb</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.Our_Partner.Partner5()'><b>Partner5</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
 <td></td>
-<td>61</td>
+<td>62</td>
 <td>Warranty_Test_Case_Prod.Our_Partner@edf4efb</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.Our_Partner.Partner6()'><b>Partner6</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
 <td></td>
-<td>61</td>
+<td>63</td>
 <td>Warranty_Test_Case_Prod.Our_Partner@edf4efb</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.Practices_AgentsBrokers.Practices_AgentsBrokers()'><b>Practices_AgentsBrokers</b><br>Test class: AUW_Test_case_prod.Practices_AgentsBrokers</td>
 <td></td>
-<td>87</td>
+<td>190</td>
 <td>AUW_Test_case_prod.Practices_AgentsBrokers@6fadae5d</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.Practices_CustomerSeekingCoverage.Practices_CustomerSeekingCoverage()'><b>Practices_CustomerSeekingCoverage</b><br>Test class: AUW_Test_case_prod.Practices_CustomerSeekingCoverage</td>
 <td></td>
-<td>258</td>
+<td>334</td>
 <td>AUW_Test_case_prod.Practices_CustomerSeekingCoverage@3fb6a447</td></tr>
 <tr>
 <td title='Careers_Test_case_Prod.Side_Heading1.Side_Heading()'><b>Side_Heading</b><br>Test class: Careers_Test_case_Prod.Side_Heading1</td>
 <td></td>
-<td>178</td>
+<td>503</td>
 <td>Careers_Test_case_Prod.Side_Heading1@5f2050f6</td></tr>
 <tr>
 <td title='Solution_one_Prod.Side_Heading_Production.Side_Heading_Five()'><b>Side_Heading_Five</b><br>Test class: Solution_one_Prod.Side_Heading_Production</td>
 <td></td>
-<td>83</td>
+<td>213</td>
 <td>Solution_one_Prod.Side_Heading_Production@6bf256fa</td></tr>
 <tr>
 <td title='Solution_one_Prod.Side_Heading_Production.Side_Heading_Four()'><b>Side_Heading_Four</b><br>Test class: Solution_one_Prod.Side_Heading_Production</td>
 <td></td>
-<td>70</td>
+<td>192</td>
 <td>Solution_one_Prod.Side_Heading_Production@6bf256fa</td></tr>
-<tr>
-<td title='Promesa_Test_Case_Prod.Pharmacy_search.Side_Heading_One()'><b>Side_Heading_One</b><br>Test class: Promesa_Test_Case_Prod.Pharmacy_search</td>
-<td></td>
-<td>146</td>
-<td>Promesa_Test_Case_Prod.Pharmacy_search@26ba2a48</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Prod.Side_Heading_One.Side_Heading_One()'><b>Side_Heading_One</b><br>Test class: Promesa_Test_Case_Prod.Side_Heading_One</td>
 <td></td>
-<td>33</td>
+<td>41</td>
 <td>Promesa_Test_Case_Prod.Side_Heading_One@17550481</td></tr>
+<tr>
+<td title='Promesa_Test_Case_Prod.Pharmacy_search.Side_Heading_One()'><b>Side_Heading_One</b><br>Test class: Promesa_Test_Case_Prod.Pharmacy_search</td>
+<td></td>
+<td>156</td>
+<td>Promesa_Test_Case_Prod.Pharmacy_search@26ba2a48</td></tr>
 <tr>
 <td title='Solution_one_Prod.Side_Heading_Production.Side_Heading_One()'><b>Side_Heading_One</b><br>Test class: Solution_one_Prod.Side_Heading_Production</td>
 <td></td>
-<td>67</td>
+<td>84</td>
 <td>Solution_one_Prod.Side_Heading_Production@6bf256fa</td></tr>
 <tr>
 <td title='Solution_one_Prod.Side_Heading_Production.Side_Heading_Three()'><b>Side_Heading_Three</b><br>Test class: Solution_one_Prod.Side_Heading_Production</td>
 <td></td>
-<td>80</td>
+<td>63</td>
 <td>Solution_one_Prod.Side_Heading_Production@6bf256fa</td></tr>
 <tr>
 <td title='Solution_one_Prod.Side_Heading_Production.Side_Heading_Two()'><b>Side_Heading_Two</b><br>Test class: Solution_one_Prod.Side_Heading_Production</td>
 <td></td>
-<td>71</td>
+<td>55</td>
 <td>Solution_one_Prod.Side_Heading_Production@6bf256fa</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Prod.FAQ.Siheading_2()'><b>Siheading_2</b><br>Test class: Promesa_Test_Case_Prod.FAQ</td>
 <td></td>
-<td>23</td>
+<td>41</td>
 <td>Promesa_Test_Case_Prod.FAQ@2ed94a8b</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Prod.Side_Heading_Two.Siheading_2()'><b>Siheading_2</b><br>Test class: Promesa_Test_Case_Prod.Side_Heading_Two</td>
@@ -435,55 +581,68 @@ function toggleAllBoxes() {
 <td>19</td>
 <td>Promesa_Test_Case_Prod.Side_Heading_Two@7f63425a</td></tr>
 <tr>
-<td title='AUW_Test_case_prod.AUW_CallUpdate.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_CallUpdate</td>
+<td title='AUW_Test_case_prod.AUW_header_web_Prod.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_header_web_Prod</td>
 <td></td>
-<td>63</td>
-<td>AUW_Test_case_prod.AUW_CallUpdate@1554909b</td></tr>
-<tr>
-<td title='AUW_Test_case_prod.AUW_Intelligence_TC.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_Intelligence_TC</td>
-<td></td>
-<td>103</td>
-<td>AUW_Test_case_prod.AUW_Intelligence_TC@3498ed</td></tr>
-<tr>
-<td title='AUW_Test_case_prod.AUW_NJ_Update.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_NJ_Update</td>
-<td></td>
-<td>46</td>
-<td>AUW_Test_case_prod.AUW_NJ_Update@5ebec15</td></tr>
+<td>79</td>
+<td>AUW_Test_case_prod.AUW_header_web_Prod@6442b0a6</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.AUW_PPP.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_PPP</td>
 <td></td>
-<td>19</td>
+<td>105</td>
 <td>AUW_Test_case_prod.AUW_PPP@4411d970</td></tr>
 <tr>
-<td title='AUW_Test_case_prod.AUW_header_web_Prod.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_header_web_Prod</td>
+<td title='AUW_Test_case_prod.AUW_NJ_Update.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_NJ_Update</td>
 <td></td>
-<td>44</td>
-<td>AUW_Test_case_prod.AUW_header_web_Prod@6442b0a6</td></tr>
+<td>140</td>
+<td>AUW_Test_case_prod.AUW_NJ_Update@5ebec15</td></tr>
+<tr>
+<td title='AUW_Test_case_prod.AUW_Intelligence_TC.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_Intelligence_TC</td>
+<td></td>
+<td>164</td>
+<td>AUW_Test_case_prod.AUW_Intelligence_TC@3498ed</td></tr>
+<tr>
+<td title='AUW_Test_case_prod.AUW_CallUpdate.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_CallUpdate</td>
+<td></td>
+<td>175</td>
+<td>AUW_Test_case_prod.AUW_CallUpdate@1554909b</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.AUW_Experience.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_Experience</td>
 <td></td>
-<td>338</td>
+<td>415</td>
 <td>AUW_Test_case_prod.AUW_Experience@64616ca2</td></tr>
 <tr>
 <td title='AFL_Test_Case_Prod.AboutUS_OutsideUS.main_Home_Page()'><b>main_Home_Page</b><br>Test class: AFL_Test_Case_Prod.AboutUS_OutsideUS</td>
 <td></td>
-<td>21</td>
+<td>50</td>
 <td>AFL_Test_Case_Prod.AboutUS_OutsideUS@2f7a2457</td></tr>
 <tr>
 <td title='Adler_TestCases_Prod.Home.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Adler_TestCases_Prod.Home</td>
 <td></td>
-<td>22</td>
+<td>35</td>
 <td>Adler_TestCases_Prod.Home@4e04a765</td></tr>
 <tr>
 <td title='Adler_TestCases_Prod.News.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Adler_TestCases_Prod.News</td>
 <td></td>
-<td>130</td>
+<td>205</td>
 <td>Adler_TestCases_Prod.News@17f6480</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.Partner_With_US.partner()'><b>partner</b><br>Test class: Warranty_Test_Case_Prod.Partner_With_US</td>
 <td></td>
-<td>18</td>
+<td>13</td>
 <td>Warranty_Test_Case_Prod.Partner_With_US@35f983a6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AUW_Global_Test_Cases_Prod.Home_More.More_button()'><b>More_button</b><br>Test class: AUW_Global_Test_Cases_Prod.Home_More</td>
+<td></td>
+<td>0</td>
+<td>AUW_Global_Test_Cases_Prod.Home_More@79b4d0f</td></tr>
 </table><p>
 </body>
 </html>

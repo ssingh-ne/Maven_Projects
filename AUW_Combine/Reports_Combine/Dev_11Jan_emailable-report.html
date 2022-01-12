@@ -1,0 +1,553 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Chrome_Developmet</td><td class="numi">59</td><td class="numi">59</td><td class="numi">0</td><td class="numi_attn">6</td><td class="numi">1,572.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Firefox_Developmet</td><td class="numi">54</td><td class="numi">54</td><td class="numi">0</td><td class="numi">0</td><td class="numi">1,411.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">113</td><td class="numi">113</td><td class="numi">0</td><td class="numi_attn">6</td><td class="numi">2,983.2 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Chrome_Developmet &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Warranty_Test_Case_Dev.HomePage_Testcase</td><td><a href="#m1"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1641900218831</td><td class="numi">243862</td></tr>
+<tr class="failedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m2"><b>Partner1</b>  </a></td><td class="numi">1</td><td>1641900238094</td><td class="numi">45662</td></tr>
+<tr class="failedodd"><td rowspan="2">Solution_one_Development.Side_head_sample</td><td><a href="#m3"><b>Side_Heading_Four</b>  </a></td><td class="numi">1</td><td>1641900434981</td><td class="numi">30044</td></tr><tr class="failedodd"><td><a href="#m4"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1641900478020</td><td class="numi">35124</td></tr>
+<tr class="failedeven"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m5"><b>Footer_Facebook</b>  </a></td><td class="numi">1</td><td>1641900482555</td><td class="numi">45515</td></tr>
+<tr class="failedodd"><td rowspan="1">Solution_one_Development.Side_head_sample</td><td><a href="#m6"><b>Side_Heading_Three</b>  </a></td><td class="numi">1</td><td>1641900521564</td><td class="numi">37508</td></tr>
+<tr><th colspan="4">Chrome_Developmet &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_Footer_Development</td><td><a href="#m7"><b>AUW_Footer</b>  </a></td><td class="numi">1</td><td>1641899338817</td><td class="numi">104232</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_header_web_Development</td><td><a href="#m8"><b>main</b>  </a></td><td class="numi">1</td><td>1641899339178</td><td class="numi">50898</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_AboutUS</td><td><a href="#m9"><b>AboutUS</b>  </a></td><td class="numi">1</td><td>1641899339180</td><td class="numi">97050</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_Experience</td><td><a href="#m10"><b>main</b>  </a></td><td class="numi">1</td><td>1641899339233</td><td class="numi">366112</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_PPP</td><td><a href="#m11"><b>main</b>  </a></td><td class="numi">1</td><td>1641899414472</td><td class="numi">21450</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_CallUpdate</td><td><a href="#m12"><b>main</b>  </a></td><td class="numi">1</td><td>1641899447055</td><td class="numi">70304</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_NJ_Update</td><td><a href="#m13"><b>main</b>  </a></td><td class="numi">1</td><td>1641899450761</td><td class="numi">67787</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_Intelligence_TC</td><td><a href="#m14"><b>main</b>  </a></td><td class="numi">1</td><td>1641899457090</td><td class="numi">113648</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.Practices_AgentsBrokers</td><td><a href="#m15"><b>Practices_AgentsBrokers</b>  </a></td><td class="numi">1</td><td>1641899528231</td><td class="numi">100000</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.Practices_CustomerSeekingCoverage</td><td><a href="#m16"><b>Practices_CustomerSeekingCoverage</b>  </a></td><td class="numi">1</td><td>1641899528260</td><td class="numi">309961</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Global_Test_Cases_Development.LearnMore_TC</td><td><a href="#m17"><b>LearnMore</b>  </a></td><td class="numi">1</td><td>1641899578198</td><td class="numi">21230</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Global_Test_Cases_Development.Home_Page_TC</td><td><a href="#m18"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1641899612793</td><td class="numi">26825</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Global_Test_Cases_Development.Home_More</td><td><a href="#m19"><b>More_button</b>  </a></td><td class="numi">1</td><td>1641899646269</td><td class="numi">74684</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Development.FAQ</td><td><a href="#m20"><b>Siheading_2</b>  </a></td><td class="numi">1</td><td>1641899648147</td><td class="numi">25959</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Development.Footer</td><td><a href="#m21"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641899684205</td><td class="numi">68534</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Development.Side_Heading_One</td><td><a href="#m22"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1641899718354</td><td class="numi">31566</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Development.Pharmacy_search</td><td><a href="#m23"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1641899733240</td><td class="numi">128659</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Development.Side_Heading_Two</td><td><a href="#m24"><b>Siheading_2</b>  </a></td><td class="numi">1</td><td>1641899759791</td><td class="numi">16692</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Development.Change_language</td><td><a href="#m25"><b>Change_Language</b>  </a></td><td class="numi">1</td><td>1641899762118</td><td class="numi">4273</td></tr>
+<tr class="passedeven"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.Contact_US_TC</td><td><a href="#m26"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641899772585</td><td class="numi">20207</td></tr>
+<tr class="passedodd"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.About_Us</td><td><a href="#m27"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641899783086</td><td class="numi">13708</td></tr>
+<tr class="passedeven"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.What_We_offer</td><td><a href="#m28"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641899802301</td><td class="numi">38186</td></tr>
+<tr class="passedodd"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.Home_TC</td><td><a href="#m29"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641899805448</td><td class="numi">16762</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev</td><td><a href="#m30"><b>ContactUs_Page</b>  </a></td><td class="numi">1</td><td>1641899829753</td><td class="numi">25965</td></tr>
+<tr class="passedodd"><td rowspan="1">AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev</td><td><a href="#m31"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1641899845283</td><td class="numi">38354</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev</td><td><a href="#m32"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641899856503</td><td class="numi">333838</td></tr>
+<tr class="passedodd"><td rowspan="1">AFL_Test_Cases_Dev.Footer_TC_dev</td><td><a href="#m33"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641899866226</td><td class="numi">87619</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.HomePage_TC_dev</td><td><a href="#m34"><b>Home_Page</b>  </a></td><td class="numi">1</td><td>1641899884676</td><td class="numi">141273</td></tr>
+<tr class="passedodd"><td rowspan="1">Adler_TestCases_Development.Home</td><td><a href="#m35"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1641899900321</td><td class="numi">22228</td></tr>
+<tr class="passedeven"><td rowspan="1">Adler_TestCases_Development.News</td><td><a href="#m36"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1641899931169</td><td class="numi">138303</td></tr>
+<tr class="passedodd"><td rowspan="1">Careers_Test_case_Development.Side_Heading1</td><td><a href="#m37"><b>Side_Heading</b>  </a></td><td class="numi">1</td><td>1641899963357</td><td class="numi">153632</td></tr>
+<tr class="passedeven"><td rowspan="1">Careers_Test_case_Development.Footer</td><td><a href="#m38"><b>AUW_Footer</b>  </a></td><td class="numi">1</td><td>1641900034445</td><td class="numi">88556</td></tr>
+<tr class="passedodd"><td rowspan="1">Pinnacle_Test_Cases_Development.WatsNew</td><td><a href="#m39"><b>WhatsNew</b>  </a></td><td class="numi">1</td><td>1641900104242</td><td class="numi">164144</td></tr>
+<tr class="passedeven"><td rowspan="1">Pinnacle_Test_Cases_Development.HomePage_TC</td><td><a href="#m40"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1641900132333</td><td class="numi">52090</td></tr>
+<tr class="passedodd"><td rowspan="3">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m41"><b>HomePage_Header_ContactUS_btn</b>  </a></td><td class="numi">1</td><td>1641900135672</td><td class="numi">17827</td></tr><tr class="passedodd"><td><a href="#m42"><b>HomePage_Header_Our_approach</b>  </a></td><td class="numi">1</td><td>1641900164749</td><td class="numi">11846</td></tr><tr class="passedodd"><td><a href="#m43"><b>HomePage_Header_What_weDo</b>  </a></td><td class="numi">1</td><td>1641900186216</td><td class="numi">7961</td></tr>
+<tr class="passedeven"><td rowspan="1">Credit_Global_Test_Cases_Dev.Forgot_Password</td><td><a href="#m44"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1641900192901</td><td class="numi">11855</td></tr>
+<tr class="passedodd"><td rowspan="1">Credit_Global_Test_Cases_Dev.What_we_Do_TC</td><td><a href="#m45"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1641900197888</td><td class="numi">33378</td></tr>
+<tr class="passedeven"><td rowspan="1">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m46"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1641900205616</td><td class="numi">12764</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Contact_US</td><td><a href="#m47"><b>ContactUS</b>  </a></td><td class="numi">1</td><td>1641900225577</td><td class="numi">74051</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Partner_With_US</td><td><a href="#m48"><b>partner</b>  </a></td><td class="numi">1</td><td>1641900282151</td><td class="numi">13732</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m49"><b>Partner2</b>  </a></td><td class="numi">1</td><td>1641900293625</td><td class="numi">80275</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.About_US</td><td><a href="#m50"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1641900308165</td><td class="numi">36820</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.NewsEvents</td><td><a href="#m51"><b>NewsEvents</b>  </a></td><td class="numi">1</td><td>1641900324316</td><td class="numi">142631</td></tr>
+<tr class="passedeven"><td rowspan="1">Solution_one_Development.Side_head_sample</td><td><a href="#m52"><b>Side_Heading_Five</b>  </a></td><td class="numi">1</td><td>1641900354147</td><td class="numi">73792</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m53"><b>Partner3</b>  </a></td><td class="numi">1</td><td>1641900381316</td><td class="numi">88020</td></tr>
+<tr class="passedeven"><td rowspan="1">Solution_one_Development.Footer_Develop</td><td><a href="#m54"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641900472137</td><td class="numi">78991</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m55"><b>Partner4</b>  </a></td><td class="numi">1</td><td>1641900478807</td><td class="numi">93863</td></tr>
+<tr class="passedeven"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m56"><b>Footer_Instagram</b>  </a></td><td class="numi">1</td><td>1641900539147</td><td class="numi">26690</td></tr>
+<tr class="passedodd"><td rowspan="1">Solution_one_Development.Side_head_sample</td><td><a href="#m57"><b>Side_Heading_Two</b>  </a></td><td class="numi">1</td><td>1641900570821</td><td class="numi">83855</td></tr>
+<tr class="passedeven"><td rowspan="1">JumboGC_Test_case_Devlopment.Side_Heading</td><td><a href="#m58"><b>Side_heading</b>  </a></td><td class="numi">1</td><td>1641900575510</td><td class="numi">192317</td></tr>
+<tr class="passedodd"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m59"><b>Footer_Privacy</b>  </a></td><td class="numi">1</td><td>1641900581384</td><td class="numi">54307</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m60"><b>Partner5</b>  </a></td><td class="numi">1</td><td>1641900582915</td><td class="numi">116279</td></tr>
+<tr class="passedodd"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m61"><b>Footer_linkedIN</b>  </a></td><td class="numi">1</td><td>1641900665797</td><td class="numi">29025</td></tr>
+<tr class="passedeven"><td rowspan="1">Tradewel_Test_Cases_Development.About_US</td><td><a href="#m62"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1641900670224</td><td class="numi">43750</td></tr>
+<tr class="passedodd"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m63"><b>Header_Login</b>  </a></td><td class="numi">1</td><td>1641900708647</td><td class="numi">20945</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m64"><b>Partner6</b>  </a></td><td class="numi">1</td><td>1641900710919</td><td class="numi">90015</td></tr>
+<tr class="passedodd"><td rowspan="1">Tradewel_Test_Cases_Development.comprehensive_Protection</td><td><a href="#m65"><b>Comprehensive</b>  </a></td><td class="numi">1</td><td>1641900724554</td><td class="numi">167705</td></tr>
+<tr><th colspan="4">Firefox_Developmet &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_header_web_Development</td><td><a href="#m66"><b>main</b>  </a></td><td class="numi">1</td><td>1641900913365</td><td class="numi">54884</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_AboutUS</td><td><a href="#m67"><b>AboutUS</b>  </a></td><td class="numi">1</td><td>1641900913505</td><td class="numi">74136</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_Experience</td><td><a href="#m68"><b>main</b>  </a></td><td class="numi">1</td><td>1641900914813</td><td class="numi">324446</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_Footer_Development</td><td><a href="#m69"><b>AUW_Footer</b>  </a></td><td class="numi">1</td><td>1641900917948</td><td class="numi">78056</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_PPP</td><td><a href="#m70"><b>main</b>  </a></td><td class="numi">1</td><td>1641900984495</td><td class="numi">20259</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_CallUpdate</td><td><a href="#m71"><b>main</b>  </a></td><td class="numi">1</td><td>1641900999277</td><td class="numi">47926</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_NJ_Update</td><td><a href="#m72"><b>main</b>  </a></td><td class="numi">1</td><td>1641901009818</td><td class="numi">43090</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_Intelligence_TC</td><td><a href="#m73"><b>main</b>  </a></td><td class="numi">1</td><td>1641901016441</td><td class="numi">93277</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.Practices_AgentsBrokers</td><td><a href="#m74"><b>Practices_AgentsBrokers</b>  </a></td><td class="numi">1</td><td>1641901058782</td><td class="numi">67324</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.Practices_CustomerSeekingCoverage</td><td><a href="#m75"><b>Practices_CustomerSeekingCoverage</b>  </a></td><td class="numi">1</td><td>1641901072265</td><td class="numi">247583</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Global_Test_Cases_Development.LearnMore_TC</td><td><a href="#m76"><b>LearnMore</b>  </a></td><td class="numi">1</td><td>1641901128566</td><td class="numi">17301</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Global_Test_Cases_Development.Home_Page_TC</td><td><a href="#m77"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1641901139935</td><td class="numi">13963</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Development.Footer</td><td><a href="#m78"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641901161747</td><td class="numi">59891</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Development.Pharmacy_search</td><td><a href="#m79"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1641901171164</td><td class="numi">123638</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Development.Change_language</td><td><a href="#m80"><b>Change_Language</b>  </a></td><td class="numi">1</td><td>1641901238403</td><td class="numi">5286</td></tr>
+<tr class="passedeven"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.Contact_US_TC</td><td><a href="#m81"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641901257544</td><td class="numi">18342</td></tr>
+<tr class="passedodd"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.About_Us</td><td><a href="#m82"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641901262131</td><td class="numi">11095</td></tr>
+<tr class="passedeven"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.What_We_offer</td><td><a href="#m83"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641901288100</td><td class="numi">42060</td></tr>
+<tr class="passedodd"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.Home_TC</td><td><a href="#m84"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641901293302</td><td class="numi">20302</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev</td><td><a href="#m85"><b>ContactUs_Page</b>  </a></td><td class="numi">1</td><td>1641901310279</td><td class="numi">26661</td></tr>
+<tr class="passedodd"><td rowspan="1">AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev</td><td><a href="#m86"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1641901332257</td><td class="numi">32095</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev</td><td><a href="#m87"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641901338791</td><td class="numi">309629</td></tr>
+<tr class="passedodd"><td rowspan="1">AFL_Test_Cases_Dev.HomePage_TC_dev</td><td><a href="#m88"><b>Home_Page</b>  </a></td><td class="numi">1</td><td>1641901356653</td><td class="numi">138287</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.Footer_TC_dev</td><td><a href="#m89"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641901359811</td><td class="numi">79754</td></tr>
+<tr class="passedodd"><td rowspan="1">Adler_TestCases_Development.Home</td><td><a href="#m90"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1641901390705</td><td class="numi">22026</td></tr>
+<tr class="passedeven"><td rowspan="1">Adler_TestCases_Development.News</td><td><a href="#m91"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1641901433139</td><td class="numi">137979</td></tr>
+<tr class="passedodd"><td rowspan="1">Tradewel_Test_Cases_Development.Comprehensive_Protection_FF</td><td><a href="#m92"><b>Comprehensive</b>  </a></td><td class="numi">1</td><td>1641901456923</td><td class="numi">41490</td></tr>
+<tr class="passedeven"><td rowspan="1">Tradewel_Test_Cases_Development.About_US</td><td><a href="#m93"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1641901511563</td><td class="numi">36601</td></tr>
+<tr class="passedodd"><td rowspan="1">Careers_Test_case_Development.Footer</td><td><a href="#m94"><b>AUW_Footer</b>  </a></td><td class="numi">1</td><td>1641901516855</td><td class="numi">75186</td></tr>
+<tr class="passedeven"><td rowspan="1">Pinnacle_Test_Cases_Development.WatsNew</td><td><a href="#m95"><b>WhatsNew</b>  </a></td><td class="numi">1</td><td>1641901573132</td><td class="numi">100683</td></tr>
+<tr class="passedodd"><td rowspan="1">Pinnacle_Test_Cases_Development.HomePage_TC</td><td><a href="#m96"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1641901589797</td><td class="numi">48429</td></tr>
+<tr class="passedeven"><td rowspan="1">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m97"><b>HomePage_Header_ContactUS_btn</b>  </a></td><td class="numi">1</td><td>1641901615201</td><td class="numi">26884</td></tr>
+<tr class="passedodd"><td rowspan="1">Credit_Global_Test_Cases_Dev.Forgot_Password</td><td><a href="#m98"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1641901656659</td><td class="numi">21017</td></tr>
+<tr class="passedeven"><td rowspan="1">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m99"><b>HomePage_Header_Our_approach</b>  </a></td><td class="numi">1</td><td>1641901666663</td><td class="numi">21665</td></tr>
+<tr class="passedodd"><td rowspan="1">Credit_Global_Test_Cases_Dev.What_we_Do_TC</td><td><a href="#m100"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1641901676099</td><td class="numi">39759</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.HomePage_Testcase</td><td><a href="#m101"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1641901692703</td><td class="numi">280931</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Contact_US</td><td><a href="#m102"><b>ContactUS</b>  </a></td><td class="numi">1</td><td>1641901696997</td><td class="numi">48418</td></tr>
+<tr class="passedeven"><td rowspan="1">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m103"><b>HomePage_Header_What_weDo</b>  </a></td><td class="numi">1</td><td>1641901723517</td><td class="numi">17647</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m104"><b>Partner1</b>  </a></td><td class="numi">1</td><td>1641901744512</td><td class="numi">97750</td></tr>
+<tr class="passedeven"><td rowspan="1">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m105"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1641901766807</td><td class="numi">18239</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Partner_With_US</td><td><a href="#m106"><b>partner</b>  </a></td><td class="numi">1</td><td>1641901774567</td><td class="numi">11979</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.About_US</td><td><a href="#m107"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1641901818032</td><td class="numi">32443</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.NewsEvents</td><td><a href="#m108"><b>NewsEvents</b>  </a></td><td class="numi">1</td><td>1641901821765</td><td class="numi">129032</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m109"><b>Partner2</b>  </a></td><td class="numi">1</td><td>1641901856104</td><td class="numi">80758</td></tr>
+<tr class="passedodd"><td rowspan="1">Solution_one_Development.Footer_Develop</td><td><a href="#m110"><b>Footer</b>  </a></td><td class="numi">1</td><td>1641901878950</td><td class="numi">59433</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m111"><b>Partner3</b>  </a></td><td class="numi">1</td><td>1641901951717</td><td class="numi">73945</td></tr>
+<tr class="passedodd"><td rowspan="2">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m112"><b>Footer_Facebook</b>  </a></td><td class="numi">1</td><td>1641901961180</td><td class="numi">25701</td></tr><tr class="passedodd"><td><a href="#m113"><b>Footer_Instagram</b>  </a></td><td class="numi">1</td><td>1641902000121</td><td class="numi">25607</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m114"><b>Partner4</b>  </a></td><td class="numi">1</td><td>1641902037395</td><td class="numi">92602</td></tr>
+<tr class="passedodd"><td rowspan="3">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m115"><b>Footer_Privacy</b>  </a></td><td class="numi">1</td><td>1641902039748</td><td class="numi">36034</td></tr><tr class="passedodd"><td><a href="#m116"><b>Footer_linkedIN</b>  </a></td><td class="numi">1</td><td>1641902087883</td><td class="numi">26128</td></tr><tr class="passedodd"><td><a href="#m117"><b>Header_Login</b>  </a></td><td class="numi">1</td><td>1641902128568</td><td class="numi">20329</td></tr>
+<tr class="passedeven"><td rowspan="2">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m118"><b>Partner5</b>  </a></td><td class="numi">1</td><td>1641902139051</td><td class="numi">65980</td></tr><tr class="passedeven"><td><a href="#m119"><b>Partner6</b>  </a></td><td class="numi">1</td><td>1641902212676</td><td class="numi">91600</td></tr>
+</table>
+<h1>Chrome_Developmet</h1>
+<h2 id="m1">Solution_one_Development.Side_head_sample:Side_Heading_Four</h2>
+<div style="padding-left:3em">
+<p>element click intercepted: Element &lt;ng-transclude&gt;...&lt;/ng-transclude&gt; is not clickable at point (100, 140). Other element would receive the click: &lt;div layout=&quot;&quot; layout-align=&quot;center center&quot; layout-fill=&quot;&quot; class=&quot;layout-fill layout-align-center-center layout-row&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=97.0.4692.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5780f907153efaed3b89d51c4794a77c</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at Solution_one_Pages.Amplience.solution_Content(Amplience.java:111)
+<br/>at Solution_one_Development.Side_head_sample.Side_Heading_Four(Side_head_sample.java:135)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Solution_one_Development.Side_head_sample:Side_Heading_Three</h2>
+<div style="padding-left:3em">
+<p>element click intercepted: Element &lt;ng-transclude&gt;...&lt;/ng-transclude&gt; is not clickable at point (100, 140). Other element would receive the click: &lt;div layout=&quot;&quot; layout-align=&quot;center center&quot; layout-fill=&quot;&quot; class=&quot;layout-fill layout-align-center-center layout-row&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=97.0.4692.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25bdf849d6524443a25c05f03a2f8bb8</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at Solution_one_Pages.Amplience.solution_Content(Amplience.java:111)
+<br/>at Solution_one_Development.Side_head_sample.Side_Heading_Three(Side_head_sample.java:103)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Solution_one_Development.Side_head_sample:Side_Heading_One</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@id=&apos;sticky-nav&apos;]/ul/li)[1]&quot;}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f4fcc99bb7716d1f694e69495cf8500f
+*** Element info: {Using=xpath, value=(//*[@id=&apos;sticky-nav&apos;]/ul/li)[1]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at Solution_one_Pages.Home.Side_Heading_one(Home.java:243)
+<br/>at Solution_one_Development.Side_head_sample.Side_Heading_One(Side_head_sample.java:30)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Warranty_Test_Case_Dev.Our_Partner:Partner1</h2>
+<div style="padding-left:3em">
+<p>element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 423c655e3592f193e3b52c329835f6d6</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at Warranty_Page.Our_Partners_page.Partner1(Our_Partners_page.java:60)
+<br/>at Warranty_Test_Case_Dev.Our_Partner.Partner1(Our_Partner.java:17)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Warranty_Test_Case_Dev.HomePage_Testcase:Home_page</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/our-products/oem-and-distributor-programs&apos;]/div/img&quot;}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3fc44d371fb9ca0588466847a27fcab0
+*** Element info: {Using=xpath, value=//a[@href=&apos;/our-products/oem-and-distributor-programs&apos;]/div/img}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at Warranty_Page.Home_Page.Our_products_section5(Home_Page.java:447)
+<br/>at Warranty_Test_Case_Dev.HomePage_Testcase.Home_page(HomePage_Testcase.java:23)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">JumboGC_Test_case_Devlopment.Header_footer:Footer_Facebook</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@alt=&apos;facebook&apos;]&quot;}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9661c1e0293b8970f4705e30e403605a
+*** Element info: {Using=xpath, value=//*[@alt=&apos;facebook&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at JumboGC_Pages.Home.Facebook(Home.java:174)
+<br/>at JumboGC_Test_case_Devlopment.Header_footer.Footer_Facebook(Header_footer.java:28)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">JumboGC_Test_case_Devlopment.Header_footer:Footer_linkedIN</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">Speciality_underwriters_Test_Case_Dev.What_We_offer:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">Tradewel_Test_Cases_Development.comprehensive_Protection:Comprehensive</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">Speciality_underwriters_Test_Case_Dev.About_Us:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">Promesa_Test_Case_Development.Change_language:Change_Language</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">Promesa_Test_Case_Development.Pharmacy_search:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">AFL_Test_Cases_Dev.HomePage_TC_dev:Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">Solution_one_Development.Side_head_sample:Side_Heading_Two</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">AUW_Test_Case_dev.AUW_AboutUS:AboutUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">Promesa_Test_Case_Development.FAQ:Siheading_2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">AUW_Test_Case_dev.AUW_NJ_Update:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">Warranty_Test_Case_Dev.Our_Partner:Partner2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">AUW_Global_Test_Cases_Development.Home_Page_TC:HomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_What_weDo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">AUW_Test_Case_dev.AUW_Intelligence_TC:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">Promesa_Test_Case_Development.Side_Heading_One:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">Tradewel_Test_Cases_Development.About_US:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">Warranty_Test_Case_Dev.About_US:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">AUW_Test_Case_dev.Practices_AgentsBrokers:Practices_AgentsBrokers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">JumboGC_Test_case_Devlopment.Header_footer:Header_Login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">Pinnacle_Test_Cases_Development.HomePage_TC:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">Credit_Global_Test_Cases_Dev.Forgot_Password:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">Careers_Test_case_Development.Side_Heading1:Side_Heading</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">Warranty_Test_Case_Dev.Our_Partner:Partner4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">JumboGC_Test_case_Devlopment.Side_Heading:Side_heading</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">Careers_Test_case_Development.Footer:AUW_Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">Adler_TestCases_Development.News:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">AUW_Test_Case_dev.Practices_CustomerSeekingCoverage:Practices_CustomerSeekingCoverage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">AUW_Global_Test_Cases_Development.Home_More:More_button</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_ContactUS_btn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">AUW_Test_Case_dev.AUW_Footer_Development:AUW_Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">AFL_Test_Cases_Dev.Footer_TC_dev:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">Solution_one_Development.Footer_Develop:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">AUW_Test_Case_dev.AUW_header_web_Development:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">AUW_Test_Case_dev.AUW_Experience:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">Warranty_Test_Case_Dev.Contact_US:ContactUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">Promesa_Test_Case_Development.Footer:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">Warranty_Test_Case_Dev.Partner_With_US:partner</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">Adler_TestCases_Development.Home:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">Warranty_Test_Case_Dev.Our_Partner:Partner6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_Our_approach</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">Credit_Global_Test_Cases_Dev.What_we_Do_TC:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">AUW_Global_Test_Cases_Development.LearnMore_TC:LearnMore</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">AUW_Test_Case_dev.AUW_PPP:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">Warranty_Test_Case_Dev.Our_Partner:Partner3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">Pinnacle_Test_Cases_Development.WatsNew:WhatsNew</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev:ContactUs_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">JumboGC_Test_case_Devlopment.Header_footer:Footer_Privacy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">Speciality_underwriters_Test_Case_Dev.Contact_US_TC:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59">JumboGC_Test_case_Devlopment.Header_footer:Footer_Instagram</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m60">Warranty_Test_Case_Dev.NewsEvents:NewsEvents</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m61">Solution_one_Development.Side_head_sample:Side_Heading_Five</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m62">Promesa_Test_Case_Development.Side_Heading_Two:Siheading_2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m63">AUW_Test_Case_dev.AUW_CallUpdate:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m64">Warranty_Test_Case_Dev.Our_Partner:Partner5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m65">Speciality_underwriters_Test_Case_Dev.Home_TC:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Firefox_Developmet</h1>
+<h2 id="m66">AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m67">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_Our_approach</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m68">Warranty_Test_Case_Dev.NewsEvents:NewsEvents</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m69">Warranty_Test_Case_Dev.Our_Partner:Partner2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m70">Solution_one_Development.Footer_Develop:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m71">AUW_Test_Case_dev.AUW_NJ_Update:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m72">AUW_Test_Case_dev.AUW_Experience:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m73">Warranty_Test_Case_Dev.Our_Partner:Partner1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m74">AUW_Test_Case_dev.AUW_Footer_Development:AUW_Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m75">Promesa_Test_Case_Development.Change_language:Change_Language</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m76">Warranty_Test_Case_Dev.Our_Partner:Partner4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m77">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_ContactUS_btn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m78">AUW_Test_Case_dev.AUW_Intelligence_TC:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m79">AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev:ContactUs_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m80">Adler_TestCases_Development.Home:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m81">Credit_Global_Test_Cases_Dev.What_we_Do_TC:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m82">Warranty_Test_Case_Dev.Our_Partner:Partner5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m83">Speciality_underwriters_Test_Case_Dev.About_Us:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m84">JumboGC_Test_case_Devlopment.Header_footer:Header_Login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m85">AUW_Test_Case_dev.AUW_header_web_Development:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m86">Warranty_Test_Case_Dev.Partner_With_US:partner</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m87">Tradewel_Test_Cases_Development.About_US:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m88">JumboGC_Test_case_Devlopment.Header_footer:Footer_Facebook</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m89">Pinnacle_Test_Cases_Development.WatsNew:WhatsNew</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m90">AFL_Test_Cases_Dev.HomePage_TC_dev:Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m91">AUW_Test_Case_dev.Practices_AgentsBrokers:Practices_AgentsBrokers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m92">Promesa_Test_Case_Development.Pharmacy_search:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m93">AUW_Test_Case_dev.AUW_AboutUS:AboutUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m94">AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m95">Warranty_Test_Case_Dev.Contact_US:ContactUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m96">JumboGC_Test_case_Devlopment.Header_footer:Footer_linkedIN</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m97">Tradewel_Test_Cases_Development.Comprehensive_Protection_FF:Comprehensive</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m98">Credit_Global_Test_Cases_Dev.Forgot_Password:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m99">Speciality_underwriters_Test_Case_Dev.What_We_offer:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m100">Warranty_Test_Case_Dev.Our_Partner:Partner3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m101">Speciality_underwriters_Test_Case_Dev.Home_TC:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m102">AFL_Test_Cases_Dev.Footer_TC_dev:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m103">AUW_Global_Test_Cases_Development.LearnMore_TC:LearnMore</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m104">Pinnacle_Test_Cases_Development.HomePage_TC:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m105">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m106">Careers_Test_case_Development.Footer:AUW_Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m107">AUW_Test_Case_dev.AUW_CallUpdate:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m108">AUW_Test_Case_dev.Practices_CustomerSeekingCoverage:Practices_CustomerSeekingCoverage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m109">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_What_weDo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m110">Warranty_Test_Case_Dev.HomePage_Testcase:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m111">AUW_Global_Test_Cases_Development.Home_Page_TC:HomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m112">JumboGC_Test_case_Devlopment.Header_footer:Footer_Instagram</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m113">Promesa_Test_Case_Development.Footer:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m114">Warranty_Test_Case_Dev.About_US:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m115">Adler_TestCases_Development.News:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m116">JumboGC_Test_case_Devlopment.Header_footer:Footer_Privacy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m117">AUW_Test_Case_dev.AUW_PPP:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m118">Speciality_underwriters_Test_Case_Dev.Contact_US_TC:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m119">Warranty_Test_Case_Dev.Our_Partner:Partner6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

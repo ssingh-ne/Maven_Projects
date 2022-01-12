@@ -84,7 +84,7 @@ WebDriver driver;
  		wait1.until(ExpectedConditions.visibilityOfElementLocated(global_slots));
  		 WebElement Element = driver.findElement(global_slots);
 	 	 js.executeScript("arguments[0].scrollIntoView();", Element);
-	 	 Thread.sleep(3000);
+	 	 Thread.sleep(5000);
     	driver.findElement(global_slots).click();
     	
     }

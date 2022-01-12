@@ -23,7 +23,7 @@ public class Base_class {
     
 	@Parameters ("browser")
 	 @BeforeMethod
-  /*public void setupApplication()
+/*  public void setupApplication()
 		{
 			
 			Reporter.log("=====Chrome Browser Session Started=====", true);
@@ -113,4 +113,4 @@ public class Base_class {
 			
 		}
 
-	}
+}
