@@ -101,7 +101,6 @@
       </class> <!-- AUW_Global_Test_Cases_Prod.LearnMore_TC -->
       <class name="Warranty_Test_Case_Prod.Our_Partner">
         <methods>
-          <include name="Partner2"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
@@ -140,6 +139,7 @@
       </class> <!-- AUW_Test_case_prod.AUW_CallUpdate -->
       <class name="Solution_one_Prod.Side_Heading_Production">
         <methods>
+          <include name="Side_Heading_Two"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
         </methods>
@@ -194,6 +194,7 @@
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="AUW_Footer"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
@@ -257,7 +258,7 @@
       <class name="AUW_Global_Test_Cases_Prod.Home_More">
         <methods>
           <include name="setupApplication"/>
-          <include name="More_button"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- AUW_Global_Test_Cases_Prod.Home_More -->
       <class name="Credit_Global_Test_Cases_Prod.Home_TC">
@@ -316,6 +317,7 @@
       </class> <!-- Warranty_Test_Case_Prod.HomePage_Testcase -->
       <class name="Promesa_Test_Case_Prod.Pharmacy_search">
         <methods>
+          <include name="Side_Heading_One"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
           <include name="setupApplication"/>
@@ -589,7 +591,6 @@
       </class> <!-- AUW_Test_case_prod.AUW_NJ_Update -->
       <class name="Solution_one_Prod.Footer_Production">
         <methods>
-          <include name="Footer"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
@@ -632,6 +633,7 @@
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="Practices_CustomerSeekingCoverage"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
@@ -639,6 +641,7 @@
       <class name="AUW_Global_Test_Cases_Prod.Home_More">
         <methods>
           <include name="setupApplication"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- AUW_Global_Test_Cases_Prod.Home_More -->
       <class name="Credit_Global_Test_Cases_Prod.Home_TC">

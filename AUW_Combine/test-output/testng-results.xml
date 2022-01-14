@@ -1,133 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[=====FF Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====FF Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====FF Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====FF Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====FF Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====FF Browser Session Started=====]]>
+      <![CDATA[=====Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="558747" started-at="2022-01-12T16:36:16Z" finished-at="2022-01-12T16:45:34Z">
+  <suite name="Default suite" duration-ms="244850" started-at="2022-01-14T14:40:45Z" finished-at="2022-01-14T14:44:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="558747" started-at="2022-01-12T16:36:16Z" finished-at="2022-01-12T16:45:34Z">
-      <class name="Warranty_Test_Case_Dev.Our_Partner">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="setupApplication" is-config="true" duration-ms="26191" started-at="2022-01-12T22:06:16Z" finished-at="2022-01-12T22:06:42Z">
+    <test name="Default test" duration-ms="244850" started-at="2022-01-14T14:40:45Z" finished-at="2022-01-14T14:44:50Z">
+      <class name="AUW_Test_case_prod.Practices_CustomerSeekingCoverage">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:AUW_Test_case_prod.Practices_CustomerSeekingCoverage@2aafb23c]" name="setupApplication" is-config="true" duration-ms="19755" started-at="2022-01-14T20:10:45Z" finished-at="2022-01-14T20:11:05Z">
           <reporter-output>
             <line>
-              <![CDATA[=====FF Browser Session Started=====]]>
+              <![CDATA[=====Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Partner1()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="Partner1" duration-ms="86533" started-at="2022-01-12T22:06:42Z" finished-at="2022-01-12T22:08:08Z">
+        <test-method status="PASS" signature="Practices_CustomerSeekingCoverage()[pri:0, instance:AUW_Test_case_prod.Practices_CustomerSeekingCoverage@2aafb23c]" name="Practices_CustomerSeekingCoverage" duration-ms="225072" started-at="2022-01-14T20:11:05Z" finished-at="2022-01-14T20:14:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Partner1 -->
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="setupApplication" is-config="true" duration-ms="12808" started-at="2022-01-12T22:08:08Z" finished-at="2022-01-12T22:08:21Z">
-          <reporter-output>
-            <line>
-              <![CDATA[=====FF Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Partner2()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="Partner2" duration-ms="72303" started-at="2022-01-12T22:08:21Z" finished-at="2022-01-12T22:09:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Partner2 -->
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="setupApplication" is-config="true" duration-ms="23989" started-at="2022-01-12T22:09:33Z" finished-at="2022-01-12T22:09:57Z">
-          <reporter-output>
-            <line>
-              <![CDATA[=====FF Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Partner3()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="Partner3" duration-ms="70115" started-at="2022-01-12T22:09:57Z" finished-at="2022-01-12T22:11:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Partner3 -->
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="setupApplication" is-config="true" duration-ms="25460" started-at="2022-01-12T22:11:07Z" finished-at="2022-01-12T22:11:33Z">
-          <reporter-output>
-            <line>
-              <![CDATA[=====FF Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Partner4()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="Partner4" duration-ms="72193" started-at="2022-01-12T22:11:33Z" finished-at="2022-01-12T22:12:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Partner4 -->
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="setupApplication" is-config="true" duration-ms="9839" started-at="2022-01-12T22:12:45Z" finished-at="2022-01-12T22:12:55Z">
-          <reporter-output>
-            <line>
-              <![CDATA[=====FF Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Partner5()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="Partner5" duration-ms="70355" started-at="2022-01-12T22:12:55Z" finished-at="2022-01-12T22:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Partner5 -->
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="setupApplication" is-config="true" duration-ms="20139" started-at="2022-01-12T22:14:05Z" finished-at="2022-01-12T22:14:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[=====FF Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Partner6()[pri:0, instance:Warranty_Test_Case_Dev.Our_Partner@2aafb23c]" name="Partner6" duration-ms="68783" started-at="2022-01-12T22:14:25Z" finished-at="2022-01-12T22:15:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Partner6 -->
-      </class> <!-- Warranty_Test_Case_Dev.Our_Partner -->
+        </test-method> <!-- Practices_CustomerSeekingCoverage -->
+      </class> <!-- AUW_Test_case_prod.Practices_CustomerSeekingCoverage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

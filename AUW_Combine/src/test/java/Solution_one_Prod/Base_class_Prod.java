@@ -29,12 +29,12 @@ public class Base_class_Prod {
 			
 			Reporter.log("=====Chrome Browser Session Started=====", true);
 			 
-			// System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
-	          //      driver=new ChromeDriver();
+			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
+	          driver=new ChromeDriver();
 			
 			
-			System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
-		    driver=new FirefoxDriver();
+			//System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+		    //driver=new FirefoxDriver();
 			
 			driver.manage().window().maximize();
 			
@@ -43,8 +43,8 @@ public class Base_class_Prod {
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		}
-*/
+		}*/
+
  public void setupApplication (String browser)
 	{
 	if(browser.equalsIgnoreCase("firefox")) {
