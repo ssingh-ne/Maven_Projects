@@ -513,7 +513,6 @@
       </class> <!-- JumboGC_Test_case_prod.Side_Heading -->
       <class name="AUW_Test_case_prod.AUW_CallUpdate">
         <methods>
-          <include name="main"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
@@ -545,6 +544,7 @@
       <class name="AUW_Test_case_prod.AUW_Heartwood">
         <methods>
           <include name="setupApplication"/>
+          <include name="main"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- AUW_Test_case_prod.AUW_Heartwood -->
@@ -632,6 +632,7 @@
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="Practices_CustomerSeekingCoverage"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>

@@ -28,8 +28,9 @@ WebDriver driver;
     By Production = By.xpath("//button[@am-id='am-masthead-menu__content-button']");
     
     By global_slots = By.xpath("(//*[text()='Applied Global Slots'])[2]");
-    
-    By Global_slot_name = By.xpath("//*[text()=' AUW Global Homepage ']");
+    By global_slots1 = By.xpath("(//*[text()='Applied Global Slots'])[3]");
+    By Homepage = By.xpath("(//*[text()='Homepage'])[1]");
+    By Global_slot_name = By.xpath("//*[text()=' Global Homepage ']");
     By Global_slot_one = By.xpath("//*[@id='/morePress']/div/div[1]/am-collapsible-section-header/span/span");
     
     By Global_edit_one = By.xpath("(//*[@aria-label='Edit content'])[2]");
@@ -93,6 +94,11 @@ WebDriver driver;
     public void Global_slotEdit_one() throws InterruptedException{
     	
     	WebDriverWait wait2 = new WebDriverWait(driver,60);
+    	
+    	driver.findElement(global_slots1).click();
+    	Thread.sleep(2000);
+    	driver.findElement(Homepage).click();
+    	
  		wait2.until(ExpectedConditions.visibilityOfElementLocated(Global_slot_name));
  		Thread.sleep(6000);
  		

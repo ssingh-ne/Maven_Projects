@@ -23,32 +23,16 @@ public class Base_class {
     
 	@Parameters ("browser")
 	 @BeforeMethod
-	 
-/*	public void setupApplication()
+	/* 
+public void setupApplication()
 		{
 			
 		Reporter.log("=====firefox Browser Session Started=====", true);
-		 // System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
-		 System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
-               driver=new FirefoxDriver();
+		 // System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+          //     driver=new FirefoxDriver();
 			
-			driver.manage().window().maximize();
-			
-			driver.get("https://auw.global/");
-			
-			Reporter.log("=====Application Started=====", true);
-			
-			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		}*/
-	 
-	 
-  public void setupApplication()
-		{
-			
-			Reporter.log("=====Chrome Browser Session Started=====", true);
-			 System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
 	                driver=new ChromeDriver();
-			
 			driver.manage().window().maximize();
 			
 			driver.get("https://auw.global/");
@@ -57,6 +41,9 @@ public class Base_class {
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		}
+	 */
+	 
+
 	
 	public void setupApplication (String browser)
 		{
