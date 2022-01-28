@@ -1,33 +1,327 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
     <line>
-      <![CDATA[=====Browser Session Started=====]]>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
     </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="238141" started-at="2022-01-25T14:38:21Z" finished-at="2022-01-25T14:42:19Z">
+  <suite name="Suite" duration-ms="536987" started-at="2022-01-27T15:54:34Z" finished-at="2022-01-27T16:03:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="238141" started-at="2022-01-25T14:38:21Z" finished-at="2022-01-25T14:42:19Z">
-      <class name="AUW_Test_case_prod.Practices_CustomerSeekingCoverage">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:AUW_Test_case_prod.Practices_CustomerSeekingCoverage@2aafb23c]" name="setupApplication" is-config="true" duration-ms="14381" started-at="2022-01-25T20:08:21Z" finished-at="2022-01-25T20:08:35Z">
+    <test name="Solution1_Chrome" duration-ms="472323" started-at="2022-01-27T15:54:34Z" finished-at="2022-01-27T16:02:26Z">
+      <class name="Solution_one_Prod.Side_Heading_Production">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="setupApplication" is-config="true" duration-ms="10360" started-at="2022-01-27T21:24:34Z" finished-at="2022-01-27T21:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[=====Browser Session Started=====]]>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Practices_CustomerSeekingCoverage()[pri:0, instance:AUW_Test_case_prod.Practices_CustomerSeekingCoverage@2aafb23c]" name="Practices_CustomerSeekingCoverage" duration-ms="223735" started-at="2022-01-25T20:08:35Z" finished-at="2022-01-25T20:12:19Z">
+        <test-method status="PASS" signature="Side_Heading_Five()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="Side_Heading_Five" duration-ms="50630" started-at="2022-01-27T21:24:44Z" finished-at="2022-01-27T21:25:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Practices_CustomerSeekingCoverage -->
-      </class> <!-- AUW_Test_case_prod.Practices_CustomerSeekingCoverage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Side_Heading_Five -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="tearDown" is-config="true" duration-ms="1085" started-at="2022-01-27T21:25:35Z" finished-at="2022-01-27T21:25:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Side_Heading_Five status=SUCCESS method=Side_Heading_Production.Side_Heading_Five()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="setupApplication" is-config="true" duration-ms="7820" started-at="2022-01-27T21:25:36Z" finished-at="2022-01-27T21:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Side_Heading_Four()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="Side_Heading_Four" duration-ms="53402" started-at="2022-01-27T21:25:44Z" finished-at="2022-01-27T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Side_Heading_Four -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="tearDown" is-config="true" duration-ms="1241" started-at="2022-01-27T21:26:37Z" finished-at="2022-01-27T21:26:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Side_Heading_Four status=SUCCESS method=Side_Heading_Production.Side_Heading_Four()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="setupApplication" is-config="true" duration-ms="8767" started-at="2022-01-27T21:26:38Z" finished-at="2022-01-27T21:26:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Side_Heading_One()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="Side_Heading_One" duration-ms="47681" started-at="2022-01-27T21:26:47Z" finished-at="2022-01-27T21:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Side_Heading_One -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="tearDown" is-config="true" duration-ms="1068" started-at="2022-01-27T21:27:35Z" finished-at="2022-01-27T21:27:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Side_Heading_One status=SUCCESS method=Side_Heading_Production.Side_Heading_One()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="setupApplication" is-config="true" duration-ms="85316" started-at="2022-01-27T21:27:36Z" finished-at="2022-01-27T21:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Side_Heading_Three()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="Side_Heading_Three" duration-ms="54540" started-at="2022-01-27T21:29:01Z" finished-at="2022-01-27T21:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Side_Heading_Three -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="tearDown" is-config="true" duration-ms="998" started-at="2022-01-27T21:29:56Z" finished-at="2022-01-27T21:29:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Side_Heading_Three status=SUCCESS method=Side_Heading_Production.Side_Heading_Three()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="setupApplication" is-config="true" duration-ms="8966" started-at="2022-01-27T21:29:57Z" finished-at="2022-01-27T21:30:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Side_Heading_Two()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="Side_Heading_Two" duration-ms="70615" started-at="2022-01-27T21:30:06Z" finished-at="2022-01-27T21:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Side_Heading_Two -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f]" name="tearDown" is-config="true" duration-ms="1024" started-at="2022-01-27T21:31:16Z" finished-at="2022-01-27T21:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Side_Heading_Two status=SUCCESS method=Side_Heading_Production.Side_Heading_Two()[pri:0, instance:Solution_one_Prod.Side_Heading_Production@2ff4f00f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Solution_one_Prod.Side_Heading_Production -->
+      <class name="Solution_one_Prod.Footer_Production">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Footer_Production@47f37ef1]" name="setupApplication" is-config="true" duration-ms="8236" started-at="2022-01-27T21:31:17Z" finished-at="2022-01-27T21:31:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Solution_one_Prod.Footer_Production@47f37ef1]" name="Footer" duration-ms="59087" started-at="2022-01-27T21:31:25Z" finished-at="2022-01-27T21:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Footer_Production@47f37ef1]" name="tearDown" is-config="true" duration-ms="1459" started-at="2022-01-27T21:32:24Z" finished-at="2022-01-27T21:32:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_Production.Footer()[pri:0, instance:Solution_one_Prod.Footer_Production@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Solution_one_Prod.Footer_Production -->
+    </test> <!-- Solution1_Chrome -->
+    <test name="Solution1_Firefox" duration-ms="64640" started-at="2022-01-27T16:02:26Z" finished-at="2022-01-27T16:03:31Z">
+      <class name="Solution_one_Prod.Footer_Production">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Solution_one_Prod.Footer_Production@58ceff1]" name="setupApplication" is-config="true" duration-ms="14098" started-at="2022-01-27T21:32:26Z" finished-at="2022-01-27T21:32:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer()[pri:0, instance:Solution_one_Prod.Footer_Production@58ceff1]" name="Footer" duration-ms="47960" started-at="2022-01-27T21:32:40Z" finished-at="2022-01-27T21:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Solution_one_Prod.Footer_Production@58ceff1]" name="tearDown" is-config="true" duration-ms="2580" started-at="2022-01-27T21:33:28Z" finished-at="2022-01-27T21:33:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_Production.Footer()[pri:0, instance:Solution_one_Prod.Footer_Production@58ceff1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Solution_one_Prod.Footer_Production -->
+    </test> <!-- Solution1_Firefox -->
+  </suite> <!-- Suite -->
 </testng-results>

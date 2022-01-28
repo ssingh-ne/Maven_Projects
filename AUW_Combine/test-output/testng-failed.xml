@@ -31,6 +31,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="Footer_PrivacyPolicy"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
         </methods>
@@ -140,6 +141,7 @@
       <class name="Solution_one_Prod.Side_Heading_Production">
         <methods>
           <include name="setupApplication"/>
+          <include name="Side_Heading_Four"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Solution_one_Prod.Side_Heading_Production -->
@@ -315,7 +317,6 @@
       </class> <!-- Warranty_Test_Case_Prod.HomePage_Testcase -->
       <class name="Promesa_Test_Case_Prod.Pharmacy_search">
         <methods>
-          <include name="Side_Heading_One"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
           <include name="setupApplication"/>
@@ -413,6 +414,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="Footer_facebook"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
         </methods>
@@ -431,6 +433,7 @@
           <include name="tearDown"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="Footer"/>
         </methods>
       </class> <!-- Speciality_underwriters_Test_Case_Prod.Home_TC -->
       <class name="Careers_Test_case_Prod.Footer">
@@ -453,6 +456,7 @@
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="main"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
@@ -495,6 +499,7 @@
           <include name="tearDown"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="main_Home_Page"/>
         </methods>
       </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
       <class name="AUW_Global_Test_Cases_Prod.Home_Page_TC">
@@ -632,7 +637,6 @@
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
-          <include name="Practices_CustomerSeekingCoverage"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
