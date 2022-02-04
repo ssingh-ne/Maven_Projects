@@ -66,6 +66,13 @@
       <class name="Warranty_Test_Case_Prod.Base_class"/>
       <class name="Warranty_Test_Case_Prod.Our_Partner"/>
       
+      <class name="Casuality_Prod_TC.Home_page"/>
+      <class name="Casuality_Prod_TC.Menu_About_US"/>
+      <class name="Casuality_Prod_TC.Menu_Contact_Us"/>
+      <class name="Casuality_Prod_TC.Menu_Our_Carriers"/>
+      <class name="Casuality_Prod_TC.Menu_Press_Room"/>
+    
+      
     </classes>
   </test> 
   
@@ -127,6 +134,12 @@
       <class name="Warranty_Test_Case_Prod.Base_class"/>
       <class name="Warranty_Test_Case_Prod.Our_Partner"/>
      
+      <class name="Casuality_Prod_TC.Home_page"/>
+      <class name="Casuality_Prod_TC.Menu_About_US"/>
+      <class name="Casuality_Prod_TC.Menu_Contact_Us"/>
+      <class name="Casuality_Prod_TC.Menu_Our_Carriers"/>
+      <class name="Casuality_Prod_TC.Menu_Press_Room"/>
+    
     </classes>
   </test>
   
