@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Casuality_Prod_TC.Menu_Press_Room">
+      <class name="Casuality_Dev_TC.Menu_Press_Room">
         <methods>
           <include name="HomePage"/>
           <include name="setupApplication"/>
         </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_Press_Room -->
+      </class> <!-- Casuality_Dev_TC.Menu_Press_Room -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
