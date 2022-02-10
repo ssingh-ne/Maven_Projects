@@ -50,11 +50,11 @@ public class Menu_Carriers {
 		 WebElement Element = driver.findElement(Url);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
 			
-		 Thread.sleep(2000);
+		 Thread.sleep(6000);
     	
 		 driver.findElement(Url).click();
 
-		 Thread.sleep(5000);
+		 Thread.sleep(8000);
     	
 		 Set<String> handlesSet = driver.getWindowHandles();
          List<String> handlesList = new ArrayList<String>(handlesSet);

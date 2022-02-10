@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="none">
-  <test name="Warranty_chrome_Dev">
+  <test name="Warranty_chrome_Dev" parallel = "classes" thread-count = "3">
    <parameter name="browser" value= "chrome"  />
     <classes>
       <class name="Warranty_Test_Case_Dev.Contact_US"/>
@@ -14,7 +14,7 @@
   </test>
 
   
-   <test name="Warranty_FF_Dev">
+   <test name="Warranty_FF_Dev" parallel = "classes" thread-count = "3">
    <parameter name="browser" value= "firefox"  />
     <classes>
       <class name="Warranty_Test_Case_Dev.Contact_US"/>

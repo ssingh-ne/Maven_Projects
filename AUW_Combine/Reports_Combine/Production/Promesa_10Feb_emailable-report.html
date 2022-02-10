@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Promesa_Firefox</td><td class="numi">7</td><td class="numi">7</td><td class="numi">0</td><td class="numi">0</td><td class="numi">269.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Promesa_Chrome</td><td class="numi">10</td><td class="numi">10</td><td class="numi">0</td><td class="numi">0</td><td class="numi">316.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">17</td><td class="numi">17</td><td class="numi">0</td><td class="numi">0</td><td class="numi">586.3 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Promesa_Firefox &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Prod.Change_language</td><td><a href="#m1"><b>Change_Language</b>  </a></td><td class="numi">1</td><td>1644510495153</td><td class="numi">3524</td></tr>
+<tr class="passedeven"><td rowspan="5">Promesa_Test_Case_Prod.Footer</td><td><a href="#m2"><b>Footer_PrivacyPolicy</b>  </a></td><td class="numi">1</td><td>1644510508488</td><td class="numi">20333</td></tr><tr class="passedeven"><td><a href="#m3"><b>Footer_facebook</b>  </a></td><td class="numi">1</td><td>1644510537945</td><td class="numi">19187</td></tr><tr class="passedeven"><td><a href="#m4"><b>Footer_instagram</b>  </a></td><td class="numi">1</td><td>1644510566837</td><td class="numi">6677</td></tr><tr class="passedeven"><td><a href="#m5"><b>Footer_linkedin</b>  </a></td><td class="numi">1</td><td>1644510585292</td><td class="numi">6133</td></tr><tr class="passedeven"><td><a href="#m6"><b>Footer_twitter</b>  </a></td><td class="numi">1</td><td>1644510605174</td><td class="numi">10952</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Prod.Pharmacy_search</td><td><a href="#m7"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1644510628275</td><td class="numi">123708</td></tr>
+<tr><th colspan="4">Promesa_Chrome &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Prod.Side_Heading_One</td><td><a href="#m8"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1644510758328</td><td class="numi">29802</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Prod.Side_Heading_Two</td><td><a href="#m9"><b>Siheading_2</b>  </a></td><td class="numi">1</td><td>1644510793850</td><td class="numi">16776</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Prod.FAQ</td><td><a href="#m10"><b>Siheading_2</b>  </a></td><td class="numi">1</td><td>1644510816414</td><td class="numi">23181</td></tr>
+<tr class="passedeven"><td rowspan="5">Promesa_Test_Case_Prod.Footer</td><td><a href="#m11"><b>Footer_PrivacyPolicy</b>  </a></td><td class="numi">1</td><td>1644510846351</td><td class="numi">20139</td></tr><tr class="passedeven"><td><a href="#m12"><b>Footer_facebook</b>  </a></td><td class="numi">1</td><td>1644510871963</td><td class="numi">19373</td></tr><tr class="passedeven"><td><a href="#m13"><b>Footer_instagram</b>  </a></td><td class="numi">1</td><td>1644510897570</td><td class="numi">7038</td></tr><tr class="passedeven"><td><a href="#m14"><b>Footer_linkedin</b>  </a></td><td class="numi">1</td><td>1644510910127</td><td class="numi">6559</td></tr><tr class="passedeven"><td><a href="#m15"><b>Footer_twitter</b>  </a></td><td class="numi">1</td><td>1644510922488</td><td class="numi">8575</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Prod.Change_language</td><td><a href="#m16"><b>Change_Language</b>  </a></td><td class="numi">1</td><td>1644510937888</td><td class="numi">1907</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Prod.Pharmacy_search</td><td><a href="#m17"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1644510945306</td><td class="numi">124114</td></tr>
+</table>
+<h1>Promesa_Firefox</h1>
+<h2 id="m1">Promesa_Test_Case_Prod.Pharmacy_search:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Promesa_Test_Case_Prod.Change_language:Change_Language</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Promesa_Test_Case_Prod.Footer:Footer_PrivacyPolicy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Promesa_Test_Case_Prod.Footer:Footer_linkedin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Promesa_Test_Case_Prod.Footer:Footer_facebook</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Promesa_Test_Case_Prod.Footer:Footer_instagram</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Promesa_Test_Case_Prod.Footer:Footer_twitter</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Promesa_Chrome</h1>
+<h2 id="m8">Promesa_Test_Case_Prod.Side_Heading_Two:Siheading_2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">Promesa_Test_Case_Prod.FAQ:Siheading_2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">Promesa_Test_Case_Prod.Side_Heading_One:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">Promesa_Test_Case_Prod.Footer:Footer_facebook</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">Promesa_Test_Case_Prod.Footer:Footer_twitter</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">Promesa_Test_Case_Prod.Pharmacy_search:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">Promesa_Test_Case_Prod.Change_language:Change_Language</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">Promesa_Test_Case_Prod.Footer:Footer_PrivacyPolicy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">Promesa_Test_Case_Prod.Footer:Footer_instagram</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">Promesa_Test_Case_Prod.Footer:Footer_linkedin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

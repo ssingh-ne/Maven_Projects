@@ -111,5 +111,4 @@ public void setupApplication (String browser)
 			Reporter.log("=====Browser Session End=====", true);
 			
 		} 
-		
 	}

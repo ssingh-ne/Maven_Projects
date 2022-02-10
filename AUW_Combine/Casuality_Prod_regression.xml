@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Casuality_ChromeTest_Production">
+  <test name="Casuality_ChromeTest_Production" parallel = "classes" thread-count = "5">
    <parameter name="browser" value= "chrome"  />
     <classes>
+    <class name="Casuality_Prod_TC.Menu_Our_Carriers"/>
       <class name="Casuality_Prod_TC.Home_page"/>
       <class name="Casuality_Prod_TC.Menu_About_US"/>
       <class name="Casuality_Prod_TC.Menu_Contact_Us"/>
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers"/>
       <class name="Casuality_Prod_TC.Menu_Press_Room"/>
     </classes>
   </test>
 
-  <test name="Casuality_FirefoxTest_Production">
+  <test name="Casuality_FirefoxTest_Production" parallel = "classes" thread-count = "2">
    <parameter name="browser" value= "firefox"  />
     <classes>
       <class name="Casuality_Prod_TC.Home_page"/>
