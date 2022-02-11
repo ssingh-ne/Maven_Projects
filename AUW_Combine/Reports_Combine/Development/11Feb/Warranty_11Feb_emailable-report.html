@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Warranty_chrome_Dev</td><td class="numi">11</td><td class="numi">11</td><td class="numi">0</td><td class="numi">0</td><td class="numi">641.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Warranty_FF_Dev</td><td class="numi">11</td><td class="numi">11</td><td class="numi">0</td><td class="numi">0</td><td class="numi">656.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">22</td><td class="numi">22</td><td class="numi">0</td><td class="numi">0</td><td class="numi">1,298.0 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Warranty_chrome_Dev &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Contact_US</td><td><a href="#m1"><b>ContactUS</b>  </a></td><td class="numi">1</td><td>1644586920751</td><td class="numi">63233</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.HomePage_Testcase</td><td><a href="#m2"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1644586920948</td><td class="numi">349299</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.About_US</td><td><a href="#m3"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1644586921294</td><td class="numi">38787</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Partner_With_US</td><td><a href="#m4"><b>partner</b>  </a></td><td class="numi">1</td><td>1644586997847</td><td class="numi">13510</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m5"><b>Partner1</b>  </a></td><td class="numi">1</td><td>1644587024064</td><td class="numi">102678</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.NewsEvents</td><td><a href="#m6"><b>NewsEvents</b>  </a></td><td class="numi">1</td><td>1644587029254</td><td class="numi">172422</td></tr>
+<tr class="passedodd"><td rowspan="5">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m7"><b>Partner2</b>  </a></td><td class="numi">1</td><td>1644587135899</td><td class="numi">89923</td></tr><tr class="passedodd"><td><a href="#m8"><b>Partner3</b>  </a></td><td class="numi">1</td><td>1644587234559</td><td class="numi">72873</td></tr><tr class="passedodd"><td><a href="#m9"><b>Partner4</b>  </a></td><td class="numi">1</td><td>1644587313855</td><td class="numi">71399</td></tr><tr class="passedodd"><td><a href="#m10"><b>Partner5</b>  </a></td><td class="numi">1</td><td>1644587392480</td><td class="numi">69762</td></tr><tr class="passedodd"><td><a href="#m11"><b>Partner6</b>  </a></td><td class="numi">1</td><td>1644587468634</td><td class="numi">71467</td></tr>
+<tr><th colspan="4">Warranty_FF_Dev &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Contact_US</td><td><a href="#m12"><b>ContactUS</b>  </a></td><td class="numi">1</td><td>1644587565818</td><td class="numi">48909</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.HomePage_Testcase</td><td><a href="#m13"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1644587566670</td><td class="numi">298999</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.About_US</td><td><a href="#m14"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1644587574534</td><td class="numi">32514</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Partner_With_US</td><td><a href="#m15"><b>partner</b>  </a></td><td class="numi">1</td><td>1644587630354</td><td class="numi">12354</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m16"><b>Partner1</b>  </a></td><td class="numi">1</td><td>1644587657539</td><td class="numi">99164</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.NewsEvents</td><td><a href="#m17"><b>NewsEvents</b>  </a></td><td class="numi">1</td><td>1644587684735</td><td class="numi">144032</td></tr>
+<tr class="passedodd"><td rowspan="5">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m18"><b>Partner2</b>  </a></td><td class="numi">1</td><td>1644587778912</td><td class="numi">86536</td></tr><tr class="passedodd"><td><a href="#m19"><b>Partner3</b>  </a></td><td class="numi">1</td><td>1644587879724</td><td class="numi">72408</td></tr><tr class="passedodd"><td><a href="#m20"><b>Partner4</b>  </a></td><td class="numi">1</td><td>1644587962576</td><td class="numi">71205</td></tr><tr class="passedodd"><td><a href="#m21"><b>Partner5</b>  </a></td><td class="numi">1</td><td>1644588043751</td><td class="numi">73145</td></tr><tr class="passedodd"><td><a href="#m22"><b>Partner6</b>  </a></td><td class="numi">1</td><td>1644588127664</td><td class="numi">68965</td></tr>
+</table>
+<h1>Warranty_chrome_Dev</h1>
+<h2 id="m1">Warranty_Test_Case_Dev.Our_Partner:Partner3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Warranty_Test_Case_Dev.Our_Partner:Partner1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Warranty_Test_Case_Dev.About_US:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Warranty_Test_Case_Dev.Our_Partner:Partner4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Warranty_Test_Case_Dev.Our_Partner:Partner5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Warranty_Test_Case_Dev.Our_Partner:Partner6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Warranty_Test_Case_Dev.Partner_With_US:partner</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">Warranty_Test_Case_Dev.NewsEvents:NewsEvents</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">Warranty_Test_Case_Dev.Our_Partner:Partner2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">Warranty_Test_Case_Dev.HomePage_Testcase:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">Warranty_Test_Case_Dev.Contact_US:ContactUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Warranty_FF_Dev</h1>
+<h2 id="m12">Warranty_Test_Case_Dev.Contact_US:ContactUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">Warranty_Test_Case_Dev.About_US:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">Warranty_Test_Case_Dev.HomePage_Testcase:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">Warranty_Test_Case_Dev.Our_Partner:Partner5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">Warranty_Test_Case_Dev.Our_Partner:Partner1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">Warranty_Test_Case_Dev.Our_Partner:Partner2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">Warranty_Test_Case_Dev.Our_Partner:Partner3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">Warranty_Test_Case_Dev.Our_Partner:Partner6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">Warranty_Test_Case_Dev.Our_Partner:Partner4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">Warranty_Test_Case_Dev.Partner_With_US:partner</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">Warranty_Test_Case_Dev.NewsEvents:NewsEvents</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

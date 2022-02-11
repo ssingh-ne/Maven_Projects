@@ -6,6 +6,7 @@
       <class name="Casuality_Prod_TC.Menu_Our_Carriers">
         <methods>
           <include name="setupApplication"/>
+          <include name="tearDown"/>
           <include name="Carriers"/>
         </methods>
       </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->

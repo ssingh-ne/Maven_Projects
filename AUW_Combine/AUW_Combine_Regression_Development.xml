@@ -78,7 +78,7 @@
     </classes>
   </test> 
   
-  <test name="Firefox_Developmet" parallel = "classes" thread-count = "2">
+  <test name="Firefox_Developmet" parallel = "classes" thread-count = "4">
    <parameter name="browser" value= "firefox"  />
     <classes>
  

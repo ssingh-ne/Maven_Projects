@@ -1,51 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]" parallel="none">
   <parameter name="browser" value="firefox"/>
-  <test name="Casuality_ChromeTest_Production(failed)" parallel="classes">
+  <test name="Casuality_ChromeTest_Development(failed)" parallel="classes">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Casuality_Prod_TC.Menu_Press_Room">
+      <class name="Casuality_Dev_TC.Menu_Contact_Us">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_Press_Room -->
-      <class name="Casuality_Prod_TC.Home_page">
+      </class> <!-- Casuality_Dev_TC.Menu_Contact_Us -->
+      <class name="Casuality_Dev_TC.Home_page">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Casuality_Prod_TC.Home_page -->
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="Carriers"/>
-        </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
-      <class name="Casuality_Prod_TC.Menu_About_US">
+      </class> <!-- Casuality_Dev_TC.Home_page -->
+      <class name="Casuality_Dev_TC.Menu_About_US">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_About_US -->
-      <class name="Casuality_Prod_TC.Menu_Contact_Us">
+      </class> <!-- Casuality_Dev_TC.Menu_About_US -->
+      <class name="Casuality_Dev_TC.Menu_Our_Carriers">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_Contact_Us -->
+      </class> <!-- Casuality_Dev_TC.Menu_Our_Carriers -->
+      <class name="Casuality_Dev_TC.Menu_Press_Room">
+        <methods>
+          <include name="HomePage"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Menu_Press_Room -->
     </classes>
-  </test> <!-- Casuality_ChromeTest_Production(failed) -->
+  </test> <!-- Casuality_ChromeTest_Development(failed) -->
+  <test name="Casuality_FirefoxTest_Development(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Casuality_Dev_TC.Menu_Contact_Us">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Menu_Contact_Us -->
+      <class name="Casuality_Dev_TC.Home_page">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Home_page -->
+      <class name="Casuality_Dev_TC.Menu_About_US">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Menu_About_US -->
+      <class name="Casuality_Dev_TC.Menu_Our_Carriers">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Menu_Our_Carriers -->
+      <class name="Casuality_Dev_TC.Menu_Press_Room">
+        <methods>
+          <include name="HomePage"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Menu_Press_Room -->
+    </classes>
+  </test> <!-- Casuality_FirefoxTest_Development(failed) -->
 </suite> <!-- Failed suite [Suite] -->

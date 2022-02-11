@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Chrome_Developmet</td><td class="numi">64</td><td class="numi">64</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">1,495.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Firefox_Developmet</td><td class="numi">57</td><td class="numi">57</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">1,398.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">121</td><td class="numi">121</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">2,893.3 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Chrome_Developmet &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Casuality_Dev_TC.Menu_Press_Room</td><td><a href="#m1"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1644573843266</td><td class="numi">34363</td></tr>
+<tr class="failedeven"><td rowspan="1">Casuality_Dev_TC.Menu_Our_Carriers</td><td><a href="#m2"><b>Carriers</b>  </a></td><td class="numi">1</td><td>1644573872519</td><td class="numi">31776</td></tr>
+<tr><th colspan="4">Chrome_Developmet &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_header_web_Development</td><td><a href="#m3"><b>main</b>  </a></td><td class="numi">1</td><td>1644572462807</td><td class="numi">43361</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_AboutUS</td><td><a href="#m4"><b>AboutUS</b>  </a></td><td class="numi">1</td><td>1644572465364</td><td class="numi">87500</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_Experience</td><td><a href="#m5"><b>main</b>  </a></td><td class="numi">1</td><td>1644572465705</td><td class="numi">341186</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_Footer_Development</td><td><a href="#m6"><b>AUW_Footer</b>  </a></td><td class="numi">1</td><td>1644572466063</td><td class="numi">105837</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_PPP</td><td><a href="#m7"><b>main</b>  </a></td><td class="numi">1</td><td>1644572515723</td><td class="numi">24880</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_CallUpdate</td><td><a href="#m8"><b>main</b>  </a></td><td class="numi">1</td><td>1644572549542</td><td class="numi">50608</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_NJ_Update</td><td><a href="#m9"><b>main</b>  </a></td><td class="numi">1</td><td>1644572559930</td><td class="numi">42770</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_Intelligence_TC</td><td><a href="#m10"><b>main</b>  </a></td><td class="numi">1</td><td>1644572580846</td><td class="numi">101550</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.Practices_AgentsBrokers</td><td><a href="#m11"><b>Practices_AgentsBrokers</b>  </a></td><td class="numi">1</td><td>1644572606958</td><td class="numi">76253</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.Practices_CustomerSeekingCoverage</td><td><a href="#m12"><b>Practices_CustomerSeekingCoverage</b>  </a></td><td class="numi">1</td><td>1644572613816</td><td class="numi">263028</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Global_Test_Cases_Development.Home_Page_TC</td><td><a href="#m13"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1644572694634</td><td class="numi">14462</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Global_Test_Cases_Development.LearnMore_TC</td><td><a href="#m14"><b>LearnMore</b>  </a></td><td class="numi">1</td><td>1644572695265</td><td class="numi">17870</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Global_Test_Cases_Development.Home_More</td><td><a href="#m15"><b>More_button</b>  </a></td><td class="numi">1</td><td>1644572715094</td><td class="numi">77996</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Development.FAQ</td><td><a href="#m16"><b>Siheading_2</b>  </a></td><td class="numi">1</td><td>1644572721410</td><td class="numi">25673</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Development.Footer</td><td><a href="#m17"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644572755110</td><td class="numi">66694</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Development.Side_Heading_One</td><td><a href="#m18"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1644572800637</td><td class="numi">30132</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Development.Pharmacy_search</td><td><a href="#m19"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1644572813939</td><td class="numi">134959</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Development.Side_Heading_Two</td><td><a href="#m20"><b>Siheading_2</b>  </a></td><td class="numi">1</td><td>1644572830645</td><td class="numi">16887</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Development.Change_language</td><td><a href="#m21"><b>Change_Language</b>  </a></td><td class="numi">1</td><td>1644572837821</td><td class="numi">3823</td></tr>
+<tr class="passedeven"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.Contact_US_TC</td><td><a href="#m22"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644572848830</td><td class="numi">19831</td></tr>
+<tr class="passedodd"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.About_Us</td><td><a href="#m23"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644572853982</td><td class="numi">10598</td></tr>
+<tr class="passedeven"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.What_We_offer</td><td><a href="#m24"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644572874307</td><td class="numi">42425</td></tr>
+<tr class="passedodd"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.Home_TC</td><td><a href="#m25"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644572883255</td><td class="numi">20083</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev</td><td><a href="#m26"><b>ContactUs_Page</b>  </a></td><td class="numi">1</td><td>1644572890988</td><td class="numi">24625</td></tr>
+<tr class="passedodd"><td rowspan="1">AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev</td><td><a href="#m27"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1644572913812</td><td class="numi">38074</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev</td><td><a href="#m28"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644572925147</td><td class="numi">347080</td></tr>
+<tr class="passedodd"><td rowspan="1">AFL_Test_Cases_Dev.Footer_TC_dev</td><td><a href="#m29"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644572926082</td><td class="numi">96411</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.HomePage_TC_dev</td><td><a href="#m30"><b>Home_Page</b>  </a></td><td class="numi">1</td><td>1644572962317</td><td class="numi">138867</td></tr>
+<tr class="passedodd"><td rowspan="1">Adler_TestCases_Development.Home</td><td><a href="#m31"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1644572980995</td><td class="numi">20615</td></tr>
+<tr class="passedeven"><td rowspan="1">Adler_TestCases_Development.News</td><td><a href="#m32"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1644573011123</td><td class="numi">142710</td></tr>
+<tr class="passedodd"><td rowspan="1">Careers_Test_case_Development.Side_Heading1</td><td><a href="#m33"><b>Side_Heading</b>  </a></td><td class="numi">1</td><td>1644573030141</td><td class="numi">144000</td></tr>
+<tr class="passedeven"><td rowspan="1">Careers_Test_case_Development.Footer</td><td><a href="#m34"><b>AUW_Footer</b>  </a></td><td class="numi">1</td><td>1644573110131</td><td class="numi">81221</td></tr>
+<tr class="passedodd"><td rowspan="1">Pinnacle_Test_Cases_Development.WatsNew</td><td><a href="#m35"><b>WhatsNew</b>  </a></td><td class="numi">1</td><td>1644573177486</td><td class="numi">226928</td></tr>
+<tr class="passedeven"><td rowspan="1">Pinnacle_Test_Cases_Development.HomePage_TC</td><td><a href="#m36"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1644573197364</td><td class="numi">52948</td></tr>
+<tr class="passedodd"><td rowspan="2">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m37"><b>HomePage_Header_ContactUS_btn</b>  </a></td><td class="numi">1</td><td>1644573214409</td><td class="numi">17959</td></tr><tr class="passedodd"><td><a href="#m38"><b>HomePage_Header_Our_approach</b>  </a></td><td class="numi">1</td><td>1644573242081</td><td class="numi">13694</td></tr>
+<tr class="passedeven"><td rowspan="1">Credit_Global_Test_Cases_Dev.Forgot_Password</td><td><a href="#m39"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1644573263294</td><td class="numi">8768</td></tr>
+<tr class="passedodd"><td rowspan="1">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m40"><b>HomePage_Header_What_weDo</b>  </a></td><td class="numi">1</td><td>1644573269943</td><td class="numi">8923</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.HomePage_Testcase</td><td><a href="#m41"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1644573281315</td><td class="numi">318036</td></tr>
+<tr class="passedodd"><td rowspan="1">Credit_Global_Test_Cases_Dev.What_we_Do_TC</td><td><a href="#m42"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1644573283336</td><td class="numi">36646</td></tr>
+<tr class="passedeven"><td rowspan="1">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m43"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1644573299249</td><td class="numi">19370</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Contact_US</td><td><a href="#m44"><b>ContactUS</b>  </a></td><td class="numi">1</td><td>1644573327392</td><td class="numi">48034</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m45"><b>Partner1</b>  </a></td><td class="numi">1</td><td>1644573331197</td><td class="numi">83343</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Partner_With_US</td><td><a href="#m46"><b>partner</b>  </a></td><td class="numi">1</td><td>1644573383464</td><td class="numi">12383</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.About_US</td><td><a href="#m47"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1644573403810</td><td class="numi">37333</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.NewsEvents</td><td><a href="#m48"><b>NewsEvents</b>  </a></td><td class="numi">1</td><td>1644573413817</td><td class="numi">142377</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m49"><b>Partner2</b>  </a></td><td class="numi">1</td><td>1644573421194</td><td class="numi">80286</td></tr>
+<tr class="passedodd"><td rowspan="1">Solution_one_Development.Side_head_sample</td><td><a href="#m50"><b>Side_Heading_Three</b>  </a></td><td class="numi">1</td><td>1644573453312</td><td class="numi">74496</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m51"><b>Partner3</b>  </a></td><td class="numi">1</td><td>1644573508104</td><td class="numi">92098</td></tr>
+<tr class="passedodd"><td rowspan="1">Solution_one_Development.Footer_Develop</td><td><a href="#m52"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644573538746</td><td class="numi">99859</td></tr>
+<tr class="passedeven"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m53"><b>Footer_Facebook</b>  </a></td><td class="numi">1</td><td>1644573569192</td><td class="numi">30031</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m54"><b>Partner4</b>  </a></td><td class="numi">1</td><td>1644573606979</td><td class="numi">92685</td></tr>
+<tr class="passedeven"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m55"><b>Footer_Instagram</b>  </a></td><td class="numi">1</td><td>1644573614076</td><td class="numi">27083</td></tr>
+<tr class="passedodd"><td rowspan="1">JumboGC_Test_case_Devlopment.Side_Heading</td><td><a href="#m56"><b>Side_heading</b>  </a></td><td class="numi">1</td><td>1644573638665</td><td class="numi">194096</td></tr>
+<tr class="passedeven"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m57"><b>Footer_Privacy</b>  </a></td><td class="numi">1</td><td>1644573648907</td><td class="numi">46018</td></tr>
+<tr class="passedodd"><td rowspan="1">Tradewel_Test_Cases_Development.About_US</td><td><a href="#m58"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1644573656818</td><td class="numi">40895</td></tr>
+<tr class="passedeven"><td rowspan="1">Tradewel_Test_Cases_Development.comprehensive_Protection</td><td><a href="#m59"><b>Comprehensive</b>  </a></td><td class="numi">1</td><td>1644573708957</td><td class="numi">204900</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m60"><b>Partner5</b>  </a></td><td class="numi">1</td><td>1644573710725</td><td class="numi">95171</td></tr>
+<tr class="passedeven"><td rowspan="2">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m61"><b>Footer_linkedIN</b>  </a></td><td class="numi">1</td><td>1644573713238</td><td class="numi">37763</td></tr><tr class="passedeven"><td><a href="#m62"><b>Header_Login</b>  </a></td><td class="numi">1</td><td>1644573760310</td><td class="numi">21070</td></tr>
+<tr class="passedodd"><td rowspan="1">Casuality_Dev_TC.Home_page</td><td><a href="#m63"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1644573792880</td><td class="numi">70681</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m64"><b>Partner6</b>  </a></td><td class="numi">1</td><td>1644573812684</td><td class="numi">82668</td></tr>
+<tr class="passedodd"><td rowspan="1">Casuality_Dev_TC.Menu_Contact_Us</td><td><a href="#m65"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1644573889780</td><td class="numi">25237</td></tr>
+<tr class="passedeven"><td rowspan="1">Casuality_Dev_TC.Menu_About_US</td><td><a href="#m66"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1644573901100</td><td class="numi">43407</td></tr>
+<tr><th colspan="4">Firefox_Developmet &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Warranty_Test_Case_Dev.Contact_US</td><td><a href="#m67"><b>ContactUS</b>  </a></td><td class="numi">1</td><td>1644574771031</td><td class="numi">17743</td></tr>
+<tr class="failedeven"><td rowspan="1">Casuality_Dev_TC.Menu_Press_Room</td><td><a href="#m68"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1644575092861</td><td class="numi">37025</td></tr>
+<tr><th colspan="4">Firefox_Developmet &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_Footer_Development</td><td><a href="#m69"><b>AUW_Footer</b>  </a></td><td class="numi">1</td><td>1644573965333</td><td class="numi">93512</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_header_web_Development</td><td><a href="#m70"><b>main</b>  </a></td><td class="numi">1</td><td>1644573965756</td><td class="numi">50845</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_Experience</td><td><a href="#m71"><b>main</b>  </a></td><td class="numi">1</td><td>1644573966101</td><td class="numi">314410</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_AboutUS</td><td><a href="#m72"><b>AboutUS</b>  </a></td><td class="numi">1</td><td>1644573966274</td><td class="numi">74304</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_PPP</td><td><a href="#m73"><b>main</b>  </a></td><td class="numi">1</td><td>1644574036088</td><td class="numi">21147</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_CallUpdate</td><td><a href="#m74"><b>main</b>  </a></td><td class="numi">1</td><td>1644574055048</td><td class="numi">50548</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.AUW_NJ_Update</td><td><a href="#m75"><b>main</b>  </a></td><td class="numi">1</td><td>1644574073306</td><td class="numi">50184</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.AUW_Intelligence_TC</td><td><a href="#m76"><b>main</b>  </a></td><td class="numi">1</td><td>1644574078446</td><td class="numi">92457</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_Case_dev.Practices_AgentsBrokers</td><td><a href="#m77"><b>Practices_AgentsBrokers</b>  </a></td><td class="numi">1</td><td>1644574121844</td><td class="numi">64496</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_Case_dev.Practices_CustomerSeekingCoverage</td><td><a href="#m78"><b>Practices_CustomerSeekingCoverage</b>  </a></td><td class="numi">1</td><td>1644574139277</td><td class="numi">254798</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Global_Test_Cases_Development.LearnMore_TC</td><td><a href="#m79"><b>LearnMore</b>  </a></td><td class="numi">1</td><td>1644574187948</td><td class="numi">16229</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Global_Test_Cases_Development.Home_Page_TC</td><td><a href="#m80"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1644574206303</td><td class="numi">15523</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Development.Footer</td><td><a href="#m81"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644574221643</td><td class="numi">71277</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Development.Pharmacy_search</td><td><a href="#m82"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1644574237203</td><td class="numi">124400</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Development.Change_language</td><td><a href="#m83"><b>Change_Language</b>  </a></td><td class="numi">1</td><td>1644574296522</td><td class="numi">4431</td></tr>
+<tr class="passedeven"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.Contact_US_TC</td><td><a href="#m84"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644574313849</td><td class="numi">18646</td></tr>
+<tr class="passedodd"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.About_Us</td><td><a href="#m85"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644574321855</td><td class="numi">11372</td></tr>
+<tr class="passedeven"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.Home_TC</td><td><a href="#m86"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644574349332</td><td class="numi">15993</td></tr>
+<tr class="passedodd"><td rowspan="1">Speciality_underwriters_Test_Case_Dev.What_We_offer</td><td><a href="#m87"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644574350477</td><td class="numi">39985</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev</td><td><a href="#m88"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1644574384060</td><td class="numi">33588</td></tr>
+<tr class="passedodd"><td rowspan="1">AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev</td><td><a href="#m89"><b>ContactUs_Page</b>  </a></td><td class="numi">1</td><td>1644574384155</td><td class="numi">25937</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.Footer_TC_dev</td><td><a href="#m90"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644574414511</td><td class="numi">78289</td></tr>
+<tr class="passedodd"><td rowspan="1">AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev</td><td><a href="#m91"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644574414945</td><td class="numi">299263</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Cases_Dev.HomePage_TC_dev</td><td><a href="#m92"><b>Home_Page</b>  </a></td><td class="numi">1</td><td>1644574437032</td><td class="numi">144917</td></tr>
+<tr class="passedodd"><td rowspan="1">Adler_TestCases_Development.Home</td><td><a href="#m93"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1644574448472</td><td class="numi">21464</td></tr>
+<tr class="passedeven"><td rowspan="1">Adler_TestCases_Development.News</td><td><a href="#m94"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1644574495196</td><td class="numi">136038</td></tr>
+<tr class="passedodd"><td rowspan="1">Tradewel_Test_Cases_Development.Comprehensive_Protection_FF</td><td><a href="#m95"><b>Comprehensive</b>  </a></td><td class="numi">1</td><td>1644574518318</td><td class="numi">42694</td></tr>
+<tr class="passedeven"><td rowspan="1">Tradewel_Test_Cases_Development.About_US</td><td><a href="#m96"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1644574582842</td><td class="numi">32365</td></tr>
+<tr class="passedodd"><td rowspan="1">Careers_Test_case_Development.Footer</td><td><a href="#m97"><b>AUW_Footer</b>  </a></td><td class="numi">1</td><td>1644574604181</td><td class="numi">101161</td></tr>
+<tr class="passedeven"><td rowspan="1">Pinnacle_Test_Cases_Development.WatsNew</td><td><a href="#m98"><b>WhatsNew</b>  </a></td><td class="numi">1</td><td>1644574641760</td><td class="numi">100478</td></tr>
+<tr class="passedodd"><td rowspan="1">Pinnacle_Test_Cases_Development.HomePage_TC</td><td><a href="#m99"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1644574651853</td><td class="numi">48179</td></tr>
+<tr class="passedeven"><td rowspan="1">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m100"><b>HomePage_Header_ContactUS_btn</b>  </a></td><td class="numi">1</td><td>1644574719342</td><td class="numi">19750</td></tr>
+<tr class="passedodd"><td rowspan="1">Credit_Global_Test_Cases_Dev.Forgot_Password</td><td><a href="#m101"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1644574737114</td><td class="numi">10142</td></tr>
+<tr class="passedeven"><td rowspan="1">Credit_Global_Test_Cases_Dev.What_we_Do_TC</td><td><a href="#m102"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1644574744572</td><td class="numi">29849</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.HomePage_Testcase</td><td><a href="#m103"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1644574765794</td><td class="numi">291768</td></tr>
+<tr class="passedeven"><td rowspan="1">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m104"><b>HomePage_Header_Our_approach</b>  </a></td><td class="numi">1</td><td>1644574769140</td><td class="numi">12945</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m105"><b>Partner1</b>  </a></td><td class="numi">1</td><td>1644574795470</td><td class="numi">84783</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Partner_With_US</td><td><a href="#m106"><b>partner</b>  </a></td><td class="numi">1</td><td>1644574818433</td><td class="numi">11683</td></tr>
+<tr class="passedodd"><td rowspan="1">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m107"><b>HomePage_Header_What_weDo</b>  </a></td><td class="numi">1</td><td>1644574818889</td><td class="numi">8474</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.About_US</td><td><a href="#m108"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1644574855366</td><td class="numi">33740</td></tr>
+<tr class="passedodd"><td rowspan="1">Credit_Global_Test_Cases_Dev.Home_TC</td><td><a href="#m109"><b>HomePage_Header_login</b>  </a></td><td class="numi">1</td><td>1644574860157</td><td class="numi">13139</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m110"><b>Partner2</b>  </a></td><td class="numi">1</td><td>1644574896025</td><td class="numi">87934</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.NewsEvents</td><td><a href="#m111"><b>NewsEvents</b>  </a></td><td class="numi">1</td><td>1644574896756</td><td class="numi">123523</td></tr>
+<tr class="passedeven"><td rowspan="1">Solution_one_Development.Footer_Develop</td><td><a href="#m112"><b>Footer</b>  </a></td><td class="numi">1</td><td>1644574923019</td><td class="numi">85273</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m113"><b>Partner3</b>  </a></td><td class="numi">1</td><td>1644574997764</td><td class="numi">80491</td></tr>
+<tr class="passedeven"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m114"><b>Footer_Facebook</b>  </a></td><td class="numi">1</td><td>1644575030935</td><td class="numi">32569</td></tr>
+<tr class="passedodd"><td rowspan="1">Casuality_Dev_TC.Home_page</td><td><a href="#m115"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1644575056606</td><td class="numi">71057</td></tr>
+<tr class="passedeven"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m116"><b>Footer_Instagram</b>  </a></td><td class="numi">1</td><td>1644575080140</td><td class="numi">27897</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m117"><b>Partner4</b>  </a></td><td class="numi">1</td><td>1644575091264</td><td class="numi">87775</td></tr>
+<tr class="passedeven"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m118"><b>Footer_Privacy</b>  </a></td><td class="numi">1</td><td>1644575123916</td><td class="numi">43085</td></tr>
+<tr class="passedodd"><td rowspan="1">Casuality_Dev_TC.Menu_Contact_Us</td><td><a href="#m119"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1644575150890</td><td class="numi">22639</td></tr>
+<tr class="passedeven"><td rowspan="1">Casuality_Dev_TC.Menu_Our_Carriers</td><td><a href="#m120"><b>Carriers</b>  </a></td><td class="numi">1</td><td>1644575151105</td><td class="numi">48516</td></tr>
+<tr class="passedodd"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m121"><b>Footer_linkedIN</b>  </a></td><td class="numi">1</td><td>1644575183473</td><td class="numi">27401</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m122"><b>Partner5</b>  </a></td><td class="numi">1</td><td>1644575194756</td><td class="numi">72611</td></tr>
+<tr class="passedodd"><td rowspan="1">Casuality_Dev_TC.Menu_About_US</td><td><a href="#m123"><b>HomePage</b>  </a></td><td class="numi">1</td><td>1644575195935</td><td class="numi">55909</td></tr>
+<tr class="passedeven"><td rowspan="1">JumboGC_Test_case_Devlopment.Header_footer</td><td><a href="#m124"><b>Header_Login</b>  </a></td><td class="numi">1</td><td>1644575225301</td><td class="numi">20408</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Dev.Our_Partner</td><td><a href="#m125"><b>Partner6</b>  </a></td><td class="numi">1</td><td>1644575276139</td><td class="numi">67376</td></tr>
+</table>
+<h1>Chrome_Developmet</h1>
+<h2 id="m1">Casuality_Dev_TC.Menu_Our_Carriers:Carriers</h2>
+<div style="padding-left:3em">
+<p>element click intercepted: Element &lt;a href=&quot;https://www..../home/default.aspx&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;ambest.com&lt;/a&gt; is not clickable at point (499, 8). Other element would receive the click: &lt;div class=&quot;jss40 jss23&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54112}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf18892bdb06a5bf5797c3c90ccd318a</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at Casuality_pages.Menu_Carriers.Ambest(Menu_Carriers.java:55)
+<br/>at Casuality_Dev_TC.Menu_Our_Carriers.Carriers(Menu_Our_Carriers.java:19)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Casuality_Dev_TC.Menu_Press_Room:HomePage</h2>
+<div style="padding-left:3em">
+<p>expected [QBE Lawsuits against Former Individual Employees and against Applied Underwriters, their New Employer, Termed “Meritless” by Applied’s General Counsel] but found [placeholder title]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at Casuality_pages.Menu_PressRoom.text_1(Menu_PressRoom.java:94)
+<br/>at Casuality_Dev_TC.Menu_Press_Room.HomePage(Menu_Press_Room.java:21)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">AUW_Test_Case_dev.AUW_Intelligence_TC:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">AUW_Test_Case_dev.AUW_NJ_Update:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">AUW_Test_Case_dev.AUW_Experience:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Promesa_Test_Case_Development.Side_Heading_Two:Siheading_2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Speciality_underwriters_Test_Case_Dev.What_We_offer:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">AUW_Test_Case_dev.AUW_Footer_Development:AUW_Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">Solution_one_Development.Side_head_sample:Side_Heading_Three</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_ContactUS_btn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">Warranty_Test_Case_Dev.Our_Partner:Partner6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">Warranty_Test_Case_Dev.Partner_With_US:partner</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">JumboGC_Test_case_Devlopment.Header_footer:Footer_linkedIN</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">Careers_Test_case_Development.Footer:AUW_Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">Warranty_Test_Case_Dev.NewsEvents:NewsEvents</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">AUW_Test_Case_dev.Practices_AgentsBrokers:Practices_AgentsBrokers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">Adler_TestCases_Development.News:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">JumboGC_Test_case_Devlopment.Side_Heading:Side_heading</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">Credit_Global_Test_Cases_Dev.What_we_Do_TC:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">Pinnacle_Test_Cases_Development.WatsNew:WhatsNew</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">AUW_Test_Case_dev.Practices_CustomerSeekingCoverage:Practices_CustomerSeekingCoverage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">Careers_Test_case_Development.Side_Heading1:Side_Heading</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">Speciality_underwriters_Test_Case_Dev.Home_TC:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">AUW_Global_Test_Cases_Development.LearnMore_TC:LearnMore</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">Speciality_underwriters_Test_Case_Dev.Contact_US_TC:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">Warranty_Test_Case_Dev.HomePage_Testcase:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">Promesa_Test_Case_Development.Pharmacy_search:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">Casuality_Dev_TC.Menu_About_US:HomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">Promesa_Test_Case_Development.Change_language:Change_Language</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">Warranty_Test_Case_Dev.Our_Partner:Partner1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">AFL_Test_Cases_Dev.HomePage_TC_dev:Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_What_weDo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">Tradewel_Test_Cases_Development.About_US:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">Credit_Global_Test_Cases_Dev.Forgot_Password:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">Solution_one_Development.Footer_Develop:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">Adler_TestCases_Development.Home:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">Promesa_Test_Case_Development.FAQ:Siheading_2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">Warranty_Test_Case_Dev.Our_Partner:Partner4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">JumboGC_Test_case_Devlopment.Header_footer:Header_Login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">Speciality_underwriters_Test_Case_Dev.About_Us:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">AUW_Test_Case_dev.AUW_AboutUS:AboutUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">JumboGC_Test_case_Devlopment.Header_footer:Footer_Instagram</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">Tradewel_Test_Cases_Development.comprehensive_Protection:Comprehensive</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">Warranty_Test_Case_Dev.About_US:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">AUW_Test_Case_dev.AUW_CallUpdate:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">Pinnacle_Test_Cases_Development.HomePage_TC:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">Promesa_Test_Case_Development.Footer:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">JumboGC_Test_case_Devlopment.Header_footer:Footer_Privacy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">AUW_Test_Case_dev.AUW_header_web_Development:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_Our_approach</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">Warranty_Test_Case_Dev.Our_Partner:Partner2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">Warranty_Test_Case_Dev.Contact_US:ContactUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">AUW_Global_Test_Cases_Development.Home_Page_TC:HomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">JumboGC_Test_case_Devlopment.Header_footer:Footer_Facebook</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">Warranty_Test_Case_Dev.Our_Partner:Partner5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">AFL_Test_Cases_Dev.Footer_TC_dev:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59">AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev:ContactUs_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m60">AUW_Test_Case_dev.AUW_PPP:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m61">Promesa_Test_Case_Development.Side_Heading_One:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m62">AUW_Global_Test_Cases_Development.Home_More:More_button</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m63">Warranty_Test_Case_Dev.Our_Partner:Partner3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m64">Casuality_Dev_TC.Home_page:HomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m65">Casuality_Dev_TC.Menu_Contact_Us:HomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m66">AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Firefox_Developmet</h1>
+<h2 id="m67">Casuality_Dev_TC.Menu_Press_Room:HomePage</h2>
+<div style="padding-left:3em">
+<p>expected [QBE Lawsuits against Former Individual Employees and against Applied Underwriters, their New Employer, Termed “Meritless” by Applied’s General Counsel] but found [placeholder title]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at Casuality_pages.Menu_PressRoom.text_1(Menu_PressRoom.java:94)
+<br/>at Casuality_Dev_TC.Menu_Press_Room.HomePage(Menu_Press_Room.java:21)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m68">Warranty_Test_Case_Dev.Contact_US:ContactUS</h2>
+<div style="padding-left:3em">
+<p>Element &lt;p class=&quot;jss65&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 49496, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 72e57622-3f7d-42cb-94af-8d1a72a2eae6</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at Warranty_Page.ContactUS_page.contactUS(ContactUS_page.java:121)
+<br/>at Warranty_Test_Case_Dev.Contact_US.ContactUS(Contact_US.java:16)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m69">Tradewel_Test_Cases_Development.Comprehensive_Protection_FF:Comprehensive</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m70">Promesa_Test_Case_Development.Change_language:Change_Language</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m71">Speciality_underwriters_Test_Case_Dev.Home_TC:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m72">Speciality_underwriters_Test_Case_Dev.Contact_US_TC:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m73">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_ContactUS_btn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m74">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_What_weDo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m75">AUW_Global_Test_Cases_Development.Home_Page_TC:HomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m76">AUW_Test_Case_dev.Practices_CustomerSeekingCoverage:Practices_CustomerSeekingCoverage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m77">Adler_TestCases_Development.Home:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m78">Warranty_Test_Case_Dev.NewsEvents:NewsEvents</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m79">Warranty_Test_Case_Dev.HomePage_Testcase:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m80">Solution_one_Development.Footer_Develop:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m81">AFL_Test_Cases_Dev.Footer_TC_dev:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m82">Speciality_underwriters_Test_Case_Dev.About_Us:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m83">AUW_Test_Case_dev.AUW_CallUpdate:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m84">Warranty_Test_Case_Dev.Our_Partner:Partner6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m85">AUW_Test_Case_dev.AUW_header_web_Development:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m86">AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m87">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_Our_approach</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m88">AUW_Test_Case_dev.AUW_NJ_Update:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m89">AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m90">JumboGC_Test_case_Devlopment.Header_footer:Footer_linkedIN</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m91">Tradewel_Test_Cases_Development.About_US:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m92">Warranty_Test_Case_Dev.About_US:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m93">Credit_Global_Test_Cases_Dev.What_we_Do_TC:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m94">Careers_Test_case_Development.Footer:AUW_Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m95">Casuality_Dev_TC.Menu_Our_Carriers:Carriers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m96">Promesa_Test_Case_Development.Pharmacy_search:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m97">Warranty_Test_Case_Dev.Our_Partner:Partner5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m98">Credit_Global_Test_Cases_Dev.Home_TC:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m99">Warranty_Test_Case_Dev.Our_Partner:Partner2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m100">Casuality_Dev_TC.Menu_About_US:HomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m101">JumboGC_Test_case_Devlopment.Header_footer:Footer_Instagram</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m102">Warranty_Test_Case_Dev.Our_Partner:Partner4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m103">Casuality_Dev_TC.Menu_Contact_Us:HomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m104">AUW_Global_Test_Cases_Development.LearnMore_TC:LearnMore</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m105">AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev:ContactUs_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m106">JumboGC_Test_case_Devlopment.Header_footer:Footer_Privacy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m107">JumboGC_Test_case_Devlopment.Header_footer:Footer_Facebook</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m108">Warranty_Test_Case_Dev.Our_Partner:Partner1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m109">AUW_Test_Case_dev.AUW_PPP:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m110">Credit_Global_Test_Cases_Dev.Forgot_Password:HomePage_Header_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m111">AUW_Test_Case_dev.AUW_Experience:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m112">Pinnacle_Test_Cases_Development.HomePage_TC:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m113">Casuality_Dev_TC.Home_page:HomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m114">Speciality_underwriters_Test_Case_Dev.What_We_offer:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m115">Promesa_Test_Case_Development.Footer:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m116">AUW_Test_Case_dev.Practices_AgentsBrokers:Practices_AgentsBrokers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m117">Pinnacle_Test_Cases_Development.WatsNew:WhatsNew</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m118">JumboGC_Test_case_Devlopment.Header_footer:Header_Login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m119">AUW_Test_Case_dev.AUW_Intelligence_TC:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m120">AUW_Test_Case_dev.AUW_AboutUS:AboutUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m121">AUW_Test_Case_dev.AUW_Footer_Development:AUW_Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m122">AFL_Test_Cases_Dev.HomePage_TC_dev:Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m123">Warranty_Test_Case_Dev.Partner_With_US:partner</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m124">Warranty_Test_Case_Dev.Our_Partner:Partner3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m125">Adler_TestCases_Development.News:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
