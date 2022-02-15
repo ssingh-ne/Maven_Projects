@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="none">
-  <test name="AUW_Chrome_Prod">
+  <test name="AUW_Chrome_Prod" parallel = "classes" thread-count = "5">
    <parameter name="browser" value= "chrome"  />
     <classes>
       <class name="AUW_Test_case_prod.AUW_Footer_Prod"/>
@@ -17,7 +17,7 @@
       
     </classes>
     </test> 
-     <test name="AUW_Firefox_Prod">
+     <test name="AUW_Firefox_Prod" parallel = "classes" thread-count = "1">
    <parameter name="browser" value= "firefox"  />
     <classes>
       <class name="AUW_Test_case_prod.AUW_Footer_Prod"/>

@@ -112,8 +112,8 @@ public class WhatWeOffer_page {
 	By Solution_one_URL = By.xpath("//*[@id='contentBlock2']/p/strong/a");
 	By Jumbo_GC_URL = By.xpath("//*[@id='contentBlock4']/p/strong/a");
 	By Promesa_URL = By.xpath("//*[@id='contentBlock6']/p/strong/a");
-	By Applied_underriters = By.xpath("//*[@id='contentBlock2']/p/a");
-	
+	//By Applied_underriters = By.xpath("//*[@id='contentBlock2']/p/a");
+	By Applied_underriters = By.xpath("//*[@id='contentBlock2']/p/strong/a");
 	By applied_heading = By.xpath("//*[@id='contentBlock0']/h4[2]");
 	
 	By Text_load  =By.xpath("//*[@id='contentBlock0']/h3");
@@ -313,14 +313,14 @@ public class WhatWeOffer_page {
 		driver.findElement(Applied_underriters).click();
 		Thread.sleep(3000);
 		
-        Set<String> handlesSet = driver.getWindowHandles();
+       /* Set<String> handlesSet = driver.getWindowHandles();
         List<String> handlesList = new ArrayList<String>(handlesSet);
-        driver.switchTo().window(handlesList.get(1));
+        driver.switchTo().window(handlesList.get(1));*/
        String Applied_underritersURL  =  driver.getCurrentUrl();
        System.out.println("Applied_underriters URL = " + Applied_underritersURL);
-        driver.close();
+     /*   driver.close();
         driver.switchTo().window(handlesList.get(0));
-		
+	*/	
         Thread.sleep(3000);
         
         assertTrue(Applied_underritersURL.contains(solution_URL));

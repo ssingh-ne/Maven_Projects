@@ -3,13 +3,20 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
+      <class name="JumboGC_Test_case_prod.Side_Heading">
         <methods>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="Carriers"/>
+          <include name="Header_Footer"/>
         </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
+      </class> <!-- JumboGC_Test_case_prod.Side_Heading -->
+      <class name="JumboGC_Test_case_prod.Header_footer">
+        <methods>
+          <include name="Footer_Privacy"/>
+          <include name="Header_Login"/>
+          <include name="Footer_linkedIN"/>
+          <include name="Footer_Facebook"/>
+          <include name="Footer_Instagram"/>
+        </methods>
+      </class> <!-- JumboGC_Test_case_prod.Header_footer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

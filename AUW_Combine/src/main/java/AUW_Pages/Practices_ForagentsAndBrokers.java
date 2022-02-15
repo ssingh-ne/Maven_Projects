@@ -40,17 +40,17 @@ WebDriver driver;
 	By Column11_Heading = By.xpath("(//*[@rel='noopener noreferrer'])[11]");
 	By Contact_US       = By.xpath("(//*[@rel='noopener noreferrer'])[13]");
 	
-	String Exp_Coumn1_URL  = "https://moretolove.auw.com/what-we-offer/workers-compensation"; 
-	String Exp_Coumn2_URL  = "https://moretolove.auw.com/what-we-offer/transportation-liability"; 
-	String Exp_Coumn3_URL  = "https://moretolove.auw.com/what-we-offer/construction-p-e"; 
-	String Exp_Coumn4_URL  = "https://moretolove.auw.com/what-we-offer/homeowners-wildfire"; 
-	String Exp_Coumn5_URL  = "https://moretolove.auw.com/what-we-offer/fine-art-collections"; 
-	String Exp_Coumn6_URL  = "https://moretolove.auw.com/what-we-offer/enviro-pollution"; 
-	String Exp_Coumn7_URL  = "https://moretolove.auw.com/what-we-offer/financial-lines"; 
-	String Exp_Coumn8_URL  = "https://moretolove.auw.com/what-we-offer/structured-insurance"; 
-	String Exp_Coumn9_URL  = "https://moretolove.auw.com/what-we-offer/property"; 
-	String Exp_Coumn10_URL = "https://moretolove.auw.com/what-we-offer/fronting-programs"; 
-	String Exp_Coumn11_URL = "https://moretolove.auw.com/what-we-offer/reinsurance"; 
+	String Exp_Coumn1_URL  = "https://www.moretolove.auw.com/what-we-offer/workers-compensation"; 
+	String Exp_Coumn2_URL  = "https://www.moretolove.auw.com/what-we-offer/transportation-liability"; 
+	String Exp_Coumn3_URL  = "https://www.moretolove.auw.com/what-we-offer/construction-p-e"; 
+	String Exp_Coumn4_URL  = "https://www.moretolove.auw.com/what-we-offer/homeowners-wildfire"; 
+	String Exp_Coumn5_URL  = "https://www.moretolove.auw.com/what-we-offer/fine-art-collections"; 
+	String Exp_Coumn6_URL  = "https://www.moretolove.auw.com/what-we-offer/enviro-pollution"; 
+	String Exp_Coumn7_URL  = "https://www.moretolove.auw.com/what-we-offer/financial-lines"; 
+	String Exp_Coumn8_URL  = "https://www.moretolove.auw.com/what-we-offer/structured-insurance"; 
+	String Exp_Coumn9_URL  = "https://www.moretolove.auw.com/what-we-offer/property"; 
+	String Exp_Coumn10_URL = "https://www.moretolove.auw.com/what-we-offer/fronting-programs"; 
+	String Exp_Coumn11_URL = "https://www.moretolove.auw.com/what-we-offer/reinsurance"; 
 	String Exp_contactUs   = "https://www.bigdoghq.com/";
 	
 	public void  Practices_link_agentBrokers () throws InterruptedException {
