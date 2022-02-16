@@ -5,45 +5,45 @@
       <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
       <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
       <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
       <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
       <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
     </line>
     <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Browser Session End=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Browser Session End=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Browser Session End=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Browser Session End=====]]>
-    </line>
-    <line>
       <![CDATA[=====Browser Session End=====]]>
     </line>
     <line>
@@ -65,9 +65,6 @@
       <![CDATA[=====firefox Browser Session Started=====]]>
     </line>
     <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
       <![CDATA[=====Browser Session End=====]]>
     </line>
     <line>
@@ -77,27 +74,30 @@
       <![CDATA[=====Application Started=====]]>
     </line>
     <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
       <![CDATA[=====Browser Session End=====]]>
     </line>
     <line>
       <![CDATA[=====firefox Browser Session Started=====]]>
     </line>
     <line>
-      <![CDATA[=====Application Started=====]]>
+      <![CDATA[=====Browser Session End=====]]>
     </line>
     <line>
-      <![CDATA[=====Browser Session End=====]]>
+      <![CDATA[=====Application Started=====]]>
     </line>
     <line>
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="320373" started-at="2022-02-15T17:49:51Z" finished-at="2022-02-15T17:55:11Z">
+  <suite name="Suite" duration-ms="442633" started-at="2022-02-16T15:16:01Z" finished-at="2022-02-16T15:23:24Z">
     <groups>
     </groups>
-    <test name="Casuality_ChromeTest_Production" duration-ms="116198" started-at="2022-02-15T17:49:51Z" finished-at="2022-02-15T17:51:47Z">
-      <class name="Casuality_Prod_TC.Menu_Press_Room">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Prod_TC.Menu_Press_Room@6ea6d14e]" name="setupApplication" is-config="true" duration-ms="30055" started-at="2022-02-15T23:19:51Z" finished-at="2022-02-15T23:20:21Z">
+    <test name="Casuality_ChromeTest_Development" duration-ms="274658" started-at="2022-02-16T15:16:01Z" finished-at="2022-02-16T15:20:36Z">
+      <class name="Casuality_Dev_TC.Menu_Press_Room">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@1b40d5f0]" name="setupApplication" is-config="true" duration-ms="5474" started-at="2022-02-16T20:48:10Z" finished-at="2022-02-16T20:48:15Z">
           <params>
             <param index="0">
               <value>
@@ -114,15 +114,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_Press_Room@6ea6d14e]" name="HomePage" duration-ms="62084" started-at="2022-02-15T23:20:21Z" finished-at="2022-02-15T23:21:23Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@1b40d5f0]" name="HomePage" duration-ms="52861" started-at="2022-02-16T20:48:15Z" finished-at="2022-02-16T20:49:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_Press_Room@6ea6d14e]" name="tearDown" is-config="true" duration-ms="21489" started-at="2022-02-15T23:21:23Z" finished-at="2022-02-15T23:21:45Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@1b40d5f0]" name="tearDown" is-config="true" duration-ms="1482" started-at="2022-02-16T20:49:08Z" finished-at="2022-02-16T20:49:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_Press_Room.HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_Press_Room@6ea6d14e] output={null}]]]>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_Press_Room.HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@1b40d5f0] output={null}]]]>
               </value>
             </param>
           </params>
@@ -132,9 +132,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Menu_Press_Room -->
-      <class name="Casuality_Prod_TC.Menu_Contact_Us">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Prod_TC.Menu_Contact_Us@1b40d5f0]" name="setupApplication" is-config="true" duration-ms="29014" started-at="2022-02-15T23:19:51Z" finished-at="2022-02-15T23:20:20Z">
+      </class> <!-- Casuality_Dev_TC.Menu_Press_Room -->
+      <class name="Casuality_Dev_TC.Home_page">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Dev_TC.Home_page@16c0663d]" name="setupApplication" is-config="true" duration-ms="5883" started-at="2022-02-16T20:46:56Z" finished-at="2022-02-16T20:47:02Z">
           <params>
             <param index="0">
               <value>
@@ -151,15 +151,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_Contact_Us@1b40d5f0]" name="HomePage" duration-ms="25679" started-at="2022-02-15T23:20:20Z" finished-at="2022-02-15T23:20:46Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Dev_TC.Home_page@16c0663d]" name="HomePage" duration-ms="65770" started-at="2022-02-16T20:47:02Z" finished-at="2022-02-16T20:48:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_Contact_Us@1b40d5f0]" name="tearDown" is-config="true" duration-ms="55177" started-at="2022-02-15T23:20:46Z" finished-at="2022-02-15T23:21:41Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Home_page@16c0663d]" name="tearDown" is-config="true" duration-ms="2657" started-at="2022-02-16T20:48:07Z" finished-at="2022-02-16T20:48:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_Contact_Us.HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_Contact_Us@1b40d5f0] output={null}]]]>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Home_page.HomePage()[pri:0, instance:Casuality_Dev_TC.Home_page@16c0663d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -169,9 +169,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Menu_Contact_Us -->
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@23223dd8]" name="setupApplication" is-config="true" duration-ms="32327" started-at="2022-02-15T23:19:51Z" finished-at="2022-02-15T23:20:23Z">
+      </class> <!-- Casuality_Dev_TC.Home_page -->
+      <class name="Casuality_Dev_TC.Menu_About_US">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Dev_TC.Menu_About_US@23223dd8]" name="setupApplication" is-config="true" duration-ms="7119" started-at="2022-02-16T20:49:41Z" finished-at="2022-02-16T20:49:48Z">
           <params>
             <param index="0">
               <value>
@@ -188,15 +188,52 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@23223dd8]" name="Carriers" duration-ms="38832" started-at="2022-02-15T23:20:23Z" finished-at="2022-02-15T23:21:02Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_About_US@23223dd8]" name="HomePage" duration-ms="47378" started-at="2022-02-16T20:49:48Z" finished-at="2022-02-16T20:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_About_US@23223dd8]" name="tearDown" is-config="true" duration-ms="890" started-at="2022-02-16T20:50:35Z" finished-at="2022-02-16T20:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_About_US.HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_About_US@23223dd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Casuality_Dev_TC.Menu_About_US -->
+      <class name="Casuality_Dev_TC.Menu_Our_Carriers">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@4ec6a292]" name="setupApplication" is-config="true" duration-ms="19198" started-at="2022-02-16T20:46:01Z" finished-at="2022-02-16T20:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@4ec6a292]" name="Carriers" duration-ms="34157" started-at="2022-02-16T20:46:21Z" finished-at="2022-02-16T20:46:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Carriers -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@23223dd8]" name="tearDown" is-config="true" duration-ms="15225" started-at="2022-02-15T23:21:02Z" finished-at="2022-02-15T23:21:17Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@4ec6a292]" name="tearDown" is-config="true" duration-ms="965" started-at="2022-02-16T20:46:55Z" finished-at="2022-02-16T20:46:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Carriers status=SUCCESS method=Menu_Our_Carriers.Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@23223dd8] output={null}]]]>
+                <![CDATA[[TestResult name=Carriers status=SUCCESS method=Menu_Our_Carriers.Carriers()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@4ec6a292] output={null}]]]>
               </value>
             </param>
           </params>
@@ -206,9 +243,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
-      <class name="Casuality_Prod_TC.Menu_About_US">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Prod_TC.Menu_About_US@4ec6a292]" name="setupApplication" is-config="true" duration-ms="30690" started-at="2022-02-15T23:19:51Z" finished-at="2022-02-15T23:20:22Z">
+      </class> <!-- Casuality_Dev_TC.Menu_Our_Carriers -->
+      <class name="Casuality_Dev_TC.Menu_Contact_Us">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Dev_TC.Menu_Contact_Us@6ea6d14e]" name="setupApplication" is-config="true" duration-ms="7018" started-at="2022-02-16T20:49:10Z" finished-at="2022-02-16T20:49:17Z">
           <params>
             <param index="0">
               <value>
@@ -225,15 +262,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_About_US@4ec6a292]" name="HomePage" duration-ms="61928" started-at="2022-02-15T23:20:22Z" finished-at="2022-02-15T23:21:24Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_Contact_Us@6ea6d14e]" name="HomePage" duration-ms="22805" started-at="2022-02-16T20:49:17Z" finished-at="2022-02-16T20:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_About_US@4ec6a292]" name="tearDown" is-config="true" duration-ms="18942" started-at="2022-02-15T23:21:24Z" finished-at="2022-02-15T23:21:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_Contact_Us@6ea6d14e]" name="tearDown" is-config="true" duration-ms="944" started-at="2022-02-16T20:49:40Z" finished-at="2022-02-16T20:49:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_About_US.HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_About_US@4ec6a292] output={null}]]]>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_Contact_Us.HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_Contact_Us@6ea6d14e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -243,48 +280,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Menu_About_US -->
-      <class name="Casuality_Prod_TC.Home_page">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Prod_TC.Home_page@16c0663d]" name="setupApplication" is-config="true" duration-ms="30818" started-at="2022-02-15T23:19:51Z" finished-at="2022-02-15T23:20:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Prod_TC.Home_page@16c0663d]" name="HomePage" duration-ms="78209" started-at="2022-02-15T23:20:22Z" finished-at="2022-02-15T23:21:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Home_page@16c0663d]" name="tearDown" is-config="true" duration-ms="7098" started-at="2022-02-15T23:21:40Z" finished-at="2022-02-15T23:21:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Home_page.HomePage()[pri:0, instance:Casuality_Prod_TC.Home_page@16c0663d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Home_page -->
-    </test> <!-- Casuality_ChromeTest_Production -->
-    <test name="Casuality_FirefoxTest_Production" duration-ms="204137" started-at="2022-02-15T17:51:47Z" finished-at="2022-02-15T17:55:11Z">
-      <class name="Casuality_Prod_TC.Menu_Press_Room">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Prod_TC.Menu_Press_Room@3cb5cdba]" name="setupApplication" is-config="true" duration-ms="16308" started-at="2022-02-15T23:23:57Z" finished-at="2022-02-15T23:24:13Z">
+      </class> <!-- Casuality_Dev_TC.Menu_Contact_Us -->
+    </test> <!-- Casuality_ChromeTest_Development -->
+    <test name="Casuality_FirefoxTest_Development" duration-ms="167943" started-at="2022-02-16T15:20:36Z" finished-at="2022-02-16T15:23:24Z">
+      <class name="Casuality_Dev_TC.Menu_Press_Room">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@1b0375b3]" name="setupApplication" is-config="true" duration-ms="12830" started-at="2022-02-16T20:50:36Z" finished-at="2022-02-16T20:50:49Z">
           <params>
             <param index="0">
               <value>
@@ -301,15 +301,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_Press_Room@3cb5cdba]" name="HomePage" duration-ms="55747" started-at="2022-02-15T23:24:13Z" finished-at="2022-02-15T23:25:09Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@1b0375b3]" name="HomePage" duration-ms="55057" started-at="2022-02-16T20:50:49Z" finished-at="2022-02-16T20:51:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_Press_Room@3cb5cdba]" name="tearDown" is-config="true" duration-ms="2178" started-at="2022-02-15T23:25:09Z" finished-at="2022-02-15T23:25:11Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@1b0375b3]" name="tearDown" is-config="true" duration-ms="1602" started-at="2022-02-16T20:51:44Z" finished-at="2022-02-16T20:51:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_Press_Room.HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_Press_Room@3cb5cdba] output={null}]]]>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_Press_Room.HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@1b0375b3] output={null}]]]>
               </value>
             </param>
           </params>
@@ -319,9 +319,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Menu_Press_Room -->
-      <class name="Casuality_Prod_TC.Menu_Contact_Us">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Prod_TC.Menu_Contact_Us@129a8472]" name="setupApplication" is-config="true" duration-ms="13447" started-at="2022-02-15T23:23:15Z" finished-at="2022-02-15T23:23:29Z">
+      </class> <!-- Casuality_Dev_TC.Menu_Press_Room -->
+      <class name="Casuality_Dev_TC.Home_page">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Dev_TC.Home_page@1134affc]" name="setupApplication" is-config="true" duration-ms="13003" started-at="2022-02-16T20:50:36Z" finished-at="2022-02-16T20:50:49Z">
           <params>
             <param index="0">
               <value>
@@ -338,15 +338,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_Contact_Us@129a8472]" name="HomePage" duration-ms="23611" started-at="2022-02-15T23:23:29Z" finished-at="2022-02-15T23:23:52Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Dev_TC.Home_page@1134affc]" name="HomePage" duration-ms="65638" started-at="2022-02-16T20:50:49Z" finished-at="2022-02-16T20:51:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_Contact_Us@129a8472]" name="tearDown" is-config="true" duration-ms="4618" started-at="2022-02-15T23:23:52Z" finished-at="2022-02-15T23:23:57Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Home_page@1134affc]" name="tearDown" is-config="true" duration-ms="1776" started-at="2022-02-16T20:51:55Z" finished-at="2022-02-16T20:51:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_Contact_Us.HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_Contact_Us@129a8472] output={null}]]]>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Home_page.HomePage()[pri:0, instance:Casuality_Dev_TC.Home_page@1134affc] output={null}]]]>
               </value>
             </param>
           </params>
@@ -356,9 +356,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Menu_Contact_Us -->
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@1134affc]" name="setupApplication" is-config="true" duration-ms="13159" started-at="2022-02-15T23:23:39Z" finished-at="2022-02-15T23:23:52Z">
+      </class> <!-- Casuality_Dev_TC.Home_page -->
+      <class name="Casuality_Dev_TC.Menu_About_US">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Dev_TC.Menu_About_US@d041cf]" name="setupApplication" is-config="true" duration-ms="9681" started-at="2022-02-16T20:52:30Z" finished-at="2022-02-16T20:52:40Z">
           <params>
             <param index="0">
               <value>
@@ -375,15 +375,52 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@1134affc]" name="Carriers" duration-ms="35839" started-at="2022-02-15T23:23:52Z" finished-at="2022-02-15T23:24:28Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_About_US@d041cf]" name="HomePage" duration-ms="42337" started-at="2022-02-16T20:52:40Z" finished-at="2022-02-16T20:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_About_US@d041cf]" name="tearDown" is-config="true" duration-ms="1516" started-at="2022-02-16T20:53:22Z" finished-at="2022-02-16T20:53:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_About_US.HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_About_US@d041cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Casuality_Dev_TC.Menu_About_US -->
+      <class name="Casuality_Dev_TC.Menu_Our_Carriers">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@129a8472]" name="setupApplication" is-config="true" duration-ms="11288" started-at="2022-02-16T20:51:45Z" finished-at="2022-02-16T20:51:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@129a8472]" name="Carriers" duration-ms="35637" started-at="2022-02-16T20:51:57Z" finished-at="2022-02-16T20:52:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Carriers -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@1134affc]" name="tearDown" is-config="true" duration-ms="6593" started-at="2022-02-15T23:24:28Z" finished-at="2022-02-15T23:24:35Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@129a8472]" name="tearDown" is-config="true" duration-ms="5798" started-at="2022-02-16T20:52:32Z" finished-at="2022-02-16T20:52:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Carriers status=SUCCESS method=Menu_Our_Carriers.Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@1134affc] output={null}]]]>
+                <![CDATA[[TestResult name=Carriers status=SUCCESS method=Menu_Our_Carriers.Carriers()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@129a8472] output={null}]]]>
               </value>
             </param>
           </params>
@@ -393,9 +430,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
-      <class name="Casuality_Prod_TC.Menu_About_US">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Prod_TC.Menu_About_US@d041cf]" name="setupApplication" is-config="true" duration-ms="17477" started-at="2022-02-15T23:21:47Z" finished-at="2022-02-15T23:22:05Z">
+      </class> <!-- Casuality_Dev_TC.Menu_Our_Carriers -->
+      <class name="Casuality_Dev_TC.Menu_Contact_Us">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Dev_TC.Menu_Contact_Us@56cbfb61]" name="setupApplication" is-config="true" duration-ms="10064" started-at="2022-02-16T20:51:56Z" finished-at="2022-02-16T20:52:06Z">
           <params>
             <param index="0">
               <value>
@@ -412,15 +449,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_About_US@d041cf]" name="HomePage" duration-ms="91130" started-at="2022-02-15T23:22:05Z" finished-at="2022-02-15T23:23:36Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_Contact_Us@56cbfb61]" name="HomePage" duration-ms="21774" started-at="2022-02-16T20:52:06Z" finished-at="2022-02-16T20:52:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_About_US@d041cf]" name="tearDown" is-config="true" duration-ms="3239" started-at="2022-02-15T23:23:36Z" finished-at="2022-02-15T23:23:39Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_Contact_Us@56cbfb61]" name="tearDown" is-config="true" duration-ms="2149" started-at="2022-02-16T20:52:28Z" finished-at="2022-02-16T20:52:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_About_US.HomePage()[pri:0, instance:Casuality_Prod_TC.Menu_About_US@d041cf] output={null}]]]>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_Contact_Us.HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_Contact_Us@56cbfb61] output={null}]]]>
               </value>
             </param>
           </params>
@@ -430,44 +467,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Menu_About_US -->
-      <class name="Casuality_Prod_TC.Home_page">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Casuality_Prod_TC.Home_page@56cbfb61]" name="setupApplication" is-config="true" duration-ms="17632" started-at="2022-02-15T23:21:47Z" finished-at="2022-02-15T23:22:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Prod_TC.Home_page@56cbfb61]" name="HomePage" duration-ms="66689" started-at="2022-02-15T23:22:05Z" finished-at="2022-02-15T23:23:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Home_page@56cbfb61]" name="tearDown" is-config="true" duration-ms="3893" started-at="2022-02-15T23:23:11Z" finished-at="2022-02-15T23:23:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Home_page.HomePage()[pri:0, instance:Casuality_Prod_TC.Home_page@56cbfb61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Home_page -->
-    </test> <!-- Casuality_FirefoxTest_Production -->
+      </class> <!-- Casuality_Dev_TC.Menu_Contact_Us -->
+    </test> <!-- Casuality_FirefoxTest_Development -->
   </suite> <!-- Suite -->
 </testng-results>
