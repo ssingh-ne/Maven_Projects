@@ -1,61 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="none">
-  <parameter name="browser" value="firefox"/>
-  <test name="Warranty_chrome_Dev(failed)" parallel="classes">
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Warranty_Test_Case_Dev.Our_Partner">
+      <class name="Tradewel_Test_Cases_Development.comprehensive_Protection">
         <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="Partner2"/>
-          <include name="Partner1"/>
           <include name="tearDown"/>
-          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="Comprehensive"/>
         </methods>
-      </class> <!-- Warranty_Test_Case_Dev.Our_Partner -->
-      <class name="Warranty_Test_Case_Dev.About_US">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.About_US -->
-      <class name="Warranty_Test_Case_Dev.NewsEvents">
-        <methods>
-          <include name="NewsEvents"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.NewsEvents -->
-      <class name="Warranty_Test_Case_Dev.Contact_US">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.Contact_US -->
-      <class name="Warranty_Test_Case_Dev.HomePage_Testcase">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.HomePage_Testcase -->
-      <class name="Warranty_Test_Case_Dev.Partner_With_US">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Dev.Partner_With_US -->
+      </class> <!-- Tradewel_Test_Cases_Development.comprehensive_Protection -->
     </classes>
-  </test> <!-- Warranty_chrome_Dev(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

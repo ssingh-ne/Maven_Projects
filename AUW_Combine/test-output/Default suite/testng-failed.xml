@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="MTL_Test_Cases_Prod.What_we_offer1_TC">
+      <class name="Tradewel_Test_Cases_Development.comprehensive_Protection">
         <methods>
-          <include name="setupApplication"/>
           <include name="tearDown"/>
-          <include name="Heading11"/>
+          <include name="setupApplication"/>
+          <include name="Comprehensive"/>
         </methods>
-      </class> <!-- MTL_Test_Cases_Prod.What_we_offer1_TC -->
+      </class> <!-- Tradewel_Test_Cases_Development.comprehensive_Protection -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
