@@ -24,14 +24,14 @@ public class Base_class {
 	@Parameters ("browser")
 	 @BeforeMethod
 
- /*public void setupApplication()
+/* public void setupApplication()
 		{
 			
 			Reporter.log("=====Browser Session Started=====", true);
 			
-			// System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
 			
-		//	driver=new ChromeDriver();
+		    driver=new ChromeDriver();
 			
 		System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
 	               
@@ -46,9 +46,8 @@ public class Base_class {
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		} */
-
-
+		} 
+*/
 	 public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {

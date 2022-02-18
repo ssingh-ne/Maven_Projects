@@ -35,10 +35,10 @@ public class Home_page {
 	String Dev_What_weDo_exp = "https://develop--credit-global.netlify.app/what-we-do";
 	
 	
-	String Prod_Login_URL_EXP  = "https://cg.com/login";
-	String Prod_Contact_us_exp = "https://cg.com/contact-us";
-	String Prod_Our_approach_exp = "https://cg.com/our-approach";
-	String Prod_What_weDo_exp = "https://cg.com/what-we-do";
+	String Prod_Login_URL_EXP  = "https://www.cg.com/login";
+	String Prod_Contact_us_exp = "https://www.cg.com/contact-us";
+	String Prod_Our_approach_exp = "https://www.cg.com/our-approach";
+	String Prod_What_weDo_exp = "https://www.cg.com/what-we-do";
 	
 public Home_page (WebDriver driver){
 		

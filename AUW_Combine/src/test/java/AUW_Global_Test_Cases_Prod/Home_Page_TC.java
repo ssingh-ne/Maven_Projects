@@ -16,10 +16,10 @@ public class Home_Page_TC extends Base_class {
 		System.out.println("Open website, Verify all links and buttons");  
 		
 		
-		String Expected_URl_LearnMore = "https://auw.global/about";
-		String Expected_URl_AfterLogoClicked = "https://auw.global/";
-		String Expected_URl_Actual_MoreBtn = "https://auw.global/partners";
-		String Expected_URl_Actual_Disclaimer ="https://auw.global/privacy-policy";
+		String Expected_URl_LearnMore = "https://www.auw.global/about";
+		String Expected_URl_AfterLogoClicked = "https://www.auw.global/";
+		String Expected_URl_Actual_MoreBtn = "https://www.auw.global/partners";
+		String Expected_URl_Actual_Disclaimer ="https://www.auw.global/privacy-policy";
 		
 		
 		

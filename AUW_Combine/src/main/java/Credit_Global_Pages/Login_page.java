@@ -21,7 +21,7 @@ public class Login_page {
     By forgot_pass = By.xpath("//*[text()='Forgot Password']");
     
     String Forgot_password_url_exp = "https://develop--credit-global.netlify.app/resetpassword";
-    String Prod_Forgot_password_url_exp = "https://cg.com/resetpassword";
+    String Prod_Forgot_password_url_exp = "https://www.cg.com/resetpassword";
     
     
    public void forgot_password () throws InterruptedException {
