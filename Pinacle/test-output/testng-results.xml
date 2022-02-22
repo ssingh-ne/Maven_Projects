@@ -38,12 +38,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="319814" started-at="2022-01-03T16:40:11Z" finished-at="2022-01-03T16:45:31Z">
+  <suite name="Pinacle_Prod" duration-ms="304360" started-at="2022-02-18T09:40:00Z" finished-at="2022-02-18T09:45:04Z">
     <groups>
     </groups>
-    <test name="Pinnacle_Chrome_Dev" duration-ms="156668" started-at="2022-01-03T16:40:11Z" finished-at="2022-01-03T16:42:48Z">
-      <class name="Pinnacle_Test_Cases_Development.WatsNew">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Development.WatsNew@256216b3]" name="setupApplication" is-config="true" duration-ms="12318" started-at="2022-01-03T22:10:11Z" finished-at="2022-01-03T22:10:23Z">
+    <test name="Pinnacle_Chrome_Dev" duration-ms="150192" started-at="2022-02-18T09:40:00Z" finished-at="2022-02-18T09:42:30Z">
+      <class name="Pinnacle_Test_Cases_Production.WatsNew">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@546a03af]" name="setupApplication" is-config="true" duration-ms="7283" started-at="2022-02-18T15:10:55Z" finished-at="2022-02-18T15:11:03Z">
           <params>
             <param index="0">
               <value>
@@ -60,15 +60,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Development.WatsNew@256216b3]" name="WhatsNew" duration-ms="88262" started-at="2022-01-03T22:10:23Z" finished-at="2022-01-03T22:11:52Z">
+        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@546a03af]" name="WhatsNew" duration-ms="86378" started-at="2022-02-18T15:11:03Z" finished-at="2022-02-18T15:12:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WhatsNew -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Development.WatsNew@256216b3]" name="tearDown" is-config="true" duration-ms="874" started-at="2022-01-03T22:11:52Z" finished-at="2022-01-03T22:11:53Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@546a03af]" name="tearDown" is-config="true" duration-ms="895" started-at="2022-02-18T15:12:29Z" finished-at="2022-02-18T15:12:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WhatsNew status=SUCCESS method=WatsNew.WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Development.WatsNew@256216b3] output={null}]]]>
+                <![CDATA[[TestResult name=WhatsNew status=SUCCESS method=WatsNew.WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@546a03af] output={null}]]]>
               </value>
             </param>
           </params>
@@ -78,9 +78,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Pinnacle_Test_Cases_Development.WatsNew -->
-      <class name="Pinnacle_Test_Cases_Development.HomePage_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Development.HomePage_TC@546a03af]" name="setupApplication" is-config="true" duration-ms="8348" started-at="2022-01-03T22:11:53Z" finished-at="2022-01-03T22:12:01Z">
+      </class> <!-- Pinnacle_Test_Cases_Production.WatsNew -->
+      <class name="Pinnacle_Test_Cases_Production.HomePage_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@256216b3]" name="setupApplication" is-config="true" duration-ms="9190" started-at="2022-02-18T15:10:00Z" finished-at="2022-02-18T15:10:09Z">
           <params>
             <param index="0">
               <value>
@@ -97,15 +97,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Development.HomePage_TC@546a03af]" name="main_Home_Page" duration-ms="45383" started-at="2022-01-03T22:12:01Z" finished-at="2022-01-03T22:12:46Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@256216b3]" name="main_Home_Page" duration-ms="45504" started-at="2022-02-18T15:10:09Z" finished-at="2022-02-18T15:10:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Development.HomePage_TC@546a03af]" name="tearDown" is-config="true" duration-ms="1446" started-at="2022-01-03T22:12:46Z" finished-at="2022-01-03T22:12:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@256216b3]" name="tearDown" is-config="true" duration-ms="919" started-at="2022-02-18T15:10:54Z" finished-at="2022-02-18T15:10:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=HomePage_TC.main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Development.HomePage_TC@546a03af] output={null}]]]>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=HomePage_TC.main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@256216b3] output={null}]]]>
               </value>
             </param>
           </params>
@@ -115,11 +115,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Pinnacle_Test_Cases_Development.HomePage_TC -->
+      </class> <!-- Pinnacle_Test_Cases_Production.HomePage_TC -->
     </test> <!-- Pinnacle_Chrome_Dev -->
-    <test name="Pinnacle_Firefox_Dev" duration-ms="163122" started-at="2022-01-03T16:42:48Z" finished-at="2022-01-03T16:45:31Z">
-      <class name="Pinnacle_Test_Cases_Development.WatsNew">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Development.WatsNew@7d417077]" name="setupApplication" is-config="true" duration-ms="14153" started-at="2022-01-03T22:12:48Z" finished-at="2022-01-03T22:13:02Z">
+    <test name="Pinnacle_Firefox_Dev" duration-ms="154131" started-at="2022-02-18T09:42:30Z" finished-at="2022-02-18T09:45:04Z">
+      <class name="Pinnacle_Test_Cases_Production.WatsNew">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@75bd9247]" name="setupApplication" is-config="true" duration-ms="9883" started-at="2022-02-18T15:13:29Z" finished-at="2022-02-18T15:13:38Z">
           <params>
             <param index="0">
               <value>
@@ -136,15 +136,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Development.WatsNew@7d417077]" name="WhatsNew" duration-ms="87708" started-at="2022-01-03T22:13:02Z" finished-at="2022-01-03T22:14:30Z">
+        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@75bd9247]" name="WhatsNew" duration-ms="84161" started-at="2022-02-18T15:13:38Z" finished-at="2022-02-18T15:15:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WhatsNew -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Development.WatsNew@7d417077]" name="tearDown" is-config="true" duration-ms="1409" started-at="2022-01-03T22:14:30Z" finished-at="2022-01-03T22:14:31Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@75bd9247]" name="tearDown" is-config="true" duration-ms="1457" started-at="2022-02-18T15:15:03Z" finished-at="2022-02-18T15:15:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WhatsNew status=SUCCESS method=WatsNew.WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Development.WatsNew@7d417077] output={null}]]]>
+                <![CDATA[[TestResult name=WhatsNew status=SUCCESS method=WatsNew.WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@75bd9247] output={null}]]]>
               </value>
             </param>
           </params>
@@ -154,9 +154,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Pinnacle_Test_Cases_Development.WatsNew -->
-      <class name="Pinnacle_Test_Cases_Development.HomePage_TC">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Development.HomePage_TC@75bd9247]" name="setupApplication" is-config="true" duration-ms="12766" started-at="2022-01-03T22:14:31Z" finished-at="2022-01-03T22:14:44Z">
+      </class> <!-- Pinnacle_Test_Cases_Production.WatsNew -->
+      <class name="Pinnacle_Test_Cases_Production.HomePage_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@7d417077]" name="setupApplication" is-config="true" duration-ms="11449" started-at="2022-02-18T15:12:30Z" finished-at="2022-02-18T15:12:41Z">
           <params>
             <param index="0">
               <value>
@@ -173,15 +173,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Development.HomePage_TC@75bd9247]" name="main_Home_Page" duration-ms="45534" started-at="2022-01-03T22:14:44Z" finished-at="2022-01-03T22:15:29Z">
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@7d417077]" name="main_Home_Page" duration-ms="45512" started-at="2022-02-18T15:12:41Z" finished-at="2022-02-18T15:13:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Development.HomePage_TC@75bd9247]" name="tearDown" is-config="true" duration-ms="1550" started-at="2022-01-03T22:15:29Z" finished-at="2022-01-03T22:15:31Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@7d417077]" name="tearDown" is-config="true" duration-ms="1666" started-at="2022-02-18T15:13:27Z" finished-at="2022-02-18T15:13:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=HomePage_TC.main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Development.HomePage_TC@75bd9247] output={null}]]]>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=HomePage_TC.main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@7d417077] output={null}]]]>
               </value>
             </param>
           </params>
@@ -191,7 +191,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Pinnacle_Test_Cases_Development.HomePage_TC -->
+      </class> <!-- Pinnacle_Test_Cases_Production.HomePage_TC -->
     </test> <!-- Pinnacle_Firefox_Dev -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Pinacle_Prod -->
 </testng-results>
