@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <parameter name="browser" value="firefox"/>
-  <test name="AUW_FF_Prod(failed)">
-    <parameter name="browser" value="firefox"/>
+  <parameter name="browser" value="Firefox"/>
+  <test name="AUW_FF_Dev(failed)">
+    <parameter name="browser" value="Firefox"/>
     <classes>
-      <class name="Test_Case_Prod.HomePage_TC">
+      <class name="AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev">
         <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="Home_Page"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
         </methods>
-      </class> <!-- Test_Case_Prod.HomePage_TC -->
-      <class name="Test_Case_Prod.Footer_TC">
+      </class> <!-- AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev -->
+      <class name="AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev">
         <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
+          <include name="Footer"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
         </methods>
-      </class> <!-- Test_Case_Prod.Footer_TC -->
-      <class name="Test_Case_Prod.What_We_offer_OutSideUs">
+      </class> <!-- AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev -->
+      <class name="AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev">
         <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
+          <include name="ContactUs_Page"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
         </methods>
-      </class> <!-- Test_Case_Prod.What_We_offer_OutSideUs -->
-      <class name="Test_Case_Prod.ContactUS_OutsideUS">
+      </class> <!-- AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev -->
+      <class name="AFL_Test_Cases_Dev.HomePage_TC_dev">
         <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
         </methods>
-      </class> <!-- Test_Case_Prod.ContactUS_OutsideUS -->
-      <class name="Test_Case_Prod.AboutUS_OutsideUS">
+      </class> <!-- AFL_Test_Cases_Dev.HomePage_TC_dev -->
+      <class name="AFL_Test_Cases_Dev.Footer_TC_dev">
         <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
         </methods>
-      </class> <!-- Test_Case_Prod.AboutUS_OutsideUS -->
+      </class> <!-- AFL_Test_Cases_Dev.Footer_TC_dev -->
     </classes>
-  </test> <!-- AUW_FF_Prod(failed) -->
+  </test> <!-- AUW_FF_Dev(failed) -->
 </suite> <!-- Failed suite [Suite] -->

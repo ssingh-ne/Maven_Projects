@@ -5,10 +5,13 @@
       <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
-      <![CDATA[=====Application Started=====]]>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
-      <![CDATA[=====Browser Session End=====]]>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Chrome Browser Session Started=====]]>
@@ -17,10 +20,13 @@
       <![CDATA[=====Application Started=====]]>
     </line>
     <line>
-      <![CDATA[=====Browser Session End=====]]>
+      <![CDATA[=====Application Started=====]]>
     </line>
     <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
@@ -29,16 +35,25 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
     <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
+      <![CDATA[=====Browser Session End=====]]>
     </line>
     <line>
       <![CDATA[=====Browser Session End=====]]>
     </line>
     <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
@@ -72,32 +87,17 @@
     </line>
     <line>
       <![CDATA[=====Browser Session End=====]]>
-    </line>
-    <line>
-      <![CDATA[=====firefox Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Browser Session End=====]]>
-    </line>
-    <line>
-      <![CDATA[=====firefox Browser Session Started=====]]>
-    </line>
-    <line>
-      <![CDATA[=====Application Started=====]]>
     </line>
     <line>
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="1069600" started-at="2022-01-03T15:40:21Z" finished-at="2022-01-03T15:58:11Z">
+  <suite name="Suite" duration-ms="575411" started-at="2022-02-24T12:10:42Z" finished-at="2022-02-24T12:20:18Z">
     <groups>
     </groups>
-    <test name="AUW_Chrome_Dev" duration-ms="534549" started-at="2022-01-03T15:40:21Z" finished-at="2022-01-03T15:49:16Z">
-      <class name="AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="setupApplication" is-config="true" duration-ms="3547" started-at="2022-01-03T21:18:46Z" finished-at="2022-01-03T21:18:49Z">
+    <test name="AUW_Chrome_Prod" duration-ms="293588" started-at="2022-02-24T12:10:42Z" finished-at="2022-02-24T12:15:36Z">
+      <class name="AFL_Test_Case_Prod.What_We_offer_OutSideUs">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="setupApplication" is-config="true" duration-ms="17299" started-at="2022-02-24T17:40:42Z" finished-at="2022-02-24T17:41:00Z">
           <params>
             <param index="0">
               <value>
@@ -114,52 +114,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="main_Home_Page" duration-ms="25370" started-at="2022-01-03T21:18:49Z" finished-at="2022-01-03T21:19:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e]" name="tearDown" is-config="true" duration-ms="749" started-at="2022-01-03T21:19:15Z" finished-at="2022-01-03T21:19:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=AboutUS_OutsideUS_dev.main_Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@6ea6d14e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev -->
-      <class name="AFL_Test_Cases_Dev.Footer_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="setupApplication" is-config="true" duration-ms="3809" started-at="2022-01-03T21:17:31Z" finished-at="2022-01-03T21:17:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="Footer" duration-ms="70566" started-at="2022-01-03T21:17:35Z" finished-at="2022-01-03T21:18:45Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="Footer" duration-ms="275367" started-at="2022-02-24T17:41:00Z" finished-at="2022-02-24T17:45:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@1b40d5f0]" name="tearDown" is-config="true" duration-ms="796" started-at="2022-01-03T21:18:45Z" finished-at="2022-01-03T21:18:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.What_We_offer_OutSideUs@23223dd8]" name="tearDown" is-config="true" duration-ms="857" started-at="2022-02-24T17:45:35Z" finished-at="2022-02-24T17:45:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_TC_dev.Footer()[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@1b40d5f0] output={null}]]]>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=What_We_offer_OutSideUs.Footer()[pri:0, instance:AFL_Test_Case_Prod.What_We_offer_OutSideUs@23223dd8] output={null}]]]>
               </value>
             </param>
           </params>
@@ -169,9 +132,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Cases_Dev.Footer_TC_dev -->
-      <class name="AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="setupApplication" is-config="true" duration-ms="7360" started-at="2022-01-03T21:10:21Z" finished-at="2022-01-03T21:10:28Z">
+      </class> <!-- AFL_Test_Case_Prod.What_We_offer_OutSideUs -->
+      <class name="AFL_Test_Case_Prod.HomePage_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Case_Prod.HomePage_TC@6ea6d14e]" name="setupApplication" is-config="true" duration-ms="14388" started-at="2022-02-24T17:40:42Z" finished-at="2022-02-24T17:40:57Z">
           <params>
             <param index="0">
               <value>
@@ -188,52 +151,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="ContactUs_Page" duration-ms="20765" started-at="2022-01-03T21:10:28Z" finished-at="2022-01-03T21:10:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ContactUs_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8]" name="tearDown" is-config="true" duration-ms="990" started-at="2022-01-03T21:10:49Z" finished-at="2022-01-03T21:10:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ContactUs_Page status=SUCCESS method=ContactUS_OutsideUS_dev.ContactUs_Page()[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@23223dd8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev -->
-      <class name="AFL_Test_Cases_Dev.HomePage_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="setupApplication" is-config="true" duration-ms="3848" started-at="2022-01-03T21:15:32Z" finished-at="2022-01-03T21:15:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="Home_Page" duration-ms="114216" started-at="2022-01-03T21:15:36Z" finished-at="2022-01-03T21:17:30Z">
+        <test-method status="PASS" signature="Home_Page()[pri:0, instance:AFL_Test_Case_Prod.HomePage_TC@6ea6d14e]" name="Home_Page" duration-ms="127627" started-at="2022-02-24T17:40:57Z" finished-at="2022-02-24T17:43:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@4ec6a292]" name="tearDown" is-config="true" duration-ms="901" started-at="2022-01-03T21:17:30Z" finished-at="2022-01-03T21:17:31Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.HomePage_TC@6ea6d14e]" name="tearDown" is-config="true" duration-ms="1076" started-at="2022-02-24T17:43:04Z" finished-at="2022-02-24T17:43:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Home_Page status=SUCCESS method=HomePage_TC_dev.Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@4ec6a292] output={null}]]]>
+                <![CDATA[[TestResult name=Home_Page status=SUCCESS method=HomePage_TC.Home_Page()[pri:0, instance:AFL_Test_Case_Prod.HomePage_TC@6ea6d14e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -243,9 +169,9 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Cases_Dev.HomePage_TC_dev -->
-      <class name="AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="setupApplication" is-config="true" duration-ms="4331" started-at="2022-01-03T21:10:50Z" finished-at="2022-01-03T21:10:55Z">
+      </class> <!-- AFL_Test_Case_Prod.HomePage_TC -->
+      <class name="AFL_Test_Case_Prod.ContactUS_OutsideUS">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="setupApplication" is-config="true" duration-ms="16832" started-at="2022-02-24T17:40:42Z" finished-at="2022-02-24T17:40:59Z">
           <params>
             <param index="0">
               <value>
@@ -262,128 +188,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="Footer" duration-ms="276452" started-at="2022-01-03T21:10:55Z" finished-at="2022-01-03T21:15:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d]" name="tearDown" is-config="true" duration-ms="799" started-at="2022-01-03T21:15:31Z" finished-at="2022-01-03T21:15:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Footer status=SUCCESS method=What_We_offer_OutSideUs_dev.Footer()[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@16c0663d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev -->
-    </test> <!-- AUW_Chrome_Dev -->
-    <test name="AUW_FF_Dev" duration-ms="535031" started-at="2022-01-03T15:49:16Z" finished-at="2022-01-03T15:58:11Z">
-      <class name="AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="setupApplication" is-config="true" duration-ms="7206" started-at="2022-01-03T21:27:37Z" finished-at="2022-01-03T21:27:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="main_Home_Page" duration-ms="25543" started-at="2022-01-03T21:27:44Z" finished-at="2022-01-03T21:28:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba]" name="tearDown" is-config="true" duration-ms="1296" started-at="2022-01-03T21:28:09Z" finished-at="2022-01-03T21:28:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=AboutUS_OutsideUS_dev.main_Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@3cb5cdba] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev -->
-      <class name="AFL_Test_Cases_Dev.Footer_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@129a8472]" name="setupApplication" is-config="true" duration-ms="8102" started-at="2022-01-03T21:26:17Z" finished-at="2022-01-03T21:26:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@129a8472]" name="Footer" duration-ms="69913" started-at="2022-01-03T21:26:25Z" finished-at="2022-01-03T21:27:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@129a8472]" name="tearDown" is-config="true" duration-ms="1309" started-at="2022-01-03T21:27:35Z" finished-at="2022-01-03T21:27:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_TC_dev.Footer()[pri:0, instance:AFL_Test_Cases_Dev.Footer_TC_dev@129a8472] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Cases_Dev.Footer_TC_dev -->
-      <class name="AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="setupApplication" is-config="true" duration-ms="8622" started-at="2022-01-03T21:19:16Z" finished-at="2022-01-03T21:19:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="ContactUs_Page" duration-ms="21313" started-at="2022-01-03T21:19:24Z" finished-at="2022-01-03T21:19:46Z">
+        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:AFL_Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="ContactUs_Page" duration-ms="32684" started-at="2022-02-24T17:40:59Z" finished-at="2022-02-24T17:41:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUs_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc]" name="tearDown" is-config="true" duration-ms="1278" started-at="2022-01-03T21:19:46Z" finished-at="2022-01-03T21:19:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.ContactUS_OutsideUS@4ec6a292]" name="tearDown" is-config="true" duration-ms="30373" started-at="2022-02-24T17:41:32Z" finished-at="2022-02-24T17:42:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ContactUs_Page status=SUCCESS method=ContactUS_OutsideUS_dev.ContactUs_Page()[pri:0, instance:AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@1134affc] output={null}]]]>
+                <![CDATA[[TestResult name=ContactUs_Page status=SUCCESS method=ContactUS_OutsideUS.ContactUs_Page()[pri:0, instance:AFL_Test_Case_Prod.ContactUS_OutsideUS@4ec6a292] output={null}]]]>
               </value>
             </param>
           </params>
@@ -393,71 +206,34 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev -->
-      <class name="AFL_Test_Cases_Dev.HomePage_TC_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="setupApplication" is-config="true" duration-ms="7266" started-at="2022-01-03T21:24:12Z" finished-at="2022-01-03T21:24:19Z">
+      </class> <!-- AFL_Test_Case_Prod.ContactUS_OutsideUS -->
+      <class name="AFL_Test_Case_Prod.Footer_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Case_Prod.Footer_TC@16c0663d]" name="setupApplication" is-config="true" duration-ms="18273" started-at="2022-02-24T17:40:42Z" finished-at="2022-02-24T17:41:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="Home_Page" duration-ms="116814" started-at="2022-01-03T21:24:19Z" finished-at="2022-01-03T21:26:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@d041cf]" name="tearDown" is-config="true" duration-ms="1323" started-at="2022-01-03T21:26:16Z" finished-at="2022-01-03T21:26:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Home_Page status=SUCCESS method=HomePage_TC_dev.Home_Page()[pri:0, instance:AFL_Test_Cases_Dev.HomePage_TC_dev@d041cf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====Browser Session End=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Cases_Dev.HomePage_TC_dev -->
-      <class name="AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev">
-        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="setupApplication" is-config="true" duration-ms="7483" started-at="2022-01-03T21:19:47Z" finished-at="2022-01-03T21:19:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
-            </line>
-            <line>
-              <![CDATA[=====Application Started=====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="Footer" duration-ms="256703" started-at="2022-01-03T21:19:54Z" finished-at="2022-01-03T21:24:11Z">
+        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Case_Prod.Footer_TC@16c0663d]" name="Footer" duration-ms="79586" started-at="2022-02-24T17:41:01Z" finished-at="2022-02-24T17:42:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61]" name="tearDown" is-config="true" duration-ms="856" started-at="2022-01-03T21:24:11Z" finished-at="2022-01-03T21:24:12Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.Footer_TC@16c0663d]" name="tearDown" is-config="true" duration-ms="3224" started-at="2022-02-24T17:42:20Z" finished-at="2022-02-24T17:42:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Footer status=SUCCESS method=What_We_offer_OutSideUs_dev.Footer()[pri:0, instance:AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@56cbfb61] output={null}]]]>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_TC.Footer()[pri:0, instance:AFL_Test_Case_Prod.Footer_TC@16c0663d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -467,7 +243,231 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev -->
-    </test> <!-- AUW_FF_Dev -->
+      </class> <!-- AFL_Test_Case_Prod.Footer_TC -->
+      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="setupApplication" is-config="true" duration-ms="17229" started-at="2022-02-24T17:40:42Z" finished-at="2022-02-24T17:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="main_Home_Page" duration-ms="29096" started-at="2022-02-24T17:41:00Z" finished-at="2022-02-24T17:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_Home_Page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0]" name="tearDown" is-config="true" duration-ms="51611" started-at="2022-02-24T17:41:29Z" finished-at="2022-02-24T17:42:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=AboutUS_OutsideUS.main_Home_Page()[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@1b40d5f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
+    </test> <!-- AUW_Chrome_Prod -->
+    <test name="AUW_FF_Prod" duration-ms="281797" started-at="2022-02-24T12:15:36Z" finished-at="2022-02-24T12:20:18Z">
+      <class name="AFL_Test_Case_Prod.HomePage_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Case_Prod.HomePage_TC@3cb5cdba]" name="setupApplication" is-config="true" duration-ms="9314" started-at="2022-02-24T17:48:06Z" finished-at="2022-02-24T17:48:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Home_Page()[pri:0, instance:AFL_Test_Case_Prod.HomePage_TC@3cb5cdba]" name="Home_Page" duration-ms="113214" started-at="2022-02-24T17:48:15Z" finished-at="2022-02-24T17:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.HomePage_TC@3cb5cdba]" name="tearDown" is-config="true" duration-ms="1605" started-at="2022-02-24T17:50:08Z" finished-at="2022-02-24T17:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Home_Page status=SUCCESS method=HomePage_TC.Home_Page()[pri:0, instance:AFL_Test_Case_Prod.HomePage_TC@3cb5cdba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AFL_Test_Case_Prod.HomePage_TC -->
+      <class name="AFL_Test_Case_Prod.What_We_offer_OutSideUs">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="setupApplication" is-config="true" duration-ms="11827" started-at="2022-02-24T17:45:36Z" finished-at="2022-02-24T17:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="Footer" duration-ms="268760" started-at="2022-02-24T17:45:48Z" finished-at="2022-02-24T17:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.What_We_offer_OutSideUs@1134affc]" name="tearDown" is-config="true" duration-ms="1205" started-at="2022-02-24T17:50:17Z" finished-at="2022-02-24T17:50:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=What_We_offer_OutSideUs.Footer()[pri:0, instance:AFL_Test_Case_Prod.What_We_offer_OutSideUs@1134affc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AFL_Test_Case_Prod.What_We_offer_OutSideUs -->
+      <class name="AFL_Test_Case_Prod.ContactUS_OutsideUS">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="setupApplication" is-config="true" duration-ms="11155" started-at="2022-02-24T17:46:58Z" finished-at="2022-02-24T17:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="ContactUs_Page()[pri:0, instance:AFL_Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="ContactUs_Page" duration-ms="26134" started-at="2022-02-24T17:47:09Z" finished-at="2022-02-24T17:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs_Page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.ContactUS_OutsideUS@d041cf]" name="tearDown" is-config="true" duration-ms="2026" started-at="2022-02-24T17:47:35Z" finished-at="2022-02-24T17:47:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUs_Page status=SUCCESS method=ContactUS_OutsideUS.ContactUs_Page()[pri:0, instance:AFL_Test_Case_Prod.ContactUS_OutsideUS@d041cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AFL_Test_Case_Prod.ContactUS_OutsideUS -->
+      <class name="AFL_Test_Case_Prod.Footer_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Case_Prod.Footer_TC@56cbfb61]" name="setupApplication" is-config="true" duration-ms="11922" started-at="2022-02-24T17:45:36Z" finished-at="2022-02-24T17:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Footer()[pri:0, instance:AFL_Test_Case_Prod.Footer_TC@56cbfb61]" name="Footer" duration-ms="68257" started-at="2022-02-24T17:45:48Z" finished-at="2022-02-24T17:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.Footer_TC@56cbfb61]" name="tearDown" is-config="true" duration-ms="1667" started-at="2022-02-24T17:46:56Z" finished-at="2022-02-24T17:46:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer status=SUCCESS method=Footer_TC.Footer()[pri:0, instance:AFL_Test_Case_Prod.Footer_TC@56cbfb61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AFL_Test_Case_Prod.Footer_TC -->
+      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="setupApplication" is-config="true" duration-ms="9551" started-at="2022-02-24T17:47:37Z" finished-at="2022-02-24T17:47:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="main_Home_Page" duration-ms="16614" started-at="2022-02-24T17:47:47Z" finished-at="2022-02-24T17:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_Home_Page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@129a8472]" name="tearDown" is-config="true" duration-ms="2539" started-at="2022-02-24T17:48:03Z" finished-at="2022-02-24T17:48:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=AboutUS_OutsideUS.main_Home_Page()[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@129a8472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
+    </test> <!-- AUW_FF_Prod -->
   </suite> <!-- Suite -->
 </testng-results>
