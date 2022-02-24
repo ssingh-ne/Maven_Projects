@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 public class Contact_Us_Page {
 	
@@ -16,6 +17,11 @@ public class Contact_Us_Page {
 	By ContactUs_home = By.xpath("(//*[text()='Contact Us'])[2]");
 	By AFL_Logo = By.xpath("//*[@href='/']");
 	By top_text = By.xpath("//*[@id='app']/div[2]/div/div/div[2]/p");
+	By MiddleEastCoverage = By.xpath("//*[@id='app']/main/div[3]/div/div/div/h2");
+	By UnitedStateCoverage = By.xpath("//*[@id='app']/main/div[4]/div/div/div/h2");
+	
+	String Exp_MiddleEast = "For European and Middle East Coverages";
+	String Exp_UnitedStates = "For United States Coverages";
 	
 	String Contact_URL = "https://afl.auw.com/contact-us";
 	String Contact_URL_dev = "https://develop--applied-financial-lines.netlify.app/contact-us";
@@ -124,4 +130,33 @@ public class Contact_Us_Page {
  		
  	}
  	
+
+    public void Contact_US_Coverage_Outside_US () throws InterruptedException {
+    	
+    	JavascriptExecutor js = (JavascriptExecutor) driver;
+		WebElement Element = driver.findElement(MiddleEastCoverage);
+		js.executeScript("arguments[0].scrollIntoView();", Element);
+		
+		Thread.sleep(2000);
+		
+    	String Middle_East= driver.findElement(MiddleEastCoverage).getText();
+    	
+    	Assert.assertEquals(Middle_East, Exp_MiddleEast);
+
+    	WebElement Element2 = driver.findElement(UnitedStateCoverage);
+		js.executeScript("arguments[0].scrollIntoView();", Element2);
+		
+		Thread.sleep(2000);
+		
+    	String United_Estate = driver.findElement(UnitedStateCoverage).getText();
+    	
+    	Assert.assertEquals(United_Estate, Exp_UnitedStates);
+    	
+    	System.out.println("On contact us page - For European and Middle East Coverages - visible on top ");
+    	
+    	
+    }
+
+
+
 }

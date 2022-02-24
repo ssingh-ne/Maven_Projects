@@ -11,12 +11,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52310" started-at="2022-02-23T15:14:48Z" finished-at="2022-02-23T15:15:41Z">
+  <suite name="Default suite" duration-ms="42049" started-at="2022-02-24T16:24:37Z" finished-at="2022-02-24T16:25:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52310" started-at="2022-02-23T15:14:48Z" finished-at="2022-02-23T15:15:41Z">
-      <class name="Warranty_Test_Case_Dev.Contact_US">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Warranty_Test_Case_Dev.Contact_US@3ab39c39]" name="setupApplication" is-config="true" duration-ms="11184" started-at="2022-02-23T20:44:48Z" finished-at="2022-02-23T20:44:59Z">
+    <test name="Default test" duration-ms="42049" started-at="2022-02-24T16:24:37Z" finished-at="2022-02-24T16:25:19Z">
+      <class name="Casuality_Dev_TC.Menu_Our_Carriers">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39]" name="setupApplication" is-config="true" duration-ms="7200" started-at="2022-02-24T21:54:37Z" finished-at="2022-02-24T21:54:44Z">
           <reporter-output>
             <line>
               <![CDATA[=====FF Browser Session Started=====]]>
@@ -26,15 +26,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="ContactUS()[pri:0, instance:Warranty_Test_Case_Dev.Contact_US@3ab39c39]" name="ContactUS" duration-ms="40099" started-at="2022-02-23T20:44:59Z" finished-at="2022-02-23T20:45:40Z">
+        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39]" name="Carriers" duration-ms="33776" started-at="2022-02-24T21:54:44Z" finished-at="2022-02-24T21:55:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ContactUS -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Dev.Contact_US@3ab39c39]" name="tearDown" is-config="true" duration-ms="1006" started-at="2022-02-23T20:45:40Z" finished-at="2022-02-23T20:45:41Z">
+        </test-method> <!-- Carriers -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39]" name="tearDown" is-config="true" duration-ms="1048" started-at="2022-02-24T21:55:18Z" finished-at="2022-02-24T21:55:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ContactUS status=SUCCESS method=Contact_US.ContactUS()[pri:0, instance:Warranty_Test_Case_Dev.Contact_US@3ab39c39] output={null}]]]>
+                <![CDATA[[TestResult name=Carriers status=SUCCESS method=Menu_Our_Carriers.Carriers()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39] output={null}]]]>
               </value>
             </param>
           </params>
@@ -44,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Warranty_Test_Case_Dev.Contact_US -->
+      </class> <!-- Casuality_Dev_TC.Menu_Our_Carriers -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
