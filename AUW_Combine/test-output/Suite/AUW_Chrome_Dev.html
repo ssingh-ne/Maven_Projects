@@ -1,0 +1,171 @@
+<html>
+<head>
+<title>TestNG:  AUW_Chrome_Dev</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AUW_Chrome_Dev</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 23 19:24:08 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>817 seconds (817613 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AUW_Test_Case_dev.AUW_Experience.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_Experience</td>
+<td><div><pre>java.lang.AssertionError: Failure message expected [true] but found [false]
+	at AUW_Pages.Experience_page.Exp_card1(Experience_page.java:175)
+	at AUW_Test_Case_dev.AUW_Experience.main(AUW_Experience.java:74)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace10304615", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace10304615'><pre>java.lang.AssertionError: Failure message expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at AUW_Pages.Experience_page.Exp_card1(Experience_page.java:175)
+	at AUW_Test_Case_dev.AUW_Experience.main(AUW_Experience.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+</pre></div></td>
+<td>95</td>
+<td>AUW_Test_Case_dev.AUW_Experience@1dd92fe2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AUW_Test_Case_dev.AUW_Footer_Development.AUW_Footer()'><b>AUW_Footer</b><br>Test class: AUW_Test_Case_dev.AUW_Footer_Development</td>
+<td></td>
+<td>71</td>
+<td>AUW_Test_Case_dev.AUW_Footer_Development@6a472554</td></tr>
+<tr>
+<td title='AUW_Test_Case_dev.AUW_AboutUS.AboutUS()'><b>AboutUS</b><br>Test class: AUW_Test_Case_dev.AUW_AboutUS</td>
+<td></td>
+<td>70</td>
+<td>AUW_Test_Case_dev.AUW_AboutUS@731f8236</td></tr>
+<tr>
+<td title='AUW_Test_Case_dev.Practices_AgentsBrokers.Practices_AgentsBrokers()'><b>Practices_AgentsBrokers</b><br>Test class: AUW_Test_Case_dev.Practices_AgentsBrokers</td>
+<td></td>
+<td>61</td>
+<td>AUW_Test_Case_dev.Practices_AgentsBrokers@226a82c4</td></tr>
+<tr>
+<td title='AUW_Test_Case_dev.Practices_CustomerSeekingCoverage.Practices_CustomerSeekingCoverage()'><b>Practices_CustomerSeekingCoverage</b><br>Test class: AUW_Test_Case_dev.Practices_CustomerSeekingCoverage</td>
+<td></td>
+<td>224</td>
+<td>AUW_Test_Case_dev.Practices_CustomerSeekingCoverage@1b68b9a4</td></tr>
+<tr>
+<td title='AUW_Test_Case_dev.AUW_CallUpdate.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_CallUpdate</td>
+<td></td>
+<td>44</td>
+<td>AUW_Test_Case_dev.AUW_CallUpdate@491666ad</td></tr>
+<tr>
+<td title='AUW_Test_Case_dev.AUW_NJ_Update.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_NJ_Update</td>
+<td></td>
+<td>41</td>
+<td>AUW_Test_Case_dev.AUW_NJ_Update@4f9a3314</td></tr>
+<tr>
+<td title='AUW_Test_Case_dev.AUW_header_web_Development.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_header_web_Development</td>
+<td></td>
+<td>39</td>
+<td>AUW_Test_Case_dev.AUW_header_web_Development@176d53b2</td></tr>
+<tr>
+<td title='AUW_Test_Case_dev.AUW_Intelligence_TC.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_Intelligence_TC</td>
+<td></td>
+<td>86</td>
+<td>AUW_Test_Case_dev.AUW_Intelligence_TC@3b2c72c2</td></tr>
+<tr>
+<td title='AUW_Test_Case_dev.AUW_PPP.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_PPP</td>
+<td></td>
+<td>19</td>
+<td>AUW_Test_Case_dev.AUW_PPP@255b53dc</td></tr>
+</table><p>
+</body>
+</html>
