@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[=====FF Browser Session Started=====]]>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
@@ -11,30 +11,30 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42049" started-at="2022-02-24T16:24:37Z" finished-at="2022-02-24T16:25:19Z">
+  <suite name="Default suite" duration-ms="89862" started-at="2022-02-25T15:00:31Z" finished-at="2022-02-25T15:02:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42049" started-at="2022-02-24T16:24:37Z" finished-at="2022-02-24T16:25:19Z">
-      <class name="Casuality_Dev_TC.Menu_Our_Carriers">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39]" name="setupApplication" is-config="true" duration-ms="7200" started-at="2022-02-24T21:54:37Z" finished-at="2022-02-24T21:54:44Z">
+    <test name="Default test" duration-ms="89862" started-at="2022-02-25T15:00:31Z" finished-at="2022-02-25T15:02:01Z">
+      <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:MTL_Test_Cases_Prod.What_we_offer_URL_TC@3ab39c39]" name="setupApplication" is-config="true" duration-ms="6224" started-at="2022-02-25T20:30:31Z" finished-at="2022-02-25T20:30:37Z">
           <reporter-output>
             <line>
-              <![CDATA[=====FF Browser Session Started=====]]>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39]" name="Carriers" duration-ms="33776" started-at="2022-02-24T21:54:44Z" finished-at="2022-02-24T21:55:18Z">
+        <test-method status="PASS" signature="Heading()[pri:0, instance:MTL_Test_Cases_Prod.What_we_offer_URL_TC@3ab39c39]" name="Heading" duration-ms="82791" started-at="2022-02-25T20:30:37Z" finished-at="2022-02-25T20:32:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Carriers -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39]" name="tearDown" is-config="true" duration-ms="1048" started-at="2022-02-24T21:55:18Z" finished-at="2022-02-24T21:55:19Z">
+        </test-method> <!-- Heading -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:MTL_Test_Cases_Prod.What_we_offer_URL_TC@3ab39c39]" name="tearDown" is-config="true" duration-ms="828" started-at="2022-02-25T20:32:00Z" finished-at="2022-02-25T20:32:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Carriers status=SUCCESS method=Menu_Our_Carriers.Carriers()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39] output={null}]]]>
+                <![CDATA[[TestResult name=Heading status=SUCCESS method=What_we_offer_URL_TC.Heading()[pri:0, instance:MTL_Test_Cases_Prod.What_we_offer_URL_TC@3ab39c39] output={null}]]]>
               </value>
             </param>
           </params>
@@ -44,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Dev_TC.Menu_Our_Carriers -->
+      </class> <!-- MTL_Test_Cases_Prod.What_we_offer_URL_TC -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
