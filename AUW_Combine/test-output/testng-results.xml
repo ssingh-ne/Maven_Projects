@@ -11,12 +11,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89862" started-at="2022-02-25T15:00:31Z" finished-at="2022-02-25T15:02:01Z">
+  <suite name="Default suite" duration-ms="130115" started-at="2022-02-28T16:20:33Z" finished-at="2022-02-28T16:22:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89862" started-at="2022-02-25T15:00:31Z" finished-at="2022-02-25T15:02:01Z">
-      <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:MTL_Test_Cases_Prod.What_we_offer_URL_TC@3ab39c39]" name="setupApplication" is-config="true" duration-ms="6224" started-at="2022-02-25T20:30:31Z" finished-at="2022-02-25T20:30:37Z">
+    <test name="Default test" duration-ms="130115" started-at="2022-02-28T16:20:33Z" finished-at="2022-02-28T16:22:43Z">
+      <class name="Promesa_Test_Case_Prod.Pharmacy_search">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@3ab39c39]" name="setupApplication" is-config="true" duration-ms="5860" started-at="2022-02-28T21:50:33Z" finished-at="2022-02-28T21:50:38Z">
           <reporter-output>
             <line>
               <![CDATA[=====Chrome Browser Session Started=====]]>
@@ -26,15 +26,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Heading()[pri:0, instance:MTL_Test_Cases_Prod.What_we_offer_URL_TC@3ab39c39]" name="Heading" duration-ms="82791" started-at="2022-02-25T20:30:37Z" finished-at="2022-02-25T20:32:00Z">
+        <test-method status="PASS" signature="Side_Heading_One()[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@3ab39c39]" name="Side_Heading_One" duration-ms="123329" started-at="2022-02-28T21:50:38Z" finished-at="2022-02-28T21:52:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Heading -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:MTL_Test_Cases_Prod.What_we_offer_URL_TC@3ab39c39]" name="tearDown" is-config="true" duration-ms="828" started-at="2022-02-25T20:32:00Z" finished-at="2022-02-25T20:32:01Z">
+        </test-method> <!-- Side_Heading_One -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@3ab39c39]" name="tearDown" is-config="true" duration-ms="906" started-at="2022-02-28T21:52:42Z" finished-at="2022-02-28T21:52:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Heading status=SUCCESS method=What_we_offer_URL_TC.Heading()[pri:0, instance:MTL_Test_Cases_Prod.What_we_offer_URL_TC@3ab39c39] output={null}]]]>
+                <![CDATA[[TestResult name=Side_Heading_One status=SUCCESS method=Pharmacy_search.Side_Heading_One()[pri:0, instance:Promesa_Test_Case_Prod.Pharmacy_search@3ab39c39] output={null}]]]>
               </value>
             </param>
           </params>
@@ -44,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- MTL_Test_Cases_Prod.What_we_offer_URL_TC -->
+      </class> <!-- Promesa_Test_Case_Prod.Pharmacy_search -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

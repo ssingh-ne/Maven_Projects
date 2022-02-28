@@ -46,8 +46,8 @@ public class Base_class {
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		}
-*/
+		}*/
+
 	public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {
