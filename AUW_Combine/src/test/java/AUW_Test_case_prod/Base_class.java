@@ -33,7 +33,7 @@ public class Base_class {
 			
 		    driver=new ChromeDriver();
 			
-		System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+		    System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
 	               
 			driver=new FirefoxDriver();
         

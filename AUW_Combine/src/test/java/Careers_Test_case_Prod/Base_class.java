@@ -36,8 +36,8 @@ public class Base_class {
 			driver=new ChromeDriver();
 			 
 			
-	     //   System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
-         //    driver=new FirefoxDriver();
+	        System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+             driver=new FirefoxDriver();
 			driver.manage().window().maximize();
 			
 			driver.get("https://careers.auw.com/");
@@ -45,8 +45,8 @@ public class Base_class {
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		}
-	*/ 
+		}*/
+	
 public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {

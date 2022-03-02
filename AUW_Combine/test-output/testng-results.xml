@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
     <line>
-      <![CDATA[=====FF Browser Session Started=====]]>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
@@ -11,30 +47,30 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40540" started-at="2022-03-01T16:49:04Z" finished-at="2022-03-01T16:49:45Z">
+  <suite name="Default suite" duration-ms="126460" started-at="2022-03-02T15:20:14Z" finished-at="2022-03-02T15:22:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40540" started-at="2022-03-01T16:49:04Z" finished-at="2022-03-01T16:49:45Z">
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="setupApplication" is-config="true" duration-ms="5915" started-at="2022-03-01T22:19:04Z" finished-at="2022-03-01T22:19:10Z">
+    <test name="Default test" duration-ms="126460" started-at="2022-03-02T15:20:14Z" finished-at="2022-03-02T15:22:20Z">
+      <class name="Careers_Test_case_Prod.Footer">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="setupApplication" is-config="true" duration-ms="10659" started-at="2022-03-02T20:50:14Z" finished-at="2022-03-02T20:50:24Z">
           <reporter-output>
             <line>
-              <![CDATA[=====FF Browser Session Started=====]]>
+              <![CDATA[=====Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="Carriers" duration-ms="33721" started-at="2022-03-01T22:19:10Z" finished-at="2022-03-01T22:19:44Z">
+        <test-method status="PASS" signature="AUW_Facebook()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="AUW_Facebook" duration-ms="16656" started-at="2022-03-02T20:50:24Z" finished-at="2022-03-02T20:50:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Carriers -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="tearDown" is-config="true" duration-ms="884" started-at="2022-03-01T22:19:44Z" finished-at="2022-03-01T22:19:45Z">
+        </test-method> <!-- AUW_Facebook -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="tearDown" is-config="true" duration-ms="1827" started-at="2022-03-02T20:50:41Z" finished-at="2022-03-02T20:50:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Carriers status=SUCCESS method=Menu_Our_Carriers.Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39] output={null}]]]>
+                <![CDATA[[TestResult name=AUW_Facebook status=SUCCESS method=Footer.AUW_Facebook()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39] output={null}]]]>
               </value>
             </param>
           </params>
@@ -44,7 +80,119 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="setupApplication" is-config="true" duration-ms="10995" started-at="2022-03-02T20:50:43Z" finished-at="2022-03-02T20:50:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AUW_Instagram()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="AUW_Instagram" duration-ms="8426" started-at="2022-03-02T20:50:54Z" finished-at="2022-03-02T20:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AUW_Instagram -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="tearDown" is-config="true" duration-ms="1606" started-at="2022-03-02T20:51:02Z" finished-at="2022-03-02T20:51:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AUW_Instagram status=SUCCESS method=Footer.AUW_Instagram()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="setupApplication" is-config="true" duration-ms="8840" started-at="2022-03-02T20:51:04Z" finished-at="2022-03-02T20:51:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AUW_Linkedin()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="AUW_Linkedin" duration-ms="8533" started-at="2022-03-02T20:51:13Z" finished-at="2022-03-02T20:51:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AUW_Linkedin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="tearDown" is-config="true" duration-ms="1655" started-at="2022-03-02T20:51:21Z" finished-at="2022-03-02T20:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AUW_Linkedin status=SUCCESS method=Footer.AUW_Linkedin()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="setupApplication" is-config="true" duration-ms="10783" started-at="2022-03-02T20:51:23Z" finished-at="2022-03-02T20:51:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AUW_Policy()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="AUW_Policy" duration-ms="25378" started-at="2022-03-02T20:51:34Z" finished-at="2022-03-02T20:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AUW_Policy -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="tearDown" is-config="true" duration-ms="1743" started-at="2022-03-02T20:51:59Z" finished-at="2022-03-02T20:52:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AUW_Policy status=SUCCESS method=Footer.AUW_Policy()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="setupApplication" is-config="true" duration-ms="7879" started-at="2022-03-02T20:52:01Z" finished-at="2022-03-02T20:52:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="AUW_twitter()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="AUW_twitter" duration-ms="9726" started-at="2022-03-02T20:52:09Z" finished-at="2022-03-02T20:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AUW_twitter -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39]" name="tearDown" is-config="true" duration-ms="1729" started-at="2022-03-02T20:52:19Z" finished-at="2022-03-02T20:52:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AUW_twitter status=SUCCESS method=Footer.AUW_twitter()[pri:0, instance:Careers_Test_case_Prod.Footer@3ab39c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Careers_Test_case_Prod.Footer -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
