@@ -19,15 +19,6 @@
           <include name="setupApplication"/>
         </methods>
       </class> <!-- Promesa_Test_Case_Prod.Side_Heading_Two -->
-      <class name="AUW_Test_case_prod.Practices_AgentsBrokers">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="Practices_AgentsBrokers"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- AUW_Test_case_prod.Practices_AgentsBrokers -->
       <class name="Casuality_Prod_TC.Menu_About_US">
         <methods>
           <include name="setupApplication"/>
@@ -36,6 +27,14 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- Casuality_Prod_TC.Menu_About_US -->
+      <class name="AUW_Test_case_prod.Practices_AgentsBrokers">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AUW_Test_case_prod.Practices_AgentsBrokers -->
       <class name="Adler_TestCases_Prod.News">
         <methods>
           <include name="setupApplication"/>
@@ -173,6 +172,7 @@
       </class> <!-- AUW_Test_case_prod.AUW_CallUpdate -->
       <class name="Solution_one_Prod.Side_Heading_Production">
         <methods>
+          <include name="Side_Heading_Two"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
         </methods>
@@ -508,7 +508,6 @@
       </class> <!-- Speciality_underwriters_Test_Case_Prod.Home_TC -->
       <class name="Careers_Test_case_Prod.Footer">
         <methods>
-          <include name="AUW_Policy"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
@@ -585,6 +584,7 @@
           <include name="tearDown"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="main_Home_Page"/>
         </methods>
       </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
       <class name="AUW_Global_Test_Cases_Prod.Home_Page_TC">
@@ -665,6 +665,7 @@
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="AUW_Footer"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
@@ -769,6 +770,7 @@
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="Heading11"/>
         </methods>
       </class> <!-- MTL_Test_Cases_Prod.What_we_offer1_TC -->
       <class name="Promesa_Test_Case_Prod.FAQ">
