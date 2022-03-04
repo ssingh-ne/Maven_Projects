@@ -38,7 +38,8 @@ public class Base_class {
 			
 	        System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
              driver=new FirefoxDriver();
-			driver.manage().window().maximize();
+			
+             driver.manage().window().maximize();
 			
 			driver.get("https://careers.auw.com/");
 			

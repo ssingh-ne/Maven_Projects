@@ -11,12 +11,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43253" started-at="2022-03-03T15:30:15Z" finished-at="2022-03-03T15:30:58Z">
+  <suite name="Default suite" duration-ms="41110" started-at="2022-03-04T16:21:38Z" finished-at="2022-03-04T16:22:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43253" started-at="2022-03-03T15:30:15Z" finished-at="2022-03-03T15:30:58Z">
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="setupApplication" is-config="true" duration-ms="7643" started-at="2022-03-03T21:00:15Z" finished-at="2022-03-03T21:00:22Z">
+    <test name="Default test" duration-ms="41110" started-at="2022-03-04T16:21:38Z" finished-at="2022-03-04T16:22:20Z">
+      <class name="Casuality_Dev_TC.Menu_Our_Carriers">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39]" name="setupApplication" is-config="true" duration-ms="6657" started-at="2022-03-04T21:51:38Z" finished-at="2022-03-04T21:51:45Z">
           <reporter-output>
             <line>
               <![CDATA[=====FF Browser Session Started=====]]>
@@ -26,15 +26,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="Carriers" duration-ms="34655" started-at="2022-03-03T21:00:22Z" finished-at="2022-03-03T21:00:57Z">
+        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39]" name="Carriers" duration-ms="33331" started-at="2022-03-04T21:51:45Z" finished-at="2022-03-04T21:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Carriers -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="tearDown" is-config="true" duration-ms="932" started-at="2022-03-03T21:00:57Z" finished-at="2022-03-03T21:00:58Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39]" name="tearDown" is-config="true" duration-ms="1091" started-at="2022-03-04T21:52:18Z" finished-at="2022-03-04T21:52:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Carriers status=SUCCESS method=Menu_Our_Carriers.Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39] output={null}]]]>
+                <![CDATA[[TestResult name=Carriers status=SUCCESS method=Menu_Our_Carriers.Carriers()[pri:0, instance:Casuality_Dev_TC.Menu_Our_Carriers@3ab39c39] output={null}]]]>
               </value>
             </param>
           </params>
@@ -44,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
+      </class> <!-- Casuality_Dev_TC.Menu_Our_Carriers -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

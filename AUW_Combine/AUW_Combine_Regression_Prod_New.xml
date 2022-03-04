@@ -75,6 +75,9 @@
       <class name="Pinnacle_Test_Cases_Production.HomePage_TC"/>
       <class name="Pinnacle_Test_Cases_Production.WatsNew"/>
       
+      <class name="Tradewel_Test_Cases_Production.comprehensive_Protection"/>
+      <class name="Tradewel_Test_Cases_Production.About_US"/>
+      
     </classes>
   </test> 
   
@@ -142,8 +145,11 @@
       <class name="Casuality_Prod_TC.Menu_Our_Carriers"/>
       <class name="Casuality_Prod_TC.Menu_Press_Room"/>
       
-       <class name="Pinnacle_Test_Cases_Production.HomePage_TC"/>
+      <class name="Pinnacle_Test_Cases_Production.HomePage_TC"/>
       <class name="Pinnacle_Test_Cases_Production.WatsNew"/>
+      
+      <class name="Tradewel_Test_Cases_Production.About_US"/>
+      <class name="Tradewel_Test_Cases_Production.Comprehensive_Protection_FF"/>
     
     </classes>
   </test>

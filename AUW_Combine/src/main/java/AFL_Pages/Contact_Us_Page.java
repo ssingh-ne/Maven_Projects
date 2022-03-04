@@ -17,7 +17,7 @@ public class Contact_Us_Page {
 	By ContactUs_home = By.xpath("(//*[text()='Contact Us'])[2]");
 	By AFL_Logo = By.xpath("//*[@href='/']");
 	By top_text = By.xpath("//*[@id='app']/div[2]/div/div/div[2]/p");
-	By MiddleEastCoverage = By.xpath("//*[@id='app']/main/div[3]/div/div/div/h2");
+	By MiddleEastCoverage = By.xpath("//*[text()='For European and Middle East Coverages']");
 	By UnitedStateCoverage = By.xpath("//*[@id='app']/main/div[4]/div/div/div/h2");
 	
 	String Exp_MiddleEast = "For European and Middle East Coverages";
@@ -137,10 +137,10 @@ public class Contact_Us_Page {
 		WebElement Element = driver.findElement(MiddleEastCoverage);
 		js.executeScript("arguments[0].scrollIntoView();", Element);
 		
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		
     	String Middle_East= driver.findElement(MiddleEastCoverage).getText();
-    	
+    	System.out.println("Middle_East = " + Middle_East);
     	Assert.assertEquals(Middle_East, Exp_MiddleEast);
 
     	WebElement Element2 = driver.findElement(UnitedStateCoverage);
