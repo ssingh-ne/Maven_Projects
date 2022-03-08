@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <test name="Casuality_FirefoxTest_Development(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev">
+      <class name="Casuality_Dev_TC.Menu_Contact_Us">
         <methods>
-          <include name="ContactUs_Page"/>
           <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev -->
+      </class> <!-- Casuality_Dev_TC.Menu_Contact_Us -->
+      <class name="Casuality_Dev_TC.Home_page">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Home_page -->
+      <class name="Casuality_Dev_TC.Menu_About_US">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Menu_About_US -->
+      <class name="Casuality_Dev_TC.Menu_Our_Carriers">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="Carriers"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Menu_Our_Carriers -->
+      <class name="Casuality_Dev_TC.Menu_Press_Room">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Menu_Press_Room -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Casuality_FirefoxTest_Development(failed) -->
+</suite> <!-- Failed suite [Suite] -->

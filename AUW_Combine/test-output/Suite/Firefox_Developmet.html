@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Firefox_Developmet</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>58/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>51/4/4</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 04 17:56:01 IST 2022</td>
+<td>Started on:</td><td>Mon Mar 07 17:46:36 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>1437 seconds (1437719 ms)</td>
+<tr><td>Total time:</td><td>1465 seconds (1465494 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,6 +68,120 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.tearDown()'><b>tearDown</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer<br>Parameters: [TestResult name=Footer_Facebook status=FAILURE method=Header_footer.Footer_Facebook()[pri:0, instance:JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6] output={null}]</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 18784, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7c9883a-90ea-4dae-adc3-6be88a903082
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at JumboGC_Test_case_Devlopment.Base_class.tearDown(Base_class.java:106)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1583131455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1583131455'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 18784, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7c9883a-90ea-4dae-adc3-6be88a903082
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at JumboGC_Test_case_Devlopment.Base_class.tearDown(Base_class.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.setupApplication()'><b>setupApplication</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.setupApplication()'><b>setupApplication</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.setupApplication()'><b>setupApplication</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.setupApplication()'><b>setupApplication</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.tearDown()'><b>tearDown</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.tearDown()'><b>tearDown</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.tearDown()'><b>tearDown</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.tearDown()'><b>tearDown</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -75,21 +189,81 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='Casuality_Dev_TC.Menu_Our_Carriers.Carriers()'><b>Carriers</b><br>Test class: Casuality_Dev_TC.Menu_Our_Carriers</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://www..../home/default.aspx&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;ambest.com&lt;/a&gt; is not clickable at point (499, 8). Other element would receive the click: &lt;div class=&quot;jss40 jss23&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=98.0.4758.102)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e5e16c2e33d82c4cebf603a9c86c86b5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at Casuality_pages.Menu_Carriers.Ambest(Menu_Carriers.java:55)
+	at Casuality_Dev_TC.Menu_Our_Carriers.Carriers(Menu_Our_Carriers.java:19)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace699372025", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace699372025'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://www..../home/default.aspx&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;ambest.com&lt;/a&gt; is not clickable at point (499, 8). Other element would receive the click: &lt;div class=&quot;jss40 jss23&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=98.0.4758.102)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e5e16c2e33d82c4cebf603a9c86c86b5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at Casuality_pages.Menu_Carriers.Ambest(Menu_Carriers.java:55)
+	at Casuality_Dev_TC.Menu_Our_Carriers.Carriers(Menu_Our_Carriers.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>31</td>
+<td>Casuality_Dev_TC.Menu_Our_Carriers@5a61f5df</td></tr>
+<tr>
 <td title='AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev.ContactUs_Page()'><b>ContactUs_Page</b><br>Test class: AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev</td>
-<td><div><pre>java.lang.AssertionError: expected [For European and Middle East Coverages] but found [For United States Coverages]
-	at AFL_Pages.Contact_Us_Page.Contact_US_Coverage_Outside_US(Contact_Us_Page.java:144)
+<td><div><pre>java.lang.AssertionError: expected [For United States Coverages] but found [For European and Middle East Coverages]
+	at AFL_Pages.Contact_Us_Page.Contact_US_Coverage_Outside_US(Contact_Us_Page.java:153)
 	at AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev.ContactUs_Page(ContactUS_OutsideUS_dev.java:21)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace171672809", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace171672809'><pre>java.lang.AssertionError: expected [For European and Middle East Coverages] but found [For United States Coverages]
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace468115534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace468115534'><pre>java.lang.AssertionError: expected [For United States Coverages] but found [For European and Middle East Coverages]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at AFL_Pages.Contact_Us_Page.Contact_US_Coverage_Outside_US(Contact_Us_Page.java:144)
+	at AFL_Pages.Contact_Us_Page.Contact_US_Coverage_Outside_US(Contact_Us_Page.java:153)
 	at AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev.ContactUs_Page(ContactUS_OutsideUS_dev.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -105,8 +279,136 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>27</td>
+<td>35</td>
 <td>AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@4de8b406</td></tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_Facebook()'><b>Footer_Facebook</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 18784, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7c9883a-90ea-4dae-adc3-6be88a903082
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:472)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:907)
+	at JumboGC_Pages.Home.Facebook(Home.java:190)
+	at JumboGC_Test_case_Devlopment.Header_footer.Footer_Facebook(Header_footer.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1083366941", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1083366941'><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 18784, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7c9883a-90ea-4dae-adc3-6be88a903082
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:472)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:907)
+	at JumboGC_Pages.Home.Facebook(Home.java:190)
+	at JumboGC_Test_case_Devlopment.Header_footer.Footer_Facebook(Header_footer.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>49</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+<tr>
+<td title='Casuality_Dev_TC.Home_page.HomePage()'><b>HomePage</b><br>Test class: Casuality_Dev_TC.Home_page</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;our-affiliates&apos;]/section/div/div/div/div/h3&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56849}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ef58a4e90d8bb8e1cb7f966cd934ed4
+*** Element info: {Using=xpath, value=//*[@id=&apos;our-affiliates&apos;]/section/div/div/div/div/h3}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Casuality_pages.Home.About_US(Home.java:70)
+	at Casuality_Dev_TC.Home_page.HomePage(Home_page.java:17)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace445025098", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace445025098'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;our-affiliates&apos;]/section/div/div/div/div/h3&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56849}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ef58a4e90d8bb8e1cb7f966cd934ed4
+*** Element info: {Using=xpath, value=//*[@id=&apos;our-affiliates&apos;]/section/div/div/div/div/h3}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Casuality_pages.Home.About_US(Home.java:70)
+	at Casuality_Dev_TC.Home_page.HomePage(Home_page.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>43</td>
+<td>Casuality_Dev_TC.Home_page@b97c004</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -118,27 +420,22 @@ function toggleAllBoxes() {
 <tr>
 <td title='AUW_Test_Case_dev.AUW_Footer_Development.AUW_Footer()'><b>AUW_Footer</b><br>Test class: AUW_Test_Case_dev.AUW_Footer_Development</td>
 <td></td>
-<td>121</td>
+<td>137</td>
 <td>AUW_Test_Case_dev.AUW_Footer_Development@737996a0</td></tr>
 <tr>
 <td title='Careers_Test_case_Development.Footer.AUW_Footer()'><b>AUW_Footer</b><br>Test class: Careers_Test_case_Development.Footer</td>
 <td></td>
-<td>84</td>
+<td>74</td>
 <td>Careers_Test_case_Development.Footer@2344fc66</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_AboutUS.AboutUS()'><b>AboutUS</b><br>Test class: AUW_Test_Case_dev.AUW_AboutUS</td>
 <td></td>
-<td>80</td>
+<td>77</td>
 <td>AUW_Test_Case_dev.AUW_AboutUS@2cb4c3ab</td></tr>
-<tr>
-<td title='Casuality_Dev_TC.Menu_Our_Carriers.Carriers()'><b>Carriers</b><br>Test class: Casuality_Dev_TC.Menu_Our_Carriers</td>
-<td></td>
-<td>37</td>
-<td>Casuality_Dev_TC.Menu_Our_Carriers@5a61f5df</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Development.Change_language.Change_Language()'><b>Change_Language</b><br>Test class: Promesa_Test_Case_Development.Change_language</td>
 <td></td>
-<td>5</td>
+<td>9</td>
 <td>Promesa_Test_Case_Development.Change_language@735b478</td></tr>
 <tr>
 <td title='Tradewel_Test_Cases_Development.Comprehensive_Protection_FF.Comprehensive()'><b>Comprehensive</b><br>Test class: Tradewel_Test_Cases_Development.Comprehensive_Protection_FF</td>
@@ -148,107 +445,77 @@ function toggleAllBoxes() {
 <tr>
 <td title='Warranty_Test_Case_Dev.Contact_US.ContactUS()'><b>ContactUS</b><br>Test class: Warranty_Test_Case_Dev.Contact_US</td>
 <td></td>
-<td>45</td>
+<td>43</td>
 <td>Warranty_Test_Case_Dev.Contact_US@7f560810</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Development.Footer.Footer()'><b>Footer</b><br>Test class: Promesa_Test_Case_Development.Footer</td>
 <td></td>
-<td>64</td>
+<td>97</td>
 <td>Promesa_Test_Case_Development.Footer@5056dfcb</td></tr>
+<tr>
+<td title='Speciality_underwriters_Test_Case_Dev.Contact_US_TC.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.Contact_US_TC</td>
+<td></td>
+<td>28</td>
+<td>Speciality_underwriters_Test_Case_Dev.Contact_US_TC@32e6e9c3</td></tr>
 <tr>
 <td title='Speciality_underwriters_Test_Case_Dev.About_Us.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.About_Us</td>
 <td></td>
 <td>11</td>
 <td>Speciality_underwriters_Test_Case_Dev.About_Us@69d9c55</td></tr>
 <tr>
-<td title='Speciality_underwriters_Test_Case_Dev.Contact_US_TC.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.Contact_US_TC</td>
+<td title='Speciality_underwriters_Test_Case_Dev.What_We_offer.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.What_We_offer</td>
 <td></td>
-<td>18</td>
-<td>Speciality_underwriters_Test_Case_Dev.Contact_US_TC@32e6e9c3</td></tr>
+<td>41</td>
+<td>Speciality_underwriters_Test_Case_Dev.What_We_offer@2669b199</td></tr>
 <tr>
 <td title='Speciality_underwriters_Test_Case_Dev.Home_TC.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.Home_TC</td>
 <td></td>
-<td>25</td>
+<td>24</td>
 <td>Speciality_underwriters_Test_Case_Dev.Home_TC@52af6cff</td></tr>
-<tr>
-<td title='Speciality_underwriters_Test_Case_Dev.What_We_offer.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.What_We_offer</td>
-<td></td>
-<td>39</td>
-<td>Speciality_underwriters_Test_Case_Dev.What_We_offer@2669b199</td></tr>
 <tr>
 <td title='AFL_Test_Cases_Dev.Footer_TC_dev.Footer()'><b>Footer</b><br>Test class: AFL_Test_Cases_Dev.Footer_TC_dev</td>
 <td></td>
-<td>75</td>
+<td>72</td>
 <td>AFL_Test_Cases_Dev.Footer_TC_dev@97e1986</td></tr>
 <tr>
 <td title='AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev.Footer()'><b>Footer</b><br>Test class: AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev</td>
 <td></td>
-<td>288</td>
+<td>279</td>
 <td>AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@7921b0a2</td></tr>
 <tr>
 <td title='Solution_one_Development.Footer_Develop.Footer()'><b>Footer</b><br>Test class: Solution_one_Development.Footer_Develop</td>
 <td></td>
-<td>60</td>
+<td>69</td>
 <td>Solution_one_Development.Footer_Develop@66d2e7d9</td></tr>
-<tr>
-<td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_Facebook()'><b>Footer_Facebook</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
-<td></td>
-<td>27</td>
-<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
-<tr>
-<td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_Instagram()'><b>Footer_Instagram</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
-<td></td>
-<td>25</td>
-<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
-<tr>
-<td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_Privacy()'><b>Footer_Privacy</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
-<td></td>
-<td>37</td>
-<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
-<tr>
-<td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_linkedIN()'><b>Footer_linkedIN</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
-<td></td>
-<td>27</td>
-<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
-<tr>
-<td title='JumboGC_Test_case_Devlopment.Header_footer.Header_Login()'><b>Header_Login</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
-<td></td>
-<td>20</td>
-<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
 <tr>
 <td title='AUW_Global_Test_Cases_Development.Home_Page_TC.HomePage()'><b>HomePage</b><br>Test class: AUW_Global_Test_Cases_Development.Home_Page_TC</td>
 <td></td>
-<td>11</td>
+<td>12</td>
 <td>AUW_Global_Test_Cases_Development.Home_Page_TC@4590c9c3</td></tr>
-<tr>
-<td title='Casuality_Dev_TC.Home_page.HomePage()'><b>HomePage</b><br>Test class: Casuality_Dev_TC.Home_page</td>
-<td></td>
-<td>71</td>
-<td>Casuality_Dev_TC.Home_page@b97c004</td></tr>
 <tr>
 <td title='Casuality_Dev_TC.Menu_Press_Room.HomePage()'><b>HomePage</b><br>Test class: Casuality_Dev_TC.Menu_Press_Room</td>
 <td></td>
-<td>57</td>
+<td>63</td>
 <td>Casuality_Dev_TC.Menu_Press_Room@9f70c54</td></tr>
 <tr>
 <td title='Casuality_Dev_TC.Menu_Contact_Us.HomePage()'><b>HomePage</b><br>Test class: Casuality_Dev_TC.Menu_Contact_Us</td>
 <td></td>
-<td>22</td>
+<td>25</td>
 <td>Casuality_Dev_TC.Menu_Contact_Us@61a485d2</td></tr>
 <tr>
 <td title='Casuality_Dev_TC.Menu_About_US.HomePage()'><b>HomePage</b><br>Test class: Casuality_Dev_TC.Menu_About_US</td>
 <td></td>
-<td>56</td>
+<td>46</td>
 <td>Casuality_Dev_TC.Menu_About_US@39fb3ab6</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Dev.Home_TC.HomePage_Header_ContactUS_btn()'><b>HomePage_Header_ContactUS_btn</b><br>Test class: Credit_Global_Test_Cases_Dev.Home_TC</td>
 <td></td>
-<td>19</td>
+<td>18</td>
 <td>Credit_Global_Test_Cases_Dev.Home_TC@7946e1f4</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Dev.Home_TC.HomePage_Header_Our_approach()'><b>HomePage_Header_Our_approach</b><br>Test class: Credit_Global_Test_Cases_Dev.Home_TC</td>
 <td></td>
-<td>14</td>
+<td>13</td>
 <td>Credit_Global_Test_Cases_Dev.Home_TC@7946e1f4</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Dev.Home_TC.HomePage_Header_What_weDo()'><b>HomePage_Header_What_weDo</b><br>Test class: Credit_Global_Test_Cases_Dev.Home_TC</td>
@@ -258,7 +525,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='Credit_Global_Test_Cases_Dev.Forgot_Password.HomePage_Header_login()'><b>HomePage_Header_login</b><br>Test class: Credit_Global_Test_Cases_Dev.Forgot_Password</td>
 <td></td>
-<td>10</td>
+<td>9</td>
 <td>Credit_Global_Test_Cases_Dev.Forgot_Password@174d20a</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Dev.What_we_Do_TC.HomePage_Header_login()'><b>HomePage_Header_login</b><br>Test class: Credit_Global_Test_Cases_Dev.What_we_Do_TC</td>
@@ -268,87 +535,87 @@ function toggleAllBoxes() {
 <tr>
 <td title='Credit_Global_Test_Cases_Dev.Home_TC.HomePage_Header_login()'><b>HomePage_Header_login</b><br>Test class: Credit_Global_Test_Cases_Dev.Home_TC</td>
 <td></td>
-<td>12</td>
+<td>11</td>
 <td>Credit_Global_Test_Cases_Dev.Home_TC@7946e1f4</td></tr>
 <tr>
 <td title='AFL_Test_Cases_Dev.HomePage_TC_dev.Home_Page()'><b>Home_Page</b><br>Test class: AFL_Test_Cases_Dev.HomePage_TC_dev</td>
 <td></td>
-<td>133</td>
+<td>135</td>
 <td>AFL_Test_Cases_Dev.HomePage_TC_dev@26f67b76</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Dev.About_US.Home_page()'><b>Home_page</b><br>Test class: Warranty_Test_Case_Dev.About_US</td>
 <td></td>
-<td>32</td>
+<td>33</td>
 <td>Warranty_Test_Case_Dev.About_US@6ea12c19</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Dev.HomePage_Testcase.Home_page()'><b>Home_page</b><br>Test class: Warranty_Test_Case_Dev.HomePage_Testcase</td>
 <td></td>
-<td>285</td>
+<td>273</td>
 <td>Warranty_Test_Case_Dev.HomePage_Testcase@458ad742</td></tr>
 <tr>
 <td title='AUW_Global_Test_Cases_Development.LearnMore_TC.LearnMore()'><b>LearnMore</b><br>Test class: AUW_Global_Test_Cases_Development.LearnMore_TC</td>
 <td></td>
-<td>16</td>
+<td>17</td>
 <td>AUW_Global_Test_Cases_Development.LearnMore_TC@6276ae34</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Dev.NewsEvents.NewsEvents()'><b>NewsEvents</b><br>Test class: Warranty_Test_Case_Dev.NewsEvents</td>
 <td></td>
-<td>128</td>
+<td>126</td>
 <td>Warranty_Test_Case_Dev.NewsEvents@3c09711b</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Dev.Our_Partner.Partner1()'><b>Partner1</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
 <td></td>
-<td>92</td>
+<td>98</td>
 <td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Dev.Our_Partner.Partner2()'><b>Partner2</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
 <td></td>
-<td>83</td>
+<td>81</td>
 <td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Dev.Our_Partner.Partner3()'><b>Partner3</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
 <td></td>
-<td>83</td>
+<td>81</td>
 <td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Dev.Our_Partner.Partner4()'><b>Partner4</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
 <td></td>
-<td>96</td>
+<td>71</td>
 <td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Dev.Our_Partner.Partner5()'><b>Partner5</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
 <td></td>
-<td>67</td>
+<td>76</td>
 <td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Dev.Our_Partner.Partner6()'><b>Partner6</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
 <td></td>
-<td>65</td>
+<td>68</td>
 <td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.Practices_AgentsBrokers.Practices_AgentsBrokers()'><b>Practices_AgentsBrokers</b><br>Test class: AUW_Test_Case_dev.Practices_AgentsBrokers</td>
 <td></td>
-<td>60</td>
+<td>65</td>
 <td>AUW_Test_Case_dev.Practices_AgentsBrokers@2c9f9fb0</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.Practices_CustomerSeekingCoverage.Practices_CustomerSeekingCoverage()'><b>Practices_CustomerSeekingCoverage</b><br>Test class: AUW_Test_Case_dev.Practices_CustomerSeekingCoverage</td>
 <td></td>
-<td>250</td>
+<td>262</td>
 <td>AUW_Test_Case_dev.Practices_CustomerSeekingCoverage@7ca48474</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Development.Pharmacy_search.Side_Heading_One()'><b>Side_Heading_One</b><br>Test class: Promesa_Test_Case_Development.Pharmacy_search</td>
 <td></td>
-<td>124</td>
+<td>123</td>
 <td>Promesa_Test_Case_Development.Pharmacy_search@61dc03ce</td></tr>
 <tr>
 <td title='Pinnacle_Test_Cases_Development.WatsNew.WhatsNew()'><b>WhatsNew</b><br>Test class: Pinnacle_Test_Cases_Development.WatsNew</td>
 <td></td>
-<td>105</td>
+<td>111</td>
 <td>Pinnacle_Test_Cases_Development.WatsNew@6574b225</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_header_web_Development.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_header_web_Development</td>
 <td></td>
-<td>52</td>
+<td>51</td>
 <td>AUW_Test_Case_dev.AUW_header_web_Development@5afa04c</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_PPP.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_PPP</td>
@@ -358,17 +625,17 @@ function toggleAllBoxes() {
 <tr>
 <td title='AUW_Test_Case_dev.AUW_CallUpdate.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_CallUpdate</td>
 <td></td>
-<td>48</td>
+<td>56</td>
 <td>AUW_Test_Case_dev.AUW_CallUpdate@6a024a67</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_NJ_Update.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_NJ_Update</td>
 <td></td>
-<td>44</td>
+<td>45</td>
 <td>AUW_Test_Case_dev.AUW_NJ_Update@59e84876</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_Intelligence_TC.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_Intelligence_TC</td>
 <td></td>
-<td>89</td>
+<td>88</td>
 <td>AUW_Test_Case_dev.AUW_Intelligence_TC@13a57a3b</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_Experience.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_Experience</td>
@@ -378,7 +645,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev.main_Home_Page()'><b>main_Home_Page</b><br>Test class: AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev</td>
 <td></td>
-<td>33</td>
+<td>29</td>
 <td>AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@2096442d</td></tr>
 <tr>
 <td title='Adler_TestCases_Development.Home.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Adler_TestCases_Development.Home</td>
@@ -388,12 +655,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='Tradewel_Test_Cases_Development.About_US.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Tradewel_Test_Cases_Development.About_US</td>
 <td></td>
-<td>33</td>
+<td>32</td>
 <td>Tradewel_Test_Cases_Development.About_US@3551a94</td></tr>
 <tr>
 <td title='Adler_TestCases_Development.News.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Adler_TestCases_Development.News</td>
 <td></td>
-<td>136</td>
+<td>133</td>
 <td>Adler_TestCases_Development.News@153f5a29</td></tr>
 <tr>
 <td title='Pinnacle_Test_Cases_Development.HomePage_TC.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Pinnacle_Test_Cases_Development.HomePage_TC</td>
@@ -405,6 +672,34 @@ function toggleAllBoxes() {
 <td></td>
 <td>11</td>
 <td>Warranty_Test_Case_Dev.Partner_With_US@6a2bcfcb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_Instagram()'><b>Footer_Instagram</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_Privacy()'><b>Footer_Privacy</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_linkedIN()'><b>Footer_linkedIN</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
+<tr>
+<td title='JumboGC_Test_case_Devlopment.Header_footer.Header_Login()'><b>Header_Login</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
+<td></td>
+<td>0</td>
+<td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
 </table><p>
 </body>
 </html>
