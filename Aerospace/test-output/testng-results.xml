@@ -8,12 +8,12 @@
       <![CDATA[=====Application Started=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48434" started-at="2022-03-04T16:52:12Z" finished-at="2022-03-04T16:53:01Z">
+  <suite name="Default suite" duration-ms="23888" started-at="2022-03-08T15:46:06Z" finished-at="2022-03-08T15:46:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48434" started-at="2022-03-04T16:52:12Z" finished-at="2022-03-04T16:53:01Z">
-      <class name="Aerospace_TestCases_Development.Home_TC">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Aerospace_TestCases_Development.Home_TC@2aafb23c]" name="setupApplication" is-config="true" duration-ms="6127" started-at="2022-03-04T22:22:12Z" finished-at="2022-03-04T22:22:18Z">
+    <test name="Default test" duration-ms="23888" started-at="2022-03-08T15:46:06Z" finished-at="2022-03-08T15:46:30Z">
+      <class name="Aerospace_TestCases_Development.Menu_Aeviation">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Aerospace_TestCases_Development.Menu_Aeviation@2aafb23c]" name="setupApplication" is-config="true" duration-ms="8436" started-at="2022-03-08T21:16:06Z" finished-at="2022-03-08T21:16:15Z">
           <reporter-output>
             <line>
               <![CDATA[=====Chrome Browser Session Started=====]]>
@@ -23,11 +23,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Home_Page_main()[pri:0, instance:Aerospace_TestCases_Development.Home_TC@2aafb23c]" name="Home_Page_main" duration-ms="42288" started-at="2022-03-04T22:22:18Z" finished-at="2022-03-04T22:23:01Z">
+        <test-method status="PASS" signature="Home_Menu_Aeviation()[pri:0, instance:Aerospace_TestCases_Development.Menu_Aeviation@2aafb23c]" name="Home_Menu_Aeviation" duration-ms="15422" started-at="2022-03-08T21:16:15Z" finished-at="2022-03-08T21:16:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Home_Page_main -->
-      </class> <!-- Aerospace_TestCases_Development.Home_TC -->
+        </test-method> <!-- Home_Menu_Aeviation -->
+      </class> <!-- Aerospace_TestCases_Development.Menu_Aeviation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
