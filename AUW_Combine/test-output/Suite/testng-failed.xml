@@ -41,7 +41,6 @@
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="main_Home_Page"/>
         </methods>
       </class> <!-- Adler_TestCases_Prod.News -->
       <class name="Promesa_Test_Case_Prod.Footer">
@@ -74,7 +73,6 @@
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="AUW_Instagram"/>
         </methods>
       </class> <!-- Careers_Test_case_Prod.Footer -->
       <class name="AUW_Test_case_prod.AUW_PPP">
@@ -88,7 +86,6 @@
       <class name="Tradewel_Test_Cases_Production.comprehensive_Protection">
         <methods>
           <include name="setupApplication"/>
-          <include name="Comprehensive"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Tradewel_Test_Cases_Production.comprehensive_Protection -->
@@ -175,6 +172,7 @@
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="main_Home_Page"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
@@ -202,7 +200,6 @@
       <class name="Solution_one_Prod.Side_Heading_Production">
         <methods>
           <include name="setupApplication"/>
-          <include name="Side_Heading_One"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Solution_one_Prod.Side_Heading_Production -->
@@ -324,7 +321,6 @@
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="main_Home_Page"/>
         </methods>
       </class> <!-- Pinnacle_Test_Cases_Production.HomePage_TC -->
       <class name="Credit_Global_Test_Cases_Prod.Home_TC">
@@ -369,7 +365,6 @@
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="HomePage_Header_login"/>
         </methods>
       </class> <!-- Credit_Global_Test_Cases_Prod.What_we_Do_TC -->
       <class name="MTL_Test_Cases_Prod.Home_URL">
@@ -418,15 +413,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- AUW_Test_case_prod.AUW_AboutUS -->
-      <class name="Adler_TestCases_Prod.Home">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="main_Home_Page"/>
-        </methods>
-      </class> <!-- Adler_TestCases_Prod.Home -->
       <class name="Speciality_underwriters_Test_Case_Prod.What_We_offer">
         <methods>
           <include name="tearDown"/>
@@ -435,6 +421,14 @@
           <include name="setupApplication"/>
         </methods>
       </class> <!-- Speciality_underwriters_Test_Case_Prod.What_We_offer -->
+      <class name="Adler_TestCases_Prod.Home">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Adler_TestCases_Prod.Home -->
       <class name="AUW_Test_case_prod.AUW_Experience">
         <methods>
           <include name="setupApplication"/>
@@ -484,15 +478,6 @@
           <include name="setupApplication"/>
         </methods>
       </class> <!-- Promesa_Test_Case_Prod.Side_Heading_Two -->
-      <class name="AUW_Test_case_prod.Practices_AgentsBrokers">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="Practices_AgentsBrokers"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- AUW_Test_case_prod.Practices_AgentsBrokers -->
       <class name="Casuality_Prod_TC.Menu_About_US">
         <methods>
           <include name="setupApplication"/>
@@ -501,6 +486,14 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- Casuality_Prod_TC.Menu_About_US -->
+      <class name="AUW_Test_case_prod.Practices_AgentsBrokers">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AUW_Test_case_prod.Practices_AgentsBrokers -->
       <class name="Adler_TestCases_Prod.News">
         <methods>
           <include name="setupApplication"/>
@@ -561,13 +554,13 @@
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="Carriers"/>
         </methods>
       </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
       <class name="AUW_Test_case_prod.AUW_header_web_Prod">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
-          <include name="main"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
@@ -630,7 +623,6 @@
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
-          <include name="HomePage"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
@@ -679,6 +671,7 @@
       </class> <!-- Credit_Global_Test_Cases_Prod.Forgot_Password -->
       <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC">
         <methods>
+          <include name="Heading"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
