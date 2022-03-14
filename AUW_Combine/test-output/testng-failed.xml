@@ -172,7 +172,6 @@
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
-          <include name="main_Home_Page"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
@@ -191,6 +190,7 @@
       </class> <!-- AUW_Test_case_prod.AUW_Heartwood -->
       <class name="AUW_Test_case_prod.AUW_CallUpdate">
         <methods>
+          <include name="main"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
@@ -554,7 +554,6 @@
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="Carriers"/>
         </methods>
       </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
       <class name="AUW_Test_case_prod.AUW_header_web_Prod">
@@ -671,7 +670,6 @@
       </class> <!-- Credit_Global_Test_Cases_Prod.Forgot_Password -->
       <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC">
         <methods>
-          <include name="Heading"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
@@ -720,6 +718,7 @@
       </class> <!-- AUW_Test_case_prod.AUW_NJ_Update -->
       <class name="Solution_one_Prod.Footer_Production">
         <methods>
+          <include name="Footer"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
@@ -762,6 +761,7 @@
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="Practices_CustomerSeekingCoverage"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
