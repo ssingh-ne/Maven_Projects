@@ -23,13 +23,13 @@ public class Base_class {
     
 	@Parameters ("browser")
 	 @BeforeMethod
-	/* 
-public void setupApplication()
+	
+/*public void setupApplication()
 		{
 			
 		Reporter.log("=====firefox Browser Session Started=====", true);
-		 // System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
-          //     driver=new FirefoxDriver();
+		  System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+               driver=new FirefoxDriver();
 			
 			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
 	                driver=new ChromeDriver();
