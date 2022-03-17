@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[=====firefox Browser Session Started=====]]>
+      <![CDATA[=====FF Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
@@ -11,30 +11,30 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23668" started-at="2022-03-16T15:19:32Z" finished-at="2022-03-16T15:19:55Z">
+  <suite name="Default suite" duration-ms="46324" started-at="2022-03-17T14:13:15Z" finished-at="2022-03-17T14:14:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23668" started-at="2022-03-16T15:19:32Z" finished-at="2022-03-16T15:19:55Z">
-      <class name="AUW_Global_Test_Cases_Prod.LearnMore_TC">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:AUW_Global_Test_Cases_Prod.LearnMore_TC@3ab39c39]" name="setupApplication" is-config="true" duration-ms="10184" started-at="2022-03-16T20:49:32Z" finished-at="2022-03-16T20:49:42Z">
+    <test name="Default test" duration-ms="46324" started-at="2022-03-17T14:13:15Z" finished-at="2022-03-17T14:14:01Z">
+      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="setupApplication" is-config="true" duration-ms="7349" started-at="2022-03-17T19:43:15Z" finished-at="2022-03-17T19:43:22Z">
           <reporter-output>
             <line>
-              <![CDATA[=====firefox Browser Session Started=====]]>
+              <![CDATA[=====FF Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="LearnMore()[pri:0, instance:AUW_Global_Test_Cases_Prod.LearnMore_TC@3ab39c39]" name="LearnMore" duration-ms="12184" started-at="2022-03-16T20:49:42Z" finished-at="2022-03-16T20:49:54Z">
+        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="Carriers" duration-ms="37839" started-at="2022-03-17T19:43:22Z" finished-at="2022-03-17T19:44:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LearnMore -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Global_Test_Cases_Prod.LearnMore_TC@3ab39c39]" name="tearDown" is-config="true" duration-ms="1283" started-at="2022-03-16T20:49:54Z" finished-at="2022-03-16T20:49:55Z">
+        </test-method> <!-- Carriers -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="tearDown" is-config="true" duration-ms="1104" started-at="2022-03-17T19:44:00Z" finished-at="2022-03-17T19:44:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LearnMore status=SUCCESS method=LearnMore_TC.LearnMore()[pri:0, instance:AUW_Global_Test_Cases_Prod.LearnMore_TC@3ab39c39] output={null}]]]>
+                <![CDATA[[TestResult name=Carriers status=SUCCESS method=Menu_Our_Carriers.Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39] output={null}]]]>
               </value>
             </param>
           </params>
@@ -44,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AUW_Global_Test_Cases_Prod.LearnMore_TC -->
+      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
