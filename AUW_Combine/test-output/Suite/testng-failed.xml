@@ -1,53 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <parameter name="browser" value="chrome"/>
-  <test name="Promesa_Firefox(failed)">
-    <parameter name="browser" value="firefox"/>
+  <parameter name="browser" value="firefox"/>
+  <test name="Casuality_ChromeTest_Production(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Promesa_Test_Case_Prod.Side_Heading_Two">
+      <class name="Casuality_Prod_TC.Menu_Press_Room">
         <methods>
-          <include name="tearDown"/>
           <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Promesa_Test_Case_Prod.Side_Heading_Two -->
-      <class name="Promesa_Test_Case_Prod.Side_Heading_One">
+      </class> <!-- Casuality_Prod_TC.Menu_Press_Room -->
+      <class name="Casuality_Prod_TC.Home_page">
         <methods>
-          <include name="tearDown"/>
           <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Promesa_Test_Case_Prod.Side_Heading_One -->
-      <class name="Promesa_Test_Case_Prod.Footer">
+      </class> <!-- Casuality_Prod_TC.Home_page -->
+      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="Carriers"/>
         </methods>
-      </class> <!-- Promesa_Test_Case_Prod.Footer -->
-      <class name="Promesa_Test_Case_Prod.Change_language">
+      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
+      <class name="Casuality_Prod_TC.Menu_About_US">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Promesa_Test_Case_Prod.Change_language -->
-      <class name="Promesa_Test_Case_Prod.Pharmacy_search">
+      </class> <!-- Casuality_Prod_TC.Menu_About_US -->
+      <class name="Casuality_Prod_TC.Menu_Contact_Us">
         <methods>
-          <include name="Side_Heading_One"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Promesa_Test_Case_Prod.Pharmacy_search -->
-      <class name="Promesa_Test_Case_Prod.FAQ">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- Promesa_Test_Case_Prod.FAQ -->
+      </class> <!-- Casuality_Prod_TC.Menu_Contact_Us -->
     </classes>
-  </test> <!-- Promesa_Firefox(failed) -->
+  </test> <!-- Casuality_ChromeTest_Production(failed) -->
 </suite> <!-- Failed suite [Suite] -->
