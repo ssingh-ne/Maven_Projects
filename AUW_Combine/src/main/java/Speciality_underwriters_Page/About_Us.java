@@ -20,7 +20,7 @@ public class About_Us {
 	By AboutUS_Heading = By.xpath("//*[@id='eb440db3-fd5f-4482-b468-ab73211b6ffd2']/div/div/div/h5");
 	
 	String About_US_URL  = "https://develop--specialty.netlify.app/about-us";
-	String About_US_URL_prod  = "https://specialty.auw.com/about-us";
+	String About_US_URL_prod  = "https://www.specialty.auw.com/about-us";
 	
 	public void About_US () throws InterruptedException {
 		

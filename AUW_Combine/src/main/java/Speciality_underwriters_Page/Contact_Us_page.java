@@ -24,7 +24,7 @@ public class Contact_Us_page {
 	
 	
 	String Contact_US_URL = "https://develop--specialty.netlify.app/contact-us";
-	String Contact_US_URL_prod = "https://specialty.auw.com/contact-us";
+	String Contact_US_URL_prod = "https://www.specialty.auw.com/contact-us";
 	
 	
 	

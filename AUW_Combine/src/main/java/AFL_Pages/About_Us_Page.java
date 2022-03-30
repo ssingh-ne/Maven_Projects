@@ -24,11 +24,11 @@ public class About_Us_Page {
 	
 	
 	String Meetteam_text = "Meet The Team";
-	String Header_About_US =  "https://afl.auw.com/about-us";
+	String Header_About_US =  "https://www.afl.auw.com/about-us";
 	String FirstBtn_text = "Europe"; 
 	String Second_Btn_text = "United States";
 	String Third_Btn_text = "Partners and Affiliates";
-	String AboutUS_URL = "https://afl.auw.com/about-us";
+	String AboutUS_URL = "https://www.afl.auw.com/about-us";
 	String Header_About_US_dev = "https://develop--applied-financial-lines.netlify.app/about-us";
 	String AboutUS_URL_dev = "https://develop--applied-financial-lines.netlify.app/about-us";
 	

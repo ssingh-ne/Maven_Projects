@@ -23,7 +23,7 @@ public class Contact_Us_Page {
 	String Exp_MiddleEast = "For European and Middle East Coverages";
 	String Exp_UnitedStates = "For United States Coverages";
 	
-	String Contact_URL = "https://afl.auw.com/contact-us";
+	String Contact_URL = "https://www.afl.auw.com/contact-us";
 	String Contact_URL_dev = "https://develop--applied-financial-lines.netlify.app/contact-us";
 
 	public Contact_Us_Page (WebDriver driver){

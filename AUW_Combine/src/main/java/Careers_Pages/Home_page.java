@@ -42,8 +42,8 @@ public class Home_page {
 	String EXP_link_Url = "https://www.linkedin.com";
 	
 	String EXP_Insta_Url = "https://www.instagram.com/";
-	String EXP_Privacy_Url = "https://careers.auw.com/privacy-policy";
-	String EXP_CA_Privacy_Url = "https://careers.auw.com/ca-privacy-notice";
+	String EXP_Privacy_Url = "https://www.careers.auw.com/privacy-policy";
+	String EXP_CA_Privacy_Url = "https://www.careers.auw.com/ca-privacy-notice";
 	
 	String EXP_Privacy_Url_dev = "https://develop--applied-careers.netlify.app/privacy-policy";
 	String EXP_CA_Privacy_Url_dev = "https://develop--applied-careers.netlify.app/ca-privacy-notice";

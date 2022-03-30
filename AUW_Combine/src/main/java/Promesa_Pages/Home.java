@@ -39,8 +39,8 @@ WebDriver driver;
 	
 	String exp_lang_spanish = "Spanish";	
 	String exp_lang_Eng ="English";
-	String EXP_CA_PrivacyURL = "https://promesa.auw.com/ca-privacy-notice";
-	String EXP_PrivacyPolicyURL = "https://promesa.auw.com/privacy-policy";
+	String EXP_CA_PrivacyURL = "https://www.promesa.auw.com/ca-privacy-notice";
+	String EXP_PrivacyPolicyURL = "https://www.promesa.auw.com/privacy-policy";
 	
 	String EXP_CA_PrivacyURL_dev = "https://develop--applied-promesa.netlify.app/ca-privacy-notice";
 	String EXP_PrivacyPolicyURL_dev = "https://develop--applied-promesa.netlify.app/privacy-policy";
