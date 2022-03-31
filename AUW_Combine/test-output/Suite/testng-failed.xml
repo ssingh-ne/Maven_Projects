@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <parameter name="browser" value="chrome"/>
-  <test name="MTL_Prod_FF(failed)">
-    <parameter name="browser" value="firefox"/>
+  <parameter name="browser" value="firefox"/>
+  <test name="Casuality_ChromeTest_Production(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="MTL_Test_Cases_Prod.What_we_offer1_TC">
+      <class name="Casuality_Prod_TC.Menu_Press_Room">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- MTL_Test_Cases_Prod.What_we_offer1_TC -->
-      <class name="MTL_Test_Cases_Prod.Home_URL">
+      </class> <!-- Casuality_Prod_TC.Menu_Press_Room -->
+      <class name="Casuality_Prod_TC.Home_page">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- MTL_Test_Cases_Prod.Home_URL -->
-      <class name="MTL_Test_Cases_Prod.More_offers_TC">
+      </class> <!-- Casuality_Prod_TC.Home_page -->
+      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="Carriers"/>
+        </methods>
+      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
+      <class name="Casuality_Prod_TC.Menu_About_US">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- MTL_Test_Cases_Prod.More_offers_TC -->
-      <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC">
+      </class> <!-- Casuality_Prod_TC.Menu_About_US -->
+      <class name="Casuality_Prod_TC.Menu_Contact_Us">
         <methods>
-          <include name="Heading"/>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- MTL_Test_Cases_Prod.What_we_offer_URL_TC -->
+      </class> <!-- Casuality_Prod_TC.Menu_Contact_Us -->
     </classes>
-  </test> <!-- MTL_Prod_FF(failed) -->
+  </test> <!-- Casuality_ChromeTest_Production(failed) -->
 </suite> <!-- Failed suite [Suite] -->
