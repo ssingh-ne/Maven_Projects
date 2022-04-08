@@ -11,12 +11,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43533" started-at="2022-04-01T11:41:45Z" finished-at="2022-04-01T11:42:28Z">
+  <suite name="Default suite" duration-ms="52347" started-at="2022-04-08T14:02:58Z" finished-at="2022-04-08T14:03:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43533" started-at="2022-04-01T11:41:45Z" finished-at="2022-04-01T11:42:28Z">
+    <test name="Default test" duration-ms="52347" started-at="2022-04-08T14:02:58Z" finished-at="2022-04-08T14:03:50Z">
       <class name="Casuality_Prod_TC.Menu_Our_Carriers">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="setupApplication" is-config="true" duration-ms="6312" started-at="2022-04-01T17:11:45Z" finished-at="2022-04-01T17:11:51Z">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="setupApplication" is-config="true" duration-ms="10959" started-at="2022-04-08T19:32:58Z" finished-at="2022-04-08T19:33:09Z">
           <reporter-output>
             <line>
               <![CDATA[=====FF Browser Session Started=====]]>
@@ -26,11 +26,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="Carriers" duration-ms="36167" started-at="2022-04-01T17:11:51Z" finished-at="2022-04-01T17:12:27Z">
+        <test-method status="PASS" signature="Carriers()[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="Carriers" duration-ms="39812" started-at="2022-04-08T19:33:09Z" finished-at="2022-04-08T19:33:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Carriers -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="tearDown" is-config="true" duration-ms="1033" started-at="2022-04-01T17:12:27Z" finished-at="2022-04-01T17:12:28Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Prod_TC.Menu_Our_Carriers@3ab39c39]" name="tearDown" is-config="true" duration-ms="1533" started-at="2022-04-08T19:33:49Z" finished-at="2022-04-08T19:33:50Z">
           <params>
             <param index="0">
               <value>

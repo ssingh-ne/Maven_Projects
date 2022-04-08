@@ -67,11 +67,17 @@ WebDriver driver;
      
      public void ExploreONE () throws InterruptedException {
     	 
-    	 JavascriptExecutor js = (JavascriptExecutor) driver;
+    	 /*JavascriptExecutor js = (JavascriptExecutor) driver;
 		 WebElement Element = driver.findElement(Explore_one);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);*/
+		
+    	 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 WebElement Element = driver.findElement(By.xpath("/html/body/div/main/div[2]/div/div/div/div/div[2]/h1"));
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
-			
-		 Thread.sleep(2000);
+		 
+		 
+		 
+		 Thread.sleep(5000);
 		 
 		 driver.findElement(Explore_one).click();
 		 
@@ -103,7 +109,7 @@ WebDriver driver;
 		 WebElement Element = driver.findElement(Explore_Two);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
 			
-		 Thread.sleep(2000);
+		 Thread.sleep(5000);
 		 
 		 driver.findElement(Explore_Two).click();
 		 
@@ -116,7 +122,7 @@ WebDriver driver;
 		 WebElement Element = driver.findElement(Explore_Three);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
 			
-		 Thread.sleep(2000);
+		 Thread.sleep(5000);
 		 
 		 driver.findElement(Explore_Three).click();
 		 
@@ -129,7 +135,7 @@ WebDriver driver;
 		 WebElement Element = driver.findElement(Explore_Four);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
 			
-		 Thread.sleep(2000);
+		 Thread.sleep(5000);
 		 
 		 driver.findElement(Explore_Four).click();
 		 
@@ -142,7 +148,7 @@ WebDriver driver;
 		 WebElement Element = driver.findElement(Explore_five);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
 			
-		 Thread.sleep(2000);
+		 Thread.sleep(5000);
 		 
 		 driver.findElement(Explore_five).click();
 		 

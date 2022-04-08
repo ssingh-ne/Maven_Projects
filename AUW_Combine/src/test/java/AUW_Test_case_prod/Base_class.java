@@ -37,7 +37,7 @@ public class Base_class {
 	               
 			driver=new FirefoxDriver();
         
-			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS) ;
+			driver.manage().timeouts().implicitlyWait(500,TimeUnit.SECONDS) ;
 	                
 			driver.manage().window().maximize();
 			
@@ -46,8 +46,9 @@ public class Base_class {
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		} 
-*/	 public void setupApplication (String browser)
+		} */
+	 
+	 public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {
 			Reporter.log("=====firefox Browser Session Started=====", true);
@@ -72,7 +73,7 @@ public class Base_class {
 		
 		Reporter.log("=====Application Started=====", true);
 		
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(500, TimeUnit.SECONDS);
 		}
 		 
 		

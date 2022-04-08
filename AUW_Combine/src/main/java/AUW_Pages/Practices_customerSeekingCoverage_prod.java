@@ -60,7 +60,7 @@ WebDriver driver;
     public void  Practices_link_CustomerSeekingCoverage () throws InterruptedException {
 		
 		Thread.sleep(2000);
-		WebDriverWait wait = new WebDriverWait(driver,60);
+		WebDriverWait wait = new WebDriverWait(driver,600);
 	 	wait.until(ExpectedConditions.visibilityOfElementLocated(Practices_link));
 	 		
 	 	driver.findElement(Practices_link).click(); 
@@ -80,7 +80,7 @@ WebDriver driver;
 		 WebElement Element = driver.findElement(Image1);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
 		 
-		 WebDriverWait wait = new WebDriverWait(driver,60);
+		 WebDriverWait wait = new WebDriverWait(driver,600);
 		 wait.until(ExpectedConditions.visibilityOfElementLocated(Image1));
 		 
 		 driver.findElement(Image1).click();
@@ -97,7 +97,7 @@ WebDriver driver;
 		 WebElement Element1 = driver.findElement(Text1);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		 
-		 WebDriverWait wait1 = new WebDriverWait(driver,60);
+		 WebDriverWait wait1 = new WebDriverWait(driver,600);
 		 wait.until(ExpectedConditions.visibilityOfElementLocated(Image1));
 		 
 		 driver.findElement(Text1).click();
@@ -113,7 +113,7 @@ WebDriver driver;
 		 WebElement Element2 = driver.findElement(LearnMore1);
 		 js.executeScript("arguments[0].scrollIntoView();", Element2);
 		 
-		 WebDriverWait wait2 = new WebDriverWait(driver,60);
+		 WebDriverWait wait2 = new WebDriverWait(driver,600);
 		 wait.until(ExpectedConditions.visibilityOfElementLocated(Image1));
 		 
 		 driver.findElement(LearnMore1).click();
@@ -142,7 +142,7 @@ WebDriver driver;
 			 WebElement Element = driver.findElement(Image2);
 			 js.executeScript("arguments[0].scrollIntoView();", Element);
 			 
-			 WebDriverWait wait = new WebDriverWait(driver,60);
+			 WebDriverWait wait = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image2));
 			 
 			 driver.findElement(Image2).click();
@@ -159,7 +159,7 @@ WebDriver driver;
 			 WebElement Element1 = driver.findElement(Text2);
 			 js.executeScript("arguments[0].scrollIntoView();", Element1);
 			 
-			 WebDriverWait wait1 = new WebDriverWait(driver,60);
+			 WebDriverWait wait1 = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image2));
 			 
 			 driver.findElement(Text2).click();
@@ -176,7 +176,7 @@ WebDriver driver;
 			 WebElement Element2 = driver.findElement(LearnMore2);
 			 js.executeScript("arguments[0].scrollIntoView();", Element2);
 			 
-			 WebDriverWait wait2 = new WebDriverWait(driver,60);
+			 WebDriverWait wait2 = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(LearnMore2));
 			 Thread.sleep(5000);
 			 driver.findElement(LearnMore2).click();
@@ -205,7 +205,7 @@ WebDriver driver;
 			 WebElement Element = driver.findElement(Image3);
 			 js.executeScript("arguments[0].scrollIntoView();", Element);
 			 
-			 WebDriverWait wait = new WebDriverWait(driver,60);
+			 WebDriverWait wait = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image3));
 			 
 			 driver.findElement(Image3).click();
@@ -221,7 +221,7 @@ WebDriver driver;
 			 WebElement Element1 = driver.findElement(Text3);
 			 js.executeScript("arguments[0].scrollIntoView();", Element1);
 			 
-			 WebDriverWait wait1 = new WebDriverWait(driver,60);
+			 WebDriverWait wait1 = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image3));
 			 
 			 driver.findElement(Text3).click();
@@ -238,7 +238,7 @@ WebDriver driver;
 			 WebElement Element2 = driver.findElement(Image3);
 			 js.executeScript("arguments[0].scrollIntoView();", Element2);
 			 
-			 WebDriverWait wait2 = new WebDriverWait(driver,60);
+			 WebDriverWait wait2 = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(LearnMore3));
 			 Thread.sleep(3000);
 			 driver.findElement(LearnMore3).click();
@@ -268,7 +268,7 @@ WebDriver driver;
 			 WebElement Element = driver.findElement(Image4);
 			 js.executeScript("arguments[0].scrollIntoView();", Element);
 			 
-			 WebDriverWait wait = new WebDriverWait(driver,60);
+			 WebDriverWait wait = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image4));
 			 
 			 driver.findElement(Image4).click();
@@ -284,7 +284,7 @@ WebDriver driver;
 			 WebElement Element1 = driver.findElement(Text4);
 			 js.executeScript("arguments[0].scrollIntoView();", Element1);
 			 
-			 WebDriverWait wait1 = new WebDriverWait(driver,60);
+			 WebDriverWait wait1 = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image4));
 			 
 			 driver.findElement(Text4).click();
@@ -300,7 +300,7 @@ WebDriver driver;
 			 WebElement Element2 = driver.findElement(LearnMore4);
 			 js.executeScript("arguments[0].scrollIntoView();", Element2);
 			 
-			 WebDriverWait wait2 = new WebDriverWait(driver,60);
+			 WebDriverWait wait2 = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image4));
 			 Thread.sleep(3000);
 			 driver.findElement(LearnMore4).click();
@@ -328,7 +328,7 @@ WebDriver driver;
 			 WebElement Element = driver.findElement(Image5);
 			 js.executeScript("arguments[0].scrollIntoView();", Element);
 			 
-			 WebDriverWait wait = new WebDriverWait(driver,60);
+			 WebDriverWait wait = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image5));
 			 
 			 driver.findElement(Image5).click();
@@ -344,7 +344,7 @@ WebDriver driver;
 			 WebElement Element1 = driver.findElement(Text5);
 			 js.executeScript("arguments[0].scrollIntoView();", Element1);
 			 
-			 WebDriverWait wait1 = new WebDriverWait(driver,60);
+			 WebDriverWait wait1 = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image5));
 			 
 			 driver.findElement(Text5).click();
@@ -360,7 +360,7 @@ WebDriver driver;
 			 WebElement Element2 = driver.findElement(LearnMore5);
 			 js.executeScript("arguments[0].scrollIntoView();", Element2);
 			 
-			 WebDriverWait wait2 = new WebDriverWait(driver,60);
+			 WebDriverWait wait2 = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image5));
 			 Thread.sleep(3000);
 			 driver.findElement(LearnMore5).click();
@@ -388,7 +388,7 @@ WebDriver driver;
 			 WebElement Element = driver.findElement(Image6);
 			 js.executeScript("arguments[0].scrollIntoView();", Element);
 			 
-			 WebDriverWait wait = new WebDriverWait(driver,60);
+			 WebDriverWait wait = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image6));
 			 
 			 driver.findElement(Image6).click();
@@ -404,7 +404,7 @@ WebDriver driver;
 			 WebElement Element1 = driver.findElement(Text6);
 			 js.executeScript("arguments[0].scrollIntoView();", Element1);
 			 
-			 WebDriverWait wait1 = new WebDriverWait(driver,60);
+			 WebDriverWait wait1 = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image6));
 			 
 			 driver.findElement(Text6).click();
@@ -420,7 +420,7 @@ WebDriver driver;
 			 WebElement Element2 = driver.findElement(LearnMore6);
 			 js.executeScript("arguments[0].scrollIntoView();", Element2);
 			 
-			 WebDriverWait wait2 = new WebDriverWait(driver,60);
+			 WebDriverWait wait2 = new WebDriverWait(driver,600);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(Image6));
 			 
 			 Thread.sleep(3000);
@@ -450,7 +450,7 @@ WebDriver driver;
 				 WebElement Element = driver.findElement(Image7);
 				 js.executeScript("arguments[0].scrollIntoView();", Element);
 				 
-				 WebDriverWait wait = new WebDriverWait(driver,60);
+				 WebDriverWait wait = new WebDriverWait(driver,600);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(Image7));
 				 
 				 driver.findElement(Image7).click();
@@ -466,7 +466,7 @@ WebDriver driver;
 				 WebElement Element1 = driver.findElement(Text7);
 				 js.executeScript("arguments[0].scrollIntoView();", Element1);
 				 
-				 WebDriverWait wait1 = new WebDriverWait(driver,60);
+				 WebDriverWait wait1 = new WebDriverWait(driver,600);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(Image7));
 				 
 				 driver.findElement(Text7).click();
@@ -482,7 +482,7 @@ WebDriver driver;
 				 WebElement Element2 = driver.findElement(LearnMore7);
 				 js.executeScript("arguments[0].scrollIntoView();", Element2);
 				 
-				 WebDriverWait wait2 = new WebDriverWait(driver,60);
+				 WebDriverWait wait2 = new WebDriverWait(driver,600);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(Image7));
 				 
 				 Thread.sleep(3000);

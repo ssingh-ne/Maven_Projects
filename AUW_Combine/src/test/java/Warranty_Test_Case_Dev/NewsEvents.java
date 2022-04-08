@@ -12,12 +12,12 @@ public class NewsEvents extends Base_class {
 		
         NewsEvents_Page n = new NewsEvents_Page(driver);
         
-        n.News();
-        n.Image1();
+       n.News();
+       /*        n.Image1();
         n.Image2();
         n.Image3();
         n.Image4();
-        n.Image5();
+*/        n.Image5();
         
         
 	}

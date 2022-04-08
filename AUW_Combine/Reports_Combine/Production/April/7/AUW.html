@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">AUW_Chrome_Prod</td><td class="numi">9</td><td class="numi">9</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">608.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">AUW_Firefox_Prod</td><td class="numi">10</td><td class="numi">10</td><td class="numi">0</td><td class="numi">0</td><td class="numi">1,042.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">19</td><td class="numi">19</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">1,651.1 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">AUW_Chrome_Prod &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">AUW_Test_case_prod.AUW_Intelligence_TC</td><td><a href="#m1"><b>main</b>  </a></td><td class="numi">1</td><td>1649345819337</td><td class="numi">529291</td></tr>
+<tr><th colspan="4">AUW_Chrome_Prod &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.AUW_CallUpdate</td><td><a href="#m2"><b>main</b>  </a></td><td class="numi">1</td><td>1649345755870</td><td class="numi">45847</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.AUW_Footer_Prod</td><td><a href="#m3"><b>AUW_Footer</b>  </a></td><td class="numi">1</td><td>1649345756063</td><td class="numi">103733</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.AUW_NJ_Update</td><td><a href="#m4"><b>main</b>  </a></td><td class="numi">1</td><td>1649345756112</td><td class="numi">64849</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.AUW_PPP</td><td><a href="#m5"><b>main</b>  </a></td><td class="numi">1</td><td>1649345756297</td><td class="numi">21801</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.AUW_AboutUS</td><td><a href="#m6"><b>AboutUS</b>  </a></td><td class="numi">1</td><td>1649345756458</td><td class="numi">76228</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.AUW_Experience</td><td><a href="#m7"><b>main</b>  </a></td><td class="numi">1</td><td>1649345810243</td><td class="numi">338583</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.Practices_AgentsBrokers</td><td><a href="#m8"><b>Practices_AgentsBrokers</b>  </a></td><td class="numi">1</td><td>1649345854617</td><td class="numi">67983</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.AUW_header_web_Prod</td><td><a href="#m9"><b>main</b>  </a></td><td class="numi">1</td><td>1649345854899</td><td class="numi">42096</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.Practices_CustomerSeekingCoverage</td><td><a href="#m10"><b>Practices_CustomerSeekingCoverage</b>  </a></td><td class="numi">1</td><td>1649345877373</td><td class="numi">208816</td></tr>
+<tr><th colspan="4">AUW_Firefox_Prod &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.AUW_Footer_Prod</td><td><a href="#m11"><b>AUW_Footer</b>  </a></td><td class="numi">1</td><td>1649346358661</td><td class="numi">73573</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.AUW_AboutUS</td><td><a href="#m12"><b>AboutUS</b>  </a></td><td class="numi">1</td><td>1649346442457</td><td class="numi">63446</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.AUW_PPP</td><td><a href="#m13"><b>main</b>  </a></td><td class="numi">1</td><td>1649346515342</td><td class="numi">16813</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.AUW_NJ_Update</td><td><a href="#m14"><b>main</b>  </a></td><td class="numi">1</td><td>1649346541755</td><td class="numi">37737</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.AUW_CallUpdate</td><td><a href="#m15"><b>main</b>  </a></td><td class="numi">1</td><td>1649346588440</td><td class="numi">37705</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.AUW_Experience</td><td><a href="#m16"><b>main</b>  </a></td><td class="numi">1</td><td>1649346635368</td><td class="numi">331528</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.AUW_Intelligence_TC</td><td><a href="#m17"><b>main</b>  </a></td><td class="numi">1</td><td>1649346976208</td><td class="numi">76418</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.AUW_header_web_Prod</td><td><a href="#m18"><b>main</b>  </a></td><td class="numi">1</td><td>1649347061557</td><td class="numi">48437</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.Practices_AgentsBrokers</td><td><a href="#m19"><b>Practices_AgentsBrokers</b>  </a></td><td class="numi">1</td><td>1649347119367</td><td class="numi">53275</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.Practices_CustomerSeekingCoverage</td><td><a href="#m20"><b>Practices_CustomerSeekingCoverage</b>  </a></td><td class="numi">1</td><td>1649347182074</td><td class="numi">209716</td></tr>
+</table>
+<h1>AUW_Chrome_Prod</h1>
+<h2 id="m1">AUW_Test_case_prod.AUW_Intelligence_TC:main</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Back to Applied Intelligence&apos;]&quot;}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 29a9dd7adaec7f5a93066baecdf38f5d
+*** Element info: {Using=xpath, value=//*[text()=&apos;Back to Applied Intelligence&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at AUW_Pages.Intelligence_page.Back_to_Applied(Intelligence_page.java:63)
+<br/>at AUW_Test_case_prod.AUW_Intelligence_TC.main(AUW_Intelligence_TC.java:42)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">AUW_Test_case_prod.Practices_AgentsBrokers:Practices_AgentsBrokers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">AUW_Test_case_prod.Practices_CustomerSeekingCoverage:Practices_CustomerSeekingCoverage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">AUW_Test_case_prod.AUW_Experience:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">AUW_Test_case_prod.AUW_Footer_Prod:AUW_Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">AUW_Test_case_prod.AUW_CallUpdate:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">AUW_Test_case_prod.AUW_AboutUS:AboutUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">AUW_Test_case_prod.AUW_NJ_Update:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">AUW_Test_case_prod.AUW_PPP:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">AUW_Test_case_prod.AUW_header_web_Prod:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>AUW_Firefox_Prod</h1>
+<h2 id="m11">AUW_Test_case_prod.AUW_PPP:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">AUW_Test_case_prod.AUW_Intelligence_TC:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">AUW_Test_case_prod.AUW_Footer_Prod:AUW_Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">AUW_Test_case_prod.AUW_Experience:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">AUW_Test_case_prod.Practices_CustomerSeekingCoverage:Practices_CustomerSeekingCoverage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">AUW_Test_case_prod.AUW_header_web_Prod:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">AUW_Test_case_prod.AUW_NJ_Update:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">AUW_Test_case_prod.AUW_CallUpdate:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">AUW_Test_case_prod.Practices_AgentsBrokers:Practices_AgentsBrokers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">AUW_Test_case_prod.AUW_AboutUS:AboutUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

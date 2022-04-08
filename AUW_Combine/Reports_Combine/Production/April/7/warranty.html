@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Warranty_chrome_Prod</td><td class="numi">10</td><td class="numi">10</td><td class="numi">0</td><td class="numi">0</td><td class="numi">757.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Warranty_firefox_Prod</td><td class="numi">7</td><td class="numi">7</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">830.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">17</td><td class="numi">17</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">1,588.2 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Warranty_chrome_Prod &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Prod.About_US</td><td><a href="#m1"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1649355731258</td><td class="numi">31908</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Prod.Contact_US</td><td><a href="#m2"><b>ContactUS</b>  </a></td><td class="numi">1</td><td>1649355769425</td><td class="numi">36695</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Prod.Partner_With_US</td><td><a href="#m3"><b>partner</b>  </a></td><td class="numi">1</td><td>1649355810988</td><td class="numi">10751</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Prod.HomePage_Testcase</td><td><a href="#m4"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1649355826547</td><td class="numi">254403</td></tr>
+<tr class="passedodd"><td rowspan="6">Warranty_Test_Case_Prod.Our_Partner</td><td><a href="#m5"><b>Partner1</b>  </a></td><td class="numi">1</td><td>1649356086928</td><td class="numi">60978</td></tr><tr class="passedodd"><td><a href="#m6"><b>Partner2</b>  </a></td><td class="numi">1</td><td>1649356152941</td><td class="numi">61564</td></tr><tr class="passedodd"><td><a href="#m7"><b>Partner3</b>  </a></td><td class="numi">1</td><td>1649356218859</td><td class="numi">61717</td></tr><tr class="passedodd"><td><a href="#m8"><b>Partner4</b>  </a></td><td class="numi">1</td><td>1649356284607</td><td class="numi">62836</td></tr><tr class="passedodd"><td><a href="#m9"><b>Partner5</b>  </a></td><td class="numi">1</td><td>1649356352213</td><td class="numi">62901</td></tr><tr class="passedodd"><td><a href="#m10"><b>Partner6</b>  </a></td><td class="numi">1</td><td>1649356419499</td><td class="numi">61207</td></tr>
+<tr><th colspan="4">Warranty_firefox_Prod &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="3">Warranty_Test_Case_Prod.Our_Partner</td><td><a href="#m11"><b>Partner2</b>  </a></td><td class="numi">1</td><td>1649356935970</td><td class="numi">50767</td></tr><tr class="failedodd"><td><a href="#m12"><b>Partner5</b>  </a></td><td class="numi">1</td><td>1649357143892</td><td class="numi">50783</td></tr><tr class="failedodd"><td><a href="#m13"><b>Partner6</b>  </a></td><td class="numi">1</td><td>1649357275136</td><td class="numi">35045</td></tr>
+<tr><th colspan="4">Warranty_firefox_Prod &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Prod.About_US</td><td><a href="#m14"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1649356488860</td><td class="numi">32098</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Prod.Contact_US</td><td><a href="#m15"><b>ContactUS</b>  </a></td><td class="numi">1</td><td>1649356530659</td><td class="numi">38040</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Prod.Partner_With_US</td><td><a href="#m16"><b>partner</b>  </a></td><td class="numi">1</td><td>1649356577983</td><td class="numi">11081</td></tr>
+<tr class="passedeven"><td rowspan="1">Warranty_Test_Case_Prod.HomePage_Testcase</td><td><a href="#m17"><b>Home_page</b>  </a></td><td class="numi">1</td><td>1649356597948</td><td class="numi">255915</td></tr>
+<tr class="passedodd"><td rowspan="3">Warranty_Test_Case_Prod.Our_Partner</td><td><a href="#m18"><b>Partner1</b>  </a></td><td class="numi">1</td><td>1649356863114</td><td class="numi">63918</td></tr><tr class="passedodd"><td><a href="#m19"><b>Partner3</b>  </a></td><td class="numi">1</td><td>1649356996237</td><td class="numi">64834</td></tr><tr class="passedodd"><td><a href="#m20"><b>Partner4</b>  </a></td><td class="numi">1</td><td>1649357069965</td><td class="numi">65993</td></tr>
+</table>
+<h1>Warranty_chrome_Prod</h1>
+<h2 id="m1">Warranty_Test_Case_Prod.Contact_US:ContactUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Warranty_Test_Case_Prod.Partner_With_US:partner</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Warranty_Test_Case_Prod.Our_Partner:Partner2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Warranty_Test_Case_Prod.HomePage_Testcase:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Warranty_Test_Case_Prod.Our_Partner:Partner6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Warranty_Test_Case_Prod.Our_Partner:Partner5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Warranty_Test_Case_Prod.Our_Partner:Partner3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">Warranty_Test_Case_Prod.Our_Partner:Partner1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">Warranty_Test_Case_Prod.Our_Partner:Partner4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">Warranty_Test_Case_Prod.About_US:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Warranty_firefox_Prod</h1>
+<h2 id="m11">Warranty_Test_Case_Prod.Our_Partner:Partner2</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 22652, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 07a686b7-db53-4254-8435-241ce13f3a65
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at Warranty_Page.Our_Partners_page.Partner2(Our_Partners_page.java:84)
+<br/>at Warranty_Test_Case_Prod.Our_Partner.Partner2(Our_Partner.java:32)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">Warranty_Test_Case_Prod.Our_Partner:Partner5</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 18452, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2406c1cd-2441-4401-94a8-f3040b670f28
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at Warranty_Page.Our_Partners_page.Partner5(Our_Partners_page.java:143)
+<br/>at Warranty_Test_Case_Prod.Our_Partner.Partner5(Our_Partner.java:72)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">Warranty_Test_Case_Prod.Our_Partner:Partner6</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: (//*[text()=&apos;Our Products&apos;])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23124, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a0753bc8-2d9e-4f89-acd9-088093601625
+*** Element info: {Using=xpath, value=(//*[text()=&apos;Our Products&apos;])[1]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at Warranty_Page.Our_Partners_page.PartnerHeader(Our_Partners_page.java:42)
+<br/>at Warranty_Test_Case_Prod.Our_Partner.Partner6(Our_Partner.java:85)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">Warranty_Test_Case_Prod.About_US:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">Warranty_Test_Case_Prod.HomePage_Testcase:Home_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">Warranty_Test_Case_Prod.Our_Partner:Partner1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">Warranty_Test_Case_Prod.Contact_US:ContactUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">Warranty_Test_Case_Prod.Partner_With_US:partner</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">Warranty_Test_Case_Prod.Our_Partner:Partner4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">Warranty_Test_Case_Prod.Our_Partner:Partner3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

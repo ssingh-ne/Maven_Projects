@@ -37,7 +37,6 @@ public class NewsEvents_Page {
 		this.driver=driver;
 	}
 	
-	
 	public void News () throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		WebElement Element = driver.findElement(NewandEvents);
@@ -47,7 +46,6 @@ public class NewsEvents_Page {
 		Thread.sleep(3000);
 		
 	}
-	
 	
 	public void Image1() throws InterruptedException {
 		
@@ -250,10 +248,10 @@ public class NewsEvents_Page {
 			WebElement Element = driver.findElement(more);
 			js.executeScript("arguments[0].scrollIntoView();", Element);
 			
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			driver.findElement(more).click();
 			
-			Thread.sleep(2000);
+			/*Thread.sleep(2000);
 			
 			WebElement Element2 = driver.findElement(Image5);
 			js.executeScript("arguments[0].scrollIntoView();", Element2);
@@ -297,7 +295,7 @@ public class NewsEvents_Page {
 				assertEquals(ImageURL, TextURL);
 				//assertEquals(TextURL, ImageURL1);
 				
-			
+			*/
 		}
 
 
