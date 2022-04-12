@@ -12,9 +12,9 @@ public class Home extends Base_class {
 	
 	Home_page h = new Home_page(driver);
 	
-	h.About_Us();
+	h.About_Us_prod();
 	h.Contact_Us();
-	h.PrivacyPolicy();
+	h.PrivacyPolicy_prod();
 	
 	}
 	

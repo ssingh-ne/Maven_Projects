@@ -24,13 +24,13 @@ public class Base_class {
 	@Parameters ("browser")
 	 @BeforeMethod
 	
-	 /*public void setupApplication()
+	 public void setupApplication()
 		{
 			
 			Reporter.log("=====FF Browser Session Started=====", true);
 			
-			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
-			driver=new ChromeDriver();
+			/*System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
+			driver=new ChromeDriver();*/
 			
 			System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
 	               
@@ -47,7 +47,7 @@ public class Base_class {
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		}
-	*/
+	
 	
    public void setupApplication (String browser)
 		{
@@ -107,7 +107,7 @@ public class Base_class {
 			 
 			 
 			}
-			driver.quit();
+		//	driver.quit();
 			Reporter.log("=====Browser Session End=====", true);
 			
 		} 

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Firefox_Developmet</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>55/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>49/10/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 04 11:59:57 IST 2022</td>
+<td>Started on:</td><td>Tue Apr 12 09:58:28 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>1330 seconds (1330539 ms)</td>
+<tr><td>Total time:</td><td>3569 seconds (3569421 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,21 +75,22 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Casuality_Dev_TC.Menu_Our_Carriers.Carriers()'><b>Carriers</b><br>Test class: Casuality_Dev_TC.Menu_Our_Carriers</td>
-<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
-	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
-	at java.util.ArrayList.get(ArrayList.java:435)
-	at Casuality_pages.Menu_Carriers.Ambest(Menu_Carriers.java:61)
-	at Casuality_Dev_TC.Menu_Our_Carriers.Carriers(Menu_Our_Carriers.java:19)
+<td title='AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev.ContactUs_Page()'><b>ContactUs_Page</b><br>Test class: AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev</td>
+<td><div><pre>java.lang.AssertionError: expected [For United States Coverages] but found [For European and Middle East Coverages]
+	at AFL_Pages.Contact_Us_Page.Contact_US_Coverage_Outside_US(Contact_Us_Page.java:153)
+	at AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev.ContactUs_Page(ContactUS_OutsideUS_dev.java:21)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1664356145", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1664356145'><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
-	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
-	at java.util.ArrayList.get(ArrayList.java:435)
-	at Casuality_pages.Menu_Carriers.Ambest(Menu_Carriers.java:61)
-	at Casuality_Dev_TC.Menu_Our_Carriers.Carriers(Menu_Our_Carriers.java:19)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1862227717", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1862227717'><pre>java.lang.AssertionError: expected [For United States Coverages] but found [For European and Middle East Coverages]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at AFL_Pages.Contact_Us_Page.Contact_US_Coverage_Outside_US(Contact_Us_Page.java:153)
+	at AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev.ContactUs_Page(ContactUS_OutsideUS_dev.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -104,76 +105,18 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>37</td>
-<td>Casuality_Dev_TC.Menu_Our_Carriers@5a61f5df</td></tr>
+<td>27</td>
+<td>AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@4de8b406</td></tr>
 <tr>
-<td title='Warranty_Test_Case_Dev.NewsEvents.NewsEvents()'><b>NewsEvents</b><br>Test class: Warranty_Test_Case_Dev.NewsEvents</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;h3 class=&quot;jss285&quot;&gt; is not clickable at point (867,100) because another element &lt;div id=&quot;translucent-desktop-menu&quot; class=&quot;jss208&quot;&gt; obscures it
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 41488, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fa9c6f76-60b6-4152-9932-87d7a3fbd202
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Warranty_Page.NewsEvents_Page.Image2(NewsEvents_Page.java:119)
-	at Warranty_Test_Case_Dev.NewsEvents.NewsEvents(NewsEvents.java:17)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1476984254", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1476984254'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;h3 class=&quot;jss285&quot;&gt; is not clickable at point (867,100) because another element &lt;div id=&quot;translucent-desktop-menu&quot; class=&quot;jss208&quot;&gt; obscures it
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 41488, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fa9c6f76-60b6-4152-9932-87d7a3fbd202
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Warranty_Page.NewsEvents_Page.Image2(NewsEvents_Page.java:119)
-	at Warranty_Test_Case_Dev.NewsEvents.NewsEvents(NewsEvents.java:17)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-</pre></div></td>
-<td>44</td>
-<td>Warranty_Test_Case_Dev.NewsEvents@3c09711b</td></tr>
-<tr>
-<td title='Adler_TestCases_Development.Home.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Adler_TestCases_Development.Home</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[text()=&apos;About Adler&apos;]
+<td title='Warranty_Test_Case_Dev.HomePage_Testcase.Home_page()'><b>Home_page</b><br>Test class: Warranty_Test_Case_Dev.HomePage_Testcase</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[1]/h1
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 35684, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d6ec32cf-1c26-4369-b416-925510699a3e
-*** Element info: {Using=xpath, value=//*[text()=&apos;About Adler&apos;]}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 10792, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 59659fb5-9881-487f-89d5-bdcad4ce954d
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[1]/h1}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -184,20 +127,20 @@ Session ID: d6ec32cf-1c26-4369-b416-925510699a3e
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at Adler_Pages.Home_page.About_Us(Home_page.java:395)
-	at Adler_TestCases_Development.Home.main_Home_Page(Home.java:16)
+	at Warranty_Page.Home_Page.sudHeading(Home_Page.java:555)
+	at Warranty_Test_Case_Dev.HomePage_Testcase.Home_page(HomePage_Testcase.java:18)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace422051290", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace422051290'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[text()=&apos;About Adler&apos;]
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1559617593", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1559617593'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[1]/h1
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 35684, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d6ec32cf-1c26-4369-b416-925510699a3e
-*** Element info: {Using=xpath, value=//*[text()=&apos;About Adler&apos;]}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 10792, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 59659fb5-9881-487f-89d5-bdcad4ce954d
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[1]/h1}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -212,8 +155,8 @@ Session ID: d6ec32cf-1c26-4369-b416-925510699a3e
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at Adler_Pages.Home_page.About_Us(Home_page.java:395)
-	at Adler_TestCases_Development.Home.main_Home_Page(Home.java:16)
+	at Warranty_Page.Home_Page.sudHeading(Home_Page.java:555)
+	at Warranty_Test_Case_Dev.HomePage_Testcase.Home_page(HomePage_Testcase.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -228,17 +171,479 @@ Session ID: d6ec32cf-1c26-4369-b416-925510699a3e
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>35</td>
-<td>Adler_TestCases_Development.Home@50f8360d</td></tr>
+<td>30</td>
+<td>Warranty_Test_Case_Dev.HomePage_Testcase@458ad742</td></tr>
+<tr>
+<td title='Warranty_Test_Case_Dev.Our_Partner.Partner1()'><b>Partner1</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 29584, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 45a3564f-747f-491a-b1cf-c8aefd678bc0
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner1(Our_Partners_page.java:63)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner1(Our_Partner.java:17)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2034199115", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2034199115'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 29584, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 45a3564f-747f-491a-b1cf-c8aefd678bc0
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner1(Our_Partners_page.java:63)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner1(Our_Partner.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>47</td>
+<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
+<tr>
+<td title='Warranty_Test_Case_Dev.Our_Partner.Partner2()'><b>Partner2</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3080, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8c4f57c9-1427-4e59-97ef-0860cfbed8f0
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner2(Our_Partners_page.java:84)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner2(Our_Partner.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2033020857", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2033020857'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3080, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8c4f57c9-1427-4e59-97ef-0860cfbed8f0
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner2(Our_Partners_page.java:84)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner2(Our_Partner.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>47</td>
+<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
+<tr>
+<td title='Warranty_Test_Case_Dev.Our_Partner.Partner3()'><b>Partner3</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 27504, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fd9da57-ed15-41cd-84b0-c6e7e68fb3cc
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner3(Our_Partners_page.java:104)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner3(Our_Partner.java:44)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace854097325", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace854097325'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 27504, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fd9da57-ed15-41cd-84b0-c6e7e68fb3cc
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner3(Our_Partners_page.java:104)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner3(Our_Partner.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>47</td>
+<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
+<tr>
+<td title='Warranty_Test_Case_Dev.Our_Partner.Partner4()'><b>Partner4</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 21060, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 517127c3-9840-4439-a24b-bda6bf1aa79a
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner4(Our_Partners_page.java:124)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner4(Our_Partner.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1655658162", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1655658162'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 21060, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 517127c3-9840-4439-a24b-bda6bf1aa79a
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner4(Our_Partners_page.java:124)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner4(Our_Partner.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>50</td>
+<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
+<tr>
+<td title='Warranty_Test_Case_Dev.Our_Partner.Partner5()'><b>Partner5</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3200, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9051038d-77d5-471e-9069-8ae8ab0143db
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner5(Our_Partners_page.java:143)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner5(Our_Partner.java:72)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1737130937", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1737130937'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3200, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9051038d-77d5-471e-9069-8ae8ab0143db
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner5(Our_Partners_page.java:143)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner5(Our_Partner.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>47</td>
+<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
+<tr>
+<td title='Warranty_Test_Case_Dev.Our_Partner.Partner6()'><b>Partner6</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 21224, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1db723a8-e090-4a5f-a04c-a741c474d790
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner6(Our_Partners_page.java:164)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner6(Our_Partner.java:86)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1595951295", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1595951295'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 21224, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1db723a8-e090-4a5f-a04c-a741c474d790
+*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div[2]/div/div/div[2]/h1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Warranty_Page.Our_Partners_page.Partner6(Our_Partners_page.java:164)
+	at Warranty_Test_Case_Dev.Our_Partner.Partner6(Our_Partner.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>48</td>
+<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
+<tr>
+<td title='Promesa_Test_Case_Development.Pharmacy_search.Side_Heading_One()'><b>Side_Heading_One</b><br>Test class: Promesa_Test_Case_Development.Pharmacy_search</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;listItem_0&apos;]/div/p[3]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 4772, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f888ac04-df75-4abe-a31b-2ec0820b7ad3
+*** Element info: {Using=xpath, value=//*[@id=&apos;listItem_0&apos;]/div/p[3]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Promesa_Pages.Pharmacy_Search.Search_City(Pharmacy_Search.java:42)
+	at Promesa_Test_Case_Development.Pharmacy_search.Side_Heading_One(Pharmacy_search.java:21)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1361932190", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1361932190'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;listItem_0&apos;]/div/p[3]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 4772, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f888ac04-df75-4abe-a31b-2ec0820b7ad3
+*** Element info: {Using=xpath, value=//*[@id=&apos;listItem_0&apos;]/div/p[3]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Promesa_Pages.Pharmacy_Search.Search_City(Pharmacy_Search.java:42)
+	at Promesa_Test_Case_Development.Pharmacy_search.Side_Heading_One(Pharmacy_search.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>67</td>
+<td>Promesa_Test_Case_Development.Pharmacy_search@61dc03ce</td></tr>
 <tr>
 <td title='Adler_TestCases_Development.News.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Adler_TestCases_Development.News</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: (//*[contains(@class,&apos;fadeAltClass-1&apos;)])[1]/div/a/div/img
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 42596, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b9e98346-fb24-4fe1-9039-cc592d99dc96
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 24952, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f4e55dff-caff-42c1-a089-cce647a839a9
 *** Element info: {Using=xpath, value=(//*[contains(@class,&apos;fadeAltClass-1&apos;)])[1]/div/a/div/img}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -255,14 +660,14 @@ Session ID: b9e98346-fb24-4fe1-9039-cc592d99dc96
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace838837174", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace838837174'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: (//*[contains(@class,&apos;fadeAltClass-1&apos;)])[1]/div/a/div/img
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace322366050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace322366050'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: (//*[contains(@class,&apos;fadeAltClass-1&apos;)])[1]/div/a/div/img
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 42596, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b9e98346-fb24-4fe1-9039-cc592d99dc96
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 24952, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f4e55dff-caff-42c1-a089-cce647a839a9
 *** Element info: {Using=xpath, value=(//*[contains(@class,&apos;fadeAltClass-1&apos;)])[1]/div/a/div/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -294,7 +699,7 @@ Session ID: b9e98346-fb24-4fe1-9039-cc592d99dc96
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>43</td>
+<td>41</td>
 <td>Adler_TestCases_Development.News@153f5a29</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -307,22 +712,27 @@ Session ID: b9e98346-fb24-4fe1-9039-cc592d99dc96
 <tr>
 <td title='AUW_Test_Case_dev.AUW_Footer_Development.AUW_Footer()'><b>AUW_Footer</b><br>Test class: AUW_Test_Case_dev.AUW_Footer_Development</td>
 <td></td>
-<td>84</td>
+<td>70</td>
 <td>AUW_Test_Case_dev.AUW_Footer_Development@737996a0</td></tr>
 <tr>
 <td title='Careers_Test_case_Development.Footer.AUW_Footer()'><b>AUW_Footer</b><br>Test class: Careers_Test_case_Development.Footer</td>
 <td></td>
-<td>76</td>
+<td>63</td>
 <td>Careers_Test_case_Development.Footer@2344fc66</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_AboutUS.AboutUS()'><b>AboutUS</b><br>Test class: AUW_Test_Case_dev.AUW_AboutUS</td>
 <td></td>
-<td>71</td>
+<td>65</td>
 <td>AUW_Test_Case_dev.AUW_AboutUS@2cb4c3ab</td></tr>
+<tr>
+<td title='Casuality_Dev_TC.Menu_Our_Carriers.Carriers()'><b>Carriers</b><br>Test class: Casuality_Dev_TC.Menu_Our_Carriers</td>
+<td></td>
+<td>36</td>
+<td>Casuality_Dev_TC.Menu_Our_Carriers@5a61f5df</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Development.Change_language.Change_Language()'><b>Change_Language</b><br>Test class: Promesa_Test_Case_Development.Change_language</td>
 <td></td>
-<td>4</td>
+<td>2</td>
 <td>Promesa_Test_Case_Development.Change_language@735b478</td></tr>
 <tr>
 <td title='Tradewel_Test_Cases_Development.Comprehensive_Protection_FF.Comprehensive()'><b>Comprehensive</b><br>Test class: Tradewel_Test_Cases_Development.Comprehensive_Protection_FF</td>
@@ -332,72 +742,67 @@ Session ID: b9e98346-fb24-4fe1-9039-cc592d99dc96
 <tr>
 <td title='Warranty_Test_Case_Dev.Contact_US.ContactUS()'><b>ContactUS</b><br>Test class: Warranty_Test_Case_Dev.Contact_US</td>
 <td></td>
-<td>46</td>
+<td>58</td>
 <td>Warranty_Test_Case_Dev.Contact_US@7f560810</td></tr>
-<tr>
-<td title='AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev.ContactUs_Page()'><b>ContactUs_Page</b><br>Test class: AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev</td>
-<td></td>
-<td>31</td>
-<td>AFL_Test_Cases_Dev.ContactUS_OutsideUS_dev@4de8b406</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Development.Footer.Footer()'><b>Footer</b><br>Test class: Promesa_Test_Case_Development.Footer</td>
 <td></td>
-<td>59</td>
+<td>55</td>
 <td>Promesa_Test_Case_Development.Footer@5056dfcb</td></tr>
-<tr>
-<td title='Speciality_underwriters_Test_Case_Dev.About_Us.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.About_Us</td>
-<td></td>
-<td>11</td>
-<td>Speciality_underwriters_Test_Case_Dev.About_Us@69d9c55</td></tr>
 <tr>
 <td title='Speciality_underwriters_Test_Case_Dev.Contact_US_TC.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.Contact_US_TC</td>
 <td></td>
-<td>18</td>
+<td>17</td>
 <td>Speciality_underwriters_Test_Case_Dev.Contact_US_TC@32e6e9c3</td></tr>
+<tr>
+<td title='Speciality_underwriters_Test_Case_Dev.About_Us.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.About_Us</td>
+<td></td>
+<td>9</td>
+<td>Speciality_underwriters_Test_Case_Dev.About_Us@69d9c55</td></tr>
+<tr>
+<td title='Speciality_underwriters_Test_Case_Dev.What_We_offer.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.What_We_offer</td>
+<td></td>
+<td>37</td>
+<td>Speciality_underwriters_Test_Case_Dev.What_We_offer@2669b199</td></tr>
 <tr>
 <td title='Speciality_underwriters_Test_Case_Dev.Home_TC.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.Home_TC</td>
 <td></td>
 <td>15</td>
 <td>Speciality_underwriters_Test_Case_Dev.Home_TC@52af6cff</td></tr>
 <tr>
-<td title='Speciality_underwriters_Test_Case_Dev.What_We_offer.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Dev.What_We_offer</td>
+<td title='AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev.Footer()'><b>Footer</b><br>Test class: AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev</td>
 <td></td>
-<td>38</td>
-<td>Speciality_underwriters_Test_Case_Dev.What_We_offer@2669b199</td></tr>
+<td>249</td>
+<td>AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@7921b0a2</td></tr>
 <tr>
 <td title='AFL_Test_Cases_Dev.Footer_TC_dev.Footer()'><b>Footer</b><br>Test class: AFL_Test_Cases_Dev.Footer_TC_dev</td>
 <td></td>
-<td>76</td>
+<td>67</td>
 <td>AFL_Test_Cases_Dev.Footer_TC_dev@97e1986</td></tr>
-<tr>
-<td title='AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev.Footer()'><b>Footer</b><br>Test class: AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev</td>
-<td></td>
-<td>289</td>
-<td>AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev@7921b0a2</td></tr>
 <tr>
 <td title='Solution_one_Development.Footer_Develop.Footer()'><b>Footer</b><br>Test class: Solution_one_Development.Footer_Develop</td>
 <td></td>
-<td>77</td>
+<td>47</td>
 <td>Solution_one_Development.Footer_Develop@66d2e7d9</td></tr>
 <tr>
 <td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_Facebook()'><b>Footer_Facebook</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
 <td></td>
-<td>28</td>
+<td>25</td>
 <td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
 <tr>
 <td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_Instagram()'><b>Footer_Instagram</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
 <td></td>
-<td>29</td>
+<td>25</td>
 <td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
 <tr>
 <td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_Privacy()'><b>Footer_Privacy</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
 <td></td>
-<td>36</td>
+<td>35</td>
 <td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
 <tr>
 <td title='JumboGC_Test_case_Devlopment.Header_footer.Footer_linkedIN()'><b>Footer_linkedIN</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
 <td></td>
-<td>29</td>
+<td>25</td>
 <td>JumboGC_Test_case_Devlopment.Header_footer@5cc7c2a6</td></tr>
 <tr>
 <td title='JumboGC_Test_case_Devlopment.Header_footer.Header_Login()'><b>Header_Login</b><br>Test class: JumboGC_Test_case_Devlopment.Header_footer</td>
@@ -407,37 +812,37 @@ Session ID: b9e98346-fb24-4fe1-9039-cc592d99dc96
 <tr>
 <td title='AUW_Global_Test_Cases_Development.Home_Page_TC.HomePage()'><b>HomePage</b><br>Test class: AUW_Global_Test_Cases_Development.Home_Page_TC</td>
 <td></td>
-<td>15</td>
+<td>10</td>
 <td>AUW_Global_Test_Cases_Development.Home_Page_TC@4590c9c3</td></tr>
 <tr>
 <td title='Casuality_Dev_TC.Home_page.HomePage()'><b>HomePage</b><br>Test class: Casuality_Dev_TC.Home_page</td>
 <td></td>
-<td>68</td>
+<td>62</td>
 <td>Casuality_Dev_TC.Home_page@b97c004</td></tr>
 <tr>
 <td title='Casuality_Dev_TC.Menu_Press_Room.HomePage()'><b>HomePage</b><br>Test class: Casuality_Dev_TC.Menu_Press_Room</td>
 <td></td>
-<td>60</td>
+<td>52</td>
 <td>Casuality_Dev_TC.Menu_Press_Room@9f70c54</td></tr>
 <tr>
 <td title='Casuality_Dev_TC.Menu_Contact_Us.HomePage()'><b>HomePage</b><br>Test class: Casuality_Dev_TC.Menu_Contact_Us</td>
 <td></td>
-<td>23</td>
+<td>21</td>
 <td>Casuality_Dev_TC.Menu_Contact_Us@61a485d2</td></tr>
 <tr>
 <td title='Casuality_Dev_TC.Menu_About_US.HomePage()'><b>HomePage</b><br>Test class: Casuality_Dev_TC.Menu_About_US</td>
 <td></td>
-<td>49</td>
+<td>42</td>
 <td>Casuality_Dev_TC.Menu_About_US@39fb3ab6</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Dev.Home_TC.HomePage_Header_ContactUS_btn()'><b>HomePage_Header_ContactUS_btn</b><br>Test class: Credit_Global_Test_Cases_Dev.Home_TC</td>
 <td></td>
-<td>19</td>
+<td>16</td>
 <td>Credit_Global_Test_Cases_Dev.Home_TC@7946e1f4</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Dev.Home_TC.HomePage_Header_Our_approach()'><b>HomePage_Header_Our_approach</b><br>Test class: Credit_Global_Test_Cases_Dev.Home_TC</td>
 <td></td>
-<td>13</td>
+<td>11</td>
 <td>Credit_Global_Test_Cases_Dev.Home_TC@7946e1f4</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Dev.Home_TC.HomePage_Header_What_weDo()'><b>HomePage_Header_What_weDo</b><br>Test class: Credit_Global_Test_Cases_Dev.Home_TC</td>
@@ -445,139 +850,109 @@ Session ID: b9e98346-fb24-4fe1-9039-cc592d99dc96
 <td>7</td>
 <td>Credit_Global_Test_Cases_Dev.Home_TC@7946e1f4</td></tr>
 <tr>
+<td title='Credit_Global_Test_Cases_Dev.Home_TC.HomePage_Header_login()'><b>HomePage_Header_login</b><br>Test class: Credit_Global_Test_Cases_Dev.Home_TC</td>
+<td></td>
+<td>10</td>
+<td>Credit_Global_Test_Cases_Dev.Home_TC@7946e1f4</td></tr>
+<tr>
 <td title='Credit_Global_Test_Cases_Dev.Forgot_Password.HomePage_Header_login()'><b>HomePage_Header_login</b><br>Test class: Credit_Global_Test_Cases_Dev.Forgot_Password</td>
 <td></td>
-<td>9</td>
+<td>7</td>
 <td>Credit_Global_Test_Cases_Dev.Forgot_Password@174d20a</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Dev.What_we_Do_TC.HomePage_Header_login()'><b>HomePage_Header_login</b><br>Test class: Credit_Global_Test_Cases_Dev.What_we_Do_TC</td>
 <td></td>
-<td>30</td>
+<td>29</td>
 <td>Credit_Global_Test_Cases_Dev.What_we_Do_TC@234bef66</td></tr>
-<tr>
-<td title='Credit_Global_Test_Cases_Dev.Home_TC.HomePage_Header_login()'><b>HomePage_Header_login</b><br>Test class: Credit_Global_Test_Cases_Dev.Home_TC</td>
-<td></td>
-<td>12</td>
-<td>Credit_Global_Test_Cases_Dev.Home_TC@7946e1f4</td></tr>
 <tr>
 <td title='AFL_Test_Cases_Dev.HomePage_TC_dev.Home_Page()'><b>Home_Page</b><br>Test class: AFL_Test_Cases_Dev.HomePage_TC_dev</td>
 <td></td>
-<td>128</td>
+<td>116</td>
 <td>AFL_Test_Cases_Dev.HomePage_TC_dev@26f67b76</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Dev.About_US.Home_page()'><b>Home_page</b><br>Test class: Warranty_Test_Case_Dev.About_US</td>
 <td></td>
-<td>33</td>
+<td>34</td>
 <td>Warranty_Test_Case_Dev.About_US@6ea12c19</td></tr>
-<tr>
-<td title='Warranty_Test_Case_Dev.HomePage_Testcase.Home_page()'><b>Home_page</b><br>Test class: Warranty_Test_Case_Dev.HomePage_Testcase</td>
-<td></td>
-<td>281</td>
-<td>Warranty_Test_Case_Dev.HomePage_Testcase@458ad742</td></tr>
 <tr>
 <td title='AUW_Global_Test_Cases_Development.LearnMore_TC.LearnMore()'><b>LearnMore</b><br>Test class: AUW_Global_Test_Cases_Development.LearnMore_TC</td>
 <td></td>
-<td>16</td>
+<td>13</td>
 <td>AUW_Global_Test_Cases_Development.LearnMore_TC@6276ae34</td></tr>
 <tr>
-<td title='Warranty_Test_Case_Dev.Our_Partner.Partner1()'><b>Partner1</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
+<td title='Warranty_Test_Case_Dev.NewsEvents.NewsEvents()'><b>NewsEvents</b><br>Test class: Warranty_Test_Case_Dev.NewsEvents</td>
 <td></td>
-<td>92</td>
-<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
-<tr>
-<td title='Warranty_Test_Case_Dev.Our_Partner.Partner2()'><b>Partner2</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
-<td></td>
-<td>86</td>
-<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
-<tr>
-<td title='Warranty_Test_Case_Dev.Our_Partner.Partner3()'><b>Partner3</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
-<td></td>
-<td>86</td>
-<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
-<tr>
-<td title='Warranty_Test_Case_Dev.Our_Partner.Partner4()'><b>Partner4</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
-<td></td>
-<td>77</td>
-<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
-<tr>
-<td title='Warranty_Test_Case_Dev.Our_Partner.Partner5()'><b>Partner5</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
-<td></td>
-<td>65</td>
-<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
-<tr>
-<td title='Warranty_Test_Case_Dev.Our_Partner.Partner6()'><b>Partner6</b><br>Test class: Warranty_Test_Case_Dev.Our_Partner</td>
-<td></td>
-<td>65</td>
-<td>Warranty_Test_Case_Dev.Our_Partner@3dd3bcd</td></tr>
+<td>12</td>
+<td>Warranty_Test_Case_Dev.NewsEvents@3c09711b</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.Practices_AgentsBrokers.Practices_AgentsBrokers()'><b>Practices_AgentsBrokers</b><br>Test class: AUW_Test_Case_dev.Practices_AgentsBrokers</td>
 <td></td>
-<td>65</td>
+<td>53</td>
 <td>AUW_Test_Case_dev.Practices_AgentsBrokers@2c9f9fb0</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.Practices_CustomerSeekingCoverage.Practices_CustomerSeekingCoverage()'><b>Practices_CustomerSeekingCoverage</b><br>Test class: AUW_Test_Case_dev.Practices_CustomerSeekingCoverage</td>
 <td></td>
-<td>244</td>
+<td>217</td>
 <td>AUW_Test_Case_dev.Practices_CustomerSeekingCoverage@7ca48474</td></tr>
-<tr>
-<td title='Promesa_Test_Case_Development.Pharmacy_search.Side_Heading_One()'><b>Side_Heading_One</b><br>Test class: Promesa_Test_Case_Development.Pharmacy_search</td>
-<td></td>
-<td>123</td>
-<td>Promesa_Test_Case_Development.Pharmacy_search@61dc03ce</td></tr>
 <tr>
 <td title='Pinnacle_Test_Cases_Development.WatsNew.WhatsNew()'><b>WhatsNew</b><br>Test class: Pinnacle_Test_Cases_Development.WatsNew</td>
 <td></td>
-<td>100</td>
+<td>86</td>
 <td>Pinnacle_Test_Cases_Development.WatsNew@6574b225</td></tr>
+<tr>
+<td title='AUW_Test_Case_dev.AUW_Experience.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_Experience</td>
+<td></td>
+<td>337</td>
+<td>AUW_Test_Case_dev.AUW_Experience@1efbd816</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_header_web_Development.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_header_web_Development</td>
 <td></td>
-<td>49</td>
+<td>48</td>
 <td>AUW_Test_Case_dev.AUW_header_web_Development@5afa04c</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_PPP.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_PPP</td>
 <td></td>
-<td>19</td>
+<td>18</td>
 <td>AUW_Test_Case_dev.AUW_PPP@12843fce</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_CallUpdate.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_CallUpdate</td>
 <td></td>
-<td>45</td>
+<td>43</td>
 <td>AUW_Test_Case_dev.AUW_CallUpdate@6a024a67</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_NJ_Update.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_NJ_Update</td>
 <td></td>
-<td>42</td>
+<td>40</td>
 <td>AUW_Test_Case_dev.AUW_NJ_Update@59e84876</td></tr>
 <tr>
 <td title='AUW_Test_Case_dev.AUW_Intelligence_TC.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_Intelligence_TC</td>
 <td></td>
-<td>89</td>
+<td>85</td>
 <td>AUW_Test_Case_dev.AUW_Intelligence_TC@13a57a3b</td></tr>
-<tr>
-<td title='AUW_Test_Case_dev.AUW_Experience.main()'><b>main</b><br>Test class: AUW_Test_Case_dev.AUW_Experience</td>
-<td></td>
-<td>318</td>
-<td>AUW_Test_Case_dev.AUW_Experience@1efbd816</td></tr>
 <tr>
 <td title='AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev.main_Home_Page()'><b>main_Home_Page</b><br>Test class: AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev</td>
 <td></td>
-<td>27</td>
+<td>24</td>
 <td>AFL_Test_Cases_Dev.AboutUS_OutsideUS_dev@2096442d</td></tr>
+<tr>
+<td title='Adler_TestCases_Development.Home.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Adler_TestCases_Development.Home</td>
+<td></td>
+<td>19</td>
+<td>Adler_TestCases_Development.Home@50f8360d</td></tr>
 <tr>
 <td title='Tradewel_Test_Cases_Development.About_US.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Tradewel_Test_Cases_Development.About_US</td>
 <td></td>
-<td>36</td>
+<td>31</td>
 <td>Tradewel_Test_Cases_Development.About_US@3551a94</td></tr>
 <tr>
 <td title='Pinnacle_Test_Cases_Development.HomePage_TC.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Pinnacle_Test_Cases_Development.HomePage_TC</td>
 <td></td>
-<td>49</td>
+<td>45</td>
 <td>Pinnacle_Test_Cases_Development.HomePage_TC@531be3c5</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Dev.Partner_With_US.partner()'><b>partner</b><br>Test class: Warranty_Test_Case_Dev.Partner_With_US</td>
 <td></td>
-<td>11</td>
+<td>14</td>
 <td>Warranty_Test_Case_Dev.Partner_With_US@6a2bcfcb</td></tr>
 </table><p>
 </body>

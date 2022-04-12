@@ -42,7 +42,7 @@ public class Base_class {
 		}
 	
 	*/
-public void setupApplication()
+/*public void setupApplication()
 		{
 			
 			Reporter.log("=====Chrome Browser Session Started=====", true);
@@ -56,7 +56,7 @@ public void setupApplication()
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		}
+		}*/
 	
 		public void setupApplication (String browser)
 		{

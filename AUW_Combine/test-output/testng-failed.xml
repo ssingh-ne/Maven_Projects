@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="MTL_Test_Cases_Prod.What_we_offer1_TC">
+      <class name="Adler_TestCases_Development.News">
         <methods>
-          <include name="Heading9"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
+          <include name="main_Home_Page"/>
         </methods>
-      </class> <!-- MTL_Test_Cases_Prod.What_we_offer1_TC -->
+      </class> <!-- Adler_TestCases_Development.News -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

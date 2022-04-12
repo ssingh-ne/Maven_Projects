@@ -28,7 +28,7 @@ public class Base_class {
 			
 			Reporter.log("=====Chrome Browser Session Started=====", true);
 			
-			  System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
 			
 			driver=new ChromeDriver();
 			
@@ -106,7 +106,7 @@ public class Base_class {
 			 
 			 
 			}
-			//driver.quit();
+			driver.quit();
 			Reporter.log("=====Browser Session End=====", true);
 			
 		}

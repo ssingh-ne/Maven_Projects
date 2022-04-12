@@ -14,7 +14,7 @@ public class News extends Base_class {
 		
 		h.News1();
 		h.News2();
-		h.News3();
+		h.News3_prod();
 		h.News4();
 		
 		

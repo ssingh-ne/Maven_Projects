@@ -80,6 +80,7 @@ public class Home_Page {
 	By cookies_prompt = By.xpath("//*[text()='I Agree']");
 	
 	By subheading = By.xpath("//*[@id='app']/div[2]/div/div/div[1]/h1");
+	By subheading_dev = By.xpath("//*[@id='__next']/div[2]/div/div/div[1]/h1");
 	
 	// Our partners
 	
@@ -553,6 +554,18 @@ public class Home_Page {
   		js.executeScript("arguments[0].scrollIntoView();", Element);
   		
   		String subheading1 = driver.findElement(subheading).getText();
+  		System.out.println("Sud heading = "+subheading1);
+    	 
+    	 
+     }
+     
+ public void sudHeading_dev () throws InterruptedException {
+    	 
+    	 JavascriptExecutor js = (JavascriptExecutor) driver;
+  		WebElement Element = driver.findElement(Our_products_image6);
+  		js.executeScript("arguments[0].scrollIntoView();", Element);
+  		
+  		String subheading1 = driver.findElement(subheading_dev).getText();
   		System.out.println("Sud heading = "+subheading1);
     	 
     	 

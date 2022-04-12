@@ -19,7 +19,7 @@ public class Contact_Us_page {
 	
 	By Contact_US = By.xpath("//span[@class='MuiButton-label']");
 	By Contact_US_heading = By.xpath("//*[@id='eb440db3-fd5f-4482-b468-ab73211b6ffd4']/div/div/div/div/div/div/div/h2");
-	By ContactUs_heading_URL_page = By.xpath("//*[@id='app']/div/div[2]/div/div/div[1]");
+	By ContactUs_heading_URL_page = By.xpath("//*[@id='__next']/div/div[2]/div/div/div[1]");
 	
 	
 	

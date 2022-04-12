@@ -16,15 +16,15 @@ WebDriver driver;
 
 	By what_we_offer_heading1 = By.xpath("//*[@id='eb440db3-fd5f-4482-b468-ab73211b6ffd3']/div/div/div[1]/a/div/div/p[1]");
 	By what_we_offer_ReadMore1 = By.xpath("(//span[text()='Read More'])[1]");
-	By what_we_offer_PageHeading1 = By.xpath("//*[@id='app']/div/div[2]/div/div/div/div[3]/h5");
+	By what_we_offer_PageHeading1 = By.xpath("//*[@id='__next']/div/div[2]/div/div/div/div[3]/h5");
 	
 	By what_we_offer_heading2 = By.xpath("//*[@id='eb440db3-fd5f-4482-b468-ab73211b6ffd3']/div/div/div[2]/a/div/div/p[1]");
 	By what_we_offer_ReadMore2 = By.xpath("(//span[text()='Read More'])[2]");
-	By what_we_offer_PageHeading2 = By.xpath("//*[@id='app']/div/div[2]/div/div/div/div[3]/h5");
+	By what_we_offer_PageHeading2 = By.xpath("//*[@id='__next']/div/div[2]/div/div/div/div[3]/h5");
 	
 	By what_we_offer_heading3 = By.xpath("//*[@id='eb440db3-fd5f-4482-b468-ab73211b6ffd3']/div/div/div[3]/a/div/div/p[1]");
 	By what_we_offer_ReadMore3 = By.xpath("(//span[text()='Read More'])[3]");
-	By what_we_offer_PageHeading3 = By.xpath("//*[@id='app']/div/div[2]/div/div/div/div[3]/h5");
+	By what_we_offer_PageHeading3 = By.xpath("//*[@id='__next']/div/div[2]/div/div/div/div[3]/h5");
 	
 	
 	By Logo = By.xpath("//*[@alt='Applied Specialty Underwriters']");

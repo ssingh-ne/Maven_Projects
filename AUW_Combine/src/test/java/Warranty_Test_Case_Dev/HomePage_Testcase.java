@@ -15,7 +15,7 @@ public class HomePage_Testcase extends Base_class {
   Home_Page h = new Home_Page(driver);
 	
         h.Header();
-        h.sudHeading();
+        h.sudHeading_dev();
         h.Our_products_section1();
         h.Our_products_section2();
 	    h.Our_products_section3();

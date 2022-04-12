@@ -14,7 +14,7 @@ public class Our_Partner extends Warranty_Test_Case_Dev.Base_class {
         Our_Partners_page p = new Our_Partners_page(driver);
         
         p.PartnerHeader();
-        p.Partner1();
+        p.Partner1_dev();
         p.card1();
 	    p.card2();
 	    driver.quit();
@@ -29,7 +29,7 @@ public class Our_Partner extends Warranty_Test_Case_Dev.Base_class {
         Our_Partners_page p = new Our_Partners_page(driver);
         
         p.PartnerHeader();
-        p.Partner2();
+        p.Partner2_dev();
         p.card1();
 	    p.card2();
 	    driver.quit();
@@ -41,7 +41,7 @@ public class Our_Partner extends Warranty_Test_Case_Dev.Base_class {
         Our_Partners_page p = new Our_Partners_page(driver);
         
         p.PartnerHeader();
-        p.Partner3();
+        p.Partner3_dev();
         p.card1();
 	    p.card2();
 	    driver.quit();
@@ -53,7 +53,7 @@ public class Our_Partner extends Warranty_Test_Case_Dev.Base_class {
         Our_Partners_page p = new Our_Partners_page(driver);
         
         p.PartnerHeader();
-        p.Partner4();
+        p.Partner4_dev();
         p.card1();
 	    p.card2();
 	    driver.quit();
@@ -69,7 +69,7 @@ public class Our_Partner extends Warranty_Test_Case_Dev.Base_class {
         Our_Partners_page p = new Our_Partners_page(driver);
         
         p.PartnerHeader();
-        p.Partner5();
+        p.Partner5_dev();
         p.card1();
 	    p.card2();
 	    driver.quit();
@@ -83,7 +83,7 @@ public class Our_Partner extends Warranty_Test_Case_Dev.Base_class {
         Our_Partners_page p = new Our_Partners_page(driver);
         
         p.PartnerHeader();
-        p.Partner6();
+        p.Partner6_dev();
         p.card1();
 	    p.card2();
 	    driver.quit();

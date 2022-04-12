@@ -31,6 +31,8 @@ public class Our_Partners_page {
 	
 	
 	By PartnerTextPage = By.xpath("//*[@id='app']/div[2]/div/div/div[2]/h1");
+	By PartnerTextPage_dev = By.xpath("//*[@id='__next']/div[2]/div/div/div[2]/h1");
+	By More_products = By.xpath("//*[text()='More Products']");
 	
 	public Our_Partners_page (WebDriver driver){
 		this.driver=driver;
@@ -69,6 +71,27 @@ public class Our_Partners_page {
 		
 	}
 	
+	public void Partner1_dev () throws InterruptedException {
+		
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 WebElement Element = driver.findElement(Partner1);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
+		 
+		 String s = driver.findElement(Partner1).getText();
+		 System.out.println("Partner 1 name = " + s);
+		 driver.findElement(Partner1).click();
+		 
+		 Thread.sleep(3000);
+		String s2 = driver.findElement(PartnerTextPage_dev).getText();
+		
+		System.out.println("Partner name from page = " + s2);
+		
+		//assertEquals(s, s2);
+		// Assert.assertTrue(s2.contains(s),"Failure message") ; 
+		
+	}
+	
 	public void Partner2 () throws InterruptedException {
 		
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -82,6 +105,26 @@ public class Our_Partners_page {
 		 
 		 Thread.sleep(3000);
 		String s2 = driver.findElement(PartnerTextPage).getText();
+		
+		System.out.println("Partner name from page = " + s2);
+		
+		assertEquals(s, s2);
+		
+	}
+	
+    public void Partner2_dev () throws InterruptedException {
+		
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 WebElement Element = driver.findElement(Partner2);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
+
+		 String s = driver.findElement(Partner2).getText();
+		 System.out.println("Partner 2 name = " + s);
+		 driver.findElement(Partner2).click();
+		 
+		 Thread.sleep(3000);
+		String s2 = driver.findElement(PartnerTextPage_dev).getText();
 		
 		System.out.println("Partner name from page = " + s2);
 		
@@ -109,6 +152,26 @@ public class Our_Partners_page {
 		
 	}
 	
+	public void Partner3_dev () throws InterruptedException {
+		
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 WebElement Element = driver.findElement(Partner3);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
+		
+		 String s = driver.findElement(Partner3).getText();
+		 System.out.println("Partner 3 name = " + s);
+		 driver.findElement(Partner3).click();
+		 
+		 Thread.sleep(3000);
+		String s2 = driver.findElement(PartnerTextPage_dev).getText();
+		
+		System.out.println("Partner name from page = " + s2);
+		
+		assertEquals(s, s2);
+		
+	}
+	
 	public void Partner4 () throws InterruptedException {
 		
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -128,7 +191,26 @@ public class Our_Partners_page {
 		assertEquals(s, s2);
 	}
 	
-	public void Partner5 () throws InterruptedException {
+	public void Partner4_dev () throws InterruptedException {
+		
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 WebElement Element = driver.findElement(Partner4);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(4000);
+		 
+		 String s = driver.findElement(Partner4).getText();
+		 System.out.println("Partner 4 name = " + s);
+		 driver.findElement(Partner4).click();
+		 
+		 Thread.sleep(3000);
+		String s2 = driver.findElement(PartnerTextPage_dev).getText();
+		
+		System.out.println("Partner name from page = " + s2);
+		
+		assertEquals(s, s2);
+	}
+	
+    public void Partner5 () throws InterruptedException {
 		
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
 		 WebElement Element = driver.findElement(Partner5);
@@ -146,10 +228,31 @@ public class Our_Partners_page {
 		
 		//assertEquals(s, s2);
 
-	//Assert.assertTrue(s2.contains(s),"Failure message") ; 
+	    Assert.assertTrue(s2.contains(s),"Failure message") ; 
 	}
 	
-	public void Partner6 () throws InterruptedException {
+    public void Partner5_dev () throws InterruptedException {
+		
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 WebElement Element = driver.findElement(Partner5);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
+		 
+		 String s = driver.findElement(Partner5).getText();
+		 System.out.println("Partner 5 name = " + s);
+		 driver.findElement(Partner5).click();
+		 
+		 Thread.sleep(3000);
+		String s2 = driver.findElement(PartnerTextPage_dev).getText();
+		
+		System.out.println("Partner name from page = " + s2);
+		
+		//assertEquals(s, s2);
+
+	    Assert.assertTrue(s2.contains(s),"Failure message") ; 
+	}
+	
+    public void Partner6 () throws InterruptedException {
 		
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
 		 WebElement Element = driver.findElement(Partner6);
@@ -165,9 +268,28 @@ public class Our_Partners_page {
 		
 		System.out.println("Partner name from page = " + s2);
 		
-	//s	assertEquals(s, s2);
+		assertEquals(s, s2);
 	}
 
+    public void Partner6_dev () throws InterruptedException {
+		
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 WebElement Element = driver.findElement(Partner6);
+		 js.executeScript("arguments[0].scrollIntoView();", Element);
+		 Thread.sleep(2000);
+		 
+		 String s = driver.findElement(Partner6).getText();
+		 System.out.println("Partner 6 name = " + s);
+		 driver.findElement(Partner6).click();
+		 
+		 Thread.sleep(3000);
+		String s2 = driver.findElement(PartnerTextPage_dev).getText();
+		
+		System.out.println("Partner name from page = " + s2);
+		
+		assertEquals(s, s2);
+	}
+    
 	public  void card1 () throws InterruptedException {
 		
 		//click on image 
@@ -248,10 +370,10 @@ public class Our_Partners_page {
 		
 		 // click on text 
 		 Thread.sleep(3000);
-		 WebElement Element1 = driver.findElement(Card2_Text);
+		 WebElement Element1 = driver.findElement(More_products);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		 
-		 Thread.sleep(2000);
+		 Thread.sleep(5000);
 			
 		 driver.findElement(Card2_Text).click();
 		 
@@ -265,7 +387,7 @@ public class Our_Partners_page {
 		 
 		 // Click on learn more
 		 Thread.sleep(3000);
-		 WebElement Element2 = driver.findElement(Card2_LearnMore);
+		 WebElement Element2 = driver.findElement(More_products);
 		 js.executeScript("arguments[0].scrollIntoView();", Element2);
 		 
 		 Thread.sleep(2000);
