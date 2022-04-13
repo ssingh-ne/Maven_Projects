@@ -71,7 +71,7 @@
   	   <configuration>
   	   <testFailureIgnore>true</testFailureIgnore>
   	   <suiteXmlFiles>
-  		           <suiteXmlFile>Regression_Prod.xml</suiteXmlFile> 
+  		           <suiteXmlFile>AUW_Regression_Prod.xml</suiteXmlFile> 
   		   </suiteXmlFiles>
   		</configuration>
   		</plugin>
