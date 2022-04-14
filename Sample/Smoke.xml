@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Chrome_Prod">
+   <parameter name="browser" value= "chrome"  />
+    <classes>
+      <class name="TestCase_Sample.Myntra_Login"/>
+      <class name="TestCase_Sample.Myntra_search"/>
+ </classes>
+    </test> 
+    
+    
+     <test name="Firefox_Prod">
+   <parameter name="browser" value= "firefox"  />
+    <classes>
+      <class name="TestCase_Sample.Myntra_Login"/>
+      <class name="TestCase_Sample.Myntra_search"/>
+   </classes>
+  </test>
+  
+   <!-- Test -->
+</suite> <!-- Suite -->
