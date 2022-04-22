@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Promesa_Firefox</td><td class="numi">7</td><td class="numi">7</td><td class="numi">0</td><td class="numi">0</td><td class="numi">292.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Promesa_Chrome</td><td class="numi">9</td><td class="numi">9</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">416.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">16</td><td class="numi">16</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">709.2 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Promesa_Firefox &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Prod.Change_language</td><td><a href="#m1"><b>Change_Language</b>  </a></td><td class="numi">1</td><td>1650027082998</td><td class="numi">2441</td></tr>
+<tr class="passedeven"><td rowspan="5">Promesa_Test_Case_Prod.Footer</td><td><a href="#m2"><b>Footer_PrivacyPolicy</b>  </a></td><td class="numi">1</td><td>1650027097442</td><td class="numi">22873</td></tr><tr class="passedeven"><td><a href="#m3"><b>Footer_facebook</b>  </a></td><td class="numi">1</td><td>1650027140841</td><td class="numi">18721</td></tr><tr class="passedeven"><td><a href="#m4"><b>Footer_instagram</b>  </a></td><td class="numi">1</td><td>1650027172583</td><td class="numi">5661</td></tr><tr class="passedeven"><td><a href="#m5"><b>Footer_linkedin</b>  </a></td><td class="numi">1</td><td>1650027194580</td><td class="numi">6414</td></tr><tr class="passedeven"><td><a href="#m6"><b>Footer_twitter</b>  </a></td><td class="numi">1</td><td>1650027213338</td><td class="numi">6516</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Prod.Pharmacy_search</td><td><a href="#m7"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1650027232809</td><td class="numi">123996</td></tr>
+<tr><th colspan="4">Promesa_Chrome &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Promesa_Test_Case_Prod.Side_Heading_One</td><td><a href="#m8"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1650027402727</td><td class="numi">75503</td></tr>
+<tr><th colspan="4">Promesa_Chrome &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Prod.Side_Heading_Two</td><td><a href="#m9"><b>Siheading_2</b>  </a></td><td class="numi">1</td><td>1650027486802</td><td class="numi">16583</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Prod.FAQ</td><td><a href="#m10"><b>Siheading_2</b>  </a></td><td class="numi">1</td><td>1650027510694</td><td class="numi">22805</td></tr>
+<tr class="passedodd"><td rowspan="5">Promesa_Test_Case_Prod.Footer</td><td><a href="#m11"><b>Footer_PrivacyPolicy</b>  </a></td><td class="numi">1</td><td>1650027540604</td><td class="numi">20390</td></tr><tr class="passedodd"><td><a href="#m12"><b>Footer_facebook</b>  </a></td><td class="numi">1</td><td>1650027568478</td><td class="numi">19407</td></tr><tr class="passedodd"><td><a href="#m13"><b>Footer_instagram</b>  </a></td><td class="numi">1</td><td>1650027595188</td><td class="numi">5672</td></tr><tr class="passedodd"><td><a href="#m14"><b>Footer_linkedin</b>  </a></td><td class="numi">1</td><td>1650027607714</td><td class="numi">6112</td></tr><tr class="passedodd"><td><a href="#m15"><b>Footer_twitter</b>  </a></td><td class="numi">1</td><td>1650027624891</td><td class="numi">8221</td></tr>
+<tr class="passedeven"><td rowspan="1">Promesa_Test_Case_Prod.Change_language</td><td><a href="#m16"><b>Change_Language</b>  </a></td><td class="numi">1</td><td>1650027640483</td><td class="numi">1082</td></tr>
+<tr class="passedodd"><td rowspan="1">Promesa_Test_Case_Prod.Pharmacy_search</td><td><a href="#m17"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1650027648793</td><td class="numi">125083</td></tr>
+</table>
+<h1>Promesa_Firefox</h1>
+<h2 id="m1">Promesa_Test_Case_Prod.Change_language:Change_Language</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Promesa_Test_Case_Prod.Footer:Footer_PrivacyPolicy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Promesa_Test_Case_Prod.Footer:Footer_facebook</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Promesa_Test_Case_Prod.Footer:Footer_twitter</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Promesa_Test_Case_Prod.Pharmacy_search:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Promesa_Test_Case_Prod.Footer:Footer_linkedin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Promesa_Test_Case_Prod.Footer:Footer_instagram</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Promesa_Chrome</h1>
+<h2 id="m8">Promesa_Test_Case_Prod.Side_Heading_One:Side_Heading_One</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@id=&apos;sticky-nav&apos;]/ul/li)[1]&quot;}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6ababae3ec5918f64ca96b7698034fd
+*** Element info: {Using=xpath, value=(//*[@id=&apos;sticky-nav&apos;]/ul/li)[1]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at Promesa_Pages.Home.Side_Heading_one(Home.java:334)
+<br/>at Promesa_Test_Case_Prod.Side_Heading_One.Side_Heading_One(Side_Heading_One.java:87)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">Promesa_Test_Case_Prod.Side_Heading_Two:Siheading_2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">Promesa_Test_Case_Prod.Footer:Footer_instagram</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">Promesa_Test_Case_Prod.Footer:Footer_PrivacyPolicy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">Promesa_Test_Case_Prod.Pharmacy_search:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">Promesa_Test_Case_Prod.Footer:Footer_facebook</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">Promesa_Test_Case_Prod.Footer:Footer_linkedin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">Promesa_Test_Case_Prod.FAQ:Siheading_2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">Promesa_Test_Case_Prod.Footer:Footer_twitter</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">Promesa_Test_Case_Prod.Change_language:Change_Language</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

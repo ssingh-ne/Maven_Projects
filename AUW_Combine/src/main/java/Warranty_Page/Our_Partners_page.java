@@ -19,7 +19,7 @@ public class Our_Partners_page {
 	By Partner3 = By.xpath("(//*[text()='Travel Insurance'])[1]");
 	By Partner4 = By.xpath("(//*[text()='Event Ticket Protection'])[1]");
 	By Partner5 = By.xpath("(//*[text()='OEM and Distributor Programs'])[1]");
-	By Partner6 = By.xpath("(//*[text()='Auto Dealership Program'])[1]");
+	By Partner6 = By.xpath("(//*[text()='Auto Dealership Programs'])[1]");
 	
 	By Card1_Image = By.xpath("(//*[contains(@class,'blog-image')])[1]");
 	By Card1_Text = By.xpath("(//*[contains(@class,'MuiGrid-root')]/div/a/div/div/div/p)[1]");
@@ -30,7 +30,7 @@ public class Our_Partners_page {
 	By Card2_LearnMore = By.xpath("(//*[text()='Learn More'])[2]");
 	
 	
-	By PartnerTextPage = By.xpath("//*[@id='app']/div[2]/div/div/div[2]/h1");
+	By PartnerTextPage = By.xpath("//*[@id='__next']/div[2]/div/div/div[2]/h1");
 	By PartnerTextPage_dev = By.xpath("//*[@id='__next']/div[2]/div/div/div[2]/h1");
 	By More_products = By.xpath("//*[text()='More Products']");
 	
@@ -257,7 +257,7 @@ public class Our_Partners_page {
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
 		 WebElement Element = driver.findElement(Partner6);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
-		 Thread.sleep(2000);
+		 Thread.sleep(5000);
 		 
 		 String s = driver.findElement(Partner6).getText();
 		 System.out.println("Partner 6 name = " + s);
@@ -312,7 +312,7 @@ public class Our_Partners_page {
 		
 		 // click on text 
 		 
-		 WebElement Element1 = driver.findElement(Card1_Text);
+		 WebElement Element1 = driver.findElement(Card1_Image);
 		 js.executeScript("arguments[0].scrollIntoView();", Element1);
 		 
 		 Thread.sleep(2000);
@@ -329,7 +329,7 @@ public class Our_Partners_page {
 		 
 		 // Click on learn more
 		 Thread.sleep(3000);
-		 WebElement Element2 = driver.findElement(Card1_LearnMore);
+		 WebElement Element2 = driver.findElement(Card1_Image);
 		 js.executeScript("arguments[0].scrollIntoView();", Element2);
 		 
 		 Thread.sleep(2000);

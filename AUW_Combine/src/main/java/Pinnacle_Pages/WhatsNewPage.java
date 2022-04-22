@@ -136,12 +136,16 @@ public class WhatsNewPage {
 		   driver.findElement(LoadMore).click();
 		   
 		   Thread.sleep(2000);
-		   
- String s = driver.findElement(Image3_URL).getAttribute("href");
+		  
+           String s = driver.findElement(Image3_URL).getAttribute("href");
 		   
 		   System.out.println("Image 3 URL = " + s);
 		   
 	// Image click	3   
+		   
+		   WebElement Element4 = driver.findElement(Image3_URL);
+		   js.executeScript("arguments[0].scrollIntoView();", Element4);
+		  
 		   driver.findElement(Image3).click();
 		   Thread.sleep(3000);
 		   

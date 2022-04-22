@@ -25,7 +25,9 @@ public class Home_page {
 	By ContactUS_btn = By.xpath("//*[text()='CONTACT US']");
 	By WhatWeOffer = By.xpath("(//*[@class='MuiButton-label'])[1]");
 	By contact_US = By.xpath("//a[text()='CONTACT US']");
-	By contact_us_text = By.xpath("//*[@id='app']/div[2]/div/div/div/div/div[1]");
+	//By contact_us_text = By.xpath("//*[@id='app']/div[2]/div/div/div/div/div[1]");
+	By contact_us_text = By.xpath("(//*[text()='CONTACT US'])[2]");
+	
 	By Submit_contact = By.xpath("//*[text() = 'Submit']");
 	By contact_US_Dropdown = By.xpath("//*[@id='mui-component-select-help']");
 	
@@ -81,7 +83,6 @@ public class Home_page {
 		 assertEquals(contactUS, contactUS_Header);
 		 assertEquals(ContactUS_DropDown_text,EXP_Contact_US_Value);
 	 }
-	 
 	 
 	 public void  PrivacyPolicy () throws InterruptedException {
           // Privacy policy 
@@ -162,8 +163,6 @@ public class Home_page {
 		 	    
 			        assertEquals(MTLURL, EXP_CA_Privacy_Url_dev);
 		 }
-	 
-	 
 	 
 	 public void ContactUS_btn () {
 		 

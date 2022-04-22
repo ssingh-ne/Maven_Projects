@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="none">
-  <parameter name="browser" value="firefox"/>
-  <test name="AUW_Firefox_Dev(failed)" parallel="none">
-    <parameter name="browser" value="firefox"/>
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="JumboGC_Prod_chrome(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Adler_TestCases_Development.Home">
+      <class name="JumboGC_Test_case_prod.Side_Heading">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="Header_Footer"/>
+        </methods>
+      </class> <!-- JumboGC_Test_case_prod.Side_Heading -->
+      <class name="JumboGC_Test_case_prod.Header_footer">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Adler_TestCases_Development.Home -->
-      <class name="Adler_TestCases_Development.News">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="main_Home_Page"/>
-        </methods>
-      </class> <!-- Adler_TestCases_Development.News -->
+      </class> <!-- JumboGC_Test_case_prod.Header_footer -->
     </classes>
-  </test> <!-- AUW_Firefox_Dev(failed) -->
+  </test> <!-- JumboGC_Prod_chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

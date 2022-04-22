@@ -32,11 +32,11 @@ public class More_Offers {
 	By whatWeoffer = By.xpath("//*[text()='WHAT WE OFFER']");
 	By Worker_cmpensation_Header = By.xpath("(//li[@role='menuitem'])[1]");
 	
-	By MoreOffer_Heading1 = By.xpath("//*[@id='app']/div[5]/section/div/div[1]/a/div/div/div/p[1]");
-	By MoreOffer_Heading2 = By.xpath("//*[@id='app']/div[5]/section/div/div[2]/a/div/div/p[1]");
+	By MoreOffer_Heading1 = By.xpath("//*[@id='__next']/div[5]/section/div/div[1]/a/div/div/div/p[1]");
+	By MoreOffer_Heading2 = By.xpath("//*[@id='__next']/div[5]/section/div/div[2]/a/div/div/div/p[1]");
 	
-	By LearnMore_page1 = By.xpath("//*[@id='app']/div[2]/div/div/div/div/div[1]"); 
-	By LearnMore_page2 = By.xpath("//*[@id='app']/div[5]/section/div/div[2]/a/div/div/p[1]");
+	By LearnMore_page1 = By.xpath("//*[@id='__next']/div[2]/div/div/div/div/div[1]"); 
+	By LearnMore_page2 = By.xpath("//*[@id='__next']/div[2]/div/div/div/div/div[1]");
 	
 	public void More_offer () throws InterruptedException{
 		

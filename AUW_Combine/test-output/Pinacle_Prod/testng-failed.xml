@@ -8,8 +8,6 @@
       <class name="Pinnacle_Test_Cases_Production.WatsNew">
         <methods>
           <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
           <include name="tearDown"/>
           <include name="WhatsNew"/>
         </methods>
@@ -19,7 +17,7 @@
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
-          <include name="tearDown"/>
+          <include name="main_Home_Page"/>
         </methods>
       </class> <!-- Pinnacle_Test_Cases_Production.HomePage_TC -->
     </classes>

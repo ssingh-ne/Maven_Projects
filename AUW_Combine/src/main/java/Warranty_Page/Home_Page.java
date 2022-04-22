@@ -71,15 +71,17 @@ public class Home_Page {
 	
 	String Exp_URL5 ="our-products/oem-and-distributor-programs"; 
 	
-	By Our_products_image6 = By.xpath("//a[@href='/our-products/auto-dealership-program']/div/img");
-	By Our_products_content6 = By.xpath("//*[text()='Auto Dealership Programs']");
+	//By Our_products_image6 = By.xpath("//a[@href='/our-products/auto-dealership-program']/div/img");
+	By Our_products_image6 = By.xpath("//*[@id='__next']/div[4]/div/div/div[2]/div[4]/a/div/img");
+	//By Our_products_content6 = By.xpath("//*[text()='Auto Dealership Programs']");
+	By Our_products_content6 = By.xpath("(//*[text()='Auto Dealership Programs'])[2]");
 	By Our_products_LearnMore6 = By.xpath("(//*[text()='Learn More'])[6]");
 	
 	String Exp_URL6 ="our-products/auto-dealership-program";
 	
 	By cookies_prompt = By.xpath("//*[text()='I Agree']");
 	
-	By subheading = By.xpath("//*[@id='app']/div[2]/div/div/div[1]/h1");
+	By subheading = By.xpath("//*[@id='__next']/div[2]/div/div/div[1]/h1");
 	By subheading_dev = By.xpath("//*[@id='__next']/div[2]/div/div/div[1]/h1");
 	
 	// Our partners
@@ -185,9 +187,9 @@ public class Home_Page {
 		 WebElement Element3 = driver.findElement(Our_products_image1);
 		 js.executeScript("arguments[0].scrollIntoView();", Element3);
 			
-		WebDriverWait wait1 = new WebDriverWait(driver,30);
+		/*WebDriverWait wait1 = new WebDriverWait(driver,30);
  		wait1.until(ExpectedConditions.visibilityOfElementLocated(logo));
-        
+        */
 		WebElement Element = driver.findElement(Our_products_image1);
 		js.executeScript("arguments[0].scrollIntoView();", Element);
 		
@@ -488,9 +490,9 @@ public class Home_Page {
      
      public void Our_products_section6 () throws InterruptedException {
  		
- 		WebDriverWait wait1 = new WebDriverWait(driver,30);
+ 		/*WebDriverWait wait1 = new WebDriverWait(driver,30);
   		wait1.until(ExpectedConditions.visibilityOfElementLocated(logo));
-          
+        */  
   		JavascriptExecutor js = (JavascriptExecutor) driver;
  		WebElement Element = driver.findElement(Our_products_image6);
  		js.executeScript("arguments[0].scrollIntoView();", Element);
@@ -550,7 +552,7 @@ public class Home_Page {
      public void sudHeading () throws InterruptedException {
     	 
     	 JavascriptExecutor js = (JavascriptExecutor) driver;
-  		WebElement Element = driver.findElement(Our_products_image6);
+  		WebElement Element = driver.findElement(subheading);
   		js.executeScript("arguments[0].scrollIntoView();", Element);
   		
   		String subheading1 = driver.findElement(subheading).getText();

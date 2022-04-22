@@ -19,7 +19,7 @@ public class Menu_Carriers {
 	
 	By Menu_carriers = By.xpath("//a[text()='Our Carriers']");
 	
-	By Url = By.xpath("//*[@target='_blank']");
+	By Url = By.xpath("//*[text()='ambest.com']");
 	String s = "https://www.ambest.com/home/default.aspx";
 	
 	
@@ -47,7 +47,7 @@ public class Menu_Carriers {
     	Thread.sleep(5000);
 		
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
-		 WebElement Element = driver.findElement(Url);
+		 WebElement Element = driver.findElement(By.xpath("(//*[@id='contentBlock0']/p)[1]"));
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
 			
 		 Thread.sleep(6000);

@@ -27,7 +27,7 @@ public class Base_class {
 	
 	
 	 
-	/*public void setupApplication()
+/*public void setupApplication()
 		{
 			
 			Reporter.log("=====Browser Session Started=====", true);
@@ -47,7 +47,7 @@ public class Base_class {
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		}
-	*/
+*/	
 public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {
