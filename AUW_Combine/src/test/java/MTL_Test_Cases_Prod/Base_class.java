@@ -41,8 +41,8 @@ public class Base_class {
 			
 			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		}
-*/
- 	
+
+*/ 	
 	/*public void setupApplication()
 		{
 			

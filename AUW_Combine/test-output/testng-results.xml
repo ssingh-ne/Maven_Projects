@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="20" passed="20">
   <reporter-output>
     <line>
       <![CDATA[=====Chrome Browser Session Started=====]]>
@@ -10,13 +10,191 @@
     <line>
       <![CDATA[=====Browser Session End=====]]>
     </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26695" started-at="2022-04-26T12:51:06Z" finished-at="2022-04-26T12:51:32Z">
+  <suite name="Suite" duration-ms="1825159" started-at="2022-04-27T13:07:25Z" finished-at="2022-04-27T13:37:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26695" started-at="2022-04-26T12:51:06Z" finished-at="2022-04-26T12:51:32Z">
-      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@3ab39c39]" name="setupApplication" is-config="true" duration-ms="9546" started-at="2022-04-26T18:21:06Z" finished-at="2022-04-26T18:21:15Z">
+    <test name="Warranty_chrome_Prod" duration-ms="864677" started-at="2022-04-27T13:07:25Z" finished-at="2022-04-27T13:21:50Z">
+      <class name="Warranty_Test_Case_Prod.Our_Partner">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="setupApplication" is-config="true" duration-ms="7021" started-at="2022-04-27T18:44:09Z" finished-at="2022-04-27T18:44:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[=====Chrome Browser Session Started=====]]>
@@ -26,15 +204,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@3ab39c39]" name="main_Home_Page" duration-ms="15958" started-at="2022-04-26T18:21:15Z" finished-at="2022-04-26T18:21:31Z">
+        <test-method status="PASS" signature="Partner1()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="Partner1" duration-ms="70610" started-at="2022-04-27T18:44:16Z" finished-at="2022-04-27T18:45:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@3ab39c39]" name="tearDown" is-config="true" duration-ms="1167" started-at="2022-04-26T18:21:31Z" finished-at="2022-04-26T18:21:32Z">
+        </test-method> <!-- Partner1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-27T18:45:26Z" finished-at="2022-04-27T18:45:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=AboutUS_OutsideUS.main_Home_Page()[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@3ab39c39] output={null}]]]>
+                <![CDATA[[TestResult name=Partner1 status=SUCCESS method=Our_Partner.Partner1()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292] output={null}]]]>
               </value>
             </param>
           </params>
@@ -44,7 +222,692 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="setupApplication" is-config="true" duration-ms="5704" started-at="2022-04-27T18:45:26Z" finished-at="2022-04-27T18:45:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Partner2()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="Partner2" duration-ms="69207" started-at="2022-04-27T18:45:32Z" finished-at="2022-04-27T18:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partner2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-04-27T18:46:41Z" finished-at="2022-04-27T18:46:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partner2 status=SUCCESS method=Our_Partner.Partner2()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="setupApplication" is-config="true" duration-ms="5262" started-at="2022-04-27T18:46:41Z" finished-at="2022-04-27T18:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Partner3()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="Partner3" duration-ms="69457" started-at="2022-04-27T18:46:47Z" finished-at="2022-04-27T18:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partner3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-04-27T18:47:56Z" finished-at="2022-04-27T18:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partner3 status=SUCCESS method=Our_Partner.Partner3()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="setupApplication" is-config="true" duration-ms="5437" started-at="2022-04-27T18:47:56Z" finished-at="2022-04-27T18:48:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Partner4()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="Partner4" duration-ms="71291" started-at="2022-04-27T18:48:02Z" finished-at="2022-04-27T18:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partner4 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-04-27T18:49:13Z" finished-at="2022-04-27T18:49:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partner4 status=SUCCESS method=Our_Partner.Partner4()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="setupApplication" is-config="true" duration-ms="5364" started-at="2022-04-27T18:49:13Z" finished-at="2022-04-27T18:49:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Partner5()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="Partner5" duration-ms="72453" started-at="2022-04-27T18:49:18Z" finished-at="2022-04-27T18:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partner5 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-04-27T18:50:31Z" finished-at="2022-04-27T18:50:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partner5 status=SUCCESS method=Our_Partner.Partner5()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="setupApplication" is-config="true" duration-ms="6337" started-at="2022-04-27T18:50:31Z" finished-at="2022-04-27T18:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Partner6()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="Partner6" duration-ms="72885" started-at="2022-04-27T18:50:37Z" finished-at="2022-04-27T18:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partner6 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-27T18:51:50Z" finished-at="2022-04-27T18:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partner6 status=SUCCESS method=Our_Partner.Partner6()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@4ec6a292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Warranty_Test_Case_Prod.Our_Partner -->
+      <class name="Warranty_Test_Case_Prod.Contact_US">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Contact_US@16c0663d]" name="setupApplication" is-config="true" duration-ms="5470" started-at="2022-04-27T18:38:11Z" finished-at="2022-04-27T18:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="ContactUS()[pri:0, instance:Warranty_Test_Case_Prod.Contact_US@16c0663d]" name="ContactUS" duration-ms="46784" started-at="2022-04-27T18:38:17Z" finished-at="2022-04-27T18:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUS -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Contact_US@16c0663d]" name="tearDown" is-config="true" duration-ms="963" started-at="2022-04-27T18:39:04Z" finished-at="2022-04-27T18:39:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUS status=SUCCESS method=Contact_US.ContactUS()[pri:0, instance:Warranty_Test_Case_Prod.Contact_US@16c0663d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Warranty_Test_Case_Prod.Contact_US -->
+      <class name="Warranty_Test_Case_Prod.HomePage_Testcase">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.HomePage_Testcase@3c5a99da]" name="setupApplication" is-config="true" duration-ms="6727" started-at="2022-04-27T18:39:25Z" finished-at="2022-04-27T18:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Home_page()[pri:0, instance:Warranty_Test_Case_Prod.HomePage_Testcase@3c5a99da]" name="Home_page" duration-ms="275539" started-at="2022-04-27T18:39:32Z" finished-at="2022-04-27T18:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.HomePage_Testcase@3c5a99da]" name="tearDown" is-config="true" duration-ms="1340" started-at="2022-04-27T18:44:07Z" finished-at="2022-04-27T18:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Home_page status=SUCCESS method=HomePage_Testcase.Home_page()[pri:0, instance:Warranty_Test_Case_Prod.HomePage_Testcase@3c5a99da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Warranty_Test_Case_Prod.HomePage_Testcase -->
+      <class name="Warranty_Test_Case_Prod.Partner_With_US">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Partner_With_US@ea4a92b]" name="setupApplication" is-config="true" duration-ms="7138" started-at="2022-04-27T18:39:05Z" finished-at="2022-04-27T18:39:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="partner()[pri:0, instance:Warranty_Test_Case_Prod.Partner_With_US@ea4a92b]" name="partner" duration-ms="11958" started-at="2022-04-27T18:39:12Z" finished-at="2022-04-27T18:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partner -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Partner_With_US@ea4a92b]" name="tearDown" is-config="true" duration-ms="1608" started-at="2022-04-27T18:39:24Z" finished-at="2022-04-27T18:39:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=partner status=SUCCESS method=Partner_With_US.partner()[pri:0, instance:Warranty_Test_Case_Prod.Partner_With_US@ea4a92b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Warranty_Test_Case_Prod.Partner_With_US -->
+      <class name="Warranty_Test_Case_Prod.About_US">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.About_US@1b40d5f0]" name="setupApplication" is-config="true" duration-ms="11238" started-at="2022-04-27T18:37:25Z" finished-at="2022-04-27T18:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Home_page()[pri:0, instance:Warranty_Test_Case_Prod.About_US@1b40d5f0]" name="Home_page" duration-ms="33634" started-at="2022-04-27T18:37:36Z" finished-at="2022-04-27T18:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.About_US@1b40d5f0]" name="tearDown" is-config="true" duration-ms="1190" started-at="2022-04-27T18:38:10Z" finished-at="2022-04-27T18:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Home_page status=SUCCESS method=About_US.Home_page()[pri:0, instance:Warranty_Test_Case_Prod.About_US@1b40d5f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Warranty_Test_Case_Prod.About_US -->
+    </test> <!-- Warranty_chrome_Prod -->
+    <test name="Warranty_firefox_Prod" duration-ms="960456" started-at="2022-04-27T13:21:50Z" finished-at="2022-04-27T13:37:50Z">
+      <class name="Warranty_Test_Case_Prod.Our_Partner">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="setupApplication" is-config="true" duration-ms="9610" started-at="2022-04-27T18:59:19Z" finished-at="2022-04-27T18:59:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Partner1()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="Partner1" duration-ms="72360" started-at="2022-04-27T18:59:29Z" finished-at="2022-04-27T19:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partner1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-27T19:00:41Z" finished-at="2022-04-27T19:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partner1 status=SUCCESS method=Our_Partner.Partner1()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="setupApplication" is-config="true" duration-ms="10544" started-at="2022-04-27T19:00:41Z" finished-at="2022-04-27T19:00:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Partner2()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="Partner2" duration-ms="75570" started-at="2022-04-27T19:00:52Z" finished-at="2022-04-27T19:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partner2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-04-27T19:02:08Z" finished-at="2022-04-27T19:02:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partner2 status=SUCCESS method=Our_Partner.Partner2()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="setupApplication" is-config="true" duration-ms="10148" started-at="2022-04-27T19:02:08Z" finished-at="2022-04-27T19:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Partner3()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="Partner3" duration-ms="73275" started-at="2022-04-27T19:02:18Z" finished-at="2022-04-27T19:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partner3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-27T19:03:31Z" finished-at="2022-04-27T19:03:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partner3 status=SUCCESS method=Our_Partner.Partner3()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="setupApplication" is-config="true" duration-ms="11829" started-at="2022-04-27T19:03:31Z" finished-at="2022-04-27T19:03:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Partner4()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="Partner4" duration-ms="75115" started-at="2022-04-27T19:03:43Z" finished-at="2022-04-27T19:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partner4 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-04-27T19:04:58Z" finished-at="2022-04-27T19:04:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partner4 status=SUCCESS method=Our_Partner.Partner4()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="setupApplication" is-config="true" duration-ms="10544" started-at="2022-04-27T19:04:58Z" finished-at="2022-04-27T19:05:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Partner5()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="Partner5" duration-ms="72944" started-at="2022-04-27T19:05:08Z" finished-at="2022-04-27T19:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partner5 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-27T19:06:21Z" finished-at="2022-04-27T19:06:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partner5 status=SUCCESS method=Our_Partner.Partner5()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="setupApplication" is-config="true" duration-ms="10845" started-at="2022-04-27T19:06:21Z" finished-at="2022-04-27T19:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Partner6()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="Partner6" duration-ms="78133" started-at="2022-04-27T19:06:32Z" finished-at="2022-04-27T19:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partner6 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-27T19:07:50Z" finished-at="2022-04-27T19:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partner6 status=SUCCESS method=Our_Partner.Partner6()[pri:0, instance:Warranty_Test_Case_Prod.Our_Partner@129a8472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Warranty_Test_Case_Prod.Our_Partner -->
+      <class name="Warranty_Test_Case_Prod.Contact_US">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Contact_US@d041cf]" name="setupApplication" is-config="true" duration-ms="11064" started-at="2022-04-27T18:52:38Z" finished-at="2022-04-27T18:52:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="ContactUS()[pri:0, instance:Warranty_Test_Case_Prod.Contact_US@d041cf]" name="ContactUS" duration-ms="48193" started-at="2022-04-27T18:52:49Z" finished-at="2022-04-27T18:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUS -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Contact_US@d041cf]" name="tearDown" is-config="true" duration-ms="4171" started-at="2022-04-27T18:53:37Z" finished-at="2022-04-27T18:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUS status=SUCCESS method=Contact_US.ContactUS()[pri:0, instance:Warranty_Test_Case_Prod.Contact_US@d041cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Warranty_Test_Case_Prod.Contact_US -->
+      <class name="Warranty_Test_Case_Prod.HomePage_Testcase">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.HomePage_Testcase@2d209079]" name="setupApplication" is-config="true" duration-ms="12105" started-at="2022-04-27T18:54:13Z" finished-at="2022-04-27T18:54:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Home_page()[pri:0, instance:Warranty_Test_Case_Prod.HomePage_Testcase@2d209079]" name="Home_page" duration-ms="293210" started-at="2022-04-27T18:54:25Z" finished-at="2022-04-27T18:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.HomePage_Testcase@2d209079]" name="tearDown" is-config="true" duration-ms="1565" started-at="2022-04-27T18:59:18Z" finished-at="2022-04-27T18:59:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Home_page status=SUCCESS method=HomePage_Testcase.Home_page()[pri:0, instance:Warranty_Test_Case_Prod.HomePage_Testcase@2d209079] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Warranty_Test_Case_Prod.HomePage_Testcase -->
+      <class name="Warranty_Test_Case_Prod.Partner_With_US">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.Partner_With_US@2f7c7260]" name="setupApplication" is-config="true" duration-ms="16634" started-at="2022-04-27T18:53:41Z" finished-at="2022-04-27T18:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="partner()[pri:0, instance:Warranty_Test_Case_Prod.Partner_With_US@2f7c7260]" name="partner" duration-ms="12090" started-at="2022-04-27T18:53:58Z" finished-at="2022-04-27T18:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partner -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.Partner_With_US@2f7c7260]" name="tearDown" is-config="true" duration-ms="2336" started-at="2022-04-27T18:54:10Z" finished-at="2022-04-27T18:54:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=partner status=SUCCESS method=Partner_With_US.partner()[pri:0, instance:Warranty_Test_Case_Prod.Partner_With_US@2f7c7260] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Warranty_Test_Case_Prod.Partner_With_US -->
+      <class name="Warranty_Test_Case_Prod.About_US">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Warranty_Test_Case_Prod.About_US@1b0375b3]" name="setupApplication" is-config="true" duration-ms="12164" started-at="2022-04-27T18:51:50Z" finished-at="2022-04-27T18:52:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Home_page()[pri:0, instance:Warranty_Test_Case_Prod.About_US@1b0375b3]" name="Home_page" duration-ms="34240" started-at="2022-04-27T18:52:02Z" finished-at="2022-04-27T18:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Warranty_Test_Case_Prod.About_US@1b0375b3]" name="tearDown" is-config="true" duration-ms="1752" started-at="2022-04-27T18:52:36Z" finished-at="2022-04-27T18:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Home_page status=SUCCESS method=About_US.Home_page()[pri:0, instance:Warranty_Test_Case_Prod.About_US@1b0375b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Warranty_Test_Case_Prod.About_US -->
+    </test> <!-- Warranty_firefox_Prod -->
+  </suite> <!-- Suite -->
 </testng-results>
