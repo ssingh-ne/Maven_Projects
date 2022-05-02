@@ -12,13 +12,13 @@ public class About_Us_Page {
 	WebDriver driver;
 	
 	
-	By Meetteam = By.xpath("//*[@id='app']/main/div[2]/div/div/div/h2");
+	By Meetteam = By.xpath("//*[text()='Meet The Team']");
 	By MeetTeam_Tabs = By.xpath("//*[@id='app']/main/div[2]/div/div/div/div/div[1]/div[1]/p");
 	By About_button = By.xpath("//a[text()='About Us']");
 	By AFL_Logo = By.xpath("//*[@href='/']");
-	By Meet_1st_Btn = By.xpath("//*[@id='app']/main/div[2]/div/div/div/div/div[1]/div[1]/p");
-	By Meet_2nd_btn = By.xpath("//*[@id='app']/main/div[2]/div/div/div/div/div[1]/div[2]/p");
-	By Meet_3rd_btn = By.xpath("//*[@id='app']/main/div[2]/div/div/div/div/div[1]/div[3]/p");
+	By Meet_1st_Btn = By.xpath("//*[@id='__next']/main/div[2]/div/div/div/div/div[1]/div[1]/p");
+	By Meet_2nd_btn = By.xpath("//*[@id='__next']/main/div[2]/div/div/div/div/div[1]/div[2]/p");
+	By Meet_3rd_btn = By.xpath("//*[@id='__next']/main/div[2]/div/div/div/div/div[1]/div[3]/p");
 	By AboutUS_learnMore = By.xpath("//*[@id='contentBlock1']/a");
 	By content_load = By.xpath("//*[@id='contentBlock0']/h2");
 	

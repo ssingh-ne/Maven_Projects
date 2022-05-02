@@ -39,13 +39,13 @@ public class Home_page {
 	By Quote = By.xpath("//*[@id='contentBlock1']/h2");
 	By Quote_author = By.xpath( "//*[@id='contentBlock1']/h6");
 	
-	By MoreOffer_heading1 = By.xpath("//*[@id='app']/main/div[5]/div/div[1]/a/div/div/div/p");
-	By MoreOffer_heading2 = By.xpath("//*[@id='app']/main/div[5]/div/div[2]/a/div/div/div/p");
-	By MoreOffer_heading3 = By.xpath("//*[@id='app']/main/div[5]/div/div[3]/a/div/div/div/p");
-	By Tab_pageText       = By.xpath("//*[@id='app']/div[2]/div/div/div/div/div[2]/h1");
-	By MoreOffer1_image   = By.xpath("//*[@id='app']/main/div[5]/div/div[1]/a/div/img");
-	By MoreOffer2_image   = By.xpath("//*[@id='app']/main/div[5]/div/div[2]/a/div/img");
-	By MoreOffer3_image   = By.xpath("//*[@id='app']/main/div[5]/div/div[3]/a/div/img");
+	By MoreOffer_heading1 = By.xpath("//*[@id='__next']/main/div[5]/div/div[1]/a/div/div/div/p");
+	By MoreOffer_heading2 = By.xpath("//*[@id='__next']/main/div[5]/div/div[2]/a/div/div/div/p");
+	By MoreOffer_heading3 = By.xpath("//*[@id='__next']/main/div[5]/div/div[3]/a/div/div/div/p");
+	By Tab_pageText       = By.xpath("//*[@id='__next']/div[2]/div/div/div/div/div[2]/h1");
+	By MoreOffer1_image   = By.xpath("//*[@id='__next']/main/div[5]/div/div[1]/a/div/img");
+	By MoreOffer2_image   = By.xpath("//*[@id='__next']/main/div[5]/div/div[2]/a/div/img");
+	By MoreOffer3_image   = By.xpath("//*[@id='__next']/main/div[5]/div/div[3]/a/div/img");
  	By Learn_more1 = By.xpath("(//*[text()='Learn More'])[2]");
  	By Learn_more2 = By.xpath("(//*[text()='Learn More'])[3]");
  	By Learn_more3 = By.xpath("(//*[text()='Learn More'])[4]");

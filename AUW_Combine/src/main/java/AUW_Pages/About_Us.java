@@ -26,11 +26,15 @@ WebDriver driver;
 
 	
      String Exp_tab1 = "Applied Underwriters";
-     String Exp_tab2 = "News and Press";
-     String Exp_tab2_Heading = "News and Press";
+     String Exp_tab2 = "Leadership";
+     String Exp_tab3 = "News and Press";
+     String Exp_tab2_Heading = "Leadership";
+     String Exp_tab3_Heading = "News and Press";
 	By Applied_underwriters = By.xpath("//*[text()='Applied Underwriters']");
 	By NewsandPress = By.xpath("//a[text()='News and Press']");
 	By NewHeading = By.xpath("//h2[text()='News and Press']");
+	By ledership = By.xpath("(//*[text()='Leadership'])[1]");
+	By leadership_heading = By.xpath("(//*[text()='Leadership'])[2]");
 	By New_LearnMore1 = By.xpath("(//*[text()='Learn More'])[1]");
 	By New_LearnMore2 = By.xpath("(//*[text()='Learn More'])[2]");
 	By New_LearnMore3 = By.xpath("(//*[text()='Learn More'])[3]");
@@ -87,7 +91,32 @@ WebDriver driver;
 		 
 	 }
 	
-    public void  LeftTab_two () throws InterruptedException {
+	 public void  LeftTab_two () throws InterruptedException {
+		 
+	      // Click on News and press
+	 Thread.sleep(2000);
+	 WebDriverWait wait = new WebDriverWait(driver,30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(ledership));
+		
+		String tab2 = driver.findElement(ledership).getText();
+		   System.out.println("Tab2 name = " + tab2);
+		   Thread.sleep(2000);
+		   driver.findElement(ledership).click();
+		   
+		   assertEquals(tab2, Exp_tab2);
+		
+		   String NewsHeading = driver.findElement(leadership_heading).getText(); // Get heading text of New and press
+			
+			System.out.println("Leadership Heading = "+ NewsHeading);
+			
+			assertEquals(NewsHeading, Exp_tab2_Heading);
+			
+			Thread.sleep(2000);
+		
+	 }
+	 
+	
+    public void  LeftTab_three () throws InterruptedException {
 		 
 		      // Click on News and press
 		 Thread.sleep(2000);
@@ -95,17 +124,17 @@ WebDriver driver;
 	 		wait.until(ExpectedConditions.visibilityOfElementLocated(NewsandPress));
 	 		
 			   String tab2 = driver.findElement(NewsandPress).getText();
-			   System.out.println("Tab2 name = " + tab2);
+			   System.out.println("Tab3 name = " + tab2);
 			   Thread.sleep(2000);
 			   driver.findElement(NewsandPress).click();
 			   
-			   assertEquals(tab2, Exp_tab2);
+			   assertEquals(tab2, Exp_tab3);
 
 				String NewsHeading = driver.findElement(NewHeading).getText(); // Get heading text of New and press
 				
 				System.out.println("NewsHeading = "+ NewsHeading);
 				
-				assertEquals(NewsHeading, Exp_tab2_Heading);
+				assertEquals(NewsHeading, Exp_tab3_Heading);
 				
 				Thread.sleep(2000);
 		 

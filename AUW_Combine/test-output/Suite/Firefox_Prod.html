@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Firefox_Prod</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>70/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>72/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 27 14:53:12 IST 2022</td>
+<td>Started on:</td><td>Mon May 02 10:47:06 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>4723 seconds (4723810 ms)</td>
+<tr><td>Total time:</td><td>4483 seconds (4483089 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,39 +75,33 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading3()'><b>Heading3</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;__next&apos;]/main/div[4]/div/div/div/div/div[1]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<td title='MTL_Test_Cases_Prod.More_offers_TC.More_offers()'><b>More_offers</b><br>Test class: MTL_Test_Cases_Prod.More_offers_TC</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: Element &lt;img class=&quot;jss67 hasMenu&quot; src=&quot;https://auw.a.bigcontent.io/v1/static/mtl_logo&quot;&gt; could not be scrolled into view
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 58944, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
-*** Element info: {Using=xpath, value=//*[@id=&apos;__next&apos;]/main/div[4]/div/div/div/div/div[1]}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 19640, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ef6b5223-c404-4508-947b-4c28e57969c9
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at MTL_Pages.WhatWeOffer_page.Heading_three(WhatWeOffer_page.java:547)
-	at MTL_Test_Cases_Prod.What_we_offer1_TC.Heading3(What_we_offer1_TC.java:40)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at MTL_Pages.More_Offers.More_offer(More_Offers.java:84)
+	at MTL_Test_Cases_Prod.More_offers_TC.More_offers(More_offers_TC.java:15)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace732657205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace732657205'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;__next&apos;]/main/div[4]/div/div/div/div/div[1]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace200351057", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace200351057'><pre>org.openqa.selenium.ElementNotInteractableException: Element &lt;img class=&quot;jss67 hasMenu&quot; src=&quot;https://auw.a.bigcontent.io/v1/static/mtl_logo&quot;&gt; could not be scrolled into view
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 58944, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
-*** Element info: {Using=xpath, value=//*[@id=&apos;__next&apos;]/main/div[4]/div/div/div/div/div[1]}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 19640, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ef6b5223-c404-4508-947b-4c28e57969c9
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -118,12 +112,10 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at MTL_Pages.WhatWeOffer_page.Heading_three(WhatWeOffer_page.java:547)
-	at MTL_Test_Cases_Prod.What_we_offer1_TC.Heading3(What_we_offer1_TC.java:40)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at MTL_Pages.More_Offers.More_offer(More_Offers.java:84)
+	at MTL_Test_Cases_Prod.More_offers_TC.More_offers(More_offers_TC.java:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -138,8 +130,39 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>334</td>
-<td>MTL_Test_Cases_Prod.What_we_offer1_TC@340f438e</td></tr>
+<td>28</td>
+<td>MTL_Test_Cases_Prod.More_offers_TC@79b4d0f</td></tr>
+<tr>
+<td title='AFL_Test_Case_Prod.What_We_offer_OutSideUs.WhatweOffer_tab1()'><b>WhatweOffer_tab1</b><br>Test class: AFL_Test_Case_Prod.What_We_offer_OutSideUs</td>
+<td><div><pre>java.lang.AssertionError: Failure message expected [true] but found [false]
+	at AFL_Pages.What_we_offer.Heading_one_Tab1_OutsideUS(What_we_offer.java:233)
+	at AFL_Test_Case_Prod.What_We_offer_OutSideUs.WhatweOffer_tab1(What_We_offer_OutSideUs.java:19)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace203313237", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace203313237'><pre>java.lang.AssertionError: Failure message expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at AFL_Pages.What_we_offer.Heading_one_Tab1_OutsideUS(What_we_offer.java:233)
+	at AFL_Test_Case_Prod.What_We_offer_OutSideUs.WhatweOffer_tab1(What_We_offer_OutSideUs.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>75</td>
+<td>AFL_Test_Case_Prod.What_We_offer_OutSideUs@67b64c45</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -156,7 +179,7 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='AUW_Test_case_prod.AUW_Footer_Prod.AUW_Footer()'><b>AUW_Footer</b><br>Test class: AUW_Test_case_prod.AUW_Footer_Prod</td>
 <td></td>
-<td>81</td>
+<td>72</td>
 <td>AUW_Test_case_prod.AUW_Footer_Prod@60f82f98</td></tr>
 <tr>
 <td title='Careers_Test_case_Prod.Footer.AUW_Instagram()'><b>AUW_Instagram</b><br>Test class: Careers_Test_case_Prod.Footer</td>
@@ -176,12 +199,12 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='Careers_Test_case_Prod.Footer.AUW_twitter()'><b>AUW_twitter</b><br>Test class: Careers_Test_case_Prod.Footer</td>
 <td></td>
-<td>9</td>
+<td>10</td>
 <td>Careers_Test_case_Prod.Footer@6cd8737</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.AUW_AboutUS.AboutUS()'><b>AboutUS</b><br>Test class: AUW_Test_case_prod.AUW_AboutUS</td>
 <td></td>
-<td>64</td>
+<td>63</td>
 <td>AUW_Test_case_prod.AUW_AboutUS@380fb434</td></tr>
 <tr>
 <td title='Casuality_Prod_TC.Menu_Our_Carriers.Carriers()'><b>Carriers</b><br>Test class: Casuality_Prod_TC.Menu_Our_Carriers</td>
@@ -206,7 +229,7 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='AFL_Test_Case_Prod.ContactUS_OutsideUS.ContactUs_Page()'><b>ContactUs_Page</b><br>Test class: AFL_Test_Case_Prod.ContactUS_OutsideUS</td>
 <td></td>
-<td>28</td>
+<td>19</td>
 <td>AFL_Test_Case_Prod.ContactUS_OutsideUS@edf4efb</td></tr>
 <tr>
 <td title='MTL_Test_Cases_Prod.Home_URL.Footer()'><b>Footer</b><br>Test class: MTL_Test_Cases_Prod.Home_URL</td>
@@ -226,7 +249,7 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='Speciality_underwriters_Test_Case_Prod.What_We_offer.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Prod.What_We_offer</td>
 <td></td>
-<td>35</td>
+<td>37</td>
 <td>Speciality_underwriters_Test_Case_Prod.What_We_offer@3796751b</td></tr>
 <tr>
 <td title='Speciality_underwriters_Test_Case_Prod.Home_TC.Footer()'><b>Footer</b><br>Test class: Speciality_underwriters_Test_Case_Prod.Home_TC</td>
@@ -234,14 +257,9 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <td>15</td>
 <td>Speciality_underwriters_Test_Case_Prod.Home_TC@6b2fad11</td></tr>
 <tr>
-<td title='AFL_Test_Case_Prod.What_We_offer_OutSideUs.Footer()'><b>Footer</b><br>Test class: AFL_Test_Case_Prod.What_We_offer_OutSideUs</td>
-<td></td>
-<td>254</td>
-<td>AFL_Test_Case_Prod.What_We_offer_OutSideUs@67b64c45</td></tr>
-<tr>
 <td title='AFL_Test_Case_Prod.Footer_TC.Footer()'><b>Footer</b><br>Test class: AFL_Test_Case_Prod.Footer_TC</td>
 <td></td>
-<td>64</td>
+<td>66</td>
 <td>AFL_Test_Case_Prod.Footer_TC@5b464ce8</td></tr>
 <tr>
 <td title='Solution_one_Prod.Footer_Production.Footer()'><b>Footer</b><br>Test class: Solution_one_Prod.Footer_Production</td>
@@ -261,7 +279,7 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='JumboGC_Test_case_prod.Header_footer.Footer_Privacy()'><b>Footer_Privacy</b><br>Test class: JumboGC_Test_case_prod.Header_footer</td>
 <td></td>
-<td>35</td>
+<td>36</td>
 <td>JumboGC_Test_case_prod.Header_footer@511baa65</td></tr>
 <tr>
 <td title='Promesa_Test_Case_Prod.Footer.Footer_PrivacyPolicy()'><b>Footer_PrivacyPolicy</b><br>Test class: Promesa_Test_Case_Prod.Footer</td>
@@ -291,7 +309,7 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='Promesa_Test_Case_Prod.Footer.Footer_twitter()'><b>Footer_twitter</b><br>Test class: Promesa_Test_Case_Prod.Footer</td>
 <td></td>
-<td>6</td>
+<td>5</td>
 <td>Promesa_Test_Case_Prod.Footer@6108b2d7</td></tr>
 <tr>
 <td title='JumboGC_Test_case_prod.Header_footer.Header_Login()'><b>Header_Login</b><br>Test class: JumboGC_Test_case_prod.Header_footer</td>
@@ -301,8 +319,13 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='MTL_Test_Cases_Prod.What_we_offer_URL_TC.Heading()'><b>Heading</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer_URL_TC</td>
 <td></td>
-<td>89</td>
+<td>95</td>
 <td>MTL_Test_Cases_Prod.What_we_offer_URL_TC@13969fbe</td></tr>
+<tr>
+<td title='MTL_Test_Cases_Prod.What_we_offer1_TC.Heading3()'><b>Heading3</b><br>Test class: MTL_Test_Cases_Prod.What_we_offer1_TC</td>
+<td></td>
+<td>35</td>
+<td>MTL_Test_Cases_Prod.What_we_offer1_TC@340f438e</td></tr>
 <tr>
 <td title='AUW_Global_Test_Cases_Prod.Home_Page_TC.HomePage()'><b>HomePage</b><br>Test class: AUW_Global_Test_Cases_Prod.Home_Page_TC</td>
 <td></td>
@@ -331,7 +354,7 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='Credit_Global_Test_Cases_Prod.Home_TC.HomePage_Header_ContactUS_btn()'><b>HomePage_Header_ContactUS_btn</b><br>Test class: Credit_Global_Test_Cases_Prod.Home_TC</td>
 <td></td>
-<td>12</td>
+<td>11</td>
 <td>Credit_Global_Test_Cases_Prod.Home_TC@6fadae5d</td></tr>
 <tr>
 <td title='Credit_Global_Test_Cases_Prod.Home_TC.HomePage_Header_Our_approach()'><b>HomePage_Header_Our_approach</b><br>Test class: Credit_Global_Test_Cases_Prod.Home_TC</td>
@@ -361,17 +384,17 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='AFL_Test_Case_Prod.HomePage_TC.Home_Page()'><b>Home_Page</b><br>Test class: AFL_Test_Case_Prod.HomePage_TC</td>
 <td></td>
-<td>106</td>
+<td>105</td>
 <td>AFL_Test_Case_Prod.HomePage_TC@3cda1055</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.About_US.Home_page()'><b>Home_page</b><br>Test class: Warranty_Test_Case_Prod.About_US</td>
 <td></td>
-<td>33</td>
+<td>34</td>
 <td>Warranty_Test_Case_Prod.About_US@21bcffb5</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.HomePage_Testcase.Home_page()'><b>Home_page</b><br>Test class: Warranty_Test_Case_Prod.HomePage_Testcase</td>
 <td></td>
-<td>279</td>
+<td>281</td>
 <td>Warranty_Test_Case_Prod.HomePage_Testcase@2acf57e3</td></tr>
 <tr>
 <td title='AUW_Global_Test_Cases_Prod.LearnMore_TC.LearnMore()'><b>LearnMore</b><br>Test class: AUW_Global_Test_Cases_Prod.LearnMore_TC</td>
@@ -379,24 +402,19 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <td>13</td>
 <td>AUW_Global_Test_Cases_Prod.LearnMore_TC@7a0ac6e3</td></tr>
 <tr>
-<td title='MTL_Test_Cases_Prod.More_offers_TC.More_offers()'><b>More_offers</b><br>Test class: MTL_Test_Cases_Prod.More_offers_TC</td>
-<td></td>
-<td>32</td>
-<td>MTL_Test_Cases_Prod.More_offers_TC@79b4d0f</td></tr>
-<tr>
 <td title='Warranty_Test_Case_Prod.Our_Partner.Partner1()'><b>Partner1</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
 <td></td>
-<td>69</td>
+<td>76</td>
 <td>Warranty_Test_Case_Prod.Our_Partner@7e0ea639</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.Our_Partner.Partner2()'><b>Partner2</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
 <td></td>
-<td>69</td>
+<td>72</td>
 <td>Warranty_Test_Case_Prod.Our_Partner@7e0ea639</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.Our_Partner.Partner3()'><b>Partner3</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
 <td></td>
-<td>69</td>
+<td>71</td>
 <td>Warranty_Test_Case_Prod.Our_Partner@7e0ea639</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.Our_Partner.Partner4()'><b>Partner4</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
@@ -406,17 +424,17 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='Warranty_Test_Case_Prod.Our_Partner.Partner5()'><b>Partner5</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
 <td></td>
-<td>68</td>
+<td>70</td>
 <td>Warranty_Test_Case_Prod.Our_Partner@7e0ea639</td></tr>
 <tr>
 <td title='Warranty_Test_Case_Prod.Our_Partner.Partner6()'><b>Partner6</b><br>Test class: Warranty_Test_Case_Prod.Our_Partner</td>
 <td></td>
-<td>71</td>
+<td>72</td>
 <td>Warranty_Test_Case_Prod.Our_Partner@7e0ea639</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.Practices_AgentsBrokers.Practices_AgentsBrokers()'><b>Practices_AgentsBrokers</b><br>Test class: AUW_Test_case_prod.Practices_AgentsBrokers</td>
 <td></td>
-<td>52</td>
+<td>53</td>
 <td>AUW_Test_case_prod.Practices_AgentsBrokers@1554909b</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.Practices_CustomerSeekingCoverage.Practices_CustomerSeekingCoverage()'><b>Practices_CustomerSeekingCoverage</b><br>Test class: AUW_Test_case_prod.Practices_CustomerSeekingCoverage</td>
@@ -431,22 +449,37 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='Pinnacle_Test_Cases_Production.WatsNew.WhatsNew()'><b>WhatsNew</b><br>Test class: Pinnacle_Test_Cases_Production.WatsNew</td>
 <td></td>
-<td>84</td>
+<td>81</td>
 <td>Pinnacle_Test_Cases_Production.WatsNew@59a6e353</td></tr>
+<tr>
+<td title='AFL_Test_Case_Prod.What_We_offer_OutSideUs.WhatweOffer_outsideUS()'><b>WhatweOffer_outsideUS</b><br>Test class: AFL_Test_Case_Prod.What_We_offer_OutSideUs</td>
+<td></td>
+<td>12</td>
+<td>AFL_Test_Case_Prod.What_We_offer_OutSideUs@67b64c45</td></tr>
+<tr>
+<td title='AFL_Test_Case_Prod.What_We_offer_OutSideUs.WhatweOffer_tab2()'><b>WhatweOffer_tab2</b><br>Test class: AFL_Test_Case_Prod.What_We_offer_OutSideUs</td>
+<td></td>
+<td>183</td>
+<td>AFL_Test_Case_Prod.What_We_offer_OutSideUs@67b64c45</td></tr>
+<tr>
+<td title='AFL_Test_Case_Prod.What_We_offer_OutSideUs.WhatweOffer_tab3()'><b>WhatweOffer_tab3</b><br>Test class: AFL_Test_Case_Prod.What_We_offer_OutSideUs</td>
+<td></td>
+<td>93</td>
+<td>AFL_Test_Case_Prod.What_We_offer_OutSideUs@67b64c45</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.AUW_CallUpdate.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_CallUpdate</td>
 <td></td>
-<td>39</td>
+<td>37</td>
 <td>AUW_Test_case_prod.AUW_CallUpdate@2812cbfa</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.AUW_Intelligence_TC.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_Intelligence_TC</td>
 <td></td>
-<td>80</td>
+<td>78</td>
 <td>AUW_Test_case_prod.AUW_Intelligence_TC@4411d970</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.AUW_Heartwood.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_Heartwood</td>
 <td></td>
-<td>54</td>
+<td>55</td>
 <td>AUW_Test_case_prod.AUW_Heartwood@35f983a6</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.AUW_NJ_Update.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_NJ_Update</td>
@@ -456,12 +489,12 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='AUW_Test_case_prod.AUW_Experience.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_Experience</td>
 <td></td>
-<td>331</td>
+<td>335</td>
 <td>AUW_Test_case_prod.AUW_Experience@17c68925</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.AUW_header_web_Prod.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_header_web_Prod</td>
 <td></td>
-<td>47</td>
+<td>48</td>
 <td>AUW_Test_case_prod.AUW_header_web_Prod@19dfb72a</td></tr>
 <tr>
 <td title='AUW_Test_case_prod.AUW_PPP.main()'><b>main</b><br>Test class: AUW_Test_case_prod.AUW_PPP</td>
@@ -476,12 +509,12 @@ Session ID: 6176ef0e-23c9-4ec3-b9f4-689a57f20ac4
 <tr>
 <td title='Adler_TestCases_Prod.Home.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Adler_TestCases_Prod.Home</td>
 <td></td>
-<td>19</td>
+<td>18</td>
 <td>Adler_TestCases_Prod.Home@3498ed</td></tr>
 <tr>
 <td title='Adler_TestCases_Prod.News.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Adler_TestCases_Prod.News</td>
 <td></td>
-<td>117</td>
+<td>115</td>
 <td>Adler_TestCases_Prod.News@506e6d5e</td></tr>
 <tr>
 <td title='Pinnacle_Test_Cases_Production.HomePage_TC.main_Home_Page()'><b>main_Home_Page</b><br>Test class: Pinnacle_Test_Cases_Production.HomePage_TC</td>

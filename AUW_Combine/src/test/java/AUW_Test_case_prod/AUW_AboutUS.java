@@ -26,6 +26,7 @@ public class AUW_AboutUS extends Base_class {
 		about.Header();
 		about.LeftTab_one();
 		about.LeftTab_two();
+		about.LeftTab_three();
 		about.NEWSandPress_Heading_one();
 		
 		about.View_All_Releases();

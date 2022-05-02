@@ -8,7 +8,7 @@ import AFL_Pages.What_we_offer;
 public class What_We_offer_OutSideUs_dev extends Base_class {
 	
 	@Test
-	public void Footer() throws InterruptedException{
+	public void WhatweOffer_outsideUS() throws InterruptedException{
 	
 		
 		Home_page h = new Home_page(driver);

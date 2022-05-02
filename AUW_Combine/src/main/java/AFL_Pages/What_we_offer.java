@@ -26,12 +26,12 @@ public class What_we_offer {
 	By tab_two_tab1 = By.xpath("//*[@id='desktop-menu']/div[2]/div/div/ul/div[2]/div/div[2]/div/div/div/div/a/li"); 
 	By Tab_2_section1 = By.xpath("//*[@id='desktop-menu']/div[2]/div/div/ul/div[2]/div/div[2]/div/div/div/div/a/li");
 	
-	By Tab_pageText = By.xpath("//*[@id='app']/div[2]/div/div/div/div/div[2]/h1");
+	By Tab_pageText = By.xpath("//*[@id='__next']/div[2]/div/div/div/div/div[2]/h1");
 	
-	By MoreOffer_heading1 = By.xpath("//*[@id='app']/main/div[3]/div/div[1]/a/div/div/div/p");
-	By MoreOffer_heading2 = By.xpath("//*[@id='app']/main/div[3]/div/div[2]/a/div/div/div/p");
-	By MoreOffer1_image  = By.xpath("//*[@id='app']/main/div[3]/div/div[1]/a/div/img");
-	By MoreOffer2_image  = By.xpath("//*[@id='app']/main/div[3]/div/div[2]/a/div/img");
+	By MoreOffer_heading1 = By.xpath("//*[@id='__next']/main/div[3]/div/div[1]/a/div/div/div/p");
+	By MoreOffer_heading2 = By.xpath("//*[@id='__next']/main/div[3]/div/div[2]/a/div/div/div/p");
+	By MoreOffer1_image  = By.xpath("//*[@id='__next']/main/div[3]/div/div[1]/a/div/img");
+	By MoreOffer2_image  = By.xpath("//*[@id='__next']/main/div[3]/div/div[2]/a/div/img");
  	By Learn_more1 = By.xpath("(//*[text()='Learn More'])[1]");
  	By Learn_more2 = By.xpath("(//*[text()='Learn More'])[2]");
 	
@@ -179,9 +179,9 @@ public class What_we_offer {
 				
 			Thread.sleep(2000);
 
-		    String More_heading2 = driver.findElement(MoreOffer_heading1).getText();
+		    String More_heading2 = driver.findElement(MoreOffer_heading2).getText();
 		    
-		    System.out.println("More_heading1 = " + More_heading2);
+		    System.out.println("More_heading2 = " + More_heading2);
 		    
 		    driver.findElement(MoreOffer_heading2).click();
 		    Thread.sleep(2000);
@@ -231,7 +231,7 @@ public class What_we_offer {
 			System.out.println("More offer heading 2 from LearnMore = " + Moreheading2_LearnMore_Text);
 		    
 			Assert.assertTrue(Moreheading2_LearnMore_Text.contains(More_heading2),"Failure message") ;
-			
+			                  
 	}
 	
 	public void Heading_one_Tab2_OutsideUS () throws InterruptedException {
@@ -457,7 +457,8 @@ public class What_we_offer {
 			Assert.assertTrue(Moreheading2_LearnMore_Text.contains(More_heading2),"Failure message") ;
 		
 	}
-	public void Heading_one_Tab3_OutsideUS () throws InterruptedException {
+	
+    public void Heading_one_Tab3_OutsideUS () throws InterruptedException {
 		
 		Home_page h = new Home_page(driver);
 		JavascriptExecutor js = (JavascriptExecutor) driver;

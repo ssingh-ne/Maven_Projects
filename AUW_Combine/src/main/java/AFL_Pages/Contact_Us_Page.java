@@ -16,9 +16,9 @@ public class Contact_Us_Page {
 	By ContactUs_header = By.xpath("(//*[text()='Contact Us'])[1]");
 	By ContactUs_home = By.xpath("(//*[text()='Contact Us'])[2]");
 	By AFL_Logo = By.xpath("//*[@href='/']");
-	By top_text = By.xpath("//*[@id='app']/div[2]/div/div/div[2]/p");
+	By top_text = By.xpath("//*[@id='__next']/div[2]/div/div/div[2]/p");
 	By MiddleEastCoverage = By.xpath("//*[text()='For European and Middle East Coverages']");
-	By UnitedStateCoverage = By.xpath("//*[@id='app']/main/div[4]/div/div/div/h2");
+	By UnitedStateCoverage = By.xpath("//*[@id='__next']/main/div[4]/div/div/div/h2");
 	
 	String Exp_MiddleEast = "For European and Middle East Coverages";
 	String Exp_UnitedStates = "For United States Coverages";
@@ -130,7 +130,6 @@ public class Contact_Us_Page {
  		
  	}
  	
-
     public void Contact_US_Coverage_Outside_US () throws InterruptedException {
     	
     	JavascriptExecutor js = (JavascriptExecutor) driver;
