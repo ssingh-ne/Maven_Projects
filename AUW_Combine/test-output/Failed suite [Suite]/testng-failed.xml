@@ -1,81 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Failed suite [Suite]]" parallel="none">
-  <parameter name="browser" value="chrome"/>
-  <test name="Firefox_Prod(failed)(failed)" parallel="classes">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="AFL_Test_Case_Prod.What_We_offer_OutSideUs">
-        <methods>
-          <include name="WhatweOffer_tab1"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- AFL_Test_Case_Prod.What_We_offer_OutSideUs -->
-      <class name="AFL_Test_Case_Prod.HomePage_TC">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- AFL_Test_Case_Prod.HomePage_TC -->
-      <class name="AUW_Global_Test_Cases_Prod.Home_More">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- AUW_Global_Test_Cases_Prod.Home_More -->
-      <class name="MTL_Test_Cases_Prod.More_offers_TC">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- MTL_Test_Cases_Prod.More_offers_TC -->
-      <class name="AUW_Test_case_prod.Practices_AgentsBrokers">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- AUW_Test_case_prod.Practices_AgentsBrokers -->
-    </classes>
-  </test> <!-- Firefox_Prod(failed)(failed) -->
-  <test name="Chrome_Prod(failed)(failed)" parallel="classes">
+  <parameter name="browser" value="firefox"/>
+  <test name="AUW_Chrome_Dev(failed)(failed)" parallel="none">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="AFL_Test_Case_Prod.What_We_offer_OutSideUs">
-        <methods>
-          <include name="WhatweOffer_tab1"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- AFL_Test_Case_Prod.What_We_offer_OutSideUs -->
-      <class name="AFL_Test_Case_Prod.HomePage_TC">
+      <class name="AUW_Test_Case_dev.AUW_Experience">
         <methods>
           <include name="tearDown"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- AFL_Test_Case_Prod.HomePage_TC -->
-      <class name="AUW_Global_Test_Cases_Prod.Home_More">
-        <methods>
-          <include name="setupApplication"/>
           <include name="tearDown"/>
-        </methods>
-      </class> <!-- AUW_Global_Test_Cases_Prod.Home_More -->
-      <class name="MTL_Test_Cases_Prod.More_offers_TC">
-        <methods>
           <include name="setupApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- MTL_Test_Cases_Prod.More_offers_TC -->
-      <class name="AUW_Test_case_prod.Practices_AgentsBrokers">
-        <methods>
           <include name="setupApplication"/>
-          <include name="tearDown"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- AUW_Test_case_prod.Practices_AgentsBrokers -->
+      </class> <!-- AUW_Test_Case_dev.AUW_Experience -->
     </classes>
-  </test> <!-- Chrome_Prod(failed)(failed) -->
+  </test> <!-- AUW_Chrome_Dev(failed)(failed) -->
+  <test name="AUW_Firefox_Dev(failed)(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="AUW_Test_Case_dev.AUW_Experience">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_Experience -->
+    </classes>
+  </test> <!-- AUW_Firefox_Dev(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->

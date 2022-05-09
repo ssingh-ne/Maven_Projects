@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[=====Browser Session Started=====]]>
+      <![CDATA[=====FF Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
@@ -11,30 +11,30 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74972" started-at="2022-05-02T13:04:34Z" finished-at="2022-05-02T13:05:49Z">
+  <suite name="Default suite" duration-ms="356714" started-at="2022-05-05T15:55:12Z" finished-at="2022-05-05T16:01:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74972" started-at="2022-05-02T13:04:34Z" finished-at="2022-05-02T13:05:49Z">
-      <class name="AUW_Test_case_prod.AUW_AboutUS">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:AUW_Test_case_prod.AUW_AboutUS@3ab39c39]" name="setupApplication" is-config="true" duration-ms="5749" started-at="2022-05-02T18:34:34Z" finished-at="2022-05-02T18:34:40Z">
+    <test name="Default test" duration-ms="356714" started-at="2022-05-05T15:55:12Z" finished-at="2022-05-05T16:01:09Z">
+      <class name="AUW_Test_Case_dev.AUW_Experience">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@3ab39c39]" name="setupApplication" is-config="true" duration-ms="9839" started-at="2022-05-05T21:25:12Z" finished-at="2022-05-05T21:25:22Z">
           <reporter-output>
             <line>
-              <![CDATA[=====Browser Session Started=====]]>
+              <![CDATA[=====FF Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="AboutUS()[pri:0, instance:AUW_Test_case_prod.AUW_AboutUS@3ab39c39]" name="AboutUS" duration-ms="68240" started-at="2022-05-02T18:34:40Z" finished-at="2022-05-02T18:35:48Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@3ab39c39]" name="main" duration-ms="346850" started-at="2022-05-05T21:25:22Z" finished-at="2022-05-05T21:31:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AboutUS -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_case_prod.AUW_AboutUS@3ab39c39]" name="tearDown" is-config="true" duration-ms="957" started-at="2022-05-02T18:35:48Z" finished-at="2022-05-02T18:35:49Z">
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@3ab39c39]" name="tearDown" is-config="true" duration-ms="2" started-at="2022-05-05T21:31:09Z" finished-at="2022-05-05T21:31:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AboutUS status=SUCCESS method=AUW_AboutUS.AboutUS()[pri:0, instance:AUW_Test_case_prod.AUW_AboutUS@3ab39c39] output={null}]]]>
+                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_Experience.main()[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@3ab39c39] output={null}]]]>
               </value>
             </param>
           </params>
@@ -44,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AUW_Test_case_prod.AUW_AboutUS -->
+      </class> <!-- AUW_Test_Case_dev.AUW_Experience -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

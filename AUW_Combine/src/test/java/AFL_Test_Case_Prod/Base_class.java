@@ -23,6 +23,7 @@ public class Base_class {
     
 	@Parameters ("browser")
 	 @BeforeMethod
+	 
 /*public void setupApplication()
 		{
 			

@@ -20,7 +20,7 @@ public class What_We_offer_OutSideUs extends Base_class {
 		
 	} 
 	
-	/*@Test
+	@Test
 	public void WhatweOffer_tab2() throws InterruptedException{
 	
 		
@@ -66,5 +66,5 @@ public class What_We_offer_OutSideUs extends Base_class {
 		w.Heading_Two_OutsideUS();
 		
 		
-	} */
+	} 
 }

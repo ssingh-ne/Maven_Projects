@@ -36,7 +36,7 @@ WebDriver driver;
 	By Exp_card_1_text = By.xpath("((//*[contains(@class, 'MuiGrid-root ')])[4]/div/a/div/div/div/p)[1]");
 	By Exp_card_2_text = By.xpath("((//*[contains(@class, 'MuiGrid-root ')])[5]/div/a/div/div/div/p)[1]");
 	
-	By Exp_cardText = By.xpath("/html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div/p/span");
+	By Exp_cardText = By.xpath("//*[@id='app']/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div/p/span");
 	
 	
 	public void URL_Dev() throws InterruptedException {

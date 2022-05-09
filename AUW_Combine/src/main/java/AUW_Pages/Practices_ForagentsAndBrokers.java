@@ -38,6 +38,7 @@ WebDriver driver;
 	By Column9_Heading  = By.xpath("(//*[@rel='noopener noreferrer'])[9]");
 	By Column10_Heading = By.xpath("(//*[@rel='noopener noreferrer'])[10]");
 	By Column11_Heading = By.xpath("(//*[@rel='noopener noreferrer'])[11]");
+	By Column12_Heading = By.xpath("(//*[@rel='noopener noreferrer'])[12]");
 	By Contact_US       = By.xpath("(//*[@rel='noopener noreferrer'])[13]");
 	
 	String Exp_Coumn1_URL  = "https://www.moretolove.auw.com/what-we-offer/workers-compensation"; 
@@ -45,12 +46,13 @@ WebDriver driver;
 	String Exp_Coumn3_URL  = "https://www.moretolove.auw.com/what-we-offer/construction-p-e"; 
 	String Exp_Coumn4_URL  = "https://www.moretolove.auw.com/what-we-offer/homeowners-wildfire"; 
 	String Exp_Coumn5_URL  = "https://www.moretolove.auw.com/what-we-offer/fine-art-collections"; 
-	String Exp_Coumn6_URL  = "https://www.moretolove.auw.com/what-we-offer/enviro-pollution"; 
-	String Exp_Coumn7_URL  = "https://www.moretolove.auw.com/what-we-offer/financial-lines"; 
-	String Exp_Coumn8_URL  = "https://www.moretolove.auw.com/what-we-offer/structured-insurance"; 
-	String Exp_Coumn9_URL  = "https://www.moretolove.auw.com/what-we-offer/property"; 
-	String Exp_Coumn10_URL = "https://www.moretolove.auw.com/what-we-offer/fronting-programs"; 
-	String Exp_Coumn11_URL = "https://www.moretolove.auw.com/what-we-offer/reinsurance"; 
+	String Exp_Coumn6_URL  = "https://www.moretolove.auw.com/what-we-offer/aerospace";
+	String Exp_Coumn7_URL  = "https://www.moretolove.auw.com/what-we-offer/enviro-pollution"; 
+	String Exp_Coumn8_URL  = "https://www.moretolove.auw.com/what-we-offer/financial-lines"; 
+	String Exp_Coumn9_URL  = "https://www.moretolove.auw.com/what-we-offer/structured-insurance"; 
+	String Exp_Coumn10_URL  = "https://www.moretolove.auw.com/what-we-offer/property"; 
+	String Exp_Coumn11_URL = "https://www.moretolove.auw.com/what-we-offer/fronting-programs"; 
+	String Exp_Coumn12_URL = "https://www.moretolove.auw.com/what-we-offer/reinsurance"; 
 	String Exp_contactUs   = "https://www.bigdoghq.com/";
 	
 	public void  Practices_link_agentBrokers () throws InterruptedException {
@@ -352,6 +354,31 @@ WebDriver driver;
            assertEquals(Heading11URL, Exp_Coumn11_URL);
    	
       }
+    
+    public void Column12_Heading () throws InterruptedException{
+    	
+     	 JavascriptExecutor js = (JavascriptExecutor) driver;
+  		
+  		 WebElement Element = driver.findElement(Column11_Heading);
+  		 js.executeScript("arguments[0].scrollIntoView();", Element);
+  		 
+  		 WebDriverWait wait = new WebDriverWait(driver,60);
+  		 wait.until(ExpectedConditions.visibilityOfElementLocated(Column12_Heading));
+  		 
+  		 driver.findElement(Column12_Heading).click();
+  		 Thread.sleep(3000);
+  		 
+  		 Set<String> handlesSet = driver.getWindowHandles();
+          List<String> handlesList = new ArrayList<String>(handlesSet);
+          driver.switchTo().window(handlesList.get(1));
+          String Heading11URL =  driver.getCurrentUrl();
+          System.out.println("Heading12URL = " + Heading11URL);
+          driver.close();
+          driver.switchTo().window(handlesList.get(0));
+          
+          assertEquals(Heading11URL, Exp_Coumn12_URL);
+  	
+     }
 
     public void Contact_US () throws InterruptedException{
     	

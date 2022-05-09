@@ -12,8 +12,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import AUW_Pages.Home_page;
+import AUW_prod.Base_Class;
 
-public class AUW_Footer_Prod extends Base_class {
+public class AUW_Footer_Prod extends Base_Class {
 	
 	@Test
 	public void AUW_Footer() throws InterruptedException{

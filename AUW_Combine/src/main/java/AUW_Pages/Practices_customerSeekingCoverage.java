@@ -40,21 +40,26 @@ WebDriver driver;
 	By Text5 =By.xpath("(//*[text()='Financial Lines'])");
 	By LearnMore5 =By.xpath("(//*[text()='Learn More'])[5]");
 	
-	By Image6 =By.xpath("(//*[@alt='Environmental & Pollution'])");
-	By Text6 =By.xpath("(//*[text()='Environmental & Pollution'])");
+	By Image6 =By.xpath("//*[@alt='Applied Aerospace']");
+	By Text6 =By.xpath("//*[text()='Aerospace']");
 	By LearnMore6 =By.xpath("(//*[text()='Learn More'])[6]");
 	
-	By Image7 =By.xpath("//*[@alt='Shared & Layered Property']");
-	By Text7 =By.xpath("//*[text()='Shared & Layered Property']");
-	By LearnMore7 =By.xpath("//*[text()='Learn more']");
+	By Image7 =By.xpath("(//*[@alt='Environmental & Pollution'])");
+	By Text7 =By.xpath("(//*[text()='Environmental & Pollution'])");
+	By LearnMore7 =By.xpath("(//*[text()='Learn More'])[7]");
+	
+	By Image8 =By.xpath("//*[@alt='Shared & Layered Property']");
+	By Text8 =By.xpath("//*[text()='Shared & Layered Property']");
+	By LearnMore8 =By.xpath("//*[text()='Learn more']");
 	
 	String Exp_URL1 = "https://develop--auw.netlify.app/practices/customers/workers-compensation";
 	String Exp_URL2 = "https://develop--auw.netlify.app/practices/customers/transportation";
 	String Exp_URL3 = "https://develop--auw.netlify.app/practices/customers/homeowners-wildfire";
 	String Exp_URL4 = "https://develop--auw.netlify.app/practices/customers/art-collections";
 	String Exp_URL5 = "https://develop--auw.netlify.app/practices/customers/financial-lines";
-	String Exp_URL6 = "https://develop--auw.netlify.app/practices/customers/environmental-pollution";
-	String Exp_URL7 = "https://develop--auw.netlify.app/practices/customers/property";
+	String Exp_URL6 = "https://develop--auw.netlify.app/practices/customers/aerospace";
+	String Exp_URL7 = "https://develop--auw.netlify.app/practices/customers/environmental-pollution";
+	String Exp_URL8 = "https://develop--auw.netlify.app/practices/customers/property";
 	
 	
     public void  Practices_link_CustomerSeekingCoverage () throws InterruptedException {
@@ -441,7 +446,7 @@ WebDriver driver;
 
 	// Heading 7
 
-		public void CustomerSeekingCoverage_Heading7 () throws InterruptedException {
+	public void CustomerSeekingCoverage_Heading7 () throws InterruptedException {
 			
 		     // Click on Image 
 				
@@ -501,5 +506,65 @@ WebDriver driver;
 				 
 			}
 
+		// Heading 8
 
+	public void CustomerSeekingCoverage_Heading8 () throws InterruptedException {
+					
+				     // Click on Image 
+						
+						 JavascriptExecutor js = (JavascriptExecutor) driver;
+							
+						 WebElement Element = driver.findElement(Image8);
+						 js.executeScript("arguments[0].scrollIntoView();", Element);
+						 
+						 WebDriverWait wait = new WebDriverWait(driver,600);
+						 wait.until(ExpectedConditions.visibilityOfElementLocated(Image8));
+						 
+						 driver.findElement(Image8).click();
+						  Thread.sleep(3000);
+						 String Image_URL = driver.getCurrentUrl();
+						 System.out.println("Image 8 URL =" + Image_URL);
+						 
+						 driver.navigate().back();
+						 
+					// Click on Text
+						 
+						 Thread.sleep(5000);
+						 WebElement Element1 = driver.findElement(Text8);
+						 js.executeScript("arguments[0].scrollIntoView();", Element1);
+						 
+						 WebDriverWait wait1 = new WebDriverWait(driver,600);
+						 wait.until(ExpectedConditions.visibilityOfElementLocated(Image8));
+						 
+						 driver.findElement(Text8).click();
+						  Thread.sleep(3000);
+						 String Text_URL = driver.getCurrentUrl();
+						 System.out.println("Text 8 URL =" + Text_URL);
+						 
+						 driver.navigate().back();
+						
+				    // Click on learn more
+						 Thread.sleep(10000);
+						 
+						 WebElement Element2 = driver.findElement(LearnMore8);
+						 js.executeScript("arguments[0].scrollIntoView();", Element2);
+						 
+						 WebDriverWait wait2 = new WebDriverWait(driver,600);
+						 wait.until(ExpectedConditions.visibilityOfElementLocated(Image8));
+						 
+						 Thread.sleep(3000);
+						 
+						 driver.findElement(LearnMore8).click();
+						  Thread.sleep(3000);
+						 String LearnMore_URL = driver.getCurrentUrl();
+						 System.out.println("Learn_More 8 URL =" + LearnMore_URL);
+						 
+						 driver.navigate().back();
+						 
+						 Assert.assertEquals(Image_URL, Exp_URL8);
+						 Assert.assertEquals(Text_URL, Exp_URL8);
+						 Assert.assertEquals(LearnMore_URL, Exp_URL8);
+						 
+						 
+					}
 }

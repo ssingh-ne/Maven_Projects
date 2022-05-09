@@ -35,5 +35,5 @@ public class Practices_CustomerSeekingCoverage extends Base_class {
 		
 		fb.CustomerSeekingCoverage_Heading7();
 		
-
+		fb.CustomerSeekingCoverage_Heading8();
 }}
