@@ -2,32 +2,36 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Failed suite [Failed suite [Suite]]]" parallel="none">
   <parameter name="browser" value="firefox"/>
-  <test name="AUW_Chrome_Dev(failed)(failed)(failed)" parallel="none">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="AUW_Test_Case_dev.AUW_Experience">
-        <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="main"/>
-        </methods>
-      </class> <!-- AUW_Test_Case_dev.AUW_Experience -->
-    </classes>
-  </test> <!-- AUW_Chrome_Dev(failed)(failed)(failed) -->
-  <test name="AUW_Firefox_Dev(failed)(failed)(failed)" parallel="none">
+  <test name="Firefox_Prod(failed)(failed)(failed)" parallel="classes">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="AUW_Test_Case_dev.AUW_Experience">
+      <class name="Casuality_Prod_TC.Home_page">
         <methods>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
           <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="main"/>
+          <include name="tearDown"/>
+          <include name="HomePage"/>
         </methods>
-      </class> <!-- AUW_Test_Case_dev.AUW_Experience -->
+      </class> <!-- Casuality_Prod_TC.Home_page -->
+      <class name="Pinnacle_Test_Cases_Production.HomePage_TC">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Pinnacle_Test_Cases_Production.HomePage_TC -->
+      <class name="Warranty_Test_Case_Prod.Our_Partner">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="Partner1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Prod.Our_Partner -->
+      <class name="Pinnacle_Test_Cases_Production.WatsNew">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="WhatsNew"/>
+        </methods>
+      </class> <!-- Pinnacle_Test_Cases_Production.WatsNew -->
     </classes>
-  </test> <!-- AUW_Firefox_Dev(failed)(failed)(failed) -->
+  </test> <!-- Firefox_Prod(failed)(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

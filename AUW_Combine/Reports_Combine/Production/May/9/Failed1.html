@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Firefox_Prod(failed)</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi_attn">8</td><td class="numi">557.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Chrome_Prod(failed)</td><td class="numi">13</td><td class="numi">13</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">547.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">17</td><td class="numi">17</td><td class="numi">0</td><td class="numi_attn">11</td><td class="numi">1,104.6 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Firefox_Prod(failed) &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Casuality_Prod_TC.Menu_Our_Carriers</td><td><a href="#m1"><b>Carriers</b>  </a></td><td class="numi">1</td><td>1652083262369</td><td class="numi">26638</td></tr>
+<tr class="failedeven"><td rowspan="1">Warranty_Test_Case_Prod.Our_Partner</td><td><a href="#m2"><b>Partner2</b>  </a></td><td class="numi">1</td><td>1652083093412</td><td class="numi">18276</td></tr>
+<tr class="failedodd"><td rowspan="1">AFL_Test_Case_Prod.What_We_offer_OutSideUs</td><td><a href="#m3"><b>WhatweOffer_tab2</b>  </a></td><td class="numi">1</td><td>1652083091443</td><td class="numi">19823</td></tr>
+<tr class="failedeven"><td rowspan="1">AUW_Test_case_prod.AUW_header_web_Prod</td><td><a href="#m4"><b>main</b>  </a></td><td class="numi">1</td><td>1652083083452</td><td class="numi">500115</td></tr>
+<tr class="failedodd"><td rowspan="1">AUW_Test_case_prod.AUW_PPP</td><td><a href="#m5"><b>main</b>  </a></td><td class="numi">1</td><td>1652083087548</td><td class="numi">38592</td></tr>
+<tr class="failedeven"><td rowspan="1">AUW_Test_case_prod.AUW_Experience</td><td><a href="#m6"><b>main</b>  </a></td><td class="numi">1</td><td>1652083087646</td><td class="numi">522282</td></tr>
+<tr class="failedodd"><td rowspan="1">AUW_Test_case_prod.AUW_Heartwood</td><td><a href="#m7"><b>main</b>  </a></td><td class="numi">1</td><td>1652083149340</td><td class="numi">62049</td></tr>
+<tr class="failedeven"><td rowspan="1">AFL_Test_Case_Prod.AboutUS_OutsideUS</td><td><a href="#m8"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1652083160868</td><td class="numi">21848</td></tr>
+<tr><th colspan="4">Firefox_Prod(failed) &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.AUW_Footer_Prod</td><td><a href="#m9"><b>AUW_Footer</b>  </a></td><td class="numi">1</td><td>1652083129243</td><td class="numi">116783</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.Practices_AgentsBrokers</td><td><a href="#m10"><b>Practices_AgentsBrokers</b>  </a></td><td class="numi">1</td><td>1652083199248</td><td class="numi">78764</td></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.Practices_CustomerSeekingCoverage</td><td><a href="#m11"><b>Practices_CustomerSeekingCoverage</b>  </a></td><td class="numi">1</td><td>1652083226674</td><td class="numi">323858</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.AUW_NJ_Update</td><td><a href="#m12"><b>main</b>  </a></td><td class="numi">1</td><td>1652083289262</td><td class="numi">39879</td></tr>
+<tr><th colspan="4">Chrome_Prod(failed) &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Casuality_Prod_TC.Menu_Our_Carriers</td><td><a href="#m13"><b>Carriers</b>  </a></td><td class="numi">1</td><td>1652083749166</td><td class="numi">37751</td></tr>
+<tr class="failedeven"><td rowspan="1">Warranty_Test_Case_Prod.Contact_US</td><td><a href="#m14"><b>ContactUS</b>  </a></td><td class="numi">1</td><td>1652083633269</td><td class="numi">87666</td></tr>
+<tr class="failedodd"><td rowspan="1">AUW_Test_case_prod.AUW_Experience</td><td><a href="#m15"><b>main</b>  </a></td><td class="numi">1</td><td>1652083635177</td><td class="numi">523697</td></tr>
+<tr><th colspan="4">Chrome_Prod(failed) &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Solution_one_Prod.Footer_Production</td><td><a href="#m16"><b>Footer</b>  </a></td><td class="numi">1</td><td>1652083808420</td><td class="numi">78238</td></tr>
+<tr class="passedeven"><td rowspan="3">JumboGC_Test_case_prod.Header_footer</td><td><a href="#m17"><b>Footer_Privacy</b>  </a></td><td class="numi">1</td><td>1652083639157</td><td class="numi">45554</td></tr><tr class="passedeven"><td><a href="#m18"><b>Footer_linkedIN</b>  </a></td><td class="numi">1</td><td>1652083759034</td><td class="numi">38283</td></tr><tr class="passedeven"><td><a href="#m19"><b>Header_Login</b>  </a></td><td class="numi">1</td><td>1652083711935</td><td class="numi">23280</td></tr>
+<tr class="passedodd"><td rowspan="1">Warranty_Test_Case_Prod.Our_Partner</td><td><a href="#m20"><b>Partner2</b>  </a></td><td class="numi">1</td><td>1652083635564</td><td class="numi">85061</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.Practices_CustomerSeekingCoverage</td><td><a href="#m21"><b>Practices_CustomerSeekingCoverage</b>  </a></td><td class="numi">1</td><td>1652083729863</td><td class="numi">266943</td></tr>
+<tr class="passedodd"><td rowspan="5">Solution_one_Prod.Side_Heading_Production</td><td><a href="#m22"><b>Side_Heading_Five</b>  </a></td><td class="numi">1</td><td>1652083881184</td><td class="numi">52836</td></tr><tr class="passedodd"><td><a href="#m23"><b>Side_Heading_Four</b>  </a></td><td class="numi">1</td><td>1652084051249</td><td class="numi">45229</td></tr><tr class="passedodd"><td><a href="#m24"><b>Side_Heading_One</b>  </a></td><td class="numi">1</td><td>1652083942698</td><td class="numi">45671</td></tr><tr class="passedodd"><td><a href="#m25"><b>Side_Heading_Three</b>  </a></td><td class="numi">1</td><td>1652083995662</td><td class="numi">48827</td></tr><tr class="passedodd"><td><a href="#m26"><b>Side_Heading_Two</b>  </a></td><td class="numi">1</td><td>1652083799993</td><td class="numi">67432</td></tr>
+<tr class="passedeven"><td rowspan="2">AFL_Test_Case_Prod.What_We_offer_OutSideUs</td><td><a href="#m27"><b>WhatweOffer_outsideUS</b>  </a></td><td class="numi">1</td><td>1652083637080</td><td class="numi">21740</td></tr><tr class="passedeven"><td><a href="#m28"><b>WhatweOffer_tab2</b>  </a></td><td class="numi">1</td><td>1652083703178</td><td class="numi">252134</td></tr>
+</table>
+<h1>Firefox_Prod(failed)</h1>
+<h2 id="m1">AUW_Test_case_prod.AUW_Heartwood:main</h2>
+<div style="padding-left:3em">
+<p>Element &lt;span class=&quot;MuiButton-label&quot;&gt; is not clickable at point (304,13) because another element &lt;div id=&quot;desktop-menu&quot; class=&quot;MuiGrid-root jss13 MuiGrid-container&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 48480, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: df1e5dbe-dabd-49fe-8b0c-ac7abb05cbd4</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at AUW_Test_case_prod.AUW_Heartwood.main(AUW_Heartwood.java:113)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">AUW_Test_case_prod.AUW_Experience:main</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: /html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23192, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d99f92d5-b555-426d-913f-36a0b0b36807
+*** Element info: {Using=xpath, value=/html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at AUW_Test_case_prod.AUW_Experience.main(AUW_Experience.java:46)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">AFL_Test_Case_Prod.What_We_offer_OutSideUs:WhatweOffer_tab2</h2>
+<div style="padding-left:3em">
+<p>Element &lt;p class=&quot;jss174 jss15&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 30948, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fe43299e-989e-478e-9db9-7bea69b133ee</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at AFL_Pages.What_we_offer.Heading_one_Tab2_OutsideUS(What_we_offer.java:288)
+<br/>at AFL_Test_Case_Prod.What_We_offer_OutSideUs.WhatweOffer_tab2(What_We_offer_OutSideUs.java:33)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">AUW_Test_case_prod.AUW_header_web_Prod:main</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: //a[text()=&apos;Experience&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23688, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c3373c4d-aa64-4cac-83d0-43c06f0be7af
+*** Element info: {Using=xpath, value=//a[text()=&apos;Experience&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at AUW_Pages.Home_page.Experience_btn(Home_page.java:285)
+<br/>at AUW_Test_case_prod.AUW_header_web_Prod.main(AUW_header_web_Prod.java:23)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Casuality_Prod_TC.Menu_Our_Carriers:Carriers</h2>
+<div style="padding-left:3em">
+<p>Element &lt;a href=&quot;https://www.ambest.com/home/default.aspx&quot;&gt; is not clickable at point (616,91) because another element &lt;div class=&quot;jss40 jss23 jss39 scrollingDown &quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 48100, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e2112bc6-627f-4763-ac20-4b1e25a98393</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at Casuality_pages.Menu_Carriers.Ambest(Menu_Carriers.java:55)
+<br/>at Casuality_Prod_TC.Menu_Our_Carriers.Carriers(Menu_Our_Carriers.java:19)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Warranty_Test_Case_Prod.Our_Partner:Partner2</h2>
+<div style="padding-left:3em">
+<p>expected [Portable Electronics Insurance] but found []</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at Warranty_Page.Our_Partners_page.Partner2(Our_Partners_page.java:111)
+<br/>at Warranty_Test_Case_Prod.Our_Partner.Partner2(Our_Partner.java:32)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">AUW_Test_case_prod.AUW_PPP:main</h2>
+<div style="padding-left:3em">
+<p>Expected condition failed: waiting for visibility of element located by By.xpath: (//*[@target=&apos;_blank&apos;])[1] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 42284, moz:profile: C:\Users\Sweta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc11414e-fffd-40c3-a98e-1c2f4d654b33</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+<br/>at AUW_Pages.AUW_ppp.Resources_section(AUW_ppp.java:65)
+<br/>at AUW_Test_case_prod.AUW_PPP.main(AUW_PPP.java:29)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">AFL_Test_Case_Prod.AboutUS_OutsideUS:main_Home_Page</h2>
+<div style="padding-left:3em">
+<p>expected [Europe] but found []</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at AFL_Pages.About_Us_Page.MeatTeam_Outside_US(About_Us_Page.java:111)
+<br/>at AFL_Test_Case_Prod.AboutUS_OutsideUS.main_Home_Page(AboutUS_OutsideUS.java:19)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">AUW_Test_case_prod.Practices_AgentsBrokers:Practices_AgentsBrokers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">AUW_Test_case_prod.Practices_CustomerSeekingCoverage:Practices_CustomerSeekingCoverage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">AUW_Test_case_prod.AUW_Footer_Prod:AUW_Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">AUW_Test_case_prod.AUW_NJ_Update:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Chrome_Prod(failed)</h1>
+<h2 id="m13">Casuality_Prod_TC.Menu_Our_Carriers:Carriers</h2>
+<div style="padding-left:3em">
+<p>expected [https://www.ambest.com/home/default.aspx] but found [https://web.ambest.com/]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at Casuality_pages.Menu_Carriers.Ambest(Menu_Carriers.java:68)
+<br/>at Casuality_Prod_TC.Menu_Our_Carriers.Carriers(Menu_Our_Carriers.java:19)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">Warranty_Test_Case_Prod.Contact_US:ContactUS</h2>
+<div style="padding-left:3em">
+<p>element not interactable
+  (Session info: chrome=101.0.4951.41)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26270f0402bb5fa8da487c305ad48c4e</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at Warranty_Page.ContactUS_page.contactUS(ContactUS_page.java:121)
+<br/>at Warranty_Test_Case_Prod.Contact_US.ContactUS(Contact_US.java:16)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">AUW_Test_case_prod.AUW_Experience:main</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1&quot;}
+  (Session info: chrome=101.0.4951.41)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Sweta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 706cc9a47dcd1859820233adce4d69cb
+*** Element info: {Using=xpath, value=/html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at AUW_Test_case_prod.AUW_Experience.main(AUW_Experience.java:46)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">JumboGC_Test_case_prod.Header_footer:Footer_linkedIN</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">Solution_one_Prod.Side_Heading_Production:Side_Heading_One</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">Solution_one_Prod.Side_Heading_Production:Side_Heading_Two</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">AFL_Test_Case_Prod.What_We_offer_OutSideUs:WhatweOffer_tab2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">Warranty_Test_Case_Prod.Our_Partner:Partner2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">Solution_one_Prod.Footer_Production:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">AUW_Test_case_prod.Practices_CustomerSeekingCoverage:Practices_CustomerSeekingCoverage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">AFL_Test_Case_Prod.What_We_offer_OutSideUs:WhatweOffer_outsideUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">Solution_one_Prod.Side_Heading_Production:Side_Heading_Five</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">Solution_one_Prod.Side_Heading_Production:Side_Heading_Three</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">JumboGC_Test_case_prod.Header_footer:Header_Login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">Solution_one_Prod.Side_Heading_Production:Side_Heading_Four</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">JumboGC_Test_case_prod.Header_footer:Footer_Privacy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

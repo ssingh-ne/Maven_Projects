@@ -24,11 +24,11 @@ public class AUW_Experience extends Base_class {
 		By Experience_Heading4 = By.xpath("//*[@id='app']/main/div[5]/div/div/div/div[2]/h1");
 		By Experience_Heading5 = By.xpath("//*[@id='app']/main/div[6]/div/div/div/div/div[2]/h1");
 		
-		By Explore_Heading1 = By.xpath("/html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1");
-		By Explore_Heading2 = By.xpath("/html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1");
-		By Explore_Heading3 = By.xpath("/html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1");
-		By Explore_Heading4 = By.xpath("/html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1");
-		By Explore_Heading5 = By.xpath("/html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1");
+		By Explore_Heading1 = By.xpath("//*[@id='app']/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1/span");
+		By Explore_Heading2 = By.xpath("//*[@id='app']/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1/span");
+		By Explore_Heading3 = By.xpath("//*[@id='app']/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1/span");
+		By Explore_Heading4 = By.xpath("//*[@id='app']/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1/span");
+		By Explore_Heading5 = By.xpath("//*[@id='app']/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div[2]/div[1]/div/h1/span");
 		
 		
 		Home_page h = new Home_page(driver);

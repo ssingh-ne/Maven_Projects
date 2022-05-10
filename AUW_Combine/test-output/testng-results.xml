@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
     <line>
-      <![CDATA[=====FF Browser Session Started=====]]>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====firefox Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
@@ -11,30 +38,37 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="356714" started-at="2022-05-05T15:55:12Z" finished-at="2022-05-05T16:01:09Z">
+  <suite name="Pinacle_Prod" duration-ms="321968" started-at="2022-05-10T13:22:31Z" finished-at="2022-05-10T13:27:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="356714" started-at="2022-05-05T15:55:12Z" finished-at="2022-05-05T16:01:09Z">
-      <class name="AUW_Test_Case_dev.AUW_Experience">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@3ab39c39]" name="setupApplication" is-config="true" duration-ms="9839" started-at="2022-05-05T21:25:12Z" finished-at="2022-05-05T21:25:22Z">
+    <test name="Pinnacle_Chrome_Dev" duration-ms="158369" started-at="2022-05-10T13:22:31Z" finished-at="2022-05-10T13:25:10Z">
+      <class name="Pinnacle_Test_Cases_Production.WatsNew">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@546a03af]" name="setupApplication" is-config="true" duration-ms="8023" started-at="2022-05-10T18:53:30Z" finished-at="2022-05-10T18:53:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[=====FF Browser Session Started=====]]>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@3ab39c39]" name="main" duration-ms="346850" started-at="2022-05-05T21:25:22Z" finished-at="2022-05-05T21:31:09Z">
+        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@546a03af]" name="WhatsNew" duration-ms="90294" started-at="2022-05-10T18:53:38Z" finished-at="2022-05-10T18:55:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@3ab39c39]" name="tearDown" is-config="true" duration-ms="2" started-at="2022-05-05T21:31:09Z" finished-at="2022-05-05T21:31:09Z">
+        </test-method> <!-- WhatsNew -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@546a03af]" name="tearDown" is-config="true" duration-ms="1576" started-at="2022-05-10T18:55:08Z" finished-at="2022-05-10T18:55:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main status=SUCCESS method=AUW_Experience.main()[pri:0, instance:AUW_Test_Case_dev.AUW_Experience@3ab39c39] output={null}]]]>
+                <![CDATA[[TestResult name=WhatsNew status=SUCCESS method=WatsNew.WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@546a03af] output={null}]]]>
               </value>
             </param>
           </params>
@@ -44,7 +78,120 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AUW_Test_Case_dev.AUW_Experience -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Pinnacle_Test_Cases_Production.WatsNew -->
+      <class name="Pinnacle_Test_Cases_Production.HomePage_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@256216b3]" name="setupApplication" is-config="true" duration-ms="11252" started-at="2022-05-10T18:52:31Z" finished-at="2022-05-10T18:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@256216b3]" name="main_Home_Page" duration-ms="45870" started-at="2022-05-10T18:52:43Z" finished-at="2022-05-10T18:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_Home_Page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@256216b3]" name="tearDown" is-config="true" duration-ms="1321" started-at="2022-05-10T18:53:28Z" finished-at="2022-05-10T18:53:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=HomePage_TC.main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@256216b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pinnacle_Test_Cases_Production.HomePage_TC -->
+    </test> <!-- Pinnacle_Chrome_Dev -->
+    <test name="Pinnacle_Firefox_Dev" duration-ms="163554" started-at="2022-05-10T13:25:10Z" finished-at="2022-05-10T13:27:53Z">
+      <class name="Pinnacle_Test_Cases_Production.WatsNew">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@75bd9247]" name="setupApplication" is-config="true" duration-ms="11857" started-at="2022-05-10T18:56:11Z" finished-at="2022-05-10T18:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@75bd9247]" name="WhatsNew" duration-ms="87789" started-at="2022-05-10T18:56:23Z" finished-at="2022-05-10T18:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhatsNew -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@75bd9247]" name="tearDown" is-config="true" duration-ms="2085" started-at="2022-05-10T18:57:51Z" finished-at="2022-05-10T18:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhatsNew status=SUCCESS method=WatsNew.WhatsNew()[pri:0, instance:Pinnacle_Test_Cases_Production.WatsNew@75bd9247] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pinnacle_Test_Cases_Production.WatsNew -->
+      <class name="Pinnacle_Test_Cases_Production.HomePage_TC">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@7d417077]" name="setupApplication" is-config="true" duration-ms="11651" started-at="2022-05-10T18:55:10Z" finished-at="2022-05-10T18:55:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====firefox Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@7d417077]" name="main_Home_Page" duration-ms="47046" started-at="2022-05-10T18:55:21Z" finished-at="2022-05-10T18:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_Home_Page -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@7d417077]" name="tearDown" is-config="true" duration-ms="3119" started-at="2022-05-10T18:56:08Z" finished-at="2022-05-10T18:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=HomePage_TC.main_Home_Page()[pri:0, instance:Pinnacle_Test_Cases_Production.HomePage_TC@7d417077] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pinnacle_Test_Cases_Production.HomePage_TC -->
+    </test> <!-- Pinnacle_Firefox_Dev -->
+  </suite> <!-- Pinacle_Prod -->
 </testng-results>
