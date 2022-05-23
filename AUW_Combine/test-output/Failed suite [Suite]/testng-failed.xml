@@ -5,53 +5,35 @@
   <test name="Firefox_Prod(failed)(failed)" parallel="classes">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="Casuality_Prod_TC.Home_page">
+      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS">
         <methods>
-          <include name="setupApplication"/>
           <include name="tearDown"/>
-          <include name="HomePage"/>
-        </methods>
-      </class> <!-- Casuality_Prod_TC.Home_page -->
-      <class name="Pinnacle_Test_Cases_Production.WatsNew">
-        <methods>
           <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="WhatsNew"/>
-        </methods>
-      </class> <!-- Pinnacle_Test_Cases_Production.WatsNew -->
-      <class name="Pinnacle_Test_Cases_Production.HomePage_TC">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
           <include name="main_Home_Page"/>
         </methods>
-      </class> <!-- Pinnacle_Test_Cases_Production.HomePage_TC -->
-      <class name="Warranty_Test_Case_Prod.Contact_US">
+      </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
+      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
         <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="Carriers"/>
+        </methods>
+      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
+      <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC">
+        <methods>
+          <include name="Heading"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Warranty_Test_Case_Prod.Contact_US -->
-      <class name="AFL_Test_Case_Prod.Footer_TC">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- AFL_Test_Case_Prod.Footer_TC -->
+      </class> <!-- MTL_Test_Cases_Prod.What_we_offer_URL_TC -->
       <class name="Warranty_Test_Case_Prod.Our_Partner">
         <methods>
           <include name="setupApplication"/>
-          <include name="Partner1"/>
-          <include name="Partner3"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Warranty_Test_Case_Prod.Our_Partner -->
-      <class name="Casuality_Prod_TC.Menu_Press_Room">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_Press_Room -->
       <class name="Solution_one_Prod.Side_Heading_Production">
         <methods>
           <include name="setupApplication"/>
@@ -60,4 +42,42 @@
       </class> <!-- Solution_one_Prod.Side_Heading_Production -->
     </classes>
   </test> <!-- Firefox_Prod(failed)(failed) -->
+  <test name="Chrome_Prod(failed)(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="Carriers"/>
+        </methods>
+      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
+      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
+      <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MTL_Test_Cases_Prod.What_we_offer_URL_TC -->
+      <class name="Warranty_Test_Case_Prod.Our_Partner">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Prod.Our_Partner -->
+      <class name="Solution_one_Prod.Side_Heading_Production">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Solution_one_Prod.Side_Heading_Production -->
+    </classes>
+  </test> <!-- Chrome_Prod(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->

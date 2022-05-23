@@ -40,14 +40,14 @@ public class Base_class {
 	                
 			driver.manage().window().maximize();
 			
-			driver.get("https://release-1-0-0--applied-treadwell.netlify.app/");
-			driver.get("https://develop--applied-treadwell.netlify.app/");
+			driver.get("https://www.treadwellrisk.com/");
+			
 			
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		} 
-*/
+		} */
+
 	public void setupApplication (String browser)
 		{
 		if(browser.equalsIgnoreCase("firefox")) {

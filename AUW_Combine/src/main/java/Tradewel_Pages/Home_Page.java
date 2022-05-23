@@ -18,18 +18,18 @@ public class Home_Page {
 	
 	By AboutUs_URL = By.xpath("//*[@id='treadwell-desktop-menu']/div/a");
 	By aboutUs_header = By.xpath("(//*[text()='About Us'])[1]");
-	By Privacypolicy_URL = By.xpath("//*[@id='app']/div[8]/div/div[2]/div/a[1]");
+	By Privacypolicy_URL = By.xpath("(//*[@target='_blank'])[1]");
 	By Privacypolicy = By.xpath("//*[text()='Privacy Policy']");
-	By CA_Privacypolicy_URL = By.xpath("//*[@id='app']/div[8]/div/div[2]/div/a[2]");
+	By CA_Privacypolicy_URL = By.xpath("(//*[@target='_blank'])[2]");
 	By CA_Privacypolicy = By.xpath("//*[text()='CA Privacy Notice']");
 	By About_US_subheader = By.xpath("//*[text()='ABOUT US']");
 	
 	By Comprehensive = By.xpath("//h1[text()='Comprehensive protection']");
-	By comprehensive_tab1 = By.xpath("//*[@id='app']/div[6]/div/div[1]/div[1]/p");
-	By comprehensive_tab2 = By.xpath("//*[@id='app']/div[6]/div/div[1]/div[2]/p");
-	By comprehensive_tab3 = By.xpath("//*[@id='app']/div[6]/div/div[1]/div[3]/p");
-	By comprehensive_tab4 = By.xpath("//*[@id='app']/div[6]/div/div[1]/div[4]/p");
-	By comprehensive_tab5 = By.xpath("//*[@id='app']/div[6]/div/div[1]/div[5]/p");
+	By comprehensive_tab1 = By.xpath("//*[@id='__next']/div[6]/div/div[1]/div[1]/p");
+	By comprehensive_tab2 = By.xpath("//*[@id='__next']/div[6]/div/div[1]/div[2]/p");
+	By comprehensive_tab3 = By.xpath("//*[@id='__next']/div[6]/div/div[1]/div[3]/p");
+	By comprehensive_tab4 = By.xpath("//*[@id='__next']/div[6]/div/div[1]/div[4]/p");
+	By comprehensive_tab5 = By.xpath("//*[@id='__next']/div[6]/div/div[1]/div[5]/p");
 	
 	
 	
@@ -109,7 +109,7 @@ public class Home_Page {
 		
 		  Thread.sleep(3000);
 		  
-        String CAPrivacy_URL = driver.findElement(CA_Privacypolicy_URL).getAttribute("href");
+          String CAPrivacy_URL = driver.findElement(CA_Privacypolicy_URL).getAttribute("href");
 		  
 		  System.out.println("Expected CA Privacy policy URL = "+ CAPrivacy_URL);
 		  

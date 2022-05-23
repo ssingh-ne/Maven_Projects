@@ -20,7 +20,7 @@ public class Menu_Carriers {
 	By Menu_carriers = By.xpath("//a[text()='Our Carriers']");
 	
 	By Url = By.xpath("//*[text()='ambest.com']");
-	String s = "https://web.ambest.com/";
+	String s = "https://web.ambest.com/home";
 	
 	
 	public Menu_Carriers (WebDriver driver){

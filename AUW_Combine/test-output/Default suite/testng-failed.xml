@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
+      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS">
         <methods>
-          <include name="setupApplication"/>
           <include name="tearDown"/>
-          <include name="Carriers"/>
+          <include name="setupApplication"/>
+          <include name="main_Home_Page"/>
         </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
+      </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

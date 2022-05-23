@@ -124,7 +124,8 @@ public class About_Us_Page {
 		 //js.executeScript("window.scrollBy(0,1000)");
 		 WebElement Element = driver.findElement(AboutUS_learnMore);
 		 js.executeScript("arguments[0].scrollIntoView();", Element);
-		 
+	
+		 Thread.sleep(3000);
 		 driver.findElement(AboutUS_learnMore).click();
 		 Thread.sleep(3000);
 		 

@@ -3,7 +3,7 @@ package Warranty_Test_Case_Prod;
 import org.testng.annotations.Test;
 
 import Warranty_Page.Our_Partners_page;
-import Warranty_Test_Case_Dev.Base_class;
+import Warranty_Test_Case_Prod.Base_class;
 
 public class Our_Partner extends Warranty_Test_Case_Prod.Base_class {
 	

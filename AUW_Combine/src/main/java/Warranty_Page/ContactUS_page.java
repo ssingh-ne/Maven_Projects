@@ -17,7 +17,7 @@ public class ContactUS_page {
 	By AboutUS_header = By.xpath("(//*[text()='About Us'])[1]");
 	By NewandEvents = By.xpath("(//*[text()='News & Events'])[1]");
 	By PartnerHeading = By.xpath("(//*[text()='Partner With Us'])[1]");
-	By contactUS_Header = By.xpath("(//*[text()='Contact Us'])[2]");
+	By contactUS_Header = By.xpath("(//p[text()='Contact Us'])[1]");
 	
 	By ContactUs_Bottom = By.xpath("(//*[text()='Contact Us'])[3]");
 	
@@ -102,7 +102,7 @@ public class ContactUS_page {
  		
  		
  		String currentURL = driver.getCurrentUrl();
- 		System.out.println("Abount US contact us URL = " + currentURL);
+ 		System.out.println("Partner contact us URL = " + currentURL);
  		
  		//assertEquals(currentURL, contact_US_URL);
  		
@@ -116,14 +116,14 @@ public class ContactUS_page {
   		WebElement Element = driver.findElement(contactUS_Header);
   		js.executeScript("arguments[0].scrollIntoView();", Element);
   		
-  		Thread.sleep(3000);
+  		Thread.sleep(6000);
   		
   		driver.findElement(contactUS_Header).click();
   		
   		Thread.sleep(3000);
   		
   		String currentURL = driver.getCurrentUrl();
-  		System.out.println("Abount US contact us URL = " + currentURL);
+  		System.out.println("Header contact us URL = " + currentURL);
   		
   		//assertEquals(currentURL, contact_US_URL);
   		
