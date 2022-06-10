@@ -15,7 +15,7 @@ WebDriver driver;
 	
 	String Exp_url = "contact-us";
 	
-	By contact_text = By.xpath("//*[@id='app']/main/main/div[3]/div/div/h2");
+	By contact_text = By.xpath("//*[@id='__next']/main/main/div[1]/div/div/div/div[2]/p");
 	By Submit_btn = By.xpath("//*[text()='Submit']");
 	
 	public Menu_Contact_Page (WebDriver driver){

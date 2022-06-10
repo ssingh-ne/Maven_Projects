@@ -106,7 +106,7 @@ public class Base_class {
 			 
 			 
 			}
-			//driver.quit();
+			driver.quit();
 			Reporter.log("=====Browser Session End=====", true);
 			
 		} 

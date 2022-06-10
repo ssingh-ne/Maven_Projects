@@ -45,7 +45,7 @@ WebDriver driver;
 	// String EXP_facebookURL    =	"https://www.facebook.com/AppliedUW/";
 	String EXP_facebookURL    =	"https://www.facebook.com";
 	String EXP_Twitter_Url = "https://twitter.com";
-	String EXP_Login_Url   = "https://www.appliedunderwriters.com/LoginWUO.aspx";
+	String EXP_Login_Url   = "https://www.appliedunderwriters.com/Login.aspx";
 	
 	
 	By side_heading_1 = By.xpath("(//*[@id='sticky-nav']/ul/li)[1]");

@@ -5,54 +5,93 @@
   <test name="Firefox_Prod(failed)(failed)(failed)" parallel="classes">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="main_Home_Page"/>
-        </methods>
-      </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
-      <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- MTL_Test_Cases_Prod.What_we_offer_URL_TC -->
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
+      <class name="Casuality_Prod_TC.Home_page">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="Carriers"/>
+          <include name="HomePage"/>
         </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
+      </class> <!-- Casuality_Prod_TC.Home_page -->
+      <class name="Solution_one_Prod.Side_Heading_Production">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Solution_one_Prod.Side_Heading_Production -->
+      <class name="JumboGC_Test_case_prod.Side_Heading">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- JumboGC_Test_case_prod.Side_Heading -->
+      <class name="Casuality_Prod_TC.Menu_Contact_Us">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="HomePage"/>
+        </methods>
+      </class> <!-- Casuality_Prod_TC.Menu_Contact_Us -->
+      <class name="Casuality_Prod_TC.Menu_Press_Room">
+        <methods>
+          <include name="HomePage"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Prod_TC.Menu_Press_Room -->
     </classes>
   </test> <!-- Firefox_Prod(failed)(failed)(failed) -->
   <test name="Chrome_Prod(failed)(failed)(failed)" parallel="classes">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
-      <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- MTL_Test_Cases_Prod.What_we_offer_URL_TC -->
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
+      <class name="Casuality_Prod_TC.Home_page">
         <methods>
           <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="Carriers"/>
+          <include name="HomePage"/>
         </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
+      </class> <!-- Casuality_Prod_TC.Home_page -->
+      <class name="Solution_one_Prod.Side_Heading_Production">
+        <methods>
+          <include name="Side_Heading_Two"/>
+          <include name="setupApplication"/>
+          <include name="Side_Heading_Five"/>
+          <include name="Side_Heading_Four"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Solution_one_Prod.Side_Heading_Production -->
+      <class name="JumboGC_Test_case_prod.Side_Heading">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="Header_Footer"/>
+        </methods>
+      </class> <!-- JumboGC_Test_case_prod.Side_Heading -->
+      <class name="Casuality_Prod_TC.Menu_Contact_Us">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="HomePage"/>
+        </methods>
+      </class> <!-- Casuality_Prod_TC.Menu_Contact_Us -->
+      <class name="Casuality_Prod_TC.Menu_Press_Room">
+        <methods>
+          <include name="HomePage"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Prod_TC.Menu_Press_Room -->
     </classes>
   </test> <!-- Chrome_Prod(failed)(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

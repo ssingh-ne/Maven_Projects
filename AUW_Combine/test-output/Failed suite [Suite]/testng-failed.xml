@@ -1,83 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Failed suite [Suite]]" parallel="none">
-  <parameter name="browser" value="chrome"/>
-  <test name="Firefox_Prod(failed)(failed)" parallel="classes">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setupApplication"/>
-          <include name="main_Home_Page"/>
-        </methods>
-      </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="Carriers"/>
-        </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
-      <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC">
-        <methods>
-          <include name="Heading"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- MTL_Test_Cases_Prod.What_we_offer_URL_TC -->
-      <class name="Warranty_Test_Case_Prod.Our_Partner">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Warranty_Test_Case_Prod.Our_Partner -->
-      <class name="Solution_one_Prod.Side_Heading_Production">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Solution_one_Prod.Side_Heading_Production -->
-    </classes>
-  </test> <!-- Firefox_Prod(failed)(failed) -->
-  <test name="Chrome_Prod(failed)(failed)" parallel="classes">
+  <parameter name="browser" value="firefox"/>
+  <test name="Chrome_Developmet(failed)(failed)" parallel="classes">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Casuality_Prod_TC.Menu_Our_Carriers">
-        <methods>
-          <include name="setupApplication"/>
-          <include name="setupApplication"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="Carriers"/>
-        </methods>
-      </class> <!-- Casuality_Prod_TC.Menu_Our_Carriers -->
-      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS">
+      <class name="Speciality_underwriters_Test_Case_Dev.About_Us">
         <methods>
           <include name="tearDown"/>
           <include name="setupApplication"/>
         </methods>
-      </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
-      <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC">
+      </class> <!-- Speciality_underwriters_Test_Case_Dev.About_Us -->
+      <class name="AUW_Test_Case_dev.Practices_CustomerSeekingCoverage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.Practices_CustomerSeekingCoverage -->
+      <class name="Adler_TestCases_Development.News">
         <methods>
           <include name="setupApplication"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- MTL_Test_Cases_Prod.What_we_offer_URL_TC -->
-      <class name="Warranty_Test_Case_Prod.Our_Partner">
+      </class> <!-- Adler_TestCases_Development.News -->
+      <class name="Pinnacle_Test_Cases_Development.WatsNew">
         <methods>
           <include name="setupApplication"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Warranty_Test_Case_Prod.Our_Partner -->
-      <class name="Solution_one_Prod.Side_Heading_Production">
+      </class> <!-- Pinnacle_Test_Cases_Development.WatsNew -->
+      <class name="Casuality_Dev_TC.Menu_Press_Room">
         <methods>
           <include name="setupApplication"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Solution_one_Prod.Side_Heading_Production -->
+      </class> <!-- Casuality_Dev_TC.Menu_Press_Room -->
+      <class name="AUW_Test_Case_dev.AUW_header_web_Development">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_header_web_Development -->
+      <class name="AUW_Test_Case_dev.AUW_AboutUS">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_AboutUS -->
+      <class name="Credit_Global_Test_Cases_Dev.Home_TC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Credit_Global_Test_Cases_Dev.Home_TC -->
+      <class name="Credit_Global_Test_Cases_Dev.Forgot_Password">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Credit_Global_Test_Cases_Dev.Forgot_Password -->
+      <class name="AFL_Test_Cases_Dev.HomePage_TC_dev">
+        <methods>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AFL_Test_Cases_Dev.HomePage_TC_dev -->
+      <class name="AUW_Test_Case_dev.AUW_Intelligence_TC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_Intelligence_TC -->
+      <class name="Tradewel_Test_Cases_Development.comprehensive_Protection">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Tradewel_Test_Cases_Development.comprehensive_Protection -->
+      <class name="Credit_Global_Test_Cases_Dev.What_we_Do_TC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Credit_Global_Test_Cases_Dev.What_we_Do_TC -->
+      <class name="JumboGC_Test_case_Devlopment.Header_footer">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="Header_Login"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- JumboGC_Test_case_Devlopment.Header_footer -->
+      <class name="Warranty_Test_Case_Dev.NewsEvents">
+        <methods>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Dev.NewsEvents -->
+      <class name="Casuality_Dev_TC.Home_page">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Home_page -->
+      <class name="AUW_Test_Case_dev.AUW_CallUpdate">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_CallUpdate -->
+      <class name="Pinnacle_Test_Cases_Development.HomePage_TC">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Pinnacle_Test_Cases_Development.HomePage_TC -->
+      <class name="Warranty_Test_Case_Dev.Partner_With_US">
+        <methods>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Dev.Partner_With_US -->
+      <class name="Warranty_Test_Case_Dev.About_US">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Dev.About_US -->
+      <class name="AUW_Test_Case_dev.AUW_NJ_Update">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_NJ_Update -->
+      <class name="Solution_one_Development.Footer_Develop">
+        <methods>
+          <include name="Footer"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Solution_one_Development.Footer_Develop -->
     </classes>
-  </test> <!-- Chrome_Prod(failed)(failed) -->
+  </test> <!-- Chrome_Developmet(failed)(failed) -->
+  <test name="Firefox_Developmet(failed)(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Speciality_underwriters_Test_Case_Dev.About_Us">
+        <methods>
+          <include name="Footer"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Speciality_underwriters_Test_Case_Dev.About_Us -->
+      <class name="AUW_Test_Case_dev.Practices_CustomerSeekingCoverage">
+        <methods>
+          <include name="Practices_CustomerSeekingCoverage"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.Practices_CustomerSeekingCoverage -->
+      <class name="Adler_TestCases_Development.News">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="main_Home_Page"/>
+        </methods>
+      </class> <!-- Adler_TestCases_Development.News -->
+      <class name="Casuality_Dev_TC.Menu_Press_Room">
+        <methods>
+          <include name="HomePage"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Menu_Press_Room -->
+      <class name="Pinnacle_Test_Cases_Development.WatsNew">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="WhatsNew"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Pinnacle_Test_Cases_Development.WatsNew -->
+      <class name="AUW_Test_Case_dev.AUW_AboutUS">
+        <methods>
+          <include name="AboutUS"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_AboutUS -->
+      <class name="AUW_Test_Case_dev.AUW_header_web_Development">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_header_web_Development -->
+      <class name="Credit_Global_Test_Cases_Dev.Home_TC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Credit_Global_Test_Cases_Dev.Home_TC -->
+      <class name="Warranty_Test_Case_Dev.Our_Partner">
+        <methods>
+          <include name="Partner4"/>
+          <include name="Partner3"/>
+          <include name="Partner2"/>
+          <include name="Partner1"/>
+          <include name="Partner6"/>
+          <include name="Partner5"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Dev.Our_Partner -->
+      <class name="AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev">
+        <methods>
+          <include name="WhatweOffer_outsideUS"/>
+        </methods>
+      </class> <!-- AFL_Test_Cases_Dev.What_We_offer_OutSideUs_dev -->
+      <class name="Credit_Global_Test_Cases_Dev.Forgot_Password">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Credit_Global_Test_Cases_Dev.Forgot_Password -->
+      <class name="AFL_Test_Cases_Dev.HomePage_TC_dev">
+        <methods>
+          <include name="Home_Page"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AFL_Test_Cases_Dev.HomePage_TC_dev -->
+      <class name="AUW_Test_Case_dev.AUW_Intelligence_TC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_Intelligence_TC -->
+      <class name="Tradewel_Test_Cases_Development.comprehensive_Protection">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Tradewel_Test_Cases_Development.comprehensive_Protection -->
+      <class name="Credit_Global_Test_Cases_Dev.What_we_Do_TC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="HomePage_Header_login"/>
+        </methods>
+      </class> <!-- Credit_Global_Test_Cases_Dev.What_we_Do_TC -->
+      <class name="JumboGC_Test_case_Devlopment.Header_footer">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="Header_Login"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- JumboGC_Test_case_Devlopment.Header_footer -->
+      <class name="Warranty_Test_Case_Dev.NewsEvents">
+        <methods>
+          <include name="NewsEvents"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Dev.NewsEvents -->
+      <class name="AUW_Test_Case_dev.AUW_CallUpdate">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_CallUpdate -->
+      <class name="Casuality_Dev_TC.Home_page">
+        <methods>
+          <include name="HomePage"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Casuality_Dev_TC.Home_page -->
+      <class name="Pinnacle_Test_Cases_Development.HomePage_TC">
+        <methods>
+          <include name="main_Home_Page"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Pinnacle_Test_Cases_Development.HomePage_TC -->
+      <class name="Warranty_Test_Case_Dev.Partner_With_US">
+        <methods>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Dev.Partner_With_US -->
+      <class name="AUW_Test_Case_dev.AUW_NJ_Update">
+        <methods>
+          <include name="main"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AUW_Test_Case_dev.AUW_NJ_Update -->
+      <class name="Warranty_Test_Case_Dev.About_US">
+        <methods>
+          <include name="Home_page"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Dev.About_US -->
+      <class name="Solution_one_Development.Footer_Develop">
+        <methods>
+          <include name="Footer"/>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- Solution_one_Development.Footer_Develop -->
+    </classes>
+  </test> <!-- Firefox_Developmet(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->

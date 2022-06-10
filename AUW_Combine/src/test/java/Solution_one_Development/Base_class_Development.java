@@ -32,6 +32,9 @@ public class Base_class_Development {
 			 System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
 	                driver=new ChromeDriver();
 			
+	                System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+	                              driver=new FirefoxDriver();
+	              		
 			driver.manage().window().maximize();
 			
 			driver.get("https://develop--solution-one.netlify.app/");
@@ -39,8 +42,8 @@ public class Base_class_Development {
 			Reporter.log("=====Application Started=====", true);
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		}*/
-	
+		}
+	*/
 	
 	public void setupApplication (String browser)
 	{

@@ -12,12 +12,12 @@ public class Home {
 	
 	By Menu = By.xpath("//*[@class='topBar ']");
 	By About_us_heading = By.xpath("//*[text()='About Us']");
-	By About_us_Para_text = By.xpath("//*[@id='app']/div[2]/div/div/div[1]/div/div/div[1]/p");
+	By About_us_Para_text = By.xpath("//*[@id='__next']/div[2]/div/div/div[1]/div/div/div[1]/p");
 	By About_us_btn = By.xpath("//*[text()='Learn More']");
 	By AboutUs_page = By.xpath("//*[@id='our-affiliates']/section/div/div/div/div/h3");
 	
 	By Our_carriers_heading = By.xpath("(//*[text()='Our Carriers'])[2]");
-	By Our_carriers_Para_text = By.xpath("//*[@id='app']/div[2]/div/div/div[2]/div/div/div[1]/p");
+	By Our_carriers_Para_text = By.xpath("//*[@id='__next']/div[2]/div/div/div[2]/div/div/div[1]/p");
 	By Our_carriers_btn = By.xpath("//*[text()='Carriers']");
 	By Carrer_page = By.xpath("//*[@id='nav-clear']/div/div/div/div/div[2]/p");
 	By CarrerPage_heading =  By.xpath("//*[text()='OUR CARRIERS']");

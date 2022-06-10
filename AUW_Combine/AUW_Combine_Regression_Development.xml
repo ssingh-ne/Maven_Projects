@@ -3,7 +3,7 @@
 
 <suite name="Suite" parallel="none">
  
-  <test name="Chrome_Developmet" parallel = "classes" thread-count = "5">
+<!--   <test name="Chrome_Developmet" parallel = "classes" thread-count = "5">
    <parameter name="browser" value= "chrome"  />
  
     <classes>
@@ -78,8 +78,9 @@
       <class name="Casuality_Dev_TC.Menu_Contact_Us"/>
       <class name="Casuality_Dev_TC.Menu_About_US"/>
       
-    </classes>
-  </test> 
+    </classes> 
+  </test> -->
+  
     <test name="Firefox_Developmet" parallel = "classes" thread-count = "1">
    <parameter name="browser" value= "firefox"  />
     <classes>

@@ -13,14 +13,14 @@ public class Menu_PressRoom {
 	By Press_menu = By.xpath("//*[text()='Press Room']");
 	By LoadMore = By.xpath("//*[text()='Load More']");
 	
-	By afterLoad = By.xpath("//*[@id='app']/main/div/div/div[2]/div[4]/div/div[2]/h4/a/span");
+	By afterLoad = By.xpath("//*[@id='__next']/main/div/div/div[2]/div[4]/div/div[2]/h4/a/span");
 	String Exp_url = "press-room";
-	By t1 = By.xpath("//*[@id='app']/main/div/div/h3");
-	By text1 = By.xpath("//*[@id='app']/main/div/div/div[2]/div[1]/div/div[2]/h4/a/span");
-	By text_page1 = By.xpath("//*[@id='app']/div/main/div[2]/div[1]/h1");
+	By t1 = By.xpath("//*[@id='nav-clear']/div/div/div/div/div[2]/p");
+	By text1 = By.xpath("//*[@id='__next']/main/div/div/div[2]/div[1]/div/div[2]/h4/a/span");
+	By text_page1 = By.xpath("//*[@id='__next']/div/main/div[2]/div[1]/h1");
 			
-	By t2 =By.xpath("//*[@id='app']/main/div/div/div[2]/div[4]/div/div[1]/p/span[1]");
-	By text2 = By.xpath("//*[@id='app']/main/div/div/div[2]/div[4]/div/div[2]/h4/a/span");
+	By t2 =By.xpath("//*[@id='__next']/main/div/div/div[2]/div[5]/div/div[2]/h4/a/span");
+	By text2 = By.xpath("//*[@id='__next']/main/div/div/div[2]/div[5]/div/div[2]/h4/a/span");
 	//By text_page1 = By.xpath("//*[@id='app']/div/main/div[2]/div[1]/h1");
 	
    public Menu_PressRoom (WebDriver driver){
@@ -58,7 +58,7 @@ public class Menu_PressRoom {
 	   		
 	   driver.findElement(LoadMore).click();
 	   
-	   Thread.sleep(3000);
+	   Thread.sleep(6000);
 	   
 	  String AfterLoad =  driver.findElement(afterLoad).getText();
 	   
@@ -103,6 +103,7 @@ public class Menu_PressRoom {
 	   WebElement Element = driver.findElement(t2);
 	   js.executeScript("arguments[0].scrollIntoView();", Element);
 	   	
+	   Thread.sleep(3000);
 	   String text = driver.findElement(text2).getText();
 	   
 	   driver.findElement(text2).click();
@@ -115,6 +116,8 @@ public class Menu_PressRoom {
 	   driver.findElement(text_page1).click();
 		 driver.navigate().back();
 		 Thread.sleep(5000);
+		 
+		 
 		 
 
 		 System.out.println("Press room heading = "+text);

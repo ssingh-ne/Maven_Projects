@@ -31,8 +31,8 @@ public class Base_class {
 			  System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
 			   driver=new ChromeDriver();
 			
-		//	System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
-			// driver=new FirefoxDriver();
+			System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+			 driver=new FirefoxDriver();
 	                
 			driver.manage().window().maximize();
 			

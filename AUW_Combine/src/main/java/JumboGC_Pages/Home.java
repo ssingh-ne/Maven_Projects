@@ -47,7 +47,7 @@ public class Home {
 	String JUMBO_URL_dev = "https://develop--jumbogc.netlify.app/";
 	
 	String EXP_Twitter_Url = "https://twitter.com/AppliedUW";
-	String Login_Url = "https://www.appliedunderwriters.com/LoginWUO.aspx";
+	String Login_Url = "https://www.appliedunderwriters.com/Login.aspx";
 	String EXP_FB_Url = "https://www.facebook.com/AppliedUW/";
 	String  EXP_linkedin_Url= "https://www.linkedin.com/";
 	String EXP_insta_Url = "https://www.instagram.com";

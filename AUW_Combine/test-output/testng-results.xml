@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
+      <![CDATA[=====FF Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
@@ -11,30 +11,30 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36304" started-at="2022-05-23T10:33:22Z" finished-at="2022-05-23T10:33:59Z">
+  <suite name="Default suite" duration-ms="75899" started-at="2022-06-09T15:23:29Z" finished-at="2022-06-09T15:24:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36304" started-at="2022-05-23T10:33:22Z" finished-at="2022-05-23T10:33:59Z">
-      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@3ab39c39]" name="setupApplication" is-config="true" duration-ms="15249" started-at="2022-05-23T16:03:22Z" finished-at="2022-05-23T16:03:38Z">
+    <test name="Default test" duration-ms="75899" started-at="2022-06-09T15:23:29Z" finished-at="2022-06-09T15:24:45Z">
+      <class name="Casuality_Dev_TC.Menu_Press_Room">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@3ab39c39]" name="setupApplication" is-config="true" duration-ms="14776" started-at="2022-06-09T20:53:29Z" finished-at="2022-06-09T20:53:44Z">
           <reporter-output>
             <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
+              <![CDATA[=====FF Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="main_Home_Page()[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@3ab39c39]" name="main_Home_Page" duration-ms="21023" started-at="2022-05-23T16:03:38Z" finished-at="2022-05-23T16:03:59Z">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@3ab39c39]" name="HomePage" duration-ms="61091" started-at="2022-06-09T20:53:44Z" finished-at="2022-06-09T20:54:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main_Home_Page -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@3ab39c39]" name="tearDown" is-config="true" duration-ms="2" started-at="2022-05-23T16:03:59Z" finished-at="2022-05-23T16:03:59Z">
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@3ab39c39]" name="tearDown" is-config="true" duration-ms="4" started-at="2022-06-09T20:54:45Z" finished-at="2022-06-09T20:54:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main_Home_Page status=SUCCESS method=AboutUS_OutsideUS.main_Home_Page()[pri:0, instance:AFL_Test_Case_Prod.AboutUS_OutsideUS@3ab39c39] output={null}]]]>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Menu_Press_Room.HomePage()[pri:0, instance:Casuality_Dev_TC.Menu_Press_Room@3ab39c39] output={null}]]]>
               </value>
             </param>
           </params>
@@ -44,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AFL_Test_Case_Prod.AboutUS_OutsideUS -->
+      </class> <!-- Casuality_Dev_TC.Menu_Press_Room -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

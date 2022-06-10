@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="none">
-  <test name="AUW_Chrome_Dev">
+   <test name="AUW_Chrome_Dev">
    <parameter name="browser" value= "chrome"  />
     <classes>
       <class name="AUW_Test_Case_dev.AUW_AboutUS"/>
@@ -15,7 +15,7 @@
       <class name="AUW_Test_Case_dev.Practices_AgentsBrokers"/>
       <class name="AUW_Test_Case_dev.Practices_CustomerSeekingCoverage"/>
     </classes>
-  </test>
+  </test>  
   
   
    <test name="AUW_Firefox_Dev">

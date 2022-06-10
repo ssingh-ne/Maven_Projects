@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
- <test name="CG_Prod_chrome">
+
+   <test name="CG_Prod_chrome">
    <parameter name="browser" value="chrome" />
     <classes>
       <class name="Credit_Global_Test_Cases_Prod.What_we_Do_TC"/>

@@ -57,7 +57,7 @@ public void main() throws InterruptedException{
 
 	System.out.println("Login = " + Actual_Login);
 	
-	String Login_Exp_URL ="https://www.appliedunderwriters.com/LoginWUO.aspx";
+	String Login_Exp_URL ="https://www.appliedunderwriters.com/Login.aspx";
 	Thread.sleep(4000);
 	 assertEquals(Experience_Exp_URL, Actual_URL);
 	 assertEquals(Intelligence_Exp_URL, Actual_Intel_URL );
