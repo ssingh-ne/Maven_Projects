@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+    
+   <test name="Warranty_Test_Chrome">
+      <parameter name="browser" value= "Chrome"  />
+      <parameter name="version" value= "101.0"  />
+      <parameter name="platform" value= "Windows 11"  />
+      <parameter name="build" value= "Warranty Chrome"  />
+      <parameter name="name" value= "Warranty_CHROME"  />
+      
+    <classes>
+      <class name="Warranty_Test_Case_Prod.About_US"/>
+      <class name="Warranty_Test_Case_Prod.Contact_US"/>
+      <class name="Warranty_Test_Case_Prod.Partner_With_US"/>
+      <class name="Warranty_Test_Case_Prod.Base_class"/>
+      <class name="Warranty_Test_Case_Prod.Our_Partner"/>
+      <class name="Warranty_Test_Case_Prod.HomePage_Testcase"/>
+    </classes>
+  </test>
+  
+    <test name="Warranty_Test_Firefox">
+      <parameter name="browser" value= "Firefox"  />
+      <parameter name="version" value= "99.0"  />
+      <parameter name="platform" value= "Windows 11"  />
+      <parameter name="build" value= "Warranty Firefox"  />
+      <parameter name="name" value= "Warranty_Firefox"  />
+    <classes>
+   
+   <class name="Warranty_Test_Case_Prod.About_US"/>
+      <class name="Warranty_Test_Case_Prod.Contact_US"/>
+      <class name="Warranty_Test_Case_Prod.Partner_With_US"/>
+      <class name="Warranty_Test_Case_Prod.Base_class"/>
+      <class name="Warranty_Test_Case_Prod.Our_Partner"/>
+      <class name="Warranty_Test_Case_Prod.HomePage_Testcase"/>
+    </classes>
+  </test>
+   
+   
+   
+   
+   
+   <!-- Test -->
+</suite> <!-- Suite -->

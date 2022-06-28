@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" parallel="none">
+  <parameter name="build" value="AUW Chrome"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="name" value="AUW_CHROME"/>
+  <parameter name="version" value="101.0"/>
+  <parameter name="platform" value="Windows 11"/>
+  <test name="AUW_Test_Firefox(failed)(failed)" parallel="none">
+    <parameter name="build" value="AUW Firefox"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="name" value="AUW_Firefox"/>
+    <parameter name="version" value="99.0"/>
+    <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="Warranty_Test_Case_Prod.Our_Partner">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Prod.Our_Partner -->
+      <class name="Warranty_Test_Case_Prod.HomePage_Testcase">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Prod.HomePage_Testcase -->
+      <class name="AUW_Test_case_prod.AUW_Heartwood">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AUW_Test_case_prod.AUW_Heartwood -->
+      <class name="AFL_Test_Case_Prod.What_We_offer_OutSideUs">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AFL_Test_Case_Prod.What_We_offer_OutSideUs -->
+      <class name="Aerospace_TestCases_Prod.Menu_About_Us">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="Home_Menu_AboutUS"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Aerospace_TestCases_Prod.Menu_About_Us -->
+    </classes>
+  </test> <!-- AUW_Test_Firefox(failed)(failed) -->
+  <test name="AUW_Test_Chrome(failed)(failed)" parallel="none">
+    <parameter name="build" value="AUW Chrome"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="name" value="AUW_CHROME"/>
+    <parameter name="version" value="101.0"/>
+    <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="Warranty_Test_Case_Prod.Our_Partner">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Prod.Our_Partner -->
+      <class name="Warranty_Test_Case_Prod.HomePage_Testcase">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Warranty_Test_Case_Prod.HomePage_Testcase -->
+      <class name="AUW_Test_case_prod.AUW_Heartwood">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AUW_Test_case_prod.AUW_Heartwood -->
+      <class name="AFL_Test_Case_Prod.What_We_offer_OutSideUs">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- AFL_Test_Case_Prod.What_We_offer_OutSideUs -->
+      <class name="Aerospace_TestCases_Prod.Menu_About_Us">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="Home_Menu_AboutUS"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Aerospace_TestCases_Prod.Menu_About_Us -->
+    </classes>
+  </test> <!-- AUW_Test_Chrome(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

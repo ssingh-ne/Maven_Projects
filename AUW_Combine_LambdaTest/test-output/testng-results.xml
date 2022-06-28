@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Chrome Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19896" started-at="2022-06-28T16:37:02Z" finished-at="2022-06-28T16:37:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19896" started-at="2022-06-28T16:37:02Z" finished-at="2022-06-28T16:37:22Z">
+      <class name="Aerospace_TestCases_Prod.Menu_About_Us">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Aerospace_TestCases_Prod.Menu_About_Us@6fffcba5]" name="setupApplication" is-config="true" duration-ms="6138" started-at="2022-06-28T22:07:02Z" finished-at="2022-06-28T22:07:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Chrome Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="Home_Menu_AboutUS()[pri:0, instance:Aerospace_TestCases_Prod.Menu_About_Us@6fffcba5]" name="Home_Menu_AboutUS" duration-ms="13736" started-at="2022-06-28T22:07:08Z" finished-at="2022-06-28T22:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Menu_AboutUS -->
+      </class> <!-- Aerospace_TestCases_Prod.Menu_About_Us -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+
+  <!-- FIREFOX EXECUTION -->
+    
+    <test name="AUW_Test_Firefox"> 
+      <parameter name="browser" value= "Firefox"  />
+      <parameter name="version" value= "99.0"  />
+      <parameter name="platform" value= "Windows 11"  />
+      <parameter name="build" value= "AUW Firefox"  />
+      <parameter name="name" value= "AUW_Firefox"  />
+   
+      <classes>
+        
+      <class name="AUW_Test_case_prod.AUW_CallUpdate"/>
+      <class name="AUW_Test_case_prod.AUW_AboutUS"/>
+      <class name="AUW_Test_case_prod.AUW_Intelligence_TC"/>
+      <class name="AUW_Test_case_prod.AUW_Footer_Prod"/>
+      <class name="AUW_Test_case_prod.AUW_Heartwood"/>
+      <class name="AUW_Test_case_prod.AUW_NJ_Update"/>
+      <class name="AUW_Test_case_prod.AUW_Experience"/>
+      <class name="AUW_Test_case_prod.AUW_header_web_Prod"/>
+      <class name="AUW_Test_case_prod.AUW_PPP"/>      
+      <class name="AUW_Test_case_prod.Practices_AgentsBrokers"/>
+      <class name="AUW_Test_case_prod.Practices_CustomerSeekingCoverage"/>
+      
+      <class name="AUW_Global_Test_Cases_Prod.LearnMore_TC"/>
+      <class name="AUW_Global_Test_Cases_Prod.Home_Page_TC"/>
+             
+      <class name="Promesa_Test_Case_Prod.Pharmacy_search"/>
+      <class name="Promesa_Test_Case_Prod.Change_language"/>
+      <class name="Promesa_Test_Case_Prod.Footer"/>
+     
+      <class name="MTL_Test_Cases_Prod.What_we_offer1_TC"/>
+      <class name="MTL_Test_Cases_Prod.More_offers_TC"/>
+      <class name="MTL_Test_Cases_Prod.Home_URL"/> 
+      <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC"/> 
+      
+      <class name="Speciality_underwriters_Test_Case_Prod.Contact_US_TC"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.About_Us"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.What_We_offer"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.Home_TC"/>
+      
+      <class name="AFL_Test_Case_Prod.What_We_offer_OutSideUs"/>
+      <class name="AFL_Test_Case_Prod.HomePage_TC"/>
+      <class name="AFL_Test_Case_Prod.Footer_TC"/>
+      <class name="AFL_Test_Case_Prod.ContactUS_OutsideUS"/>
+      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS"/>
+       
+      <class name="Credit_Global_Test_Cases_Prod.What_we_Do_TC"/> 
+      <class name="Credit_Global_Test_Cases_Prod.Forgot_Password"/>
+      <class name="Credit_Global_Test_Cases_Prod.Home_TC"/>
+      
+      <class name="Adler_TestCases_Prod.Home"/>
+      <class name="Adler_TestCases_Prod.News"/>
+    
+      <class name="Careers_Test_case_Prod.Footer"/>
+     
+      <class name="Solution_one_Prod.Footer_Production"/>
+    
+      <class name="JumboGC_Test_case_prod.Header_footer"/>
+      
+      <class name="Warranty_Test_Case_Prod.About_US"/>
+      <class name="Warranty_Test_Case_Prod.Contact_US"/>
+      <class name="Warranty_Test_Case_Prod.Partner_With_US"/>
+      <class name="Warranty_Test_Case_Prod.HomePage_Testcase"/>
+      <class name="Warranty_Test_Case_Prod.Base_class"/>
+      <class name="Warranty_Test_Case_Prod.Our_Partner"/>
+     
+      <class name="Casuality_Prod_TC.Home_page"/>
+      <class name="Casuality_Prod_TC.Menu_About_US"/>
+      <class name="Casuality_Prod_TC.Menu_Contact_Us"/>
+      <class name="Casuality_Prod_TC.Menu_Our_Carriers"/>
+      <class name="Casuality_Prod_TC.Menu_Press_Room"/>
+      
+      <class name="Pinnacle_Test_Cases_Production.HomePage_TC"/>
+      <class name="Pinnacle_Test_Cases_Production.WatsNew"/>
+      
+      <class name="Tradewel_Test_Cases_Production.About_US"/>
+      <class name="Tradewel_Test_Cases_Production.Comprehensive_Protection_FF"/>
+      
+      <class name="Aerospace_TestCases_Prod.Home_TC"/>
+      <class name="Aerospace_TestCases_Prod.Menu_News"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Aviation"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Contact_US"/>
+      <class name="Aerospace_TestCases_Prod.Menu_About_Us"/>
+     
+    
+    </classes>
+  </test>
+  
+
+  <!-- Chrome EXECUTION -->
+    <test name="AUW_Test_Chrome"> 
+      <parameter name="browser" value= "Chrome"  />
+      <parameter name="version" value= "101.0"  />
+      <parameter name="platform" value= "Windows 11"  />
+      <parameter name="build" value= "AUW Chrome"  />
+      <parameter name="name" value= "AUW_CHROME"  />
+      
+    <classes> 
+        
+      <class name="AUW_Test_case_prod.AUW_CallUpdate"/>
+      <class name="AUW_Test_case_prod.AUW_AboutUS"/>
+      <class name="AUW_Test_case_prod.AUW_Intelligence_TC"/>
+      <class name="AUW_Test_case_prod.AUW_Footer_Prod"/>
+      <class name="AUW_Test_case_prod.AUW_NJ_Update"/>
+      <class name="AUW_Test_case_prod.AUW_Experience"/>
+      <class name="AUW_Test_case_prod.AUW_header_web_Prod"/>
+      <class name="AUW_Test_case_prod.AUW_PPP"/>
+      <class name="AUW_Test_case_prod.Practices_AgentsBrokers"/>
+      <class name="AUW_Test_case_prod.Practices_CustomerSeekingCoverage"/>
+            
+      <class name="AUW_Global_Test_Cases_Prod.Home_More"/>
+      <class name="AUW_Global_Test_Cases_Prod.LearnMore_TC"/>
+      <class name="AUW_Global_Test_Cases_Prod.Home_Page_TC"/>
+             
+      <class name="Promesa_Test_Case_Prod.Pharmacy_search"/>
+      <class name="Promesa_Test_Case_Prod.FAQ"/>
+      <class name="Promesa_Test_Case_Prod.Change_language"/>
+      <class name="Promesa_Test_Case_Prod.Footer"/>
+      <class name="Promesa_Test_Case_Prod.Side_Heading_One"/>
+      <class name="Promesa_Test_Case_Prod.Side_Heading_Two"/>
+      
+      <class name="MTL_Test_Cases_Prod.What_we_offer1_TC"/>
+      <class name="MTL_Test_Cases_Prod.More_offers_TC"/>
+      <class name="MTL_Test_Cases_Prod.Home_URL"/> 
+      <class name="MTL_Test_Cases_Prod.What_we_offer_URL_TC"/> 
+      
+      <class name="Speciality_underwriters_Test_Case_Prod.Contact_US_TC"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.About_Us"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.What_We_offer"/>
+      <class name="Speciality_underwriters_Test_Case_Prod.Home_TC"/>
+      
+      <class name="AFL_Test_Case_Prod.What_We_offer_OutSideUs"/>
+      <class name="AFL_Test_Case_Prod.HomePage_TC"/>
+      <class name="AFL_Test_Case_Prod.Footer_TC"/>
+      <class name="AFL_Test_Case_Prod.ContactUS_OutsideUS"/>
+      <class name="AFL_Test_Case_Prod.AboutUS_OutsideUS"/>
+       
+      <class name="Credit_Global_Test_Cases_Prod.What_we_Do_TC"/> 
+      <class name="Credit_Global_Test_Cases_Prod.Forgot_Password"/>
+      <class name="Credit_Global_Test_Cases_Prod.Home_TC"/>
+      
+      <class name="Adler_TestCases_Prod.Home"/>
+      <class name="Adler_TestCases_Prod.News"/>
+    
+      <class name="Careers_Test_case_Prod.Side_Heading1"/>
+      <class name="Careers_Test_case_Prod.Footer"/>
+     
+      <class name="Solution_one_Prod.Footer_Production"/>
+      <class name="Solution_one_Prod.Side_Heading_Production"/>
+    
+      <class name="JumboGC_Test_case_prod.Side_Heading"/>
+      <class name="JumboGC_Test_case_prod.Header_footer"/>
+      
+      <class name="Warranty_Test_Case_Prod.About_US"/>
+      <class name="Warranty_Test_Case_Prod.Contact_US"/>
+      <class name="Warranty_Test_Case_Prod.Partner_With_US"/>
+      <class name="Warranty_Test_Case_Prod.HomePage_Testcase"/>
+      <class name="Warranty_Test_Case_Prod.Base_class"/>
+      <class name="Warranty_Test_Case_Prod.Our_Partner"/>
+      
+      <class name="Casuality_Prod_TC.Home_page"/>
+      <class name="Casuality_Prod_TC.Menu_About_US"/>
+      <class name="Casuality_Prod_TC.Menu_Contact_Us"/>
+      <class name="Casuality_Prod_TC.Menu_Our_Carriers"/>
+      <class name="Casuality_Prod_TC.Menu_Press_Room"/>
+    
+      <class name="Pinnacle_Test_Cases_Production.HomePage_TC"/>
+      <class name="Pinnacle_Test_Cases_Production.WatsNew"/>
+      
+      <class name="Tradewel_Test_Cases_Production.comprehensive_Protection"/>
+      <class name="Tradewel_Test_Cases_Production.About_US"/>
+      
+        <class name="Aerospace_TestCases_Prod.Home_TC"/>
+      <class name="Aerospace_TestCases_Prod.Menu_News"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Aviation"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Contact_US"/>
+      <class name="Aerospace_TestCases_Prod.Menu_About_Us"/>
+     
+      
+    </classes>
+  </test> 
+  
+
+ 
+  <!-- Test -->
+</suite> <!-- Suite -->

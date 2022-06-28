@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]" parallel="none">
+  <parameter name="build" value="AUW Firefox"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="name" value="AUW_Firefox"/>
+  <parameter name="version" value="99.0"/>
+  <parameter name="platform" value="Windows 11"/>
+  <test name="AUW_Test_Firefox(failed)(failed)(failed)" parallel="none">
+    <parameter name="build" value="AUW Firefox"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="name" value="AUW_Firefox"/>
+    <parameter name="version" value="99.0"/>
+    <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="AUW_Test_case_prod.AUW_Heartwood">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="main"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AUW_Test_case_prod.AUW_Heartwood -->
+    </classes>
+  </test> <!-- AUW_Test_Firefox(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

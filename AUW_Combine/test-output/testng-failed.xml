@@ -1,15 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <test name="Aerospace_Firefox_Dev(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="Casuality_Dev_TC.Menu_Press_Room">
+      <class name="Aerospace_TestCases_Development.Menu_About_Us">
         <methods>
-          <include name="HomePage"/>
+          <include name="setupApplication"/>
           <include name="setupApplication"/>
           <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="Home_Menu_AboutUS"/>
         </methods>
-      </class> <!-- Casuality_Dev_TC.Menu_Press_Room -->
+      </class> <!-- Aerospace_TestCases_Development.Menu_About_Us -->
+      <class name="Aerospace_TestCases_Development.Menu_Contact_US">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Aerospace_TestCases_Development.Menu_Contact_US -->
+      <class name="Aerospace_TestCases_Development.Home_TC">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Aerospace_TestCases_Development.Home_TC -->
+      <class name="Aerospace_TestCases_Development.Space">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Aerospace_TestCases_Development.Space -->
+      <class name="Aerospace_TestCases_Development.Menu_Aviation">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Aerospace_TestCases_Development.Menu_Aviation -->
+      <class name="Aerospace_TestCases_Development.Menu_News">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="setupApplication"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Aerospace_TestCases_Development.Menu_News -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Aerospace_Firefox_Dev(failed) -->
+</suite> <!-- Failed suite [Suite] -->

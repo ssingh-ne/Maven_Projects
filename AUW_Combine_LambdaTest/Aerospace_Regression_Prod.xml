@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+ 
+    <test name="Aerospace_Test_Chrome">
+      <parameter name="browser" value= "Chrome"  />
+      <parameter name="version" value= "101.0"  />
+      <parameter name="platform" value= "Windows 11"  />
+      <parameter name="build" value= "Aerospace Chrome"  />
+      <parameter name="name" value= "Aerospace_CHROME"  />
+      
+    <classes>
+      <class name="Aerospace_TestCases_Prod.Home_TC"/>
+      <class name="Aerospace_TestCases_Prod.Menu_News"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Aviation"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Contact_US"/>
+      <class name="Aerospace_TestCases_Prod.Menu_About_Us"/>
+      <class name="Aerospace_TestCases_Prod.Base_class"/>
+    </classes>
+  </test>
+  
+  
+  <test name="Aerospace_Test_Firefox">
+      <parameter name="browser" value= "Firefox"  />
+      <parameter name="version" value= "99.0"  />
+      <parameter name="platform" value= "Windows 11"  />
+      <parameter name="build" value= "Aerospace Firefox"  />
+      <parameter name="name" value= "Aerospace_Firefox"  />
+    
+    <classes>
+        
+      <class name="Aerospace_TestCases_Prod.Home_TC"/>
+      <class name="Aerospace_TestCases_Prod.Menu_News"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Aviation"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Contact_US"/>
+      <class name="Aerospace_TestCases_Prod.Menu_About_Us"/>
+      <class name="Aerospace_TestCases_Prod.Base_class"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
