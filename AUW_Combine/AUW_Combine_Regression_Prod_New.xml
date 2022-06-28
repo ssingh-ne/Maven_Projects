@@ -72,6 +72,13 @@
       <class name="Tradewel_Test_Cases_Production.About_US"/>
       <class name="Tradewel_Test_Cases_Production.Comprehensive_Protection_FF"/>
     
+       <class name="Aerospace_TestCases_Prod.Home_TC"/>
+      <class name="Aerospace_TestCases_Prod.Menu_News"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Aviation"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Contact_US"/>
+      <class name="Aerospace_TestCases_Prod.Menu_About_Us"/>
+      <class name="Aerospace_TestCases_Prod.Base_class"/>
+      
     </classes>
   </test>
   
@@ -151,6 +158,14 @@
       
       <class name="Tradewel_Test_Cases_Production.comprehensive_Protection"/>
       <class name="Tradewel_Test_Cases_Production.About_US"/>
+      
+       <class name="Aerospace_TestCases_Prod.Home_TC"/>
+      <class name="Aerospace_TestCases_Prod.Menu_News"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Aviation"/>
+      <class name="Aerospace_TestCases_Prod.Menu_Contact_US"/>
+      <class name="Aerospace_TestCases_Prod.Menu_About_Us"/>
+      <class name="Aerospace_TestCases_Prod.Base_class"/>
+      
       
     </classes>
   </test> 

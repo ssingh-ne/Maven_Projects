@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Aerospace_Chrome_Dev">
+  <parameter name="browser" value= "chrome"  />
+    <classes>
+      <class name="Aerospace_TestCases_Development.Space"/>
+      <class name="Aerospace_TestCases_Development.Menu_Contact_US"/>
+      <class name="Aerospace_TestCases_Development.Menu_Aviation"/>
+      <class name="Aerospace_TestCases_Development.Menu_News"/>
+      <class name="Aerospace_TestCases_Development.Menu_About_Us"/>
+      <class name="Aerospace_TestCases_Development.Home_TC"/>
+    </classes>
+  </test>
+  
+   <test name="Aerospace_Firefox_Dev">
+   <parameter name="browser" value= "firefox"  />
+    <classes>
+      <class name="Aerospace_TestCases_Development.Space"/>
+      <class name="Aerospace_TestCases_Development.Menu_Contact_US"/>
+      <class name="Aerospace_TestCases_Development.Menu_Aviation"/>
+      <class name="Aerospace_TestCases_Development.Menu_News"/>
+      <class name="Aerospace_TestCases_Development.Menu_About_Us"/>
+      <class name="Aerospace_TestCases_Development.Home_TC"/>
+    </classes>
+  </test>
+  
+  
+  
+  
+   <!-- Test -->
+</suite> <!-- Suite -->

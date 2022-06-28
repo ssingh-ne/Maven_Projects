@@ -3,7 +3,7 @@
 
 <suite name="Suite" parallel="none">
  
-<!--   <test name="Chrome_Developmet" parallel = "classes" thread-count = "5">
+   <test name="Chrome_Developmet" parallel = "classes" thread-count = "5">
    <parameter name="browser" value= "chrome"  />
  
     <classes>
@@ -78,8 +78,15 @@
       <class name="Casuality_Dev_TC.Menu_Contact_Us"/>
       <class name="Casuality_Dev_TC.Menu_About_US"/>
       
+      <class name="Aerospace_TestCases_Development.Space"/>
+      <class name="Aerospace_TestCases_Development.Menu_Contact_US"/>
+      <class name="Aerospace_TestCases_Development.Menu_Aviation"/>
+      <class name="Aerospace_TestCases_Development.Menu_News"/>
+      <class name="Aerospace_TestCases_Development.Menu_About_Us"/>
+      <class name="Aerospace_TestCases_Development.Home_TC"/>
+      
     </classes> 
-  </test> -->
+  </test> 
   
     <test name="Firefox_Developmet" parallel = "classes" thread-count = "1">
    <parameter name="browser" value= "firefox"  />
@@ -147,6 +154,13 @@
       <class name="Casuality_Dev_TC.Base_class"/>
       <class name="Casuality_Dev_TC.Menu_Contact_Us"/>
       <class name="Casuality_Dev_TC.Menu_About_US"/>
+      
+       <class name="Aerospace_TestCases_Development.Space"/>
+      <class name="Aerospace_TestCases_Development.Menu_Contact_US"/>
+      <class name="Aerospace_TestCases_Development.Menu_Aviation"/>
+      <class name="Aerospace_TestCases_Development.Menu_News"/>
+      <class name="Aerospace_TestCases_Development.Menu_About_Us"/>
+      <class name="Aerospace_TestCases_Development.Home_TC"/>
       
     </classes>
   </test> <!-- Test -->
