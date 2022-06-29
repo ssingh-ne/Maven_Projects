@@ -4,8 +4,9 @@ import org.testng.annotations.Test;
 
 import AUW_Pages.Home_page;
 import AUW_Pages.Practices_ForagentsAndBrokers;
+import AUW_prod.Base_Class;
 
-public class Practices_AgentsBrokers extends Base_class {
+public class Practices_AgentsBrokers extends Base_Class {
 	
 	@Test
 	public void Practices_AgentsBrokers() throws InterruptedException{

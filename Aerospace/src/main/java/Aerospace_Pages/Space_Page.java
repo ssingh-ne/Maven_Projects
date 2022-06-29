@@ -17,11 +17,11 @@ public class Space_Page {
 	
 	By Top_Heading1 = By.xpath("//*[@id='contentBlock0']/h1");
 	By section1 = By.xpath("(//*[@id='contentBlock0']/p)[1]");
-	By section2 = By.xpath("//*[text()='Who we serve']");
+	By section2 = By.xpath("//*[text()='Space Coverages']");
 	By section3 =  By.xpath("//*[text()='Coverage Highlights']");
-	By section4 = By.xpath("//*[@id='__next']/div/div[6]/div/div/div/div/div[1]/h2");
-	By section5 = By.xpath("//*[text()='Experts at the Helm']");
-	By More = By.xpath("//*[text()='More']");
+	By section4 = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div/div[1]");
+	By section5 = By.xpath("//*[text()='At the controls']");
+	By More = By.xpath("//*[text()='ABOUT US']");
 	By contact_US = By.xpath("//*[text()='CONTACT US']");
 	By Privacy_policy = By.xpath("//*[text()='Privacy Policy']");
 	By CA_Privacy_Notice = By.xpath("//*[text()='CA Privacy Notice']");

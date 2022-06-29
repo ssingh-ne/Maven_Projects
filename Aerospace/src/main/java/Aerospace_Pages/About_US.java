@@ -43,6 +43,15 @@ public class About_US {
     	 Assert.assertEquals(x, true, "Images are not loaded");
     }
 	
+    public void image_click() {
+    	
+    	
+    	
+    	
+    }
+    
+    
+    
     
     public void Contact_Form () {
  	   

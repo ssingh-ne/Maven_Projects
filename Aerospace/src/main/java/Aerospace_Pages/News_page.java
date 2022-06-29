@@ -14,14 +14,14 @@ public class News_page {
 	
 	By Heading_top = By.xpath("(//*[@id='contentBlock0'])[1]");
     
-	By Image1 = By.xpath("//*[@id='__next']/div/div[2]/div/div/div[3]/div/div/div/div[1]/div/div[1]/a/div/img");
-    By Heading1 = By.xpath("//*[@id='__next']/div/div[2]/div/div/div[3]/div/div/div/div[1]/div/div[1]/a/div/div/div/p[2]");
+	By Image1 = By.xpath("//*[@id='__next']/div[2]/div/div/div[3]/div/div/div/div[1]/div/div[1]/a/div/img");
+    By Heading1 = By.xpath("//*[@id='__next']/div[2]/div/div/div[3]/div/div/div/div[1]/div/div[1]/a/div/div/div/p[2]");
     
-    By Image2 = By.xpath("//*[@id='__next']/div/div[2]/div/div/div[3]/div/div/div/div[1]/div/div[2]/a/div/img");
-    By Heading2 = By.xpath("//*[@id='__next']/div/div[2]/div/div/div[3]/div/div/div/div[1]/div/div[2]/a/div/div/div/p[2]");
+    By Image2 = By.xpath("//*[@id='__next']/div[2]/div/div/div[3]/div/div/div/div[1]/div/div[2]/a/div/img");
+    By Heading2 = By.xpath("//*[@id='__next']/div[2]/div/div/div[3]/div/div/div/div[1]/div/div[2]/a/div/div/div/p[2]");
     
-    By Image3 = By.xpath("//*[@id='__next']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div/div[1]/a/div/img");
-    By Heading3 = By.xpath("//*[@id='__next']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div/div[1]/a/div/div/div/p[2]");
+    By Image3 = By.xpath("//*[@id='__next']/div[2]/div/div/div[3]/div/div/div/div[2]/div/div[1]/a/div/img");
+    By Heading3 = By.xpath("//*[@id='__next']/div[2]/div/div/div[3]/div/div/div/div[2]/div/div[1]/a/div/div/div/p[2]");
     
     By Image4 = By.xpath("//*[@id='__next']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div/div[2]/a/div/img");
     By Heading4 = By.xpath("//*[@id='__next']/div/div[2]/div/div/div[3]/div/div/div/div[2]/div/div[2]/a/div/div/div/p[2]");

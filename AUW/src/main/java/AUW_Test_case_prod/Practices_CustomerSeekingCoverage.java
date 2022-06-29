@@ -6,8 +6,9 @@ import AUW_Pages.Home_page;
 import AUW_Pages.Practices_ForagentsAndBrokers;
 import AUW_Pages.Practices_customerSeekingCoverage;
 import AUW_Pages.Practices_customerSeekingCoverage_prod;
+import AUW_prod.Base_Class;
 
-public class Practices_CustomerSeekingCoverage extends Base_class {
+public class Practices_CustomerSeekingCoverage extends Base_Class {
 	
 	
 	@Test

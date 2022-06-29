@@ -11,7 +11,7 @@ public class Space extends Base_class{
 
 
 	@Test
-	public void Home_Menu_News() throws InterruptedException{  
+	public void Space() throws InterruptedException{  
 		
 		Home_Page h = new Home_Page(driver);
 		

@@ -8,9 +8,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import AUW_Pages.Home_page;
-import AUW_Test_case_prod.Base_class;
+import AUW_prod.Base_Class;
 
-public class AUW_header_web_Prod  extends Base_class{
+public class AUW_header_web_Prod  extends Base_Class{
 	@Test
 public void main() throws InterruptedException{
 	

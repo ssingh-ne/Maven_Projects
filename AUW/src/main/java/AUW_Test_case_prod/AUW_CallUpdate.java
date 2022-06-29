@@ -8,8 +8,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import AUW_Pages.AUW_callupdate;
+import AUW_prod.Base_Class;
 
-public class AUW_CallUpdate extends Base_class {
+public class AUW_CallUpdate extends Base_Class {
 	
 	
 	@Test

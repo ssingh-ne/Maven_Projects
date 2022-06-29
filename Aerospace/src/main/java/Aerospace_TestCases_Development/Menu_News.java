@@ -21,7 +21,7 @@ public class Menu_News extends Base_class{
 	n.News_image1();
 	n.News_image2();
 	n.News_image3();
-	n.News_image4();
+//	n.News_image4();
 	
 	
 }

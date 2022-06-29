@@ -10,6 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import AUW_Pages.Home_page;
+import AUW_prod.Base_Class;
 
 public class AUW_Heartwood extends Base_class {
 	@Test
@@ -21,11 +22,11 @@ public class AUW_Heartwood extends Base_class {
 		By Exp_button = By.xpath("//a[text()='Experience']");
 		By Close_btn = By.xpath("//span[@class='MuiIconButton-label']");
 		
-		By Explore1 = By.xpath("(//*[@class='MuiButton-label'])[1]");
-		By Explore2 = By.xpath("(//*[@class='MuiButton-label'])[2]");
-		By Explore3 = By.xpath("(//*[@class='MuiButton-label'])[3]");
-		By Explore4 = By.xpath("(//*[@class='MuiButton-label'])[4]");
-		By Explore5 = By.xpath("(//*[@class='MuiButton-label'])[5]");
+		By Explore1 = By.xpath("(//*[text()='Explore'])[1]");
+		By Explore2 = By.xpath("(//*[text()='Explore'])[2]");
+		By Explore3 = By.xpath("(//*[text()='Explore'])[3]");
+		By Explore4 = By.xpath("(//*[text()='Explore'])[4]");
+		By Explore5 = By.xpath("(//*[text()='Explore'])[5]");
 		
 		
 		Home_page home = new Home_page(driver);

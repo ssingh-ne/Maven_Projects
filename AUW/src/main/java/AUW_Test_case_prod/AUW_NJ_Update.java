@@ -3,8 +3,9 @@ package AUW_Test_case_prod;
 import org.testng.annotations.Test;
 
 import AUW_Pages.NJ_Update;
+import AUW_prod.Base_Class;
 
-public class AUW_NJ_Update extends Base_class {
+public class AUW_NJ_Update extends Base_Class {
 	
 	
 	@Test

@@ -7,8 +7,9 @@ import org.testng.annotations.Test;
 import AUW_Pages.Experience_page;
 import AUW_Pages.Home_page;
 import AUW_Pages.Intelligence_page;
+import AUW_prod.Base_Class;
 
-public class AUW_Intelligence_TC extends Base_class {
+public class AUW_Intelligence_TC extends Base_Class {
 	
 	@Test
 	public void main() throws InterruptedException{

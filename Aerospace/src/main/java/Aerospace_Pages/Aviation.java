@@ -16,12 +16,12 @@ public class Aviation {
 	WebDriver driver;
 	
 	By Top_Heading1 = By.xpath("//*[@id='contentBlock0']/p");
-	By section1 = By.xpath("//*[@id='__next']/div/div[3]/div/div/div/div/div/div[1]/div[1]/p");
-	By section2 = By.xpath("//*[text()='Who we serve']");
+	By section1 = By.xpath("//*[@id='__next']/div[2]/div[2]/div/div/div/div/div/div[1]/div[1]/p");
+	By section2 = By.xpath("//*[text()='Aviation Coverages']");
 	By section3 = By.xpath("//*[text()='Coverage Highlights']");
-	By section4 = By.xpath("//*[@id='__next']/div/div[6]/div/div/div/div/div[1]/h2");
-	By section5 = By.xpath("//*[text()='Experts at the Helm']");
-	By More = By.xpath("//*[text()='More']");
+	By section4 = By.xpath("//*[@id='__next']/div[2]/div[5]/div/div/div/div/div[1]");
+	By section5 = By.xpath("//*[text()='At the helm']");
+	By More = By.xpath("//*[text()='ABOUT US']");
 	By contact_US = By.xpath("//*[text()='CONTACT US']");
 	By Privacy_policy = By.xpath("//*[text()='Privacy Policy']");
 	By CA_Privacy_Notice = By.xpath("//*[text()='CA Privacy Notice']");

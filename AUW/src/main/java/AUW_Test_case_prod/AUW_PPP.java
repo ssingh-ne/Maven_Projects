@@ -14,8 +14,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import AUW_Pages.AUW_ppp;
+import AUW_prod.Base_Class;
 
-public class AUW_PPP extends Base_class {
+public class AUW_PPP extends Base_Class {
 	
 	
 	@Test

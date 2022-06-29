@@ -23,23 +23,25 @@ public class Base_class {
     
 	@Parameters ("browser")
 	 @BeforeMethod
-	/*public void setupApplication()
+  /*public void setupApplication()
 		{
 			
 			Reporter.log("=====Chrome Browser Session Started=====", true);
-			  System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
+			
+			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\Chrome\\chromedriver.exe");
 			
 			driver=new ChromeDriver();
 			
-			//System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", ".\\Drivers\\Firefox\\geckodriver.exe");
 	               
-	    	//	driver=new FirefoxDriver();
+	    		driver=new FirefoxDriver();
 	        
 			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS) ;
 	                
 			driver.manage().window().maximize();
 			
-			driver.get("https://release-1-0-0--applied-underwriters-aviation.netlify.app/");
+			//driver.get("https://release-1-0-0--applied-underwriters-aviation.netlify.app/");
+			driver.get("https://develop--applied-underwriters-aviation.netlify.app/");
 			
 			Reporter.log("=====Application Started=====", true);
 			
@@ -67,7 +69,7 @@ public class Base_class {
 		}
 		driver.manage().window().maximize();
 		
-		driver.get("https://release-1-0-0--applied-underwriters-aviation.netlify.app/");
+		driver.get("https://develop--applied-underwriters-aviation.netlify.app/");
 		
 		Reporter.log("=====Application Started=====", true);
 		
