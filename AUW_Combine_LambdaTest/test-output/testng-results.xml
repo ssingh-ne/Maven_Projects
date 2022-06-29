@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[=====Chrome Browser Session Started=====]]>
+      <![CDATA[=====Browser Session Started=====]]>
     </line>
     <line>
       <![CDATA[=====Application Started=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19896" started-at="2022-06-28T16:37:02Z" finished-at="2022-06-28T16:37:22Z">
+  <suite name="Default suite" duration-ms="59423" started-at="2022-06-29T15:29:20Z" finished-at="2022-06-29T15:30:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19896" started-at="2022-06-28T16:37:02Z" finished-at="2022-06-28T16:37:22Z">
-      <class name="Aerospace_TestCases_Prod.Menu_About_Us">
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:Aerospace_TestCases_Prod.Menu_About_Us@6fffcba5]" name="setupApplication" is-config="true" duration-ms="6138" started-at="2022-06-28T22:07:02Z" finished-at="2022-06-28T22:07:08Z">
+    <test name="Default test" duration-ms="59423" started-at="2022-06-29T15:29:20Z" finished-at="2022-06-29T15:30:20Z">
+      <class name="AUW_Test_case_prod.AUW_Heartwood">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:AUW_Test_case_prod.AUW_Heartwood@2aafb23c]" name="setupApplication" is-config="true" duration-ms="7100" started-at="2022-06-29T20:59:20Z" finished-at="2022-06-29T20:59:27Z">
           <reporter-output>
             <line>
-              <![CDATA[=====Chrome Browser Session Started=====]]>
+              <![CDATA[=====Browser Session Started=====]]>
             </line>
             <line>
               <![CDATA[=====Application Started=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="Home_Menu_AboutUS()[pri:0, instance:Aerospace_TestCases_Prod.Menu_About_Us@6fffcba5]" name="Home_Menu_AboutUS" duration-ms="13736" started-at="2022-06-28T22:07:08Z" finished-at="2022-06-28T22:07:22Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:AUW_Test_case_prod.AUW_Heartwood@2aafb23c]" name="main" duration-ms="52303" started-at="2022-06-29T20:59:27Z" finished-at="2022-06-29T21:00:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Home_Menu_AboutUS -->
-      </class> <!-- Aerospace_TestCases_Prod.Menu_About_Us -->
+        </test-method> <!-- main -->
+      </class> <!-- AUW_Test_case_prod.AUW_Heartwood -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

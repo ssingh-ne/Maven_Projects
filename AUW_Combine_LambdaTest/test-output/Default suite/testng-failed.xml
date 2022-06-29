@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Aerospace_TestCases_Prod.Menu_About_Us">
+      <class name="AUW_Test_case_prod.AUW_Heartwood">
         <methods>
           <include name="setupApplication"/>
-          <include name="Home_Menu_AboutUS"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- Aerospace_TestCases_Prod.Menu_About_Us -->
+      </class> <!-- AUW_Test_case_prod.AUW_Heartwood -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
