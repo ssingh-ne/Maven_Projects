@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">AUW_Test_Firefox(failed)</td><td class="numi">8</td><td class="numi">8</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">1,273.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">AUW_Test_Chrome(failed)</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">342.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">10</td><td class="numi">10</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">1,616.2 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">AUW_Test_Firefox(failed) &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">AFL_Test_Case_Prod.HomePage_TC</td><td><a href="#m1"><b>Home_Page</b>  </a></td><td class="numi">1</td><td>1656612342068</td><td class="numi">41775</td></tr>
+<tr><th colspan="4">AUW_Test_Firefox(failed) &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">AFL_Test_Case_Prod.ContactUS_OutsideUS</td><td><a href="#m2"><b>ContactUs_Page</b>  </a></td><td class="numi">1</td><td>1656612185594</td><td class="numi">27505</td></tr>
+<tr class="passedeven"><td rowspan="1">AFL_Test_Case_Prod.Footer_TC</td><td><a href="#m3"><b>Footer</b>  </a></td><td class="numi">1</td><td>1656611134872</td><td class="numi">85866</td></tr>
+<tr class="passedodd"><td rowspan="1">Speciality_underwriters_Test_Case_Prod.What_We_offer</td><td><a href="#m4"><b>Footer</b>  </a></td><td class="numi">1</td><td>1656611371815</td><td class="numi">46043</td></tr>
+<tr class="passedeven"><td rowspan="1">Aerospace_TestCases_Prod.Menu_Aviation</td><td><a href="#m5"><b>Home_Menu_Aeviation</b>  </a></td><td class="numi">1</td><td>1656612234946</td><td class="numi">86185</td></tr>
+<tr class="passedodd"><td rowspan="1">Pinnacle_Test_Cases_Production.WatsNew</td><td><a href="#m6"><b>WhatsNew</b>  </a></td><td class="numi">1</td><td>1656611250060</td><td class="numi">101852</td></tr>
+<tr class="passedeven"><td rowspan="2">AFL_Test_Case_Prod.What_We_offer_OutSideUs</td><td><a href="#m7"><b>WhatweOffer_tab2</b>  </a></td><td class="numi">1</td><td>1656611673490</td><td class="numi">422770</td></tr><tr class="passedeven"><td><a href="#m8"><b>WhatweOffer_tab3</b>  </a></td><td class="numi">1</td><td>1656611439804</td><td class="numi">212447</td></tr>
+<tr class="passedodd"><td rowspan="1">AFL_Test_Case_Prod.AboutUS_OutsideUS</td><td><a href="#m9"><b>main_Home_Page</b>  </a></td><td class="numi">1</td><td>1656612116054</td><td class="numi">47242</td></tr>
+<tr><th colspan="4">AUW_Test_Chrome(failed) &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">AUW_Global_Test_Cases_Prod.LearnMore_TC</td><td><a href="#m10"><b>LearnMore</b>  </a></td><td class="numi">1</td><td>1656612406063</td><td class="numi">30474</td></tr>
+<tr><th colspan="4">AUW_Test_Chrome(failed) &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">AUW_Test_case_prod.AUW_AboutUS</td><td><a href="#m11"><b>AboutUS</b>  </a></td><td class="numi">1</td><td>1656612607782</td><td class="numi">120391</td></tr>
+<tr class="passedeven"><td rowspan="1">AUW_Test_case_prod.AUW_Intelligence_TC</td><td><a href="#m12"><b>main</b>  </a></td><td class="numi">1</td><td>1656612454598</td><td class="numi">136652</td></tr>
+</table>
+<h1>AUW_Test_Firefox(failed)</h1>
+<h2 id="m1">AFL_Test_Case_Prod.HomePage_TC:Home_Page</h2>
+<div style="padding-left:3em">
+<p>Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()=&apos;About Us&apos;] (tried for 30 second(s) with 500 milliseconds interval)</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+<br/>at AFL_Pages.Home_page.Header(Home_page.java:572)
+<br/>at AFL_Pages.Home_page.Moreoffers(Home_page.java:604)
+<br/>at AFL_Test_Case_Prod.HomePage_TC.Home_Page(HomePage_TC.java:15)
+<br/>25 lines not shown
+<p>Caused by Unable to locate element: //a[text()=&apos;About Us&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 1264, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 0065cacc-3a63-47fb-bcd2-19d...}
+Session ID: 0065cacc-3a63-47fb-bcd2-19d71a16eff8
+*** Element info: {Using=xpath, value=//a[text()=&apos;About Us&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+<br/>at AFL_Pages.Home_page.Header(Home_page.java:572)
+<br/>at AFL_Pages.Home_page.Moreoffers(Home_page.java:604)
+<br/>at AFL_Test_Case_Prod.HomePage_TC.Home_Page(HomePage_TC.java:15)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Speciality_underwriters_Test_Case_Prod.What_We_offer:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">AFL_Test_Case_Prod.ContactUS_OutsideUS:ContactUs_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">AFL_Test_Case_Prod.AboutUS_OutsideUS:main_Home_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">AFL_Test_Case_Prod.What_We_offer_OutSideUs:WhatweOffer_tab2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">AFL_Test_Case_Prod.What_We_offer_OutSideUs:WhatweOffer_tab3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">AFL_Test_Case_Prod.Footer_TC:Footer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">Aerospace_TestCases_Prod.Menu_Aviation:Home_Menu_Aeviation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">Pinnacle_Test_Cases_Production.WatsNew:WhatsNew</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>AUW_Test_Chrome(failed)</h1>
+<h2 id="m10">AUW_Global_Test_Cases_Prod.LearnMore_TC:LearnMore</h2>
+<div style="padding-left:3em">
+<p>Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()=&apos;Learn More&apos;] (tried for 30 second(s) with 500 milliseconds interval)</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+<br/>at AUW_Global_Pages.Home_page.Learn_more(Home_page.java:158)
+<br/>at AUW_Global_Test_Cases_Prod.LearnMore_TC.LearnMore(LearnMore_TC.java:20)
+<br/>25 lines not shown
+<p>Caused by no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Learn More&apos;]&quot;}
+  (Session info: chrome=101.0.4951.34)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N7K85DJ&apos;, ip: &apos;192.168.1.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.34, chrome: {chromedriverVersion: 101.0.4951.15 (0dcf182bd388..., userDataDir: C:\Users\ltuser\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 82248affe84e051a531674bb2d0...}
+Session ID: 82248affe84e051a531674bb2d083020
+*** Element info: {Using=xpath, value=//*[text()=&apos;Learn More&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+<br/>at AUW_Global_Pages.Home_page.Learn_more(Home_page.java:158)
+<br/>at AUW_Global_Test_Cases_Prod.LearnMore_TC.LearnMore(LearnMore_TC.java:20)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">AUW_Test_case_prod.AUW_AboutUS:AboutUS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">AUW_Test_case_prod.AUW_Intelligence_TC:main</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

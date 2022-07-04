@@ -17,7 +17,7 @@ public class ContactUS_page {
 	By AboutUS_header = By.xpath("(//*[text()='About Us'])[1]");
 	By NewandEvents = By.xpath("(//*[text()='News & Events'])[1]");
 	By PartnerHeading = By.xpath("(//*[text()='Partner With Us'])[1]");
-	By contactUS_Header = By.xpath("(//*[text()='Contact Us'])[2]");
+	By contactUS_Header = By.xpath("(//*[text()='Contact Us'])[1]");
 	
 	By ContactUs_Bottom = By.xpath("(//*[text()='Contact Us'])[3]");
 	
@@ -43,7 +43,7 @@ public class ContactUS_page {
 		WebElement Element1 = driver.findElement(ContactUs_Bottom);
 		js.executeScript("arguments[0].scrollIntoView();", Element1);
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		
 		driver.findElement(ContactUs_Bottom).click();
 		
@@ -116,7 +116,7 @@ public class ContactUS_page {
   		WebElement Element = driver.findElement(contactUS_Header);
   		js.executeScript("arguments[0].scrollIntoView();", Element);
   		
-  		Thread.sleep(3000);
+  		Thread.sleep(5000);
   		
   		driver.findElement(contactUS_Header).click();
   		

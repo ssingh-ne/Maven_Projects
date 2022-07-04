@@ -26,7 +26,7 @@ public class Base_class {
 	//protected WebDriver driver;
     
 	// Below code is to execute scripts on Desktop 
-			/*WebDriver driver;
+		/*	WebDriver driver;
 		    
 			@Parameters ("browser")
 			 @BeforeMethod
